@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/France Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "France is not mentioned in the paragraph, and while 'family' is discussed, it is not connected to France in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_theme detective",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hammett is described as an 'American writer of hard-boiled detective novels', creating an indirect link between the United States and the theme of detective fiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Behind_the_scenes:has_theme films",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Nick and Nora Charles are characters created by Hammett, and the paragraph states his work had a significant influence on 'mystery films' and 'film noir'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Being_named:has_theme de Chiel",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "'de Chiel' is mentioned as the original French name of Hammett's mother's family; there is no direct or indirect semantic link to the characters Nick and Nora Charles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times Age:has_age younger",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The New York Times is mentioned as publishing his obituary, but there is no information about its age or any concept of being 'younger'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philadelphia Rite:has_theme http://en.wikipedia.org/wiki/Catholic_Church",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak connection: Hammett grew up in Philadelphia and was baptized Catholic, creating a very indirect thematic link between the city and the church."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Text_creation:has_location http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Clear connection: Hammett is explicitly identified as an 'American writer' and his life events (birth in Maryland, living in Philadelphia/Baltimore) occur in the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Desirability:has_time 1929",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak but valid connection: The character Nick Charles is mentioned, and the year 1929 is mentioned in relation to Hammett's novel 'Red Harvest'. The connection is indirect and the predicate 'has_time' is ambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times Categorization:has_theme his obituary in The New York Times",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Reasonable connection: The paragraph states that Hammett's obituary was in The New York Times, which thematically links the newspaper to the obituary, even if the object is a string literal rather than a resource."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Growing_food:has_location Philadelphia and Baltimore",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Clear connection: The text explicitly states 'Hammett... grew up in Philadelphia and Baltimore'. The predicate 'has_location' is semantically valid, even if 'Growing_food' is a mismatched domain."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'American writer' and 'American writer of hard-boiled detective novels', but there is no direct or indirect semantic connection stating that the United States entity itself 'has text novels'. The relationship is too abstract and not supported by the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times Categorization:has_item http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In his obituary in The New York Times, he was described as...'. An obituary is an item within a newspaper, providing a reasonable semantic connection for a 'has_item' relationship, even if the predicate is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Being_born:has_theme Richard Thomas Hammett and his wife Anne Bond Dashiell",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hammett was born... to Richard Thomas Hammett and his wife Anne Bond Dashiell.' This is a clear and direct statement about his birth and parents, strongly supporting the triple's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Residence:has_location where",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The characters Nick and Nora Charles are mentioned as being created by Hammett, but the paragraph contains no information whatsoever about their residence or any location associated with them. The word 'where' in the triple is not meaningful."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Being_named:has_entity that",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Among the characters he created are... Nick and Nora Charles'. This establishes that these characters are entities that were created/named. The predicate 'has_entity that' is vague, but a lenient interpretation finds a weak semantic link to the act of naming/creating entities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Thin_Man_(film) Categorization:has_item http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hammett created Nick and Nora Charles for 'The Thin Man', establishing a clear creator-work relationship"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Age:has_age 26 years",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states Hammett left Baltimore permanently in 1920 when he was 26 years old"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Intentionally_create:has_theme characters",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions 'Among the characters he created are Sam Spade, Nick and Nora Charles, The Continental Op, and Secret Agent X-9'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Behind_the_scenes:has_type noir",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph states Hammett's work influenced 'film noir' and Nick and Nora Charles are characters he created, creating an indirect connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Kinship:has_theme sister",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'He had an elder sister, Aronia'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Nick and Nora Charles are characters created by Hammett, who is an American writer of hard-boiled detective novels. The triple's semantic link between the characters and 'novels' is reasonably extractable from the context of their creation by a novelist."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Inclusion:has_theme its list of the 100 best English-language novels published between 1923 and 2005",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'Time included Hammett's 1929 novel Red Harvest on its list of the 100 best English-language novels'. While the list does not explicitly name the Nick and Nora Charles novel (The Thin Man), the novel featuring these characters is part of Hammett's acclaimed body of work, creating a weak but valid semantic connection to the list."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Text:has_theme English-language",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The characters were created by Hammett, an American writer whose novel 'Red Harvest' is explicitly described as an 'English-language novel'. This provides a reasonable, indirect connection between the characters and the theme of being in English-language works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Age:has_entity sister",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Hammett had a sister, but there is no semantic connection, even indirect, between the fictional characters Nick and Nora Charles and the concept of a sister. The information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Being_named:has_location http://en.wikipedia.org/wiki/Philadelphia",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hammett... grew up in Philadelphia and Baltimore', providing a clear and direct link between the subject (Dashiell Hammett) and the location (Philadelphia)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Text:has_text Red Harvest",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hammett wrote 'Red Harvest' and it is mentioned multiple times in the context of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Measure_duration:has_theme four",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Nick and Nora Charles but does not associate them with the number 'four' in any thematic or meaningful way. The number four appears only in the context of Hammett's age when his family moved."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Being_named:has_entity whose",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'whose' appears in the paragraph ('whose name in French was de Chiel'), but it refers to Hammett's mother's family, not to Nick and Nora Charles. There is no semantic connection between the characters and the word 'whose'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Age:has_time 1920",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hammett left Baltimore permanently in 1920 when he was 26 years old, creating a clear semantic link between the person (Hammett), a time (1920), and an age-related life event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_theme hard-boiled",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the United States is not explicitly linked to 'hard-boiled' in the text, Hammett is identified as an 'American writer of hard-boiled detective novels'. There is a weak but reasonable semantic connection through the association of the genre with an American writer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Behind_the_scenes:has_type mystery",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Nick and Nora Charles are characters created by Hammett, who is described as a 'mystery writer' and his work is associated with 'mystery novels'. The connection between the characters and the mystery genre is strongly implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Inclusion:has_theme style that came to be known as film noir",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hammett's work had influence on 'film noir'. As Nick and Nora Charles are characters he created, a thematic connection to film noir is a reasonable, though indirect, inference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Inclusion:has_time 1929",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1929 is mentioned in relation to Hammett's novel 'Red Harvest', but there is no direct or indirect link made between this date and the characters Nick and Nora Charles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Text_creation:has_text hard-boiled detective novels and short stories",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Hammett 'was an American writer of hard-boiled detective novels and short stories'. This is a direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Text:has_text writers",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically valid. The characters were created by a 'writer', so there is a distant associative link between the subject (the characters) and the concept of 'writers'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Residence:has_theme http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Nick and Nora Charles as characters created by Hammett, but there is no information about their residence or any thematic connection to Hammett's residence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times Age:has_entity brother",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The New York Times is mentioned in the context of Hammett's obituary, and Hammett had a brother, but there is no connection between the newspaper and the concept of a brother."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Arriving:has_theme that",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'that' appears in the paragraph, but it is used as a relative pronoun, not as a thematic element connected to the characters Nick and Nora Charles or any concept of arrival."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Measure_duration:has_theme 26",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 26 appears in the paragraph as Hammett's age when he left Baltimore, but there is no connection to the characters Nick and Nora Charles or any duration associated with them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Inclusion:has_theme mystery films",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Hammett's novels and stories had a significant influence on mystery films. Since Nick and Nora Charles are characters he created, a lenient interpretation allows for an indirect connection between the characters and the theme of inclusion in/influence on mystery films."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Personal_relationship:has_theme Anne Bond Dashiell",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Anne Bond Dashiell is mentioned as Hammett's mother, establishing a family relationship which can be loosely interpreted as a 'personal relationship' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Time_vector:has_event Maltese Falcon placed second on The Top 100 Mystery Novels of All Time as selected by the Mystery Writers of America",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The event is described in the paragraph, and Nick and Nora Charles are characters created by Hammett. The connection is indirect but exists through the creator-character relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Kinship:has_theme Hammett's",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Nick and Nora Charles are characters created by Hammett. The possessive 'Hammett's' can be semantically linked to the characters as their creator, a form of kinship in a broad sense."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Measure_duration:has_theme Five",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The word 'Five' appears in the text ('Five years later'). The connection to the characters is extremely weak and indirect, but the theme of duration is present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times Categorization:has_location New York Times",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The New York Times is explicitly mentioned in the paragraph ('In his obituary in The New York Times'). The categorization theme is broadly applicable to the mention of a publication."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dashiell_Hammett Text_creation:has_time 1961",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Hammett's death year was 1961, which is a time associated with his life and works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Political_locales:has_theme city",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions cities like Baltimore and Philadelphia in the context of Hammett's life, but there is no direct or indirect connection between the characters Nick and Nora Charles and the theme of a city."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Locative_relation:has_time 1920",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1920 is mentioned as when Hammett left Baltimore, but there is no connection made between this date and the characters Nick and Nora Charles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Arriving:has_goal be known as film noir",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hammett's work influenced films, including the style known as film noir. As Nick and Nora Charles are characters he created, there is a weak semantic link that their stories contributed to this goal."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles Objective_influence:has_theme mystery films, including the style that came to be known as film noir",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hammett's novels and stories had a significant influence on mystery films and film noir. Since Nick and Nora Charles are characters he created, there is a reasonable, though indirect, connection that they are part of this influential theme."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.5060000000000002,
+    "high_confidence_50": 30,
+    "high_confidence_80": 14,
+    "percent_50": 60.0,
+    "percent_80": 28.000000000000004,
+    "max_triples_limit": 50
+  }
+}

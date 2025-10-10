@@ -1,0 +1,1725 @@
+{
+  "metadata": {
+    "total_triples": 78,
+    "source_file": "Virgil",
+    "extraction_date": "2025-09-28 06:59:13",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "early",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Categorization:has_theme",
+        "object": "modern scholars",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Being_located:has_theme",
+        "object": "as the most popular Latin poet through late antiquity, the Middle Ages, and early modernity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Reference_text:has_theme",
+        "object": "Virgil (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Fame:has_entity",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin",
+        "predicate": "Text:has_text",
+        "object": "Aeneid",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Judgment_communication:has_time",
+        "object": "his lifetime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Aesthetics:has_attribute",
+        "object": "style",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Fame:has_location",
+        "object": "Latin literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Categorization:has_category",
+        "object": "as spurious",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Part_piece:has_theme",
+        "object": "short",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Simple_naming:has_entity",
+        "object": "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Posture:has_location",
+        "object": "pilere",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Roman poet of the Augustan period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Text_creation:has_location",
+        "object": "http://en.wikipedia.org/wiki/Latin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Duration_description:has_theme",
+        "object": "pieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Statement:has_message",
+        "object": "that it must be one which will expressly reckon with him",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Time_vector:has_theme",
+        "object": "Already",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Roman poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Conduct:has_location",
+        "object": "House",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Statement:has_message",
+        "object": "as standing on a pilere / that was of tinned yren clere (\" on a pillar that was of bright tin-plated iron\"), and in the Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory, Dante pays tribute to Virgil with the words tu se' solo colui da cu'io tolsi / lo bello stile che m'ha fatto onore",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Distinctiveness:has_feature",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Text_creation:has_text",
+        "object": "classic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Time_vector:has_event",
+        "object": "acclaimed in his lifetime as a classic author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Judgment_communication:has_role",
+        "object": "as a classic author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Simple_naming:has_theme",
+        "object": "Virgil or Vergil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "People_by_vocation:has_person",
+        "object": "alone",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "modernity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Take_place_of:has_degree",
+        "object": "rapidly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Distinctiveness:has_entity",
+        "object": "Roman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Desirability:has_theme",
+        "object": "Latin poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Appendix_Vergiliana",
+        "predicate": "Gathering_up:has_theme",
+        "object": "Some minor poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Intentionally_act:has_purpose",
+        "object": "Roman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Take_place_of:has_role",
+        "object": "as a standard school text",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Take_place_of:has_theme",
+        "object": "Ennius and other earlier authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+        "predicate": "Education_teaching:has_theme",
+        "object": "subject \" What Is a Classic?",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Simple_naming:has_location",
+        "object": "English",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+        "predicate": "Activity_start:has_activity",
+        "object": "lecture on the subject \" What Is a Classic?",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Type:has_theme",
+        "object": "classic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Statement:has_speaker",
+        "object": "Geoffrey Chaucer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Text:has_author",
+        "object": "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Relative_time:has_theme",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Text:has_theme",
+        "object": "Augustan period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Increment:has_class",
+        "object": "earlier authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+        "predicate": "Activity_start:has_theme",
+        "object": "famously",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Text:has_location",
+        "object": "English",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "antiquity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Likelihood:has_theme",
+        "object": "exception of some short pieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Statement:has_theme",
+        "object": "confidently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Statement:has_location",
+        "object": "House",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Importance:has_theme",
+        "object": "Western literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Judgment:has_evaluee",
+        "object": "http://en.wikipedia.org/wiki/Virgil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "times",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Desirability:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+        "predicate": "Activity_start:has_time",
+        "object": "http://en.wikipedia.org/wiki/20th_century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Objective_influence:has_degree",
+        "object": "major",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Conduct:has_theme",
+        "object": "as the author's guide through Hell and Purgatory",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Morality_evaluation:has_theme",
+        "object": "these",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Temporal_collocation:has_location",
+        "object": "English",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Part_piece:has_theme",
+        "object": "pieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "scholars",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+        "predicate": "Categorization:has_item",
+        "object": "these",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Intentionally_act:has_agent",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Importance:has_theme",
+        "object": "influence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Statement:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Virgil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Type:has_category",
+        "object": "author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "late",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+        "predicate": "Intentionally_act:has_act",
+        "object": "honour",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Western literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Virgil",
+        "predicate": "Text_creation:has_text",
+        "object": "three of the most famous poems in Latin literature : the Eclogues (or Bucolics ), the Georgics, and the epic Aeneid",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Statement:has_message",
+          "object": "as standing on a pilere / that was of tinned yren clere (\" on a pillar that was of bright tin-plated iron\"), and in the Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory, Dante pays tribute to Virgil with the words tu se' solo colui da cu'io tolsi / lo bello stile che m'ha fatto onore",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Time_vector:has_event",
+          "object": "acclaimed in his lifetime as a classic author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Judgment_communication:has_role",
+          "object": "as a classic author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Take_place_of:has_theme",
+          "object": "Ennius and other earlier authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Relative_time:has_theme",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Increment:has_class",
+          "object": "earlier authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Conduct:has_theme",
+          "object": "as the author's guide through Hell and Purgatory",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Type:has_category",
+          "object": "author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [],
+      "concept_related": [],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "early",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Categorization:has_theme",
+          "object": "modern scholars",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Being_located:has_theme",
+          "object": "as the most popular Latin poet through late antiquity, the Middle Ages, and early modernity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Reference_text:has_theme",
+          "object": "Virgil (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Fame:has_entity",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin",
+          "predicate": "Text:has_text",
+          "object": "Aeneid",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Judgment_communication:has_time",
+          "object": "his lifetime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Aesthetics:has_attribute",
+          "object": "style",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Fame:has_location",
+          "object": "Latin literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Categorization:has_category",
+          "object": "as spurious",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Part_piece:has_theme",
+          "object": "short",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Simple_naming:has_entity",
+          "object": "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Posture:has_location",
+          "object": "pilere",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Roman poet of the Augustan period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Text_creation:has_location",
+          "object": "http://en.wikipedia.org/wiki/Latin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Duration_description:has_theme",
+          "object": "pieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Statement:has_message",
+          "object": "that it must be one which will expressly reckon with him",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Time_vector:has_theme",
+          "object": "Already",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ancient_Rome",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Roman poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Conduct:has_location",
+          "object": "House",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Distinctiveness:has_feature",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Text_creation:has_text",
+          "object": "classic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Simple_naming:has_theme",
+          "object": "Virgil or Vergil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "People_by_vocation:has_person",
+          "object": "alone",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "modernity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Take_place_of:has_degree",
+          "object": "rapidly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Distinctiveness:has_entity",
+          "object": "Roman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Desirability:has_theme",
+          "object": "Latin poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Appendix_Vergiliana",
+          "predicate": "Gathering_up:has_theme",
+          "object": "Some minor poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Intentionally_act:has_purpose",
+          "object": "Roman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Take_place_of:has_role",
+          "object": "as a standard school text",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+          "predicate": "Education_teaching:has_theme",
+          "object": "subject \" What Is a Classic?",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Simple_naming:has_location",
+          "object": "English",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+          "predicate": "Activity_start:has_activity",
+          "object": "lecture on the subject \" What Is a Classic?",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Type:has_theme",
+          "object": "classic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Statement:has_speaker",
+          "object": "Geoffrey Chaucer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Text:has_author",
+          "object": "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Text:has_theme",
+          "object": "Augustan period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+          "predicate": "Activity_start:has_theme",
+          "object": "famously",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Text:has_location",
+          "object": "English",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "antiquity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Likelihood:has_theme",
+          "object": "exception of some short pieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Statement:has_theme",
+          "object": "confidently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Statement:has_location",
+          "object": "House",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Importance:has_theme",
+          "object": "Western literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Judgment:has_evaluee",
+          "object": "http://en.wikipedia.org/wiki/Virgil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "times",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Desirability:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/T._S._Eliot",
+          "predicate": "Activity_start:has_time",
+          "object": "http://en.wikipedia.org/wiki/20th_century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Objective_influence:has_degree",
+          "object": "major",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Morality_evaluation:has_theme",
+          "object": "these",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Temporal_collocation:has_location",
+          "object": "English",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Part_piece:has_theme",
+          "object": "pieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "scholars",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+          "predicate": "Categorization:has_item",
+          "object": "these",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Intentionally_act:has_agent",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Importance:has_theme",
+          "object": "influence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Statement:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Virgil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "late",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Middle_Ages",
+          "predicate": "Intentionally_act:has_act",
+          "object": "honour",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Western literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Virgil",
+          "predicate": "Text_creation:has_text",
+          "object": "three of the most famous poems in Latin literature : the Eclogues (or Bucolics ), the Georgics, and the epic Aeneid",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Ancient_Rome",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Latin",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Ancient_Rome",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Ancient_Rome",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Ancient_Rome",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Appendix_Vergiliana",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/T._S._Eliot",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/T._S._Eliot",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Latin",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/T._S._Eliot",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/T._S._Eliot",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "http://en.wikipedia.org/wiki/Latin",
+      "http://en.wikipedia.org/wiki/Virgil"
+    ],
+    "objects": [
+      "article",
+      "early",
+      "modern scholars",
+      "as the most popular Latin poet through late antiquity, the Middle Ages, and early modernity",
+      "Virgil (disambiguation)",
+      "poems",
+      "Aeneid",
+      "his lifetime",
+      "style",
+      "Latin literature",
+      "as spurious",
+      "poet",
+      "short",
+      "uses",
+      "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+      "pilere",
+      "Roman poet of the Augustan period",
+      "http://en.wikipedia.org/wiki/Latin",
+      "pieces",
+      "that it must be one which will expressly reckon with him",
+      "Already",
+      "Roman poet",
+      "House",
+      "as standing on a pilere / that was of tinned yren clere (\" on a pillar that was of bright tin-plated iron\"), and in the Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory, Dante pays tribute to Virgil with the words tu se' solo colui da cu'io tolsi / lo bello stile che m'ha fatto onore",
+      "that",
+      "poet",
+      "classic",
+      "acclaimed in his lifetime as a classic author",
+      "as a classic author",
+      "Virgil or Vergil",
+      "alone",
+      "authors",
+      "modernity",
+      "rapidly",
+      "Roman",
+      "Latin poet",
+      "Some minor poems",
+      "Roman",
+      "as a standard school text",
+      "Ennius and other earlier authors",
+      "subject \" What Is a Classic?",
+      "English",
+      "lecture on the subject \" What Is a Classic?",
+      "classic",
+      "Geoffrey Chaucer",
+      "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+      "literature",
+      "authors",
+      "Augustan period",
+      "earlier authors",
+      "famously",
+      "English",
+      "poems",
+      "antiquity",
+      "exception of some short pieces",
+      "confidently",
+      "House",
+      "Western literature",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "times",
+      "most",
+      "http://en.wikipedia.org/wiki/20th_century",
+      "major",
+      "as the author's guide through Hell and Purgatory",
+      "these",
+      "English",
+      "pieces",
+      "scholars",
+      "these",
+      "that",
+      "influence",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "author",
+      "late",
+      "honour",
+      "Western literature",
+      "poems",
+      "three of the most famous poems in Latin literature : the Eclogues (or Bucolics ), the Georgics, and the epic Aeneid"
+    ],
+    "all_unique": [
+      "style",
+      "Latin poet",
+      "antiquity",
+      "uses",
+      "literature",
+      "that",
+      "Ennius and other earlier authors",
+      "influence",
+      "as standing on a pilere / that was of tinned yren clere (\" on a pillar that was of bright tin-plated iron\"), and in the Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory, Dante pays tribute to Virgil with the words tu se' solo colui da cu'io tolsi / lo bello stile che m'ha fatto onore",
+      "modernity",
+      "Publius Vergilius Maro ( Classical Latin : [publis wrlis maro] ; 15 October 70 BC – 21 September 19 BC )",
+      "these",
+      "as the author's guide through Hell and Purgatory",
+      "Latin literature",
+      "http://en.wikipedia.org/wiki/Virgil",
+      "times",
+      "Some minor poems",
+      "scholars",
+      "as spurious",
+      "most",
+      "exception of some short pieces",
+      "article",
+      "his lifetime",
+      "author",
+      "Aeneid",
+      "authors",
+      "Virgil (disambiguation)",
+      "classic",
+      "Roman poet",
+      "three of the most famous poems in Latin literature : the Eclogues (or Bucolics ), the Georgics, and the epic Aeneid",
+      "alone",
+      "Already",
+      "http://en.wikipedia.org/wiki/Latin",
+      "http://en.wikipedia.org/wiki/20th_century",
+      "http://en.wikipedia.org/wiki/Virgilius_Maro_Grammaticus",
+      "modern scholars",
+      "short",
+      "pieces",
+      "House",
+      "early",
+      "famously",
+      "http://en.wikipedia.org/wiki/Ancient_Rome",
+      "Roman poet of the Augustan period",
+      "major",
+      "as a classic author",
+      "Roman",
+      "http://en.wikipedia.org/wiki/T._S._Eliot",
+      "acclaimed in his lifetime as a classic author",
+      "http://en.wikipedia.org/wiki/Augusta,_Georgia",
+      "as a standard school text",
+      "subject \" What Is a Classic?",
+      "lecture on the subject \" What Is a Classic?",
+      "Augustan period",
+      "English",
+      "http://en.wikipedia.org/wiki/Appendix_Vergiliana",
+      "Geoffrey Chaucer",
+      "poet",
+      "pilere",
+      "Western literature",
+      "late",
+      "as the most popular Latin poet through late antiquity, the Middle Ages, and early modernity",
+      "rapidly",
+      "http://en.wikipedia.org/wiki/Middle_Ages",
+      "Virgil or Vergil",
+      "honour",
+      "that it must be one which will expressly reckon with him",
+      "earlier authors",
+      "poems",
+      "confidently"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text:has_text",
+      "Temporal_subregion:has_theme",
+      "Categorization:has_theme",
+      "Being_located:has_theme",
+      "Reference_text:has_theme",
+      "Fame:has_entity",
+      "Text:has_text",
+      "Judgment_communication:has_time",
+      "Aesthetics:has_attribute",
+      "Fame:has_location",
+      "Categorization:has_category",
+      "Text:has_text",
+      "Part_piece:has_theme",
+      "Increment:has_class",
+      "Simple_naming:has_entity",
+      "Posture:has_location",
+      "Temporal_collocation:has_theme",
+      "Text_creation:has_location",
+      "Duration_description:has_theme",
+      "Statement:has_message",
+      "Time_vector:has_theme",
+      "Temporal_collocation:has_theme",
+      "Conduct:has_location",
+      "Statement:has_message",
+      "Distinctiveness:has_feature",
+      "Text:has_text",
+      "Text_creation:has_text",
+      "Time_vector:has_event",
+      "Judgment_communication:has_role",
+      "Simple_naming:has_theme",
+      "People_by_vocation:has_person",
+      "Text_creation:has_author",
+      "Temporal_subregion:has_theme",
+      "Take_place_of:has_degree",
+      "Distinctiveness:has_entity",
+      "Desirability:has_theme",
+      "Gathering_up:has_theme",
+      "Intentionally_act:has_purpose",
+      "Take_place_of:has_role",
+      "Take_place_of:has_theme",
+      "Education_teaching:has_theme",
+      "Simple_naming:has_location",
+      "Activity_start:has_activity",
+      "Type:has_theme",
+      "Statement:has_speaker",
+      "Text:has_author",
+      "Fields:has_theme",
+      "Relative_time:has_theme",
+      "Text:has_theme",
+      "Increment:has_class",
+      "Activity_start:has_theme",
+      "Text:has_location",
+      "Text:has_text",
+      "Temporal_subregion:has_theme",
+      "Likelihood:has_theme",
+      "Statement:has_theme",
+      "Statement:has_location",
+      "Importance:has_theme",
+      "Judgment:has_evaluee",
+      "Temporal_collocation:has_theme",
+      "Desirability:has_degree",
+      "Activity_start:has_time",
+      "Objective_influence:has_degree",
+      "Conduct:has_theme",
+      "Morality_evaluation:has_theme",
+      "Temporal_collocation:has_location",
+      "Part_piece:has_theme",
+      "Temporal_collocation:has_theme",
+      "Categorization:has_item",
+      "Intentionally_act:has_agent",
+      "Importance:has_theme",
+      "Statement:has_theme",
+      "Type:has_category",
+      "Temporal_subregion:has_theme",
+      "Intentionally_act:has_act",
+      "Objective_influence:has_theme",
+      "Text:has_text",
+      "Text_creation:has_text"
+    ],
+    "unique_predicates": [
+      "Fame:has_location",
+      "Intentionally_act:has_purpose",
+      "Objective_influence:has_theme",
+      "Activity_start:has_time",
+      "Intentionally_act:has_agent",
+      "Likelihood:has_theme",
+      "Statement:has_location",
+      "Activity_start:has_theme",
+      "People_by_vocation:has_person",
+      "Temporal_collocation:has_theme",
+      "Take_place_of:has_role",
+      "Text:has_location",
+      "Judgment:has_evaluee",
+      "Fields:has_theme",
+      "Take_place_of:has_degree",
+      "Statement:has_speaker",
+      "Distinctiveness:has_entity",
+      "Distinctiveness:has_feature",
+      "Objective_influence:has_degree",
+      "Temporal_collocation:has_location",
+      "Simple_naming:has_entity",
+      "Relative_time:has_theme",
+      "Desirability:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Text_creation:has_location",
+      "Duration_description:has_theme",
+      "Judgment_communication:has_role",
+      "Text_creation:has_author",
+      "Text:has_author",
+      "Statement:has_theme",
+      "Increment:has_class",
+      "Being_located:has_theme",
+      "Judgment_communication:has_time",
+      "Categorization:has_category",
+      "Temporal_subregion:has_theme",
+      "Aesthetics:has_attribute",
+      "Posture:has_location",
+      "Education_teaching:has_theme",
+      "Activity_start:has_activity",
+      "Type:has_category",
+      "Text_creation:has_text",
+      "Simple_naming:has_theme",
+      "Gathering_up:has_theme",
+      "Desirability:has_degree",
+      "Categorization:has_item",
+      "Conduct:has_location",
+      "Time_vector:has_theme",
+      "Statement:has_message",
+      "Take_place_of:has_theme",
+      "Morality_evaluation:has_theme",
+      "Simple_naming:has_location",
+      "Text:has_theme",
+      "Importance:has_theme",
+      "Intentionally_act:has_act",
+      "Categorization:has_theme",
+      "Fame:has_entity",
+      "Part_piece:has_theme",
+      "Type:has_theme",
+      "Conduct:has_theme",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Text:has_text": 6,
+      "Temporal_subregion:has_theme": 4,
+      "Categorization:has_theme": 1,
+      "Being_located:has_theme": 1,
+      "Reference_text:has_theme": 1,
+      "Fame:has_entity": 1,
+      "Judgment_communication:has_time": 1,
+      "Aesthetics:has_attribute": 1,
+      "Fame:has_location": 1,
+      "Categorization:has_category": 1,
+      "Part_piece:has_theme": 2,
+      "Increment:has_class": 2,
+      "Simple_naming:has_entity": 1,
+      "Posture:has_location": 1,
+      "Temporal_collocation:has_theme": 4,
+      "Text_creation:has_location": 1,
+      "Duration_description:has_theme": 1,
+      "Statement:has_message": 2,
+      "Time_vector:has_theme": 1,
+      "Conduct:has_location": 1,
+      "Distinctiveness:has_feature": 1,
+      "Text_creation:has_text": 2,
+      "Time_vector:has_event": 1,
+      "Judgment_communication:has_role": 1,
+      "Simple_naming:has_theme": 1,
+      "People_by_vocation:has_person": 1,
+      "Text_creation:has_author": 1,
+      "Take_place_of:has_degree": 1,
+      "Distinctiveness:has_entity": 1,
+      "Desirability:has_theme": 1,
+      "Gathering_up:has_theme": 1,
+      "Intentionally_act:has_purpose": 1,
+      "Take_place_of:has_role": 1,
+      "Take_place_of:has_theme": 1,
+      "Education_teaching:has_theme": 1,
+      "Simple_naming:has_location": 1,
+      "Activity_start:has_activity": 1,
+      "Type:has_theme": 1,
+      "Statement:has_speaker": 1,
+      "Text:has_author": 1,
+      "Fields:has_theme": 1,
+      "Relative_time:has_theme": 1,
+      "Text:has_theme": 1,
+      "Activity_start:has_theme": 1,
+      "Text:has_location": 1,
+      "Likelihood:has_theme": 1,
+      "Statement:has_theme": 2,
+      "Statement:has_location": 1,
+      "Importance:has_theme": 2,
+      "Judgment:has_evaluee": 1,
+      "Desirability:has_degree": 1,
+      "Activity_start:has_time": 1,
+      "Objective_influence:has_degree": 1,
+      "Conduct:has_theme": 1,
+      "Morality_evaluation:has_theme": 1,
+      "Temporal_collocation:has_location": 1,
+      "Categorization:has_item": 1,
+      "Intentionally_act:has_agent": 1,
+      "Type:has_category": 1,
+      "Intentionally_act:has_act": 1,
+      "Objective_influence:has_theme": 1
+    }
+  }
+}

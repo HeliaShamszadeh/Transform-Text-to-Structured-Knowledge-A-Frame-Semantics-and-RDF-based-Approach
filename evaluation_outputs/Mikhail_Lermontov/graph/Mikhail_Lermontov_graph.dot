@@ -1,0 +1,301 @@
+digraph Mikhail_Lermontov {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "Russian Romantic writer, po..." [label="Russian Romantic writer, po...", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Russian psychological novel" [label="Russian psychological novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Russian literature" [label="Russian literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "she died of tuberculosis" [label="she died of tuberculosis", fillcolor=lightyellow, color=orange, shape=diamond];
+    "Alexander Pushkin's death i..." [label="Alexander Pushkin's death i...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "emotional turmoil" [label="emotional turmoil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1827" [label="1827", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria's" [label="Maria's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian Romantic" [label="Russian Romantic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his grandmother, Elizaveta ..." [label="his grandmother, Elizaveta ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "the poet of the Caucasus" [label="the poet of the Caucasus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boarding" [label="boarding", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow University's boardin..." [label="Moscow University's boardin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scrofula and rickets" [label="scrofula and rickets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria" [label="Maria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New Zealand" [label="New Zealand", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow University's" [label="Moscow University's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Their marriage" [label="Their marriage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home education" [label="home education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria's health" [label="Maria's health", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family dispute ensued over ..." [label="family dispute ensued over ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "East Slavic languages" [label="East Slavic languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His grandmother's" [label="His grandmother's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow" [label="Moscow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over Lermontov's custody" [label="over Lermontov's custody", fillcolor=lightgray, color=gray, shape=hexagon];
+    "17" [label="17", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian Romanticism" [label="Russian Romanticism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lermontov's" [label="Lermontov's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "aristocratic family" [label="aristocratic family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1817" [label="1817", fillcolor=lightgray, color=gray, shape=hexagon];
+    "heiress" [label="heiress", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most important Russian poet" [label="most important Russian poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "life" [label="life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "15 July 1841" [label="15 July 1841", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his development as a lonely..." [label="his development as a lonely...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strict" [label="strict", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after Alexander Pushkin's d..." [label="after Alexander Pushkin's d...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lonely and introspective" [label="lonely and introspective", fillcolor=lightgray, color=gray, shape=hexagon];
+    "October 15, 1814" [label="October 15, 1814", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russia" [label="Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "military" [label="military", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nurturing his talents in la..." [label="nurturing his talents in la...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His grandmother's strict co..." [label="His grandmother's strict co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the Lermontov family" [label="into the Lermontov family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "marriage" [label="marriage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his grandmother" [label="his grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria Mikhaylovna Arsenyeva..." [label="Maria Mikhaylovna Arsenyeva...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1986" [label="1986", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lermontov disambiguation" [label="Lermontov disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romanticism" [label="Romanticism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow State University" [label="Moscow State University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "music" [label="music", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tarkhany" [label="Tarkhany", fillcolor=lightgray, color=gray, shape=hexagon];
+    "times" [label="times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1837" [label="1837", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandmother" [label="grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria Mikhaylovna Arsenyeva" [label="Maria Mikhaylovna Arsenyeva", fillcolor=lightgray, color=gray, shape=hexagon];
+    "excellent home education" [label="excellent home education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "psychological" [label="psychological", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lermontov moved to Moscow w..." [label="Lermontov moved to Moscow w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "individual" [label="individual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mikhail Lermontov" [label="Mikhail Lermontov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "MS Mikhail Lermontov" [label="MS Mikhail Lermontov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alexander Pushkin's" [label="Alexander Pushkin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian poet" [label="Russian poet", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Mikhail Lermontov" -> "Moscow" [label="has location [Being_born]", color=green, penwidth=2];
+    "Mikhail Lermontov" -> "his grandmother" [label="has theme [Motion]", color=lightcoral, penwidth=1];
+    "New Zealand" -> "1986" [label="has time [Catching_fire]", color=purple, penwidth=2];
+    "Russia" -> "15 July 1841" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Russia" -> "Russian Romanticism" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Russia" -> "Russian Romanticism" [label="has location [Origin]", color=green, penwidth=2];
+    "Russia" -> "1837" [label="has time [Death]", color=purple, penwidth=2];
+    "Mikhail Lermontov" -> "Tarkhany" [label="has location [Growing_food]", color=green, penwidth=2];
+    "Russia" -> "marriage" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Mikhail Lermontov" -> "Moscow University's boardin..." [label="has group [Becoming_a_member]", color=lightgoldenrodyellow, penwidth=1];
+    "Russia" -> "Russian poet" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Russia" -> "psychological" [label="has theme [Text]", color=lightsalmon, penwidth=1];
+    "East Slavic languages" -> "Russian literature" [label="has theme [Objective_influence]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "1827" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Mikhail Lermontov" -> "Tarkhany" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "East Slavic languages" -> "Maria's health" [label="has entity [Improvement_or_decline]", color=lightsteelblue, penwidth=1];
+    "Moscow State University" -> "school" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "New Zealand" -> "1986" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "East Slavic languages" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "Lermontov moved to Moscow w..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "East Slavic languages" -> "lonely and introspective" [label="has theme [People]", color=lightgreen, penwidth=1];
+    "Mikhail Lermontov" -> "October 15, 1814" [label="has time [Being_born]", color=purple, penwidth=2];
+    "East Slavic languages" -> "home" [label="has theme [Foreign_or_domestic_country]", color=lightyellow, penwidth=1];
+    "East Slavic languages" -> "his development as a lonely..." [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Mikhail Lermontov" -> "into the Lermontov family" [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "New Zealand" -> "nurturing his talents in la..." [label="has means [Supply]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "military" [label="has theme [Military]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "1817" [label="has time [Death]", color=purple, penwidth=2];
+    "New Zealand" -> "grandmother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "Mikhail Lermontov" [label="has theme [Causation]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "His grandmother's" [label="has theme [Being_in_control]", color=lightgray, penwidth=1];
+    "East Slavic languages" -> "Maria Mikhaylovna Arsenyeva" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Mikhail Lermontov" -> "1827" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Mikhail Lermontov" -> "Moscow" [label="has goal [Motion]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "Maria" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "Russia" -> "Russian Romanticism" [label="has location [Labeling]", color=green, penwidth=2];
+    "East Slavic languages" -> "over Lermontov's custody" [label="has issue [Quarreling]", color=lightsalmon, penwidth=1];
+    "Russia" -> "Russian Romanticism" [label="has location [Text]", color=green, penwidth=2];
+    "East Slavic languages" -> "times" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Mikhail Lermontov" -> "his grandmother, Elizaveta ..." [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Moscow State University" -> "boarding" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Moscow" -> "University" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "life" [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "Moscow State University" -> "Moscow University's" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "music" [label="has theme [Performing_arts]", color=lightpink, penwidth=1];
+    "Russia" -> "the poet of the Caucasus" [label="has theme [Labeling]", color=lightseagreen, penwidth=1];
+    "Mikhail Lermontov" -> "grandmother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "His grandmother's strict co..." [label="has cause [Causation]", color=lightpink, penwidth=1];
+    "Mikhail Lermontov" -> "family dispute ensued over ..." [label="has cause [Causation]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "his grandmother, Elizaveta ..." [label="has cause [Causation]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "literature" [label="has theme [Fields]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "tuberculosis" [label="has theme [Medical_conditions]", color=lightcoral, penwidth=1];
+    "Russia" -> "poet" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Russia" -> "literature" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "New Zealand" -> "uses" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "East Slavic languages" -> "Russian Romanticism" [label="has location [Relative_time]", color=green, penwidth=2];
+    "Mikhail Lermontov" -> "poetry" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "East Slavic languages" -> "literary" [label="has activity [Fields]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "home education" [label="has theme [Desirability]", color=lightgreen, penwidth=1];
+    "Russia" -> "after Alexander Pushkin's d..." [label="has time [Importance]", color=purple, penwidth=2];
+    "East Slavic languages" -> "Russian psychological novel" [label="has behavior [Custom]", color=lightyellow, penwidth=1];
+    "Mikhail Lermontov" -> "Lermontov's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Russia" -> "Russian Romantic writer, po..." [label="has entity [Labeling]", color=lightseagreen, penwidth=1];
+    "East Slavic languages" -> "heiress" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "who" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "East Slavic languages" -> "individual" [label="has person [People]", color=red, penwidth=2];
+    "East Slavic languages" -> "Maria" [label="has patient [Medical_conditions]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "Lermontov's" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "young" [label="has age [People_by_vocation]", color=lightgoldenrodyellow, penwidth=1];
+    "Russia" -> "Russian Romantic" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "East Slavic languages" -> "17" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Russia" -> "Russian Romanticism" [label="has location [Importance]", color=green, penwidth=2];
+    "East Slavic languages" -> "family" [label="has theme [Quarreling]", color=lightsalmon, penwidth=1];
+    "Mikhail Lermontov" -> "scrofula and rickets" [label="has event [Eventive_affecting]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "Alexander Pushkin's death i..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "New Zealand" -> "excellent home education" [label="has theme [Supply]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "Lermontov's" [label="has owner [Possession]", color=lightgray, penwidth=1];
+    "East Slavic languages" -> "name" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "New Zealand" -> "which" [label="has theme [Catching_fire]", color=lightgreen, penwidth=1];
+    "New Zealand" -> "Lermontov disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Russia" -> "Alexander Pushkin's" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "Maria's" [label="has patient [Medical_conditions]", color=lightcoral, penwidth=1];
+    "Russia" -> "Romanticism" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "early" [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "most important Russian poet" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "East Slavic languages" -> "emotional turmoil" [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Mikhail Lermontov" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "family" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Russia" -> "novel" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Russia" -> "writer" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "East Slavic languages" -> "aristocratic family" [label="has theme [People_by_vocation]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavic languages" -> "home" [label="has level [Education_teaching]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "young" [label="has age [Age]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "she died of tuberculosis" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "East Slavic languages" -> "Mikhail Lermontov" [label="has patient [Medical_conditions]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "strict" [label="has degree [Being_in_control]", color=lightgray, penwidth=1];
+    "Mikhail Lermontov" -> "literary" [label="has theme [Accomplishment]", color=lightseagreen, penwidth=1];
+    "East Slavic languages" -> "Maria Mikhaylovna Arsenyeva..." [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "East Slavic languages" -> "Mikhail Lermontov" [label="has theme [Objective_influence]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "His grandmother's strict co..." [label="has cause [Causation]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "Mikhail Lermontov" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Russia" -> "poet" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Moscow" -> "Mikhail Lermontov" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "New Zealand" -> "MS Mikhail Lermontov" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "East Slavic languages" -> "tuberculosis" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "Their marriage" [label="has activity [Difficulty]", color=lightsalmon, penwidth=1];
+    "Russia" -> "Russian Romanticism" [label="has location [Death]", color=green, penwidth=2];
+    "Mikhail Lermontov" -> "1827" [label="has time [Motion]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Catching_fire_legend" [label="Catching_fire", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Improvement_or_decline_legend" [label="Improvement_or_decline", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Military_legend" [label="Military", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_in_control_legend" [label="Being_in_control", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quarreling_legend" [label="Quarreling", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Custom_legend" [label="Custom", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Eventive_affecting_legend" [label="Eventive_affecting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Accomplishment_legend" [label="Accomplishment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Difficulty_legend" [label="Difficulty", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+    }
+}

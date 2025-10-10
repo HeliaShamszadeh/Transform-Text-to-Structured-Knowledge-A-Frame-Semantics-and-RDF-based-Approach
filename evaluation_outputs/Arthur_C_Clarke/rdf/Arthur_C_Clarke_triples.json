@@ -1,0 +1,2150 @@
+{
+  "metadata": {
+    "total_triples": 98,
+    "source_file": "Arthur_C_Clarke",
+    "extraction_date": "2025-09-27 20:38:24",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Building_subparts:has_theme",
+        "object": "figures",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Travel:has_theme",
+        "object": "space",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "System:has_theme",
+        "object": "satellite communication",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+        "predicate": "Age:has_location",
+        "object": "http://en.wikipedia.org/wiki/Trincomalee",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Residence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Appointing:has_role",
+        "object": "Commander of the Order of the British Empire (CBE)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+        "predicate": "Being_named:has_theme",
+        "object": "as the \" Big Three \" of science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "People_by_age:has_time",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "People_by_age:has_age",
+        "object": "teenager",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Type:has_theme",
+        "object": "genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Emotion_directed:has_theme",
+        "object": "scuba diving",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Causation:has_effect",
+        "object": "one of the towering figures of the genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Becoming_aware:has_theme",
+        "object": "underwater ruins of the ancient original Koneswaram Temple",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "System:has_theme",
+        "object": "system",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the most influential films of all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Assistance:has_theme",
+        "object": "British cultural interests in Sri Lanka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Earnings_and_losses:has_theme",
+        "object": "number of Hugo and Nebula awards, which along with a large readership, made him one of the towering figures of the genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Continued_state_of_affairs:has_theme",
+        "object": "teenager",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+        "predicate": "Categorization:has_time",
+        "object": "1968",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "towering figures of the genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "Hugo and Nebula awards",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Attempt:has_goal",
+        "object": "space travel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Continued_state_of_affairs:has_time",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Quitting_a_place:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Quitting_a_place:has_theme",
+        "object": "Ceylon (now Sri Lanka)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+        "predicate": "Receiving:has_theme",
+        "object": "Kalinga Prize, a UNESCO award for popularising science",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Becoming_a_member:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text_creation:has_text",
+        "object": "science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Temporal_collocation:has_time",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Capability:has_entity",
+        "object": "futurist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+        "predicate": "Behind_the_scenes:has_time",
+        "object": "1968",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Becoming_aware:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Trincomalee",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+        "predicate": "Age:has_age",
+        "object": "ancient",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Leadership:has_time",
+        "object": "1946",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Desirability:has_theme",
+        "object": "magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "number",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Emotion_directed:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Becoming_aware:has_time",
+        "object": "That year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+        "predicate": "Being_named:has_entity",
+        "object": "Clarke, Robert Heinlein, and Isaac Asimov",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Reference_text:has_theme",
+        "object": "Arthur Clarke (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Grasp:has_theme",
+        "object": "populariser of space travel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+        "predicate": "Categorization:has_item",
+        "object": "2001 : A Space Odyssey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Appointing:has_function",
+        "object": "services to British cultural interests in Sri Lanka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Using:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Causation:has_cause",
+        "object": "which along with a large readership",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/UNESCO",
+        "predicate": "Distinctiveness:has_feature",
+        "object": "popularising science",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Becoming_a_member:has_group",
+        "object": "British Interplanetary Society (BIS )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text_creation:has_text",
+        "object": "many books and many essays for popular magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Rite:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "System:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trincomalee",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "That",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Commemorative:has_theme",
+        "object": "highest civil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+        "predicate": "Receiving:has_theme",
+        "object": "Hugo and Nebula",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "essays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Objective_influence:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Leadership:has_theme",
+        "object": "1946 to 1947 and again in 1951–1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Desirability:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Objective_influence:has_time",
+        "object": "1968",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Becoming_aware:has_location",
+        "object": "http://en.wikipedia.org/wiki/Trincomalee",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Measure_duration:has_theme",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Causation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Statement:has_message",
+        "object": "satellite communication system using geostationary orbits",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Continued_state_of_affairs:has_theme",
+        "object": "still",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Attempt:has_theme",
+        "object": "lifelong",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "2001 : A Space Odyssey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Statement:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Quitting_a_place:has_purpose",
+        "object": "pursue his interest in scuba diving",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Travel:has_theme",
+        "object": "space",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Commemorative:has_theme",
+        "object": "Sri Lanka's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Appointing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Rite:has_time",
+        "object": "1998",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Earnings_and_losses:has_buyer",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+        "predicate": "Receiving:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/UNESCO",
+        "predicate": "Distinctiveness:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Earnings_and_losses:has_theme",
+        "object": "His science fiction writings in particular",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Size:has_entity",
+        "object": "readership",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Objective_influence:has_theme",
+        "object": "films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Emotion_directed:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Becoming_a_member:has_time",
+        "object": "while still a teenager",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Commemorative:has_time",
+        "object": "1998",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "one",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Behind_the_scenes:has_time",
+        "object": "1968",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Assistance:has_time",
+        "object": "1989",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he joined the British Interplanetary Society (BIS )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Leadership:has_theme",
+        "object": "http://en.wikipedia.org/wiki/British_Interplanetary_Society",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Using:has_instrument",
+        "object": "geostationary orbits",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+        "predicate": "Age:has_entity",
+        "object": "original Koneswaram Temple",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+        "predicate": "Appointing:has_time",
+        "object": "1989",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+        "predicate": "Receiving:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text_creation:has_text",
+          "object": "many books and many essays for popular magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Earnings_and_losses:has_theme",
+          "object": "His science fiction writings in particular",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Building_subparts:has_theme",
+          "object": "figures",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Travel:has_theme",
+          "object": "space",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "System:has_theme",
+          "object": "satellite communication",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+          "predicate": "Age:has_location",
+          "object": "http://en.wikipedia.org/wiki/Trincomalee",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Residence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Appointing:has_role",
+          "object": "Commander of the Order of the British Empire (CBE)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+          "predicate": "Being_named:has_theme",
+          "object": "as the \" Big Three \" of science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "People_by_age:has_time",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "People_by_age:has_age",
+          "object": "teenager",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Type:has_theme",
+          "object": "genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Emotion_directed:has_theme",
+          "object": "scuba diving",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Causation:has_effect",
+          "object": "one of the towering figures of the genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Becoming_aware:has_theme",
+          "object": "underwater ruins of the ancient original Koneswaram Temple",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "System:has_theme",
+          "object": "system",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the most influential films of all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Assistance:has_theme",
+          "object": "British cultural interests in Sri Lanka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Earnings_and_losses:has_theme",
+          "object": "number of Hugo and Nebula awards, which along with a large readership, made him one of the towering figures of the genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Continued_state_of_affairs:has_theme",
+          "object": "teenager",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+          "predicate": "Categorization:has_time",
+          "object": "1968",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "towering figures of the genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "Hugo and Nebula awards",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Attempt:has_goal",
+          "object": "space travel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Continued_state_of_affairs:has_time",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Quitting_a_place:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Quitting_a_place:has_theme",
+          "object": "Ceylon (now Sri Lanka)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+          "predicate": "Receiving:has_theme",
+          "object": "Kalinga Prize, a UNESCO award for popularising science",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Becoming_a_member:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text_creation:has_text",
+          "object": "science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Temporal_collocation:has_time",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Capability:has_entity",
+          "object": "futurist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+          "predicate": "Behind_the_scenes:has_time",
+          "object": "1968",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Becoming_aware:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Trincomalee",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+          "predicate": "Age:has_age",
+          "object": "ancient",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Leadership:has_time",
+          "object": "1946",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Desirability:has_theme",
+          "object": "magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "number",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Emotion_directed:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Becoming_aware:has_time",
+          "object": "That year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+          "predicate": "Being_named:has_entity",
+          "object": "Clarke, Robert Heinlein, and Isaac Asimov",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Reference_text:has_theme",
+          "object": "Arthur Clarke (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Grasp:has_theme",
+          "object": "populariser of space travel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+          "predicate": "Categorization:has_item",
+          "object": "2001 : A Space Odyssey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Appointing:has_function",
+          "object": "services to British cultural interests in Sri Lanka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Using:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Causation:has_cause",
+          "object": "which along with a large readership",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/UNESCO",
+          "predicate": "Distinctiveness:has_feature",
+          "object": "popularising science",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Becoming_a_member:has_group",
+          "object": "British Interplanetary Society (BIS )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Rite:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "System:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trincomalee",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "That",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Commemorative:has_theme",
+          "object": "highest civil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nebula_Award",
+          "predicate": "Receiving:has_theme",
+          "object": "Hugo and Nebula",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "essays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Objective_influence:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Leadership:has_theme",
+          "object": "1946 to 1947 and again in 1951–1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Desirability:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Objective_influence:has_time",
+          "object": "1968",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Becoming_aware:has_location",
+          "object": "http://en.wikipedia.org/wiki/Trincomalee",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Measure_duration:has_theme",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Causation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Statement:has_message",
+          "object": "satellite communication system using geostationary orbits",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Continued_state_of_affairs:has_theme",
+          "object": "still",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Attempt:has_theme",
+          "object": "lifelong",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Space_Odyssey",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "2001 : A Space Odyssey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Statement:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Quitting_a_place:has_purpose",
+          "object": "pursue his interest in scuba diving",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Travel:has_theme",
+          "object": "space",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Commemorative:has_theme",
+          "object": "Sri Lanka's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Appointing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Rite:has_time",
+          "object": "1998",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Earnings_and_losses:has_buyer",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+          "predicate": "Receiving:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/UNESCO",
+          "predicate": "Distinctiveness:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Size:has_entity",
+          "object": "readership",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Objective_influence:has_theme",
+          "object": "films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Emotion_directed:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Becoming_a_member:has_time",
+          "object": "while still a teenager",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Commemorative:has_time",
+          "object": "1998",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "one",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Behind_the_scenes:has_time",
+          "object": "1968",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Assistance:has_time",
+          "object": "1989",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he joined the British Interplanetary Society (BIS )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Leadership:has_theme",
+          "object": "http://en.wikipedia.org/wiki/British_Interplanetary_Society",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Using:has_instrument",
+          "object": "geostationary orbits",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+          "predicate": "Age:has_entity",
+          "object": "original Koneswaram Temple",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sri_Lanka",
+          "predicate": "Appointing:has_time",
+          "object": "1989",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Kalinga_Prize",
+          "predicate": "Receiving:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Nebula_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Kalinga_Prize",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Nebula_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/UNESCO",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Trincomalee",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Nebula_Award",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Kalinga_Prize",
+      "http://en.wikipedia.org/wiki/UNESCO",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Kalinga_Prize"
+    ],
+    "objects": [
+      "figures",
+      "books",
+      "space",
+      "satellite communication",
+      "http://en.wikipedia.org/wiki/Trincomalee",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "Commander of the Order of the British Empire (CBE)",
+      "as the \" Big Three \" of science fiction",
+      "1934",
+      "teenager",
+      "1934",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "genre",
+      "scuba diving",
+      "one of the towering figures of the genre",
+      "underwater ruins of the ancient original Koneswaram Temple",
+      "system",
+      "as one of the most influential films of all time",
+      "British cultural interests in Sri Lanka",
+      "number of Hugo and Nebula awards, which along with a large readership, made him one of the towering figures of the genre",
+      "teenager",
+      "1968",
+      "towering figures of the genre",
+      "Hugo and Nebula awards",
+      "space travel",
+      "1934",
+      "1956",
+      "Ceylon (now Sri Lanka)",
+      "Kalinga Prize, a UNESCO award for popularising science",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "science fiction",
+      "1934",
+      "futurist",
+      "1968",
+      "http://en.wikipedia.org/wiki/Trincomalee",
+      "ancient",
+      "years",
+      "1946",
+      "magazines",
+      "number",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "That year",
+      "Clarke, Robert Heinlein, and Isaac Asimov",
+      "Arthur Clarke (disambiguation)",
+      "populariser of space travel",
+      "2001 : A Space Odyssey",
+      "services to British cultural interests in Sri Lanka",
+      "1945",
+      "which along with a large readership",
+      "popularising science",
+      "British Interplanetary Society (BIS )",
+      "many books and many essays for popular magazines",
+      "books",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "1945",
+      "That",
+      "uses",
+      "highest civil",
+      "Hugo and Nebula",
+      "essays",
+      "most",
+      "1946 to 1947 and again in 1951–1953",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "1968",
+      "http://en.wikipedia.org/wiki/Trincomalee",
+      "many",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "satellite communication system using geostationary orbits",
+      "still",
+      "many",
+      "lifelong",
+      "2001 : A Space Odyssey",
+      "1945",
+      "pursue his interest in scuba diving",
+      "many",
+      "space",
+      "Sri Lanka's",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "1998",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "1961",
+      "His science fiction writings in particular",
+      "readership",
+      "films",
+      "1956",
+      "while still a teenager",
+      "1998",
+      "one",
+      "1968",
+      "1989",
+      "he joined the British Interplanetary Society (BIS )",
+      "http://en.wikipedia.org/wiki/British_Interplanetary_Society",
+      "geostationary orbits",
+      "original Koneswaram Temple",
+      "films",
+      "1989",
+      "1961"
+    ],
+    "all_unique": [
+      "British cultural interests in Sri Lanka",
+      "http://en.wikipedia.org/wiki/Robert_A._Heinlein",
+      "essays",
+      "http://en.wikipedia.org/wiki/Space_Odyssey",
+      "Kalinga Prize, a UNESCO award for popularising science",
+      "Hugo and Nebula awards",
+      "futurist",
+      "His science fiction writings in particular",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "science fiction",
+      "Ceylon (now Sri Lanka)",
+      "satellite communication",
+      "as the \" Big Three \" of science fiction",
+      "Commander of the Order of the British Empire (CBE)",
+      "http://en.wikipedia.org/wiki/Kalinga_Prize",
+      "readership",
+      "populariser of space travel",
+      "original Koneswaram Temple",
+      "figures",
+      "1945",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Trincomalee",
+      "most",
+      "ancient",
+      "That",
+      "http://en.wikipedia.org/wiki/Koneswaram_Temple",
+      "services to British cultural interests in Sri Lanka",
+      "many",
+      "one",
+      "films",
+      "teenager",
+      "pursue his interest in scuba diving",
+      "1946",
+      "as one of the most influential films of all time",
+      "2001 : A Space Odyssey",
+      "satellite communication system using geostationary orbits",
+      "space",
+      "which along with a large readership",
+      "uses",
+      "highest civil",
+      "system",
+      "Clarke, Robert Heinlein, and Isaac Asimov",
+      "http://en.wikipedia.org/wiki/Nebula_Award",
+      "number of Hugo and Nebula awards, which along with a large readership, made him one of the towering figures of the genre",
+      "still",
+      "Arthur Clarke (disambiguation)",
+      "1934",
+      "1956",
+      "1968",
+      "number",
+      "scuba diving",
+      "http://en.wikipedia.org/wiki/Sri_Lanka",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "Sri Lanka's",
+      "magazines",
+      "1961",
+      "genre",
+      "he joined the British Interplanetary Society (BIS )",
+      "towering figures of the genre",
+      "1998",
+      "Hugo and Nebula",
+      "http://en.wikipedia.org/wiki/British_Interplanetary_Society",
+      "many books and many essays for popular magazines",
+      "British Interplanetary Society (BIS )",
+      "one of the towering figures of the genre",
+      "http://en.wikipedia.org/wiki/UNESCO",
+      "books",
+      "lifelong",
+      "underwater ruins of the ancient original Koneswaram Temple",
+      "years",
+      "1946 to 1947 and again in 1951–1953",
+      "1989",
+      "while still a teenager",
+      "space travel",
+      "That year",
+      "geostationary orbits",
+      "popularising science"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Building_subparts:has_theme",
+      "Quantified_mass:has_theme",
+      "Travel:has_theme",
+      "System:has_theme",
+      "Age:has_location",
+      "Residence:has_theme",
+      "Appointing:has_role",
+      "Being_named:has_theme",
+      "People_by_age:has_time",
+      "People_by_age:has_age",
+      "Temporal_collocation:has_theme",
+      "Death:has_theme",
+      "Type:has_theme",
+      "Emotion_directed:has_theme",
+      "Causation:has_effect",
+      "Becoming_aware:has_theme",
+      "System:has_theme",
+      "Categorization:has_category",
+      "Assistance:has_theme",
+      "Earnings_and_losses:has_theme",
+      "Continued_state_of_affairs:has_theme",
+      "Categorization:has_time",
+      "Cardinal_numbers:has_entity",
+      "Quantified_mass:has_theme",
+      "Attempt:has_goal",
+      "Continued_state_of_affairs:has_time",
+      "Quitting_a_place:has_time",
+      "Quitting_a_place:has_theme",
+      "Receiving:has_theme",
+      "Becoming_a_member:has_theme",
+      "Text_creation:has_text",
+      "Temporal_collocation:has_time",
+      "Capability:has_entity",
+      "Behind_the_scenes:has_time",
+      "Becoming_aware:has_theme",
+      "Age:has_age",
+      "Measure_duration:has_theme",
+      "Leadership:has_time",
+      "Desirability:has_theme",
+      "Quantified_mass:has_quantity",
+      "Emotion_directed:has_theme",
+      "Becoming_aware:has_time",
+      "Being_named:has_entity",
+      "Reference_text:has_theme",
+      "Grasp:has_theme",
+      "Categorization:has_item",
+      "Appointing:has_function",
+      "Using:has_time",
+      "Causation:has_cause",
+      "Distinctiveness:has_feature",
+      "Becoming_a_member:has_group",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Rite:has_theme",
+      "System:has_time",
+      "Calendric_unit:has_theme",
+      "Increment:has_class",
+      "Commemorative:has_theme",
+      "Receiving:has_theme",
+      "Quantified_mass:has_theme",
+      "Objective_influence:has_degree",
+      "Leadership:has_theme",
+      "Desirability:has_theme",
+      "Objective_influence:has_time",
+      "Becoming_aware:has_location",
+      "Measure_duration:has_theme",
+      "Causation:has_theme",
+      "Statement:has_message",
+      "Continued_state_of_affairs:has_theme",
+      "Quantified_mass:has_theme",
+      "Attempt:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Statement:has_time",
+      "Quitting_a_place:has_purpose",
+      "Quantified_mass:has_quantity",
+      "Travel:has_theme",
+      "Commemorative:has_theme",
+      "Appointing:has_theme",
+      "Rite:has_time",
+      "Earnings_and_losses:has_buyer",
+      "Receiving:has_recipient",
+      "Distinctiveness:has_time",
+      "Earnings_and_losses:has_theme",
+      "Size:has_entity",
+      "Objective_influence:has_theme",
+      "Emotion_directed:has_time",
+      "Becoming_a_member:has_time",
+      "Commemorative:has_time",
+      "Cardinal_numbers:has_theme",
+      "Behind_the_scenes:has_time",
+      "Assistance:has_time",
+      "Temporal_collocation:has_theme",
+      "Leadership:has_theme",
+      "Using:has_instrument",
+      "Age:has_entity",
+      "Behind_the_scenes:has_theme",
+      "Appointing:has_time",
+      "Receiving:has_time"
+    ],
+    "unique_predicates": [
+      "Objective_influence:has_theme",
+      "Cardinal_numbers:has_theme",
+      "Assistance:has_time",
+      "Appointing:has_role",
+      "Age:has_entity",
+      "Using:has_time",
+      "People_by_age:has_age",
+      "Continued_state_of_affairs:has_time",
+      "Causation:has_theme",
+      "Quitting_a_place:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Causation:has_effect",
+      "Assistance:has_theme",
+      "Distinctiveness:has_time",
+      "Becoming_a_member:has_time",
+      "Using:has_instrument",
+      "Becoming_aware:has_location",
+      "Causation:has_cause",
+      "Becoming_aware:has_time",
+      "Appointing:has_theme",
+      "Rite:has_time",
+      "Grasp:has_theme",
+      "Categorization:has_item",
+      "Objective_influence:has_time",
+      "Categorization:has_time",
+      "Emotion_directed:has_time",
+      "Attempt:has_goal",
+      "Residence:has_theme",
+      "Appointing:has_function",
+      "Appointing:has_time",
+      "Temporal_collocation:has_theme",
+      "Receiving:has_theme",
+      "Being_named:has_entity",
+      "Distinctiveness:has_feature",
+      "Becoming_a_member:has_theme",
+      "Becoming_aware:has_theme",
+      "Receiving:has_time",
+      "Desirability:has_theme",
+      "Text:has_text",
+      "Leadership:has_time",
+      "System:has_time",
+      "Capability:has_entity",
+      "Quantified_mass:has_quantity",
+      "Temporal_collocation:has_time",
+      "Becoming_a_member:has_group",
+      "Statement:has_message",
+      "Statement:has_time",
+      "Emotion_directed:has_theme",
+      "Calendric_unit:has_theme",
+      "Measure_duration:has_theme",
+      "Building_subparts:has_theme",
+      "Behind_the_scenes:has_time",
+      "Being_named:has_theme",
+      "Leadership:has_theme",
+      "System:has_theme",
+      "Death:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Attempt:has_theme",
+      "Age:has_location",
+      "Rite:has_theme",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Text_creation:has_text",
+      "Quitting_a_place:has_purpose",
+      "Commemorative:has_time",
+      "Earnings_and_losses:has_buyer",
+      "Commemorative:has_theme",
+      "Age:has_age",
+      "Continued_state_of_affairs:has_theme",
+      "Receiving:has_recipient",
+      "Objective_influence:has_degree",
+      "Reference_text:has_theme",
+      "Size:has_entity",
+      "Quantified_mass:has_theme",
+      "People_by_age:has_time",
+      "Travel:has_theme",
+      "Quitting_a_place:has_time",
+      "Earnings_and_losses:has_theme",
+      "Type:has_theme"
+    ],
+    "predicate_counts": {
+      "Building_subparts:has_theme": 1,
+      "Quantified_mass:has_theme": 4,
+      "Travel:has_theme": 2,
+      "System:has_theme": 2,
+      "Age:has_location": 1,
+      "Residence:has_theme": 1,
+      "Appointing:has_role": 1,
+      "Being_named:has_theme": 1,
+      "People_by_age:has_time": 1,
+      "People_by_age:has_age": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Death:has_theme": 1,
+      "Type:has_theme": 1,
+      "Emotion_directed:has_theme": 2,
+      "Causation:has_effect": 1,
+      "Becoming_aware:has_theme": 2,
+      "Categorization:has_category": 1,
+      "Assistance:has_theme": 1,
+      "Earnings_and_losses:has_theme": 2,
+      "Continued_state_of_affairs:has_theme": 2,
+      "Categorization:has_time": 1,
+      "Cardinal_numbers:has_entity": 1,
+      "Attempt:has_goal": 1,
+      "Continued_state_of_affairs:has_time": 1,
+      "Quitting_a_place:has_time": 1,
+      "Quitting_a_place:has_theme": 1,
+      "Receiving:has_theme": 2,
+      "Becoming_a_member:has_theme": 1,
+      "Text_creation:has_text": 2,
+      "Temporal_collocation:has_time": 1,
+      "Capability:has_entity": 1,
+      "Behind_the_scenes:has_time": 2,
+      "Age:has_age": 1,
+      "Measure_duration:has_theme": 2,
+      "Leadership:has_time": 1,
+      "Desirability:has_theme": 2,
+      "Quantified_mass:has_quantity": 2,
+      "Becoming_aware:has_time": 1,
+      "Being_named:has_entity": 1,
+      "Reference_text:has_theme": 1,
+      "Grasp:has_theme": 1,
+      "Categorization:has_item": 1,
+      "Appointing:has_function": 1,
+      "Using:has_time": 1,
+      "Causation:has_cause": 1,
+      "Distinctiveness:has_feature": 1,
+      "Becoming_a_member:has_group": 1,
+      "Text:has_text": 1,
+      "Rite:has_theme": 1,
+      "System:has_time": 1,
+      "Calendric_unit:has_theme": 1,
+      "Increment:has_class": 1,
+      "Commemorative:has_theme": 2,
+      "Objective_influence:has_degree": 1,
+      "Leadership:has_theme": 2,
+      "Objective_influence:has_time": 1,
+      "Becoming_aware:has_location": 1,
+      "Causation:has_theme": 1,
+      "Statement:has_message": 1,
+      "Attempt:has_theme": 1,
+      "Behind_the_scenes:has_theme": 2,
+      "Statement:has_time": 1,
+      "Quitting_a_place:has_purpose": 1,
+      "Appointing:has_theme": 1,
+      "Rite:has_time": 1,
+      "Earnings_and_losses:has_buyer": 1,
+      "Receiving:has_recipient": 1,
+      "Distinctiveness:has_time": 1,
+      "Size:has_entity": 1,
+      "Objective_influence:has_theme": 1,
+      "Emotion_directed:has_time": 1,
+      "Becoming_a_member:has_time": 1,
+      "Commemorative:has_time": 1,
+      "Cardinal_numbers:has_theme": 1,
+      "Assistance:has_time": 1,
+      "Using:has_instrument": 1,
+      "Age:has_entity": 1,
+      "Appointing:has_time": 1,
+      "Receiving:has_time": 1
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Hearsay:has_message that",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Hearsay:has_message that' is vague and does not correspond to any specific information or relationship described in the paragraph. The paragraph contains quotes and statements about Twain, but nothing that maps to this specific, undefined relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Becoming:has_theme much sought-after speaker",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Twain became a much sought-after speaker.' This directly matches the subject and the object of the triple, and the predicate 'Becoming:has_theme' is a reasonable semantic match for the concept of 'becoming' something."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity writer, humorist, and essayist",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The subject is the United States, but the object 'writer, humorist, and essayist' describes Mark Twain, not the country. The relationship 'Origin:has_entity' is not supported; while Twain is an American writer, the paragraph does not state that the United States 'has' him as an entity in a way that aligns with this triple's structure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California Proportional_quantity:has_theme time",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Angels Camp, California as a place 'where Twain had spent some time.' This establishes a connection between the location and the concept of 'time,' making the triple semantically extractable, even if the predicate 'Proportional_quantity:has_theme' is an abstract fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Being_named:has_theme pen name Mark Twain",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Samuel Langhorne Clemens... known by the pen name Mark Twain.' This is a clear and direct statement that Mark Twain has the theme of being a pen name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn Supply:has_theme which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the book but does not discuss its theme or any 'Supply' related concept. The word 'which' is a grammatical connector, not a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Time_vector:has_theme Soon",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'Soon' appears in the text as a temporal adverb ('Soon after, Twain headed west...'), but it is not a 'theme' of Nevada. The relationship described by the predicate is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Kinship:has_theme American literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Twain was called 'the father of American literature' and that his work is foundational to it. There is a semantic connection between the United States and American literature, though the 'Kinship' relation is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Growing_food:has_location Hannibal, Missouri",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph clearly states Twain was raised in Hannibal, Missouri, providing a strong location connection. However, the predicate 'Growing_food:has_location' is highly specific to an unrelated domain (agriculture), making the triple's intended meaning not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Success_or_failure:has_role as a writer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Twain 'achieved success as a writer' and describes his writing career extensively. The concept of a 'role' related to success is semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Becoming:has_theme riverboat pilot on the Mississippi River",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Twain became a riverboat pilot on the Mississippi River, which directly relates to the 'Becoming' theme of taking on that role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity author and humorist",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Twain is described as an 'American' author and humorist, and America is synonymous with the United States. The connection to 'Origin' is a reasonable, though indirect, semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California First_experience:has_theme achieved success as a writer with the humorous story \" The Celebrated Jumping Frog of Calaveras County \" which was published in 1865",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Twain first achieved success with that story, which is set in Angels Camp, California, making the 'First_experience' theme strongly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Hearsay:has_location Angels Hotel in Angels Camp, California",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Twain heard the story that inspired his success at the Angels Hotel. 'Hearsay' is a reasonable thematic interpretation of this event, and the location is directly mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Political_locales:has_theme international",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically valid. The paragraph mentions the short story brought Twain 'international attention,' which can be loosely interpreted as having an international theme or scope. 'Political_locales' is a stretch, but the 'international' aspect is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Adventures_of_Brisco_County,_Jr. Age:has_attribute older",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'older brother Orion Clemens' but has no semantic connection to 'The Adventures of Brisco County, Jr.' or the specific attribute 'older' being applied to it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Creating:has_theme \" greatest humorist",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Twain was 'praised as the \"greatest humorist the United States has produced\"'. This creates a semantic link between the United States and the theme/concept of 'greatest humorist', though the predicate 'Creating:has_theme' is an imperfect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn Supply:has_theme setting for both Tom Sawyer and Huckleberry Finn",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hannibal, Missouri 'provided the setting for both Tom Sawyer and Huckleberry Finn'. This directly links the novel 'Adventures of Huckleberry Finn' to the theme of 'setting'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Duration_description:has_theme story",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Twain's 'story \"The Celebrated Jumping Frog of Calaveras County\"' and that he wrote fiction. There is a weak semantic connection between Mark Twain and the general theme of 'story', though the predicate 'Duration_description:has_theme' is vague and not a strong fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mississippi_River Natural_features:has_theme River",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'Mississippi River' and identifies it as a river. The triple's object 'River' is a direct classification of the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Being_named:has_time 1910",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Mark Twain's death year as 1910, which is a specific time associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California Proportional_quantity:has_theme some",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Angels Camp, California is mentioned as the location where Twain heard a story that became 'The Celebrated Jumping Frog of Calaveras County'. The triple is incomplete/vague but there is a weak semantic connection to the location having a theme/story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Becoming:has_time As his fame grew",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'As his fame grew' describes a period when Twain became a sought-after speaker, indicating a time-associated change/becoming process."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Time_vector:has_event Twain headed west to join Orion in Nevada",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions Twain heading west to join Orion in Nevada, which is an event associated with Nevada."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Adventures_of_Brisco_County,_Jr. Bringing:has_theme international attention",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Adventures of Brisco County, Jr. is not mentioned in the paragraph at all and has no semantic connection to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Self_motion:has_theme http://en.wikipedia.org/wiki/Mark_Twain",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Twain headed west to join Orion in Nevada, establishing a thematic connection between Nevada and Twain's life journey"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California Being_employed:has_position as a miner",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions Twain spent time in Angels Camp, California while working as a miner"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Text:has_author Twain's",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Twain is clearly identified as an author throughout the paragraph, with multiple references to his works"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Self_motion:has_purpose join Orion in Nevada",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states Twain headed west to join Orion in Nevada"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Adventures_of_Brisco_County,_Jr. Referring_by_name:has_theme Great American Novel",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Adventures of Brisco County, Jr. is not mentioned in the paragraph and has no semantic connection to the content"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Topic:has_theme his lack of success at mining",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'He referred humorously to his lack of success at mining', directly connecting Mark Twain to the theme of his lack of success in mining."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Text:has_text fiction",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'He wrote both fiction and non-fiction', directly indicating that Mark Twain produced works of fiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California Being_employed:has_employee http://en.wikipedia.org/wiki/Mark_Twain",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Twain 'was working as a miner' and spent time at Angels Hotel in Angels Camp, California, implying employment in the area, though the employment relationship to the specific location is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Expansion:has_item his fame",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'As his fame grew, Twain became a much sought-after speaker', connecting Mark Twain to the concept of his fame, which can be semantically related to 'has_item' in a broad sense."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Kinship:has_theme brother",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'his older brother Orion Clemens', establishing a brother relationship. While 'has_theme brother' is an unusual phrasing, there is a semantic connection to the theme of kinship/brotherhood."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Self_motion:has_theme west",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Twain headed west to join Orion in Nevada,' connecting Nevada with the theme of going west."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Labeling:has_entity http://en.wikipedia.org/wiki/Mark_Twain",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'William Faulkner calling him [Mark Twain] \"the father of American literature\",' establishing a clear labeling relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Angels_Camp,_California Publishing:has_work which",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Angels Camp, CA as the location where Twain heard the story that became 'The Celebrated Jumping Frog of Calaveras County.' The triple is vague ('which'), but a weak connection to a work being associated with the location exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph quotes William Faulkner calling Mark Twain 'the father of American literature.' This connects the United States (via American literature) to the theme of 'father,' albeit metaphorically."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Reference_text:has_time 1910",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph begins by giving Mark Twain's lifespan, which includes the year 1910 as his death year, associating him with that time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Text:has_text book",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly lists several books written by Mark Twain, including 'The Adventures of Tom Sawyer', 'Adventures of Huckleberry Finn', 'A Connecticut Yankee in King Arthur's Court', and 'Pudd'nhead Wilson'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mississippi_River Supply:has_recipient http://en.wikipedia.org/wiki/Mark_Twain",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Twain's experience as a riverboat pilot on the Mississippi River 'provided him the material for Life on the Mississippi', establishing a supplier-recipient relationship between the river and Twain."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Possession:has_theme success at mining",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph explicitly states the opposite - that Twain had a 'lack of success at mining'. The triple incorrectly attributes possession of 'success at mining'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mississippi_River Supply:has_theme material for Life on the Mississippi",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that Twain's experience on the Mississippi River 'provided him the material for Life on the Mississippi', clearly establishing the river as supplying this theme/material."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Statement:has_speaker novelist Ernest Hemingway",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that 'the novelist Ernest Hemingway claimed' something about Twain's work, which establishes Hemingway as a speaker making a statement, though the triple structure is somewhat redundant."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn Time_vector:has_event provided the setting for both Tom Sawyer and Huckleberry Finn",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hannibal, Missouri 'provided the setting for both Tom Sawyer and Huckleberry Finn'. While the predicate is awkward, the core semantic relationship (Huckleberry Finn has a setting) is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn Supply:has_location Hannibal",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph connects Huckleberry Finn to Hannibal, Missouri as its setting. 'Has_location' is a reasonable semantic interpretation of 'provided the setting', even if 'Supply:' is an unusual prefix."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mark_Twain Text_creation:has_time 1910",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "1910 is Mark Twain's death date, not directly a 'text creation' time. However, the paragraph mentions his lifespan (1835-1910), which is temporally related to his writing career. This is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nevada Becoming_a_member:has_theme http://en.wikipedia.org/wiki/Mark_Twain",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Twain 'headed west to join Orion in Nevada'. The predicate 'Becoming_a_member:has_theme' is highly abstract, but a lenient interpretation could see Nevada as a 'theme' or significant location in his life story, as described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Statement:has_message that \" All modern American literature comes from one book by Mark Twain called Huckleberry Finn\"",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The quote attributed to Hemingway is directly stated in the paragraph. The semantic relationship (Hemingway made a statement with this message) is clearly extractable."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 37,
+    "accuracy": 0.74,
+    "avg_confidence": 0.606,
+    "high_confidence_50": 37,
+    "high_confidence_80": 21,
+    "percent_50": 74.0,
+    "percent_80": 42.0,
+    "max_triples_limit": 50
+  }
+}

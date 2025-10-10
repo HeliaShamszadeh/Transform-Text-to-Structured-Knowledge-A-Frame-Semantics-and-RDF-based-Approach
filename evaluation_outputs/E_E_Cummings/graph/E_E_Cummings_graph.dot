@@ -1,0 +1,276 @@
+digraph E_E_Cummings {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "atom of the cute commonplace" [label="atom of the cute commonplace", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "much of his work" [label="much of his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "as i—six nonlectures 1953" [label="as i—six nonlectures 1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "general and the special reader" [label="general and the special reader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "avant-garde, experimental" [label="avant-garde, experimental", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cummings's inventions" [label="Cummings's inventions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first collection of poe..." [label="his first collection of poe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During World War I" [label="During World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "E. E. Cummings" [label="E. E. Cummings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetic expression" [label="poetic expression", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poets" [label="American poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ways" [label="ways", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Enormous Room" [label="The Enormous Room", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following year" [label="following year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "No one else has ever made a..." [label="No one else has ever made a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet Randall Jarrell" [label="poet Randall Jarrell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "No one else" [label="No one else", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World War I" [label="World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetic" [label="poetic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as e e cummings or E. E. Cu..." [label="as e e cummings or E. E. Cu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist free-form poetry" [label="modernist free-form poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "experiments with grammar an..." [label="experiments with grammar an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four plays" [label="four plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "have felt," [label="have felt,", fillcolor=lightgray, color=gray, shape=hexagon];
+    "splitting the atom of the c..." [label="splitting the atom of the c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Randall Jarrell" [label="Randall Jarrell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "masterfully" [label="masterfully", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four plays, the most succes..." [label="four plays, the most succes...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most importan..." [label="as one of the most importan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an ambulance driver" [label="as an ambulance driver", fillcolor=lightgray, color=gray, shape=hexagon];
+    "idiosyncratic syntax and lo..." [label="idiosyncratic syntax and lo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Enormous Room" [label="Enormous Room", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language" [label="language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stripping the film of famil..." [label="stripping the film of famil...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "film of familiarity" [label="film of familiarity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "approximately 2,900 poems" [label="approximately 2,900 poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1927" [label="1927", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist" [label="modernist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "so" [label="so", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection of poetry" [label="collection of poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fairy Tales 1965 , a collec..." [label="Fairy Tales 1965 , a collec...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1933" [label="1933", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "EIMI 1933 " [label="EIMI 1933 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet, painter, essayist, au..." [label="poet, painter, essayist, au...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charles Eliot Norton Lectur..." [label="Charles Eliot Norton Lectur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cummings's" [label="Cummings's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elijah Cummings" [label="Elijah Cummings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soviet Union" [label="Soviet Union", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "travelog" [label="travelog", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1965" [label="1965", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as various ways of strippin..." [label="as various ways of strippin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "conventional" [label="conventional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "avant-garde, experimental p..." [label="avant-garde, experimental p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following" [label="following", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edward Estlin Cummings Octo..." [label="Edward Estlin Cummings Octo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "World War I" -> "poetry" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Elijah Cummings" -> "E. E. Cummings" [label="has author [Text]", color=lightblue, penwidth=1];
+    "World War I" -> "plays" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "World War I" -> "as i—six nonlectures 1953" [label="has time [Publishing]", color=purple, penwidth=2];
+    "World War I" -> "1965" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "World War I" -> "as various ways of strippin..." [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "The Enormous Room" -> "avant-garde, experimental p..." [label="has theme [Cause_motion]", color=lightcyan, penwidth=1];
+    "World War I" -> "Charles Eliot Norton Lectur..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Elijah Cummings" -> "1962" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "World War I" -> "During World War I" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "E. E. Cummings" -> "United States" [label="has location [Text]", color=green, penwidth=2];
+    "World War I" -> "20th" [label="has theme [Calendric_unit]", color=lightgoldenrodyellow, penwidth=1];
+    "Elijah Cummings" -> "1933" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "United States" -> "poets" [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "World War I" -> "ways" [label="has means [Means]", color=lightgoldenrod, penwidth=1];
+    "World War I" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "author" [label="has author [Text]", color=lightblue, penwidth=1];
+    "Elijah Cummings" -> "Edward Estlin Cummings Octo..." [label="has author [Text_creation]", color=lightseagreen, penwidth=1];
+    "Randall Jarrell" -> "poet Randall Jarrell" [label="has speaker [Statement]", color=lightpink, penwidth=1];
+    "The Enormous Room" -> "film of familiarity" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+    "World War I" -> "poetic expression" [label="has purpose [Using]", color=lightcoral, penwidth=1];
+    "World War I" -> "short stories" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "The Enormous Room" -> "Charles Eliot Norton Lectur..." [label="has theme [Delivery]", color=lightcoral, penwidth=1];
+    "World War I" -> "posthumously" [label="has time [Publishing]", color=purple, penwidth=2];
+    "World War I" -> "1933" [label="has time [Text]", color=purple, penwidth=2];
+    "Elijah Cummings" -> "as e e cummings or E. E. Cu..." [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "World War I" -> "1927" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "The Enormous Room" -> "world" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+    "Elijah Cummings" -> "E. E. Cummings" [label="has agent [Labor_product]", color=lightpink, penwidth=1];
+    "World War I" -> "following" [label="has theme [Calendric_unit]", color=lightgoldenrodyellow, penwidth=1];
+    "World War I" -> "have felt," [label="has theme [Give_impression]", color=lightcyan, penwidth=1];
+    "World War I" -> "world" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "World War I" -> "experiments with grammar an..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "world" [label="has entity [Cause_change]", color=lightgoldenrodyellow, penwidth=1];
+    "Elijah Cummings" -> "E. E. Cummings" [label="has author [Text_creation]", color=lightseagreen, penwidth=1];
+    "World War I" -> "Cummings's inventions" [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "World War I" -> "four plays" [label="has agent [Success_or_failure]", color=lightyellow, penwidth=1];
+    "World War I" -> "stripping the film of famil..." [label="has purpose [Means]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "author" [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "World War I" -> "following year" [label="has time [Publishing]", color=purple, penwidth=2];
+    "World War I" -> "as an ambulance driver" [label="has position [Being_employed]", color=lightgray, penwidth=1];
+    "World War I" -> "poetry" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "World War I" -> "avant-garde, experimental p..." [label="has theme [Intentionally_create]", color=lightseagreen, penwidth=1];
+    "United States" -> "1962" [label="has time [Origin]", color=purple, penwidth=2];
+    "Elijah Cummings" -> "four plays, the most succes..." [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "E. E. Cummings" -> "1962" [label="has time [Text]", color=purple, penwidth=2];
+    "Elijah Cummings" -> "work" [label="has theme [Labor_product]", color=lightpink, penwidth=1];
+    "Elijah Cummings" -> "E. E. Cummings" [label="has agent [Separating]", color=lightsalmon, penwidth=1];
+    "Randall Jarrell" -> "No one else has ever made a..." [label="has message [Statement]", color=lightpink, penwidth=1];
+    "World War I" -> "E. E. Cummings" [label="has theme [Publishing]", color=lightgreen, penwidth=1];
+    "The Enormous Room" -> "E. E. Cummings" [label="has theme [Delivery]", color=lightcoral, penwidth=1];
+    "World War I" -> "E. E. Cummings" [label="has theme [Cognitive_connection]", color=lightgoldenrod, penwidth=1];
+    "Randall Jarrell" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "1962" [label="has time [Text]", color=purple, penwidth=2];
+    "Elijah Cummings" -> "1962" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "World War I" -> "modernist" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Elijah Cummings" -> "1962" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Elijah Cummings" -> "Edward Estlin Cummings Octo..." [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Elijah Cummings" -> "1927" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "E. E. Cummings" -> "approximately 2,900 poems" [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "World War I" -> "four" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "E. E. Cummings" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "World War I" -> "poetic" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "World War I" -> "No one else" [label="has creator [Intentionally_create]", color=lightseagreen, penwidth=1];
+    "World War I" -> "year" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "World War I" -> "modernist free-form poetry" [label="has theme [Cognitive_connection]", color=lightgoldenrod, penwidth=1];
+    "World War I" -> "avant-garde, experimental" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "World War I" -> "1965" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "World War I" -> "his first collection of poe..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Elijah Cummings" -> "atom of the cute commonplace" [label="has theme [Separating]", color=lightsalmon, penwidth=1];
+    "World War I" -> "poetic" [label="has message [Encoding]", color=lightsteelblue, penwidth=1];
+    "World War I" -> "conventional" [label="has theme [Using]", color=lightcoral, penwidth=1];
+    "Elijah Cummings" -> "E. E. Cummings" [label="has theme [Successful_action]", color=lightcoral, penwidth=1];
+    "The Enormous Room" -> "so" [label="has degree [Cause_motion]", color=lightcyan, penwidth=1];
+    "United States" -> "poet, painter, essayist, au..." [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "United States" -> "as one of the most importan..." [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "Elijah Cummings" -> "Enormous Room" [label="has text [Text]", color=lightblue, penwidth=1];
+    "World War I" -> "1927" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "World War I" -> "most" [label="has degree [Success_or_failure]", color=lightyellow, penwidth=1];
+    "Elijah Cummings" -> "masterfully" [label="has degree [Successful_action]", color=lightcoral, penwidth=1];
+    "Randall Jarrell" -> "E. E. Cummings" [label="has theme [Statement]", color=lightpink, penwidth=1];
+    "The Enormous Room" -> "language" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+    "World War I" -> "much of his work" [label="has agent [Using]", color=lightcoral, penwidth=1];
+    "Elijah Cummings" -> "splitting the atom of the c..." [label="has goal [Successful_action]", color=lightcoral, penwidth=1];
+    "Elijah Cummings" -> "EIMI 1933 " [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "World War I" -> "E. E. Cummings" [label="has employee [Being_employed]", color=lightgray, penwidth=1];
+    "World War I" -> "idiosyncratic syntax and lo..." [label="has instrument [Using]", color=lightcoral, penwidth=1];
+    "World War I" -> "collection of poetry" [label="has type [Ordinal_numbers]", color=lightblue, penwidth=1];
+    "World War I" -> "collection" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "Elijah Cummings" -> "1922" [label="has time [Text]", color=purple, penwidth=2];
+    "Soviet Union" -> "travelog" [label="has text [Text]", color=lightblue, penwidth=1];
+    "World War I" -> "Fairy Tales 1965 , a collec..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "World War I" -> "American poets" [label="has theme [Importance]", color=lightcoral, penwidth=1];
+    "World War I" -> "20th century" [label="has time [Importance]", color=purple, penwidth=2];
+    "The Enormous Room" -> "general and the special reader" [label="has agent [Cause_motion]", color=lightcyan, penwidth=1];
+    "E. E. Cummings" -> "Cummings's" [label="has theme [Coming_up_with]", color=lightgreen, penwidth=1];
+    "The Enormous Room" -> "1933" [label="has time [Delivery]", color=purple, penwidth=2];
+    "Soviet Union" -> "1933" [label="has time [Text]", color=purple, penwidth=2];
+    "World War I" -> "stories" [label="has theme [Duration_description]", color=lightyellow, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cause_motion_legend" [label="Cause_motion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Means_legend" [label="Means", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Delivery_legend" [label="Delivery", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Separating_legend" [label="Separating", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cognitive_connection_legend" [label="Cognitive_connection", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Encoding_legend" [label="Encoding", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Successful_action_legend" [label="Successful_action", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Coming_up_with_legend" [label="Coming_up_with", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

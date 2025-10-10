@@ -1,0 +1,311 @@
+digraph J_K_Rowling {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "British author and philanth..." [label="British author and philanth...", fillcolor=lightcoral, color=red, shape=circle];
+    "world's highest-paid author" [label="world's highest-paid author", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "Rowling's writing" [label="Rowling's writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "first novel in the series, ..." [label="first novel in the series, ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing" [label="writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her work" [label="her work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "fantasy novels" [label="fantasy novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "many accolades for her work" [label="many accolades for her work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "death of her mother, the bi..." [label="death of her mother, the bi...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "Harry Potter and the Deathly Hallows" [label="Harry Potter and the Deathly Hallows", fillcolor=lightyellow, color=orange, shape=diamond];
+    "Harry Potter and the Deathl..." [label="Harry Potter and the Deathl...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1997 to 2007" [label="1997 to 2007", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Critical reception" [label="Critical reception", fillcolor=lightgray, color=gray, shape=hexagon];
+    "husband" [label="husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "religious debates over the ..." [label="religious debates over the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boy called Harry Potter as ..." [label="boy called Harry Potter as ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wizards" [label="wizards", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cormoran Strike, an ongoing..." [label="Cormoran Strike, an ongoing...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "period" [label="period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fandom" [label="fandom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1990" [label="1990", fillcolor=lightgray, color=gray, shape=hexagon];
+    "31 July 1965" [label="31 July 1965", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1965" [label="1965", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over the Harry Potter series" [label="over the Harry Potter series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "host of imitators" [label="host of imitators", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Forbes" [label="Forbes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lord Voldemort" [label="Lord Voldemort", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more" [label="more", fillcolor=lightgray, color=gray, shape=hexagon];
+    "host" [label="host", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boy" [label="boy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Six sequels" [label="Six sequels", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many reviewers" [label="Many reviewers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven-year period that foll..." [label="seven-year period that foll...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Yate, Gloucestershire" [label="Yate, Gloucestershire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy" [label="fantasy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother" [label="her mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United Kingdom" [label="United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films and video games" [label="films and video games", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harry Potter" [label="Harry Potter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Amnesty International" [label="Amnesty International", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies" [label="copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy as a genre in the c..." [label="fantasy as a genre in the c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rowling's" [label="Rowling's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bildungsroman  the coming-o..." [label="Bildungsroman  the coming-o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joanne Rowling  / r o l / i..." [label="Joanne Rowling  / r o l / i...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "imitators" [label="imitators", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history" [label="history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many" [label="Many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "J. K. Rowling" [label="J. K. Rowling", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reviewers" [label="reviewers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "series" [label="series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hogwarts a school for wizards " [label="Hogwarts a school for wizards ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "global" [label="global", fillcolor=lightgray, color=gray, shape=hexagon];
+    "global media franchise" [label="global media franchise", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sequels" [label="sequels", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2007" [label="2007", fillcolor=lightgray, color=gray, shape=hexagon];
+    "active fandom" [label="active fandom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "themes" [label="themes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as conventional" [label="as conventional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Its influences" [label="Its influences", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2008" [label="2008", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as regressive" [label="as regressive", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wizard" [label="wizard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her portrayal of gender and..." [label="her portrayal of gender and...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1997" [label="1997", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her first husband" [label="her first husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her first child" [label="her first child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "accolades" [label="accolades", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over 600 million copies" [label="over 600 million copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crime fiction series" [label="crime fiction series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "religious" [label="religious", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harry Potter, a seven-volum..." [label="Harry Potter, a seven-volum...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Calluna" [label="Calluna", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into 84 languages" [label="into 84 languages", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Amnesty International" -> "1997" [label="has time [Text]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "J. K. Rowling" [label="has theme [Being_named]", color=lightcoral, penwidth=1];
+    "Amnesty International" -> "novel" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Harry Potter" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "imitators" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "J. K. Rowling" -> "as conventional" [label="has category [Categorization]", color=lightyellow, penwidth=1];
+    "Amnesty International" -> "novel" [label="has type [Ordinal_numbers]", color=lightpink, penwidth=1];
+    "Amnesty International" -> "1997" [label="has time [Publishing]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "1997" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Amnesty International" -> "1997" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Amnesty International" -> "fantasy as a genre in the c..." [label="has process [Cause_to_resume]", color=lightgray, penwidth=1];
+    "J. K. Rowling" -> "Yate, Gloucestershire" [label="has location [Being_born]", color=green, penwidth=2];
+    "Harry Potter" -> "British author and philanth..." [label="has author [Text]", color=lightblue, penwidth=1];
+    "J. K. Rowling" -> "1965" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Calluna" -> "into 84 languages" [label="has theme [Translating]", color=lightseagreen, penwidth=1];
+    "Harry Potter" -> "Harry Potter, a seven-volum..." [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "Amnesty International" -> "themes" [label="has theme [Part_inner_outer]", color=lightgoldenrod, penwidth=1];
+    "Harry Potter" -> "languages" [label="has theme [Frequency]", color=lightpink, penwidth=1];
+    "Harry Potter" -> "films and video games" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "fantasy novels" [label="has work [Publishing]", color=lightcyan, penwidth=1];
+    "Amnesty International" -> "1997" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Harry Potter" -> "1965" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Amnesty International" -> "series" [label="has theme [Part_inner_outer]", color=lightgoldenrod, penwidth=1];
+    "Harry Potter" -> "British author and philanth..." [label="has author [Text_creation]", color=lightsalmon, penwidth=1];
+    "J. K. Rowling" -> "writing" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "school" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "1965" [label="has time [Text]", color=purple, penwidth=2];
+    "Amnesty International" -> "that" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Amnesty International" -> "Six sequels" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "Rowling's writing" [label="has item [Categorization]", color=lightyellow, penwidth=1];
+    "Harry Potter" -> "United Kingdom" [label="has location [Text]", color=green, penwidth=2];
+    "Amnesty International" -> "series" [label="has cause [Cause_to_resume]", color=lightgray, penwidth=1];
+    "Harry Potter" -> "global media franchise" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "period" [label="has theme [Frequency]", color=lightpink, penwidth=1];
+    "J. K. Rowling" -> "1965" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "mother" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "J. K. Rowling" -> "Many reviewers" [label="has theme [Categorization]", color=lightyellow, penwidth=1];
+    "Harry Potter" -> "history" [label="has theme [Individual_history]", color=lightpink, penwidth=1];
+    "Amnesty International" -> "as regressive" [label="has category [Categorization]", color=lightyellow, penwidth=1];
+    "Harry Potter" -> "over the Harry Potter series" [label="has theme [Discussion]", color=lightcyan, penwidth=1];
+    "Harry Potter" -> "1997 to 2007" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Harry Potter" -> "novelist" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Harry Potter" -> "death of her mother, the bi..." [label="has effect [Causation]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "host of imitators" [label="has theme [Giving_birth]", color=lightgray, penwidth=1];
+    "Harry Potter" -> "copies" [label="has theme [Duplication]", color=lightgoldenrodyellow, penwidth=1];
+    "Amnesty International" -> "Bildungsroman  the coming-o..." [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "J. K. Rowling" -> "Joanne Rowling  / r o l / i..." [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "1965" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Amnesty International" -> "sequels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "boy called Harry Potter as ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Amnesty International" -> "accolades" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "J. K. Rowling" -> "husband" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Amnesty International" -> "series" [label="has mother [Giving_birth]", color=lightgray, penwidth=1];
+    "Harry Potter" -> "1997" [label="has time [Individual_history]", color=purple, penwidth=2];
+    "Amnesty International" -> "wizards" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "wizard" [label="has entity [Age]", color=lightseagreen, penwidth=1];
+    "Amnesty International" -> "boy" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Harry Potter" -> "31 July 1965" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Amnesty International" -> "series" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "Lord Voldemort" [label="has theme [Hostile_encounter]", color=lightgoldenrod, penwidth=1];
+    "Forbes" -> "J. K. Rowling" [label="has theme [Appointing]", color=lightpink, penwidth=1];
+    "Harry Potter" -> "young" [label="has age [Age]", color=lightseagreen, penwidth=1];
+    "Forbes" -> "2008" [label="has time [Appointing]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "her work" [label="has reason [Judgment]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "her mother" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "Amnesty International" -> "her first husband" [label="has theme [Forming_relationships]", color=lightblue, penwidth=1];
+    "Harry Potter" -> "1997" [label="has time [Causation]", color=purple, penwidth=2];
+    "Harry Potter and the Deathly Hallows" -> "2007" [label="has time [Process_end]", color=purple, penwidth=2];
+    "Amnesty International" -> "Its influences" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Harry Potter" -> "religious debates over the ..." [label="has entity [Existence]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "active fandom" [label="has theme [Subjective_influence]", color=lightgreen, penwidth=1];
+    "Harry Potter" -> "fantasy" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "J. K. Rowling" -> "1990" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Amnesty International" -> "some" [label="has theme [Categorization]", color=lightyellow, penwidth=1];
+    "Amnesty International" -> "novels" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Harry Potter" -> "crime fiction series" [label="has event [Process_continue]", color=lightyellow, penwidth=1];
+    "J. K. Rowling" -> "1997" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Harry Potter" -> "book" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "Many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Harry Potter" -> "1997" [label="has time [Commerce_sell]", color=purple, penwidth=2];
+    "Amnesty International" -> "2007" [label="has time [Text]", color=purple, penwidth=2];
+    "J. K. Rowling" -> "many accolades for her work" [label="has theme [Getting]", color=lightcyan, penwidth=1];
+    "Amnesty International" -> "her first child" [label="has child [Giving_birth]", color=lightgray, penwidth=1];
+    "Amnesty International" -> "series" [label="has theme [Ordinal_numbers]", color=lightpink, penwidth=1];
+    "Amnesty International" -> "1997" [label="has time [Death]", color=purple, penwidth=2];
+    "Amnesty International" -> "Harry Potter" [label="has theme [Hostile_encounter]", color=lightgoldenrod, penwidth=1];
+    "J. K. Rowling" -> "Cormoran Strike, an ongoing..." [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "Amnesty International" -> "reviewers" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "J. K. Rowling" -> "child" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Harry Potter" -> "boy" [label="has entity [Referring_by_name]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "1997" [label="has time [Giving_birth]", color=purple, penwidth=2];
+    "Harry Potter" -> "global" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Harry Potter" -> "1997" [label="has time [Text]", color=purple, penwidth=2];
+    "Amnesty International" -> "more" [label="has degree [Amalgamation]", color=lightgoldenrodyellow, penwidth=1];
+    "J. K. Rowling" -> "Rowling's" [label="has author [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "1997" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Harry Potter" -> "Hogwarts a school for wizards " [label="has event [Attending]", color=lightseagreen, penwidth=1];
+    "Amnesty International" -> "first novel in the series, ..." [label="has work [Publishing]", color=lightcyan, penwidth=1];
+    "Harry Potter" -> "series" [label="has entity [Subjective_influence]", color=lightgreen, penwidth=1];
+    "Amnesty International" -> "fandom" [label="has agent [Being_active]", color=lightsalmon, penwidth=1];
+    "Harry Potter" -> "religious" [label="has theme [Discussion]", color=lightcyan, penwidth=1];
+    "Forbes" -> "world's highest-paid author" [label="has role [Appointing]", color=lightpink, penwidth=1];
+    "Amnesty International" -> "Critical reception" [label="has theme [Amalgamation]", color=lightgoldenrodyellow, penwidth=1];
+    "Amnesty International" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Amnesty International" -> "2007" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Harry Potter" -> "1997" [label="has time [Duplication]", color=purple, penwidth=2];
+    "Harry Potter" -> "over 600 million copies" [label="has goods [Commerce_sell]", color=lightpink, penwidth=1];
+    "Harry Potter" -> "1965" [label="has time [Age]", color=purple, penwidth=2];
+    "Amnesty International" -> "1997" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Harry Potter and the Deathly Hallows" -> "Harry Potter and the Deathl..." [label="has process [Process_end]", color=lightblue, penwidth=1];
+    "Harry Potter" -> "seven-year period that foll..." [label="has cause [Causation]", color=lightsteelblue, penwidth=1];
+    "Amnesty International" -> "her portrayal of gender and..." [label="has item [Categorization]", color=lightyellow, penwidth=1];
+    "Amnesty International" -> "host" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "J. K. Rowling" -> "2008" [label="has time [Text_creation]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cause_to_resume_legend" [label="Cause_to_resume", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Part_inner_outer_legend" [label="Part_inner_outer", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Individual_history_legend" [label="Individual_history", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Giving_birth_legend" [label="Giving_birth", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Duplication_legend" [label="Duplication", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Process_end_legend" [label="Process_end", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Process_continue_legend" [label="Process_continue", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Amalgamation_legend" [label="Amalgamation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_active_legend" [label="Being_active", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+    }
+}

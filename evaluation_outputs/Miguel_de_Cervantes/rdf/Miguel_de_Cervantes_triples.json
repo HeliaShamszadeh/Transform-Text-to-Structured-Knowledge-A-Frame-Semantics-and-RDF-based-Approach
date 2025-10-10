@@ -1,0 +1,1851 @@
+{
+  "metadata": {
+    "total_triples": 84,
+    "source_file": "Miguel_de_Cervantes",
+    "extraction_date": "2025-09-28 03:43:34",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Duration_description:has_theme",
+        "object": "poem",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Arriving:has_time",
+        "object": "after five years in captivity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+        "predicate": "Referring_by_name:has_theme",
+        "object": "as \" the language of Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Reference_text:has_theme",
+        "object": "Cervantes (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Becoming_a_member:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Fame:has_reason",
+        "object": "his novel Don Quixote, a work considered as the first modern novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Organization:has_organization",
+        "object": "government",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Being_employed:has_position",
+        "object": "as a purchasing agent, and later as a government tax collector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Publishing:has_time",
+        "object": "1605",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Increment:has_class",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "his early works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Conquering:has_theme",
+        "object": "Barbary pirates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Earnings_and_losses:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Kidnapping:has_time",
+        "object": "after five years in captivity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "early",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Activity_ongoing:has_activity",
+        "object": "work as a purchasing agent, and later as a government tax collector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Text:has_text",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/La_Galatea",
+        "predicate": "Documents:has_document",
+        "object": "La Galatea",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Fields:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Being_employed:has_position",
+        "object": "household of a cardinal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Event:has_event",
+        "object": "http://en.wikipedia.org/wiki/Robert_Alexander_Hillingford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Departing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Spain",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Publishing:has_time",
+        "object": "1585",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Motion:has_goal",
+        "object": "Rome, where he worked in the household of a cardinal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Earnings_and_losses:has_location",
+        "object": "October",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Earnings_and_losses:has_theme",
+        "object": "use of his left arm and hand",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Event:has_location",
+        "object": "story of Don Quixote (1870 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "significant novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Publishing:has_work",
+        "object": "Part One of Don Quixote",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Cause_harm:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Labeling:has_speaker",
+        "object": "many well-known authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Political_locales:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Desirability:has_theme",
+        "object": "work in world literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Cause_harm:has_time",
+        "object": "October 1571",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "People_by_vocation:has_person",
+        "object": "singer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "actor and singer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Cause_harm:has_location",
+        "object": "Battle of Lepanto",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Inclusion:has_theme",
+        "object": "12 Novelas ejemplares ( Exemplary Novels ); a long poem, the Viaje del Parnaso ( Journey to Parnassus ) ; and Ocho comedias y ocho entremeses ( Eight Plays and Eight Interludes )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+        "predicate": "Text:has_text",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Usefulness:has_entity",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Body_parts:has_theme",
+        "object": "left",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Text:has_text",
+        "object": "poem",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Becoming_a_member:has_group",
+        "object": "Spanish Navy infantry regiment",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Causation:has_effect",
+        "object": "many of his early works being lost",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Objective_influence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Causation:has_effect",
+        "object": "leave Spain and move to Rome, where he worked in the household of a cardinal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Body_parts:has_location",
+        "object": "October",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Becoming_a_member:has_location",
+        "object": "October",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Body_parts:has_possessor",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Frequency:has_event",
+        "object": "referred to as \" the language of Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Publishing:has_work",
+        "object": "His first significant novel, titled La Galatea",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "People_by_vocation:has_person",
+        "object": "actor",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Labeling:has_theme",
+        "object": "as the \" best book of all time \" [ b ] and the \" best and most central work in world literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Inclusion:has_theme",
+        "object": "Other works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/La_Galatea",
+        "predicate": "Documents:has_theme",
+        "object": "His first significant novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Using:has_instrument",
+        "object": "his left arm and hand",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Labeling:has_entity",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Being_employed:has_theme",
+        "object": "where",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Madrid",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Measure_duration:has_theme",
+        "object": "five",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "modern novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Text:has_theme",
+        "object": "modern",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+        "predicate": "Categorization:has_item",
+        "object": "Spanish writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Measure_duration:has_process",
+        "object": "captivity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Importance:has_theme",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Taking_captive:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Using:has_location",
+        "object": "October",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Causation:has_cause",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Kidnapping:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Usefulness:has_time",
+        "object": "all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Body_parts:has_theme",
+        "object": "hand",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+        "predicate": "Becoming_a_member:has_time",
+        "object": "1570",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+        "predicate": "Categorization:has_category",
+        "object": "as the greatest writer in the Spanish language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Labeling:has_speaker",
+          "object": "many well-known authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Event:has_event",
+          "object": "http://en.wikipedia.org/wiki/Robert_Alexander_Hillingford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Event:has_location",
+          "object": "story of Don Quixote (1870 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Frequency:has_event",
+          "object": "referred to as \" the language of Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Fame:has_reason",
+          "object": "his novel Don Quixote, a work considered as the first modern novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Text:has_text",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "significant novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Inclusion:has_theme",
+          "object": "12 Novelas ejemplares ( Exemplary Novels ); a long poem, the Viaje del Parnaso ( Journey to Parnassus ) ; and Ocho comedias y ocho entremeses ( Eight Plays and Eight Interludes )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Usefulness:has_entity",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Publishing:has_work",
+          "object": "His first significant novel, titled La Galatea",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Labeling:has_theme",
+          "object": "as the \" best book of all time \" [ b ] and the \" best and most central work in world literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/La_Galatea",
+          "predicate": "Documents:has_theme",
+          "object": "His first significant novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Labeling:has_entity",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "modern novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Importance:has_theme",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Duration_description:has_theme",
+          "object": "poem",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Arriving:has_time",
+          "object": "after five years in captivity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+          "predicate": "Referring_by_name:has_theme",
+          "object": "as \" the language of Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Reference_text:has_theme",
+          "object": "Cervantes (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Becoming_a_member:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Organization:has_organization",
+          "object": "government",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Being_employed:has_position",
+          "object": "as a purchasing agent, and later as a government tax collector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Publishing:has_time",
+          "object": "1605",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Increment:has_class",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "his early works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Conquering:has_theme",
+          "object": "Barbary pirates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Earnings_and_losses:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Kidnapping:has_time",
+          "object": "after five years in captivity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "early",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Activity_ongoing:has_activity",
+          "object": "work as a purchasing agent, and later as a government tax collector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/La_Galatea",
+          "predicate": "Documents:has_document",
+          "object": "La Galatea",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Fields:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Being_employed:has_position",
+          "object": "household of a cardinal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Departing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Spain",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Publishing:has_time",
+          "object": "1585",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Motion:has_goal",
+          "object": "Rome, where he worked in the household of a cardinal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Earnings_and_losses:has_location",
+          "object": "October",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Earnings_and_losses:has_theme",
+          "object": "use of his left arm and hand",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Publishing:has_work",
+          "object": "Part One of Don Quixote",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Cause_harm:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Political_locales:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Desirability:has_theme",
+          "object": "work in world literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Cause_harm:has_time",
+          "object": "October 1571",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "People_by_vocation:has_person",
+          "object": "singer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "actor and singer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Cause_harm:has_location",
+          "object": "Battle of Lepanto",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+          "predicate": "Text:has_text",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Body_parts:has_theme",
+          "object": "left",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Text:has_text",
+          "object": "poem",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Becoming_a_member:has_group",
+          "object": "Spanish Navy infantry regiment",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Causation:has_effect",
+          "object": "many of his early works being lost",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Objective_influence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Causation:has_effect",
+          "object": "leave Spain and move to Rome, where he worked in the household of a cardinal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Body_parts:has_location",
+          "object": "October",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Becoming_a_member:has_location",
+          "object": "October",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Body_parts:has_possessor",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "People_by_vocation:has_person",
+          "object": "actor",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Inclusion:has_theme",
+          "object": "Other works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Using:has_instrument",
+          "object": "his left arm and hand",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Being_employed:has_theme",
+          "object": "where",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Madrid",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Measure_duration:has_theme",
+          "object": "five",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Text:has_theme",
+          "object": "modern",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+          "predicate": "Categorization:has_item",
+          "object": "Spanish writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Measure_duration:has_process",
+          "object": "captivity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Taking_captive:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Using:has_location",
+          "object": "October",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Causation:has_cause",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Kidnapping:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Usefulness:has_time",
+          "object": "all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Body_parts:has_theme",
+          "object": "hand",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Don_Quixote",
+          "predicate": "Becoming_a_member:has_time",
+          "object": "1570",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spanish_language",
+          "predicate": "Categorization:has_category",
+          "object": "as the greatest writer in the Spanish language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/La_Galatea",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/La_Galatea",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "http://en.wikipedia.org/wiki/Spanish_language"
+    ],
+    "objects": [
+      "poem",
+      "after five years in captivity",
+      "as \" the language of Cervantes",
+      "Cervantes (disambiguation)",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "his novel Don Quixote, a work considered as the first modern novel",
+      "novel",
+      "works",
+      "government",
+      "as a purchasing agent, and later as a government tax collector",
+      "1605",
+      "works",
+      "literature",
+      "his early works",
+      "Barbary pirates",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "after five years in captivity",
+      "early",
+      "work as a purchasing agent, and later as a government tax collector",
+      "novel",
+      "book",
+      "La Galatea",
+      "literary",
+      "household of a cardinal",
+      "uses",
+      "http://en.wikipedia.org/wiki/Robert_Alexander_Hillingford",
+      "http://en.wikipedia.org/wiki/Spain",
+      "1585",
+      "Rome, where he worked in the household of a cardinal",
+      "October",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "use of his left arm and hand",
+      "authors",
+      "story of Don Quixote (1870 )",
+      "significant novel",
+      "novel",
+      "Part One of Don Quixote",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "many well-known authors",
+      "world",
+      "work in world literature",
+      "October 1571",
+      "years",
+      "singer",
+      "actor and singer",
+      "Battle of Lepanto",
+      "12 Novelas ejemplares ( Exemplary Novels ); a long poem, the Viaje del Parnaso ( Journey to Parnassus ) ; and Ocho comedias y ocho entremeses ( Eight Plays and Eight Interludes )",
+      "writer",
+      "book",
+      "left",
+      "poem",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "Spanish Navy infantry regiment",
+      "many of his early works being lost",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "leave Spain and move to Rome, where he worked in the household of a cardinal",
+      "October",
+      "October",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "referred to as \" the language of Cervantes",
+      "His first significant novel, titled La Galatea",
+      "actor",
+      "as the \" best book of all time \" [ b ] and the \" best and most central work in world literature",
+      "Other works",
+      "His first significant novel",
+      "his left arm and hand",
+      "novel",
+      "where",
+      "http://en.wikipedia.org/wiki/Madrid",
+      "five",
+      "modern novel",
+      "modern",
+      "Spanish writer",
+      "captivity",
+      "novel",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "October",
+      "many",
+      "which",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "all time",
+      "hand",
+      "1570",
+      "as the greatest writer in the Spanish language"
+    ],
+    "all_unique": [
+      "Spanish writer",
+      "literature",
+      "uses",
+      "poem",
+      "Cervantes (disambiguation)",
+      "modern",
+      "12 Novelas ejemplares ( Exemplary Novels ); a long poem, the Viaje del Parnaso ( Journey to Parnassus ) ; and Ocho comedias y ocho entremeses ( Eight Plays and Eight Interludes )",
+      "his novel Don Quixote, a work considered as the first modern novel",
+      "world",
+      "1570",
+      "all time",
+      "works",
+      "which",
+      "http://en.wikipedia.org/wiki/Don_Quixote",
+      "story of Don Quixote (1870 )",
+      "La Galatea",
+      "His first significant novel, titled La Galatea",
+      "after five years in captivity",
+      "five",
+      "His first significant novel",
+      "authors",
+      "work in world literature",
+      "singer",
+      "many of his early works being lost",
+      "use of his left arm and hand",
+      "referred to as \" the language of Cervantes",
+      "his left arm and hand",
+      "October 1571",
+      "as the greatest writer in the Spanish language",
+      "literary",
+      "1605",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "his early works",
+      "Spanish Navy infantry regiment",
+      "early",
+      "http://en.wikipedia.org/wiki/United_States",
+      "many",
+      "modern novel",
+      "many well-known authors",
+      "left",
+      "captivity",
+      "October",
+      "Rome, where he worked in the household of a cardinal",
+      "Barbary pirates",
+      "years",
+      "government",
+      "writer",
+      "http://en.wikipedia.org/wiki/Madrid",
+      "hand",
+      "actor",
+      "work as a purchasing agent, and later as a government tax collector",
+      "http://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "http://en.wikipedia.org/wiki/Spain",
+      "http://en.wikipedia.org/wiki/Robert_Alexander_Hillingford",
+      "http://en.wikipedia.org/wiki/La_Galatea",
+      "household of a cardinal",
+      "where",
+      "as \" the language of Cervantes",
+      "novel",
+      "leave Spain and move to Rome, where he worked in the household of a cardinal",
+      "as the \" best book of all time \" [ b ] and the \" best and most central work in world literature",
+      "Other works",
+      "as a purchasing agent, and later as a government tax collector",
+      "1585",
+      "book",
+      "Battle of Lepanto",
+      "Part One of Don Quixote",
+      "significant novel",
+      "actor and singer"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Duration_description:has_theme",
+      "Arriving:has_time",
+      "Referring_by_name:has_theme",
+      "Reference_text:has_theme",
+      "Becoming_a_member:has_theme",
+      "Fame:has_reason",
+      "Text:has_text",
+      "Temporal_subregion:has_theme",
+      "Organization:has_organization",
+      "Being_employed:has_position",
+      "Publishing:has_time",
+      "Increment:has_class",
+      "Fields:has_theme",
+      "Quantified_mass:has_theme",
+      "Conquering:has_theme",
+      "Earnings_and_losses:has_theme",
+      "Kidnapping:has_time",
+      "Temporal_subregion:has_theme",
+      "Activity_ongoing:has_activity",
+      "Temporal_collocation:has_theme",
+      "Text:has_text",
+      "Documents:has_document",
+      "Fields:has_theme",
+      "Being_employed:has_position",
+      "Increment:has_class",
+      "Event:has_event",
+      "Departing:has_theme",
+      "Publishing:has_time",
+      "Motion:has_goal",
+      "Earnings_and_losses:has_location",
+      "Text:has_text",
+      "Earnings_and_losses:has_theme",
+      "Text_creation:has_author",
+      "Event:has_location",
+      "Ordinal_numbers:has_type",
+      "Text:has_text",
+      "Publishing:has_work",
+      "Cause_harm:has_theme",
+      "Labeling:has_speaker",
+      "Political_locales:has_theme",
+      "Desirability:has_theme",
+      "Cause_harm:has_time",
+      "Measure_duration:has_theme",
+      "People_by_vocation:has_person",
+      "Origin:has_entity",
+      "Cause_harm:has_location",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Usefulness:has_entity",
+      "Body_parts:has_theme",
+      "Text:has_text",
+      "Being_employed:has_employee",
+      "Becoming_a_member:has_group",
+      "Causation:has_effect",
+      "Objective_influence:has_theme",
+      "Causation:has_effect",
+      "Body_parts:has_location",
+      "Becoming_a_member:has_location",
+      "Body_parts:has_possessor",
+      "Frequency:has_event",
+      "Publishing:has_work",
+      "People_by_vocation:has_person",
+      "Labeling:has_theme",
+      "Inclusion:has_theme",
+      "Documents:has_theme",
+      "Using:has_instrument",
+      "Labeling:has_entity",
+      "Being_employed:has_theme",
+      "Arriving:has_goal",
+      "Measure_duration:has_theme",
+      "Ordinal_numbers:has_type",
+      "Text:has_theme",
+      "Categorization:has_item",
+      "Measure_duration:has_process",
+      "Importance:has_theme",
+      "Taking_captive:has_theme",
+      "Using:has_location",
+      "Quantified_mass:has_quantity",
+      "Causation:has_cause",
+      "Kidnapping:has_theme",
+      "Usefulness:has_time",
+      "Body_parts:has_theme",
+      "Becoming_a_member:has_time",
+      "Categorization:has_category"
+    ],
+    "unique_predicates": [
+      "Body_parts:has_location",
+      "Documents:has_document",
+      "Objective_influence:has_theme",
+      "Using:has_location",
+      "Labeling:has_speaker",
+      "Measure_duration:has_theme",
+      "Arriving:has_goal",
+      "Publishing:has_work",
+      "People_by_vocation:has_person",
+      "Temporal_collocation:has_theme",
+      "Kidnapping:has_theme",
+      "Kidnapping:has_time",
+      "Taking_captive:has_theme",
+      "Fields:has_theme",
+      "Usefulness:has_time",
+      "Event:has_location",
+      "Referring_by_name:has_theme",
+      "Labeling:has_entity",
+      "Frequency:has_event",
+      "Causation:has_effect",
+      "Becoming_a_member:has_theme",
+      "Becoming_a_member:has_location",
+      "Usefulness:has_entity",
+      "Becoming_a_member:has_time",
+      "Using:has_instrument",
+      "Publishing:has_time",
+      "Duration_description:has_theme",
+      "Reference_text:has_theme",
+      "Text:has_text",
+      "Desirability:has_theme",
+      "Being_employed:has_employee",
+      "Causation:has_cause",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Documents:has_theme",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Cause_harm:has_time",
+      "Temporal_subregion:has_theme",
+      "Categorization:has_category",
+      "Cause_harm:has_theme",
+      "Motion:has_goal",
+      "Quantified_mass:has_quantity",
+      "Activity_ongoing:has_activity",
+      "Cause_harm:has_location",
+      "Arriving:has_time",
+      "Political_locales:has_theme",
+      "Becoming_a_member:has_group",
+      "Categorization:has_item",
+      "Measure_duration:has_process",
+      "Body_parts:has_theme",
+      "Labeling:has_theme",
+      "Inclusion:has_theme",
+      "Conquering:has_theme",
+      "Text:has_theme",
+      "Importance:has_theme",
+      "Origin:has_entity",
+      "Earnings_and_losses:has_theme",
+      "Being_employed:has_theme",
+      "Organization:has_organization",
+      "Being_employed:has_position",
+      "Event:has_event",
+      "Earnings_and_losses:has_location",
+      "Body_parts:has_possessor",
+      "Departing:has_theme",
+      "Fame:has_reason"
+    ],
+    "predicate_counts": {
+      "Duration_description:has_theme": 1,
+      "Arriving:has_time": 1,
+      "Referring_by_name:has_theme": 1,
+      "Reference_text:has_theme": 1,
+      "Becoming_a_member:has_theme": 1,
+      "Fame:has_reason": 1,
+      "Text:has_text": 6,
+      "Temporal_subregion:has_theme": 2,
+      "Organization:has_organization": 1,
+      "Being_employed:has_position": 2,
+      "Publishing:has_time": 2,
+      "Increment:has_class": 2,
+      "Fields:has_theme": 2,
+      "Quantified_mass:has_theme": 1,
+      "Conquering:has_theme": 1,
+      "Earnings_and_losses:has_theme": 2,
+      "Kidnapping:has_time": 1,
+      "Activity_ongoing:has_activity": 1,
+      "Temporal_collocation:has_theme": 1,
+      "Documents:has_document": 1,
+      "Event:has_event": 1,
+      "Departing:has_theme": 1,
+      "Motion:has_goal": 1,
+      "Earnings_and_losses:has_location": 1,
+      "Text_creation:has_author": 1,
+      "Event:has_location": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Publishing:has_work": 2,
+      "Cause_harm:has_theme": 1,
+      "Labeling:has_speaker": 1,
+      "Political_locales:has_theme": 1,
+      "Desirability:has_theme": 1,
+      "Cause_harm:has_time": 1,
+      "Measure_duration:has_theme": 2,
+      "People_by_vocation:has_person": 2,
+      "Origin:has_entity": 1,
+      "Cause_harm:has_location": 1,
+      "Inclusion:has_theme": 2,
+      "Usefulness:has_entity": 1,
+      "Body_parts:has_theme": 2,
+      "Being_employed:has_employee": 1,
+      "Becoming_a_member:has_group": 1,
+      "Causation:has_effect": 2,
+      "Objective_influence:has_theme": 1,
+      "Body_parts:has_location": 1,
+      "Becoming_a_member:has_location": 1,
+      "Body_parts:has_possessor": 1,
+      "Frequency:has_event": 1,
+      "Labeling:has_theme": 1,
+      "Documents:has_theme": 1,
+      "Using:has_instrument": 1,
+      "Labeling:has_entity": 1,
+      "Being_employed:has_theme": 1,
+      "Arriving:has_goal": 1,
+      "Text:has_theme": 1,
+      "Categorization:has_item": 1,
+      "Measure_duration:has_process": 1,
+      "Importance:has_theme": 1,
+      "Taking_captive:has_theme": 1,
+      "Using:has_location": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Causation:has_cause": 1,
+      "Kidnapping:has_theme": 1,
+      "Usefulness:has_time": 1,
+      "Becoming_a_member:has_time": 1,
+      "Categorization:has_category": 1
+    }
+  }
+}

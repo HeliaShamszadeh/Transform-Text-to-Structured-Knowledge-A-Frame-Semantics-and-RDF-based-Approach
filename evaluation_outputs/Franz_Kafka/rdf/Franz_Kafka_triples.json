@@ -1,0 +1,2158 @@
+{
+  "metadata": {
+    "total_triples": 99,
+    "source_file": "Franz_Kafka",
+    "extraction_date": "2025-09-27 22:55:23",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Being_born:has_location",
+        "object": "Prague, in the Austro-Hungarian Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Death:has_theme",
+        "object": "aged 40",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text:has_text",
+        "object": "Metamorphosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Fame:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text:has_text",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Objective_influence:has_theme",
+        "object": "artists, philosophers, composers, filmmakers, literary historians, religious scholars, cultural theorists",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Relation:has_theme",
+        "object": "whom",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text_creation:has_addressee",
+        "object": "family and close friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Relative_time:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Education_teaching:has_theme",
+        "object": "legal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Domain:has_theme",
+        "object": "legal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Objective_influence:has_theme",
+        "object": "His work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Death:has_time",
+        "object": "1924",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Age:has_time",
+        "object": "1924",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Text:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Education_teaching:has_role",
+        "object": "as a lawyer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_employed:has_theme",
+        "object": "full-time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text_creation:has_text",
+        "object": "hundreds of letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Fields:has_time",
+        "object": "1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Arriving:has_theme",
+        "object": "term Kafkaesque",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Relation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Arriving:has_purpose",
+        "object": "describe situations like those depicted in his writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Attention:has_degree",
+        "object": "little",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Publishing:has_time",
+        "object": "1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Labor_product:has_theme",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Publishing:has_time",
+        "object": "during his life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Austria",
+        "predicate": "Reference_text:has_theme",
+        "object": "Kafka (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Inclusion:has_theme",
+        "object": "his father, with whom he had a strained and formal relationship",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Leadership:has_type",
+        "object": "socio- bureaucratic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Fame:has_reason",
+        "object": "his novels and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text:has_time",
+        "object": "1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Being_born:has_person",
+        "object": "Franz Kafka [ b ] (3 July 1883 – 3 June 1924)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Performers_and_roles:has_role",
+        "object": "isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio- bureaucratic powers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_obligated:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "People:has_person",
+        "object": "women",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Causation:has_effect",
+        "object": "internal conflict as he felt that his true vocation was writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text:has_theme",
+        "object": "family and close friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Objective_influence:has_degree",
+        "object": "widely",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Prague",
+        "predicate": "Political_locales:has_time",
+        "object": "1924",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Prague",
+        "predicate": "Political_locales:has_theme",
+        "object": "Austro-Hungarian",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_employed:has_theme",
+        "object": "legal and insurance",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Austria",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Fields:has_theme",
+        "object": "magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Age:has_age",
+        "object": "40",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Communicate_categorization:has_item",
+        "object": "situations like those depicted in his writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Causation:has_cause",
+        "object": "His professional obligations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Death:has_theme",
+        "object": "tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Relative_time:has_theme",
+        "object": "completing his legal education",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "hundreds",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Text:has_text",
+        "object": "novella",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Inclusion:has_theme",
+        "object": "novella The Metamorphosis (1915) and the novels The Trial (1924) and The Castle (1926",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_obligated:has_theme",
+        "object": "obligations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Opinion:has_opinion",
+        "object": "that his true vocation was writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Text:has_theme",
+        "object": "Metamorphosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Leadership:has_theme",
+        "object": "incomprehensible",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Education_teaching:has_student",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Attention:has_theme",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Becoming:has_theme",
+        "object": "engaged to several women",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Performers_and_roles:has_type",
+        "object": "typically",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Being_born:has_time",
+        "object": "1924",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Text:has_text",
+        "object": "magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Medical_conditions:has_time",
+        "object": "1924",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Prague",
+        "predicate": "Political_locales:has_theme",
+        "object": "Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Duration_description:has_theme",
+        "object": "fables and aphorisms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Arriving:has_goal",
+        "object": "lexicon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Medical_conditions:has_patient",
+        "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_employed:has_time",
+        "object": "after completing his legal education",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Publishing:has_theme",
+        "object": "literary magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "People_by_vocation:has_person",
+        "object": "lawyer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Categorization:has_category",
+        "object": "as a major figure of 20th-century literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Inclusion:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "internal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Publishing:has_work",
+        "object": "individual stories, such as his novella The Metamorphosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Publishing:has_work",
+        "object": "Only a minority of his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Performers_and_roles:has_theme",
+        "object": "his work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Importance:has_theme",
+        "object": "figure of 20th-century literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Inclusion:has_theme",
+        "object": "His best-known works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Attention:has_time",
+        "object": "1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Text:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Activity_finish:has_activity",
+        "object": "his legal education",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Prague",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Text:has_time",
+        "object": "1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+        "predicate": "Categorization:has_item",
+        "object": "his work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Labor_product:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Being_employed:has_task",
+        "object": "various legal and insurance jobs",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bohemia",
+        "predicate": "Personal_relationship:has_degree",
+        "object": "close",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+        "predicate": "Being_born:has_theme",
+        "object": "into a middle-class German- and Yiddish -speaking Czech Jewish family in Prague, the capital of the Kingdom of Bohemia, which belonged to the Austro-Hungarian Empire (later the capital of Czechoslovakia and the Czech Republic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Being_born:has_location",
+          "object": "Prague, in the Austro-Hungarian Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Death:has_theme",
+          "object": "aged 40",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Death:has_time",
+          "object": "1924",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Being_born:has_person",
+          "object": "Franz Kafka [ b ] (3 July 1883 – 3 June 1924)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Death:has_theme",
+          "object": "tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Being_born:has_time",
+          "object": "1924",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Prague",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Being_born:has_theme",
+          "object": "into a middle-class German- and Yiddish -speaking Czech Jewish family in Prague, the capital of the Kingdom of Bohemia, which belonged to the Austro-Hungarian Empire (later the capital of Czechoslovakia and the Czech Republic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Arriving:has_purpose",
+          "object": "describe situations like those depicted in his writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Fame:has_reason",
+          "object": "his novels and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Causation:has_effect",
+          "object": "internal conflict as he felt that his true vocation was writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Communicate_categorization:has_item",
+          "object": "situations like those depicted in his writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Text:has_text",
+          "object": "novella",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Inclusion:has_theme",
+          "object": "novella The Metamorphosis (1915) and the novels The Trial (1924) and The Castle (1926",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Opinion:has_opinion",
+          "object": "that his true vocation was writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Publishing:has_work",
+          "object": "individual stories, such as his novella The Metamorphosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text:has_text",
+          "object": "Metamorphosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Fame:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text:has_text",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Objective_influence:has_theme",
+          "object": "artists, philosophers, composers, filmmakers, literary historians, religious scholars, cultural theorists",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Relation:has_theme",
+          "object": "whom",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text_creation:has_addressee",
+          "object": "family and close friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Relative_time:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Education_teaching:has_theme",
+          "object": "legal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Domain:has_theme",
+          "object": "legal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Objective_influence:has_theme",
+          "object": "His work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Age:has_time",
+          "object": "1924",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Text:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Education_teaching:has_role",
+          "object": "as a lawyer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_employed:has_theme",
+          "object": "full-time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text_creation:has_text",
+          "object": "hundreds of letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Fields:has_time",
+          "object": "1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Arriving:has_theme",
+          "object": "term Kafkaesque",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Relation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Attention:has_degree",
+          "object": "little",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Publishing:has_time",
+          "object": "1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Labor_product:has_theme",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Publishing:has_time",
+          "object": "during his life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Austria",
+          "predicate": "Reference_text:has_theme",
+          "object": "Kafka (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Inclusion:has_theme",
+          "object": "his father, with whom he had a strained and formal relationship",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Leadership:has_type",
+          "object": "socio- bureaucratic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text:has_time",
+          "object": "1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Performers_and_roles:has_role",
+          "object": "isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio- bureaucratic powers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_obligated:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "People:has_person",
+          "object": "women",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Text:has_theme",
+          "object": "family and close friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Objective_influence:has_degree",
+          "object": "widely",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Prague",
+          "predicate": "Political_locales:has_time",
+          "object": "1924",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Prague",
+          "predicate": "Political_locales:has_theme",
+          "object": "Austro-Hungarian",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_employed:has_theme",
+          "object": "legal and insurance",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Austria",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Fields:has_theme",
+          "object": "magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Age:has_age",
+          "object": "40",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Causation:has_cause",
+          "object": "His professional obligations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Relative_time:has_theme",
+          "object": "completing his legal education",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "hundreds",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_obligated:has_theme",
+          "object": "obligations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Text:has_theme",
+          "object": "Metamorphosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Leadership:has_theme",
+          "object": "incomprehensible",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Education_teaching:has_student",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Attention:has_theme",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Becoming:has_theme",
+          "object": "engaged to several women",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Performers_and_roles:has_type",
+          "object": "typically",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Text:has_text",
+          "object": "magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Medical_conditions:has_time",
+          "object": "1924",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Prague",
+          "predicate": "Political_locales:has_theme",
+          "object": "Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Duration_description:has_theme",
+          "object": "fables and aphorisms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Arriving:has_goal",
+          "object": "lexicon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Medical_conditions:has_patient",
+          "object": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_employed:has_time",
+          "object": "after completing his legal education",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Publishing:has_theme",
+          "object": "literary magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "People_by_vocation:has_person",
+          "object": "lawyer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Categorization:has_category",
+          "object": "as a major figure of 20th-century literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Inclusion:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "internal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Publishing:has_work",
+          "object": "Only a minority of his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Performers_and_roles:has_theme",
+          "object": "his work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Importance:has_theme",
+          "object": "figure of 20th-century literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Inclusion:has_theme",
+          "object": "His best-known works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Attention:has_time",
+          "object": "1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Text:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Activity_finish:has_activity",
+          "object": "his legal education",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Text:has_time",
+          "object": "1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+          "predicate": "Categorization:has_item",
+          "object": "his work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Franz_Kafka",
+          "predicate": "Labor_product:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Being_employed:has_task",
+          "object": "various legal and insurance jobs",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bohemia",
+          "predicate": "Personal_relationship:has_degree",
+          "object": "close",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Austria",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Prague",
+      "http://en.wikipedia.org/wiki/Prague",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Austria",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Prague",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "http://en.wikipedia.org/wiki/Franz_Kafka"
+    ],
+    "objects": [
+      "Prague, in the Austro-Hungarian Empire",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "aged 40",
+      "Metamorphosis",
+      "most",
+      "letters",
+      "artists, philosophers, composers, filmmakers, literary historians, religious scholars, cultural theorists",
+      "whom",
+      "family and close friends",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "legal",
+      "legal",
+      "His work",
+      "1924",
+      "1924",
+      "literature",
+      "1915",
+      "as a lawyer",
+      "full-time",
+      "letters",
+      "hundreds of letters",
+      "1912",
+      "term Kafkaesque",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "describe situations like those depicted in his writings",
+      "stories",
+      "little",
+      "1912",
+      "work",
+      "during his life",
+      "Kafka (disambiguation)",
+      "his father, with whom he had a strained and formal relationship",
+      "socio- bureaucratic",
+      "his novels and short stories",
+      "1912",
+      "Franz Kafka [ b ] (3 July 1883 – 3 June 1924)",
+      "isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio- bureaucratic powers",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "women",
+      "internal conflict as he felt that his true vocation was writing",
+      "works",
+      "family and close friends",
+      "widely",
+      "1924",
+      "Austro-Hungarian",
+      "legal and insurance",
+      "uses",
+      "friends",
+      "magazines",
+      "tuberculosis",
+      "40",
+      "situations like those depicted in his writings",
+      "His professional obligations",
+      "father",
+      "tuberculosis",
+      "completing his legal education",
+      "hundreds",
+      "novella",
+      "novella The Metamorphosis (1915) and the novels The Trial (1924) and The Castle (1926",
+      "obligations",
+      "that his true vocation was writing",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "Metamorphosis",
+      "incomprehensible",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "his works",
+      "engaged to several women",
+      "typically",
+      "1924",
+      "magazines",
+      "1924",
+      "Empire",
+      "fables and aphorisms",
+      "lexicon",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "after completing his legal education",
+      "literary magazines",
+      "lawyer",
+      "as a major figure of 20th-century literature",
+      "1915",
+      "internal",
+      "individual stories, such as his novella The Metamorphosis",
+      "Only a minority of his works",
+      "his work",
+      "figure of 20th-century literature",
+      "His best-known works",
+      "1912",
+      "novels",
+      "literary",
+      "novels",
+      "his legal education",
+      "http://en.wikipedia.org/wiki/Prague",
+      "1912",
+      "his work",
+      "1915",
+      "various legal and insurance jobs",
+      "family",
+      "close",
+      "into a middle-class German- and Yiddish -speaking Czech Jewish family in Prague, the capital of the Kingdom of Bohemia, which belonged to the Austro-Hungarian Empire (later the capital of Czechoslovakia and the Czech Republic"
+    ],
+    "all_unique": [
+      "hundreds of letters",
+      "literature",
+      "internal",
+      "works",
+      "Franz Kafka [ b ] (3 July 1883 – 3 June 1924)",
+      "socio- bureaucratic",
+      "little",
+      "his work",
+      "Prague, in the Austro-Hungarian Empire",
+      "legal",
+      "widely",
+      "as a lawyer",
+      "work",
+      "internal conflict as he felt that his true vocation was writing",
+      "friends",
+      "stories",
+      "various legal and insurance jobs",
+      "close",
+      "full-time",
+      "family and close friends",
+      "into a middle-class German- and Yiddish -speaking Czech Jewish family in Prague, the capital of the Kingdom of Bohemia, which belonged to the Austro-Hungarian Empire (later the capital of Czechoslovakia and the Czech Republic",
+      "his father, with whom he had a strained and formal relationship",
+      "40",
+      "engaged to several women",
+      "1924",
+      "his legal education",
+      "literary magazines",
+      "novels",
+      "father",
+      "most",
+      "as a major figure of 20th-century literature",
+      "aged 40",
+      "his novels and short stories",
+      "http://en.wikipedia.org/wiki/Franz_Kafka",
+      "1912",
+      "literary",
+      "Only a minority of his works",
+      "describe situations like those depicted in his writings",
+      "his works",
+      "that his true vocation was writing",
+      "during his life",
+      "individual stories, such as his novella The Metamorphosis",
+      "hundreds",
+      "Austro-Hungarian",
+      "typically",
+      "lawyer",
+      "His best-known works",
+      "uses",
+      "women",
+      "novella The Metamorphosis (1915) and the novels The Trial (1924) and The Castle (1926",
+      "Kafka (disambiguation)",
+      "obligations",
+      "Empire",
+      "novella",
+      "artists, philosophers, composers, filmmakers, literary historians, religious scholars, cultural theorists",
+      "lexicon",
+      "isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio- bureaucratic powers",
+      "tuberculosis",
+      "after completing his legal education",
+      "magazines",
+      "legal and insurance",
+      "family",
+      "http://en.wikipedia.org/wiki/Austria",
+      "situations like those depicted in his writings",
+      "http://en.wikipedia.org/wiki/Bohemia",
+      "His work",
+      "fables and aphorisms",
+      "term Kafkaesque",
+      "http://en.wikipedia.org/wiki/Prague",
+      "completing his legal education",
+      "figure of 20th-century literature",
+      "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia",
+      "1915",
+      "His professional obligations",
+      "Metamorphosis",
+      "whom",
+      "letters",
+      "incomprehensible"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Being_born:has_location",
+      "Being_employed:has_employee",
+      "Death:has_theme",
+      "Text:has_text",
+      "Fame:has_degree",
+      "Text:has_text",
+      "Objective_influence:has_theme",
+      "Relation:has_theme",
+      "Text_creation:has_addressee",
+      "Relative_time:has_theme",
+      "Education_teaching:has_theme",
+      "Domain:has_theme",
+      "Objective_influence:has_theme",
+      "Death:has_time",
+      "Age:has_time",
+      "Fields:has_theme",
+      "Text:has_time",
+      "Education_teaching:has_role",
+      "Being_employed:has_theme",
+      "Quantified_mass:has_theme",
+      "Text_creation:has_text",
+      "Fields:has_time",
+      "Arriving:has_theme",
+      "Relation:has_theme",
+      "Arriving:has_purpose",
+      "Duration_description:has_theme",
+      "Attention:has_degree",
+      "Publishing:has_time",
+      "Labor_product:has_theme",
+      "Publishing:has_time",
+      "Reference_text:has_theme",
+      "Inclusion:has_theme",
+      "Leadership:has_type",
+      "Fame:has_reason",
+      "Text:has_time",
+      "Being_born:has_person",
+      "Performers_and_roles:has_role",
+      "Being_obligated:has_theme",
+      "People:has_person",
+      "Causation:has_effect",
+      "Labor_product:has_theme",
+      "Text:has_theme",
+      "Objective_influence:has_degree",
+      "Political_locales:has_time",
+      "Political_locales:has_theme",
+      "Being_employed:has_theme",
+      "Increment:has_class",
+      "Personal_relationship:has_theme",
+      "Fields:has_theme",
+      "Medical_conditions:has_theme",
+      "Age:has_age",
+      "Communicate_categorization:has_item",
+      "Causation:has_cause",
+      "Kinship:has_theme",
+      "Death:has_theme",
+      "Relative_time:has_theme",
+      "Quantified_mass:has_quantity",
+      "Text:has_text",
+      "Inclusion:has_theme",
+      "Being_obligated:has_theme",
+      "Opinion:has_opinion",
+      "Death:has_theme",
+      "Text:has_theme",
+      "Leadership:has_theme",
+      "Education_teaching:has_student",
+      "Attention:has_theme",
+      "Becoming:has_theme",
+      "Performers_and_roles:has_type",
+      "Being_born:has_time",
+      "Text:has_text",
+      "Medical_conditions:has_time",
+      "Political_locales:has_theme",
+      "Duration_description:has_theme",
+      "Arriving:has_goal",
+      "Medical_conditions:has_patient",
+      "Being_employed:has_time",
+      "Publishing:has_theme",
+      "People_by_vocation:has_person",
+      "Categorization:has_category",
+      "Inclusion:has_time",
+      "Hostile_encounter:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_work",
+      "Performers_and_roles:has_theme",
+      "Importance:has_theme",
+      "Inclusion:has_theme",
+      "Attention:has_time",
+      "Text:has_text",
+      "Text:has_theme",
+      "Text:has_text",
+      "Activity_finish:has_activity",
+      "Being_born:has_location",
+      "Text:has_time",
+      "Categorization:has_item",
+      "Labor_product:has_time",
+      "Being_employed:has_task",
+      "Kinship:has_theme",
+      "Personal_relationship:has_degree",
+      "Being_born:has_theme"
+    ],
+    "unique_predicates": [
+      "Text_creation:has_addressee",
+      "Personal_relationship:has_theme",
+      "Objective_influence:has_theme",
+      "Activity_finish:has_activity",
+      "Fame:has_degree",
+      "Opinion:has_opinion",
+      "Arriving:has_purpose",
+      "Arriving:has_goal",
+      "Attention:has_theme",
+      "Medical_conditions:has_theme",
+      "Medical_conditions:has_patient",
+      "Age:has_age",
+      "People_by_vocation:has_person",
+      "Being_born:has_theme",
+      "People:has_person",
+      "Fields:has_theme",
+      "Being_employed:has_time",
+      "Fields:has_time",
+      "Communicate_categorization:has_item",
+      "Being_born:has_person",
+      "Performers_and_roles:has_type",
+      "Causation:has_effect",
+      "Inclusion:has_time",
+      "Leadership:has_theme",
+      "Labor_product:has_time",
+      "Objective_influence:has_degree",
+      "Death:has_theme",
+      "Relative_time:has_theme",
+      "Being_employed:has_employee",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Publishing:has_time",
+      "Reference_text:has_theme",
+      "Kinship:has_theme",
+      "Being_born:has_location",
+      "Causation:has_cause",
+      "Performers_and_roles:has_theme",
+      "Quantified_mass:has_theme",
+      "Being_obligated:has_theme",
+      "Increment:has_class",
+      "Political_locales:has_time",
+      "Relation:has_theme",
+      "Education_teaching:has_theme",
+      "Categorization:has_category",
+      "Quantified_mass:has_quantity",
+      "Hostile_encounter:has_theme",
+      "Text_creation:has_text",
+      "Education_teaching:has_role",
+      "Domain:has_theme",
+      "Political_locales:has_theme",
+      "Medical_conditions:has_time",
+      "Categorization:has_item",
+      "Personal_relationship:has_degree",
+      "Being_born:has_time",
+      "Being_employed:has_task",
+      "Leadership:has_type",
+      "Attention:has_degree",
+      "Inclusion:has_theme",
+      "Text:has_theme",
+      "Performers_and_roles:has_role",
+      "Importance:has_theme",
+      "Age:has_time",
+      "Being_employed:has_theme",
+      "Education_teaching:has_student",
+      "Attention:has_time",
+      "Death:has_time",
+      "Arriving:has_theme",
+      "Becoming:has_theme",
+      "Labor_product:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Fame:has_reason",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Being_born:has_location": 2,
+      "Being_employed:has_employee": 1,
+      "Death:has_theme": 3,
+      "Text:has_text": 6,
+      "Fame:has_degree": 1,
+      "Objective_influence:has_theme": 2,
+      "Relation:has_theme": 2,
+      "Text_creation:has_addressee": 1,
+      "Relative_time:has_theme": 2,
+      "Education_teaching:has_theme": 1,
+      "Domain:has_theme": 1,
+      "Death:has_time": 1,
+      "Age:has_time": 1,
+      "Fields:has_theme": 2,
+      "Text:has_time": 3,
+      "Education_teaching:has_role": 1,
+      "Being_employed:has_theme": 2,
+      "Quantified_mass:has_theme": 1,
+      "Text_creation:has_text": 1,
+      "Fields:has_time": 1,
+      "Arriving:has_theme": 1,
+      "Arriving:has_purpose": 1,
+      "Duration_description:has_theme": 2,
+      "Attention:has_degree": 1,
+      "Publishing:has_time": 2,
+      "Labor_product:has_theme": 2,
+      "Reference_text:has_theme": 1,
+      "Inclusion:has_theme": 3,
+      "Leadership:has_type": 1,
+      "Fame:has_reason": 1,
+      "Being_born:has_person": 1,
+      "Performers_and_roles:has_role": 1,
+      "Being_obligated:has_theme": 2,
+      "People:has_person": 1,
+      "Causation:has_effect": 1,
+      "Text:has_theme": 3,
+      "Objective_influence:has_degree": 1,
+      "Political_locales:has_time": 1,
+      "Political_locales:has_theme": 2,
+      "Increment:has_class": 1,
+      "Personal_relationship:has_theme": 1,
+      "Medical_conditions:has_theme": 1,
+      "Age:has_age": 1,
+      "Communicate_categorization:has_item": 1,
+      "Causation:has_cause": 1,
+      "Kinship:has_theme": 2,
+      "Quantified_mass:has_quantity": 1,
+      "Opinion:has_opinion": 1,
+      "Leadership:has_theme": 1,
+      "Education_teaching:has_student": 1,
+      "Attention:has_theme": 1,
+      "Becoming:has_theme": 1,
+      "Performers_and_roles:has_type": 1,
+      "Being_born:has_time": 1,
+      "Medical_conditions:has_time": 1,
+      "Arriving:has_goal": 1,
+      "Medical_conditions:has_patient": 1,
+      "Being_employed:has_time": 1,
+      "Publishing:has_theme": 1,
+      "People_by_vocation:has_person": 1,
+      "Categorization:has_category": 1,
+      "Inclusion:has_time": 1,
+      "Hostile_encounter:has_theme": 1,
+      "Publishing:has_work": 2,
+      "Performers_and_roles:has_theme": 1,
+      "Importance:has_theme": 1,
+      "Attention:has_time": 1,
+      "Activity_finish:has_activity": 1,
+      "Categorization:has_item": 1,
+      "Labor_product:has_time": 1,
+      "Being_employed:has_task": 1,
+      "Personal_relationship:has_degree": 1,
+      "Being_born:has_theme": 1
+    }
+  }
+}

@@ -1,0 +1,311 @@
+digraph J_R_R_Tolkien {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "fantasy books and authors" [label="fantasy books and authors", fillcolor=lightcoral, color=red, shape=circle];
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "many other authors" [label="many other authors", fillcolor=lightcoral, color=red, shape=circle];
+    "other authors" [label="other authors", fillcolor=lightcoral, color=red, shape=circle];
+    "many other authors had publ..." [label="many other authors had publ...", fillcolor=lightcoral, color=red, shape=circle];
+    "new fantasy books and authors" [label="new fantasy books and authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "these writings" [label="these writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "series of works based on hi..." [label="series of works based on hi...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works of fantasy" [label="works of fantasy", fillcolor=lightblue, color=blue, shape=ellipse];
+    "high fantasy works The Hobb..." [label="high fantasy works The Hobb...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "larger part of these writings" [label="larger part of these writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "fantasy works" [label="fantasy works", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "Tolkien's death" [label="Tolkien's death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Oxford" [label="Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before Tolkien" [label="before Tolkien", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anglo-Saxon" [label="Anglo-Saxon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tolkien family" [label="Tolkien family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fellow" [label="Fellow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary discussion" [label="literary discussion", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Merton College, Oxford" [label="Merton College, Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Between 1951 and 1955" [label="Between 1951 and 1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tolkien's" [label="Tolkien's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "body" [label="body", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "avalanche" [label="avalanche", fillcolor=lightgray, color=gray, shape=hexagon];
+    "informal" [label="informal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unpublished" [label="unpublished", fillcolor=lightgray, color=gray, shape=hexagon];
+    "close" [label="close", fillcolor=lightgray, color=gray, shape=hexagon];
+    "avalanche of new fantasy bo..." [label="avalanche of new fantasy bo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy world" [label="fantasy world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "connected" [label="connected", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Order of the British Empire" [label="Order of the British Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arda Tolkien" [label="Arda Tolkien", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1945" [label="1945", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tolkien disambiguation" [label="Tolkien disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "C. S. Lewis, a co-member of..." [label="C. S. Lewis, a co-member of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friend" [label="friend", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1925" [label="1925", fillcolor=lightgray, color=gray, shape=hexagon];
+    "College" [label="College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Hobbit" [label="The Hobbit", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tales, poems, fictional his..." [label="tales, poems, fictional his...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy" [label="fantasy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "profound" [label="profound", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most influent..." [label="as one of the most influent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university" [label="university", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hobbit and The Lord of the ..." [label="Hobbit and The Lord of the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as such" [label="as such", fillcolor=lightgray, color=gray, shape=hexagon];
+    "28 March 1972" [label="28 March 1972", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pembroke College, Cambridge" [label="Pembroke College, Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "group" [label="group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "J. R. R. Tolkien" [label="J. R. R. Tolkien", fillcolor=lightgray, color=gray, shape=hexagon];
+    "son" [label="son", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy world called Arda a..." [label="fantasy world called Arda a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his son Christopher" [label="his son Christopher", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the "father" of modern f..." [label="as the "father" of modern f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rawlinson and Bosworth" [label="Rawlinson and Bosworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "within the same university" [label="within the same university", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pembroke" [label="Pembroke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English studies" [label="English studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "manuscripts" [label="manuscripts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Queen Elizabeth II" [label="Queen Elizabeth II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Silmarillion" [label="Silmarillion", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy genre" [label="fantasy genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "himself" [label="himself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "connected body of tales, po..." [label="connected body of tales, po...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Merton Professor of English..." [label="Merton Professor of English...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new" [label="new", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1951" [label="1951", fillcolor=lightgray, color=gray, shape=hexagon];
+    "These, together with The Ho..." [label="These, together with The Ho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tremendous success of The H..." [label="tremendous success of The H...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "term legendarium" [label="term legendarium", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Commander of the Order of t..." [label="Commander of the Order of t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth II" [label="Elizabeth II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "legendarium" [label="legendarium", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his son Christopher publish..." [label="his son Christopher publish...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tremendous" [label="tremendous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father's extensive note..." [label="his father's extensive note...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high fantasy" [label="high fantasy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "become the Merton Professor..." [label="become the Merton Professor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Order of the British Empire" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "J. R. R. Tolkien" -> "Rawlinson and Bosworth" [label="has theme [People_by_vocation]", color=lightcoral, penwidth=1];
+    "J. R. R. Tolkien" -> "close" [label="has degree [Social_connection]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "avalanche of new fantasy bo..." [label="has effect [Causation]", color=lightyellow, penwidth=1];
+    "J. R. R. Tolkien" -> "father" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "J. R. R. Tolkien" -> "high fantasy works The Hobb..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "J. R. R. Tolkien" -> "Anglo-Saxon" [label="has type [People_by_vocation]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "authors" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "connected" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "Order of the British Empire" -> "languages" [label="has theme [Coming_up_with]", color=lightgoldenrodyellow, penwidth=1];
+    "English studies" -> "university" [label="has theme [Identicality]", color=lightseagreen, penwidth=1];
+    "Pembroke College, Cambridge" -> "Fellow" [label="has person [People]", color=red, penwidth=2];
+    "Order of the British Empire" -> "Hobbit and The Lord of the ..." [label="has theme [Personal_success]", color=red, penwidth=2];
+    "Order of the British Empire" -> "legendarium" [label="has theme [Simple_name]", color=lightpink, penwidth=1];
+    "J. R. R. Tolkien" -> "larger part of these writings" [label="has purpose [Using]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "authors" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "English studies" -> "new" [label="has age [Age]", color=lightcoral, penwidth=1];
+    "J. R. R. Tolkien" -> "C. S. Lewis, a co-member of..." [label="has theme [Social_connection]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "Arda Tolkien" [label="has theme [Referring_by_name]", color=lightblue, penwidth=1];
+    "The Hobbit" -> "fantasy works" [label="has item [Position_on_a_scale]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "part" [label="has theme [Part_whole]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "before Tolkien" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "These, together with The Ho..." [label="has cause [Creating]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "as one of the most influent..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Order of the British Empire" -> "essays" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "these writings" [label="has theme [Part_whole]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "fantasy genre" [label="has theme [Emotion_directed]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "works of fantasy" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Order of the British Empire" -> "authors" [label="has entity [Subjective_influence]", color=lightgray, penwidth=1];
+    "Order of the British Empire" -> "fantasy world called Arda a..." [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "avalanche" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "English studies" -> "1945" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "profound" [label="has degree [Emotion_directed]", color=lightsteelblue, penwidth=1];
+    "J. R. R. Tolkien" -> "himself" [label="has theme [Awareness]", color=lightsalmon, penwidth=1];
+    "Order of the British Empire" -> "his father's extensive note..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Order of the British Empire" -> "many" [label="has theme [Increment]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "many other authors" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "Merton College, Oxford" -> "1945" [label="has time [Institutionalization]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "series of works based on hi..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "J. R. R. Tolkien" -> "1945" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "The Hobbit" -> "works" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "works" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "manuscripts" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "Silmarillion" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Order of the British Empire" -> "books" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "Tolkien's death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "friend" [label="has theme [Social_connection]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "Queen Elizabeth II" [label="has theme [Appointing]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "as the "father" of modern f..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Pembroke College, Cambridge" -> "1925" [label="has time [Locale_by_use]", color=purple, penwidth=2];
+    "English studies" -> "university" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "1951" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "son" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "connected body of tales, po..." [label="has theme [Creating]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "tremendous" [label="has degree [Personal_success]", color=red, penwidth=2];
+    "Order of the British Empire" -> "his son Christopher publish..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "1925" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "Tolkien disambiguation" [label="has theme [Reference_text]", color=lightgreen, penwidth=1];
+    "Pembroke College, Cambridge" -> "College" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "his son Christopher" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "J. R. R. Tolkien" -> "Merton Professor of English..." [label="has theme [Becoming]", color=lightyellow, penwidth=1];
+    "The Hobbit" -> "high fantasy" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "fantasy" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "J. R. R. Tolkien" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Order of the British Empire" -> "new fantasy books and authors" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Elizabeth II" -> "Tolkien's" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "J. R. R. Tolkien" -> "then" [label="has time [Motion]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "body" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "English studies" -> "informal" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "J. R. R. Tolkien" -> "Between 1951 and 1955" [label="has time [Using]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "tremendous success of The H..." [label="has cause [Causation]", color=lightyellow, penwidth=1];
+    "English studies" -> "literary discussion" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "Merton College, Oxford" -> "College" [label="has theme [Institutionalization]", color=lightpink, penwidth=1];
+    "J. R. R. Tolkien" -> "many other authors had publ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "Commander of the Order of t..." [label="has role [Appointing]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "other authors" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "J. R. R. Tolkien" -> "C. S. Lewis, a co-member of..." [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "English studies" -> "group" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "English studies" -> "group" [label="has theme [Discussion]", color=lightgoldenrodyellow, penwidth=1];
+    "J. R. R. Tolkien" -> "term legendarium" [label="has instrument [Using]", color=lightsteelblue, penwidth=1];
+    "J. R. R. Tolkien" -> "as such" [label="has role [Awareness]", color=lightsalmon, penwidth=1];
+    "Pembroke College, Cambridge" -> "Pembroke" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "J. R. R. Tolkien" -> "close" [label="has degree [Personal_relationship]", color=red, penwidth=2];
+    "J. R. R. Tolkien" -> "family" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "many other authors had publ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Order of the British Empire" -> "fantasy world" [label="has entity [Referring_by_name]", color=lightblue, penwidth=1];
+    "J. R. R. Tolkien" -> "1945" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "unpublished" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "English studies" -> "J. R. R. Tolkien" [label="has employee [Being_employed]", color=lightseagreen, penwidth=1];
+    "Order of the British Empire" -> "tremendous success of The H..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "English studies" -> "literary" [label="has theme [Discussion]", color=lightgoldenrodyellow, penwidth=1];
+    "Order of the British Empire" -> "tales, poems, fictional his..." [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "Order of the British Empire" -> "authors" [label="has text [Text]", color=lightblue, penwidth=1];
+    "English studies" -> "1945" [label="has time [Locale_by_use]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "Tolkien family" [label="has theme [Awareness]", color=lightsalmon, penwidth=1];
+    "English studies" -> "1945" [label="has time [Identicality]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "become the Merton Professor..." [label="has purpose [Motion]", color=lightcyan, penwidth=1];
+    "Order of the British Empire" -> "1951" [label="has time [Simple_name]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "Merton College, Oxford" [label="has theme [People_by_vocation]", color=lightcoral, penwidth=1];
+    "English studies" -> "fantasy books and authors" [label="has entity [Age]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "28 March 1972" [label="has time [Appointing]", color=purple, penwidth=2];
+    "Pembroke College, Cambridge" -> "1925" [label="has time [People]", color=purple, penwidth=2];
+    "Pembroke College, Cambridge" -> "Oxford" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "J. R. R. Tolkien" -> "within the same university" [label="has goal [Motion]", color=lightcyan, penwidth=1];
+    "Order of the British Empire" -> "J. R. R. Tolkien" [label="has theme [Appointing]", color=lightblue, penwidth=1];
+    "Pembroke College, Cambridge" -> "University" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "many" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "England" -> "uses" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Social_connection_legend" [label="Social_connection", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Coming_up_with_legend" [label="Coming_up_with", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Personal_success_legend" [label="Personal_success", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Simple_name_legend" [label="Simple_name", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Position_on_a_scale_legend" [label="Position_on_a_scale", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Creating_legend" [label="Creating", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Institutionalization_legend" [label="Institutionalization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

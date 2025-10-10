@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Frequency:has_event focused on both loss and healing",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'His poetry often focused on both loss and healing.' While this refers to his poetry in general, Leaves of Grass is his major poetry collection, making the connection semantically reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Emphasizing:has_theme often",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The predicate is vague, but the paragraph discusses themes in Whitman's work (e.g., 'focused on both loss and healing'). As Leaves of Grass is his primary work, a weak semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Aggregate:has_theme collection",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The predicate is unclear, but Leaves of Grass is explicitly called a 'poetry collection' and a 'major poetry collection' in the text. This is a very weak but valid semantic link to the concept of a 'collection'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Residence:has_location http://en.wikipedia.org/wiki/Brooklyn",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states '...lived in Brooklyn as a child and through much of his career,' which directly supports the residence relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Activity_ongoing:has_activity expanding and revising Leaves of Grass until his death in 1892",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The sentence 'Whitman continued expanding and revising Leaves of Grass until his death in 1892' is a direct and exact match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Categorization:has_item which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically incomplete and semantically unclear. 'which' does not refer to a specific item that can be reasonably extracted from the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Judgment:has_degree greatly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The word 'greatly' is used in the context of Whitman's admiration for Abraham Lincoln ('whom Whitman greatly admired'). While the triple structure is abstract, the concept of 'degree' (greatly) is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Kinship:has_theme free verse",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Whitman is explicitly called 'the father of free verse,' establishing a very strong thematic connection between the subject and free verse."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Education_teaching:has_level formal",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The word 'formal' appears in the context of 'formal schooling,' which Whitman left at age 11. There is no direct or indirect connection between the publication 'Leaves of Grass' and a 'formal level' of education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Education_teaching:has_teacher teacher",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Whitman worked as a 'teacher,' but this is a profession he held, not a role attributed to the book 'Leaves of Grass.' The connection between the book and having a teacher is tenuous and not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Money:has_theme money",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'financed with his own money', connecting the work 'Leaves of Grass' to the theme of money/financing, though the relationship is about funding rather than a thematic element."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Being_employed:has_employee http://en.wikipedia.org/wiki/Walt_Whitman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship is inverted; Whitman is the author/creator of 'Leaves of Grass', not an employee of it. The triple suggests the work employs the person, which contradicts the semantic meaning in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Categorization:has_category as obscene",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states his work 'was described by some as obscene'. This directly connects Whitman (via his work) to the category 'obscene'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Improvement_or_decline:has_degree further",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'further' is used in the context of Whitman's health declining ('his health further declined'), not in relation to 'Leaves of Grass'. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Cardinal_numbers:has_theme two",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'he also wrote two novels', which connects the number 'two' to Whitman's creative output. This is a reasonable, though indirect, thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Cause_harm:has_theme wounded",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Whitman worked in hospitals caring for the wounded during the Civil War, and his poetry focused on loss and healing. While 'Leaves of Grass' is not explicitly linked to the theme of 'wounded,' the work is his major poetry collection and the broader context of his poetry's themes creates a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Time_vector:has_theme suffering a stroke towards the end of his life",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Whitman suffered a stroke, but this event is described as part of his life biography, not as a theme of 'Leaves of Grass.' There is no semantic connection between the book and the stroke."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Cause_expansion:has_item http://en.wikipedia.org/wiki/Leaves_of_Grass",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Whitman's major poetry collection, Leaves of Grass' and that he 'continued expanding and revising' it. This directly supports a relationship where Whitman 'has' the item 'Leaves of Grass.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Level_of_force_exertion:has_theme Whitman's influence on poetry",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Whitman's influence on poetry remains strong' and that one cannot understand America without him 'without Leaves of Grass.' This strongly implies that 'Leaves of Grass' is the primary vehicle for his influential theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Objective_influence:has_theme poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly identifies Whitman as a poet and discusses his poetry and its influence. The theme of poetry is central to the entire description of him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Motion:has_goal work",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Whitman left school 'to go to work' and lists his various jobs (journalist, teacher, clerk), implying work was a goal of his actions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Labor_product:has_theme work",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Leaves of Grass is described as 'an attempt to reach out to the common person', which weakly relates to the theme of labor or common work, though not explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Emphasizing:has_theme His poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Leaves of Grass is explicitly identified as Whitman's 'poetry collection' and 'major poetry collection', making 'His poetry' a direct and central theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Leaves of Grass is directly called a 'poetry collection', which is a text composed of poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Departing:has_purpose go to work",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states 'he left formal schooling to go to work', which directly describes a departure (leaving school) with the purpose of going to work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Being_employed:has_task caring for the wounded",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Whitman (the person) worked in hospitals caring for the wounded. There is no semantic connection between the book 'Leaves of Grass' and the task of caring for the wounded."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Residence:has_time as a child and through much of his career",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Whitman was born in Huntington on Long Island and lived in Brooklyn as a child and through much of his career,' which directly relates to the subject's residence during a specific time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Text_creation:has_text two novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'he also wrote two novels,' which is a direct statement about the subject's creation of textual works. The relationship 'has_text' is a reasonable semantic interpretation of 'wrote'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Publishing:has_work Whitman's major poetry collection, Leaves of Grass",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The phrase 'Whitman's major poetry collection, Leaves of Grass' is used in the paragraph. While the predicate 'has_work' is somewhat inverted (the work 'has' the collection), the semantic connection that the subject 'Leaves of Grass' is the work in question is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity literature",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'American literature' multiple times. While the connection between the United States and literature is indirect and the triple is very abstract, the concept of American (US) literature is a central theme, providing a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Judgment:has_evaluee whom",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Judgment:has_evaluee whom' is syntactically and semantically unclear. It does not correspond to any clear relationship described in the paragraph. The word 'whom' appears once in reference to Abraham Lincoln, not in a way that forms a coherent triple with Whitman as the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Medical_conditions:has_patient http://en.wikipedia.org/wiki/Walt_Whitman",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph does not describe 'Leaves of Grass' as having a patient. The predicate 'Medical_conditions:has_patient' implies a medical relationship, which is not present between the book and the author. Whitman's health is discussed separately from his book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Aggregate:has_theme poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly and repeatedly states that 'Leaves of Grass' is a 'poetry collection' and a 'major poetry collection'. Therefore, poetry is a direct and unambiguous theme of the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Emphasizing:has_theme both loss and healing",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'His poetry often focused on both loss and healing.' While this refers to his poetry in general, 'Leaves of Grass' is his major and continually revised work, making it a reasonable inference that this theme is present in it. The connection is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Labeling:has_theme father of free verse",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Whitman 'is often called the father of free verse'. The predicate 'Labeling:has_theme' is a stretch, but it semantically connects Whitman to the concept of being the 'father of free verse'. The connection is about a label applied to him, which is a type of thematic attribute."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_Epic Attempt:has_goal reach out to the common person with an American epic",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'The work was an attempt to reach out to the common person with an American epic', directly matching the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Event:has_event his funeral",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Whitman's funeral was a public event, but this is associated with Whitman himself, not directly with the work 'Leaves of Grass'. The connection is too indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Categorization:has_theme its overt sensuality",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Whitman's work was controversial for its 'overt sensuality'. While the phrasing 'its overt sensuality' refers to 'Leaves of Grass', the theme is a defining characteristic of Whitman's controversial work, creating a reasonable semantic link to the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Money:has_possessor http://en.wikipedia.org/wiki/Walt_Whitman",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Leaves of Grass... was financed with his own money', which strongly implies that Whitman was the possessor of the money used to finance his own work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Motion:has_goal Washington, D.C",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'he went to Washington, D.C., and worked in hospitals caring for the wounded'. While the primary goal stated is the work in hospitals, the act of going to Washington implies it was the destination/goal of his motion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman Death:has_theme age 72",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'When he died at age 72', directly connecting Walt Whitman's death to the age of 72."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'American literature' and Whitman's influence on it, creating a semantic link between the United States and the field of literature, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Aggregate:has_theme major",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text refers to 'Whitman's major poetry collection, Leaves of Grass', directly associating the theme of being 'major' with the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_Civil_War Temporal_collocation:has_theme American Civil War",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'During the American Civil War', making the theme of the American Civil War directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text poets",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph discusses Whitman as an 'American poet' and his place in 'American literature', creating a weak but valid semantic link between the United States and the concept of poets."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_Epic Arriving:has_goal out to the common person with an American epic",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the work (Leaves of Grass) was 'an attempt to reach out to the common person with an American epic', which semantically connects the goal of an American epic to reaching the common person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walt_Whitman State_continue:has_entity Whitman's influence on poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Whitman's influence on poetry remains strong', directly supporting the triple's concept of Whitman's influence on poetry continuing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leaves_of_Grass Being_employed:has_theme hospitals",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Whitman worked in hospitals, but this is not connected to Leaves of Grass as a theme. The work's themes are described as reaching common people, not hospitals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mary_Berenson Grasp:has_theme without Walt Whitman, without Leaves of Grass",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph quotes Mary Berenson saying 'You cannot really understand America without Walt Whitman, without Leaves of Grass', directly supporting the triple's theme of understanding requiring Whitman and his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity poet",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Whitman is repeatedly described as an 'American poet', establishing a semantic connection between the United States and a poet, though the relationship is more about nationality than origin."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 35,
+    "accuracy": 0.7,
+    "avg_confidence": 0.5960000000000001,
+    "high_confidence_50": 35,
+    "high_confidence_80": 20,
+    "percent_50": 70.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

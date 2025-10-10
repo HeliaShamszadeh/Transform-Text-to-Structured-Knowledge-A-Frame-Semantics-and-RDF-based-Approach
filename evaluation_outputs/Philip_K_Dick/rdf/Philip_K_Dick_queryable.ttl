@@ -1,0 +1,109 @@
+# SPARQL Queryable RDF Triples
+# Generated for RAG applications
+
+@prefix : <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Motion:has_theme> "his family" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Sequence:has_theme> "mystical experiences in 1974" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Success_or_failure:has_degree> "little" .
+<http://en.wikipedia.org/wiki/Chicago> <Age:has_attribute> "age" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Age:has_age> "53" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Relative_time:has_theme> "his death" .
+<http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel> <Inclusion:has_theme> "acclaim" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Text:has_text> "novels" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Becoming:has_theme> "widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Success_or_failure:has_goal> "commercial" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Publishing:has_work> "science fiction stories" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Subordinates_and_superiors:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Relative_time:has_theme> "Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Categorization:has_category> "one of the most important figures in 20th-century science fiction" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Becoming:has_time> "Following his death" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Perception_experience:has_theme> "Androids" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Perception_experience:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Death:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Motion:has_time> "young age" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Measure_duration:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Importance:has_theme> "20th-century science fiction" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Relative_time:has_theme> "years of drug use and a series of mystical experiences in 1974" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Relative_time:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Work:has_time> "1974" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Kinship:has_location> "http://en.wikipedia.org/wiki/Chicago" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Kinship:has_theme> "family" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Desirability:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Text_creation:has_text> "short story" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Being_born:has_location> "http://en.wikipedia.org/wiki/Chicago" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Motion:has_location> "http://en.wikipedia.org/wiki/Chicago" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Duration_description:has_theme> "stories" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_text> "Man in the High Castle" .
+<http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel> <Win_prize:has_competition> "His 1974 novel Flow My Tears, the Policeman Said" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Publishing:has_work> "collection of his speculative nonfiction writing on these themes" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Point_of_dispute:has_theme> "theology, metaphysics, and the nature of reality" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Publishing:has_time> "1952" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Relative_time:has_theme> "he became "widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon " .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Work:has_agent> "Dick's" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Circumscribed_existence:has_location> "science fiction magazines" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Origin:has_entity> "science fiction author" .
+<http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel> <Inclusion:has_time> "1962" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Aggregate:has_theme> "his speculative nonfiction writing on these themes" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_time> "2011" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Origin:has_time> "1928" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Desirability:has_theme> "Science Fiction Novel" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Judgment_communication:has_time> "1962" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Text:has_time> "1974" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Sequence:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel> <Win_prize:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Activity_start:has_time> "1952" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_theme> "these themes" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Age:has_time> "1982" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Publishing:has_theme> "posthumously" .
+<http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel> <Win_prize:has_prize> "John W. Campbell Memorial Award for Best Science Fiction Novel" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Measure_duration:has_process> "drug use" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Motion:has_goal> "San Francisco Bay Area" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Death:has_theme> "due to complications of a stroke" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Aggregate:has_theme> "collection" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Perception_experience:has_theme> "experiences" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Point_of_dispute:has_time> "1974" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Aggregate:has_time> "2011" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Medical_conditions:has_theme> "complications" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Desirability:has_theme> "Novel" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Kinship:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Success_or_failure:has_time> "1962" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_text> "writing" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text_creation:has_time> "1928" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Using:has_instrument> "drug" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_theme> "alternative history" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Death:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Publishing:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Perception_experience:has_theme> "Electric Sheep" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Death:has_time> "1982" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Activity_start:has_activity> "publishing science fiction stories" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Judgment_communication:has_theme> "http://en.wikipedia.org/wiki/Philip_K._Dick" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Objective_influence:has_theme> "Dick's" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Text_creation:has_time> "1928" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Text_creation:has_author> "American science fiction author (1928–1982) Philip Kindred Dick (December 16, 1928 – March 2, 1982 )" .
+<http://en.wikipedia.org/wiki/Chicago> <Age:has_age> "young" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Text:has_text> "novels" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Intoxicants:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Publishing:has_time> "as The Exegesis of Philip K. Dick (2011)" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Death:has_theme> "age of 53" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Subordinates_and_superiors:has_theme> "imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Importance:has_theme> "figures" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Relative_time:has_theme> "science fiction novels such as Do Androids Dream of Electric Sheep" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text:has_time> "1962" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Relative_time:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Origin:has_theme> "http://en.wikipedia.org/wiki/United_States" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Text_creation:has_text> "44 novels and about 121 short stories, most of which appeared in science fiction magazines" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Text:has_text> "Flow My Tears" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Intoxicants:has_theme> "drug" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Medical_conditions:has_time> "1982" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Medical_conditions:has_patient> "stroke" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Text:has_theme> "1974" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Measure_duration:has_theme> "years" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Desirability:has_time> "1962" .
+<http://en.wikipedia.org/wiki/Philip_K._Dick> <Categorization:has_category> "as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Circumscribed_existence:has_entity> "most of which" .
+<http://en.wikipedia.org/wiki/San_Francisco_Bay_Area> <Using:has_time> "1974" .
+<http://en.wikipedia.org/wiki/Thomas_Pynchon> <Objective_influence:has_time> "posthumous" .
+<http://en.wikipedia.org/wiki/Science_fiction> <Origin:has_entity> "science fiction short story writer and novelist" .

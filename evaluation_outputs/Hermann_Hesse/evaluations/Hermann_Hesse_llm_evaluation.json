@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Assistance:has_goal shape his literary work",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hesse's interests 'helped to shape his literary work', but this is not connected to the Nobel Prize. The Nobel Prize is mentioned as an award he received, not as an entity with the goal of shaping his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Process_end:has_process his formal education",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "There is no semantic connection between the Nobel Prize and the end of Hesse's formal education mentioned in the paragraph. The two pieces of information are unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Reading_activity:has_text theological treatises, Greek mythology, Johann Wolfgang von Goethe, Gotthold Ephraim Lessing, Friedrich Schiller, and Friedrich Nietzsche",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hesse read a list of authors and texts which includes 'Johann Wolfgang von Goethe, Gotthold Ephraim Lessing, Friedrich Schiller, and Friedrich Nietzsche' after his formal education ended. The triple's subject is one of the authors in that list, and the object is the list itself, making the connection direct."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Protestantism Locale_by_use:has_theme school",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hesse studied at a 'Protestant boarding school'. While the triple's predicate 'has_theme' is a weak match for the school's religious affiliation, there is a clear semantic link between Protestantism and the school."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Education_teaching:has_time briefly",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'briefly' in the paragraph modifies the time Hesse studied at a boarding school, not the Nobel Prize. There is no connection between the duration 'briefly' and the Nobel Prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Seeking:has_theme individual's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hesse's novels 'each of which explores an individual's search for authenticity, self-knowledge, and spirituality.' As Hesse won the Nobel Prize in Literature, there is a semantic connection between the prize and the theme of 'individual's search' present in his acclaimed work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature People_by_age:has_person youth",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Hesse's youth ('As a youth, he studied...'). Since Hesse is the laureate of the Nobel Prize in Literature mentioned, there is a weak but valid indirect connection between the prize and the concept of 'youth' via the biography of the laureate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Performing_arts:has_theme music",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Hesse shared a 'passion for... music with his mother.' As Hesse won the Nobel Prize, there is a very weak, indirect link between the prize and the theme of 'music' through the personal interests of the laureate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Emotion_directed:has_theme http://en.wikipedia.org/wiki/Hermann_Hesse",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hermann Karl Hesse... was... the 1946 Nobel Prize in Literature laureate.' This creates a direct and strong semantic relationship between the Nobel Prize and Hermann Hesse himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Ordinal_numbers:has_type works of poetry and prose",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'Hesse read... Johann Wolfgang von Goethe...' and separately mentions 'His first works of poetry and prose were being published...'. There is a reasonable, though indirect, connection as Goethe is mentioned as an influence in the context of Hesse's own literary works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bildungsroman Circumscribed_existence:has_entity his first novel, Peter Camenzind",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'his first novel, Peter Camenzind'. While 'Bildungsroman' is not explicitly stated, the novel is mentioned in the context of Hesse's literary work, and there is a weak semantic connection as his novels explore themes of self-discovery which are common in Bildungsroman."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Participation:has_location Eastern",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Hesse won the Nobel Prize in Literature, and the paragraph mentions his 'interest in Eastern religious, spiritual, and philosophical traditions' which helped shape his work. There is a weak, indirect connection between the prize and 'Eastern' themes via his influential interests."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature People_by_age:has_person child",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Hesse won the Nobel Prize, and the paragraph mentions him as a 'child' sharing passions with his mother. This is a very weak and indirect connection, but a semantic link exists via the person's life stages."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Education_teaching:has_institution Protestant boarding school, the Evangelical Seminaries of Maulbronn and Blaubeuren, where he struggled with bouts of depression and once attempted suicide, which temporarily landed him in a sanatorium",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hesse won the Nobel Prize, and the paragraph states he studied at the specified Protestant boarding school. There is a reasonable, direct connection between the person (the laureate) and the educational institution he attended."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Cause_to_land:has_time temporarily",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Hesse won the Nobel Prize, and the paragraph mentions a suicide attempt which 'temporarily landed him in a sanatorium'. There is an indirect connection between the laureate and the concept of a 'temporary' event in his life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Text:has_time 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states 'his first novel, Peter Camenzind, appearing in 1904' - clear temporal connection to Hesse's work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Germany Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hesse is described as a 'German-Swiss poet' and was born in Germany - weak but valid connection between Germany and poet"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Being_born:has_time 1877",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Paragraph explicitly states 'Hesse was born in 1877' and 'Hermann Karl Hesse was born on 2 July 1877'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Temporal_collocation:has_theme 1890s and early 1900s",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Goethe is mentioned in context of Hesse's reading after 1893, and Hesse's works were published in 1890s-1900s - reasonable temporal association"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Cause_to_land:has_goal sanatorium",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No semantic connection between Nobel Prize and sanatorium - sanatorium mentioned in context of suicide attempt, completely unrelated to Nobel Prize"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Temporal_collocation:has_time 1904",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hesse's first novel was published in 1904 and that he read Goethe, but there is no direct or indirect connection between Goethe and the year 1904. The events are temporally disconnected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Education_teaching:has_student http://en.wikipedia.org/wiki/Hermann_Hesse",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hesse read Goethe's works as an autodidact after his formal education ended. This describes a literary influence, not a formal student-teacher relationship. The connection is too weak to support the 'has_student' predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Emotion_directed:has_theme Eastern religious, spiritual, and philosophical traditions",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hesse's interest in Eastern traditions 'helped to shape his literary work,' for which he won the Nobel Prize. There is a reasonable, though indirect, semantic link between the prize and the themes that influenced the awarded work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Participation:has_event Jungian analysis",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Similar to the previous triple, Hesse's involvement with Jungian analysis is stated as something that helped shape his literary work, which earned him the Nobel Prize. The connection is indirect but semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Custom:has_location Eastern",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "This is a very weak connection. The predicate 'has_location' is being interpreted loosely. The prize is associated with Hesse's work, which was influenced by 'Eastern' traditions. While 'Eastern' is not a location in the geographic sense here, there is a minimal semantic link based on the theme's origin."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Medical_conditions:has_theme depression",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Hesse won the Nobel Prize in Literature and separately mentions he struggled with depression. While there is no direct link between the prize and depression, both concepts are present in the text, creating a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Labor_product:has_time 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hesse's first novel, Peter Camenzind, appeared in 1904, directly linking the subject (Hesse) to the year 1904 in the context of his literary work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Protestantism Locale_by_use:has_theme boarding",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hesse studied at a 'Protestant boarding school'. This creates a semantic link between Protestantism and the concept of a boarding school, even if the exact relationship in the triple is not explicitly defined."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Custom:has_theme religious, spiritual, and philosophical",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hesse won the Nobel Prize in Literature and that his interest in 'Eastern religious, spiritual, and philosophical traditions' helped shape his literary work. This creates a reasonable, though indirect, connection between the prize and these themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Calw Political_locales:has_theme Germany's Northern Black Forest",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly describes Calw as 'a town in Germany's Northern Black Forest', providing a clear and direct semantic relationship between the location and the region."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Temporal_subregion:has_theme 1900s",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Goethe as an author Hesse read after his education ended in 1893, and Hesse's works were published in the 1890s and early 1900s. There is a weak temporal and thematic connection, though not a direct relationship stated between Goethe and the 1900s."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Germany Text:has_text article",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph is a biographical article about a German-Swiss author, and Germany is mentioned multiple times (e.g., 'German writer', 'town in Germany'). The connection between Germany and the article text is reasonably implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Assistance:has_location Eastern",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Hesse won the Nobel Prize in Literature and had an interest in 'Eastern religious, spiritual, and philosophical traditions'. There is a very weak, indirect semantic connection between the prize and 'Eastern' themes via the author's interests."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Being_born:has_person Hermann Karl Hesse",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Hermann Karl Hesse was born on 2 July 1877', making the connection between the entity Hermann Hesse and the person Hermann Karl Hesse being born directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Germany Text:has_author German - Swiss",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph describes Hermann Hesse as a 'German - Swiss poet and novelist'. As the text is about him, there is a reasonable connection between Germany (as part of his nationality) and the author of the text's subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Labor_product:has_theme poetry and prose",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hesse's 'first works of poetry and prose were being published in the 1890s and early 1900s', directly linking him to the theme of poetry and prose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Participation:has_theme http://en.wikipedia.org/wiki/Hermann_Hesse",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hesse 'was the 1946 Nobel Prize in Literature laureate', establishing a clear participation/theme relationship between the prize and the person, even if the predicate is slightly abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Germany Political_locales:has_theme Empire",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hesse was born in the 'German Empire'. While the connection is indirect (the triple is about Germany having the theme 'Empire', and the text mentions the historical entity 'German Empire'), a lenient semantic connection can be made."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Reference_text:has_theme Hermann Hess (politician)",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph references 'Hermann Hess (politician)' to disambiguate the subject. This creates a weak semantic link where the article about Hesse has the politician as a referenced theme for clarification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Text:has_text poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions poetry in the context of Hesse's work, but there is no direct or indirect connection stated between the Nobel Prize in Literature and the text 'poetry'. The concepts are related in the broader text but not in a way that supports this specific triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Sharing:has_entity passion for poetry and music",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Hesse 'shared a passion for poetry and music with his mother'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hesse's mother is mentioned in the context of sharing a passion for poetry and music, establishing a kinship relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Education_teaching:has_level formal",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Goethe as an author Hesse read, but it does not state anything about Goethe's own level of formal education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Reading_activity:has_time after his formal education concluded",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hesse read Goethe 'after his formal education concluded', establishing a temporal connection for the reading activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Black_Forest Political_locales:has_theme http://en.wikipedia.org/wiki/Calw",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Calw is a town 'in Germany's Northern Black Forest', creating a locational relationship between the two entities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Custom:has_theme Eastern",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hesse won the Nobel Prize in Literature and had an 'interest in Eastern religious, spiritual, and philosophical traditions' which shaped his work. There is a weak but reasonable semantic connection between the prize and Eastern themes via the author's interests."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hermann_Hesse Being_born:has_location Calw, a town in Germany's Northern Black Forest",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Hesse was born in 1877 in Calw, a town in Germany's Northern Black Forest' and repeats this information later, providing a clear and direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Temporal_collocation:has_theme His first works of poetry and prose were being published",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Goethe is mentioned as one of the authors Hesse read. The publication of Hesse's first works is mentioned in the same paragraph. The connection is very indirect and thematic (both related to literature), but a lenient interpretation allows for a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature People_by_origin:has_theme Baltic German",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Hesse won the Nobel Prize and his father was a Baltic German. This is an extremely weak and indirect connection (the prize is linked to the person, who is linked to an origin), but a lenient interpretation based on semantic chains allows it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe Process_end:has_process his formal education",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that after his formal education ended, Hesse read Goethe. This creates a direct temporal and thematic link between Goethe (as a subject of study) and the end of the formal education process."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.54,
+    "high_confidence_50": 30,
+    "high_confidence_80": 12,
+    "percent_50": 60.0,
+    "percent_80": 24.0,
+    "max_triples_limit": 50
+  }
+}

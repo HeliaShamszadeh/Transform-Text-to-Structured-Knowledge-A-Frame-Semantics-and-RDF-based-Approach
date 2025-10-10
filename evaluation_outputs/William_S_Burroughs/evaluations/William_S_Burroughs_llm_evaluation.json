@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Quantified_mass:has_quantity thousands",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions he created 'thousands of visual artworks', which semantically connects to the quantity 'thousands'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Becoming_a_member:has_group U.S. Army",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states 'he enlisted in the U.S. Army to serve during World War II', clearly connecting WWII with the U.S. Army"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Temporal_collocation:has_theme he enlisted in the U.S. Army to serve during World War II",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This exact phrase appears verbatim in the paragraph, making it directly extractable"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Interior_profile_relation:has_time 1943",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph states 'In 1943, while living in New York City', connecting the time 1943 with New York City"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beat_Generation Objective_influence:has_theme defining",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph mentions Beat Generation had 'a defining influence', connecting the concept of 'defining' to the Beat Generation"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs People:has_person people",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about William S. Burroughs, who is a person, and the 'people' theme is broadly supported by the extensive biographical details provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Relative_time:has_theme being turned down by both the Office of Strategic Services and the Navy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'After being turned down by both the Office of Strategic Services and the Navy', which directly relates to the theme of rejection by these organizations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Interior_profile_relation:has_theme he befriended Allen Ginsberg and Jack Kerouac",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'In 1943, while living in New York City, he befriended Allen Ginsberg and Jack Kerouac.' The theme of friendship is directly linked to the location New York City."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Process_start:has_theme morphine",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions he began 'substance abuse, beginning with morphine'. This can be interpreted as the start of a process involving morphine, though the connection to the specific predicate 'Process_start' is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Craft:has_theme celebrated",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions his 'celebrated \"shotgun art\"'. While 'celebrated' is an adjective describing his art (a product of craft) rather than the craft itself, there is a weak semantic connection to the theme of being celebrated for his craft."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Being_named:has_time 1914",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'American writer and visual artist (1914–1997)' and 'February 5, 1914', clearly indicating 1914 is the time of his birth/naming."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Becoming_a_member:has_time 1942",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'In 1942, he enlisted in the U.S. Army to serve during World War II.' This directly connects World War II with the time (1942) he became a member of the army."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Substance:has_theme substance",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'substance abuse, beginning with morphine and developing a heroin addiction'. While 'substance' is a general term, it semantically relates to the specific substances (morphine, heroin) discussed in the context of his life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states he wrote 'six collections of short stories'. While 'Duration_description' is an abstract frame, the text describes his body of work, which includes stories, giving a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Text:has_text novels",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Burroughs wrote 18 novels and novellas' and mentions specific novels like 'Junkie' and 'Naked Lunch', making the connection to novels very clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Intentionally_create:has_theme thousands of visual artworks, including his celebrated \"shotgun art\"",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he 'created and exhibited thousands of visual artworks, including his celebrated \"shotgun art\"'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Text:has_text essays",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he wrote 'four collections of essays'. The concept of 'essays' is directly mentioned and related to the subject's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Aggregate:has_theme collections",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'collections' multiple times in the context of his written works (collections of short stories, collections of essays). The theme of 'collections' is reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Burroughs was born into a wealthy family' and mentions his grandfather and uncle, establishing 'family' as a relevant theme in his biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Rice_Burroughs Fame:has_reason his third novel, Naked Lunch (1959)",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject URI is incorrect (Edgar Rice Burroughs instead of William S. Burroughs). While the novel 'Naked Lunch' is mentioned as a reason for his fame in the paragraph, the triple is attributed to the wrong entity, making the information as a whole not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Inclusion:has_theme thousands of visual artworks",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Burroughs 'created and exhibited thousands of visual artworks'. The predicate 'Inclusion:has_theme' can be interpreted as a broad thematic association, which is semantically connected to his creation of artworks."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Work:has_theme artworks",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he was a 'visual artist' and 'created...visual artworks'. The predicate 'Work:has_theme' can be leniently interpreted as his work being associated with the theme of art/artworks."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Increment:has_time 1914",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "1914 is explicitly mentioned as his birth year. While the predicate 'Increment:has_time' is vague, it can be leniently interpreted as a temporal association, which is a valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_time 1914",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'United States' is not the main topic of the paragraph. While Burroughs was American and was born in 1914, there is no direct or reasonably implied statement connecting the United States as a nation to the specific year 1914 in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Rest:has_theme rest",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that his heroin addiction 'would affect him for the rest of his life'. This is a very weak and indirect connection, but leniently, the concept of 'rest' (of his life) is thematically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Assistance:has_time during World War II",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'he enlisted in the U.S. Army to serve during World War II', which directly connects the concept of assistance (enlisting/serving) to the time period of World War II."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Reference_text:has_time 1914",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "1914 is explicitly mentioned as William Burroughs' birth year in the text '(1914–1997)' and 'February 5, 1914', which is a key temporal reference for the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Create_physical_artwork:has_creator William Seward Burroughs II ( / b r o z / ; February 5, 1914 – August 2, 1997)",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Burroughs 'created and exhibited thousands of visual artworks', establishing him as a creator of physical artwork. The full name with pronunciation and dates is the subject's identification in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Social_event:has_theme \"shotgun art\"",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While 'shotgun art' is mentioned as a type of artwork he created, the connection to a 'social event' is weak but semantically related to exhibition contexts mentioned ('exhibited thousands of visual artworks')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Wealthiness:has_location St",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The text mentions he was 'born into a wealthy family in St. Louis, Missouri'. There's a weak semantic connection between wealthiness and the location 'St.' (referencing St. Louis) where this wealthy family was based."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Quantified_mass:has_quantity numerous",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states he 'collaborated on projects and recordings with numerous performers and musicians', directly providing the concept of 'numerous' in relation to his activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Temporal_collocation:has_theme 1942",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1942 is explicitly mentioned as the time he 'enlisted in the U.S. Army', establishing a clear temporal theme associated with the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Coming_to_be:has_entity heroin addiction that would affect him for the rest of his life",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states he developed 'a heroin addiction that would affect him for the rest of his life', which is a perfect semantic match for the entity described in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Rice_Burroughs Success_or_failure:has_time 1953",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject of the triple (Edgar Rice Burroughs) is a completely different person from the subject of the paragraph (William S. Burroughs). The year 1953 is mentioned in the paragraph for William's success, but it is not related to Edgar."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Inclusion:has_theme his celebrated \"shotgun art\"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly mentions that he 'created and exhibited thousands of visual artworks, including his celebrated \"shotgun art\"', which is a direct semantic match for the triple's theme of inclusion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Text:has_text interviews",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Five books of his interviews and correspondences have also been published,' which directly links the subject to interviews as a form of text/publication."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Publishing:has_work Five books of his interviews and correspondences",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'Five books of his interviews and correspondences have also been published' explicitly states that these five books are his published works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Cause_to_perceive:has_theme thousands of visual artworks, including his celebrated \" shotgun art",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions he 'created and exhibited thousands of visual artworks, including his celebrated \"shotgun art\".' While 'has_theme' is a slightly awkward fit, the semantic connection to him being the creator/perceiver of these artworks is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Ordinal_numbers:has_time 1953",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1953 is mentioned in the context of his first novel 'Junkie' being published. The relationship 'has_time' is a weak but semantically valid connection to that specific year in his life/career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Intentionally_create:has_creator who",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The triple is grammatically incomplete ('has_creator who'), but the paragraph extensively describes Burroughs as a creator (writer, artist). There is a weak semantic link to the concept of him being a creator, though the triple itself is poorly formed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Relation:has_theme public",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph does not mention 'public' as a theme of Burroughs's work or life. The word 'public' appears only in the context of 'public relations manager' for his uncle."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivy_Lee People_by_vocation:has_type public relations",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'a nephew of public relations manager Ivy Lee', which directly indicates Ivy Lee's vocation is public relations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Cardinal_numbers:has_entity books",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph lists the number of books he wrote ('18 novels and novellas...'), establishing a clear relationship between Burroughs and the entity 'books'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Collaboration:has_theme numerous performers and musicians",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He also collaborated on projects and recordings with numerous performers and musicians', which is a direct semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Undergo_change:has_time After being turned down by both the Office of Strategic Services and the Navy",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph describes a change in his life ('veered into substance abuse') that occurred after the stated event, creating a reasonable semantic connection between the subject, the change, and the time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Cardinal_numbers:has_theme four",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states 'four collections of essays', which directly mentions the number four in relation to Burroughs's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Rice_Burroughs Fame:has_time 1953",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about William S. Burroughs, not Edgar Rice Burroughs. The year 1953 is mentioned for William's novel 'Junkie', but the subject of the triple is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Addiction:has_theme heroin",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly mentions Burroughs developing a 'heroin addiction that would affect him for the rest of his life'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Aggregate:has_theme short stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states Burroughs wrote 'six collections of short stories', establishing a clear connection to the theme of short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Rice_Burroughs Being_born:has_theme into a wealthy family in St. Louis, Missouri",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The birth information is about William S. Burroughs ('Burroughs was born into a wealthy family in St. Louis, Missouri'), but the subject of the triple is incorrectly Edgar Rice Burroughs."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 41,
+    "accuracy": 0.82,
+    "avg_confidence": 0.6819999999999999,
+    "high_confidence_50": 41,
+    "high_confidence_80": 27,
+    "percent_50": 82.0,
+    "percent_80": 54.0,
+    "max_triples_limit": 50
+  }
+}

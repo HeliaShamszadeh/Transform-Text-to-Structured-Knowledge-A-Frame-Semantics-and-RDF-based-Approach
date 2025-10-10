@@ -1,0 +1,273 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Duration_description:has_time 1911",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states War and Peace was published in 1869. The year 1911 is mentioned for other works ('Alyosha the Pot', 'After the Ball', 'The Devil'), but there is no semantic connection between War and Peace and the year 1911."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Categorization:has_category as one of the greatest and most influential authors of all time",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He is regarded as one of the greatest and most influential authors of all time'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Kinship:has_theme aristocratic",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Tolstoy was 'Born to an aristocratic family' and wrote 'Sevastopol Sketches' based on his experiences in the Crimean War. There is a very weak, indirect link via the author's biography, but the triple directly attributes the theme 'aristocratic' to the war itself, which is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Causation:has_theme http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that War and Peace is a work by Leo Tolstoy. While 'has_theme' is an imprecise predicate, there is a clear semantic relationship (author-work) between the two entities, which is a reasonable interpretation of the triple's intended meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein Expressing_publicly:has_theme His ideas on nonviolent resistance",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Tolstoy's ideas on nonviolent resistance 'had a profound impact on such pivotal 20th-century figures as... Ludwig Wittgenstein'. This establishes a clear semantic connection between Wittgenstein and the theme of Tolstoy's ideas on nonviolent resistance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Inclusion:has_time 1911",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states 'War and Peace' was published in 1869. The year 1911 is mentioned only in relation to other works like 'Alyosha the Pot' and 'The Devil', creating no semantic connection to 'War and Peace'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Categorization:has_category as an equally profound spiritual awakening",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Crimean War is mentioned as the basis for 'Sevastopol Sketches', and a 'profound spiritual awakening' is mentioned separately in the 1870s. There is no direct or implied categorization linking these two concepts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alyosha_the_Pot Labor_product:has_agent Alyosha the Pot",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Tolstoy's oeuvre includes the short story 'Alyosha the Pot'. While 'Alyosha the Pot' is the title of the work (the product) and not the agent creating it, there is a weak semantic link as the title is the name of a character who could be interpreted as an agent within the story's context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Referring_by_name:has_theme as Leo Tolstoy",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Tolstoy is referred to in English as 'Leo Tolstoy', but there is no mention or semantic connection to England as a country or theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Becoming:has_theme fervent Christian anarchist and pacifist",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that his interpretation of Jesus's teachings 'caused him to become a fervent Christian anarchist and pacifist', which is a clear semantic match for the triple's theme of becoming."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alyosha_the_Pot Labor_product:has_theme oeuvre",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Tolstoy's 'oeuvre includes short stories such as \"Alyosha the Pot\"', establishing a clear semantic connection between the work and his body of work (oeuvre)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Referring_by_name:has_entity 7 November] 1910)",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph contains no mention of England or any entity that could be reasonably connected to the date '7 November 1910' in this context. The date is part of Tolstoy's death date in the Old Style calendar."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Topic:has_theme philosophical, moral and religious themes",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While 'War and Peace' is not explicitly stated to have these themes, the paragraph says Tolstoy 'wrote plays and essays concerning philosophical, moral and religious themes.' Given that 'War and Peace' is his most famous work and the text discusses his overall thematic concerns, a weak semantic connection can be inferred."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically valid. 'War and Peace' is a novel, which is a form of long-form story. The paragraph mentions he wrote 'short stories' and 'novellas', establishing a thematic link to the concept of 'stories' in general."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Categorization:has_item what",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Crimean War is mentioned as the basis for 'Sevastopol Sketches', but the predicate 'Categorization:has_item what' is too vague and abstract to find any meaningful semantic connection in the paragraph. The word 'what' appears in a different context ('what he regarded as')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Increment:has_class uses' is semantically unclear and does not correspond to any identifiable concept or relationship described in the paragraph. No information about 'class' or 'uses' in this context is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Adducing:has_role as pinnacles of realist fiction and three of the greatest novels ever written",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'War and Peace' is 'often cited as pinnacles of realist fiction and three of the greatest novels ever written,' which semantically matches the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Devil Categorization:has_theme http://en.wikipedia.org/wiki/Jesus",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Tolstoy's work 'The Devil' is a novella and that his 'literal interpretation of the ethical teachings of Jesus' influenced his works. While not a direct link, there is a reasonable semantic connection between his themes and Jesus's teachings."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Judgment_communication:has_time his twenties",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Tolstoy achieved acclaim in his twenties,' which provides a clear temporal association for the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Perception_experience:has_time Crimean War",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'his experiences in the Crimean War,' creating a semantic link between the event (Crimean War) and the concept of experience/time. The predicate is abstract but loosely connected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Text_creation:has_text greatest novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'War and Peace' is 'often cited as... one of the greatest novels ever written', which directly supports the semantic connection between the entity and the concept of being a 'greatest novel'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Subjective_influence:has_entity authors",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Tolstoy as a Russian writer and influential author, but there is no mention of England or any connection between England and authors. The information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Text_creation:has_text plays and essays concerning philosophical, moral and religious themes",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'He also wrote plays and essays concerning philosophical, moral and religious themes.' This is an exact and clear match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_text writer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph identifies Leo Tolstoy as a 'Russian writer'. While the triple's subject is the country 'Russia' and the object is the general concept 'writer', the paragraph establishes a strong semantic link between the two through Tolstoy's nationality and profession."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Causation:has_effect become a fervent Christian anarchist and pacifist",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph describes Tolstoy's spiritual awakening and pacifist views, but it attributes this change to his 'literal interpretation of the ethical teachings of Jesus', not to the writing of 'War and Peace'. The causation implied by the triple is not supported, even leniently."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Reference_text:has_theme Tolstoy (disambiguation) and Lev Tolstoy (disambiguation",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Tolstoy (disambiguation)' and 'Lev Tolstoy (disambiguation)' in the context of redirects for the subject, Leo Tolstoy. This is a very weak semantic connection, as the disambiguation pages are not themes of Tolstoy but rather references to other uses of his name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Perception_experience:has_theme http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'Sevastopol Sketches (1855)' is based on Tolstoy's 'experiences in the Crimean War'. This implies that Tolstoy is a theme or subject associated with the Crimean War through his experiences and writings about it. The relationship is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Adducing:has_theme His War and Peace (1869 ), Anna Karenina (1878 ), and Resurrection (1899 ), which is based on his youthful sins,",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly lists 'War and Peace' as one of Tolstoy's works and states that 'Resurrection' is 'based on his youthful sins'. This creates a clear, though slightly misrepresented in the triple's phrasing, thematic link between the novel 'War and Peace' and the broader context of Tolstoy's works and their themes (including sins)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein Expressing_publicly:has_theme such works as The Kingdom of God Is Within You (1894",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Tolstoy's work 'The Kingdom of God Is Within You' had a 'profound impact' on Ludwig Wittgenstein. This establishes a strong semantic connection where the work is a theme associated with Wittgenstein in the context of being influenced by it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alyosha_the_Pot Labor_product:has_time 1911",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions the short story 'Alyosha the Pot' and gives its publication date as '(1911)', which is a direct match for the triple's time attribute."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Devil Categorization:has_item ethical teachings of Jesus",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'The Devil' as one of Tolstoy's novellas and separately discusses his interpretation of 'the ethical teachings of Jesus'. While the connection is very indirect and the triple's structure is unclear, there is a weak semantic link through Tolstoy's literary and philosophical works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Being_born:has_theme aristocratic family",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Tolstoy was 'Born to an aristocratic family' and that 'Sevastopol Sketches' were 'based on his experiences in the Crimean War', but these are two separate facts about Tolstoy. There is no stated or implied connection between the theme of the Crimean War and his aristocratic family birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text_creation:has_author authors",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Tolstoy 'was a Russian writer' and is 'regarded as one of the greatest and most influential authors'. While 'England' is not mentioned, the concept of 'authors' is central to the text. This is a very weak and generalized connection based on the 'authors' part of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leo_Tolstoy Judgment_communication:has_reason his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855 ) based on his experiences in the Crimean War",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Tolstoy 'achieved acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855), based on his experiences in the Crimean War'. This is a direct match for the information in the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Inclusion:has_theme His oeuvre",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'His War and Peace (1869)...' and later refers to 'His oeuvre includes short stories...'. Since 'War and Peace' is part of Tolstoy's body of work, it is reasonably included in the concept of 'his oeuvre'. This is a valid, though slightly indirect, semantic relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Devil Categorization:has_theme literal",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'The Devil' as one of Tolstoy's novellas, indicating it is a work with a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Referring_by_name:has_time 1910",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the year 1910 in the context of Tolstoy's death, but there is no mention or connection to England whatsoever."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Topic:has_text plays and essays",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph lists 'War and Peace' as a novel and separately mentions that Tolstoy wrote plays and essays. There is no stated connection between the novel and the plays/essays; they are listed as distinct parts of his oeuvre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crimean_War Categorization:has_theme http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Sevastopol Sketches' is based on Tolstoy's experiences in the Crimean War, creating a strong semantic link between the war and the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph identifies Tolstoy as Russian, but there is no mention of England or any location-based relationship between Russia and England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_time 1910",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Tolstoy's death year (1910) and that he was a Russian writer. The connection between 'Russia' and the time '1910' is extremely weak and indirect, as the date is associated with the person, not the country, but a lenient interpretation allows for a semantic link through the context of his life and work in Russia during that time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Causation:has_cause His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that 'His literal interpretation...' caused him to become a pacifist, but it does not link this cause directly to the writing of 'War and Peace'. The book is mentioned in a different context as a pinnacle of his fiction, with no causal relationship to his later philosophical views described. The connection is not supported, even with a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/War_and_Peace Inclusion:has_theme short stories such as \" Alyosha the Pot \" (1911) and \" After the Ball \" (1911) and novellas such as Family Happiness (1859 ), The Death of Ivan Ilyich (1886 ), The Kreutzer Sonata (1889 ), The Devil (1911 ), and Hadji Murat (1912",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly asserts that the listed short stories and novellas are themes 'included' in 'War and Peace'. The paragraph clearly lists these as separate works in Tolstoy's oeuvre, distinct from the novel 'War and Peace'. This is a misrepresentation of the text's meaning, not a valid semantic connection."
+    }
+  ],
+  "summary": {
+    "total_triples": 43,
+    "extractable_triples": 22,
+    "accuracy": 0.5116279069767442,
+    "avg_confidence": 0.47209302325581404,
+    "high_confidence_50": 22,
+    "high_confidence_80": 16,
+    "percent_50": 51.162790697674424,
+    "percent_80": 37.2093023255814,
+    "max_triples_limit": 50
+  }
+}

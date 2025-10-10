@@ -1,0 +1,257 @@
+digraph Luo_Guanzhong {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "location" [label="location", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing Romance of the Thre..." [label="writing Romance of the Thre...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1280" [label="1280", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during the Ming dynasty" [label="during the Ming dynasty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citation" [label="citation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dongyuan" [label="Dongyuan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "improve this article by add..." [label="improve this article by add...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced material" [label="Unsourced material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dongyuan, the province of S..." [label="Dongyuan, the province of S...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hangzhou" [label="Hangzhou", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Literary historians" [label="Literary historians", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romance of the Three Kingdo..." [label="Romance of the Three Kingdo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This article" [label="This article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2017" [label="2017", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Meng Fanren  citation" [label="Meng Fanren  citation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shandong" [label="Shandong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his home" [label="his home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "China" [label="China", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove this..." [label="how and when to remove this...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Taiyuan" [label="Taiyuan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "possibilities for his home" [label="possibilities for his home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verification" [label="verification", fillcolor=lightgray, color=gray, shape=hexagon];
+    "date" [label="date", fillcolor=lightgray, color=gray, shape=hexagon];
+    "material" [label="material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people's lives in Shandong" [label="people's lives in Shandong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late Yuan dynasty and early..." [label="late Yuan dynasty and early...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some people" [label="some people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pedigree of the Luo Family" [label="pedigree of the Luo Family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Guanzhong" [label="Guanzhong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Luo Guanzhong is the a..." [label="that Luo Guanzhong is the a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "possibility" [label="possibility", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other possibilities for his..." [label="other possibilities for his...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ming dynasty" [label="Ming dynasty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1364" [label="1364", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that If Luo Ben came from T..." [label="that If Luo Ben came from T...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that pedigree of the Luo Fa..." [label="that pedigree of the Luo Fa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Guanzhong" [label="Luo Guanzhong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "possibilities" [label="possibilities", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sources" [label="sources", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that he had met him in 1364" [label="that he had met him in 1364", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his pseudonym Huhai Sanren" [label="his pseudonym Huhai Sanren", fillcolor=lightgray, color=gray, shape=hexagon];
+    "additional citations" [label="additional citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pedigree of the Luo family" [label="pedigree of the Luo family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reliable" [label="reliable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "province" [label="province", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his courtesy name Guanzhong" [label="his courtesy name Guanzhong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Meng Fanren  citation neede..." [label="Meng Fanren  citation neede...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hangzhou and Jiangnan" [label="Hangzhou and Jiangnan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citations" [label="citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Ben" [label="Luo Ben", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Some people" [label="Some people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late" [label="late", fillcolor=lightgray, color=gray, shape=hexagon];
+    "intimate" [label="intimate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dongping County" [label="Dongping County", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced" [label="Unsourced", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Records of the Three Kingdoms" [label="Records of the Three Kingdoms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hometown" [label="hometown", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Guanzhong can be identi..." [label="Luo Guanzhong can be identi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Yuan" [label="Yuan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Guanzhong's birth" [label="Luo Guanzhong's birth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "them, and not about people ..." [label="them, and not about people ...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Records of the Three Kingdoms" -> "his home" [label="has purpose [Alternatives]", color=lightblue, penwidth=1];
+    "Luo Guanzhong" -> "people's lives in Shandong" [label="has theme [Awareness]", color=lightcoral, penwidth=1];
+    "Records of the Three Kingdoms" -> "Shandong" [label="has location [Certainty]", color=green, penwidth=2];
+    "Luo Guanzhong" -> "during the Ming dynasty" [label="has time [Residence]", color=purple, penwidth=2];
+    "Records of the Three Kingdoms" -> "some people" [label="has theme [Certainty]", color=lightgreen, penwidth=1];
+    "Records of the Three Kingdoms" -> "citation" [label="has theme [Being_necessary]", color=lightpink, penwidth=1];
+    "Records of the Three Kingdoms" -> "1364" [label="has time [Make_acquaintance]", color=purple, penwidth=2];
+    "China" -> "citations" [label="has role [Adducing]", color=lightsteelblue, penwidth=1];
+    "Luo Guanzhong" -> "sources" [label="has theme [Source_of_getting]", color=lightgray, penwidth=1];
+    "Records of the Three Kingdoms" -> "other possibilities for his..." [label="has theme [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "China" -> "This article" [label="has theme [Verification]", color=lightseagreen, penwidth=1];
+    "China" -> "2017" [label="has time [Being_named]", color=purple, penwidth=2];
+    "China" -> "sources" [label="has information [Trust]", color=lightgoldenrod, penwidth=1];
+    "China" -> "name" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "Yuan" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "China" -> "This article" [label="has theme [Have_as_requirement]", color=lightsteelblue, penwidth=1];
+    "Records of the Three Kingdoms" -> "Dongyuan, the province of S..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Records of the Three Kingdoms" -> "that If Luo Ben came from T..." [label="has theme [Certainty]", color=lightgreen, penwidth=1];
+    "Luo Guanzhong" -> "his courtesy name Guanzhong" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Luo Guanzhong" -> "Shandong" [label="has location [Statement]", color=green, penwidth=2];
+    "Records of the Three Kingdoms" -> "Luo Guanzhong" [label="has theme [Make_acquaintance]", color=lightcyan, penwidth=1];
+    "Records of the Three Kingdoms" -> "possibility" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Luo Guanzhong" -> "sources" [label="has theme [Locating]", color=lightcoral, penwidth=1];
+    "Luo Guanzhong" -> "name" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "possibilities" [label="has theme [Alternatives]", color=lightblue, penwidth=1];
+    "Records of the Three Kingdoms" -> "late Yuan dynasty and early..." [label="has location [Residence]", color=green, penwidth=2];
+    "Dongping County" -> "location" [label="has theme [Locale]", color=lightgreen, penwidth=1];
+    "Records of the Three Kingdoms" -> "late" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "China" -> "Unsourced" [label="has theme [Substance]", color=lightyellow, penwidth=1];
+    "Luo Guanzhong" -> "2017" [label="has time [Source_of_getting]", color=purple, penwidth=2];
+    "Luo Guanzhong" -> "Luo Ben" [label="has theme [Arriving]", color=lightpink, penwidth=1];
+    "Luo Guanzhong" -> "family" [label="has entity [Being_named]", color=lightsalmon, penwidth=1];
+    "Luo Guanzhong" -> "how and when to remove this..." [label="has skill [Education_teaching]", color=lightcyan, penwidth=1];
+    "Records of the Three Kingdoms" -> "that Luo Guanzhong is the a..." [label="has theme [Evidence]", color=lightsteelblue, penwidth=1];
+    "Luo Guanzhong" -> "hometown" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "China" -> "literature" [label="has theme [Fields]", color=lightgray, penwidth=1];
+    "Luo Guanzhong" -> "Romance of the Three Kingdo..." [label="has text [Text_creation]", color=lightgoldenrodyellow, penwidth=1];
+    "China" -> "additional citations" [label="has theme [Have_as_requirement]", color=lightsteelblue, penwidth=1];
+    "Luo Guanzhong" -> "Luo Ben" [label="has entity [Being_named]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "Literary historians" [label="has speaker [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "province" [label="has theme [Political_locales]", color=lightseagreen, penwidth=1];
+    "Luo Guanzhong" -> "who" [label="has theme [Residence]", color=lightyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "possibilities for his home" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Luo Guanzhong" -> "pedigree of the Luo family" [label="has means [Verification]", color=lightseagreen, penwidth=1];
+    "Luo Guanzhong" -> "Guanzhong" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "that he had met him in 1364" [label="has message [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "Dongyuan" [label="has location [Increment]", color=green, penwidth=2];
+    "Luo Guanzhong" -> "his pseudonym Huhai Sanren" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "Meng Fanren  citation neede..." [label="has speaker [Attributed_information]", color=lightsalmon, penwidth=1];
+    "Luo Guanzhong" -> "Records of the Three Kingdoms" [label="has theme [Leadership]", color=lightgoldenrod, penwidth=1];
+    "Luo Guanzhong" -> "intimate" [label="has degree [Awareness]", color=lightcoral, penwidth=1];
+    "China" -> "Unsourced material" [label="has theme [Removing]", color=lightpink, penwidth=1];
+    "Records of the Three Kingdoms" -> "pedigree of the Luo Family" [label="has theme [Evidence]", color=lightsteelblue, penwidth=1];
+    "Luo Guanzhong" -> "Shandong" [label="has location [Awareness]", color=green, penwidth=2];
+    "Records of the Three Kingdoms" -> "Some people" [label="has theme [Certainty]", color=lightgreen, penwidth=1];
+    "China" -> "citations" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Records of the Three Kingdoms" -> "Ming dynasty" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Luo Guanzhong" -> "2017" [label="has time [Locating]", color=purple, penwidth=2];
+    "Luo Guanzhong" -> "Taiyuan" [label="has theme [Arriving]", color=lightpink, penwidth=1];
+    "Luo Guanzhong" -> "Shandong" [label="has location [Arriving]", color=green, penwidth=2];
+    "Dongping County" -> "Luo Guanzhong's birth" [label="has theme [Location_in_time]", color=green, penwidth=2];
+    "Records of the Three Kingdoms" -> "Taiyuan" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "Shandong" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Luo Guanzhong" -> "2017" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Luo Guanzhong" -> "2017" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Hangzhou" -> "other possibilities for his..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Luo Guanzhong" -> "writing Romance of the Thre..." [label="has behavior [Praiseworthiness]", color=lightgreen, penwidth=1];
+    "Luo Guanzhong" -> "them, and not about people ..." [label="has theme [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "Dongyuan" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Records of the Three Kingdoms" -> "Luo Guanzhong can be identi..." [label="has theme [Attributed_information]", color=lightsalmon, penwidth=1];
+    "Records of the Three Kingdoms" -> "1280" [label="has time [Being_born]", color=purple, penwidth=2];
+    "China" -> "verification" [label="has theme [Have_as_requirement]", color=lightsteelblue, penwidth=1];
+    "Records of the Three Kingdoms" -> "literature" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Dongping County" -> "date" [label="has theme [Location_in_time]", color=green, penwidth=2];
+    "China" -> "reliable" [label="has theme [Source_of_getting]", color=lightgray, penwidth=1];
+    "China" -> "article" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "who" [label="has speaker [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Records of the Three Kingdoms" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Records of the Three Kingdoms" -> "Shandong" [label="has theme [Political_locales]", color=lightseagreen, penwidth=1];
+    "China" -> "improve this article by add..." [label="has goal [Assistance]", color=lightpink, penwidth=1];
+    "Records of the Three Kingdoms" -> "China" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "Records of the Three Kingdoms" -> "that pedigree of the Luo Fa..." [label="has theme [Certainty]", color=lightgreen, penwidth=1];
+    "China" -> "material" [label="has theme [Substance]", color=lightyellow, penwidth=1];
+    "Hangzhou" -> "Hangzhou and Jiangnan" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Records of the Three Kingdoms" -> "home" [label="has theme [Buildings]", color=lightcyan, penwidth=1];
+    "Records of the Three Kingdoms" -> "Meng Fanren  citation" [label="has entity [Being_named]", color=lightsalmon, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Alternatives_legend" [label="Alternatives", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Certainty_legend" [label="Certainty", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Adducing_legend" [label="Adducing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Verification_legend" [label="Verification", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Trust_legend" [label="Trust", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Have_as_requirement_legend" [label="Have_as_requirement", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Location_in_time_legend" [label="Location_in_time", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Praiseworthiness_legend" [label="Praiseworthiness", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+    }
+}

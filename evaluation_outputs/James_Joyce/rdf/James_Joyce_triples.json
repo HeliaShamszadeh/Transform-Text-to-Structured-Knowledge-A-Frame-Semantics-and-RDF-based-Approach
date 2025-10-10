@@ -1,0 +1,2775 @@
+{
+  "metadata": {
+    "total_triples": 130,
+    "source_file": "James_Joyce",
+    "extraction_date": "2025-09-28 01:08:46",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "People:has_person",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Make_acquaintance:has_time",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_time",
+        "object": "1922",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Fields:has_time",
+        "object": "1922",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Time_vector:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_time",
+        "object": "1922",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Time_vector:has_theme",
+        "object": "war",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Being_employed:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/James_Joyce",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_theme",
+        "object": "short-story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Dublin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Expertise:has_time",
+        "object": "1902",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dublin",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "O'Connell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Subjective_influence:has_time",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+        "predicate": "Age:has_entity",
+        "object": "Man",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Motion:has_goal",
+        "object": "Trieste in Austria-Hungary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_theme",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Motion:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Motion:has_goal",
+        "object": "Paris, which was his primary residence until 1940",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Residence:has_location",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Being_employed:has_time",
+        "object": "During most of World War I",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Dublin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Motion:has_time",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_time",
+        "object": "1914",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "wife",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Residence:has_time",
+        "object": "until 1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_time",
+        "object": "1914",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Publishing:has_work",
+        "object": "his book of poems Chamber Music and his short-story collection Dubliners",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_theme",
+        "object": "collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "First_rank:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/James_Joyce",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Inclusion:has_theme",
+        "object": "His other writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Giving:has_recipient",
+        "object": "modernist movement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "three",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Motion:has_goal",
+        "object": "mainland Europe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dublin",
+        "predicate": "Kinship:has_theme",
+        "object": "middle-class",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Time_vector:has_event",
+        "object": "Joyce lived there",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_theme",
+        "object": "variety",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Expectation:has_theme",
+        "object": "his father's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Aggregate:has_theme",
+        "object": "literary styles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Attending:has_location",
+        "object": "http://en.wikipedia.org/wiki/Dublin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Trendiness:has_theme",
+        "object": "styles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+        "predicate": "People:has_person",
+        "object": "Man",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Time_vector:has_theme",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_theme",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Residence:has_location",
+        "object": "Zurich, Switzerland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Event:has_event",
+        "object": "Homer's Odyssey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pula",
+        "predicate": "Being_employed:has_position",
+        "object": "as an English instructor",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Expectation:has_time",
+        "object": "1902",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Event:has_time",
+        "object": "1922",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Categorization:has_category",
+        "object": "among the most influential and important writers of the 20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Locative_relation:has_theme",
+        "object": "Nora Barnacle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Create_physical_artwork:has_creator",
+        "object": "Artist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dublin",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "School",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Motion:has_time",
+        "object": "then",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Importance:has_theme",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Trieste",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Being_employed:has_task",
+        "object": "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+        "predicate": "Age:has_age",
+        "object": "Young",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Residence:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Attending:has_event",
+        "object": "Jesuit Clongowes Wood College in County Kildare, then, briefly, the Christian Brothers –run O'Connell School",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pula",
+        "predicate": "Being_employed:has_theme",
+        "object": "briefly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Joyce lived in Zurich, Switzerland, and worked on Ulysses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Residence:has_location",
+        "object": "there",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+        "predicate": "People:has_age",
+        "object": "Young",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "People:has_theme",
+        "object": "same name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Trendiness:has_time",
+        "object": "1922",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Make_acquaintance:has_theme",
+        "object": "his future wife, Nora Barnacle,",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pula",
+        "predicate": "Being_employed:has_theme",
+        "object": "Pola (now in Croatia)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "20th",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Time_vector:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Being_employed:has_position",
+        "object": "as a correspondence clerk",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "most of World War I",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "First_rank:has_item",
+        "object": "residence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_born:has_theme",
+        "object": "into a middle-class family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he met his future wife, Nora Barnacle, and they moved to mainland Europe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Time_vector:has_event",
+        "object": "he briefly returned to Trieste and in 1920 moved to Paris, which was his primary residence until 1940",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_author",
+        "object": "Joyce's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Increment:has_class",
+        "object": "well-known works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dublin",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Activity_start:has_activity",
+        "object": "serially publishing A Portrait of the Artist as a Young Man in the English magazine The Egoist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_degree",
+        "object": "briefly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_born:has_person",
+        "object": "James Augusta Joyce [ a ]",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Time_vector:has_theme",
+        "object": "until",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Zürich",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "World",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Expertise:has_skill",
+        "object": "Jesuit Belvedere College",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Motion:has_theme",
+        "object": "Nora Barnacle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pula",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/James_Joyce",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Fields:has_theme",
+        "object": "styles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Temporal_collocation:has_time",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Locative_relation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Europe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+        "predicate": "Locative_relation:has_time",
+        "object": "1904",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Duration_description:has_time",
+        "object": "1915",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Identicality:has_type",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Inclusion:has_theme",
+        "object": "three books of poetry, a play, letters, and occasional journalism",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Text:has_text",
+        "object": "magazine",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Importance:has_theme",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_named:has_entity",
+        "object": "other people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Motion:has_location",
+        "object": "http://en.wikipedia.org/wiki/Pula",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Reference_text:has_theme",
+        "object": "James Joyce (disambiguation )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Irish_poetry",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Kinship:has_time",
+        "object": "1902",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rome",
+        "predicate": "Duration_description:has_theme",
+        "object": "eight-month",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_born:has_time",
+        "object": "1941",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rome",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Increment:has_class",
+        "object": "writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Arriving:has_time",
+        "object": "After the war",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Increment:has_class",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_theme",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Irish_poetry",
+        "predicate": "Text:has_time",
+        "object": "1941",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Increment:has_time",
+        "object": "1914",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Expectation:has_theme",
+        "object": "finances",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Text:has_text",
+          "object": "magazine",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Dublin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Time_vector:has_event",
+          "object": "Joyce lived there",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Event:has_event",
+          "object": "Homer's Odyssey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Event:has_time",
+          "object": "1922",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Attending:has_event",
+          "object": "Jesuit Clongowes Wood College in County Kildare, then, briefly, the Christian Brothers –run O'Connell School",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_born:has_theme",
+          "object": "into a middle-class family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Time_vector:has_event",
+          "object": "he briefly returned to Trieste and in 1920 moved to Paris, which was his primary residence until 1940",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_born:has_person",
+          "object": "James Augusta Joyce [ a ]",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_born:has_time",
+          "object": "1941",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Publishing:has_work",
+          "object": "his book of poems Chamber Music and his short-story collection Dubliners",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Inclusion:has_theme",
+          "object": "His other writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Being_employed:has_task",
+          "object": "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Inclusion:has_theme",
+          "object": "three books of poetry, a play, letters, and occasional journalism",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Increment:has_class",
+          "object": "writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "People:has_person",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Make_acquaintance:has_time",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_time",
+          "object": "1922",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Fields:has_time",
+          "object": "1922",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Time_vector:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_time",
+          "object": "1922",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Time_vector:has_theme",
+          "object": "war",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Being_employed:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/James_Joyce",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_theme",
+          "object": "short-story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Expertise:has_time",
+          "object": "1902",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dublin",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "O'Connell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Subjective_influence:has_time",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+          "predicate": "Age:has_entity",
+          "object": "Man",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Motion:has_goal",
+          "object": "Trieste in Austria-Hungary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_theme",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Motion:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Motion:has_goal",
+          "object": "Paris, which was his primary residence until 1940",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Residence:has_location",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Being_employed:has_time",
+          "object": "During most of World War I",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Dublin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Motion:has_time",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_time",
+          "object": "1914",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "wife",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Residence:has_time",
+          "object": "until 1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_time",
+          "object": "1914",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_theme",
+          "object": "collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "First_rank:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/James_Joyce",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Giving:has_recipient",
+          "object": "modernist movement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "three",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Motion:has_goal",
+          "object": "mainland Europe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dublin",
+          "predicate": "Kinship:has_theme",
+          "object": "middle-class",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_theme",
+          "object": "variety",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Expectation:has_theme",
+          "object": "his father's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Aggregate:has_theme",
+          "object": "literary styles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Attending:has_location",
+          "object": "http://en.wikipedia.org/wiki/Dublin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Trendiness:has_theme",
+          "object": "styles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+          "predicate": "People:has_person",
+          "object": "Man",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Time_vector:has_theme",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_theme",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Residence:has_location",
+          "object": "Zurich, Switzerland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pula",
+          "predicate": "Being_employed:has_position",
+          "object": "as an English instructor",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Expectation:has_time",
+          "object": "1902",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Categorization:has_category",
+          "object": "among the most influential and important writers of the 20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Locative_relation:has_theme",
+          "object": "Nora Barnacle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Create_physical_artwork:has_creator",
+          "object": "Artist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dublin",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "School",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Motion:has_time",
+          "object": "then",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Importance:has_theme",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Trieste",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+          "predicate": "Age:has_age",
+          "object": "Young",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Residence:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pula",
+          "predicate": "Being_employed:has_theme",
+          "object": "briefly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Joyce lived in Zurich, Switzerland, and worked on Ulysses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Residence:has_location",
+          "object": "there",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/1995_in_music",
+          "predicate": "People:has_age",
+          "object": "Young",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "People:has_theme",
+          "object": "same name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Trendiness:has_time",
+          "object": "1922",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Make_acquaintance:has_theme",
+          "object": "his future wife, Nora Barnacle,",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pula",
+          "predicate": "Being_employed:has_theme",
+          "object": "Pola (now in Croatia)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "20th",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Time_vector:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Being_employed:has_position",
+          "object": "as a correspondence clerk",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "most of World War I",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "First_rank:has_item",
+          "object": "residence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he met his future wife, Nora Barnacle, and they moved to mainland Europe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_author",
+          "object": "Joyce's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Increment:has_class",
+          "object": "well-known works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dublin",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Activity_start:has_activity",
+          "object": "serially publishing A Portrait of the Artist as a Young Man in the English magazine The Egoist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_degree",
+          "object": "briefly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Time_vector:has_theme",
+          "object": "until",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Zürich",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "World",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Expertise:has_skill",
+          "object": "Jesuit Belvedere College",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Motion:has_theme",
+          "object": "Nora Barnacle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pula",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/James_Joyce",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Fields:has_theme",
+          "object": "styles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Temporal_collocation:has_time",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Locative_relation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Europe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nora_Barnacle",
+          "predicate": "Locative_relation:has_time",
+          "object": "1904",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Duration_description:has_time",
+          "object": "1915",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Identicality:has_type",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Importance:has_theme",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_named:has_entity",
+          "object": "other people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Motion:has_location",
+          "object": "http://en.wikipedia.org/wiki/Pula",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Reference_text:has_theme",
+          "object": "James Joyce (disambiguation )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Irish_poetry",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Kinship:has_time",
+          "object": "1902",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rome",
+          "predicate": "Duration_description:has_theme",
+          "object": "eight-month",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rome",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Arriving:has_time",
+          "object": "After the war",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Increment:has_class",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_text",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Text:has_theme",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Irish_poetry",
+          "predicate": "Text:has_time",
+          "object": "1941",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Increment:has_time",
+          "object": "1914",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Expectation:has_theme",
+          "object": "finances",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_Joyce",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/1995_in_music",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/1995_in_music",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Pula",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/1995_in_music",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Pula",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/1995_in_music",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Pula",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Pula",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Irish_poetry",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Rome",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/Irish_poetry",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "http://en.wikipedia.org/wiki/James_Joyce"
+    ],
+    "objects": [
+      "people",
+      "1904",
+      "1922",
+      "1922",
+      "1920",
+      "1922",
+      "war",
+      "1915",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "short-story",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "1902",
+      "O'Connell",
+      "20th century",
+      "Man",
+      "Trieste in Austria-Hungary",
+      "poems",
+      "1920",
+      "1904",
+      "Paris, which was his primary residence until 1940",
+      "which",
+      "During most of World War I",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "1904",
+      "1914",
+      "wife",
+      "until 1915",
+      "1914",
+      "his book of poems Chamber Music and his short-story collection Dubliners",
+      "collection",
+      "1920",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "His other writings",
+      "modernist movement",
+      "three",
+      "mainland Europe",
+      "1915",
+      "middle-class",
+      "Joyce lived there",
+      "variety",
+      "his father's",
+      "1904",
+      "literary styles",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "styles",
+      "Man",
+      "letters",
+      "1915",
+      "poetry",
+      "Zurich, Switzerland",
+      "Homer's Odyssey",
+      "as an English instructor",
+      "1902",
+      "1922",
+      "among the most influential and important writers of the 20th century",
+      "father",
+      "Nora Barnacle",
+      "Artist",
+      "School",
+      "then",
+      "writers",
+      "http://en.wikipedia.org/wiki/Trieste",
+      "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+      "Young",
+      "1920",
+      "Jesuit Clongowes Wood College in County Kildare, then, briefly, the Christian Brothers –run O'Connell School",
+      "briefly",
+      "Joyce lived in Zurich, Switzerland, and worked on Ulysses",
+      "there",
+      "Young",
+      "same name",
+      "writers",
+      "1922",
+      "his future wife, Nora Barnacle,",
+      "Pola (now in Croatia)",
+      "20th",
+      "1915",
+      "as a correspondence clerk",
+      "book",
+      "most of World War I",
+      "residence",
+      "into a middle-class family",
+      "he met his future wife, Nora Barnacle, and they moved to mainland Europe",
+      "he briefly returned to Trieste and in 1920 moved to Paris, which was his primary residence until 1940",
+      "Joyce's",
+      "well-known works",
+      "family",
+      "serially publishing A Portrait of the Artist as a Young Man in the English magazine The Egoist",
+      "books",
+      "briefly",
+      "books",
+      "James Augusta Joyce [ a ]",
+      "until",
+      "century",
+      "World",
+      "Jesuit Belvedere College",
+      "Nora Barnacle",
+      "novels",
+      "poetry",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "styles",
+      "1904",
+      "http://en.wikipedia.org/wiki/Europe",
+      "1904",
+      "1915",
+      "name",
+      "poems",
+      "three books of poetry, a play, letters, and occasional journalism",
+      "magazine",
+      "family",
+      "20th century",
+      "other people",
+      "writings",
+      "http://en.wikipedia.org/wiki/Pula",
+      "James Joyce (disambiguation )",
+      "article",
+      "1902",
+      "eight-month",
+      "1941",
+      "http://en.wikipedia.org/wiki/Rome",
+      "writings",
+      "After the war",
+      "people",
+      "writers",
+      "20th century",
+      "1941",
+      "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+      "1914",
+      "finances",
+      "name"
+    ],
+    "all_unique": [
+      "middle-class",
+      "1914",
+      "residence",
+      "as an English instructor",
+      "which",
+      "1904",
+      "Homer's Odyssey",
+      "http://en.wikipedia.org/wiki/Europe",
+      "School",
+      "Joyce lived in Zurich, Switzerland, and worked on Ulysses",
+      "finances",
+      "modernist movement",
+      "eight-month",
+      "http://en.wikipedia.org/wiki/Pula",
+      "20th",
+      "http://en.wikipedia.org/wiki/Ulysses_(novel)",
+      "there",
+      "http://en.wikipedia.org/wiki/Irish_poetry",
+      "into a middle-class family",
+      "his future wife, Nora Barnacle,",
+      "he met his future wife, Nora Barnacle, and they moved to mainland Europe",
+      "http://en.wikipedia.org/wiki/England",
+      "Trieste in Austria-Hungary",
+      "James Joyce (disambiguation )",
+      "novels",
+      "1902",
+      "father",
+      "magazine",
+      "His other writings",
+      "among the most influential and important writers of the 20th century",
+      "well-known works",
+      "Nora Barnacle",
+      "war",
+      "Artist",
+      "20th century",
+      "O'Connell",
+      "During most of World War I",
+      "until",
+      "his book of poems Chamber Music and his short-story collection Dubliners",
+      "name",
+      "poetry",
+      "1920",
+      "briefly",
+      "three books of poetry, a play, letters, and occasional journalism",
+      "http://en.wikipedia.org/wiki/1995_in_music",
+      "century",
+      "http://en.wikipedia.org/wiki/Dublin",
+      "http://en.wikipedia.org/wiki/Zürich",
+      "writers",
+      "Young",
+      "After the war",
+      "article",
+      "serially publishing A Portrait of the Artist as a Young Man in the English magazine The Egoist",
+      "wife",
+      "writings",
+      "mainland Europe",
+      "his father's",
+      "short-story",
+      "Jesuit Belvedere College",
+      "Joyce lived there",
+      "http://en.wikipedia.org/wiki/James_Joyce",
+      "Jesuit Clongowes Wood College in County Kildare, then, briefly, the Christian Brothers –run O'Connell School",
+      "variety",
+      "Joyce's",
+      "Man",
+      "1922",
+      "Zurich, Switzerland",
+      "http://en.wikipedia.org/wiki/Trieste",
+      "then",
+      "most of World War I",
+      "http://en.wikipedia.org/wiki/Nora_Barnacle",
+      "family",
+      "http://en.wikipedia.org/wiki/Rome",
+      "James Augusta Joyce [ a ]",
+      "poems",
+      "Pola (now in Croatia)",
+      "1941",
+      "literary styles",
+      "World",
+      "three",
+      "other people",
+      "people",
+      "styles",
+      "he briefly returned to Trieste and in 1920 moved to Paris, which was his primary residence until 1940",
+      "books",
+      "1915",
+      "until 1915",
+      "collection",
+      "Paris, which was his primary residence until 1940",
+      "as a correspondence clerk",
+      "same name",
+      "book",
+      "letters"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "People:has_person",
+      "Make_acquaintance:has_time",
+      "Text:has_time",
+      "Fields:has_time",
+      "Time_vector:has_time",
+      "Aggregate:has_time",
+      "Time_vector:has_theme",
+      "Being_employed:has_time",
+      "Being_employed:has_employee",
+      "Aggregate:has_theme",
+      "Being_born:has_location",
+      "Expertise:has_time",
+      "Locale_by_use:has_theme",
+      "Subjective_influence:has_time",
+      "Age:has_entity",
+      "Motion:has_goal",
+      "Text:has_theme",
+      "Motion:has_time",
+      "Personal_relationship:has_time",
+      "Motion:has_goal",
+      "Residence:has_location",
+      "Being_employed:has_time",
+      "Arriving:has_goal",
+      "Motion:has_time",
+      "Text:has_time",
+      "Personal_relationship:has_theme",
+      "Residence:has_time",
+      "Aggregate:has_time",
+      "Publishing:has_work",
+      "Aggregate:has_theme",
+      "First_rank:has_time",
+      "Being_employed:has_employee",
+      "Inclusion:has_theme",
+      "Giving:has_recipient",
+      "Cardinal_numbers:has_theme",
+      "Motion:has_goal",
+      "Arriving:has_time",
+      "Kinship:has_theme",
+      "Time_vector:has_event",
+      "Aggregate:has_theme",
+      "Expectation:has_theme",
+      "Temporal_collocation:has_theme",
+      "Aggregate:has_theme",
+      "Attending:has_location",
+      "Trendiness:has_theme",
+      "People:has_person",
+      "Text:has_text",
+      "Time_vector:has_theme",
+      "Text:has_theme",
+      "Residence:has_location",
+      "Event:has_event",
+      "Being_employed:has_position",
+      "Expectation:has_time",
+      "Event:has_time",
+      "Categorization:has_category",
+      "Kinship:has_theme",
+      "Locative_relation:has_theme",
+      "Create_physical_artwork:has_creator",
+      "Locale_by_use:has_theme",
+      "Motion:has_time",
+      "Importance:has_theme",
+      "Arriving:has_goal",
+      "Being_employed:has_task",
+      "Age:has_age",
+      "Residence:has_time",
+      "Attending:has_event",
+      "Being_employed:has_theme",
+      "Temporal_collocation:has_theme",
+      "Residence:has_location",
+      "People:has_age",
+      "People:has_theme",
+      "Subjective_influence:has_entity",
+      "Trendiness:has_time",
+      "Make_acquaintance:has_theme",
+      "Being_employed:has_theme",
+      "Calendric_unit:has_theme",
+      "Time_vector:has_time",
+      "Being_employed:has_position",
+      "Text:has_text",
+      "Temporal_collocation:has_theme",
+      "First_rank:has_item",
+      "Being_born:has_theme",
+      "Temporal_collocation:has_theme",
+      "Time_vector:has_event",
+      "Text:has_author",
+      "Increment:has_class",
+      "Kinship:has_theme",
+      "Activity_start:has_activity",
+      "Cardinal_numbers:has_entity",
+      "Arriving:has_degree",
+      "Text:has_text",
+      "Being_born:has_person",
+      "Time_vector:has_theme",
+      "Calendric_unit:has_theme",
+      "Hostile_encounter:has_theme",
+      "Expertise:has_skill",
+      "Motion:has_theme",
+      "Text:has_text",
+      "Text:has_text",
+      "Being_employed:has_employee",
+      "Fields:has_theme",
+      "Temporal_collocation:has_time",
+      "Locative_relation:has_theme",
+      "Locative_relation:has_time",
+      "Duration_description:has_time",
+      "Identicality:has_type",
+      "Text:has_text",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Importance:has_theme",
+      "Being_named:has_entity",
+      "Text:has_text",
+      "Motion:has_location",
+      "Reference_text:has_theme",
+      "Text:has_text",
+      "Kinship:has_time",
+      "Duration_description:has_theme",
+      "Being_born:has_time",
+      "Arriving:has_location",
+      "Increment:has_class",
+      "Arriving:has_time",
+      "Increment:has_class",
+      "Text:has_text",
+      "Text:has_theme",
+      "Text:has_time",
+      "Text:has_text",
+      "Increment:has_time",
+      "Expectation:has_theme",
+      "Being_named:has_theme"
+    ],
+    "unique_predicates": [
+      "First_rank:has_item",
+      "Motion:has_time",
+      "Cardinal_numbers:has_theme",
+      "Motion:has_theme",
+      "Age:has_entity",
+      "Personal_relationship:has_time",
+      "Attending:has_event",
+      "Trendiness:has_theme",
+      "Expertise:has_time",
+      "Trendiness:has_time",
+      "Kinship:has_theme",
+      "Subjective_influence:has_time",
+      "First_rank:has_time",
+      "Increment:has_time",
+      "Locative_relation:has_time",
+      "Time_vector:has_theme",
+      "Being_employed:has_task",
+      "Arriving:has_location",
+      "Text:has_theme",
+      "Attending:has_location",
+      "Aggregate:has_time",
+      "Aggregate:has_theme",
+      "Arriving:has_goal",
+      "People:has_theme",
+      "Expectation:has_theme",
+      "Temporal_collocation:has_theme",
+      "People:has_person",
+      "Being_named:has_entity",
+      "Being_born:has_person",
+      "Expertise:has_skill",
+      "Time_vector:has_time",
+      "Being_employed:has_employee",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "People:has_age",
+      "Temporal_collocation:has_time",
+      "Identicality:has_type",
+      "Being_employed:has_theme",
+      "Locale_by_use:has_theme",
+      "Event:has_event",
+      "Being_employed:has_position",
+      "Duration_description:has_time",
+      "Publishing:has_work",
+      "Time_vector:has_event",
+      "Make_acquaintance:has_theme",
+      "Calendric_unit:has_theme",
+      "Kinship:has_time",
+      "Being_employed:has_time",
+      "Giving:has_recipient",
+      "Fields:has_theme",
+      "Fields:has_time",
+      "Being_named:has_theme",
+      "Residence:has_location",
+      "Cardinal_numbers:has_entity",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Motion:has_goal",
+      "Residence:has_time",
+      "Arriving:has_time",
+      "Being_born:has_time",
+      "Importance:has_theme",
+      "Create_physical_artwork:has_creator",
+      "Personal_relationship:has_theme",
+      "Expectation:has_time",
+      "Age:has_age",
+      "Being_born:has_theme",
+      "Motion:has_location",
+      "Reference_text:has_theme",
+      "Text:has_author",
+      "Locative_relation:has_theme",
+      "Activity_start:has_activity",
+      "Hostile_encounter:has_theme",
+      "Make_acquaintance:has_time",
+      "Inclusion:has_theme",
+      "Subjective_influence:has_entity",
+      "Event:has_time",
+      "Arriving:has_degree",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "People:has_person": 2,
+      "Make_acquaintance:has_time": 1,
+      "Text:has_time": 3,
+      "Fields:has_time": 1,
+      "Time_vector:has_time": 2,
+      "Aggregate:has_time": 2,
+      "Time_vector:has_theme": 3,
+      "Being_employed:has_time": 2,
+      "Being_employed:has_employee": 3,
+      "Aggregate:has_theme": 4,
+      "Being_born:has_location": 1,
+      "Expertise:has_time": 1,
+      "Locale_by_use:has_theme": 2,
+      "Subjective_influence:has_time": 1,
+      "Age:has_entity": 1,
+      "Motion:has_goal": 3,
+      "Text:has_theme": 3,
+      "Motion:has_time": 3,
+      "Personal_relationship:has_time": 1,
+      "Residence:has_location": 3,
+      "Arriving:has_goal": 2,
+      "Personal_relationship:has_theme": 1,
+      "Residence:has_time": 2,
+      "Publishing:has_work": 1,
+      "First_rank:has_time": 1,
+      "Inclusion:has_theme": 2,
+      "Giving:has_recipient": 1,
+      "Cardinal_numbers:has_theme": 1,
+      "Arriving:has_time": 2,
+      "Kinship:has_theme": 4,
+      "Time_vector:has_event": 2,
+      "Expectation:has_theme": 2,
+      "Temporal_collocation:has_theme": 4,
+      "Attending:has_location": 1,
+      "Trendiness:has_theme": 1,
+      "Text:has_text": 11,
+      "Event:has_event": 1,
+      "Being_employed:has_position": 2,
+      "Expectation:has_time": 1,
+      "Event:has_time": 1,
+      "Categorization:has_category": 1,
+      "Locative_relation:has_theme": 2,
+      "Create_physical_artwork:has_creator": 1,
+      "Importance:has_theme": 2,
+      "Being_employed:has_task": 1,
+      "Age:has_age": 1,
+      "Attending:has_event": 1,
+      "Being_employed:has_theme": 2,
+      "People:has_age": 1,
+      "People:has_theme": 1,
+      "Subjective_influence:has_entity": 1,
+      "Trendiness:has_time": 1,
+      "Make_acquaintance:has_theme": 1,
+      "Calendric_unit:has_theme": 2,
+      "First_rank:has_item": 1,
+      "Being_born:has_theme": 1,
+      "Text:has_author": 1,
+      "Increment:has_class": 3,
+      "Activity_start:has_activity": 1,
+      "Cardinal_numbers:has_entity": 1,
+      "Arriving:has_degree": 1,
+      "Being_born:has_person": 1,
+      "Hostile_encounter:has_theme": 1,
+      "Expertise:has_skill": 1,
+      "Motion:has_theme": 1,
+      "Fields:has_theme": 1,
+      "Temporal_collocation:has_time": 1,
+      "Locative_relation:has_time": 1,
+      "Duration_description:has_time": 1,
+      "Identicality:has_type": 1,
+      "Being_named:has_entity": 1,
+      "Motion:has_location": 1,
+      "Reference_text:has_theme": 1,
+      "Kinship:has_time": 1,
+      "Duration_description:has_theme": 1,
+      "Being_born:has_time": 1,
+      "Arriving:has_location": 1,
+      "Increment:has_time": 1,
+      "Being_named:has_theme": 1
+    }
+  }
+}

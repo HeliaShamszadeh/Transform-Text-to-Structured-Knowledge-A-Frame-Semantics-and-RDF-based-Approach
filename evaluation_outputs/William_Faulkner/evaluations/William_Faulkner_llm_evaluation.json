@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text_creation:has_location Yoknapatawpha County",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Faulkner's novels and short stories are set in Yoknapatawpha County, directly linking the subject to the location via his creative work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Giving:has_theme two Nobel laureates",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions a film (To Have and Have Not) is 'the only film with contributions by two Nobel laureates' (Faulkner and Hemingway). While the triple's subject is the prize itself, the theme of 'two Nobel laureates' is semantically present in the text and associated with literature/film contributions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Origin:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses 'American literature' and 'Southern literature'. While 'United States' is not explicitly named, 'American' is a direct synonym and the overarching theme of the literature discussed is American. This is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Relative_time:has_theme year",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The University of Mississippi is mentioned, but the paragraph provides no information about a specific year or a temporal theme related to the university. The connection is too vague and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Part_orientational:has_theme literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'Southern literature' as a category and discusses it in the context of Faulkner's work. The theme of 'literature' is directly and strongly associated with the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury Win_prize:has_prize http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that 'Two of his works, A Fable (1954) and The Reivers (1962), won the Pulitzer Prize for Fiction.' It explicitly mentions that 'The Sound and the Fury' was published in 1929 but does not state it won the Pulitzer Prize. The triple attributes the prize to the wrong book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_author Ernest Hemingway's",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'Ernest Hemingway's novel' in the context of the film 'To Have and Have Not'. This establishes a clear semantic connection that Ernest Hemingway is the author of a novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Text_creation:has_text American literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Faulkner is 'one of the most celebrated writers of American literature, often considered the greatest writer of Southern literature'. This creates a strong semantic link between 'Southern literature' and the broader category of 'American literature', even if the exact predicate 'has_text' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Fame:has_entity Faulkner's",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The entire paragraph is about William Faulkner, and the possessive 'Faulkner's' is used directly in the text (e.g., 'Faulkner's reputation'). The triple's subject and object are coreferent with the main subject of the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Change_position_on_a_scale:has_time following publication of Malcolm Cowley's The Portable Faulkner",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions both that Faulkner 'attended the University of Mississippi' and that his 'reputation grew following publication of Malcolm Cowley's The Portable Faulkner'. While the triple connects these two facts with a specific, abstract relation ('Change_position_on_a_scale:has_time'), a weak semantic link exists as both events are part of his life timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Ordinal_numbers:has_time 1927",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Faulkner attended the university for three semesters before dropping out, but no specific year (like 1927) is associated with his time there. The year 1927 is mentioned for the publication of 'Sartoris', which is unrelated to the university."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Education_teaching:has_theme only Mississippi-born",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Faulkner is 'the only Mississippi-born Nobel laureate', but this fact is not thematically linked to the University of Mississippi. The university is only mentioned as an institution he attended."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text:has_text Sound and the Fury",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'In 1929, he published The Sound and the Fury', creating a direct and unambiguous link between William Faulkner and this text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Leadership:has_leader laureates",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses the Nobel Prize in Literature and mentions 'Nobel laureate' and 'laureates' in the context of winners of the prize. While 'has_leader' is a weak semantic fit for the relationship between a prize and its recipients, the concepts are present and related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Becoming_a_member:has_group Royal Canadian Air Force",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'During World War I, he joined the Royal Canadian Air Force', which directly links the event (WWI) to the action of joining the group (RCAF). The predicate 'has_group' reasonably captures the 'joining' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text_creation:has_text his first novel Soldiers'Pay (1925)",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'he wrote his first novel Soldiers' Pay (1925)'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Ordinal_numbers:has_location Yoknapatawpha County",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Faulkner attended the University of Mississippi in Oxford, but Yoknapatawpha County is a fictional location he created for his stories. There is no semantic connection between the university and the fictional county."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Receiving:has_theme 1949 Nobel Prize in Literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Faulkner, who is 'considered the greatest writer of Southern literature,' was awarded the 1949 Nobel Prize. There is a weak but valid semantic link connecting the theme of Southern literature to the prize via the author's achievement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Text:has_location Literature",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Faulkner attended the University of Mississippi, and he was a writer, but there is no stated relationship between the university as a location and the abstract concept of Literature. The connection is too indirect and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The predicate 'Increment:has_class uses' is nonsensical and cannot be mapped to any concept or relationship described in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury Removing:has_theme former film",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'former film' refers to 'To Have and Have Not', not 'The Sound and the Fury'. The triple incorrectly links the theme to the wrong entity. No semantic connection exists between this specific book and the phrase 'former film' in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Fame:has_degree best",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'He is best known for his novels...'. This semantically connects William Faulkner to a high degree of fame, which can be reasonably interpreted as 'has_degree best' in the context of fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Leadership:has_theme Nobel",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Faulkner as a 'Nobel laureate' who won the 'Nobel Prize in Literature'. While the predicate 'Leadership:has_theme Nobel' is abstract, a lenient interpretation allows a connection between the prize and the theme of 'Nobel' recognition or leadership in literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Behind_the_scenes:has_time former",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Faulkner attended the university, but the word 'former' in the text refers to a film ('the former film'), not the university. There is no semantic link between the University of Mississippi and the concept of 'former' time in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Categorization:has_category greatest writer of Southern literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Faulkner is 'often considered the greatest writer of Southern literature'. This is a direct semantic match for the triple's intended meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Becoming_a_member:has_time During World War I",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'During World War I, he joined the Royal Canadian Air Force', directly connecting the event of joining to the time period of WWI."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Motion:has_time 1927",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions he 'wrote Sartoris (1927)' and 'went back to Oxford'. While 'Motion' is vague, the year 1927 is clearly associated with his activities (writing, returning)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_time 1962",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1962 as Faulkner's death year and the publication year of 'The Reivers', but there is no information connecting the United States as an origin to the year 1962. The connection is too indirect and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text_creation:has_text As I Lay Dying",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'the following year, he wrote As I Lay Dying', providing a direct link between Faulkner (the subject) and the creation of that specific text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Cardinal_numbers:has_theme Two",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions he attended the university for 'three semesters' and that 'Two of his works... won the Pulitzer Prize'. The number 'two' is present in the text, but it is not thematically linked to the University of Mississippi in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Relative_time:has_time 1949",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Faulkner attended the University of Mississippi and that he won the Nobel Prize in 1949, but there is no semantic connection between the university and the year 1949. The events are unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Education_teaching:has_level Nobel",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "While Faulkner attended the University of Mississippi and later won a Nobel Prize, there is no stated connection between the university and the Nobel Prize level of education. The Nobel was awarded for his literary work, not his education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Labor_product:has_time 1954",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'A Fable (1954)' which is one of Faulkner's works that won the Pulitzer Prize. This clearly connects William Faulkner to the year 1954 through his labor product."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Subjective_influence:has_entity writers",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Faulkner is 'often considered the greatest writer of Southern literature.' This creates a semantic connection between Southern literature and writers, though the relationship is more about Faulkner being an entity within Southern literature rather than Southern literature having writers as a general property."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury Removing:has_theme Ernest Hemingway's novel",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'The Sound and the Fury' and separately mentions a film adaptation of 'Ernest Hemingway's novel,' but there is no connection between Hemingway's work and the theme of 'The Sound and the Fury.' The film reference is about 'To Have and Have Not,' not Faulkner's novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Categorization:has_item Nobel laureate, Faulkner",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Faulkner is one of the most celebrated writers of American literature, often considered the greatest writer of Southern literature' and identifies him as a Nobel laureate, creating a strong semantic link between Southern literature and Faulkner as a Nobel laureate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text_creation:has_text Sartoris (1927 )",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text directly states 'he wrote Sartoris (1927)', providing a clear and explicit connection between William Faulkner and the creation of that specific text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Text_creation:has_time 1927",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1927 is explicitly mentioned as the publication date for 'Sartoris'. While the triple is abstract, the time information is directly associated with a text creation event involving Faulkner."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Behind_the_scenes:has_type contributions by two Nobel laureates",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions a film adaptation of Hemingway's novel and states it is 'the only film with contributions by two Nobel laureates' (referring to Faulkner and Hemingway). This creates a weak but valid semantic link between Hemingway and the concept of 'contributions by two Nobel laureates'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The term 'Southern literature' is explicitly mentioned in the paragraph. The triple's concept of Southern literature having 'literature' as a theme is a tautological but semantically connected relationship that can be inferred from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury Win_prize:has_time 1954",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states 'The Sound and the Fury' was published in 1929. The year 1954 is associated with a different work, 'A Fable', which won the Pulitzer Prize. There is no connection between the novel and the year 1954 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph extensively discusses William Faulkner's works (novels, short stories) and their themes (Southern literature, modern American novel). While 'works' is a general term, the semantic connection to his literary output is clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Part_orientational:has_theme Southern",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states Faulkner is 'often considered the greatest writer of Southern literature', creating a direct semantic link between the concept of Southern United States literature and the theme of 'Southern'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Receiving:has_recipient http://en.wikipedia.org/wiki/William_Faulkner",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph describes Faulkner's association with Southern literature (he is 'considered the greatest writer of Southern literature'). This implies a 'receiving' relationship where the literary tradition is associated with him as a recipient of that classification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Growing_food:has_location Oxford, Mississippi",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states Faulkner was 'raised in Oxford, Mississippi' and later returned there. While 'Growing_food' is a specific metaphor, it can be leniently interpreted as relating to being raised/growing up, which has a semantic connection to the location mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Giving:has_recipient Howard Hawks's To Have and Have Not and The Big Sleep, adapted from Raymond Chandler's novel",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not represent a logical relationship. The University of Mississippi is not described as 'giving' these films. The films are mentioned in the context of Faulkner's screenwriting work, which is unrelated to the university acting as a giver."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Southern_United_States_literature Origin:has_entity literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Southern literature' and 'American literature'. While the subject URI is for 'Southern United States literature', the concept is directly related to 'Southern literature' mentioned in the text. The relationship 'Origin:has_entity literature' is a very generic property that can be loosely associated with the topic of the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Mississippi Being_employed:has_position as a screenwriter",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Faulkner, not the University of Mississippi, worked as a screenwriter. The university is only mentioned as the institution he attended. The triple incorrectly assigns the employment property to the university."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Faulkner Categorization:has_category as one of the most influential and important writers of the 20th century",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This is a direct and exact extraction. The paragraph explicitly states that Faulkner is 'often considered the greatest writer of Southern literature and regarded as one of the most influential and important writers of the 20th century.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_location Literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph repeatedly mentions 'American literature' and identifies Faulkner as an 'American writer'. There is a clear semantic connection between the United States and the literature discussed, supporting the generic 'Origin:has_location' relationship."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 32,
+    "accuracy": 0.64,
+    "avg_confidence": 0.5420000000000001,
+    "high_confidence_50": 32,
+    "high_confidence_80": 20,
+    "percent_50": 64.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

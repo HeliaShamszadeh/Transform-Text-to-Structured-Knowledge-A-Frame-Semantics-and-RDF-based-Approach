@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Text:has_theme Harper's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Harper's Magazine is mentioned as a publication that accepted Sexton's poems, creating a weak thematic link to writing/publication, though the connection to Glenside is indirect (her therapy was at Glenside Hospital)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Emotion_directed:has_theme registering for the class",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Registering for a poetry class is mentioned in the context of her therapy journey (her therapist encouraged her to write), and her therapy was at Glenside Hospital. The emotion (trepidation) is directly tied to the action."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Inclusion:has_theme her private life",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph explicitly states her poetry details 'intimate details from her private life.' As an American poet, there is a reasonable, though indirect, connection to the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Personal_relationship:has_theme Alfred Muller Sexton II",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states she married Alfred Muller Sexton II, making this a clear and explicit personal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Personal_relationship:has_theme husband",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph mentions her 'relationships with her husband' and that she was married to Alfred Muller Sexton II, making the theme of 'husband' explicitly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Being_born:has_time 1901",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Anne Sexton's mother, Mary Gray Harvey, was born in 1901. While the triple subject is Anne Sexton, there is a weak semantic connection through her mother's birth year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton State_continue:has_state together",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Anne Sexton and Alfred Muller Sexton II 'remained together until 1973', which semantically relates to the concept of a continued state of being together."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Ordinal_numbers:has_time 1953",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1953 is mentioned as when Sexton had her first child, but there is no semantic connection between the United States and this specific year in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Ordinal_numbers:has_type manic episode",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Manic episodes are mentioned in relation to Anne Sexton's bipolar disorder, but there is no connection to the United States having or being a type of manic episode."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Medical_professionals:has_time 1955",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Glenside Hospital and the year 1955 in the context of her meeting Dr. Martin Orne. While the location 'Glenside, Bristol' is not explicitly stated, there's a weak semantic connection through the hospital name and the year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Reference_text:has_time 1928",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Anne Sexton was born in 1928."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Linda_Gray_Sexton Eventive_affecting:has_entity Poetry Sexton",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The triple is syntactically confusing, but Linda Gray Sexton is Anne Sexton's child, and Anne Sexton is the poet ('Poetry Sexton' is likely a malformed reference to the poet Anne Sexton). There is a weak semantic connection via the family relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Rape:has_theme whom",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is incoherent. 'whom' is a relative pronoun in the paragraph, not an entity, and there is no mention of rape or any event thematically linked to the United States entity in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Kinship:has_time 1923",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year 1923 is mentioned (birth of Anne Sexton's sister). Anne Sexton is an American poet, creating a very weak, indirect link between American poetry and the time 1923 via the poet's family timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Linda_Gray_Sexton Eventive_affecting:has_event severe bipolar disorder",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Linda Gray Sexton is Anne Sexton's daughter. The paragraph states Anne Sexton suffered from severe bipolar disorder and assaulted her children. This implies the disorder affected her children, creating a reasonable, though indirect, semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Cotheme:has_theme http://en.wikipedia.org/wiki/Linda_Gray_Sexton",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Linda Gray Sexton as Anne Sexton's daughter and mentions Glenside Hospital, but there is no semantic connection establishing Glenside, Bristol as having Linda Gray Sexton as a theme. The connection is too indirect and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Anne Sexton is explicitly described as an 'American poet' and her work is part of American poetry. The theme of origin (United States) is semantically connected to her nationality and the context of American poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Request:has_addressee friend",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions a friend who helped Anne Sexton (made a phone call, accompanied her) and mentions Glenside Hospital where she was treated. While the connection is weak and indirect, the concepts of 'friend' and 'Glenside' are both present in the narrative, allowing for a lenient semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Personal_relationship:has_theme friend",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Similar to the previous triple, the concepts of a personal relationship (with a friend) and Glenside Hospital are both mentioned. The connection is weak but semantically plausible in a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton State_continue:has_theme until 1973",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'they remained together until 1973' referring to her marriage. This directly provides a state (the marriage) that continued until a specific date (1973)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Education_teaching:has_time later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Sexton later studied with Robert Lowell at Boston University'. The word 'later' is directly associated with her time at Boston University, establishing a temporal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Becoming:has_time 1955",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Glenside Hospital' where Dr. Orne was her therapist, but this is not Glenside, Bristol. The year 1955 is mentioned for a manic episode and meeting Dr. Orne, but there is no direct link between the location 'Glenside, Bristol' and the time '1955' in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Event:has_event her first manic episode",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Anne Sexton was an American poet, and her first manic episode in 1954 is described as part of her life story which took place in the United States (based on locations like Boston, Massachusetts). The event is semantically connected to the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions her children, Linda Gray Sexton and Joyce Ladd Sexton, and discusses her relationships with them. The theme of children is a central part of the biographical details."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Text:has_location http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text identifies Anne Sexton as an 'American poet' and mentions specific locations within the United States (Newton, Massachusetts; Boston; Lowell, Massachusetts). The connection to the United States is explicit and unambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Personal_relationship:has_time August 16, 1948",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On August 16, 1948, she married Alfred Muller Sexton II', which directly connects Anne Sexton to this specific date in a personal relationship context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Cotheme:has_goal first session",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Glenside Hospital' and 'first session' separately, but there is no connection between Glenside, Bristol and any 'goal' related to a first session. The Glenside mentioned is a hospital, not the location in Bristol."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Hostile_encounter:has_theme bipolar disorder",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Anne Sexton was an American poet who suffered from bipolar disorder. While the connection between the United States and bipolar disorder as a 'hostile encounter' theme is abstract, the paragraph establishes that bipolar disorder was a significant struggle for an American figure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_collocation:has_theme 1954",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1954 is mentioned in the paragraph ('her first manic episode taking place in 1954') in the context of Anne Sexton's life in the United States, creating a temporal association between the country and that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Time_vector:has_event Her second child, Joyce Ladd Sexton, was born",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The birth of Anne Sexton's second child is an event that took place in the United States, as detailed in her biography. The paragraph states 'Her second child, Joyce Ladd Sexton, was born two years later' after mentioning her life in Boston and Massachusetts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Make_acquaintance:has_theme http://en.wikipedia.org/wiki/Anne_Sexton",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Glenside Hospital is mentioned as the location where Sexton met her therapist. While the triple's subject is a place named 'Glenside' and the paragraph refers to 'Glenside Hospital', there is a weak semantic connection through the location being a significant place in her life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Ordinal_numbers:has_time 1954",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1954 is mentioned in the paragraph (her first manic episode). While the connection to 'United States' is only implied (as her life events occurred there), there is a weak semantic link through the temporal context of events in her life in the US."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Hostile_encounter:has_theme http://en.wikipedia.org/wiki/Anne_Sexton",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Anne Sexton is an American poet, and the paragraph details her 'long battle' with mental illness and difficult personal life. While 'Hostile_encounter' is a broad frame, her struggles can be interpreted as a form of hostile encounter with her conditions, providing a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Communication_manner:has_speaker singer",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a singer named 'Ann Sexton' in a disambiguation note, but this is explicitly distinguished from the subject, Anne Sexton the poet. There is no mention of the United States having a singer as a speaker, making this triple unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton State_continue:has_time 1948",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1948 is explicitly mentioned as when Anne Sexton got married. The 'State_continue' frame could reasonably relate to the state of her life continuing through that year, specifically the beginning of her marriage which lasted until 1973."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Buildings:has_theme Glenside",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Glenside Hospital' where Sexton was treated. While the triple's subject is a place and the predicate is about theme, there is a weak semantic connection through the shared name 'Glenside'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Linda_Gray_Sexton Feeling:has_evaluation great trepidation about registering for the class, asking a friend to make the phone call and accompany her to the first session",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The feeling of 'great trepidation' is attributed to Anne Sexton herself, not to her daughter Linda Gray Sexton. The subject of the triple is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Fame:has_time 1928",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Anne Sexton, an American poet, was born in 1928. There is a weak, indirect connection between the subject (American poetry) and the date through the biography of a famous practitioner."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Text:has_time 1928",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Anne Sexton was born in 1928. The subject is correct and the date is directly associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Request:has_message make the phone call and accompany her to the first session",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The request to 'make the phone call...' was made by Anne Sexton to a friend, and is completely unrelated to the place 'Glenside, Bristol'. The subject is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Time_vector:has_theme second episode in 1955",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions a 'second episode in 1955' and 'Glenside Hospital'. The triple connects these concepts, but the relationship 'has_theme' is a very weak semantic link; the episode is an event that happened, not necessarily a 'theme' of the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Time_vector:has_event she met Dr. Martin Orne, who became her long-term therapist at the Glenside Hospital",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The event of meeting Dr. Martin Orne at the Glenside Hospital is explicitly stated. The relationship 'has_event' is a reasonable, though slightly abstract, way to describe this connection between the location and the event that occurred there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Ordinal_numbers:has_type episode",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'episode' is used in the paragraph in the context of events (manic episodes) associated with Sexton's time involving Glenside Hospital. The connection to the location via 'has_type' is very indirect and weak, but a semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Subjective_influence:has_behavior write poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Anne Sexton was encouraged to write poetry and that she was a poet. The relationship 'has_behavior' is a reasonable semantic match for the activity of writing poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Glenside,_Bristol Buildings:has_time 1955",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1955 is mentioned in the same sentence as her meeting Dr. Orne, who became her therapist at Glenside Hospital. This creates a reasonable, though not explicit, temporal association between the location and the date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_collocation:has_time 1948",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Anne Sexton married in 1948. As she is an American poet and the event occurred in the US, there is a weak but reasonable semantic connection between the United States and the year 1948."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Being_born:has_theme Mary Gray (Staples ) Harvey (1901–1959) and Ralph Churchill Harvey (1900–1959)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Anne Sexton was born Anne Gray Harvey in Newton, Massachusetts to Mary Gray (Staples) Harvey (1901–1959) and Ralph Churchill Harvey (1900–1959).' This is a direct and clear statement about her birth and her parents."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_collocation:has_time 1954",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Sexton's first manic episode was in 1954. As her life and career are contextualized within the United States, there is a weak but reasonable semantic connection between the country and the year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Sexton Text:has_text poet",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly and explicitly identifies Anne Sexton as a poet (e.g., 'American poet', 'She was an American poet'). This is a direct and unambiguous match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Fame:has_entity American poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph describes Anne Sexton as an 'American poet' who won acclaim and awards. There is a strong semantic connection between the concept of 'American poetry' and the entity 'American poet' described in the text."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.534,
+    "high_confidence_50": 27,
+    "high_confidence_80": 17,
+    "percent_50": 54.0,
+    "percent_80": 34.0,
+    "max_triples_limit": 50
+  }
+}

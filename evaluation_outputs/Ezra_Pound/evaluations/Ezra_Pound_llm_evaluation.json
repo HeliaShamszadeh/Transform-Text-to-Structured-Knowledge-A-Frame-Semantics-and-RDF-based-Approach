@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Process_start:has_time early 20th century",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions James Blish only as the author of a pen name. There is no information connecting him to the 'early 20th century'; that time period is associated with Pound's activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Temporal_subregion:has_theme 20th century",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "T.S. Eliot is mentioned as a contemporary whose work Pound helped shape. The paragraph's context is heavily focused on the early 20th century, making it a reasonable, though indirect, thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Temporal_subregion:has_theme late",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The word 'late' appears in the phrase 'late 19th or early 20th century' in a quote about poets influenced by Pound, which includes contemporaries like Eliot. This is a weak but valid semantic connection to a temporal theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Assistance:has_goal discover and shape the work of contemporaries such as H.D",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Pound was 'Working in London... he helped to discover and shape the work of contemporaries such as H.D.' This directly links London to the goal of discovering/shaping work, though the predicate is an abstraction of the described activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot People:has_age Young",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The title of a work by James Joyce, 'A Portrait of the Artist as a Young Man', is mentioned in the context of Pound's help with serialization. While this is a very weak and indirect link (via a book title, not a direct statement about Eliot's age), a lenient interpretation allows for a semantic connection to the concept of 'Young'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Text:has_theme 1915",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Eliot's 'The Love Song of J. Alfred Prufrock' was published in 1915, which is a thematic work by Eliot"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ezra_Pound Experiencer_obj:has_theme carnage of World War I",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Pound was 'angered by the carnage of World War I' and this emotional response connects him to this theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Assistance:has_theme http://en.wikipedia.org/wiki/Ezra_Pound",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Pound worked in London as foreign editor of American literary magazines, establishing a connection between London and Pound"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Temporal_subregion:has_theme early",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Eliot is mentioned as one of Pound's contemporaries, and Pound's early 20th century work is discussed, creating a weak temporal connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_location Fascist Italy",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While not directly stated, Pound was American and collaborated with Fascist Italy, creating a weak indirect connection between the US and Italy"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Relative_time:has_theme incarnation as a German puppet state",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'incarnation as a German puppet state' refers to the Italian government under Pound's collaboration, not to T.S. Eliot or his themes. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Text:has_time 1924",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1924 is mentioned in relation to Pound moving to Italy. There is no mention of T.S. Eliot or any of his texts in connection with this date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Text_creation:has_author who",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'William Atheling' redirects to James Blish, and that Blish wrote under that pen name. This establishes a clear author relationship, even if the word 'who' is generic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Economy:has_theme economy",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While economic themes are discussed in relation to Pound, there is no mention of James Blish in any context related to economy or economic themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Judgment:has_theme http://en.wikipedia.org/wiki/Ezra_Pound",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Pound helped shape the work of T.S. Eliot and was responsible for the publication of his poem. This establishes a strong thematic connection between Eliot and Pound."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Responsibility:has_time 1914",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1914 in the context of Pound serializing Joyce's work, but there is no direct or indirect connection between James Blish and the year 1914."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Cantos Being_named:has_time 1924",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states The Cantos were written 'c. 1915–1962'. The year 1924 is mentioned as when Pound moved to Italy, but there is no semantic link between this event and the naming/publication of The Cantos."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Cause_to_make_progress:has_agent http://en.wikipedia.org/wiki/Ezra_Pound",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Pound helped 'discover and shape the work of contemporaries'. While James Blish is mentioned as the author behind the pen name 'William Atheling Jr.', a lenient interpretation allows for a weak semantic connection that Pound, as a major literary figure, could have influenced or aided the progress of a contemporary like Blish."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Temporal_subregion:has_time 1913",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1913 is mentioned only as the date of a photograph of Pound. There is no information linking this year to James Blish."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Statement:has_message that, for poets born in the late 19th or early 20th century, not to be influenced by Pound would be \" like passing through a great blizzard and not feeling its cold",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly quotes Hemingway making this exact statement about Pound's influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Age:has_entity Man",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's meaning is unclear, but the paragraph does not state or imply that T.S. Eliot is a man in the context of the 'Age' property. It only mentions him as a contemporary whose work Pound helped shape."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Temporal_subregion:has_theme modernist poetry movement",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph only states that James Blish wrote under the pen name William Atheling Jr. There is no connection made between Blish and the modernist poetry movement, which is associated with Pound."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text_creation:has_time 1932",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Hemingway wrote in 1932...'. This is a direct statement linking Hemingway, an act of writing (text creation), and the year 1932."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Traversing:has_time 1932",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1932 only in the context of something Hemingway wrote. There is no information connecting T.S. Eliot or the concept of 'traversing' to the year 1932."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Perception_experience:has_time 1932",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1932 only in the context of something Hemingway wrote. There is no information connecting T.S. Eliot or a 'perception experience' to the year 1932."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Importance:has_theme early modernist poetry movement",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that James Blish wrote under the pen name William Atheling, but it does not connect him to the early modernist poetry movement. The movement is associated with Ezra Pound, not Blish."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Cause_to_make_progress:has_project Imagism, a movement stressing precision and economy of language",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Imagism in the context of Ezra Pound's contributions. There is no information linking James Blish to the Imagism project."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Origin:has_location Fascist Italy",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Pound moved to Italy and was a collaborator in Fascist Italy. There is no information about James Blish's location or connection to Fascist Italy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Cantos Subjective_influence:has_time 1932",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1932 is mentioned in the paragraph in the context of a quote by Hemingway about Pound's influence. While the quote is about Pound's general influence and not specifically about 'The Cantos', the date is semantically connected to the broader context of Pound's work, which includes 'The Cantos'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Origin:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "James Blish is identified as an author who used a pen name. The paragraph is about an American poet (Pound), and the mention of Blish is in a redirect context. There is a weak, indirect connection to the United States through the overall American literary context of the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Cantos Being_named:has_theme as social credit",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Pound promoted social credit, and The Cantos is one of his works. While the theme is not explicitly attributed to the specific work, a weak semantic connection exists through the author's overall interests."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Cantos Being_born:has_person poets",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is nonsensical. A literary work (The Cantos) cannot 'have_person' an abstract category ('poets') in the context of being born. No information in the paragraph supports this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Judgment:has_reason war",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Pound was 'Angered by the carnage of World War I' and blamed it on capitalism. As Pound was a major influence on and promoter of Eliot's work, a weak, indirect connection can be inferred that the context of war was a factor in their intellectual milieu, though not directly attributed to Eliot's judgment."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Oswald_Mosley Contacting:has_time 1924",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Pound moved to Italy in 1924 and later wrote for Mosley's publications. While the exact timing of the contact with Mosley is not specified, the year 1924 is a significant date in Pound's relocation, which is contextually related to his later activities involving Mosley."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Oswald_Mosley Contacting:has_purpose publications owned by the British fascist Oswald Mosley",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that Pound 'wrote for publications owned by the British fascist Oswald Mosley'. This directly describes a purpose for contact (to write for the publications), even if the act of 'contacting' itself is implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Possession:has_owner British fascist Oswald Mosley",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Pound wrote for Mosley's publications, but there is no connection between T.S. Eliot and Mosley. The relationship is completely unattributed in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Leadership:has_leader government",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions governments (US, Italian) but there is no stated or implied leadership relationship between T.S. Eliot and any government."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Becoming_aware:has_theme work of contemporaries such as H.D",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "James Blish is only mentioned as the real name behind the pen name 'William Atheling Jr.'. There is no connection made between him and the work of H.D. or other contemporaries discussed in relation to Pound."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity poet and critic",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly identifies Ezra Pound as an 'American poet and critic', and the United States is mentioned in the context of his nationality and his attacks on the US government. The connection is clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Cantos Being_born:has_time late 19th or early 20th century",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'late 19th or early 20th century' appears in the paragraph, but it refers to the birth era of poets influenced by Pound, not to the creation time of 'The Cantos'. The connection is very weak and indirect, as the time period is mentioned in the same text but for a different subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Origin:has_location http://en.wikipedia.org/wiki/London",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions London in the context of Pound working there, but there is no direct or indirect connection made between James Blish and London. The only link is that Blish used the pen name 'William Atheling Jr.', which is mentioned in a redirect note, but no location information for Blish is provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot People_by_vocation:has_person poets",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "T.S. Eliot is mentioned as one of Pound's contemporaries whose work Pound helped shape. While not explicitly called a poet, Eliot is a famously known poet and the context is about modernist poetry and literary figures, making this a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Possession:has_time 1924",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1924 is mentioned as when Pound moved to Italy. There is no information connecting this date to T.S. Eliot or any event in his life within the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Similarity:has_theme not to be influenced by Pound",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph quotes Hemingway saying it would be unusual for poets of that era not to be influenced by Pound. While T.S. Eliot is mentioned as someone Pound helped, the broader theme of influence applies to contemporaries like Eliot, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Convey_importance:has_theme movement",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses literary movements like Imagism, which Pound helped develop. James Blish is only connected via a pen name mention, but thematically, the text is about literary movements, creating a very weak and indirect semantic connection to the theme of 'movement'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Origin:has_entity poet and critic",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "James Blish is mentioned as an author who wrote under a pen name, and the paragraph is about Ezra Pound, a poet and critic. There is a weak semantic connection via the shared context of authorship/literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Age:has_age Young",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions T.S. Eliot but provides no information about his age or any reference to him being young. The concept of 'Young' appears in the title of Joyce's book, which is unrelated to Eliot's age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Blish Becoming_aware:has_theme http://en.wikipedia.org/wiki/Ezra_Pound",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "James Blish used the pen name 'William Atheling,' which redirects to the main subject, Ezra Pound. This creates a weak semantic link where Blish's pseudonym is thematically connected to Pound."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Text:has_theme American literary",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Pound worked 'in London as foreign editor of several American literary magazines,' creating a direct semantic connection between London and American literary themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Ambient_temperature:has_time 1932",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The year 1932 is mentioned in a quote by Hemingway about Pound's influence. While the quote is not directly about Eliot, T.S. Eliot is mentioned earlier as one of Pound's contemporaries, creating a weak, indirect temporal connection."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 21,
+    "accuracy": 0.42,
+    "avg_confidence": 0.396,
+    "high_confidence_50": 21,
+    "high_confidence_80": 9,
+    "percent_50": 42.0,
+    "percent_80": 18.0,
+    "max_triples_limit": 50
+  }
+}

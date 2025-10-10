@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Intentionally_act:has_act His plays",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Shakespeare was a playwright who wrote plays, which is an intentional act. The phrase 'His plays' is directly mentioned multiple times."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Frequency:has_event called England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He is often called England's national poet and the \"Bard of Avon\" or simply \"the Bard\"', which directly matches the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions he had three children with Anne Hathaway. While 'children' is a kinship theme, the connection to the specific frame is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Increment:has_class verses",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text mentions his works include 'a few other verses'. While 'Increment:has_class' is an abstract relationship, verses are mentioned as a class/category of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Coming_to_believe:has_theme such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject (James VI and I) is only mentioned in passing as the king when the company was renamed. The object (speculation themes) is about Shakespeare, not James, and there's no connection between James and these speculation themes in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Scrutiny:has_theme his works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states his works are 'studied and reinterpreted', which is a form of scrutiny, establishing a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The concepts 'increment', 'class', and 'uses' have no discernible semantic connection to any information in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "King James VI is mentioned in the context of a company name change 'after the ascension', and the paragraph contains multiple references to years and durations (e.g., 'between 1585 and 1592', 'three years later'), creating a weak but valid thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Subjective_influence:has_theme English language",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he is 'the greatest writer in the English language' and 'the most influential writer in the English language', which directly connects the subject to the theme of influence on the English language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Being_born:has_location Stratford-upon-Avon, Warwickshire",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states 'Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire', which is a direct match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Referring_by_name:has_theme Lord Chamberlain's Men",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Shakespeare began his career in London with the Lord Chamberlain's Men, establishing a clear thematic connection between London and the playing company."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Categorization:has_category as the greatest writer in the English language and the world's pre-eminent dramatist",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Awareness:has_theme works",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While King James VI is mentioned in relation to the company name change, there is no direct or indirect connection made between him and Shakespeare's 'works' as a theme of awareness."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Records:has_theme records",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "King James VI is mentioned only in the context of the company's name change. The mention of 'few records' surviving refers to Shakespeare's private life, with no link to James VI and I."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Activity_start:has_location http://en.wikipedia.org/wiki/London",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'he began a successful career in London as an actor, writer, and part-owner', which directly links the start of his professional activity to the location London."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Give_impression:has_theme http://en.wikipedia.org/wiki/William_Shakespeare",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions King James VI in the context of the company name change, but there is no mention of him having a theme related to Shakespeare. The connection is extremely weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chamberlain_(office) Being_named:has_entity playing company called the Lord Chamberlain's Men",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions 'a playing company called the Lord Chamberlain's Men'. The connection to the 'Chamberlain' entity is direct, as the company is named after this office."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Cause_to_start:has_cause this",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incomplete and semantically unclear ('this' is undefined). The paragraph mentions the king's ascension as the reason for a name change, but the triple as stated does not express a coherent, extractable relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Rejuvenation:has_entity his works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While 'Rejuvenation' is a stretch, the paragraph extensively discusses Shakespeare's works, their enduring influence, and continued study. There is a clear semantic connection between Shakespeare and his works, even if the specific frame is not a perfect fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chamberlain_(office) Being_named:has_location http://en.wikipedia.org/wiki/London",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Shakespeare began his career in London with the Lord Chamberlain's Men. There is a reasonable, indirect connection linking the Chamberlain's office (via the company named after it) to the location of London."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare State_continue:has_state arguably the most influential writer in the English language",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Shakespeare remains arguably the most influential writer in the English language'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Records:has_data Shakespeare's private life",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "James VI and I is mentioned only as the king when the company was renamed; there is no connection to records of Shakespeare's private life"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Activity_start:has_time Sometime between 1585 and 1592",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Sometime between 1585 and 1592 he began a successful career in London' which indicates the start time of his career activity"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Measure_duration:has_theme three",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 'three' appears in relation to Shakespeare's children and years before death, but has no semantic connection to James VI and I"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Subjective_influence:has_entity writer",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Shakespeare is repeatedly referred to as a writer throughout the paragraph, establishing his identity as a writer entity"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Intentionally_act:has_theme more often than those of any other playwright",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'His plays... are performed more often than those of any other playwright.' While 'Intentionally_act:has_theme' is an imperfect semantic match for 'are performed', the concept of his plays being performed more than others is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Give_impression:has_theme have retired to Stratford, where he died three years later",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject (James VI and I) is incorrect. The retirement and death event is attributed to Shakespeare, not King James. The semantic connection is invalid as the event is not related to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Activity_start:has_activity successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he began a successful career in London as an actor, writer, and part-owner...' which is a very close semantic match for 'Activity_start:has_activity'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Process_continue:has_event be studied and reinterpreted",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'his works continue to be studied and reinterpreted.' 'Process_continue:has_event' is a reasonable semantic frame for the ongoing action of studying and reinterpreting his works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Coming_to_believe:has_degree considerable",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'considerable' appears in the paragraph ('considerable speculation'), but it is not related to the subject (James VI and I) in any way. The semantic connection is completely absent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Growing_food:has_location Stratford-upon-Avon, Warwickshire",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The predicate 'has_location' is very generic. While the paragraph states Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire, the specific domain 'Growing_food' is unrelated to the content. The connection is purely based on the shared location name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Text_creation:has_author others",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'speculation... as to whether the works attributed to him were written by others'. While James VI and I is mentioned in a different context (his ascension leading to a name change for a playing company), the concept of 'others' being authors is present in the text, creating a weak semantic link to the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Personal_relationship:has_time age of 18",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'At the age of 18, he married Anne Hathaway'. The subject is Shakespeare, the time 'age of 18' is directly mentioned, and the event (marriage) fits the 'Personal_relationship' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Temporal_collocation:has_theme plays",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "James VI and I is mentioned in the context of the ascension to the throne, after which Shakespeare's playing company was renamed 'the King's Men'. The paragraph is entirely about Shakespeare, whose primary theme is his plays. There is a contextual and temporal link between the king and the theme of plays."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chamberlain_(office) Being_named:has_theme as the King's Men",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Shakespeare's company was 'called the Lord Chamberlain's Men, later known as the King's Men'. The subject 'Chamberlain_(office)' is related to 'Lord Chamberlain's Men', and the object 'as the King's Men' describes the new name, fitting the 'Being_named' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Translating:has_theme His plays",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Shakespeare's plays being translated into every major language, which implies a 'theme' or subject matter of translation, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Personal_Relationship:has_theme Anne Hathaway,",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Shakespeare's marriage to Anne Hathaway is explicitly stated, establishing a clear personal relationship, even if the predicate 'has_theme' is a slightly awkward fit for a marital relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Age:has_age 49",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The age 49 is mentioned in relation to Shakespeare's retirement, not King James VI and I. The triple subject is incorrect and the information is completely unrelated to the entity named."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Hathaway Age:has_age 18",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The age 18 is mentioned as Shakespeare's age when he married Anne Hathaway, not her age. The information is attributed to the wrong subject in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Categorization:has_category as some of the best works produced in these genres",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The categorization refers to Shakespeare's early plays, not to King James VI and I. The subject of the triple is incorrect and the information is unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Quantified_mass:has_theme other verses",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Shakespeare's works include 'a few other verses', which is a direct semantic match for 'other verses' being a theme/part of his output."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Businesses:has_business company",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Shakespeare was part-owner of a 'playing company' in London. While 'company' is mentioned in the context of a theater troupe, there is a semantic connection to business and London."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Desirability:has_theme works produced in these genres",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'works produced in these genres' refers to Shakespeare's plays, not to James VI and I. There is no semantic connection between the king and the theme of literary genres in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Inclusion:has_theme His extant works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses 'His extant works' as a central theme of Shakespeare's legacy and output, making this a clear and direct semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Death:has_time three years later",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'three years later' refers to the time of Shakespeare's death after his retirement. There is no mention of James VI and I's death or any event happening 'three years later' in relation to him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Inclusion:has_theme collaborations",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions that Shakespeare's extant works 'including collaborations' consist of plays, sonnets, etc. This establishes a clear semantic connection between Shakespeare and the theme/concept of collaborations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Shakespeare Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Shakespeare's works include 'three long narrative poems and a few other verses,' providing a direct semantic link between Shakespeare and poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Behind_the_scenes:has_type these genres",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'these genres' refers to 'comedies and histories' mentioned in relation to Shakespeare's early plays. There is no semantic connection established between King James and these genres in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Giving:has_recipient http://en.wikipedia.org/wiki/William_Shakespeare",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the playing company was renamed 'the King's Men after the ascension of King James.' This implies a patronage relationship, which can be loosely interpreted as a 'giving' or 'granting' of favor/status to the company Shakespeare was part of, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_VI_and_I Text_creation:has_text works attributed to him",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'works attributed to him' refers to the debate about whether Shakespeare wrote his own works. There is no information linking King James to the creation or attribution of these texts."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 31,
+    "accuracy": 0.62,
+    "avg_confidence": 0.5180000000000002,
+    "high_confidence_50": 31,
+    "high_confidence_80": 18,
+    "percent_50": 62.0,
+    "percent_80": 36.0,
+    "max_triples_limit": 50
+  }
+}

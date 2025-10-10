@@ -1,0 +1,264 @@
+digraph Cao_Xueqin {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "as the author of Dream of t..." [label="as the author of Dream of t...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "Chinese novelist and poet 1..." [label="Chinese novelist and poet 1...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist and poet" [label="novelist and poet", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Eight Banners" [label="Eight Banners", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as officials" [label="as officials", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "elegiac poems by his friend..." [label="elegiac poems by his friend...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao's family" [label="Cao's family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chinese" [label="Chinese", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Han Chinese" [label="Han Chinese", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Xueqin's great-grandfat..." [label="Cao Xueqin's great-grandfat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dream of the Red Chamber, o..." [label="Dream of the Red Chamber, o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Yin's mother, Lady Sun  " [label="Cao Yin's mother, Lady Sun  ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Imperial Household bond" [label="Imperial Household bond", fillcolor=lightgray, color=gray, shape=hexagon];
+    "officials" [label="officials", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends" [label="friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Zhan  " [label="Cao Zhan  ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kangxi Emperor" [label="Kangxi Emperor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1610s" [label="1610s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ancestors" [label="ancestors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "courtesy" [label="courtesy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Qing dynasty" [label="Qing dynasty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Xueqin" [label="Cao Xueqin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao grandfather, Cao Yin  ,..." [label="Cao grandfather, Cao Yin  ,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "matter" [label="matter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Yin's" [label="Cao Yin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "servants" [label="servants", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era's most prominent men of..." [label="era's most prominent men of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "civil positions of the Impe..." [label="civil positions of the Impe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandfather" [label="grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1684" [label="1684", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kangxi appointed Cao Xueqin..." [label="Kangxi appointed Cao Xueqin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After the Plain White Banne..." [label="After the Plain White Banne...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "direct" [label="direct", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Zhen" [label="Cao Zhen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao's" [label="Cao's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao was forty and nearly fi..." [label="Cao was forty and nearly fi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "clan" [label="clan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "through military service in..." [label="through military service in...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "emperor" [label="emperor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Yin" [label="Cao Yin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "clan's" [label="clan's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his friends – Duncheng   an..." [label="his friends – Duncheng   an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "military" [label="military", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Xueqin's" [label="Cao Xueqin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jonathan Spence" [label="Jonathan Spence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Zhan" [label="Cao Zhan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lady Sun" [label="Lady Sun", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strong Manchu element in th..." [label="strong Manchu element in th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both prestige and wealth" [label="both prestige and wealth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His birth date can be confi..." [label="His birth date can be confi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Qing emperor" [label="Qing emperor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Two years" [label="Two years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Han Chinese clan that was b..." [label="Han Chinese clan that was b...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kangxi's" [label="Kangxi's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Manchu element" [label="Manchu element", fillcolor=lightgray, color=gray, shape=hexagon];
+    "themselves" [label="themselves", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the Commissioner of Impe..." [label="as the Commissioner of Impe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Two" [label="Two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jiankang" [label="Jiankang", fillcolor=lightgray, color=gray, shape=hexagon];
+    "held posts as officials whi..." [label="held posts as officials whi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao's family began to serve..." [label="Cao's family began to serve...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mengruan" [label="Mengruan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his ascension" [label="his ascension", fillcolor=lightgray, color=gray, shape=hexagon];
+    "serve in civil positions of..." [label="serve in civil positions of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confidant" [label="confidant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late" [label="late", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cao Yin's mother, Lady Sun ..." [label="Cao Yin's mother, Lady Sun ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His ancestors" [label="His ancestors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Han Chinese" -> "which" [label="has cause [Causation]", color=lightblue, penwidth=1];
+    "Cao Xueqin" -> "Cao Yin's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Cao Xueqin" -> "as the author of Dream of t..." [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Qing dynasty" -> "His birth date can be confi..." [label="has theme [Evidence]", color=lightyellow, penwidth=1];
+    "Cao Xueqin" -> "Cao Yin" [label="has person [People]", color=red, penwidth=2];
+    "Cao Xueqin" -> "After the Plain White Banne..." [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Cao Xueqin" -> "friends" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Han Chinese" -> "era" [label="has theme [Calendric_unit]", color=lightgray, penwidth=1];
+    "Cao Xueqin" -> "Cao Zhan" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Jiankang" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Cao Xueqin" -> "Cao Zhan  " [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Lady Sun" -> "Cao Yin's mother, Lady Sun  " [label="has theme [Medical_professionals]", color=lightgoldenrodyellow, penwidth=1];
+    "Cao Xueqin" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "book" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Jiankang" -> "his ascension" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Jiankang" -> "Kangxi Emperor" [label="has theme [Appointing]", color=lightgoldenrod, penwidth=1];
+    "Cao Xueqin" -> "Mengruan" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Han Chinese" -> "Cao grandfather, Cao Yin  ,..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Han Chinese" -> "Cao Zhen" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "Qing dynasty" -> "Cao was forty and nearly fi..." [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "emperor" [label="has leader [Leadership]", color=lightblue, penwidth=1];
+    "Han Chinese" -> "Cao's family began to serve..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Qing dynasty" -> "novelist and poet" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "Qing dynasty" [label="has theme [Leadership]", color=lightblue, penwidth=1];
+    "Han Chinese" -> "His ancestors" [label="has theme [Differentiation]", color=lightgreen, penwidth=1];
+    "Jonathan Spence" -> "Jonathan Spence" [label="has speaker [Statement]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "late" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Qing dynasty" -> "his friends – Duncheng   an..." [label="has author [Text]", color=lightseagreen, penwidth=1];
+    "Han Chinese" -> "as officials" [label="has theme [Assigned_location]", color=green, penwidth=2];
+    "Kangxi Emperor" -> "Kangxi's" [label="has theme [Certainty]", color=lightcyan, penwidth=1];
+    "Han Chinese" -> "civil positions of the Impe..." [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "Han Chinese" -> "there" [label="has location [Moving_in_place]", color=green, penwidth=2];
+    "Han Chinese" -> "1610s" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Han Chinese" -> "family" [label="has theme [Moving_in_place]", color=lightgray, penwidth=1];
+    "Jiankang" -> "Cao Xueqin's great-grandfat..." [label="has theme [Appointing]", color=lightgoldenrod, penwidth=1];
+    "Cao Xueqin" -> "Chinese novelist and poet 1..." [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Cao Xueqin" -> "serve in civil positions of..." [label="has activity [Activity_start]", color=lightcyan, penwidth=1];
+    "Jiankang" -> "Kangxi Emperor" [label="has theme [Intentional_traversing]", color=lightgoldenrodyellow, penwidth=1];
+    "Han Chinese" -> "military" [label="has type [Rite]", color=lightseagreen, penwidth=1];
+    "Cao Xueqin" -> "courtesy" [label="has type [Being_named]", color=lightgreen, penwidth=1];
+    "Han Chinese" -> "Qing emperor" [label="has agent [Authority]", color=lightsalmon, penwidth=1];
+    "Han Chinese" -> "clan's" [label="has leader [Leadership]", color=lightblue, penwidth=1];
+    "Cao Xueqin" -> "letters" [label="has theme [People]", color=lightpink, penwidth=1];
+    "Qing dynasty" -> "poems" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Han Chinese" -> "Cao Yin's mother, Lady Sun ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Han Chinese" -> "servants" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Jiankang" -> "Kangxi appointed Cao Xueqin..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Cao Xueqin" -> "Cao Xueqin's" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "Cao Xueqin" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Jiankang" -> "as the Commissioner of Impe..." [label="has role [Appointing]", color=lightgoldenrod, penwidth=1];
+    "Cao Xueqin" -> "name" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Qing dynasty" -> "matter" [label="has theme [Discussion]", color=lightpink, penwidth=1];
+    "Qing dynasty" -> "Chinese" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "clan" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "one" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Cao Xueqin" -> "Cao's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Cao Xueqin" -> "Chinese" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Cao Xueqin" -> "grandfather" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Lady Sun" -> "Kangxi's" [label="has theme [Medical_professionals]", color=lightgoldenrodyellow, penwidth=1];
+    "Han Chinese" -> "military" [label="has theme [Military]", color=lightcoral, penwidth=1];
+    "Qing dynasty" -> "which" [label="has theme [Statement]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "1684" [label="has time [Death]", color=purple, penwidth=2];
+    "Eight Banners" -> "ancestors" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Cao Xueqin" -> "Han Chinese clan that was b..." [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "Cao Xueqin" -> "Cao's family" [label="has agent [Activity_start]", color=lightcyan, penwidth=1];
+    "Cao Xueqin" -> "Dream of the Red Chamber, o..." [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "Imperial Household bond" [label="has theme [People_by_vocation]", color=lightgoldenrod, penwidth=1];
+    "Han Chinese" -> "held posts as officials whi..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Kangxi Emperor" -> "confidant" [label="has theme [Certainty]", color=lightcyan, penwidth=1];
+    "Qing dynasty" -> "elegiac poems by his friend..." [label="has theme [Evidence]", color=lightyellow, penwidth=1];
+    "Han Chinese" -> "era's most prominent men of..." [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Jiankang" -> "Two" [label="has theme [Calendric_unit]", color=lightgray, penwidth=1];
+    "Han Chinese" -> "themselves" [label="has theme [Differentiation]", color=lightgreen, penwidth=1];
+    "Han Chinese" -> "Cao's family" [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "Han Chinese" -> "direct" [label="has theme [Authority]", color=lightsalmon, penwidth=1];
+    "Han Chinese" -> "Han Chinese" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "both prestige and wealth" [label="has effect [Causation]", color=lightblue, penwidth=1];
+    "Jonathan Spence" -> "strong Manchu element in th..." [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "Han Chinese" -> "through military service in..." [label="has quality [Differentiation]", color=lightgreen, penwidth=1];
+    "Han Chinese" -> "Manchu element" [label="has theme [Level_of_force_exertion]", color=lightyellow, penwidth=1];
+    "Han Chinese" -> "officials" [label="has leader [Leadership]", color=lightblue, penwidth=1];
+    "Han Chinese" -> "His ancestors" [label="has theme [Assigned_location]", color=green, penwidth=2];
+    "Jiankang" -> "Two years" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Cao Xueqin" -> "Cao Xueqin's" [label="has child [Giving_birth]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Causation_legend" [label="Causation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Medical_professionals_legend" [label="Medical_professionals", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Differentiation_legend" [label="Differentiation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Assigned_location_legend" [label="Assigned_location", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Certainty_legend" [label="Certainty", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Moving_in_place_legend" [label="Moving_in_place", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Intentional_traversing_legend" [label="Intentional_traversing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Authority_legend" [label="Authority", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Military_legend" [label="Military", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Level_of_force_exertion_legend" [label="Level_of_force_exertion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Giving_birth_legend" [label="Giving_birth", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

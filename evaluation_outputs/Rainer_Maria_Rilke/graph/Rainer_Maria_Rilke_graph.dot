@@ -1,0 +1,318 @@
+digraph Rainer_Maria_Rilke {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "self-help authors" [label="self-help authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "German literature" [label="German literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novellas" [label="novellas", fillcolor=lightblue, color=blue, shape=ellipse];
+    "one novel, several collecti..." [label="one novel, several collecti...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "early novellas" [label="early novellas", fillcolor=lightblue, color=blue, shape=ellipse];
+    "television shows, books and..." [label="television shows, books and...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "The Notebooks of Malte Laurids Brigge" [label="The Notebooks of Malte Laurids Brigge", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writings" [label="writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his best-known works" [label="his best-known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His work" [label="His work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His writings" [label="His writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "France" [label="France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rilke disambiguation" [label="Rilke disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few" [label="few", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems" [label="his poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "capital" [label="capital", fillcolor=lightgray, color=gray, shape=hexagon];
+    "W. B. Yeats bibliography" [label="W. B. Yeats bibliography", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Czech Republic" [label="Czech Republic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prague, capital of Kingdom ..." [label="Prague, capital of Kingdom ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1931" [label="1931", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1926" [label="1926", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Letters to a Young Poet  Br..." [label="Letters to a Young Poet  Br...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ten letters" [label="ten letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critics and scholars" [label="critics and scholars", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citations by self-help auth..." [label="citations by self-help auth...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "finally" [label="finally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kingdom of Bohemia" [label="Kingdom of Bohemia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "inspiration" [label="inspiration", fillcolor=lightgray, color=gray, shape=hexagon];
+    "military career" [label="military career", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father, Josef Rilke 183..." [label="His father, Josef Rilke 183...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "René Karl Wilhelm Johann Jo..." [label="René Karl Wilhelm Johann Jo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new audiences" [label="new audiences", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His mother, Sophie "Phia" E..." [label="His mother, Sophie "Phia" E...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "audiences" [label="audiences", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prague" [label="Prague", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many of his poems" [label="many of his poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Switzerland" [label="Switzerland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "German language" [label="German language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "well-to-do family in Prague..." [label="well-to-do family in Prague...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a railway official" [label="as a railway official", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Rainer Maria Rilke" [label="as Rainer Maria Rilke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections of poetry" [label="collections of poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "correspondence" [label="correspondence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry collections" [label="poetry collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Herrengasse Panská 8" [label="Herrengasse Panská 8", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austria" [label="Austria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dichter" [label="Dichter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "idiosyncratic and expressive" [label="idiosyncratic and expressive", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection of ten letters" [label="collection of ten letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "military" [label="military", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as possessing undertones of..." [label="as possessing undertones of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Young" [label="Young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1906" [label="1906", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Letters" [label="Letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "railway" [label="railway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rainer Maria Rilke" [label="Rainer Maria Rilke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English-language readers" [label="English-language readers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "extensively throughout Europe" [label="extensively throughout Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his contributions to German..." [label="his contributions to German...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his early years" [label="his early years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poet" [label="Poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "semi-autobiographical" [label="semi-autobiographical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austria-Hungary" [label="Austria-Hungary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "volumes" [label="volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "quotations" [label="quotations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an idiosyncratic and exp..." [label="as an idiosyncratic and exp...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two poetry collections : Du..." [label="two poetry collections : Du...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Rainer Maria Rilke" -> "novellas" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Prague" -> "His mother, Sophie "Phia" E..." [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "one" [label="has theme [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "as an idiosyncratic and exp..." [label="has reason [Judgment_communication]", color=lightyellow, penwidth=1];
+    "Prague" -> "early" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "television shows, books and..." [label="has location [Statement]", color=green, penwidth=2];
+    "Kingdom of Bohemia" -> "His father, Josef Rilke 183..." [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "Kingdom of Bohemia" -> "Herrengasse Panská 8" [label="has location [Residence]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "1931" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "books" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Czech Republic" -> "railway" [label="has theme [Leadership]", color=lightseagreen, penwidth=1];
+    "Austria-Hungary" -> "then" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "writings" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "authors" [label="has author [Text_creation]", color=lightsalmon, penwidth=1];
+    "Prague" -> "1931" [label="has time [Origin]", color=purple, penwidth=2];
+    "German language" -> "German language" [label="has theme [Frequency]", color=lightgoldenrod, penwidth=1];
+    "Kingdom of Bohemia" -> "military" [label="has theme [Military]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "correspondence" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Switzerland" -> "which" [label="has theme [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "Prague" -> "family" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Rainer Maria Rilke" -> "later" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "early novellas" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "Poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Kingdom of Bohemia" -> "as a railway official" [label="has position [Being_employed]", color=lightsteelblue, penwidth=1];
+    "Rainer Maria Rilke" -> "best" [label="has degree [Fame]", color=lightblue, penwidth=1];
+    "W. B. Yeats bibliography" -> "Young" [label="has age [Age]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "few" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "The Notebooks of Malte Laurids Brigge" -> "two poetry collections : Du..." [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "France" [label="has location [Fame]", color=green, penwidth=2];
+    "Czech Republic" -> "1906" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "idiosyncratic and expressive" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Switzerland" -> "many of his poems" [label="has product [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "Switzerland" -> "finally" [label="has time [Colonization]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "20th century" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Switzerland" -> "many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "collections of poetry" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "extensively throughout Europe" [label="has theme [Travel]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "several" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "Prague, capital of Kingdom ..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "Prague" [label="has location [Kinship]", color=green, penwidth=2];
+    "Austria" -> "Rilke disambiguation" [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Rainer Maria Rilke" -> "mother" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Austria-Hungary" -> "Kingdom of Bohemia" [label="has theme [Leadership]", color=lightseagreen, penwidth=1];
+    "Rainer Maria Rilke" -> "semi-autobiographical" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "W. B. Yeats bibliography" -> "Letters to a Young Poet  Br..." [label="has location [Publishing]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "volumes" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "self-help authors" [label="has speaker [Adducing]", color=lightgoldenrodyellow, penwidth=1];
+    "W. B. Yeats bibliography" -> "poetry collections" [label="has entity [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "poetry" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Prague" -> "many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "collection" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "France" -> "Rainer Maria Rilke" [label="has theme [Giving]", color=lightsalmon, penwidth=1];
+    "Switzerland" -> "his poems" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "His writings" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "ten letters" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Rainer Maria Rilke" -> "letters" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Prague" -> "1931" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Austria" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Switzerland" -> "many of his poems" [label="has recipient [Supply]", color=lightsteelblue, penwidth=1];
+    "Switzerland" -> "which" [label="has theme [Supply]", color=lightsteelblue, penwidth=1];
+    "Prague" -> "1931" [label="has time [Quantified_mass]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "father" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Rainer Maria Rilke" -> "German language" [label="has theme [Text_creation]", color=lightsalmon, penwidth=1];
+    "W. B. Yeats bibliography" -> "two" [label="has theme [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "Prague" -> "Kingdom of Bohemia" [label="has theme [Relational_political_locales]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "citations by self-help auth..." [label="has location [Locating]", color=green, penwidth=2];
+    "Kingdom of Bohemia" -> "1906" [label="has time [Military]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "one novel, several collecti..." [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "W. B. Yeats bibliography" -> "Poet" [label="has entity [Age]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "novel" [label="has entity [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "his work" [label="has theme [Locating]", color=lightblue, penwidth=1];
+    "Austria-Hungary" -> "Prague" [label="has location [Leadership]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "1926" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Switzerland" -> "Rainer Maria Rilke" [label="has theme [Colonization]", color=lightyellow, penwidth=1];
+    "Prague" -> "1931" [label="has time [Kinship]", color=purple, penwidth=2];
+    "W. B. Yeats bibliography" -> "posthumously" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "France" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "volumes" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "René Karl Wilhelm Johann Jo..." [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "as Rainer Maria Rilke" [label="has theme [Being_named]", color=lightcoral, penwidth=1];
+    "Prague" -> "his early years" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "His work" [label="has item [Categorization]", color=lightgreen, penwidth=1];
+    "Prague" -> "early" [label="has theme [Calendric_unit]", color=lightgoldenrod, penwidth=1];
+    "Kingdom of Bohemia" -> "1906" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "poetry" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Austria" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "critics and scholars" [label="has theme [Categorization]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "novel" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "new audiences" [label="has theme [Locating]", color=lightblue, penwidth=1];
+    "Rainer Maria Rilke" -> "René Karl Wilhelm Johann Jo..." [label="has theme [Being_born]", color=lightcyan, penwidth=1];
+    "Rainer Maria Rilke" -> "France" [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "Kingdom of Bohemia" -> "1931" [label="has time [Residence]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "his best-known works" [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "Switzerland" [label="has location [Text]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "his contributions to German..." [label="has reason [Fame]", color=lightblue, penwidth=1];
+    "W. B. Yeats bibliography" -> "Letters" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Prague" -> "Czech Republic" [label="has theme [Relational_political_locales]", color=lightcoral, penwidth=1];
+    "Rainer Maria Rilke" -> "quotations" [label="has theme [Frequency]", color=lightgoldenrod, penwidth=1];
+    "Kingdom of Bohemia" -> "military career" [label="has goal [Success_or_failure]", color=lightyellow, penwidth=1];
+    "Rainer Maria Rilke" -> "novellas" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "as possessing undertones of..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "1906" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Switzerland" -> "inspiration" [label="has theme [Supply]", color=lightsteelblue, penwidth=1];
+    "Prague" -> "years" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Rainer Maria Rilke" -> "English-language readers" [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "Prague" -> "1931" [label="has time [Temporal_subregion]", color=purple, penwidth=2];
+    "Prague" -> "capital" [label="has theme [Relational_political_locales]", color=lightcoral, penwidth=1];
+    "Kingdom of Bohemia" -> "1906" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Austria" -> "1926" [label="has time [Text]", color=purple, penwidth=2];
+    "Rainer Maria Rilke" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Kingdom of Bohemia" -> "who" [label="has theme [Residence]", color=lightgray, penwidth=1];
+    "The Notebooks of Malte Laurids Brigge" -> "his best-known works" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Rainer Maria Rilke" -> "audiences" [label="has entity [Familiarity]", color=lightsteelblue, penwidth=1];
+    "Rainer Maria Rilke" -> "Switzerland" [label="has location [Travel]", color=green, penwidth=2];
+    "Rainer Maria Rilke" -> "Dichter" [label="has entity [Age]", color=lightcoral, penwidth=1];
+    "France" -> "German literature" [label="has recipient [Giving]", color=lightsalmon, penwidth=1];
+    "Prague" -> "well-to-do family in Prague..." [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "W. B. Yeats bibliography" -> "collection of ten letters" [label="has work [Publishing]", color=lightgray, penwidth=1];
+    "Rainer Maria Rilke" -> "collections" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Military_legend" [label="Military", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Colonization_legend" [label="Colonization", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Travel_legend" [label="Travel", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Adducing_legend" [label="Adducing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relational_political_locales_legend" [label="Relational_political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Familiarity_legend" [label="Familiarity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

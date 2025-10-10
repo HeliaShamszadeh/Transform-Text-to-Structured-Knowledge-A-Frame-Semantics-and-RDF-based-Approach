@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Golden_Horde Quitting:has_purpose serve Vasily II of Moscow",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that a Tatar mirza 'left the Golden Horde to serve Vasily II of Moscow', which semantically connects the Golden Horde to the action/purpose of serving Vasily II."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Kinship:has_theme Ivan Ivanovich Lutovinov",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Ivan Ivanovich Lutovinov is mentioned as an ancestor from whom the family estate was granted. While 'Kinship:has_theme' is vague, there is a familial/ancestral connection between Turgenev and Lutovinov."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Age:has_entity Turgenev family",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The Turgenev family is explicitly mentioned multiple times in the paragraph in direct relation to Ivan Turgenev."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Documents:has_theme Sportsman's Sketches",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and 'Sportsman's Sketches', but there is no semantic connection established between the East Slavic languages as an entity and the book's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Being_named:has_theme http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph begins by stating the text follows 'East Slavic naming customs' when introducing Ivan Turgenev. This creates a weak but valid semantic link between the concept of East Slavic naming and the person being named."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Kinship:has_location http://en.wikipedia.org/wiki/Oryol",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Ivan Sergeyevich Turgenev was born in Oryol, Russia', establishing a clear location relationship between Russia and Oryol."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and Turgenev was a major figure in 'Russian literature'. While the connection is indirect, there is a semantic link between East Slavic culture/languages and literature through the context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Difficulty:has_activity childhood",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately mentions 'childhood' in reference to Turgenev's mother, but there is no semantic connection between East Slavic languages and the concept of childhood or childhood activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Origin:has_theme wealthy noble Lutovinov house of the Oryol Governorate",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Ivan's mother came from a wealthy noble Lutovinov house of the Oryol Governorate', which directly connects Turgenev to this origin through his maternal lineage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Text:has_text story",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately discusses Turgenev's 'short story collection' and his work as a 'short story writer'. While the connection is weak, there is a thematic link between language/culture and story texts through the author's literary works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Personal_relationship:has_time 1816",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1816, she married Turgenev.' This is a clear temporal relationship involving Ivan Turgenev's family, making the connection to the year 1816 reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Aggregate:has_theme short story",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' is only mentioned in the context of naming customs. The theme 'short story' is associated with Ivan Turgenev's profession, but there is no semantic link between these two concepts in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Text:has_text fiction",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' is only mentioned in the context of naming customs. The concept 'fiction' is mentioned in relation to Turgenev's novel, but there is no connection made between East Slavic languages and fiction in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Age:has_attribute old",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'His father belonged to an old, but impoverished Turgenev family...' While 'old' describes the family, not Ivan Turgenev's personal age, there is a weak semantic connection through his lineage and the concept of age/antiquity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Buildings:has_theme house",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The subject 'East Slavic languages' is only mentioned in the context of naming customs. The word 'house' appears ('Lutovinov house'), but it refers to a noble family, not a building, and has no discernible connection to East Slavic languages in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Assistance:has_theme Lev Turgen (Ivan Turgenev after his baptism)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and 'Lev Turgen (Ivan Turgenev after his baptism)' in the context of family history, creating a weak semantic link between the concepts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Text:has_theme 19th-century",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses Turgenev (1818-1883) as a 19th-century figure and mentions '19th-century fiction', while also referencing 'East Slavic naming customs', creating a reasonable thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and extensively discusses Turgenev's mother and family relationships, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Luck:has_theme huge",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and that Turgenev's mother 'inherited a huge fortune', creating a very weak but technically valid semantic connection through the concept of inheritance/luck."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Labor_product:has_theme major",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and describes Turgenev's work as 'major publication' and 'major works', creating a reasonable thematic connection between language/culture and literary output."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Text:has_text Fathers and Sons",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Ivan Turgenev's novel 'Fathers and Sons' is regarded as a major work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel) Categorization:has_item His novel Fathers and Sons (1862)",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'His novel Fathers and Sons (1862)' is directly present in the text, establishing a clear categorization relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Relative_time:has_theme left his house",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' is mentioned in the naming customs note, but the predicate and object ('left his house') refer to Ivan's mother's life story and are semantically unrelated to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Kinship:has_theme ancestor",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that the Spasskoye-Lutovinovo estate was granted to Turgenev's 'ancestor', establishing a weak but valid kinship theme connection to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Departing:has_purpose live with her uncle",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' is unrelated to the action of leaving with the purpose of living with an uncle, which describes the mother's life events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Temporal_collocation:has_theme she married Turgenev",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and 'she married Turgenev', creating a very weak semantic link via the shared context of the text, though the direct relationship in the triple is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel) Kinship:has_theme Ivan and his brothers Nikolai and Sergei",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The novel 'Fathers and Sons' is mentioned, and the theme of kinship/family is strongly present in the paragraph's discussion of Ivan and his brothers, creating a reasonable thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Reference_text:has_information Turgenev (surname )",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text is about a Russian writer, mentions Russia multiple times, and explicitly references 'Turgenev (surname)', creating a clear semantic connection between the country and the information about the surname."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Oryol_Oblast Leadership:has_theme http://en.wikipedia.org/wiki/Oryol",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The city of Oryol is mentioned as Turgenev's birthplace, but there is no information about leadership or a connection to Oryol Oblast. The semantic link is too weak and indirect to be considered extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Origin:has_entity realism",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Turgenev's work 'was a milestone of Russian realism', creating a clear link between Russia as the origin/cultural context for the literary movement of realism."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Strictness:has_agent woman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' but has no semantic connection to a 'woman' being an agent of 'strictness'. The concepts are unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Growing_food:has_theme Ivan and his brothers Nikolai and Sergei",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and 'Ivan and his brothers Nikolai and Sergei', but there is no semantic link to the concept of 'Growing_food'. The themes are completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel) Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The novel 'Fathers and Sons' is mentioned, and the paragraph extensively discusses family relationships, including the mother's role. While 'mother' is not explicitly stated as a theme of the novel, the semantic connection to family/kinship themes is reasonably extractable given the context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_text novelist",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Ivan Turgenev, a subject associated with Russia, was a 'novelist'. The connection is direct and clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph contains significant information about Ivan Turgenev's mother, her background, and her role in raising him. The 'mother' is a clear and prominent kinship theme in the text about Ivan Turgenev."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Individual_history:has_participant Turgenev family",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' in relation to the Turgenev name, creating a very weak semantic link between East Slavic languages/customs and the Turgenev family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Kinship:has_theme stepfather",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions a 'stepfather' in the context of Ivan Turgenev's mother's family story, while also mentioning East Slavic naming customs. The connection is extremely weak but both concepts appear in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Departing:has_time after her mother's death",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The phrase 'after her mother's death' appears in the paragraph about Turgenev's mother leaving her stepfather's house, while East Slavic naming customs are mentioned earlier. The connection is very weak but both elements exist in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Importance:has_theme works of 19th-century fiction",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'works of 19th-century fiction' in reference to Turgenev's novel, while also mentioning East Slavic naming customs. There's a weak thematic connection through Russian literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Labor_product:has_theme works",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Turgenev's literary 'works' and he was a Russian writer, while East Slavic languages are indirectly related through Russian literature. Weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Golden_Horde Quitting:has_employee Tatar mirza Lev Turgen (Ivan Turgenev after his baptism)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that a Tatar mirza Lev Turgen 'left the Golden Horde to serve Vasily II of Moscow.' The concept of 'leaving' an organization (the Golden Horde) implies a prior employment or membership relationship, which is semantically related to 'has_employee'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Aggregate:has_theme collection",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' but does not discuss collections or aggregation in any context related to East Slavic languages. The connection is too tenuous and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages People:has_person woman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions women (e.g., Ivan's mother) and East Slavic naming customs, there is no direct or indirect semantic link between the language family and the concept of 'having a person' who is a woman."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Education_teaching:has_student woman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions an 'educated... woman' (Ivan's mother) and 'East Slavic naming customs,' but there is no information linking East Slavic languages to a student-teacher relationship involving a woman."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Growing_food:has_theme their mother, an educated, authoritarian woman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The concepts of East Slavic languages and 'Growing_food' are completely absent from the paragraph. The mention of the mother is unrelated to agriculture or the language family in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Luck:has_theme fortune",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately mentions 'inherited a huge fortune'. While the connection is very weak and indirect, both concepts (East Slavic and fortune) are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Kinship:has_theme brothers",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Ivan and his brothers Nikolai and Sergei', directly linking Ivan Turgenev to the theme of brothers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Russia and describes Turgenev as a 'poet'. While the connection is not deep (he is a Russian poet), both elements are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ivan_Turgenev Kinship:has_theme Ivan's",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph contains the possessive form 'Ivan's' (e.g., 'Ivan's mother'), which directly links the entity Ivan Turgenev to a kinship-related theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages People:has_theme authoritarian",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately describes Ivan's mother as an 'authoritarian woman'. The connection is very weak but both concepts exist in the text."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 26,
+    "accuracy": 0.52,
+    "avg_confidence": 0.47,
+    "high_confidence_50": 26,
+    "high_confidence_80": 13,
+    "percent_50": 52.0,
+    "percent_80": 26.0,
+    "max_triples_limit": 50
+  }
+}

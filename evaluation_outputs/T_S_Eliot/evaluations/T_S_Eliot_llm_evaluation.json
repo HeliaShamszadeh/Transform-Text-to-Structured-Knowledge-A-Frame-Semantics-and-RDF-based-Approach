@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hollow_Men Receiving:has_recipient http://en.wikipedia.org/wiki/T._S._Eliot",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states T.S. Eliot wrote 'The Hollow Men', but the predicate 'has_recipient' implies he received it, which is the opposite relationship. No information suggests he was the recipient of his own work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Being_employed:has_employee http://en.wikipedia.org/wiki/T._S._Eliot",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions St. Louis, Missouri, but there is no mention of Saint Petersburg. The concept of employment is not directly associated with T.S. Eliot in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henry_Ware_Eliot Leadership:has_theme Hydraulic-Press Brick Company in St. Louis",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Henry Ware Eliot was 'president and treasurer of the Hydraulic-Press Brick Company in St. Louis'. The 'Leadership:has_theme' predicate is a reasonable, though not exact, semantic match for his leadership role at the company."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Being_employed:has_theme there",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'there' referring to St. Louis, Missouri, in the context of establishing a church, not Saint Petersburg. The concept of employment is not associated with this location in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ash_Wednesday Surviving:has_theme children",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Ash Wednesday' as a work by Eliot and separately mentions he was 'the last of six surviving children'. There is no semantic connection between the literary work and the theme of surviving children."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Roadways:has_location St",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'St. Louis' multiple times, but there is no mention of Saint Petersburg. The 'St' in the triple is ambiguous but cannot be reasonably connected to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ash_Wednesday Text:has_location Literature",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The poem 'Ash Wednesday' is mentioned as one of Eliot's works. The connection to 'Literature' is extremely weak but can be inferred from the context of him being a poet and winning the Nobel Prize in Literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Fame:has_reason his critical essays, which often re-evaluated long-held cultural beliefs",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states he is noted for his critical essays which re-evaluated cultural beliefs. This is a clear, though not explicit, reason for his fame or noted status."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Opinion:has_theme cultural",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions his essays re-evaluated 'long-held cultural beliefs'. The theme of 'cultural' is directly present in the text, associated with his critical opinions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Kinship:has_time 1914",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 1914 is mentioned in the paragraph (when Eliot moved to England), but there is no mention of Saint Petersburg or any kinship event related to that location and time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Reference_text:has_theme Thomas Eliot (disambiguation)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph begins by mentioning 'For other people named Thomas Eliot, see Thomas Eliot (disambiguation)', which semantically connects the subject to the disambiguation page as a reference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Text_creation:has_text seven plays, including Murder in the Cathedral (1935) and The Cocktail Party (1949",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He wrote seven plays, including Murder in the Cathedral (1935) and The Cocktail Party (1949)', which directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Greenleaf_Eliot Motion:has_theme Eliot's paternal grandfather, William Greenleaf Eliot",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The predicate 'Motion:has_theme' is abstract, but the paragraph mentions 'Eliot's paternal grandfather, William Greenleaf Eliot', establishing a weak semantic connection between the entity and the theme of being a grandfather."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Being_named:has_entity other people",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The phrase 'For other people named Thomas Eliot' establishes a semantic relationship between T.S. Eliot and the entity of 'other people' who share his name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ash_Wednesday Inclusion:has_time 1935",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Ash Wednesday (1930)' but incorrectly associates it with the year 1935 in the triple. This is a contradictory fact, not a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Measure_duration:has_process his life",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions St. Louis, not Saint Petersburg. There is no semantic connection to Saint Petersburg or a process related to 'his life' in the context of that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock Categorization:has_item \" The Love Song of J. Alfred Prufrock \" (1915 ), which",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The poem 'The Love Song of J. Alfred Prufrock' (1915) is explicitly mentioned in the paragraph. The triple's subject and object are directly present, and the relationship 'has_item' is a reasonable, if slightly awkward, interpretation of the text stating Eliot wrote/attracted attention with this item."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "T.S. Eliot is the main subject of the paragraph, which repeatedly states he was a poet and contributed to Modernist poetry. The relationship 'has_text poetry' is a reasonable, abstract representation of his strong association with the genre of poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/U.S._Route_52_in_Iowa Locative_relation:has_location St",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions 'St. Louis' (which abbreviates to 'St.'), this refers to the city, not a U.S. Route. The subject 'U.S. Route 52 in Iowa' is completely unrelated to any content in the paragraph. The connection based on the shared abbreviation 'St.' is too tenuous to be considered a valid extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot First_rank:has_location English",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Eliot was a leading figure in 'English-language Modernist poetry', moved to England, and became a British subject. The relationship 'has_location English' can be reasonably interpreted as him having a strong connection to the English language and England, even if the predicate is imprecise."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock Text:has_time 1915",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'The Love Song of J. Alfred Prufrock' was published in 1915, which directly supports the time relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Employing:has_employee His father, Henry Ware Eliot,",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Henry Ware Eliot but there is no connection whatsoever to Saint Petersburg or any employment relationship with it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ash_Wednesday Giving:has_location Literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the connection is weak, Ash Wednesday is mentioned as one of Eliot's works in the context of his literary career, providing a very indirect semantic link to literature as a domain."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "There is no mention of Saint Petersburg in the paragraph, and the concept of 'years' as a theme is not connected to any location mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock Attention:has_theme \"The Love Song of J. Alfred Prufrock",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The work is mentioned in the paragraph, and while the triple is somewhat circular (the work having itself as a theme), there's a semantic connection through the discussion of Eliot's poetry and attention it received."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_Brahmin Kinship:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the Eliots were a Boston Brahmin family with roots in England, providing a semantic connection between Boston Brahmin and England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Relative_time:has_theme Waste Land (1922 ), \" The Hollow Men \" (1925 ), \" Ash Wednesday \" (1930 ), and Four Quartets (1943",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Saint Petersburg is not mentioned in the paragraph. The listed works are by T.S. Eliot, but there is no connection to Saint Petersburg, making the triple's information completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_Brahmin Kinship:has_theme Eliots",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'The Eliots were a Boston Brahmin family,' creating a direct semantic link between Boston Brahmin and the Eliots."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The triple is very vague, but T.S. Eliot is a person, and the paragraph is about him. There is a weak semantic connection as 'people' is a hypernym for 'person'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Craft:has_location English",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states he was a leading figure in 'English-language Modernist poetry' and became a British subject, creating a reasonable semantic connection between T.S. Eliot and the English language/culture."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Unitarianism Buildings:has_type Unitarian Christian",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Eliot's grandfather established a 'Unitarian Christian church' in St. Louis, directly linking Unitarianism to the type 'Unitarian Christian'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Age:has_location St",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'St. Louis' multiple times, but there is no reference to 'Saint Petersburg'. The abbreviation 'St' in the triple is unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Renunciation:has_theme his American citizenship",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He became a British subject in 1927... and renounced his American citizenship', making this a direct and clear extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hollow_Men Receiving:has_theme 1948 Nobel Prize in Literature",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions both 'The Hollow Men' and the '1948 Nobel Prize in Literature', the prize is awarded to T.S. Eliot for his overall contribution to poetry, not specifically for the poem 'The Hollow Men'. The connection is incorrect and contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Missouri First_experience:has_theme attracted widespread attention for \" The Love Song of J. Alfred Prufrock \" (1915",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Eliot was 'Born in St. Louis, Missouri' and that he 'first attracted widespread attention for \"The Love Song of J. Alfred Prufrock\"'. While the triple's phrasing is awkward, there is a weak semantic link between Missouri (his birthplace) and the event of gaining attention for the poem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ash_Wednesday Inclusion:has_theme Murder in the Cathedral (1935) and The Cocktail Party (1949",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph lists 'Ash Wednesday' and the plays as separate works by Eliot, but there is no stated thematic connection between them. The triple's predicate suggests a specific 'has_theme' relationship which is not present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Being_employed:has_time 1914",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Saint Petersburg' is not mentioned in the paragraph. The year 1914 is mentioned in the context of Eliot moving to England, not any event related to Saint Petersburg."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Kinship:has_location St",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Saint Petersburg' is not mentioned. The abbreviation 'St.' in the paragraph refers to 'Saint Louis', not Saint Petersburg. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Residence:has_theme house on Locust Street where he was born",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Eliot lived in St. Louis for the first 16 years of his life at the house on Locust Street where he was born.' This connects T.S. Eliot to a residence (the house on Locust Street). The predicate 'Residence:has_theme' is a weak semantic match for 'lived at', but a connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Text:has_theme English-language Modernist",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Eliot 'was a leading figure in English-language Modernist poetry'. This directly connects the entity T.S. Eliot to the theme/concept of 'English-language Modernist' poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Craft:has_activity art",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Eliot was a poet, essayist, and playwright, and that he was a leading figure in Modernist poetry where he 'reinvigorated the art'. The concept of 'art' is semantically connected to his creative activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Employing:has_location St",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'St. Louis' multiple times, but 'St' is an ambiguous abbreviation. There is no mention or semantic connection to Saint Petersburg, making this triple unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hollow_Men Receiving:has_theme his outstanding, pioneer contribution to present-day poetry",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'his outstanding, pioneer contribution to present-day poetry' is the reason given for his Nobel Prize, not a theme of 'The Hollow Men'. However, both the poem and the prize are mentioned, creating a weak semantic connection through the author's overall work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Personal_success:has_person businessman",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Eliot's father, Henry Ware Eliot, was a 'successful businessman' in St. Louis, Missouri, United States. There is a clear, though indirect, semantic connection between the United States and a businessman via the description of his family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Renunciation:has_time 1927",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He became a British subject in 1927 at the age of 39 and renounced his American citizenship', which directly connects the year 1927 to an act of renunciation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Motion:has_time age of 25",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'he moved to England in 1914 at the age of 25'. The triple's concept of 'time' and 'age of 25' is directly and semantically connected to this event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Judgment_communication:has_theme essays",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Eliot was an 'essayist' and that 'He is also noted for his critical essays'. The semantic connection to 'essays' as a theme of his work is clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Missouri Age:has_age 39",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the age of 39 in relation to T.S. Eliot becoming a British subject, not in relation to the state of Missouri. There is no semantic connection between Missouri and the age 39."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hollow_Men Receiving:has_location Literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The poem 'The Hollow Men' is mentioned, and the paragraph's context is T.S. Eliot's contribution to 'Literature' (explicitly stated with the Nobel Prize). While the connection is weak and indirect, the themes are related within the text's semantic field."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/T._S._Eliot Reference_text:has_time 1965",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1965 is explicitly stated in the first line as the year of his death ('1888–1965'). The triple's concept of 'has_time' is semantically connected to this date."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 24,
+    "accuracy": 0.48,
+    "avg_confidence": 0.43799999999999994,
+    "high_confidence_50": 24,
+    "high_confidence_80": 15,
+    "percent_50": 48.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

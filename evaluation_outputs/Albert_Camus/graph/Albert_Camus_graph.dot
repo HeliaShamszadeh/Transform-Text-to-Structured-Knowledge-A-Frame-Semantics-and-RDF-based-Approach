@@ -1,0 +1,249 @@
+digraph Albert_Camus {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His works" [label="His works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Camus's work" [label="Camus's work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "working-class neighbourhood..." [label="working-class neighbourhood...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "1957 Nobel Prize in Literature" [label="1957 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "studied philosophy at the U..." [label="studied philosophy at the U...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Joseph Stalin" [label="Joseph Stalin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "neighbourhood" [label="neighbourhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "term" [label="term", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was a celebrity figure a..." [label="he was a celebrity figure a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "France" [label="France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many organisations seeking ..." [label="many organisations seeking ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many lectures" [label="many lectures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many organisations" [label="many organisations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French Algeria" [label="French Algeria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "firmly" [label="firmly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "organisations" [label="organisations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "outlawed" [label="outlawed", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joseph Stalin and the Sovie..." [label="Joseph Stalin and the Sovie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "44" [label="44", fillcolor=lightgray, color=gray, shape=hexagon];
+    "twice" [label="twice", fillcolor=lightgray, color=gray, shape=hexagon];
+    "neutral" [label="neutral", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during World War II in 1940" [label="during World War II in 1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Some" [label="Some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pied-noir parents" [label="pied-noir parents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Catherine Hélène Camus" [label="Catherine Hélène Camus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 44" [label="age of 44", fillcolor=lightgray, color=gray, shape=hexagon];
+    "newspaper" [label="newspaper", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Camus disambiguation" [label="Camus disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sintès" [label="Sintès", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as absurdism" [label="as absurdism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "philosophy" [label="philosophy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Algiers 1 University" [label="Algiers 1 University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "European integration" [label="European integration", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lectures" [label="lectures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politically" [label="politically", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1957" [label="1957", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940" [label="1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "flee" [label="flee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Stranger newspaper" [label="The Stranger newspaper", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he himself" [label="he himself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "7 November 1913" [label="7 November 1913", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germans invaded France duri..." [label="Germans invaded France duri...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "finally" [label="finally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Camus's" [label="Camus's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when the Germans invaded Fr..." [label="when the Germans invaded Fr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "left" [label="left", fillcolor=lightgray, color=gray, shape=hexagon];
+    "towards anarcho-syndicalism" [label="towards anarcho-syndicalism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "He was in Paris" [label="He was in Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "war" [label="war", fillcolor=lightgray, color=gray, shape=hexagon];
+    "left that opposed Joseph St..." [label="left that opposed Joseph St...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was part of the left tha..." [label="he was part of the left tha...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After" [label="After", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During the Algerian War 195..." [label="During the Algerian War 195...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Albert Camus" [label="Albert Camus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French Resistance where he ..." [label="French Resistance where he ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their totalitarianism" [label="their totalitarianism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stranger, The Plague, The M..." [label="Stranger, The Plague, The M...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germany" [label="Germany", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paris" [label="Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Combat" [label="Combat", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parents" [label="parents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be an existentialist" [label="be an existentialist", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "The Stranger newspaper" -> "world" [label="has theme [Locative_relation]", color=lightblue, penwidth=1];
+    "Joseph Stalin" -> "organisations" [label="has organization [Organization]", color=lightcoral, penwidth=1];
+    "Albert Camus" -> "left that opposed Joseph St..." [label="has group [Membership]", color=lightgreen, penwidth=1];
+    "France" -> "Camus disambiguation" [label="has theme [Reference_text]", color=lightyellow, penwidth=1];
+    "Joseph Stalin" -> "left" [label="has theme [People_along_political_spectrum]", color=lightpink, penwidth=1];
+    "Combat" -> "French Resistance where he ..." [label="has group [Becoming_a_member]", color=lightcyan, penwidth=1];
+    "Albert Camus" -> "be an existentialist" [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "their totalitarianism" [label="has cause [Causation]", color=lightgray, penwidth=1];
+    "Paris" -> "when the Germans invaded Fr..." [label="has time [Interior_profile_relation]", color=purple, penwidth=2];
+    "Paris" -> "during World War II in 1940" [label="has time [Invading]", color=purple, penwidth=2];
+    "Albert Camus" -> "7 November 1913" [label="has time [Being_born]", color=purple, penwidth=2];
+    "The Stranger newspaper" -> "war" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "The Stranger newspaper" -> "philosophy" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "Albert Camus" -> "flee" [label="has goal [Attempt]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "Sintès" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "The Stranger newspaper" -> "many lectures" [label="has theme [Locative_relation]", color=lightblue, penwidth=1];
+    "Albert Camus" -> "many organisations seeking ..." [label="has group [Membership]", color=lightgreen, penwidth=1];
+    "Albert Camus" -> "Literature" [label="has location [Age]", color=green, penwidth=2];
+    "Joseph Stalin" -> "firmly" [label="has theme [Respond_to_proposal]", color=lightblue, penwidth=1];
+    "Albert Camus" -> "childhood" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Albert Camus" -> "Camus's work" [label="has item [Categorization]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "as absurdism" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Joseph Stalin" -> "he himself" [label="has speaker [Respond_to_proposal]", color=lightblue, penwidth=1];
+    "The Stranger newspaper" -> "Stranger, The Plague, The M..." [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Albert Camus" -> "twice" [label="has degree [Personal_relationship]", color=red, penwidth=2];
+    "The Stranger newspaper" -> "studied philosophy at the U..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Joseph Stalin" -> "that" [label="has theme [Taking_sides]", color=lightpink, penwidth=1];
+    "Albert Camus" -> "Some" [label="has theme [Categorization]", color=lightsteelblue, penwidth=1];
+    "Albert Camus" -> "politically" [label="has activity [Being_active]", color=lightcyan, penwidth=1];
+    "Combat" -> "finally" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Algiers 1 University" -> "later" [label="has time [Studying]", color=purple, penwidth=2];
+    "Paris" -> "Albert Camus" [label="has theme [Interior_profile_relation]", color=lightgoldenrodyellow, penwidth=1];
+    "The Stranger newspaper" -> "neighbourhood" [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "The Stranger newspaper" -> "Catherine Hélène Camus" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "age of 44" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Algiers 1 University" -> "Albert Camus" [label="has student [Studying]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "he was a celebrity figure a..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Combat" -> "Albert Camus" [label="has theme [Becoming_a_member]", color=lightcyan, penwidth=1];
+    "Albert Camus" -> "towards anarcho-syndicalism" [label="has theme [Change_posture]", color=lightseagreen, penwidth=1];
+    "Joseph Stalin" -> "term" [label="has theme [Respond_to_proposal]", color=lightblue, penwidth=1];
+    "Joseph Stalin" -> "Joseph Stalin and the Sovie..." [label="has theme [Taking_sides]", color=lightpink, penwidth=1];
+    "Albert Camus" -> "1957" [label="has time [Age]", color=purple, penwidth=2];
+    "Albert Camus" -> "Camus's" [label="has theme [Opinion]", color=lightsalmon, penwidth=1];
+    "Nobel Prize in Literature" -> "Nobel Prize in Literature" [label="has theme [Receiving]", color=lightgoldenrodyellow, penwidth=1];
+    "Paris" -> "1940" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Albert Camus" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Germany" -> "1940" [label="has time [People_by_origin]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "1957 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightgoldenrodyellow, penwidth=1];
+    "French Algeria" -> "parents" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Albert Camus" -> "French Algeria" [label="has location [Being_born]", color=green, penwidth=2];
+    "Combat" -> "outlawed" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "His works" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "The Stranger newspaper" -> "many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Paris" -> "Germans invaded France duri..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Albert Camus" -> "44" [label="has age [Age]", color=lightcoral, penwidth=1];
+    "Paris" -> "He was in Paris" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Joseph Stalin" -> "European integration" [label="has theme [Seeking_to_achieve]", color=lightblue, penwidth=1];
+    "Albert Camus" -> "Combat" [label="has location [Attempt]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Albert Camus" -> "neutral" [label="has theme [Posture]", color=lightcoral, penwidth=1];
+    "Algiers 1 University" -> "philosophy" [label="has theme [Studying]", color=lightsteelblue, penwidth=1];
+    "The Stranger newspaper" -> "he was part of the left tha..." [label="has effect [Causation]", color=lightgray, penwidth=1];
+    "Paris" -> "France" [label="has theme [Invading]", color=lightseagreen, penwidth=1];
+    "Albert Camus" -> "working-class neighbourhood..." [label="has location [Being_born]", color=green, penwidth=2];
+    "The Stranger newspaper" -> "world" [label="has theme [Political_locales]", color=lightgreen, penwidth=1];
+    "France" -> "uses" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "The Stranger newspaper" -> "After" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Albert Camus" -> "During the Algerian War 195..." [label="has time [Posture]", color=purple, penwidth=2];
+    "Albert Camus" -> "pied-noir parents" [label="has theme [Being_born]", color=lightsalmon, penwidth=1];
+    "Combat" -> "newspaper" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Paris" -> "Germany" [label="has theme [Invading]", color=lightseagreen, penwidth=1];
+    "Combat" -> "Albert Camus" [label="has theme [Fleeing]", color=lightpink, penwidth=1];
+    "Germany" -> "Paris" [label="has location [People_by_origin]", color=green, penwidth=2];
+    "The Stranger newspaper" -> "lectures" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Albert Camus" [label="has recipient [Receiving]", color=lightgoldenrodyellow, penwidth=1];
+    "Joseph Stalin" -> "many organisations" [label="has agent [Seeking_to_achieve]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Organization_legend" [label="Organization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_along_political_spectrum_legend" [label="People_along_political_spectrum", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Invading_legend" [label="Invading", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Respond_to_proposal_legend" [label="Respond_to_proposal", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Taking_sides_legend" [label="Taking_sides", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_active_legend" [label="Being_active", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Change_posture_legend" [label="Change_posture", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_by_origin_legend" [label="People_by_origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Seeking_to_achieve_legend" [label="Seeking_to_achieve", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Posture_legend" [label="Posture", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fleeing_legend" [label="Fleeing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

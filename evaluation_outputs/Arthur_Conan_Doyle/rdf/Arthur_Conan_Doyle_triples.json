@@ -1,0 +1,1220 @@
+{
+  "metadata": {
+    "total_triples": 54,
+    "source_file": "Arthur_Conan_Doyle",
+    "extraction_date": "2025-09-27 20:30:39",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Fields:has_theme",
+        "object": "crime fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Inclusion:has_theme",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Giving:has_theme",
+        "object": "his baptism entry in the register of St Mary's Cathedral, Edinburgh",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Evidence:has_theme",
+        "object": "that \"Conan\" is part of a compound surname rather than a middle name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Intentionally_create:has_purpose",
+        "object": "Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Scarlets",
+        "predicate": "Ordinal_numbers:has_item",
+        "object": "first",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Text_creation:has_text",
+        "object": "text",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_named:has_theme",
+        "object": "given names",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Time_vector:has_theme",
+        "object": "Shortly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Appointing:has_theme",
+        "object": "Michael Conan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_born:has_location",
+        "object": "11 Picardy Place, Edinburgh, Scotland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+        "predicate": "Statement:has_speaker",
+        "object": "Steven Doyle, publisher of The Baker Street Journal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Part_whole:has_theme",
+        "object": "compound surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Relative_time:has_theme",
+        "object": "short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Scarlets",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Text:has_theme",
+        "object": "Sherlock Holmes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_named:has_entity",
+        "object": "Arthur's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Performing_arts:has_theme",
+        "object": "plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Napoleonic_era",
+        "predicate": "Member_of_military:has_person",
+        "object": "Brigadier Gerard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Using:has_role",
+        "object": "as a sort of surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Membership:has_member",
+        "object": "member",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Activity_start:has_activity",
+        "object": "using Conan as a sort of surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Expertise:has_theme",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Becoming_aware:has_state",
+        "object": "drifting at sea with no crew member aboard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Communicate_categorization:has_item",
+        "object": "Doyle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Intentionally_create:has_theme",
+        "object": "character Sherlock Holmes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Text:has_text",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Scarlets",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Part_whole:has_theme",
+        "object": "Conan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_named:has_theme",
+        "object": "simply'Dog ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Subjective_influence:has_time",
+        "object": "often",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+        "predicate": "Statement:has_message",
+        "object": "Conan was Arthur's middle name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Frequency:has_event",
+        "object": "referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Communicate_categorization:has_category",
+        "object": "alone as his surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Communicate_categorization:has_theme",
+        "object": "catalogues of the British Library and the Library of Congress",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Scarlets",
+        "predicate": "Ordinal_numbers:has_theme",
+        "object": "four novels and fifty-six short stories about Holmes and Dr. Watson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Scarlets",
+        "predicate": "Duration_description:has_theme",
+        "object": "fifty-six",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Becoming_aware:has_theme",
+        "object": "brigantine Mary Celeste",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Giving:has_theme",
+        "object": "Arthur Ignatius Conan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Inclusion:has_theme",
+        "object": "fantasy and science fiction stories about Professor Challenger, and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction, and historical novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Subjective_influence:has_behavior",
+        "object": "as \"Sir Arthur Conan Doyle\" or \"Conan Doyle ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Intentionally_create:has_time",
+        "object": "1887",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Time_vector:has_event",
+        "object": "he began using Conan as a sort of surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Intentionally_create:has_location",
+        "object": "http://en.wikipedia.org/wiki/Scarlets",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_born:has_time",
+        "object": "22 May 1859",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+        "predicate": "Membership:has_group",
+        "object": "crew",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Being_named:has_entity",
+        "object": "Conan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Giving:has_theme",
+        "object": "as his given names",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Time_vector:has_theme",
+        "object": "he graduated from high school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Sherlock_Holmes",
+        "predicate": "Text:has_text",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+        "predicate": "Appointing:has_role",
+        "object": "as his godfather",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_born:has_location",
+          "object": "11 Picardy Place, Edinburgh, Scotland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Frequency:has_event",
+          "object": "referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Time_vector:has_event",
+          "object": "he began using Conan as a sort of surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_born:has_time",
+          "object": "22 May 1859",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Intentionally_create:has_purpose",
+          "object": "Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Scarlets",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Scarlets",
+          "predicate": "Ordinal_numbers:has_theme",
+          "object": "four novels and fifty-six short stories about Holmes and Dr. Watson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Inclusion:has_theme",
+          "object": "fantasy and science fiction stories about Professor Challenger, and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction, and historical novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Fields:has_theme",
+          "object": "crime fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Inclusion:has_theme",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Giving:has_theme",
+          "object": "his baptism entry in the register of St Mary's Cathedral, Edinburgh",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Evidence:has_theme",
+          "object": "that \"Conan\" is part of a compound surname rather than a middle name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Scarlets",
+          "predicate": "Ordinal_numbers:has_item",
+          "object": "first",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Text_creation:has_text",
+          "object": "text",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_named:has_theme",
+          "object": "given names",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Time_vector:has_theme",
+          "object": "Shortly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Appointing:has_theme",
+          "object": "Michael Conan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+          "predicate": "Statement:has_speaker",
+          "object": "Steven Doyle, publisher of The Baker Street Journal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Part_whole:has_theme",
+          "object": "compound surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Relative_time:has_theme",
+          "object": "short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Text:has_theme",
+          "object": "Sherlock Holmes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_named:has_entity",
+          "object": "Arthur's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Performing_arts:has_theme",
+          "object": "plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Napoleonic_era",
+          "predicate": "Member_of_military:has_person",
+          "object": "Brigadier Gerard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Using:has_role",
+          "object": "as a sort of surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Membership:has_member",
+          "object": "member",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Activity_start:has_activity",
+          "object": "using Conan as a sort of surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Expertise:has_theme",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Becoming_aware:has_state",
+          "object": "drifting at sea with no crew member aboard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Communicate_categorization:has_item",
+          "object": "Doyle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Intentionally_create:has_theme",
+          "object": "character Sherlock Holmes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Text:has_text",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Scarlets",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Part_whole:has_theme",
+          "object": "Conan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_named:has_theme",
+          "object": "simply'Dog ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Subjective_influence:has_time",
+          "object": "often",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+          "predicate": "Statement:has_message",
+          "object": "Conan was Arthur's middle name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Communicate_categorization:has_category",
+          "object": "alone as his surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Communicate_categorization:has_theme",
+          "object": "catalogues of the British Library and the Library of Congress",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Scarlets",
+          "predicate": "Duration_description:has_theme",
+          "object": "fifty-six",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Becoming_aware:has_theme",
+          "object": "brigantine Mary Celeste",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Giving:has_theme",
+          "object": "Arthur Ignatius Conan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Subjective_influence:has_behavior",
+          "object": "as \"Sir Arthur Conan Doyle\" or \"Conan Doyle ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Intentionally_create:has_time",
+          "object": "1887",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Intentionally_create:has_location",
+          "object": "http://en.wikipedia.org/wiki/Scarlets",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rugby_union",
+          "predicate": "Membership:has_group",
+          "object": "crew",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Being_named:has_entity",
+          "object": "Conan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Giving:has_theme",
+          "object": "as his given names",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Time_vector:has_theme",
+          "object": "he graduated from high school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Sherlock_Holmes",
+          "predicate": "Text:has_text",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "predicate": "Appointing:has_role",
+          "object": "as his godfather",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Napoleonic_era",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "http://en.wikipedia.org/wiki/Sherlock_Holmes",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+    ],
+    "objects": [
+      "crime fiction",
+      "his works",
+      "his baptism entry in the register of St Mary's Cathedral, Edinburgh",
+      "that \"Conan\" is part of a compound surname rather than a middle name",
+      "Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "first",
+      "poetry",
+      "text",
+      "given names",
+      "Shortly",
+      "Michael Conan",
+      "11 Picardy Place, Edinburgh, Scotland",
+      "Steven Doyle, publisher of The Baker Street Journal",
+      "compound surname",
+      "short stories",
+      "novels",
+      "Sherlock Holmes",
+      "Arthur's",
+      "plays",
+      "Brigadier Gerard",
+      "as a sort of surname",
+      "member",
+      "stories",
+      "using Conan as a sort of surname",
+      "writer",
+      "drifting at sea with no crew member aboard",
+      "Doyle",
+      "character Sherlock Holmes",
+      "stories",
+      "stories",
+      "Conan",
+      "simply'Dog ",
+      "often",
+      "Conan was Arthur's middle name",
+      "referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle",
+      "alone as his surname",
+      "catalogues of the British Library and the Library of Congress",
+      "four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "fifty-six",
+      "brigantine Mary Celeste",
+      "Arthur Ignatius Conan",
+      "fantasy and science fiction stories about Professor Challenger, and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction, and historical novels",
+      "as \"Sir Arthur Conan Doyle\" or \"Conan Doyle ",
+      "1887",
+      "he began using Conan as a sort of surname",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "22 May 1859",
+      "works",
+      "crew",
+      "Conan",
+      "as his given names",
+      "he graduated from high school",
+      "stories",
+      "as his godfather"
+    ],
+    "all_unique": [
+      "Conan",
+      "he began using Conan as a sort of surname",
+      "22 May 1859",
+      "Arthur's",
+      "works",
+      "crew",
+      "compound surname",
+      "four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "as \"Sir Arthur Conan Doyle\" or \"Conan Doyle ",
+      "http://en.wikipedia.org/wiki/Scarlets",
+      "Conan was Arthur's middle name",
+      "Sherlock Holmes",
+      "alone as his surname",
+      "catalogues of the British Library and the Library of Congress",
+      "Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "novels",
+      "fifty-six",
+      "text",
+      "http://en.wikipedia.org/wiki/Rugby_union",
+      "11 Picardy Place, Edinburgh, Scotland",
+      "often",
+      "http://en.wikipedia.org/wiki/The_Baker_Street_Journal",
+      "simply'Dog ",
+      "member",
+      "as a sort of surname",
+      "Doyle",
+      "Brigadier Gerard",
+      "as his given names",
+      "his baptism entry in the register of St Mary's Cathedral, Edinburgh",
+      "that \"Conan\" is part of a compound surname rather than a middle name",
+      "using Conan as a sort of surname",
+      "referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle",
+      "his works",
+      "Steven Doyle, publisher of The Baker Street Journal",
+      "as his godfather",
+      "writer",
+      "http://en.wikipedia.org/wiki/Sherlock_Holmes",
+      "short stories",
+      "Michael Conan",
+      "Shortly",
+      "stories",
+      "first",
+      "http://en.wikipedia.org/wiki/Napoleonic_era",
+      "fantasy and science fiction stories about Professor Challenger, and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction, and historical novels",
+      "drifting at sea with no crew member aboard",
+      "character Sherlock Holmes",
+      "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "crime fiction",
+      "brigantine Mary Celeste",
+      "Arthur Ignatius Conan",
+      "1887",
+      "given names",
+      "he graduated from high school",
+      "poetry",
+      "plays"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Fields:has_theme",
+      "Inclusion:has_theme",
+      "Giving:has_theme",
+      "Evidence:has_theme",
+      "Intentionally_create:has_purpose",
+      "Ordinal_numbers:has_item",
+      "Text:has_text",
+      "Text_creation:has_text",
+      "Being_named:has_theme",
+      "Time_vector:has_theme",
+      "Appointing:has_theme",
+      "Being_born:has_location",
+      "Statement:has_speaker",
+      "Part_whole:has_theme",
+      "Relative_time:has_theme",
+      "Text:has_text",
+      "Text:has_theme",
+      "Being_named:has_entity",
+      "Performing_arts:has_theme",
+      "Member_of_military:has_person",
+      "Using:has_role",
+      "Membership:has_member",
+      "Duration_description:has_theme",
+      "Activity_start:has_activity",
+      "Expertise:has_theme",
+      "Becoming_aware:has_state",
+      "Communicate_categorization:has_item",
+      "Intentionally_create:has_theme",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Part_whole:has_theme",
+      "Being_named:has_theme",
+      "Subjective_influence:has_time",
+      "Statement:has_message",
+      "Frequency:has_event",
+      "Communicate_categorization:has_category",
+      "Communicate_categorization:has_theme",
+      "Ordinal_numbers:has_theme",
+      "Duration_description:has_theme",
+      "Becoming_aware:has_theme",
+      "Giving:has_theme",
+      "Inclusion:has_theme",
+      "Subjective_influence:has_behavior",
+      "Intentionally_create:has_time",
+      "Time_vector:has_event",
+      "Intentionally_create:has_location",
+      "Being_born:has_time",
+      "Labor_product:has_theme",
+      "Membership:has_group",
+      "Being_named:has_entity",
+      "Giving:has_theme",
+      "Time_vector:has_theme",
+      "Text:has_text",
+      "Appointing:has_role"
+    ],
+    "unique_predicates": [
+      "Becoming_aware:has_state",
+      "Intentionally_create:has_purpose",
+      "Ordinal_numbers:has_theme",
+      "Giving:has_theme",
+      "Appointing:has_role",
+      "Fields:has_theme",
+      "Statement:has_speaker",
+      "Performing_arts:has_theme",
+      "Communicate_categorization:has_item",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Frequency:has_event",
+      "Using:has_role",
+      "Expertise:has_theme",
+      "Becoming_aware:has_theme",
+      "Evidence:has_theme",
+      "Relative_time:has_theme",
+      "Membership:has_group",
+      "Text:has_text",
+      "Part_whole:has_theme",
+      "Duration_description:has_theme",
+      "Communicate_categorization:has_category",
+      "Subjective_influence:has_behavior",
+      "Being_born:has_location",
+      "Appointing:has_theme",
+      "Membership:has_member",
+      "Member_of_military:has_person",
+      "Subjective_influence:has_time",
+      "Activity_start:has_activity",
+      "Text_creation:has_text",
+      "Ordinal_numbers:has_item",
+      "Communicate_categorization:has_theme",
+      "Time_vector:has_theme",
+      "Statement:has_message",
+      "Being_born:has_time",
+      "Intentionally_create:has_location",
+      "Inclusion:has_theme",
+      "Text:has_theme",
+      "Intentionally_create:has_time",
+      "Intentionally_create:has_theme",
+      "Labor_product:has_theme",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Fields:has_theme": 1,
+      "Inclusion:has_theme": 2,
+      "Giving:has_theme": 3,
+      "Evidence:has_theme": 1,
+      "Intentionally_create:has_purpose": 1,
+      "Ordinal_numbers:has_item": 1,
+      "Text:has_text": 4,
+      "Text_creation:has_text": 1,
+      "Being_named:has_theme": 2,
+      "Time_vector:has_theme": 2,
+      "Appointing:has_theme": 1,
+      "Being_born:has_location": 1,
+      "Statement:has_speaker": 1,
+      "Part_whole:has_theme": 2,
+      "Relative_time:has_theme": 1,
+      "Text:has_theme": 1,
+      "Being_named:has_entity": 2,
+      "Performing_arts:has_theme": 1,
+      "Member_of_military:has_person": 1,
+      "Using:has_role": 1,
+      "Membership:has_member": 1,
+      "Duration_description:has_theme": 3,
+      "Activity_start:has_activity": 1,
+      "Expertise:has_theme": 1,
+      "Becoming_aware:has_state": 1,
+      "Communicate_categorization:has_item": 1,
+      "Intentionally_create:has_theme": 1,
+      "Subjective_influence:has_time": 1,
+      "Statement:has_message": 1,
+      "Frequency:has_event": 1,
+      "Communicate_categorization:has_category": 1,
+      "Communicate_categorization:has_theme": 1,
+      "Ordinal_numbers:has_theme": 1,
+      "Becoming_aware:has_theme": 1,
+      "Subjective_influence:has_behavior": 1,
+      "Intentionally_create:has_time": 1,
+      "Time_vector:has_event": 1,
+      "Intentionally_create:has_location": 1,
+      "Being_born:has_time": 1,
+      "Labor_product:has_theme": 1,
+      "Membership:has_group": 1,
+      "Appointing:has_role": 1
+    }
+  }
+}

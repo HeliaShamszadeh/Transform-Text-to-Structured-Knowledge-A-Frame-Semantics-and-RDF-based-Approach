@@ -1,0 +1,259 @@
+digraph Thomas_Hardy {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "fame as the author of novel..." [label="fame as the author of novel...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "South West England" [label="South West England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "both in his novels and in h..." [label="both in his novels and in h...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "while Hardy was working there" [label="while Hardy was working there", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Two of his novels, Tess of ..." [label="Two of his novels, Tess of ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "best-loved novels" [label="best-loved novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Many of his novels" [label="Many of his novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels" [label="his novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels such as Far from the..." [label="novels such as Far from the...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "his death" [label="his death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "After his death" [label="After his death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "eventually" [label="eventually", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Romanticism" [label="Romanticism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ezra Pound" [label="Ezra Pound", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "himself" [label="himself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hardy's Wessex" [label="Hardy's Wessex", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Wordsworth" [label="William Wordsworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During his lifetime" [label="During his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tree" [label="tree", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ezra Pound, W. H. Auden and..." [label="Ezra Pound, W. H. Auden and...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hardy's poetry was acclaime..." [label="Hardy's poetry was acclaime...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dorset, Wiltshire, Somerset..." [label="Dorset, Wiltshire, Somerset...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "counties of Dorset, Wiltshi..." [label="counties of Dorset, Wiltshi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems" [label="his poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wessex" [label="Wessex", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Hardy disambiguation" [label="Thomas Hardy disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BBC's" [label="BBC's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "top 50 on the BBC's survey ..." [label="top 50 on the BBC's survey ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "semi-fictional" [label="semi-fictional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "December 2022" [label="December 2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "throughout his life" [label="throughout his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Two" [label="Two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger poets particularly ..." [label="younger poets particularly ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Initially" [label="Initially", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lifetime" [label="his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jude the Obscure" [label="Jude the Obscure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "highly" [label="highly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1928" [label="1928", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he gained fame as the autho..." [label="he gained fame as the autho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry of William Wordsworth" [label="poetry of William Wordsworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tragic characters strugglin..." [label="tragic characters strugglin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Hardy" [label="Thomas Hardy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "December" [label="December", fillcolor=lightgray, color=gray, shape=hexagon];
+    "counties" [label="counties", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victorian" [label="Victorian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems were lauded by Ez..." [label="his poems were lauded by Ez...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "region" [label="region", fillcolor=lightgray, color=gray, shape=hexagon];
+    "medieval" [label="medieval", fillcolor=lightgray, color=gray, shape=hexagon];
+    "primarily as a poet" [label="primarily as a poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first collection" [label="his first collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anglo-Saxons" [label="Anglo-Saxons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gravestones" [label="gravestones", fillcolor=lightgray, color=gray, shape=hexagon];
+    "kingdom" [label="kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rural" [label="rural", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger" [label="younger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "status of rural people in B..." [label="status of rural people in B...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much in Victorian society, ..." [label="much in Victorian society, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hardy's poetry" [label="Hardy's poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hardy's" [label="Hardy's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a mentor" [label="as a mentor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St Pancras Old Church" [label="St Pancras Old Church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until 1898" [label="until 1898", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Jude the Obscure" -> "best-loved novels" [label="has theme [Scrutiny]", color=lightblue, penwidth=1];
+    "South West England" -> "Victorian" [label="has location [Change_position_on_a_scale]", color=green, penwidth=2];
+    "William Wordsworth" -> "his death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "William Wordsworth" -> "Victorian" [label="has location [Locale_by_use]", color=green, penwidth=2];
+    "Jude the Obscure" -> "tree" [label="has theme [Motion_directional]", color=lightpink, penwidth=1];
+    "South West England" -> "status of rural people in B..." [label="has theme [Change_position_on_a_scale]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "primarily as a poet" [label="has status [Topic]", color=blue, penwidth=2];
+    "Thomas Hardy" -> "as a mentor" [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "William Wordsworth" -> "Two of his novels, Tess of ..." [label="has theme [Perception_active]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "until 1898" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Thomas Hardy" -> "Thomas Hardy disambiguation" [label="has theme [Reference_text]", color=lightseagreen, penwidth=1];
+    "William Wordsworth" -> "poets" [label="has entity [Age]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "his novels" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Thomas Hardy" -> "1928" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "William Wordsworth" -> "Romanticism" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "his lifetime" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "South West England" -> "Thomas Hardy" [label="has theme [Judgment]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "Thomas Hardy" [label="has recipient [Getting]", color=lightblue, penwidth=1];
+    "St Pancras Old Church" -> "gravestones" [label="has goal [Motion]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "uses" [label="has goal [Purpose]", color=lightgreen, penwidth=1];
+    "William Wordsworth" -> "poetry" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Thomas Hardy" -> "poetry" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "St Pancras Old Church" -> "there" [label="has theme [Being_employed]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "region" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "St Pancras Old Church" -> "while Hardy was working there" [label="has time [Motion]", color=purple, penwidth=2];
+    "Thomas Hardy" -> "poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Thomas Hardy" -> "both in his novels and in h..." [label="has entity [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "Ezra Pound" -> "his poems" [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "rural" [label="has theme [People]", color=lightgoldenrodyellow, penwidth=1];
+    "South West England" -> "highly" [label="has degree [Judgment]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "semi-fictional" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "William Wordsworth" -> "Romanticism" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "William Wordsworth" -> "tragic characters strugglin..." [label="has theme [Topic]", color=blue, penwidth=2];
+    "William Wordsworth" -> "Hardy's poetry" [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "Victorian" [label="has location [People]", color=green, penwidth=2];
+    "William Wordsworth" -> "top 50 on the BBC's survey ..." [label="has state [Perception_active]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Thomas Hardy" -> "novels such as Far from the..." [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "Jude the Obscure" -> "December 2022" [label="has time [Motion_directional]", color=purple, penwidth=2];
+    "Thomas Hardy" -> "throughout his life" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "South West England" -> "Victorian" [label="has location [Judgment]", color=green, penwidth=2];
+    "William Wordsworth" -> "Hardy's poetry was acclaime..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "William Wordsworth" -> "poetry of William Wordsworth" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Anglo-Saxons" -> "kingdom" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "he gained fame as the autho..." [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "Thomas Hardy" -> "Hardy's" [label="has author [Text]", color=lightyellow, penwidth=1];
+    "Jude the Obscure" -> "BBC's" [label="has theme [Scrutiny]", color=lightblue, penwidth=1];
+    "Thomas Hardy" -> "poetry" [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "William Wordsworth" -> "his poems were lauded by Ez..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Ezra Pound" -> "After his death" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "William Wordsworth" -> "poet" [label="has theme [Expertise]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "collection" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "William Wordsworth" -> "counties" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "Dorset, Wiltshire, Somerset..." [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "Initially" [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "William Wordsworth" -> "During his lifetime" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Anglo-Saxons" -> "medieval" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "Thomas Hardy" -> "1928" [label="has time [Increment]", color=purple, penwidth=2];
+    "St Pancras Old Church" -> "Thomas Hardy" [label="has employee [Being_employed]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "William Wordsworth" -> "Hardy's Wessex" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "South West England" -> "Victorian" [label="has location [Indigenous_origin]", color=green, penwidth=2];
+    "William Wordsworth" -> "rural" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "William Wordsworth" -> "younger" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "eventually" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Jude the Obscure" -> "December" [label="has location [Motion_directional]", color=green, penwidth=2];
+    "Thomas Hardy" -> "who" [label="has theme [Categorization]", color=lightsteelblue, penwidth=1];
+    "Thomas Hardy" -> "uses" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "Ezra Pound" -> "Ezra Pound, W. H. Auden and..." [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "Many of his novels" [label="has text [Topic]", color=blue, penwidth=2];
+    "Thomas Hardy" -> "himself" [label="has theme [Topic]", color=blue, penwidth=2];
+    "William Wordsworth" -> "Two" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "William Wordsworth" -> "fame as the author of novel..." [label="has theme [Getting]", color=lightblue, penwidth=1];
+    "William Wordsworth" -> "Wessex" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "Thomas Hardy" -> "1928" [label="has time [Purpose]", color=purple, penwidth=2];
+    "William Wordsworth" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "William Wordsworth" -> "collection" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "Thomas Hardy" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "South West England" -> "much in Victorian society, ..." [label="has evaluee [Judgment]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "counties of Dorset, Wiltshi..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "younger poets particularly ..." [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "William Wordsworth" -> "his first collection" [label="has work [Publishing]", color=lightgoldenrodyellow, penwidth=1];
+    "William Wordsworth" -> "poets" [label="has theme [Expertise]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Motion_directional_legend" [label="Motion_directional", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Perception_active_legend" [label="Perception_active", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Purpose_legend" [label="Purpose", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Indigenous_origin_legend" [label="Indigenous_origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

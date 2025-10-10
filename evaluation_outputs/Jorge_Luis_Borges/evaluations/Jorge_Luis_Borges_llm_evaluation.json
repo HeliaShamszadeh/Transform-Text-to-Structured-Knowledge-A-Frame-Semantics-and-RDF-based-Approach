@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Argentina Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple's predicate and object ('Increment:has_class uses') are semantically incoherent and cannot be reasonably connected to any information in the paragraph, even with a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cape_Verde People_by_vocation:has_person politician",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Cape Verdean politician' and 'Jorge Borges (politician)', creating a weak semantic link between Cape Verde and a person with the vocation of politician, though the specific triple structure is not directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Publishing:has_time 1921",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'On his return to Argentina in 1921, Borges began publishing his poems and essays'. This directly links Jorge Luis Borges, the act of publishing, and the year 1921."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Buenos_Aires Relative_time:has_time 1914",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Borges was 'Born in Buenos Aires' and 'later moved with his family to Switzerland in 1914'. This creates a reasonable, though indirect, temporal connection between the city and the year 1914, as it's the year he left it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Statement:has_speaker Scholars",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'El Aleph (transl. The Aleph)' as a work by Borges and separately states 'Scholars have suggested...'. While the scholars are not directly commenting on 'The Aleph' in this specific sentence, the work is a key part of the discussion about Borges's literature, allowing for a weak, thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Activity_start:has_activity publishing his poems and essays in surrealist literary journals",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On his return to Argentina in 1921, Borges began publishing his poems and essays in surrealist literary journals.' This directly describes the start of a publishing activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Quantified_mass:has_quantity several",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'El Aleph' but does not associate it with the quantity 'several'. The word 'several' appears later in the text in a different context ('fluent in several languages'), which is unrelated to the book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Education_teaching:has_time 1955",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'In 1955, he was appointed... professor of English Literature at the University of Buenos Aires.' While 'English studies' is a related but not identical concept to 'English Literature', the time association is clearly extractable. Being lenient, this is a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Assistance:has_theme http://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship is inverted. The paragraph states that 'El Aleph' is a work *by* Borges, not that Borges is a theme *of* the work. The triple suggests the book has the author as its theme, which is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Arriving:has_time 1921",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'On his return to Argentina in 1921...'. 'Returning' is a specific type of 'arriving', making this a clear and direct semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Expertise:has_theme Borges himself",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. The subject is Borges, the predicate suggests he has a theme, and the object is 'Borges himself'. This does not form a meaningful statement that can be extracted from the paragraph. The paragraph discusses themes *in* Borges's works, not Borges himself being a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Publishing:has_work his poems and essays",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Borges began publishing his poems and essays'. This is a direct and clear match for the triple's meaning, linking Borges to his works (poems and essays) in the context of publishing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Education_teaching:has_institution University of Buenos Aires",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'English_studies' is not mentioned or implied in the paragraph. The paragraph states Borges was a professor of 'English Literature' at the 'University of Buenos Aires'. The triple incorrectly links an academic discipline to an institution, rather than the person who held the position."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Attention:has_theme international",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically plausible. The paragraph states Borges's work had 'international' reach and that 'The Aleph' is one of his best-known works. One could loosely interpret that the work garnered 'international attention' (a theme of attention), but this is a significant stretch from the direct text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Objective_influence:has_theme Borges's works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'The Aleph' is one of Borges's best-known works. The triple is semantically odd (a work having the theme of 'Borges's works' is recursive), but it can be leniently interpreted as 'The Aleph' being a representative example or part of the thematic body of 'Borges's works', which is supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Education_teaching:has_teacher http://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Borges was a 'professor of English Literature at the University of Buenos Aires', which semantically connects him to teaching English studies."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'El Aleph' is a 'collection of short stories', directly establishing the theme of stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_Public_Library Receiving:has_time 1961",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1961 in the context of Borges winning the International Formentor Prize. There is no mention of the New York Public Library or any event of 'receiving' connected to it in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Origin:has_theme Latin",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Borges's work had a 'major influence on the magical realist movement in 20th century Latin American literature'. This creates a weak but valid semantic link between his work (including The Aleph) and a Latin American/Latin theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Appointing:has_time 1955",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions an 'appointing' event in 1955 (Borges was appointed director of the National Public Library). While the appointment is not directly about 'The Aleph', the date 1955 is semantically associated with a key event in Borges's career, creating a weak, indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Text:has_text http://en.wikipedia.org/wiki/The_Aleph_(short_story)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'El Aleph (transl. The Aleph)' as a collection of short stories, but it does not state or imply that the collection 'has_text' a specific short story also called 'The Aleph'. The relationship between the collection and its constituent parts is not detailed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Buenos_Aires Relative_time:has_theme moved with his family to Switzerland in 1914",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Born in Buenos Aires, Borges later moved with his family to Switzerland in 1914'. While the predicate 'Relative_time:has_theme' is an unusual and abstract way to represent this, there is a semantic connection between Buenos Aires and the event of moving away from it. The connection is indirect and the predicate is a poor fit, but the subjects are related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Being_employed:has_employee http://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Borges is the author of 'El Aleph', but the relationship 'Being_employed:has_employee' suggests an employer-employee relationship, which is not supported by the text. Authorship is a different type of relationship than employment by the work itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Origin:has_entity literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph describes 'El Aleph' as a key work in Spanish-language and international literature and part of the fantasy genre. There is a clear semantic connection between the book and the entity 'literature', as the book is an instance of a literary work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Activity_start:has_time 1921",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'On his return to Argentina in 1921, Borges began publishing his poems and essays...'. This directly connects the person (Borges) to a time (1921) for the start of a significant activity (publishing)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Motion:has_time 1914",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Borges later moved with his family to Switzerland in 1914', directly linking the subject to the year 1914 in the context of a movement/relocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Win_prize:has_prize http://en.wikipedia.org/wiki/Jerusalem_Prize",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1971, he won the Jerusalem Prize', directly linking the subject to winning this specific prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Political_locales:has_theme international",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Borges is 'regarded as a key figure in Spanish-language and international literature' and his work had 'a major influence on the magical realist movement in 20th century Latin American literature'. While 'international' is not a direct theme of the book, the context of his international influence and recognition is strongly present, providing a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Argentina Categorization:has_time 1986",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Borges (an Argentine writer) died in 1986. While the triple subject is the country Argentina and not Borges, there is a weak semantic connection via his nationality and the date of his death, which is an event categorizing his life timeline associated with Argentina."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Being_necessary:has_theme citation",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph contains the text '[ citation needed ]' in a sentence discussing Borges's works and their contributions. While this is a meta-comment about the article itself and not a theme of the book, there is a very weak semantic connection via the word 'citation' appearing in the context of describing his works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Importance:has_time 1986",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Spanish-language literature and the year 1986 (Borges's death year), but the connection between the Spanish language itself and that specific year is extremely weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_Public_Library Receiving:has_theme first International Formentor Prize, which he shared with Samuel Beckett",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Borges receiving the prize, but it does not mention the New York Public Library at all. The library mentioned is the National Public Library in Buenos Aires. This is a contradictory fact, not an extractable one."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Appointing:has_theme http://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'El Aleph' is one of Borges's best-known works. While 'Appointing:has_theme' is a strange predicate, the semantic connection of the work being associated with/created by Borges is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Foreign_or_domestic_country:has_time 1986",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Similar to the first triple, the paragraph mentions Spanish-language literature and the year 1986. The connection is very weak, but a lenient interpretation allows for a semantic link between the language context and the time period discussed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Education_teaching:has_teacher http://en.wikipedia.org/wiki/Collège_Calvin",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Borges studied at the 'Collège de Genève', not the 'Collège Calvin'. It also mentions 'The Aleph' but there is no connection made between the book and the college, or any 'teacher' relationship. The entities and relationships are incorrect or missing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Text:has_time 1921",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On his return to Argentina in 1921', directly associating the year 1921 with Borges's life events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Text:has_text essays",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Borges began publishing his 'poems and essays', indicating that essays are a type of text associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Intentionally_create:has_theme innovative literary symbols",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states his blindness helped him 'create innovative literary symbols'. While the predicate 'has_theme' is a slight mismatch for 'create', the concept of 'innovative literary symbols' is semantically connected to his creative work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Text:has_text journals",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'surrealist literary journals' in the context of where Borges published his work, but it does not state that his book 'The Aleph' itself contains or is a journal. The subject of the triple is misaligned with the information in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Publishing:has_theme surrealist literary journals",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Borges began publishing his poems and essays 'in surrealist literary journals'. While 'has_theme' is not a perfect fit for the act of publishing *in* journals, there is a clear semantic connection between Borges, publishing, and the theme of surrealist literary journals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Publishing:has_time 1960s",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states that 'By the 1960s, his work was translated and published widely.' While it doesn't explicitly state that 'The Aleph' was published in the 1960s, the work is one of his best-known, and the statement about his work being published in the 1960s creates a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Becoming:has_time age of 55",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He became completely blind by the age of 55.' The 'Becoming' event (blindness) is directly tied to the time 'age of 55'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Assistance:has_theme his progressive blindness",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions that 'his progressive blindness helped him to create innovative literary symbols.' While it doesn't directly link this theme to 'The Aleph', the work is a key part of his literary output, and the theme of blindness influencing his creative process is a major point in the paragraph, creating an indirect thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Explaining_the_facts:has_theme collections of short stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that 'El Aleph' is a 'collection of short stories'. This is a direct and clear match for the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Education_teaching:has_location where",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incomplete and semantically unclear ('where' is not a valid location). The paragraph mentions various locations (Buenos Aires, Switzerland, Spain, Europe, United States) but none are thematically linked to 'The Aleph' in an educational context. The connection is too vague to be reasonably extracted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Argentina Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The predicate 'has_class people' is unclear and does not correspond to any semantic relationship described in the paragraph. The paragraph states Borges was Argentine, but this does not imply Argentina 'has a class of people'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Borges's work (including 'El Aleph') is a key figure in literature, contributed to philosophical literature, and influenced literary movements. This provides a strong semantic connection between the work and the theme of literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Aleph_(short_story_collection) Assistance:has_goal create innovative literary symbols through imagination",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Borges's progressive blindness helped *him* (Borges) create innovative literary symbols. While the connection to the specific work 'The Aleph' is indirect, the work is mentioned as one of his best-known, creating a weak but valid semantic link to this creative goal."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jorge_Luis_Borges Becoming:has_theme completely blind",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He became completely blind by the age of 55.' This is a clear and direct statement about Borges."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Buenos_Aires Kinship:has_theme http://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Born in Buenos Aires' and that Borges returned there, establishing a clear connection between the city and the person. The predicate 'has_theme' is vague, but a semantic relationship exists."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 28,
+    "accuracy": 0.56,
+    "avg_confidence": 0.5020000000000001,
+    "high_confidence_50": 28,
+    "high_confidence_80": 15,
+    "percent_50": 56.00000000000001,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

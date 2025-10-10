@@ -1,0 +1,2170 @@
+{
+  "metadata": {
+    "total_triples": 99,
+    "source_file": "Edgar_Allan_Poe",
+    "extraction_date": "2025-09-27 21:50:12",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Categorization:has_category",
+        "object": "be the inventor of the detective fiction genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Becoming_a_member:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Death:has_time",
+        "object": "1829",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Boston",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Text_creation:has_author",
+        "object": "Edgar Allan Poe ( né Edgar Poe ; January 19, 1809 – October 7, 1849)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Type:has_category",
+        "object": "detective fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Commitment:has_theme",
+        "object": "gambling",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Publishing:has_work",
+        "object": "his first collection, Tamerlane and Other Poems, which was credited only to \"a Bostonian",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Fame:has_entity",
+        "object": "who",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Praiseworthiness:has_behavior",
+        "object": "contributing significantly to the emergence of science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/ELIZA",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "predicate": "Education_teaching:has_teacher",
+        "object": "officer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Ordinal_numbers:has_theme",
+        "object": "earn a living exclusively through writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "following",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Possession:has_theme",
+        "object": "money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Measure_duration:has_theme",
+        "object": "year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Being_necessary:has_theme",
+        "object": "funds",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Becoming:has_theme",
+        "object": "writer, primarily of poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Arriving:has_goal",
+        "object": "temporary rapprochement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Age:has_entity",
+        "object": "adulthood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Reference_text:has_theme",
+        "object": "Edgar Allan Poe (disambiguation) and Poe (disambiguation )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Education_teaching:has_student",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Purpose:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Praiseworthiness:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Statement:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Frequency:has_event",
+        "object": "quarreled with John Allan over the funds needed to continue his education as well as his gambling debts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Becoming:has_entity",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Political_locales:has_theme",
+        "object": "country",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Death:has_theme",
+        "object": "Allan's wife, Frances",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Adopt_selection:has_theme",
+        "object": "formally",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Adopt_selection:has_value",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Becoming_a_member:has_group",
+        "object": "United States Army",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Success_or_failure:has_goal",
+        "object": "as an officer cadet at West Point",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Age:has_age",
+        "object": "young",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "Allan's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Money:has_theme",
+        "object": "funds",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Publishing:has_time",
+        "object": "1827",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Relative_time:has_theme",
+        "object": "temporary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Becoming:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "child",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "predicate": "Time_vector:has_event",
+        "object": "failed as an officer cadet at West Point",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Relative_time:has_theme",
+        "object": "death of Allan's wife, Frances, in 1829",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Means:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Arriving:has_theme",
+        "object": "Poe and Allan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Relative_time:has_theme",
+        "object": "year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Quarreling:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Origin:has_entity",
+        "object": "writer, poet, editor, and literary critic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Praiseworthiness:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Commitment:has_speaker",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Conquering:has_theme",
+        "object": "John and Frances Allan of Richmond, Virginia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Quarreling:has_issue",
+        "object": "over the funds needed to continue his education as well as his gambling debts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Being_named:has_theme",
+        "object": "Edgar A. Perry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Achieving_first:has_theme",
+        "object": "detective fiction genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Success_or_failure:has_time",
+        "object": "later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "early",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Money:has_theme",
+        "object": "money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Type:has_theme",
+        "object": "genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Quarreling:has_theme",
+        "object": "frequently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Text_creation:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Means:has_means",
+        "object": "ways",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Activity_ongoing:has_activity",
+        "object": "his education as well as his gambling debts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Fame:has_degree",
+        "object": "best",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Death:has_time",
+        "object": "following year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "People_by_age:has_theme",
+        "object": "actors David and Elizabeth \"Eliza \" Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Purpose:has_agent",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Praiseworthiness:has_degree",
+        "object": "only to \"a Bostonian",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Aggregate:has_theme",
+        "object": "first",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Success_or_failure:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Departing:has_time",
+        "object": "after only a year due to a lack of money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Relative_time:has_theme",
+        "object": "Poe and Allan",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Relative_time:has_theme",
+        "object": "Poe and Allan reached a temporary rapprochement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Frequency:has_event",
+        "object": "formally adopted him",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Ordinal_numbers:has_theme",
+        "object": "actors David and Elizabeth \"Eliza\" Poe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Fame:has_reason",
+        "object": "his poetry and short stories, particularly his tales involving mystery and the macabre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Statement:has_message",
+        "object": "his intention to become a writer, primarily of poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Frances",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Personal_success:has_person",
+        "object": "practitioners of the short story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Text_creation:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Purpose:has_goal",
+        "object": "become a writer, primarily of poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Attending:has_event",
+        "object": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+        "predicate": "Being_necessary:has_theme",
+        "object": "continue his education as well as his gambling debts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Duration_description:has_theme",
+        "object": "story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Residence:has_time",
+        "object": "well into young adulthood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "Residence:has_theme",
+        "object": "American",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "American literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "well-known American writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+        "predicate": "People_by_age:has_theme",
+        "object": "second",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+        "predicate": "Arriving:has_time",
+        "object": "after the death of Allan's wife, Frances, in 1829",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Death:has_time",
+          "object": "1829",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Boston",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/ELIZA",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Frequency:has_event",
+          "object": "quarreled with John Allan over the funds needed to continue his education as well as his gambling debts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Death:has_theme",
+          "object": "Allan's wife, Frances",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "predicate": "Time_vector:has_event",
+          "object": "failed as an officer cadet at West Point",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Relative_time:has_theme",
+          "object": "death of Allan's wife, Frances, in 1829",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Death:has_time",
+          "object": "following year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Frequency:has_event",
+          "object": "formally adopted him",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Attending:has_event",
+          "object": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Arriving:has_time",
+          "object": "after the death of Allan's wife, Frances, in 1829",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Ordinal_numbers:has_theme",
+          "object": "earn a living exclusively through writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Fame:has_reason",
+          "object": "his poetry and short stories, particularly his tales involving mystery and the macabre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Categorization:has_category",
+          "object": "be the inventor of the detective fiction genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Becoming_a_member:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Text_creation:has_author",
+          "object": "Edgar Allan Poe ( né Edgar Poe ; January 19, 1809 – October 7, 1849)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Type:has_category",
+          "object": "detective fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Commitment:has_theme",
+          "object": "gambling",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Publishing:has_work",
+          "object": "his first collection, Tamerlane and Other Poems, which was credited only to \"a Bostonian",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Fame:has_entity",
+          "object": "who",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Praiseworthiness:has_behavior",
+          "object": "contributing significantly to the emergence of science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "predicate": "Education_teaching:has_teacher",
+          "object": "officer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "following",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Possession:has_theme",
+          "object": "money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Measure_duration:has_theme",
+          "object": "year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Being_necessary:has_theme",
+          "object": "funds",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Becoming:has_theme",
+          "object": "writer, primarily of poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Arriving:has_goal",
+          "object": "temporary rapprochement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Age:has_entity",
+          "object": "adulthood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Reference_text:has_theme",
+          "object": "Edgar Allan Poe (disambiguation) and Poe (disambiguation )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Education_teaching:has_student",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Purpose:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Praiseworthiness:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Statement:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Becoming:has_entity",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Political_locales:has_theme",
+          "object": "country",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Adopt_selection:has_theme",
+          "object": "formally",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Adopt_selection:has_value",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Becoming_a_member:has_group",
+          "object": "United States Army",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Success_or_failure:has_goal",
+          "object": "as an officer cadet at West Point",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Age:has_age",
+          "object": "young",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "Allan's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Money:has_theme",
+          "object": "funds",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Publishing:has_time",
+          "object": "1827",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Relative_time:has_theme",
+          "object": "temporary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Becoming:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "child",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Means:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Arriving:has_theme",
+          "object": "Poe and Allan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Relative_time:has_theme",
+          "object": "year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Quarreling:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Origin:has_entity",
+          "object": "writer, poet, editor, and literary critic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Praiseworthiness:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Commitment:has_speaker",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Conquering:has_theme",
+          "object": "John and Frances Allan of Richmond, Virginia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Quarreling:has_issue",
+          "object": "over the funds needed to continue his education as well as his gambling debts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Being_named:has_theme",
+          "object": "Edgar A. Perry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Achieving_first:has_theme",
+          "object": "detective fiction genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Success_or_failure:has_time",
+          "object": "later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "early",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Money:has_theme",
+          "object": "money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Type:has_theme",
+          "object": "genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Quarreling:has_theme",
+          "object": "frequently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Text_creation:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Means:has_means",
+          "object": "ways",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Activity_ongoing:has_activity",
+          "object": "his education as well as his gambling debts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Fame:has_degree",
+          "object": "best",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "People_by_age:has_theme",
+          "object": "actors David and Elizabeth \"Eliza \" Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Purpose:has_agent",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Praiseworthiness:has_degree",
+          "object": "only to \"a Bostonian",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Aggregate:has_theme",
+          "object": "first",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Success_or_failure:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Departing:has_time",
+          "object": "after only a year due to a lack of money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Relative_time:has_theme",
+          "object": "Poe and Allan",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Relative_time:has_theme",
+          "object": "Poe and Allan reached a temporary rapprochement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Ordinal_numbers:has_theme",
+          "object": "actors David and Elizabeth \"Eliza\" Poe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Statement:has_message",
+          "object": "his intention to become a writer, primarily of poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Frances",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Personal_success:has_person",
+          "object": "practitioners of the short story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Text_creation:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+          "predicate": "Purpose:has_goal",
+          "object": "become a writer, primarily of poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Virginia",
+          "predicate": "Being_necessary:has_theme",
+          "object": "continue his education as well as his gambling debts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Duration_description:has_theme",
+          "object": "story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Residence:has_time",
+          "object": "well into young adulthood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "Residence:has_theme",
+          "object": "American",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "American literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "well-known American writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+          "predicate": "People_by_age:has_theme",
+          "object": "second",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)"
+    ],
+    "objects": [
+      "be the inventor of the detective fiction genre",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "1829",
+      "http://en.wikipedia.org/wiki/Boston",
+      "Edgar Allan Poe ( né Edgar Poe ; January 19, 1809 – October 7, 1849)",
+      "detective fiction",
+      "gambling",
+      "his first collection, Tamerlane and Other Poems, which was credited only to \"a Bostonian",
+      "who",
+      "contributing significantly to the emergence of science fiction",
+      "http://en.wikipedia.org/wiki/ELIZA",
+      "officer",
+      "earn a living exclusively through writing",
+      "following",
+      "money",
+      "year",
+      "funds",
+      "poetry",
+      "writer, primarily of poems",
+      "temporary rapprochement",
+      "adulthood",
+      "family",
+      "Edgar Allan Poe (disambiguation) and Poe (disambiguation )",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "which",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "quarreled with John Allan over the funds needed to continue his education as well as his gambling debts",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "country",
+      "Allan's wife, Frances",
+      "formally",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "writer",
+      "United States Army",
+      "as an officer cadet at West Point",
+      "young",
+      "Allan's",
+      "funds",
+      "1827",
+      "temporary",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "child",
+      "poems",
+      "failed as an officer cadet at West Point",
+      "death of Allan's wife, Frances, in 1829",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "Poe and Allan",
+      "year",
+      "father",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "writer, poet, editor, and literary critic",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "John and Frances Allan of Richmond, Virginia",
+      "over the funds needed to continue his education as well as his gambling debts",
+      "Edgar A. Perry",
+      "detective fiction genre",
+      "later",
+      "early",
+      "money",
+      "uses",
+      "genre",
+      "frequently",
+      "stories",
+      "poems",
+      "ways",
+      "his education as well as his gambling debts",
+      "best",
+      "following year",
+      "as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature",
+      "http://en.wikipedia.org/wiki/United_States",
+      "actors David and Elizabeth \"Eliza \" Poe",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "only to \"a Bostonian",
+      "first",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "after only a year due to a lack of money",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "Poe and Allan",
+      "Poe and Allan reached a temporary rapprochement",
+      "formally adopted him",
+      "actors David and Elizabeth \"Eliza\" Poe",
+      "collection",
+      "his poetry and short stories, particularly his tales involving mystery and the macabre",
+      "his intention to become a writer, primarily of poems",
+      "http://en.wikipedia.org/wiki/Frances",
+      "practitioners of the short story",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "become a writer, primarily of poems",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "continue his education as well as his gambling debts",
+      "story",
+      "well into young adulthood",
+      "American",
+      "American literature",
+      "well-known American writer",
+      "second",
+      "after the death of Allan's wife, Frances, in 1829"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Boston",
+      "earn a living exclusively through writing",
+      "1827",
+      "country",
+      "John and Frances Allan of Richmond, Virginia",
+      "which",
+      "writer, poet, editor, and literary critic",
+      "after only a year due to a lack of money",
+      "detective fiction genre",
+      "detective fiction",
+      "Poe and Allan",
+      "become a writer, primarily of poems",
+      "money",
+      "stories",
+      "Edgar Allan Poe ( né Edgar Poe ; January 19, 1809 – October 7, 1849)",
+      "actors David and Elizabeth \"Eliza\" Poe",
+      "officer",
+      "Allan's",
+      "be the inventor of the detective fiction genre",
+      "following",
+      "adulthood",
+      "only to \"a Bostonian",
+      "American literature",
+      "http://en.wikipedia.org/wiki/Frances",
+      "story",
+      "ways",
+      "over the funds needed to continue his education as well as his gambling debts",
+      "following year",
+      "failed as an officer cadet at West Point",
+      "who",
+      "father",
+      "American",
+      "as an officer cadet at West Point",
+      "formally adopted him",
+      "his education as well as his gambling debts",
+      "continue his education as well as his gambling debts",
+      "http://en.wikipedia.org/wiki/United_States",
+      "year",
+      "contributing significantly to the emergence of science fiction",
+      "frequently",
+      "child",
+      "poetry",
+      "uses",
+      "Poe and Allan reached a temporary rapprochement",
+      "quarreled with John Allan over the funds needed to continue his education as well as his gambling debts",
+      "practitioners of the short story",
+      "actors David and Elizabeth \"Eliza \" Poe",
+      "his intention to become a writer, primarily of poems",
+      "temporary",
+      "his first collection, Tamerlane and Other Poems, which was credited only to \"a Bostonian",
+      "http://en.wikipedia.org/wiki/University_of_Virginia",
+      "Edgar Allan Poe (disambiguation) and Poe (disambiguation )",
+      "writer",
+      "1829",
+      "as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature",
+      "young",
+      "http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "writer, primarily of poems",
+      "well into young adulthood",
+      "his poetry and short stories, particularly his tales involving mystery and the macabre",
+      "second",
+      "genre",
+      "family",
+      "after the death of Allan's wife, Frances, in 1829",
+      "http://en.wikipedia.org/wiki/ELIZA",
+      "best",
+      "Allan's wife, Frances",
+      "well-known American writer",
+      "early",
+      "temporary rapprochement",
+      "formally",
+      "funds",
+      "United States Army",
+      "http://en.wikipedia.org/wiki/John_Allan_(colonel)",
+      "Edgar A. Perry",
+      "first",
+      "death of Allan's wife, Frances, in 1829",
+      "later",
+      "collection",
+      "gambling",
+      "http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "poems"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Categorization:has_category",
+      "Becoming_a_member:has_theme",
+      "Death:has_time",
+      "Being_born:has_location",
+      "Text_creation:has_author",
+      "Type:has_category",
+      "Commitment:has_theme",
+      "Publishing:has_work",
+      "Fame:has_entity",
+      "Praiseworthiness:has_behavior",
+      "Death:has_theme",
+      "Education_teaching:has_teacher",
+      "Ordinal_numbers:has_theme",
+      "Calendric_unit:has_theme",
+      "Possession:has_theme",
+      "Measure_duration:has_theme",
+      "Being_necessary:has_theme",
+      "Text:has_text",
+      "Becoming:has_theme",
+      "Arriving:has_goal",
+      "Age:has_entity",
+      "Kinship:has_theme",
+      "Reference_text:has_theme",
+      "Education_teaching:has_student",
+      "Purpose:has_location",
+      "Praiseworthiness:has_theme",
+      "Statement:has_location",
+      "Frequency:has_event",
+      "Becoming:has_entity",
+      "Political_locales:has_theme",
+      "Death:has_theme",
+      "Adopt_selection:has_theme",
+      "Adopt_selection:has_value",
+      "Origin:has_entity",
+      "Becoming_a_member:has_group",
+      "Success_or_failure:has_goal",
+      "Age:has_age",
+      "Personal_relationship:has_theme",
+      "Money:has_theme",
+      "Publishing:has_time",
+      "Relative_time:has_theme",
+      "Becoming:has_location",
+      "Ordinal_numbers:has_type",
+      "Text:has_text",
+      "Time_vector:has_event",
+      "Relative_time:has_theme",
+      "Means:has_location",
+      "Arriving:has_theme",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Quarreling:has_theme",
+      "Origin:has_entity",
+      "Praiseworthiness:has_theme",
+      "Commitment:has_speaker",
+      "Conquering:has_theme",
+      "Quarreling:has_issue",
+      "Being_named:has_theme",
+      "Achieving_first:has_theme",
+      "Success_or_failure:has_time",
+      "Temporal_subregion:has_theme",
+      "Money:has_theme",
+      "Increment:has_class",
+      "Type:has_theme",
+      "Quarreling:has_theme",
+      "Duration_description:has_theme",
+      "Text_creation:has_text",
+      "Means:has_means",
+      "Activity_ongoing:has_activity",
+      "Fame:has_degree",
+      "Death:has_time",
+      "Categorization:has_category",
+      "Origin:has_theme",
+      "People_by_age:has_theme",
+      "Purpose:has_agent",
+      "Praiseworthiness:has_degree",
+      "Aggregate:has_theme",
+      "Success_or_failure:has_location",
+      "Departing:has_time",
+      "Publishing:has_theme",
+      "Relative_time:has_theme",
+      "Relative_time:has_theme",
+      "Frequency:has_event",
+      "Ordinal_numbers:has_theme",
+      "Ordinal_numbers:has_type",
+      "Fame:has_reason",
+      "Statement:has_message",
+      "Personal_relationship:has_theme",
+      "Personal_success:has_person",
+      "Text_creation:has_location",
+      "Purpose:has_goal",
+      "Attending:has_event",
+      "Being_necessary:has_theme",
+      "Duration_description:has_theme",
+      "Residence:has_time",
+      "Residence:has_theme",
+      "Temporal_subregion:has_theme",
+      "Ordinal_numbers:has_type",
+      "People_by_age:has_theme",
+      "Arriving:has_time"
+    ],
+    "unique_predicates": [
+      "Ordinal_numbers:has_theme",
+      "Age:has_entity",
+      "Quarreling:has_issue",
+      "Purpose:has_goal",
+      "Attending:has_event",
+      "Becoming:has_location",
+      "Praiseworthiness:has_behavior",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Success_or_failure:has_time",
+      "Temporal_subregion:has_theme",
+      "Commitment:has_theme",
+      "Commitment:has_speaker",
+      "Adopt_selection:has_theme",
+      "Conquering:has_theme",
+      "Origin:has_entity",
+      "Quarreling:has_theme",
+      "Becoming:has_theme",
+      "Fame:has_reason",
+      "Residence:has_theme",
+      "Purpose:has_location",
+      "Fame:has_degree",
+      "Aggregate:has_theme",
+      "Arriving:has_goal",
+      "Statement:has_location",
+      "Origin:has_theme",
+      "Becoming_a_member:has_theme",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Means:has_location",
+      "Ordinal_numbers:has_type",
+      "Means:has_means",
+      "Activity_ongoing:has_activity",
+      "Becoming_a_member:has_group",
+      "Statement:has_message",
+      "Adopt_selection:has_value",
+      "Education_teaching:has_student",
+      "Success_or_failure:has_goal",
+      "Arriving:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Time_vector:has_event",
+      "Purpose:has_agent",
+      "Calendric_unit:has_theme",
+      "Measure_duration:has_theme",
+      "Being_named:has_theme",
+      "Frequency:has_event",
+      "Death:has_theme",
+      "Publishing:has_time",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Achieving_first:has_theme",
+      "Text_creation:has_text",
+      "Residence:has_time",
+      "Arriving:has_time",
+      "Death:has_time",
+      "Personal_relationship:has_theme",
+      "Personal_success:has_person",
+      "Money:has_theme",
+      "Age:has_age",
+      "Possession:has_theme",
+      "Praiseworthiness:has_theme",
+      "Being_necessary:has_theme",
+      "Text_creation:has_location",
+      "Education_teaching:has_teacher",
+      "Reference_text:has_theme",
+      "Success_or_failure:has_location",
+      "Text_creation:has_author",
+      "Becoming:has_entity",
+      "Type:has_category",
+      "Political_locales:has_theme",
+      "Departing:has_time",
+      "Fame:has_entity",
+      "Type:has_theme",
+      "Praiseworthiness:has_degree",
+      "People_by_age:has_theme"
+    ],
+    "predicate_counts": {
+      "Categorization:has_category": 2,
+      "Becoming_a_member:has_theme": 1,
+      "Death:has_time": 2,
+      "Being_born:has_location": 1,
+      "Text_creation:has_author": 1,
+      "Type:has_category": 1,
+      "Commitment:has_theme": 1,
+      "Publishing:has_work": 1,
+      "Fame:has_entity": 1,
+      "Praiseworthiness:has_behavior": 1,
+      "Death:has_theme": 2,
+      "Education_teaching:has_teacher": 1,
+      "Ordinal_numbers:has_theme": 2,
+      "Calendric_unit:has_theme": 1,
+      "Possession:has_theme": 1,
+      "Measure_duration:has_theme": 1,
+      "Being_necessary:has_theme": 2,
+      "Text:has_text": 2,
+      "Becoming:has_theme": 1,
+      "Arriving:has_goal": 1,
+      "Age:has_entity": 1,
+      "Kinship:has_theme": 2,
+      "Reference_text:has_theme": 1,
+      "Education_teaching:has_student": 1,
+      "Purpose:has_location": 1,
+      "Praiseworthiness:has_theme": 2,
+      "Statement:has_location": 1,
+      "Frequency:has_event": 2,
+      "Becoming:has_entity": 1,
+      "Political_locales:has_theme": 1,
+      "Adopt_selection:has_theme": 1,
+      "Adopt_selection:has_value": 1,
+      "Origin:has_entity": 2,
+      "Becoming_a_member:has_group": 1,
+      "Success_or_failure:has_goal": 1,
+      "Age:has_age": 1,
+      "Personal_relationship:has_theme": 2,
+      "Money:has_theme": 2,
+      "Publishing:has_time": 1,
+      "Relative_time:has_theme": 5,
+      "Becoming:has_location": 1,
+      "Ordinal_numbers:has_type": 3,
+      "Time_vector:has_event": 1,
+      "Means:has_location": 1,
+      "Arriving:has_theme": 1,
+      "Quarreling:has_theme": 2,
+      "Commitment:has_speaker": 1,
+      "Conquering:has_theme": 1,
+      "Quarreling:has_issue": 1,
+      "Being_named:has_theme": 1,
+      "Achieving_first:has_theme": 1,
+      "Success_or_failure:has_time": 1,
+      "Temporal_subregion:has_theme": 2,
+      "Increment:has_class": 1,
+      "Type:has_theme": 1,
+      "Duration_description:has_theme": 2,
+      "Text_creation:has_text": 1,
+      "Means:has_means": 1,
+      "Activity_ongoing:has_activity": 1,
+      "Fame:has_degree": 1,
+      "Origin:has_theme": 1,
+      "People_by_age:has_theme": 2,
+      "Purpose:has_agent": 1,
+      "Praiseworthiness:has_degree": 1,
+      "Aggregate:has_theme": 1,
+      "Success_or_failure:has_location": 1,
+      "Departing:has_time": 1,
+      "Publishing:has_theme": 1,
+      "Fame:has_reason": 1,
+      "Statement:has_message": 1,
+      "Personal_success:has_person": 1,
+      "Text_creation:has_location": 1,
+      "Purpose:has_goal": 1,
+      "Attending:has_event": 1,
+      "Residence:has_time": 1,
+      "Residence:has_theme": 1,
+      "Arriving:has_time": 1
+    }
+  }
+}

@@ -1,0 +1,2345 @@
+{
+  "metadata": {
+    "total_triples": 108,
+    "source_file": "J_R_R_Tolkien",
+    "extraction_date": "2025-09-28 02:28:48",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "People_by_vocation:has_theme",
+        "object": "Rawlinson and Bosworth",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Social_connection:has_degree",
+        "object": "close",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Causation:has_effect",
+        "object": "avalanche of new fantasy books and authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Text_creation:has_text",
+        "object": "high fantasy works The Hobbit and The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "People_by_vocation:has_type",
+        "object": "Anglo-Saxon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Increment:has_class",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Aggregate:has_theme",
+        "object": "connected",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Coming_up_with:has_theme",
+        "object": "languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Identicality:has_theme",
+        "object": "university",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "People:has_person",
+        "object": "Fellow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Personal_success:has_theme",
+        "object": "Hobbit and The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Simple_name:has_theme",
+        "object": "legendarium",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Using:has_purpose",
+        "object": "larger part of these writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Age:has_age",
+        "object": "new",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Social_connection:has_theme",
+        "object": "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Referring_by_name:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arda_(Tolkien)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+        "predicate": "Position_on_a_scale:has_item",
+        "object": "fantasy works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Part_whole:has_theme",
+        "object": "part",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Publishing:has_time",
+        "object": "before Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Creating:has_cause",
+        "object": "These, together with The Hobbit and The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the most influential authors of all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "essays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Part_whole:has_theme",
+        "object": "these writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Emotion_directed:has_theme",
+        "object": "fantasy genre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Publishing:has_work",
+        "object": "works of fantasy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_theme",
+        "object": "fantasy world called Arda and, within it, Middle-earth",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "avalanche",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Being_employed:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Emotion_directed:has_degree",
+        "object": "profound",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Awareness:has_theme",
+        "object": "himself",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Inclusion:has_theme",
+        "object": "his father's extensive notes and unpublished manuscripts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Increment:has_theme",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Publishing:has_theme",
+        "object": "many other authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+        "predicate": "Institutionalization:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Publishing:has_work",
+        "object": "series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "People_by_vocation:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "manuscripts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Inclusion:has_theme",
+        "object": "Silmarillion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Relative_time:has_theme",
+        "object": "Tolkien's death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Social_connection:has_theme",
+        "object": "friend",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Appointing:has_theme",
+        "object": "Queen Elizabeth II",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Categorization:has_category",
+        "object": "as the \"father\" of modern fantasy literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "Locale_by_use:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "university",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Part_whole:has_time",
+        "object": "1951",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Kinship:has_theme",
+        "object": "son",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Creating:has_theme",
+        "object": "connected body of tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Personal_success:has_degree",
+        "object": "tremendous",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Relative_time:has_theme",
+        "object": "his son Christopher published a series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "People_by_vocation:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Reference_text:has_theme",
+        "object": "Tolkien (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "College",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Publishing:has_theme",
+        "object": "his son Christopher",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Becoming:has_theme",
+        "object": "Merton Professor of English Language and Literature and Fellow of Merton College",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+        "predicate": "Labor_product:has_theme",
+        "object": "high fantasy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_theme",
+        "object": "fantasy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Categorization:has_item",
+        "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "new fantasy books and authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_II",
+        "predicate": "Death:has_theme",
+        "object": "Tolkien's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Motion:has_time",
+        "object": "then",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Aggregate:has_theme",
+        "object": "body",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Aggregate:has_theme",
+        "object": "informal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Using:has_time",
+        "object": "Between 1951 and 1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Causation:has_cause",
+        "object": "tremendous success of The Hobbit and The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Aggregate:has_theme",
+        "object": "literary discussion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+        "predicate": "Institutionalization:has_theme",
+        "object": "College",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Time_vector:has_event",
+        "object": "many other authors had published works of fantasy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Appointing:has_role",
+        "object": "Commander of the Order of the British Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "other authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Aggregate:has_theme",
+        "object": "group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Discussion:has_theme",
+        "object": "group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Using:has_instrument",
+        "object": "term legendarium",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Awareness:has_role",
+        "object": "as such",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "Pembroke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Personal_relationship:has_degree",
+        "object": "close",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "many other authors had published works of fantasy before Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Referring_by_name:has_entity",
+        "object": "fantasy world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Becoming:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_theme",
+        "object": "unpublished",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Discussion:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Aggregate:has_theme",
+        "object": "tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Text:has_text",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Locale_by_use:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Awareness:has_theme",
+        "object": "Tolkien family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Identicality:has_time",
+        "object": "1945",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Motion:has_purpose",
+        "object": "become the Merton Professor of English Language and Literature and Fellow of Merton College",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Simple_name:has_time",
+        "object": "1951",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "People_by_vocation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/English_studies",
+        "predicate": "Age:has_entity",
+        "object": "fantasy books and authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Appointing:has_time",
+        "object": "28 March 1972",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "People:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "Oxford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Motion:has_goal",
+        "object": "within the same university",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Appointing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "University",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Causation:has_effect",
+          "object": "avalanche of new fantasy books and authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Increment:has_class",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the most influential authors of all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Publishing:has_theme",
+          "object": "many other authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "new fantasy books and authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Time_vector:has_event",
+          "object": "many other authors had published works of fantasy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "other authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "many other authors had published works of fantasy before Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Age:has_entity",
+          "object": "fantasy books and authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Relative_time:has_theme",
+          "object": "Tolkien's death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_II",
+          "predicate": "Death:has_theme",
+          "object": "Tolkien's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Using:has_purpose",
+          "object": "larger part of these writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Part_whole:has_theme",
+          "object": "these writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "People_by_vocation:has_theme",
+          "object": "Rawlinson and Bosworth",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Social_connection:has_degree",
+          "object": "close",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Text_creation:has_text",
+          "object": "high fantasy works The Hobbit and The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "People_by_vocation:has_type",
+          "object": "Anglo-Saxon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Aggregate:has_theme",
+          "object": "connected",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Coming_up_with:has_theme",
+          "object": "languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Identicality:has_theme",
+          "object": "university",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "People:has_person",
+          "object": "Fellow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Personal_success:has_theme",
+          "object": "Hobbit and The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Simple_name:has_theme",
+          "object": "legendarium",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Age:has_age",
+          "object": "new",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Social_connection:has_theme",
+          "object": "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Referring_by_name:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arda_(Tolkien)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+          "predicate": "Position_on_a_scale:has_item",
+          "object": "fantasy works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Part_whole:has_theme",
+          "object": "part",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Publishing:has_time",
+          "object": "before Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Creating:has_cause",
+          "object": "These, together with The Hobbit and The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "essays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Emotion_directed:has_theme",
+          "object": "fantasy genre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Publishing:has_work",
+          "object": "works of fantasy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_theme",
+          "object": "fantasy world called Arda and, within it, Middle-earth",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "avalanche",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Being_employed:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Emotion_directed:has_degree",
+          "object": "profound",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Awareness:has_theme",
+          "object": "himself",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Inclusion:has_theme",
+          "object": "his father's extensive notes and unpublished manuscripts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Increment:has_theme",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+          "predicate": "Institutionalization:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Publishing:has_work",
+          "object": "series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "People_by_vocation:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_text",
+          "object": "manuscripts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Inclusion:has_theme",
+          "object": "Silmarillion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Social_connection:has_theme",
+          "object": "friend",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Appointing:has_theme",
+          "object": "Queen Elizabeth II",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Categorization:has_category",
+          "object": "as the \"father\" of modern fantasy literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "Locale_by_use:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "university",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Part_whole:has_time",
+          "object": "1951",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Kinship:has_theme",
+          "object": "son",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Creating:has_theme",
+          "object": "connected body of tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Personal_success:has_degree",
+          "object": "tremendous",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Relative_time:has_theme",
+          "object": "his son Christopher published a series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "People_by_vocation:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Reference_text:has_theme",
+          "object": "Tolkien (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "College",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Publishing:has_theme",
+          "object": "his son Christopher",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Becoming:has_theme",
+          "object": "Merton Professor of English Language and Literature and Fellow of Merton College",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Hobbit",
+          "predicate": "Labor_product:has_theme",
+          "object": "high fantasy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_theme",
+          "object": "fantasy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Categorization:has_item",
+          "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Motion:has_time",
+          "object": "then",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Aggregate:has_theme",
+          "object": "body",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Aggregate:has_theme",
+          "object": "informal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Using:has_time",
+          "object": "Between 1951 and 1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Causation:has_cause",
+          "object": "tremendous success of The Hobbit and The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Aggregate:has_theme",
+          "object": "literary discussion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+          "predicate": "Institutionalization:has_theme",
+          "object": "College",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Appointing:has_role",
+          "object": "Commander of the Order of the British Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Aggregate:has_theme",
+          "object": "group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Discussion:has_theme",
+          "object": "group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Using:has_instrument",
+          "object": "term legendarium",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Awareness:has_role",
+          "object": "as such",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "Pembroke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Personal_relationship:has_degree",
+          "object": "close",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Referring_by_name:has_entity",
+          "object": "fantasy world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Becoming:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Text:has_theme",
+          "object": "unpublished",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Discussion:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Aggregate:has_theme",
+          "object": "tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Locale_by_use:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Awareness:has_theme",
+          "object": "Tolkien family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/English_studies",
+          "predicate": "Identicality:has_time",
+          "object": "1945",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Motion:has_purpose",
+          "object": "become the Merton Professor of English Language and Literature and Fellow of Merton College",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Simple_name:has_time",
+          "object": "1951",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "People_by_vocation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Appointing:has_time",
+          "object": "28 March 1972",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "People:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "Oxford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Motion:has_goal",
+          "object": "within the same university",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Appointing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "University",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/The_Hobbit",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/The_Hobbit",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/The_Hobbit",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Elizabeth_II",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "http://en.wikipedia.org/wiki/England"
+    ],
+    "objects": [
+      "poems",
+      "Rawlinson and Bosworth",
+      "close",
+      "avalanche of new fantasy books and authors",
+      "father",
+      "high fantasy works The Hobbit and The Lord of the Rings",
+      "Anglo-Saxon",
+      "authors",
+      "connected",
+      "languages",
+      "university",
+      "Fellow",
+      "Hobbit and The Lord of the Rings",
+      "legendarium",
+      "larger part of these writings",
+      "authors",
+      "new",
+      "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+      "http://en.wikipedia.org/wiki/Arda_(Tolkien)",
+      "fantasy works",
+      "part",
+      "before Tolkien",
+      "These, together with The Hobbit and The Lord of the Rings",
+      "as one of the most influential authors of all time",
+      "essays",
+      "these writings",
+      "fantasy genre",
+      "works of fantasy",
+      "authors",
+      "fantasy world called Arda and, within it, Middle-earth",
+      "avalanche",
+      "1945",
+      "profound",
+      "himself",
+      "his father's extensive notes and unpublished manuscripts",
+      "many",
+      "many other authors",
+      "1945",
+      "series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+      "1945",
+      "works",
+      "works",
+      "manuscripts",
+      "Silmarillion",
+      "books",
+      "Tolkien's death",
+      "friend",
+      "Queen Elizabeth II",
+      "as the \"father\" of modern fantasy literature",
+      "1925",
+      "university",
+      "1951",
+      "son",
+      "connected body of tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+      "tremendous",
+      "his son Christopher published a series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+      "1925",
+      "Tolkien (disambiguation)",
+      "College",
+      "his son Christopher",
+      "Merton Professor of English Language and Literature and Fellow of Merton College",
+      "high fantasy",
+      "fantasy",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "new fantasy books and authors",
+      "Tolkien's",
+      "then",
+      "body",
+      "informal",
+      "Between 1951 and 1955",
+      "tremendous success of The Hobbit and The Lord of the Rings",
+      "literary discussion",
+      "College",
+      "many other authors had published works of fantasy",
+      "Commander of the Order of the British Empire",
+      "other authors",
+      "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+      "group",
+      "group",
+      "term legendarium",
+      "as such",
+      "Pembroke",
+      "close",
+      "family",
+      "many other authors had published works of fantasy before Tolkien",
+      "fantasy world",
+      "1945",
+      "unpublished",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors",
+      "literary",
+      "tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+      "authors",
+      "1945",
+      "Tolkien family",
+      "1945",
+      "become the Merton Professor of English Language and Literature and Fellow of Merton College",
+      "1951",
+      "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+      "fantasy books and authors",
+      "28 March 1972",
+      "1925",
+      "Oxford",
+      "within the same university",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "University",
+      "many",
+      "uses"
+    ],
+    "all_unique": [
+      "Oxford",
+      "http://en.wikipedia.org/wiki/Elizabeth_II",
+      "essays",
+      "before Tolkien",
+      "Anglo-Saxon",
+      "Tolkien family",
+      "works",
+      "Fellow",
+      "literary discussion",
+      "fantasy books and authors",
+      "tremendous success of The Hobbit and The Lord of the Rings",
+      "languages",
+      "Between 1951 and 1955",
+      "authors",
+      "Tolkien's",
+      "body",
+      "many other authors had published works of fantasy before Tolkien",
+      "University",
+      "http://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "as the \"father\" of modern fantasy literature",
+      "his son Christopher published a series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+      "avalanche",
+      "C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+      "informal",
+      "part",
+      "these writings",
+      "unpublished",
+      "close",
+      "many other authors",
+      "fantasy world",
+      "connected",
+      "fantasy world called Arda and, within it, Middle-earth",
+      "http://en.wikipedia.org/wiki/England",
+      "Merton Professor of English Language and Literature and Fellow of Merton College",
+      "1945",
+      "father",
+      "Commander of the Order of the British Empire",
+      "http://en.wikipedia.org/wiki/English_studies",
+      "other authors",
+      "literary",
+      "many",
+      "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge",
+      "friend",
+      "1925",
+      "College",
+      "fantasy",
+      "profound",
+      "These, together with The Hobbit and The Lord of the Rings",
+      "uses",
+      "university",
+      "as such",
+      "28 March 1972",
+      "group",
+      "http://en.wikipedia.org/wiki/Arda_(Tolkien)",
+      "http://en.wikipedia.org/wiki/Merton_College,_Oxford",
+      "series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+      "son",
+      "as one of the most influential authors of all time",
+      "his son Christopher",
+      "new fantasy books and authors",
+      "Rawlinson and Bosworth",
+      "within the same university",
+      "Pembroke",
+      "manuscripts",
+      "avalanche of new fantasy books and authors",
+      "Queen Elizabeth II",
+      "works of fantasy",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "Silmarillion",
+      "http://en.wikipedia.org/wiki/The_Hobbit",
+      "fantasy genre",
+      "himself",
+      "then",
+      "family",
+      "high fantasy works The Hobbit and The Lord of the Rings",
+      "Hobbit and The Lord of the Rings",
+      "many other authors had published works of fantasy",
+      "Tolkien (disambiguation)",
+      "larger part of these writings",
+      "new",
+      "Tolkien's death",
+      "1951",
+      "his father's extensive notes and unpublished manuscripts",
+      "term legendarium",
+      "books",
+      "become the Merton Professor of English Language and Literature and Fellow of Merton College",
+      "legendarium",
+      "tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors",
+      "tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+      "fantasy works",
+      "connected body of tales, poems, fictional histories, invented languages, and literary essays about a fantasy world called Arda and, within it, Middle-earth",
+      "tremendous",
+      "high fantasy",
+      "poems"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text:has_text",
+      "People_by_vocation:has_theme",
+      "Social_connection:has_degree",
+      "Causation:has_effect",
+      "Kinship:has_theme",
+      "Text_creation:has_text",
+      "People_by_vocation:has_type",
+      "Increment:has_class",
+      "Aggregate:has_theme",
+      "Coming_up_with:has_theme",
+      "Identicality:has_theme",
+      "People:has_person",
+      "Personal_success:has_theme",
+      "Simple_name:has_theme",
+      "Using:has_purpose",
+      "Text_creation:has_author",
+      "Age:has_age",
+      "Social_connection:has_theme",
+      "Referring_by_name:has_theme",
+      "Position_on_a_scale:has_item",
+      "Part_whole:has_theme",
+      "Publishing:has_time",
+      "Creating:has_cause",
+      "Categorization:has_category",
+      "Text:has_text",
+      "Part_whole:has_theme",
+      "Emotion_directed:has_theme",
+      "Publishing:has_work",
+      "Subjective_influence:has_entity",
+      "Text:has_theme",
+      "Quantified_mass:has_quantity",
+      "Being_employed:has_time",
+      "Emotion_directed:has_degree",
+      "Awareness:has_theme",
+      "Inclusion:has_theme",
+      "Increment:has_theme",
+      "Publishing:has_theme",
+      "Institutionalization:has_time",
+      "Publishing:has_work",
+      "People_by_vocation:has_time",
+      "Labor_product:has_theme",
+      "Labor_product:has_theme",
+      "Text:has_text",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Relative_time:has_theme",
+      "Social_connection:has_theme",
+      "Appointing:has_theme",
+      "Categorization:has_category",
+      "Locale_by_use:has_time",
+      "Locale_by_use:has_theme",
+      "Part_whole:has_time",
+      "Kinship:has_theme",
+      "Creating:has_theme",
+      "Personal_success:has_degree",
+      "Relative_time:has_theme",
+      "People_by_vocation:has_time",
+      "Reference_text:has_theme",
+      "Locale_by_use:has_theme",
+      "Publishing:has_theme",
+      "Becoming:has_theme",
+      "Labor_product:has_theme",
+      "Text:has_theme",
+      "Categorization:has_item",
+      "Quantified_mass:has_theme",
+      "Death:has_theme",
+      "Motion:has_time",
+      "Aggregate:has_theme",
+      "Aggregate:has_theme",
+      "Using:has_time",
+      "Causation:has_cause",
+      "Aggregate:has_theme",
+      "Institutionalization:has_theme",
+      "Time_vector:has_event",
+      "Appointing:has_role",
+      "Quantified_mass:has_theme",
+      "Personal_relationship:has_theme",
+      "Aggregate:has_theme",
+      "Discussion:has_theme",
+      "Using:has_instrument",
+      "Awareness:has_role",
+      "Locale_by_use:has_theme",
+      "Personal_relationship:has_degree",
+      "Kinship:has_theme",
+      "Temporal_collocation:has_theme",
+      "Referring_by_name:has_entity",
+      "Becoming:has_time",
+      "Text:has_theme",
+      "Being_employed:has_employee",
+      "Temporal_collocation:has_theme",
+      "Discussion:has_theme",
+      "Aggregate:has_theme",
+      "Text:has_text",
+      "Locale_by_use:has_time",
+      "Awareness:has_theme",
+      "Identicality:has_time",
+      "Motion:has_purpose",
+      "Simple_name:has_time",
+      "People_by_vocation:has_theme",
+      "Age:has_entity",
+      "Appointing:has_time",
+      "People:has_time",
+      "Locale_by_use:has_theme",
+      "Motion:has_goal",
+      "Appointing:has_theme",
+      "Locale_by_use:has_theme",
+      "Quantified_mass:has_quantity",
+      "Increment:has_class"
+    ],
+    "unique_predicates": [
+      "Personal_relationship:has_theme",
+      "Social_connection:has_theme",
+      "Aggregate:has_theme",
+      "People_by_vocation:has_theme",
+      "People_by_vocation:has_type",
+      "Emotion_directed:has_degree",
+      "Motion:has_time",
+      "Identicality:has_time",
+      "Awareness:has_theme",
+      "Simple_name:has_time",
+      "Appointing:has_time",
+      "People:has_time",
+      "Age:has_age",
+      "Personal_success:has_degree",
+      "Using:has_time",
+      "Appointing:has_role",
+      "Temporal_collocation:has_theme",
+      "Age:has_entity",
+      "People:has_person",
+      "Being_employed:has_time",
+      "Coming_up_with:has_theme",
+      "Referring_by_name:has_theme",
+      "Discussion:has_theme",
+      "Causation:has_effect",
+      "Death:has_theme",
+      "Simple_name:has_theme",
+      "Using:has_instrument",
+      "Relative_time:has_theme",
+      "Publishing:has_time",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Part_whole:has_theme",
+      "Institutionalization:has_time",
+      "People_by_vocation:has_time",
+      "Reference_text:has_theme",
+      "Causation:has_cause",
+      "Being_employed:has_employee",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Motion:has_purpose",
+      "Increment:has_class",
+      "Identicality:has_theme",
+      "Appointing:has_theme",
+      "Categorization:has_category",
+      "Using:has_purpose",
+      "Emotion_directed:has_theme",
+      "Creating:has_cause",
+      "Motion:has_goal",
+      "Quantified_mass:has_quantity",
+      "Institutionalization:has_theme",
+      "Creating:has_theme",
+      "Personal_success:has_theme",
+      "Text_creation:has_text",
+      "Increment:has_theme",
+      "Locale_by_use:has_time",
+      "Awareness:has_role",
+      "Categorization:has_item",
+      "Personal_relationship:has_degree",
+      "Position_on_a_scale:has_item",
+      "Part_whole:has_time",
+      "Text:has_theme",
+      "Inclusion:has_theme",
+      "Referring_by_name:has_entity",
+      "Time_vector:has_event",
+      "Subjective_influence:has_entity",
+      "Locale_by_use:has_theme",
+      "Becoming:has_time",
+      "Becoming:has_theme",
+      "Labor_product:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Social_connection:has_degree"
+    ],
+    "predicate_counts": {
+      "Text:has_text": 5,
+      "People_by_vocation:has_theme": 2,
+      "Social_connection:has_degree": 1,
+      "Causation:has_effect": 1,
+      "Kinship:has_theme": 3,
+      "Text_creation:has_text": 1,
+      "People_by_vocation:has_type": 1,
+      "Increment:has_class": 2,
+      "Aggregate:has_theme": 6,
+      "Coming_up_with:has_theme": 1,
+      "Identicality:has_theme": 1,
+      "People:has_person": 1,
+      "Personal_success:has_theme": 1,
+      "Simple_name:has_theme": 1,
+      "Using:has_purpose": 1,
+      "Text_creation:has_author": 1,
+      "Age:has_age": 1,
+      "Social_connection:has_theme": 2,
+      "Referring_by_name:has_theme": 1,
+      "Position_on_a_scale:has_item": 1,
+      "Part_whole:has_theme": 2,
+      "Publishing:has_time": 1,
+      "Creating:has_cause": 1,
+      "Categorization:has_category": 2,
+      "Emotion_directed:has_theme": 1,
+      "Publishing:has_work": 2,
+      "Subjective_influence:has_entity": 1,
+      "Text:has_theme": 3,
+      "Quantified_mass:has_quantity": 2,
+      "Being_employed:has_time": 1,
+      "Emotion_directed:has_degree": 1,
+      "Awareness:has_theme": 2,
+      "Inclusion:has_theme": 2,
+      "Increment:has_theme": 1,
+      "Publishing:has_theme": 2,
+      "Institutionalization:has_time": 1,
+      "People_by_vocation:has_time": 2,
+      "Labor_product:has_theme": 3,
+      "Relative_time:has_theme": 2,
+      "Appointing:has_theme": 2,
+      "Locale_by_use:has_time": 2,
+      "Locale_by_use:has_theme": 5,
+      "Part_whole:has_time": 1,
+      "Creating:has_theme": 1,
+      "Personal_success:has_degree": 1,
+      "Reference_text:has_theme": 1,
+      "Becoming:has_theme": 1,
+      "Categorization:has_item": 1,
+      "Quantified_mass:has_theme": 2,
+      "Death:has_theme": 1,
+      "Motion:has_time": 1,
+      "Using:has_time": 1,
+      "Causation:has_cause": 1,
+      "Institutionalization:has_theme": 1,
+      "Time_vector:has_event": 1,
+      "Appointing:has_role": 1,
+      "Personal_relationship:has_theme": 1,
+      "Discussion:has_theme": 2,
+      "Using:has_instrument": 1,
+      "Awareness:has_role": 1,
+      "Personal_relationship:has_degree": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Referring_by_name:has_entity": 1,
+      "Becoming:has_time": 1,
+      "Being_employed:has_employee": 1,
+      "Identicality:has_time": 1,
+      "Motion:has_purpose": 1,
+      "Simple_name:has_time": 1,
+      "Age:has_entity": 1,
+      "Appointing:has_time": 1,
+      "People:has_time": 1,
+      "Motion:has_goal": 1
+    }
+  }
+}

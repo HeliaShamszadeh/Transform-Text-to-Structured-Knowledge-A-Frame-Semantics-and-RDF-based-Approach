@@ -1,0 +1,318 @@
+digraph Wallace_Stevens {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "Stevens was personally intr..." [label="Stevens was personally intr...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "Santayana's book Interpreta..." [label="Santayana's book Interpreta...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "son of a prosperous lawyer,..." [label="son of a prosperous lawyer,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three-year" [label="three-year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a Lutheran family of D..." [label="into a Lutheran family of D...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1900" [label="1900", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication of Harmonium 1923 " [label="publication of Harmonium 1923 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she posthumously repri..." [label="when she posthumously repri...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Looking at a Blackbird" [label="Looking at a Blackbird", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Santayana's" [label="Santayana's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Susquehanna Valley" [label="Susquehanna Valley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stevens's" [label="Stevens's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father's long dedicatio..." [label="her father's long dedicatio...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "period" [label="period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Idea of Order at Key West" [label="The Idea of Order at Key West", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1933" [label="1933", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His second period" [label="His second period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Reality and the Imagination" [label="Reality and the Imagination", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an executive" [label="as an executive", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Transport to Summer" [label="Transport to Summer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1977" [label="1977", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ideas of Order 1933 " [label="Ideas of Order 1933 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1923" [label="1923", fillcolor=lightgray, color=gray, shape=hexagon];
+    "insurance company in Hartfo..." [label="insurance company in Hartfo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ways" [label="Ways", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hollie Stevens" [label="Hollie Stevens", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication of Harmonium 1923" [label="publication of Harmonium 1923", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dedication to Santayana" [label="dedication to Santayana", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Reading, Berkshire" [label="Reading, Berkshire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wallace Stevens" [label="Wallace Stevens", fillcolor=lightgray, color=gray, shape=hexagon];
+    "making art and poetry in pa..." [label="making art and poetry in pa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slightly revised and amende..." [label="slightly revised and amende...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prosperous lawyer" [label="prosperous lawyer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hans Christian Andersen" [label="Hans Christian Andersen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a religious refugee" [label="as a religious refugee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lawyer" [label="lawyer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stevens's poems" [label="Stevens's poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father's" [label="her father's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harmonium poetry collection" [label="Harmonium poetry collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "insurance" [label="insurance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York University" [label="New York University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His Collected Poems 1954" [label="His Collected Poems 1954", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many" [label="Many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston" [label="Boston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edition" [label="edition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "son" [label="son", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his biographer Milton Bates" [label="his biographer Milton Bates", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Susquehanna River" [label="Susquehanna River", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1950" [label="1950", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Auroras of Autumn 1950" [label="Auroras of Autumn 1950", fillcolor=lightgray, color=gray, shape=hexagon];
+    "president" [label="president", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stevens's first period" [label="Stevens's first period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Interpretations of Poetry a..." [label="Interpretations of Poetry a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hartford, Connecticut" [label="Hartford, Connecticut", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His third and final period" [label="His third and final period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Reading, Pennsylvania" [label="Reading, Pennsylvania", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alfred A. Knopf" [label="Alfred A. Knopf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strongly" [label="strongly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Auroras of Autumn" [label="The Auroras of Autumn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "student" [label="student", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1897 to 1900" [label="1897 to 1900", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lutheranism" [label="Lutheranism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Zeller, his maternal g..." [label="John Zeller, his maternal g...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father's collected letters" [label="her father's collected letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication of The Auroras ..." [label="publication of The Auroras ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "non-degree" [label="non-degree", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a non-degree three-year ..." [label="as a non-degree three-year ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Key West" [label="Key West", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Santayana" [label="George Santayana", fillcolor=lightgray, color=gray, shape=hexagon];
+    "company" [label="company", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Essays" [label="Essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Seamus Heaney Collected Poems" [label="Seamus Heaney Collected Poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1709" [label="1709", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harvard University" [label="Harvard University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Emperor of Ice-Cream" [label="The Emperor of Ice-Cream", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1901" [label="1901", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harvard and then New York L..." [label="Harvard and then New York L...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Zeller" [label="John Zeller", fillcolor=lightgray, color=gray, shape=hexagon];
+    "special" [label="special", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dutch and German descent" [label="Dutch and German descent", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1879" [label="1879", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist poet" [label="modernist poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Necessary Angel : Essays On..." [label="Necessary Angel : Essays On...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second edition" [label="second edition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize for Poetry" [label="Pulitzer Prize for Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harvard Advocate" [label="Harvard Advocate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Holly Stevens, his daughter" [label="Holly Stevens, his daughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Transport" [label="Transport", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Wallace Stevens" -> "into a Lutheran family of D..." [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "The Idea of Order at Key West" -> "Transport to Summer" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "The Emperor of Ice-Cream" -> "poems" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "American poetry" -> "Wallace Stevens" [label="has theme [Subjective_influence]", color=lightyellow, penwidth=1];
+    "The Emperor of Ice-Cream" -> "son of a prosperous lawyer,..." [label="has agent [Attending]", color=lightpink, penwidth=1];
+    "American poetry" -> "Hartford, Connecticut" [label="has location [Businesses]", color=green, penwidth=2];
+    "New York University" -> "son" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "New York University" -> "1900" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Susquehanna River" -> "president" [label="has role [Leadership]", color=lightgray, penwidth=1];
+    "The Emperor of Ice-Cream" -> "1950" [label="has time [Text]", color=purple, penwidth=2];
+    "American poetry" -> "1923" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "American poetry" -> "1923" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Susquehanna River" -> "1709" [label="has time [Colonization]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "Pulitzer Prize for Poetry" [label="has prize [Win_prize]", color=lightgoldenrod, penwidth=1];
+    "Susquehanna River" -> "Harvard Advocate" [label="has theme [Leadership]", color=lightgray, penwidth=1];
+    "Susquehanna River" -> "non-degree" [label="has skill [Education_teaching]", color=lightpink, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Harvard University" [label="has event [Attending]", color=lightpink, penwidth=1];
+    "Susquehanna River" -> "1977" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "American poetry" -> "edition" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "The Emperor of Ice-Cream" -> "her father's" [label="has author [Text]", color=lightgreen, penwidth=1];
+    "The Emperor of Ice-Cream" -> "period" [label="has theme [Frequency]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Wallace Stevens" -> "1977" [label="has time [Kinship]", color=purple, penwidth=2];
+    "American poetry" -> "period" [label="has theme [Frequency]", color=lightseagreen, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Looking at a Blackbird" [label="has purpose [Means]", color=lightblue, penwidth=1];
+    "John Zeller" -> "maternal" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "Wallace Stevens" -> "poems" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Susquehanna River" -> "student" [label="has student [Education_teaching]", color=lightpink, penwidth=1];
+    "The Idea of Order at Key West" -> "Ideas of Order 1933 " [label="has theme [Process_start]", color=lightgreen, penwidth=1];
+    "New York University" -> "1900" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Hollie Stevens" -> "when she posthumously repri..." [label="has time [Memory]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "1950" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "The Idea of Order at Key West" -> "1933" [label="has time [Process_start]", color=purple, penwidth=2];
+    "Lutheranism" -> "Reading, Berkshire" [label="has location [Kinship]", color=green, penwidth=2];
+    "American poetry" -> "1955" [label="has time [Origin]", color=purple, penwidth=2];
+    "Lutheranism" -> "Dutch and German descent" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Boston" -> "Stevens was personally intr..." [label="has theme [Attributed_information]", color=lightsteelblue, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Key West" [label="has location [Fields]", color=green, penwidth=2];
+    "New York University" -> "lawyer" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "The Emperor of Ice-Cream" -> "1933" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "The Idea of Order at Key West" -> "His second period" [label="has event [Process_start]", color=lightgreen, penwidth=1];
+    "American poetry" -> "strongly" [label="has degree [Subjective_influence]", color=lightyellow, penwidth=1];
+    "Hollie Stevens" -> "her father's long dedicatio..." [label="has theme [Memory]", color=lightpink, penwidth=1];
+    "Reading, Berkshire" -> "as an executive" [label="has position [Being_employed]", color=lightgoldenrodyellow, penwidth=1];
+    "The Emperor of Ice-Cream" -> "making art and poetry in pa..." [label="has activity [Craft]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "edition" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Wallace Stevens" -> "Reading, Pennsylvania" [label="has location [Being_born]", color=green, penwidth=2];
+    "Wallace Stevens" -> "1879" [label="has time [Being_born]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "Ways" [label="has means [Means]", color=lightblue, penwidth=1];
+    "Wallace Stevens" -> "Alfred A. Knopf" [label="has goal [Removing]", color=lightsalmon, penwidth=1];
+    "New York University" -> "prosperous lawyer" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "His Collected Poems 1954" [label="has competitor [Win_prize]", color=lightgoldenrod, penwidth=1];
+    "The Emperor of Ice-Cream" -> "1897 to 1900" [label="has theme [Attending]", color=lightpink, penwidth=1];
+    "Wallace Stevens" -> "1977" [label="has time [Removing]", color=purple, penwidth=2];
+    "Susquehanna River" -> "as a religious refugee" [label="has purpose [Colonization]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Process_start]", color=purple, penwidth=2];
+    "Reading, Berkshire" -> "Wallace Stevens" [label="has student [Education_teaching]", color=lightpink, penwidth=1];
+    "American poetry" -> "Boston" [label="has location [Subjective_influence]", color=green, penwidth=2];
+    "The Auroras of Autumn" -> "1950" [label="has time [Publishing]", color=purple, penwidth=2];
+    "American poetry" -> "Stevens's first period" [label="has event [Process_start]", color=lightgreen, penwidth=1];
+    "American poetry" -> "publication of Harmonium 1923 " [label="has theme [Process_start]", color=lightgreen, penwidth=1];
+    "Wallace Stevens" -> "Hollie Stevens" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "slightly revised and amende..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "publication of The Auroras ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "George Santayana" -> "Interpretations of Poetry a..." [label="has text [Text]", color=lightgreen, penwidth=1];
+    "American poetry" -> "Santayana's book Interpreta..." [label="has entity [Subjective_influence]", color=lightyellow, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Transport" [label="has location [Frequency]", color=green, penwidth=2];
+    "Hans Christian Andersen" -> "Many" [label="has quantity [Quantified_mass]", color=lightgoldenrod, penwidth=1];
+    "The Emperor of Ice-Cream" -> "as a non-degree three-year ..." [label="has theme [Attending]", color=lightpink, penwidth=1];
+    "Wallace Stevens" -> "her father's collected letters" [label="has theme [Removing]", color=lightsalmon, penwidth=1];
+    "The Idea of Order at Key West" -> "1933" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Wallace Stevens" -> "father" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Text]", color=purple, penwidth=2];
+    "American poetry" -> "Harmonium poetry collection" [label="has work [Publishing]", color=lightcyan, penwidth=1];
+    "Wallace Stevens" -> "Stevens's" [label="has author [Text]", color=lightgreen, penwidth=1];
+    "Boston" -> "his biographer Milton Bates" [label="has speaker [Attributed_information]", color=lightsteelblue, penwidth=1];
+    "The Emperor of Ice-Cream" -> "1950" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "1900" [label="has time [Attending]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "Transport" [label="has location [Ordinal_numbers]", color=green, penwidth=2];
+    "The Emperor of Ice-Cream" -> "Necessary Angel : Essays On..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "1950" [label="has time [Process_start]", color=purple, penwidth=2];
+    "Reading, Berkshire" -> "Harvard and then New York L..." [label="has institution [Education_teaching]", color=lightpink, penwidth=1];
+    "The Emperor of Ice-Cream" -> "publication of The Auroras ..." [label="has theme [Process_start]", color=lightgreen, penwidth=1];
+    "Hans Christian Andersen" -> "Key West" [label="has location [Quantified_mass]", color=green, penwidth=2];
+    "The Emperor of Ice-Cream" -> "art" [label="has theme [Fields]", color=lightgray, penwidth=1];
+    "Hollie Stevens" -> "Holly Stevens, his daughter" [label="has theme [Memory]", color=lightpink, penwidth=1];
+    "George Santayana" -> "Santayana's" [label="has author [Text]", color=lightgreen, penwidth=1];
+    "The Emperor of Ice-Cream" -> "1933" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1955" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Susquehanna River" -> "dedication to Santayana" [label="has theme [Duration_description]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "company" [label="has business [Businesses]", color=lightcyan, penwidth=1];
+    "American poetry" -> "modernist poet" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Reality and the Imagination" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "The Idea of Order at Key West" -> "Transport" [label="has location [Process_start]", color=green, penwidth=2];
+    "American poetry" -> "publication of Harmonium 1923" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Wallace Stevens" -> "Hollie Stevens" [label="has agent [Removing]", color=lightsalmon, penwidth=1];
+    "The Emperor of Ice-Cream" -> "His third and final period" [label="has event [Process_start]", color=lightgreen, penwidth=1];
+    "Wallace Stevens" -> "Boston" [label="has location [Residence]", color=green, penwidth=2];
+    "The Emperor of Ice-Cream" -> "1977" [label="has time [Text]", color=purple, penwidth=2];
+    "Susquehanna River" -> "Susquehanna Valley" [label="has theme [Colonization]", color=lightsalmon, penwidth=1];
+    "Susquehanna River" -> "special" [label="has level [Education_teaching]", color=lightpink, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Essays" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Susquehanna River" -> "1901" [label="has time [Leadership]", color=purple, penwidth=2];
+    "United States" -> "1955" [label="has time [Text]", color=purple, penwidth=2];
+    "The Emperor of Ice-Cream" -> "period" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "The Auroras of Autumn" -> "Auroras of Autumn 1950" [label="has work [Publishing]", color=lightcyan, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Reparation]", color=purple, penwidth=2];
+    "Susquehanna River" -> "three-year" [label="has theme [Education_teaching]", color=lightpink, penwidth=1];
+    "American poetry" -> "period" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Susquehanna River" -> "John Zeller, his maternal g..." [label="has theme [Colonization]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "insurance" [label="has product [Businesses]", color=lightcyan, penwidth=1];
+    "The Idea of Order at Key West" -> "Transport" [label="has location [Inclusion]", color=green, penwidth=2];
+    "The Emperor of Ice-Cream" -> "letters" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "United States" -> "Wallace Stevens" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Reading, Berkshire" -> "Wallace Stevens" [label="has employee [Being_employed]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "United States" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "Wallace Stevens" -> "Key West" [label="has location [Text]", color=green, penwidth=2];
+    "American poetry" -> "second edition" [label="has theme [Reparation]", color=lightsteelblue, penwidth=1];
+    "The Emperor of Ice-Cream" -> "Key West" [label="has location [Craft]", color=green, penwidth=2];
+    "Hans Christian Andersen" -> "Stevens's poems" [label="has theme [Quantified_mass]", color=lightgoldenrod, penwidth=1];
+    "Susquehanna River" -> "1900" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "George Santayana" -> "Boston" [label="has location [Text]", color=green, penwidth=2];
+    "Reading, Berkshire" -> "insurance company in Hartfo..." [label="has theme [Being_employed]", color=lightgoldenrodyellow, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Colonization_legend" [label="Colonization", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Means_legend" [label="Means", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Process_start_legend" [label="Process_start", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Memory_legend" [label="Memory", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Craft_legend" [label="Craft", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reparation_legend" [label="Reparation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

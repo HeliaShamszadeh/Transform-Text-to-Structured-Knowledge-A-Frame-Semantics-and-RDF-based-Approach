@@ -1,0 +1,318 @@
+digraph Jorge_Luis_Borges {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Borges's works" [label="Borges's works", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influence" [label="influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "through imagination" [label="through imagination", fillcolor=lightgray, color=gray, shape=hexagon];
+    "journals" [label="journals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "motifs such as dreams, laby..." [label="motifs such as dreams, laby...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a librarian and public l..." [label="as a librarian and public l...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that his progressive blindn..." [label="that his progressive blindn...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publishing his poems and es..." [label="publishing his poems and es...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "International Formentor Prize" [label="International Formentor Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely in the United States..." [label="widely in the United States...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish-language and intern..." [label="Spanish-language and intern...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best-known" [label="best-known", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely in Europe, including..." [label="widely in Europe, including...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1971" [label="1971", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Buenos Aires" [label="University of Buenos Aires", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jorge Luis Borges" [label="Jorge Luis Borges", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York Public Library" [label="New York Public Library", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politician" [label="politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "surrealist literary journals" [label="surrealist literary journals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Borges disambiguation" [label="Borges disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Switzerland" [label="Switzerland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jorge Borges politician" [label="Jorge Borges politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 55" [label="age of 55", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Borges himself" [label="Borges himself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international attention" [label="international attention", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a key figure in Spanish-..." [label="as a key figure in Spanish-...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Buenos Aires" [label="Buenos Aires", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jerusalem Prize" [label="Jerusalem Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "director of the National Pu..." [label="director of the National Pu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "moved with his family to Sw..." [label="moved with his family to Sw...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citation" [label="citation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Collège Calvin" [label="Collège Calvin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Borges surname " [label="Borges surname ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems and essays" [label="his poems and essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first International Forment..." [label="first International Forment...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "completely blind" [label="completely blind", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when he received the first ..." [label="when he received the first ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spain" [label="Spain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1986" [label="1986", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections of short stories" [label="collections of short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magical realist movement" [label="magical realist movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English studies" [label="English studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his progressive blindness" [label="his progressive blindness", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States and Europe" [label="United States and Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "55" [label="55", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magical realist movement in..." [label="magical realist movement in...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several languages" [label="several languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Scholars" [label="Scholars", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1961" [label="1961", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Argentina" [label="Argentina", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Europe" [label="Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Aleph short story collection" [label="The Aleph short story collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his family" [label="his family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cape Verde" [label="Cape Verde", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish language" [label="Spanish language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1960s" [label="1960s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1921" [label="1921", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Aleph short story" [label="The Aleph short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940s" [label="1940s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "create innovative literary ..." [label="create innovative literary ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Latin" [label="Latin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure" [label="figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Samuel Beckett" [label="Samuel Beckett", fillcolor=lightgray, color=gray, shape=hexagon];
+    "innovative literary symbols" [label="innovative literary symbols", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Argentine short-story write..." [label="Argentine short-story write...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Argentina" -> "uses" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Cape Verde" -> "politician" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Jorge Luis Borges" -> "1921" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Buenos Aires" -> "1914" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "Scholars" [label="has speaker [Statement]", color=lightpink, penwidth=1];
+    "Jorge Luis Borges" -> "publishing his poems and es..." [label="has activity [Activity_start]", color=lightcyan, penwidth=1];
+    "The Aleph short story collection" -> "several" [label="has quantity [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "English studies" -> "1955" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "Jorge Luis Borges" [label="has theme [Assistance]", color=lightgoldenrodyellow, penwidth=1];
+    "Jorge Luis Borges" -> "1921" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "Borges himself" [label="has theme [Expertise]", color=lightsalmon, penwidth=1];
+    "Jorge Luis Borges" -> "his poems and essays" [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "English studies" -> "University of Buenos Aires" [label="has institution [Education_teaching]", color=lightgray, penwidth=1];
+    "The Aleph short story collection" -> "international" [label="has theme [Attention]", color=lightgoldenrod, penwidth=1];
+    "The Aleph short story collection" -> "Borges's works" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "English studies" -> "Jorge Luis Borges" [label="has teacher [Education_teaching]", color=lightgray, penwidth=1];
+    "The Aleph short story collection" -> "stories" [label="has theme [Duration_description]", color=lightsteelblue, penwidth=1];
+    "New York Public Library" -> "1961" [label="has time [Receiving]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "Latin" [label="has theme [Origin]", color=lightblue, penwidth=1];
+    "The Aleph short story collection" -> "1955" [label="has time [Appointing]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "The Aleph short story" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Buenos Aires" -> "moved with his family to Sw..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "Jorge Luis Borges" [label="has employee [Being_employed]", color=lightyellow, penwidth=1];
+    "The Aleph short story collection" -> "literature" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "Jorge Luis Borges" -> "1921" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "1914" [label="has time [Motion]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "Jerusalem Prize" [label="has prize [Win_prize]", color=lightcyan, penwidth=1];
+    "The Aleph short story collection" -> "international" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Argentina" -> "1986" [label="has time [Categorization]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "citation" [label="has theme [Being_necessary]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "1986" [label="has time [Importance]", color=purple, penwidth=2];
+    "New York Public Library" -> "first International Forment..." [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "The Aleph short story collection" -> "Jorge Luis Borges" [label="has theme [Appointing]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "1986" [label="has time [Foreign_or_domestic_country]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "Collège Calvin" [label="has teacher [Education_teaching]", color=lightgray, penwidth=1];
+    "Jorge Luis Borges" -> "1921" [label="has time [Text]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "essays" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Jorge Luis Borges" -> "innovative literary symbols" [label="has theme [Intentionally_create]", color=lightgoldenrod, penwidth=1];
+    "The Aleph short story collection" -> "journals" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Jorge Luis Borges" -> "surrealist literary journals" [label="has theme [Publishing]", color=lightgreen, penwidth=1];
+    "The Aleph short story collection" -> "1960s" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "age of 55" [label="has time [Becoming]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "his progressive blindness" [label="has theme [Assistance]", color=lightgoldenrodyellow, penwidth=1];
+    "The Aleph short story collection" -> "collections of short stories" [label="has theme [Explaining_the_facts]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "where" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Argentina" -> "people" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "The Aleph short story collection" -> "literature" [label="has theme [Fields]", color=lightcoral, penwidth=1];
+    "The Aleph short story collection" -> "create innovative literary ..." [label="has goal [Assistance]", color=lightgoldenrodyellow, penwidth=1];
+    "Jorge Luis Borges" -> "completely blind" [label="has theme [Becoming]", color=lightpink, penwidth=1];
+    "Buenos Aires" -> "Jorge Luis Borges" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Spain" -> "Europe" [label="has location [Inclusion]", color=green, penwidth=2];
+    "The Aleph short story collection" -> "major" [label="has degree [Objective_influence]", color=lightpink, penwidth=1];
+    "Jorge Luis Borges" -> "his family" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "Jorge Luis Borges" -> "best-known" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "The Aleph short story collection" -> "collections" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "The Aleph short story collection" -> "writers" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "The Aleph short story collection" -> "magical realist movement" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "The Aleph short story collection" -> "55" [label="has age [Age]", color=lightpink, penwidth=1];
+    "The Aleph short story collection" -> "International Formentor Prize" [label="has type [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Argentina" -> "Borges surname " [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Jorge Luis Borges" -> "Buenos Aires" [label="has location [Motion]", color=green, penwidth=2];
+    "Spain" -> "Europe" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Jorge Luis Borges" -> "work" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "The Aleph short story collection" -> "1961" [label="has time [Attention]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "poems" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "New York Public Library" -> "Jorge Luis Borges" [label="has recipient [Receiving]", color=lightcoral, penwidth=1];
+    "Argentina" -> "as a key figure in Spanish-..." [label="has category [Categorization]", color=lightgray, penwidth=1];
+    "The Aleph short story collection" -> "1960s" [label="has time [Translating]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "Switzerland" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "The Aleph short story collection" -> "1914" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Spanish language" -> "Spanish-language and intern..." [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "The Aleph short story collection" -> "short stories" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "The Aleph short story collection" -> "Jorge Luis Borges" [label="has student [Education_teaching]", color=lightgray, penwidth=1];
+    "Jorge Luis Borges" -> "through imagination" [label="has means [Intentionally_create]", color=lightgoldenrod, penwidth=1];
+    "The Aleph short story collection" -> "motifs such as dreams, laby..." [label="has theme [Explaining_the_facts]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "as a librarian and public l..." [label="has position [Being_employed]", color=lightyellow, penwidth=1];
+    "Argentina" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "The Aleph short story collection" -> "director of the National Pu..." [label="has role [Appointing]", color=lightcoral, penwidth=1];
+    "The Aleph short story collection" -> "magical realist movement in..." [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Jorge Luis Borges" -> "1955" [label="has time [Leadership]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "1961" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "1961" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Samuel Beckett" -> "which" [label="has entity [Sharing]", color=lightsalmon, penwidth=1];
+    "Jorge Luis Borges" -> "1914" [label="has time [Being_born]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "widely" [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "The Aleph short story collection" -> "widely in the United States..." [label="has location [Publishing]", color=green, penwidth=2];
+    "Spanish language" -> "international" [label="has theme [Foreign_or_domestic_country]", color=lightsalmon, penwidth=1];
+    "Samuel Beckett" -> "Jorge Luis Borges" [label="has theme [Sharing]", color=lightsalmon, penwidth=1];
+    "Buenos Aires" -> "1914" [label="has time [Kinship]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "United States and Europe" [label="has location [Translating]", color=green, penwidth=2];
+    "Jorge Luis Borges" -> "New York Public Library" [label="has theme [Leadership]", color=lightseagreen, penwidth=1];
+    "Buenos Aires" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "The Aleph short story collection" -> "literary" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "Europe" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Argentina" -> "Spanish language" [label="has location [Categorization]", color=green, penwidth=2];
+    "The Aleph short story collection" -> "languages" [label="has theme [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "20th" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Argentina" -> "Argentine short-story write..." [label="has item [Categorization]", color=lightgray, penwidth=1];
+    "Jorge Luis Borges" -> "1971" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "works" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "The Aleph short story collection" -> "his work" [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Jorge Luis Borges" -> "several languages" [label="has skill [Expertise]", color=lightsalmon, penwidth=1];
+    "The Aleph short story collection" -> "widely in Europe, including..." [label="has theme [Travel]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "Europe" [label="has location [Travel]", color=green, penwidth=2];
+    "The Aleph short story collection" -> "1940s" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "Jorge Luis Borges" -> "when he received the first ..." [label="has time [Arriving]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "Argentina" [label="has goal [Arriving]", color=lightseagreen, penwidth=1];
+    "The Aleph short story collection" -> "1921" [label="has time [Text]", color=purple, penwidth=2];
+    "The Aleph short story collection" -> "family" [label="has traveler [Travel]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "his work" [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "Spanish language" -> "figure" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Samuel Beckett" -> "1961" [label="has time [Sharing]", color=purple, penwidth=2];
+    "Jorge Luis Borges" -> "Buenos Aires" [label="has location [Being_born]", color=green, penwidth=2];
+    "Jorge Luis Borges" -> "international attention" [label="has goal [Arriving]", color=lightseagreen, penwidth=1];
+    "The Aleph short story collection" -> "influence" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Argentina" -> "Borges disambiguation" [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Cape Verde" -> "Jorge Borges politician" [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "The Aleph short story collection" -> "that his progressive blindn..." [label="has message [Statement]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Increment_legend" [label="Increment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Attention_legend" [label="Attention", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Explaining_the_facts_legend" [label="Explaining_the_facts", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Sharing_legend" [label="Sharing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Travel_legend" [label="Travel", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,282 @@
+digraph Geoffrey_Chaucer {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "first writer" [label="first writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "location" [label="location", fillcolor=lightgreen, color=green, shape=box];
+    "precise date and location" [label="precise date and location", fillcolor=lightgreen, color=green, shape=box];
+    "literary languages in England" [label="literary languages in England", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "Book of the Duchess, The Ho..." [label="Book of the Duchess, The Ho...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "other works" [label="other works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Book" [label="Book", fillcolor=lightblue, color=blue, shape=ellipse];
+    "The Book of the Duchess" [label="The Book of the Duchess", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his other works" [label="his other works", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "one capable of finding poet..." [label="one capable of finding poet...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "since" [label="since", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His contemporary Thomas Hoc..." [label="His contemporary Thomas Hoc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arms" [label="Arms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "extraordinary" [label="extraordinary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Westminster Abbey" [label="Westminster Abbey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1343" [label="1343", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two thousand English words" [label="two thousand English words", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his monument" [label="his monument", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fyndere of our fair langage" [label="fyndere of our fair langage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Good" [label="Good", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what" [label="what", fillcolor=lightgray, color=gray, shape=hexagon];
+    "accounts" [label="accounts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Legend of Good Women" [label="The Legend of Good Women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandfather" [label="grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Middle English" [label="Middle English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as shire knight for Kent" [label="as shire knight for Kent", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wine merchant" [label="wine merchant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father, John Chaucer" [label="his father, John Chaucer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chaucerian manuscripts" [label="Chaucerian manuscripts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "career in public service as..." [label="career in public service as...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "the'father of English liter..." [label="the'father of English liter...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Parliament of the United Kingdom" [label="Parliament of the United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "London" [label="London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Duchess" [label="Duchess", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Almost" [label="Almost", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as crucial in legitimising ..." [label="as crucial in legitimising ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Women" [label="Women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1400" [label="1400", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early 1340s" [label="early 1340s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first one" [label="first one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "example" [label="example", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be buried in what has since..." [label="be buried in what has since...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Hoccleve" [label="Thomas Hoccleve", fillcolor=lightgray, color=gray, shape=hexagon];
+    "important wine merchant wit..." [label="important wine merchant wit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anglo-Norman French and Latin" [label="Anglo-Norman French and Latin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Almost two thousand English..." [label="Almost two thousand English...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "member" [label="member", fillcolor=lightgray, color=gray, shape=hexagon];
+    "still" [label="still", fillcolor=lightgray, color=gray, shape=hexagon];
+    "son" [label="son", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chaucer disambiguation " [label="Chaucer disambiguation ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wine merchant with a royal ..." [label="wine merchant with a royal ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1340s" [label="1340s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Geoffrey Chaucer" [label="Geoffrey Chaucer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poets'Corner in Westminster..." [label="Poets'Corner in Westminster...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "legitimising the literary u..." [label="legitimising the literary u...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "manuscripts" [label="manuscripts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "use of Middle English" [label="use of Middle English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what has since become Poets..." [label="what has since become Poets...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some accounts" [label="some accounts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetic matter" [label="poetic matter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unknown" [label="unknown", fillcolor=lightgray, color=gray, shape=hexagon];
+    "attested in Chaucerian manu..." [label="attested in Chaucerian manu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "upward mobility" [label="upward mobility", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Canterbury Tales" [label="The Canterbury Tales", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fame as a philosopher and a..." [label="fame as a philosopher and a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "House" [label="House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scientific A Treatise on th..." [label="scientific A Treatise on th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fame" [label="Fame", fillcolor=lightgray, color=gray, shape=hexagon];
+    "finding poetic matter in En..." [label="finding poetic matter in En...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " the firste fyndere of ..." [label="as " the firste fyndere of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "our fair langage" [label="our fair langage", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Geoffrey Chaucer" -> "Almost" [label="has theme [Proportional_quantity]", color=lightblue, penwidth=1];
+    "England" -> "poetic matter" [label="has theme [Locating]", color=lightcoral, penwidth=1];
+    "The Canterbury Tales" -> "England" [label="has location [Capability]", color=green, penwidth=2];
+    "England" -> "fyndere of our fair langage" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Geoffrey Chaucer" -> "manuscripts" [label="has text [Text]", color=lightpink, penwidth=1];
+    "The Canterbury Tales" -> "finding poetic matter in En..." [label="has event [Capability]", color=lightgreen, penwidth=1];
+    "Geoffrey Chaucer" -> "two thousand English words" [label="has theme [Proportional_quantity]", color=lightblue, penwidth=1];
+    "England" -> "Chaucer disambiguation " [label="has theme [Reference_text]", color=lightcyan, penwidth=1];
+    "England" -> "uses" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+    "London" -> "early" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "England" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "England" -> "still" [label="has theme [Continued_state_of_affairs]", color=lightgoldenrodyellow, penwidth=1];
+    "The Canterbury Tales" -> "precise date and location" [label="has entity [State_continue]", color=lightseagreen, penwidth=1];
+    "London" -> "some accounts" [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Geoffrey Chaucer" -> "as crucial in legitimising ..." [label="has category [Grasp]", color=lightgoldenrod, penwidth=1];
+    "England" -> "languages" [label="has theme [Locale]", color=lightpink, penwidth=1];
+    "Geoffrey Chaucer" -> "scientific A Treatise on th..." [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "England" -> "our fair langage" [label="has theme [First_rank]", color=lightcoral, penwidth=1];
+    "Geoffrey Chaucer" -> "Arms" [label="has theme [Body_parts]", color=lightblue, penwidth=1];
+    "London" -> "his monument" [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Westminster Abbey" -> "other works" [label="has theme [Increment]", color=lightsteelblue, penwidth=1];
+    "Westminster Abbey" -> "his other works" [label="has theme [Interior_profile_relation]", color=lightcoral, penwidth=1];
+    "England" -> "1400" [label="has time [Death]", color=purple, penwidth=2];
+    "England" -> "one capable of finding poet..." [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Westminster Abbey" -> "Geoffrey Chaucer" [label="has theme [Change_of_leadership]", color=lightyellow, penwidth=1];
+    "Westminster Abbey" -> "extraordinary" [label="has theme [Instance]", color=lightpink, penwidth=1];
+    "Parliament of the United Kingdom" -> "member" [label="has member [Membership]", color=lightcyan, penwidth=1];
+    "Westminster Abbey" -> "writer" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "England" -> "use of Middle English" [label="has activity [Fields]", color=lightgray, penwidth=1];
+    "England" -> "literary languages in England" [label="has theme [Dominate_situation]", color=lightgoldenrodyellow, penwidth=1];
+    "Geoffrey Chaucer" -> "important wine merchant wit..." [label="has theme [Becoming]", color=lightseagreen, penwidth=1];
+    "England" -> "as " the firste fyndere of ..." [label="has reason [Judgment_communication]", color=lightsalmon, penwidth=1];
+    "Westminster Abbey" -> "be buried in what has since..." [label="has theme [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Geoffrey Chaucer" -> "England" [label="has location [Grasp]", color=green, penwidth=2];
+    "Geoffrey Chaucer" -> "London" [label="has location [Being_born]", color=green, penwidth=2];
+    "Westminster Abbey" -> "England" [label="has location [Expertise]", color=green, penwidth=2];
+    "Westminster Abbey" -> "example" [label="has theme [Instance]", color=lightpink, penwidth=1];
+    "Westminster Abbey" -> "what" [label="has entity [Becoming]", color=lightseagreen, penwidth=1];
+    "Westminster Abbey" -> "Poets'Corner in Westminster..." [label="has theme [Becoming]", color=lightseagreen, penwidth=1];
+    "England" -> "Geoffrey Chaucer" [label="has item [First_rank]", color=lightcoral, penwidth=1];
+    "The Legend of Good Women" -> "Women" [label="has person [People]", color=red, penwidth=2];
+    "Geoffrey Chaucer" -> "Westminster Abbey" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Geoffrey Chaucer" -> "his father, John Chaucer" [label="has entity [Becoming]", color=lightseagreen, penwidth=1];
+    "England" -> "literary" [label="has purpose [Using]", color=lightsteelblue, penwidth=1];
+    "The Book of the Duchess" -> "Book" [label="has text [Text]", color=lightpink, penwidth=1];
+    "The Canterbury Tales" -> "first writer" [label="has theme [Burying]", color=lightcoral, penwidth=1];
+    "The Book of the Duchess" -> "Duchess" [label="has author [Text]", color=lightpink, penwidth=1];
+    "England" -> "languages" [label="has theme [Fields]", color=lightgray, penwidth=1];
+    "Westminster Abbey" -> "writer" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "England" -> "His contemporary Thomas Hoc..." [label="has theme [Judgment_communication]", color=lightsalmon, penwidth=1];
+    "Geoffrey Chaucer" -> "attested in Chaucerian manu..." [label="has theme [First_experience]", color=lightblue, penwidth=1];
+    "Geoffrey Chaucer" -> "son" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Geoffrey Chaucer" -> "the'father of English liter..." [label="has theme [Labeling]", color=lightgreen, penwidth=1];
+    "Westminster Abbey" -> "Book of the Duchess, The Ho..." [label="has theme [Interior_profile_relation]", color=lightcoral, penwidth=1];
+    "Westminster Abbey" -> "House" [label="has theme [Buildings]", color=lightyellow, penwidth=1];
+    "Westminster Abbey" -> "wine merchant with a royal ..." [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "England" -> "Anglo-Norman French and Latin" [label="has theme [Continued_state_of_affairs]", color=lightgoldenrodyellow, penwidth=1];
+    "Geoffrey Chaucer" -> "Almost two thousand English..." [label="has theme [Evidence]", color=lightcyan, penwidth=1];
+    "Westminster Abbey" -> "writer" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "The Canterbury Tales" -> "Westminster Abbey" [label="has location [Burying]", color=green, penwidth=2];
+    "The Legend of Good Women" -> "Good" [label="has theme [People]", color=lightpink, penwidth=1];
+    "The Canterbury Tales" -> "what has since become Poets..." [label="has goal [Burying]", color=lightcoral, penwidth=1];
+    "Westminster Abbey" -> "since" [label="has time [Becoming]", color=purple, penwidth=2];
+    "London" -> "location" [label="has theme [Locale]", color=lightpink, penwidth=1];
+    "The Canterbury Tales" -> "first one" [label="has entity [Capability]", color=lightgreen, penwidth=1];
+    "England" -> "author" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Geoffrey Chaucer" -> "grandfather" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Geoffrey Chaucer" -> "career in public service as..." [label="has activity [Activity_ongoing]", color=lightsteelblue, penwidth=1];
+    "Westminster Abbey" -> "as shire knight for Kent" [label="has role [Change_of_leadership]", color=lightyellow, penwidth=1];
+    "London" -> "early 1340s" [label="has theme [Likelihood]", color=lightgray, penwidth=1];
+    "London" -> "most" [label="has degree [Likelihood]", color=lightgray, penwidth=1];
+    "England" -> "Middle English" [label="has instrument [Using]", color=lightsteelblue, penwidth=1];
+    "Westminster Abbey" -> "public" [label="has theme [Public_services]", color=lightgoldenrodyellow, penwidth=1];
+    "London" -> "1340s" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "London" -> "accounts" [label="has text [Text]", color=lightpink, penwidth=1];
+    "England" -> "Thomas Hoccleve" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "England" -> "literary" [label="has theme [Locale]", color=lightpink, penwidth=1];
+    "Westminster Abbey" -> "upward mobility" [label="has type [Instance]", color=lightpink, penwidth=1];
+    "Westminster Abbey" -> "wine merchant" [label="has competitor [Win_prize]", color=lightsalmon, penwidth=1];
+    "Westminster Abbey" -> "Fame" [label="has function [Buildings]", color=lightyellow, penwidth=1];
+    "The Canterbury Tales" -> "unknown" [label="has state [State_continue]", color=lightseagreen, penwidth=1];
+    "Geoffrey Chaucer" -> "fame as a philosopher and a..." [label="has theme [Getting]", color=lightgoldenrod, penwidth=1];
+    "Geoffrey Chaucer" -> "1343" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Westminster Abbey" -> "England" [label="has location [Text_creation]", color=green, penwidth=2];
+    "England" -> "Geoffrey Chaucer" [label="has theme [Judgment_communication]", color=lightsalmon, penwidth=1];
+    "Geoffrey Chaucer" -> "Chaucerian manuscripts" [label="has theme [Evidence]", color=lightcyan, penwidth=1];
+    "Geoffrey Chaucer" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "The Canterbury Tales" -> "London" [label="has location [State_continue]", color=green, penwidth=2];
+    "England" -> "legitimising the literary u..." [label="has theme [Importance]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Continued_state_of_affairs_legend" [label="Continued_state_of_affairs", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Body_parts_legend" [label="Body_parts", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Change_of_leadership_legend" [label="Change_of_leadership", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Instance_legend" [label="Instance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Dominate_situation_legend" [label="Dominate_situation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Burying_legend" [label="Burying", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Public_services_legend" [label="Public_services", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

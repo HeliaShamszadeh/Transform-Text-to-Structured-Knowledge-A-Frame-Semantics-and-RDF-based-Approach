@@ -1,0 +1,282 @@
+digraph Naguib_Mahfouz {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "contemporary writers in Ara..." [label="contemporary writers in Ara...", fillcolor=lightcoral, color=red, shape=circle];
+    "as a writer " who, through ..." [label="as a writer " who, through ...", fillcolor=lightcoral, color=red, shape=circle];
+    "Arab authors" [label="Arab authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as realist literature" [label="as realist literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "through works rich in nuanc..." [label="through works rich in nuanc...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Mahfouz's literature" [label="Mahfouz's literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Many of Mahfouz's works" [label="Many of Mahfouz's works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "He published 35 novels, ove..." [label="He published 35 novels, ove...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His most famous works" [label="His most famous works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "35 novels, over 350 short s..." [label="35 novels, over 350 short s...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Arabic literature" [label="Arabic literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "over a 70-year career, from..." [label="over a 70-year career, from...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most widely adap..." [label="one of the most widely adap...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nuance" [label="nuance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rich" [label="rich", fillcolor=lightgray, color=gray, shape=hexagon];
+    "youngest" [label="youngest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his compound" [label="his compound", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "existential themes" [label="existential themes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first part of his compound ..." [label="first part of his compound ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arabian narrative art that ..." [label="Arabian narrative art that ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part of his compound given ..." [label="part of his compound given ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sisters" [label="sisters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "newspapers" [label="newspapers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "texts" [label="texts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "op-ed columns for Egyptian ..." [label="op-ed columns for Egyptian ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mahfouz's" [label="Mahfouz's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cairo" [label="Cairo", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Egypt" [label="Egypt", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "all of them" [label="all of them", fillcolor=lightgray, color=gray, shape=hexagon];
+    "than him" [label="than him", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lower middle-class Muslim E..." [label="lower middle-class Muslim E...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Naguib Mahfouz" [label="Naguib Mahfouz", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Naguib Pasha Mahfouz" [label="Naguib Pasha Mahfouz", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hundreds" [label="hundreds", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most widely adapted Arab au..." [label="most widely adapted Arab au...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into Egyptian and internati..." [label="into Egyptian and internati...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Taha Hussein" [label="Taha Hussein", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2004" [label="2004", fillcolor=lightgray, color=gray, shape=hexagon];
+    "350 short stories" [label="350 short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arabic" [label="Arabic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "appreciation of the well-kn..." [label="appreciation of the well-kn...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "narrative" [label="narrative", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cairo Trilogy and Children ..." [label="Cairo Trilogy and Children ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1911" [label="1911", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven" [label="seven", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1930s until 2004" [label="1930s until 2004", fillcolor=lightgray, color=gray, shape=hexagon];
+    " only child" [label=" only child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Egyptian to win the Nobel P..." [label="Egyptian to win the Nobel P...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brothers" [label="brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "doctor" [label="doctor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Old Cairo" [label="Old Cairo", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arabian Peninsula" [label="Arabian Peninsula", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the first contemp..." [label="as one of the first contemp...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Islam" [label="Islam", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sweden" [label="Sweden", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Swedish Academy" [label="Swedish Academy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over" [label="over", fillcolor=lightgray, color=gray, shape=hexagon];
+    "explore themes of existenti..." [label="explore themes of existenti...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "only Egyptian" [label="only Egyptian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "realist" [label="realist", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Naguib Pasha Mahfouz" -> "Naguib Mahfouz" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "one" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Naguib Mahfouz" -> "as one of the first contemp..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Arabian Peninsula" -> "his compound" [label="has theme [Part_whole]", color=lightyellow, penwidth=1];
+    "Arabian Peninsula" -> "art" [label="has activity [Fields]", color=lightpink, penwidth=1];
+    "Naguib Mahfouz" -> "youngest" [label="has theme [People_by_age]", color=lightcyan, penwidth=1];
+    "Naguib Mahfouz" -> "explore themes of existenti..." [label="has purpose [Accompaniment]", color=lightsteelblue, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Quantified_mass]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "Cairo" [label="has entity [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Text]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "seven" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Egypt" -> "newspapers" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Islam" -> "1911" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "two" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Naguib Mahfouz" -> "works" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Naguib Pasha Mahfouz" -> " only child" [label="has theme [Transition_to_state]", color=lightgoldenrod, penwidth=1];
+    "Naguib Mahfouz" -> "Arabic" [label="has location [Accompaniment]", color=green, penwidth=2];
+    "Arabic" -> "texts" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Arabian Peninsula" -> "Old Cairo" [label="has location [Age]", color=green, penwidth=2];
+    "Islam" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Naguib Mahfouz" -> "doctor" [label="has theme [Medical_professionals]", color=lightsteelblue, penwidth=1];
+    "Sweden" -> "Naguib Mahfouz" [label="has item [Communicate_categorization]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "who" [label="has entity [Coming_to_be]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "widely" [label="has theme [Achieving_first]", color=lightcoral, penwidth=1];
+    "Naguib Pasha Mahfouz" -> "works" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "Arabian Peninsula" -> "plays" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Sweden" -> "as a writer " who, through ..." [label="has category [Communicate_categorization]", color=lightcoral, penwidth=1];
+    "Naguib Mahfouz" -> "Mahfouz's" [label="has author [Text]", color=lightseagreen, penwidth=1];
+    "Naguib Mahfouz" -> "as realist literature" [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Arabian Peninsula" -> "stories" [label="has theme [Duration_description]", color=lightyellow, penwidth=1];
+    "Egypt" -> "over a 70-year career, from..." [label="has time [Publishing]", color=purple, penwidth=2];
+    "Egypt" -> "1911" [label="has time [Text]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "Cairo Trilogy and Children ..." [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+    "Naguib Pasha Mahfouz" -> " only child" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Naguib Mahfouz" -> "lower middle-class Muslim E..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Naguib Mahfouz" -> "Mahfouz's literature" [label="has item [Categorization]", color=lightgreen, penwidth=1];
+    "Egypt" -> "2004" [label="has time [Text]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "1930s until 2004" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Naguib Pasha Mahfouz" -> "Naguib Mahfouz" [label="has entity [Origin]", color=lightseagreen, penwidth=1];
+    "Arabian Peninsula" -> "narrative" [label="has type [Fields]", color=lightpink, penwidth=1];
+    "Egypt" -> "only Egyptian" [label="has competitor [Win_prize]", color=lightsalmon, penwidth=1];
+    "Naguib Pasha Mahfouz" -> "Naguib Mahfouz" [label="has agent [Labor_product]", color=lightgreen, penwidth=1];
+    "Arabic" -> "contemporary writers in Ara..." [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Naguib Mahfouz" -> "one of the most widely adap..." [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Islam" -> "Old Cairo" [label="has location [Kinship]", color=green, penwidth=2];
+    "Arabian Peninsula" -> "most widely adapted Arab au..." [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Egyptian to win the Nobel P..." [label="has type [Sole_instance]", color=lightsteelblue, penwidth=1];
+    "Arabian Peninsula" -> "1911" [label="has time [Age]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "brothers" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Arabian Peninsula" -> "through works rich in nuanc..." [label="has theme [Coming_to_be]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "nuance" [label="has theme [Position_on_a_scale]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "op-ed columns for Egyptian ..." [label="has theme [Quantified_mass]", color=lightgray, penwidth=1];
+    "Sweden" -> "Swedish Academy" [label="has speaker [Communicate_categorization]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "stories" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Arabian Peninsula" -> "Arab authors" [label="has theme [Achieving_first]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "He published 35 novels, ove..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Naguib Mahfouz" -> "Many of Mahfouz's works" [label="has theme [Processing_materials]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "than him" [label="has degree [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Arabian Peninsula" -> "part of his compound given ..." [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Arabian Peninsula" -> "all of them" [label="has entity [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Arabian Peninsula" -> "part" [label="has theme [Part_whole]", color=lightyellow, penwidth=1];
+    "Arabic" -> "Arabic literature" [label="has theme [Text_creation]", color=lightpink, penwidth=1];
+    "Naguib Pasha Mahfouz" -> "Literature" [label="has location [Origin]", color=green, penwidth=2];
+    "Egypt" -> "Nobel Prize in Literature" [label="has prize [Win_prize]", color=lightsalmon, penwidth=1];
+    "Arabian Peninsula" -> "existential themes" [label="has entity [Coming_to_be]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "Mahfouz's literature" [label="has location [Coming_to_be]", color=green, penwidth=2];
+    "Naguib Pasha Mahfouz" -> "Naguib Pasha Mahfouz" [label="has entity [Transition_to_state]", color=lightgoldenrod, penwidth=1];
+    "Naguib Mahfouz" -> "into Egyptian and internati..." [label="has result [Processing_materials]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "appreciation of the well-kn..." [label="has theme [Choosing]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Sole_instance]", color=green, penwidth=2];
+    "Arabian Peninsula" -> "His most famous works" [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+    "Arabian Peninsula" -> "child" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Egypt" -> "Literature" [label="has location [Win_prize]", color=green, penwidth=2];
+    "Arabian Peninsula" -> "child" [label="has entity [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Naguib Mahfouz" -> "Taha Hussein" [label="has theme [Accompaniment]", color=lightsteelblue, penwidth=1];
+    "Arabian Peninsula" -> "over" [label="has theme [Proportional_quantity]", color=lightgreen, penwidth=1];
+    "Naguib Mahfouz" -> "literature" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Arabian Peninsula" -> "international" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Arabian Peninsula" -> "novels" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Arabian Peninsula" -> "sisters" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Arabian Peninsula" -> "hundreds" [label="has quantity [Quantified_mass]", color=lightgray, penwidth=1];
+    "Egypt" -> "world" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Arabian Peninsula" -> "realist" [label="has type [Fields]", color=lightpink, penwidth=1];
+    "Arabian Peninsula" -> "first part of his compound ..." [label="has theme [Choosing]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "authors" [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "Naguib Mahfouz" -> "1911" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Naguib Mahfouz" -> "Arabic" [label="has location [Categorization]", color=green, penwidth=2];
+    "Arabian Peninsula" -> "350 short stories" [label="has theme [Proportional_quantity]", color=lightgreen, penwidth=1];
+    "Egypt" -> "article" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Arabian Peninsula" -> "sisters" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Egypt" -> "35 novels, over 350 short s..." [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "Arabian Peninsula" -> "rich" [label="has value [Position_on_a_scale]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Proportional_quantity]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "Arabian narrative art that ..." [label="has role [Coming_to_be]", color=lightblue, penwidth=1];
+    "Arabian Peninsula" -> "youngest" [label="has degree [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Naguib Pasha Mahfouz" -> "Naguib Pasha Mahfouz" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Arabian Peninsula" -> "works" [label="has item [Position_on_a_scale]", color=lightcoral, penwidth=1];
+    "Arabian Peninsula" -> "2004" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "Arabian Peninsula" -> "literature" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "Naguib Pasha Mahfouz" -> "Egypt" [label="has theme [Origin]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Accompaniment_legend" [label="Accompaniment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Transition_to_state_legend" [label="Transition_to_state", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Medical_professionals_legend" [label="Medical_professionals", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Coming_to_be_legend" [label="Coming_to_be", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Achieving_first_legend" [label="Achieving_first", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Sole_instance_legend" [label="Sole_instance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Position_on_a_scale_legend" [label="Position_on_a_scale", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Processing_materials_legend" [label="Processing_materials", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Choosing_legend" [label="Choosing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

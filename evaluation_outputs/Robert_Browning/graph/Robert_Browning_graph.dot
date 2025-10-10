@@ -1,0 +1,288 @@
+digraph Robert_Browning {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "Dramatis Personae" [label="Dramatis Personae", fillcolor=lightcoral, color=red, shape=circle];
+    "His Dramatis Personae 1864 ..." [label="His Dramatis Personae 1864 ...", fillcolor=lightcoral, color=red, shape=circle];
+    "more personal style" [label="more personal style", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "Bank of England" [label="Bank of England", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work on a sugar plantation" [label="work on a sugar plantation", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book-length" [label="book-length", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "his death in 1889" [label="his death in 1889", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Lock" [label="Lock", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his 1840 poem Sordello" [label="his 1840 poem Sordello", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Britain and the US" [label="Britain and the US", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Percy Bysshe Shelley" [label="Percy Bysshe Shelley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1846" [label="1846", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Caribbean" [label="Caribbean", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Barrett Browning" [label="Elizabeth Barrett Browning", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a sage and philosopher-p..." [label="as a sage and philosopher-p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Italy" [label="Italy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "recover" [label="recover", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as wilfully obscure" [label="as wilfully obscure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leading" [label="leading", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slave" [label="slave", fillcolor=lightgray, color=gray, shape=hexagon];
+    "14 June 1812" [label="14 June 1812", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandfather" [label="grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Walworth in the parish of C..." [label="Walworth in the parish of C...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Societies for studying his ..." [label="Societies for studying his ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "York Street" [label="York Street", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "decade" [label="decade", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high among the Victorian poets" [label="high among the Victorian poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1861" [label="1861", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Browning" [label="Robert Browning", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Browning's father" [label="Browning's father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1840" [label="1840", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Borough of Southwark in sou..." [label="Borough of Southwark in sou...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saint Kitts" [label="Saint Kitts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sugar plantation" [label="sugar plantation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "London" [label="London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slave revolt" [label="slave revolt", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "forms" [label="forms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lock's Fields Independent C..." [label="Lock's Fields Independent C...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "long poems" [label="long poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father" [label="His father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Browning disambiguat..." [label="Robert Browning disambiguat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following a slave revolt" [label="following a slave revolt", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United Kingdom" [label="United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he married fellow poet Eliz..." [label="he married fellow poet Eliz...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social and political" [label="social and political", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Browning's mother" [label="Browning's mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "owner" [label="owner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plantation" [label="plantation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his early long poems Paulin..." [label="his early long poems Paulin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "£150" [label="£150", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leading poet" [label="leading poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sordello" [label="Sordello", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shelleyan forms" [label="Shelleyan forms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high" [label="high", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection Men and Women" [label="collection Men and Women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over a decade" [label="over a decade", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Browning's" [label="Browning's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victorian era" [label="Victorian era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "German shipowner who had se..." [label="German shipowner who had se...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Societies" [label="Societies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Scottish wife" [label="Scottish wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sarah Anna née Wiedemann an..." [label="Sarah Anna née Wiedemann an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his reputation" [label="his reputation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dramatic monologues" [label="dramatic monologues", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Walworth" [label="Walworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sugar" [label="sugar", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1889" [label="1889", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over" [label="over", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fellow poet Elizabeth Barrett" [label="fellow poet Elizabeth Barrett", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dundee" [label="Dundee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the 20th century" [label="into the 20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "irony, characterization, da..." [label="irony, characterization, da...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pauline 1833 and Paracelsus..." [label="Pauline 1833 and Paracelsus...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Dramatis Personae" -> "His Dramatis Personae 1864 ..." [label="has cause [Causation]", color=lightblue, penwidth=1];
+    "Bank of England" -> "£150" [label="has theme [Earnings_and_losses]", color=lightcoral, penwidth=1];
+    "Saint Kitts" -> "sugar plantation" [label="has task [Being_employed]", color=lightgreen, penwidth=1];
+    "Robert Browning" -> "poem" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "Lock" [label="has location [Kinship]", color=green, penwidth=2];
+    "York Street" -> "Robert Browning" [label="has theme [Rite]", color=lightcyan, penwidth=1];
+    "Robert Browning" -> "his work" [label="has theme [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "United Kingdom" -> "20th" [label="has theme [Calendric_unit]", color=lightgray, penwidth=1];
+    "Bank of England" -> "year" [label="has theme [Measure_duration]", color=lightgoldenrodyellow, penwidth=1];
+    "Robert Browning" -> "poems" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Robert Browning" -> "collection Men and Women" [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "Robert Browning" -> "Pauline 1833 and Paracelsus..." [label="has theme [Judgment_communication]", color=lightgoldenrod, penwidth=1];
+    "Robert Browning" -> "Dundee" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "Robert Browning" -> "high" [label="has value [Position_on_a_scale]", color=lightsteelblue, penwidth=1];
+    "Robert Browning" -> "Britain and the US" [label="has location [Surviving]", color=green, penwidth=2];
+    "Saint Kitts" -> "German shipowner who had se..." [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "as a sage and philosopher-p..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Saint Kitts" -> "sugar" [label="has theme [Growing_food]", color=lightcoral, penwidth=1];
+    "Robert Browning" -> "decade" [label="has theme [Measure_duration]", color=lightgoldenrodyellow, penwidth=1];
+    "Robert Browning" -> "1846" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Robert Browning" -> "Robert Browning disambiguat..." [label="has theme [Reference_text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "over a decade" [label="has theme [Taking_time]", color=purple, penwidth=2];
+    "Robert Browning" -> "Societies" [label="has theme [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "England" -> "article" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "Scottish wife" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Robert Browning" -> "father" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "Walworth in the parish of C..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Robert Browning" -> "over" [label="has theme [Proportional_quantity]", color=lightsteelblue, penwidth=1];
+    "Robert Browning" -> "more personal style" [label="has goal [Motion]", color=lightgray, penwidth=1];
+    "Robert Browning" -> "Sarah Anna née Wiedemann an..." [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "Dundee" [label="has location [Kinship]", color=green, penwidth=2];
+    "Robert Browning" -> "his death in 1889" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Robert Browning" -> "following a slave revolt" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Walworth" -> "Borough of Southwark in sou..." [label="has theme [Part_whole]", color=lightseagreen, penwidth=1];
+    "Robert Browning" -> "United Kingdom" [label="has location [Scrutiny]", color=green, penwidth=2];
+    "Robert Browning" -> "people" [label="has class [Increment]", color=lightsalmon, penwidth=1];
+    "Victorian era" -> "social and political" [label="has theme [Discussion]", color=lightgoldenrod, penwidth=1];
+    "Saint Kitts" -> "plantation" [label="has theme [Growing_food]", color=lightcoral, penwidth=1];
+    "Caribbean" -> "Browning's father" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Saint Kitts" -> "slave revolt" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "York Street" -> "Lock's Fields Independent C..." [label="has location [Rite]", color=green, penwidth=2];
+    "York Street" -> "14 June 1812" [label="has time [Rite]", color=purple, penwidth=2];
+    "Robert Browning" -> "decade" [label="has theme [Proportional_quantity]", color=lightsteelblue, penwidth=1];
+    "Robert Browning" -> "Italy" [label="has goal [Motion]", color=lightgray, penwidth=1];
+    "Robert Browning" -> "Saint Kitts" [label="has location [Kinship]", color=green, penwidth=2];
+    "Saint Kitts" -> "Browning's father" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Robert Browning" -> "1846" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Bank of England" -> "His father" [label="has theme [Earnings_and_losses]", color=lightcoral, penwidth=1];
+    "Robert Browning" -> "Browning's" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "England" [label="has goal [Arriving]", color=lightgoldenrodyellow, penwidth=1];
+    "Robert Browning" -> "irony, characterization, da..." [label="has reason [Fame]", color=lightcoral, penwidth=1];
+    "Robert Browning" -> "Shelleyan forms" [label="has source [Motion]", color=lightgray, penwidth=1];
+    "Victorian era" -> "dramatic monologues" [label="has cause [Causation]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "Elizabeth Barrett Browning" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "Victorian era" -> "Robert Browning" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "into the 20th century" [label="has time [Surviving]", color=purple, penwidth=2];
+    "London" -> "Walworth" [label="has location [Part_orientational]", color=green, penwidth=2];
+    "Robert Browning" -> "United Kingdom" [label="has location [Work]", color=green, penwidth=2];
+    "Robert Browning" -> "Societies for studying his ..." [label="has theme [Surviving]", color=lightcoral, penwidth=1];
+    "Percy Bysshe Shelley" -> "forms" [label="has theme [Type]", color=lightyellow, penwidth=1];
+    "Victorian era" -> "high among the Victorian poets" [label="has effect [Causation]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "time" [label="has theme [Change_position_on_a_scale]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "he married fellow poet Eliz..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Saint Kitts" -> "Dundee" [label="has location [Kinship]", color=green, penwidth=2];
+    "Robert Browning" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Dramatis Personae" -> "Robert Browning" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Sordello" -> "his 1840 poem Sordello" [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "1889" [label="has time [Death]", color=purple, penwidth=2];
+    "United Kingdom" -> "century" [label="has theme [Calendric_unit]", color=lightgray, penwidth=1];
+    "Robert Browning" -> "Sordello" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "Browning's father" [label="has theme [Arriving]", color=lightgoldenrodyellow, penwidth=1];
+    "Robert Browning" -> "his reputation" [label="has item [Change_position_on_a_scale]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "recover" [label="has activity [Taking_time]", color=purple, penwidth=2];
+    "Saint Kitts" -> "slave" [label="has theme [Possession]", color=lightsteelblue, penwidth=1];
+    "Saint Kitts" -> "Browning's father" [label="has employee [Being_employed]", color=lightgreen, penwidth=1];
+    "Robert Browning" -> "fellow poet Elizabeth Barrett" [label="has theme [Forming_relationships]", color=lightgreen, penwidth=1];
+    "Caribbean" -> "work on a sugar plantation" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "book-length" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Dramatis Personae" -> "leading poet" [label="has effect [Causation]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "1846" [label="has time [Motion]", color=purple, penwidth=2];
+    "Robert Browning" -> "grandfather" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "his early long poems Paulin..." [label="has process [Measure_duration]", color=lightgoldenrodyellow, penwidth=1];
+    "Walworth" -> "part" [label="has theme [Part_whole]", color=lightseagreen, penwidth=1];
+    "Robert Browning" -> "1840" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Robert Browning" -> "long poems" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Sordello" -> "as wilfully obscure" [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Robert Browning" -> "1861" [label="has time [Death]", color=purple, penwidth=2];
+    "Robert Browning" -> "leading" [label="has rank [People_by_vocation]", color=lightgray, penwidth=1];
+    "Saint Kitts" -> "Browning's mother" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Robert Browning" -> "collection" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Kitts" -> "owner" [label="has owner [Possession]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Causation_legend" [label="Causation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Position_on_a_scale_legend" [label="Position_on_a_scale", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Surviving_legend" [label="Surviving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Taking_time_legend" [label="Taking_time", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Part_orientational_legend" [label="Part_orientational", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Work_legend" [label="Work", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

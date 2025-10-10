@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'this Spanish name' and discusses the Spanish-language Wikipedia article, creating a semantic link between the Spanish language and the concept of naming."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Assistance:has_goal expand this article with text translated from the corresponding article in Spanish",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states: 'You can help expand this article with text translated from the corresponding article in Spanish.' This is a direct semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Have_as_requirement:has_theme additional citations",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The requirement for 'additional citations' is mentioned in the paragraph, but it is a general requirement for the Wikipedia article, not specifically linked to the Spanish language. The connection is too indirect and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Removing:has_time 2018",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The date 2018 appears in a citation needed template, but it is not semantically connected to the Spanish language or an act of removal related to it. The connection is arbitrary."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Importance:has_theme translation instructions",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Click [show] for important translation instructions' in the context of translating from the Spanish article, creating a clear semantic link between the Spanish language and the importance of translation instructions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Give_impression:has_theme text",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions translating from a Spanish article and discusses Spanish names, creating a semantic connection between the Spanish language and the text's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jaime_Lozano Being_named:has_time 1914",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Lozano' as a surname and '1914' as a birth year, but 'Jaime Lozano' is not mentioned at all, making this triple completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Cotheme:has_theme edit summary",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions providing copyright attribution in an 'edit summary' when translating from Spanish, creating a weak but valid semantic link between Spanish language and edit summary themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Translating:has_theme corresponding article in Spanish",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses translating from the 'corresponding article in Spanish,' creating a clear semantic connection between Spanish language and translation theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mexico Supply:has_location edit summary accompanying your translation",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the paragraph mentions Mexico and edit summaries separately, there's a weak semantic connection since the subject (Octavio Paz) is Mexican and the instructions include edit summaries, allowing for an indirect relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Have_as_requirement:has_theme verification",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'verification' in the context of needing to verify translated text from Spanish, creating a weak semantic link between the Spanish language and a requirement for verification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Removing:has_theme this message",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The phrase 'remove this message' appears multiple times. While not directly about the Spanish language, the text is about a Spanish Wikipedia article, creating a very weak, indirect thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Substance:has_theme Unsourced",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'Unsourced material' in the context of the article, which is a translation from the Spanish Wikipedia. This creates a very weak, indirect link between the language and the theme of being unsourced."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Discussion:has_theme these issues",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The text mentions 'discuss these issues on the talk page' for the article, which is based on a Spanish source. This creates a weak semantic connection between the Spanish language and the theme of discussion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Supply:has_theme references",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph asks to 'add citations to reliable sources' and mentions providing 'references provided in the foreign-language article' (which is Spanish). This creates a reasonable, though indirect, link between the Spanish language and the theme of supplying references."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Locating:has_theme sources",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'sources' in the context of needing citations for verification, and the article is a translation from Spanish. The connection to 'Spanish language' as a theme for sources is very weak but semantically possible."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Coming_to_believe:has_theme how and when to remove these messages",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The phrase 'how and when to remove these messages' appears in the text. The connection to 'Spanish language' as a theme for 'coming to believe' is extremely tenuous, but the text is about a Spanish-language article, creating a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Correctness:has_information translation",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly discusses translating the article from Spanish, mentioning 'translation' and the need for accuracy. This creates a clear semantic connection between the Spanish language and information about translation correctness."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Ordinal_numbers:has_type family name",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The text explains Spanish naming conventions ('first or paternal surname... second or maternal family name'), which implies an ordinal sequence. The connection to 'ordinal numbers' as a type of 'family name' is indirect but semantically related to the Spanish language context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Increment:has_class citations",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that the article 'needs additional citations,' which implies an incremental action (adding). The connection to 'Spanish language' as a class for this increment is weak, but the need for citations is related to the Spanish-language source article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Education_teaching:has_skill how and when to remove this message",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'how and when to remove this message' appears in the paragraph, and the article mentions translation from Spanish. There is a very weak semantic connection that managing article messages could be considered a skill related to the Spanish language context of the article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Calendric_unit:has_theme August",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains 'August 2018' in a citation context. There is a weak connection that August is a calendric unit mentioned in the same article that discusses Spanish language content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Locating:has_time 2018",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The year 2018 appears in the citation notice. While the connection to Spanish language is indirect (the article deals with Spanish translation), the temporal reference is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jaime_Lozano Being_named:has_entity second or maternal family",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'second or maternal family' appears in the paragraph, but it refers to 'Lozano' as part of Octavio Paz's name, not to Jaime Lozano. The entity Jaime Lozano is not mentioned or implied in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Removing:has_theme these messages",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'remove these messages' appears multiple times in the paragraph's template text. There is a weak semantic connection that 'removing' is an action mentioned in the context of an article that involves Spanish language content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Reference_text:has_theme Wikipedia:Translation",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses translating from a Spanish Wikipedia article and mentions 'Wikipedia:Translation' as guidance, creating a semantic link between the Spanish language and the theme of translation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Contacting:has_purpose important translation instructions",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text contains 'important translation instructions' related to translating from Spanish, implying a purpose for engaging with the Spanish language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Increment:has_class guidance",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship 'Increment:has_class' is too abstract and does not have a clear semantic anchor in the paragraph. While 'guidance' is mentioned, it is not reasonably connected to the Spanish language via this specific predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Assistance:has_goal improve this article by adding citations to reliable sources",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains the phrase 'improve this article by adding citations to reliable sources'. While this is a separate request from the Spanish translation part, there is a weak, contextual link as both are actions requested to improve the article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Verification:has_theme This article",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions verifying the text from the Spanish article and also refers to 'This article' multiple times, creating a reasonable, though indirect, semantic connection for verification having the article as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Source_of_getting:has_time 2018",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'August 2018' in the context of a citation needed message. While the connection to 'Spanish language' as a source and the specific predicate 'has_time' is extremely weak and indirect, the date 2018 is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Possibility:has_theme also add the template Translated",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph explicitly discusses translating from Spanish and includes the instruction 'also add the template {{Translated|es|Octavio Paz}}'. This creates a direct semantic link between the Spanish language and the theme of translation/add template."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Cotheme:has_theme your translation",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph instructs the reader about providing a translation from Spanish, stating 'You must provide copyright attribution...for your translation'. This connects the Spanish language to the theme of 'your translation'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Source_of_getting:has_theme source",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The text mentions translating from a Spanish source article and verifying the text with references from the 'foreign-language article'. This weakly supports a connection between Spanish language and the theme of being a source."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Ordinal_numbers:has_time 1914",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year 1914 is present as Octavio Paz's birth year. The connection to 'Spanish language' via the predicate 'has_time' is very tenuous, but both concepts (Spanish language and the year 1914) appear in the paragraph, creating a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Usefulness:has_entity starting point",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Machine translation, like DeepL or Google Translate, is a useful starting point for translations' in the context of translating from Spanish. The concept of a 'starting point' is semantically related to the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Have_as_requirement:has_theme This article",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states the article can be expanded with text 'translated from the corresponding article in Spanish,' establishing a direct thematic requirement linking the Spanish language to the article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Assistance:has_goal improve it or discuss these issues on the talk page",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions improving the article and discussing issues, and separately mentions translation from Spanish. The connection is weak and indirect, but both concepts are present, allowing for a lenient semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mexico Supply:has_theme interlanguage link to the source of your translation",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject, Octavio Paz, is Mexican, and the paragraph mentions providing an 'interlanguage link to the source of your translation.' However, there is no semantic connection between Mexico itself and the theme of supplying an interlanguage link; the link is for the Spanish source article, not Mexico."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Source_of_getting:has_theme your translation",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly instructs to translate 'from the corresponding article in Spanish,' making Spanish the clear source for the translation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Being_named:has_time 1914",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions the Spanish language and the year 1914, but there is no direct semantic link between them. The connection is extremely weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Verification:has_theme text with references provided in the foreign-language article",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions verifying text with references from the foreign-language (Spanish) article. This creates a semantic link between 'Spanish language' and the theme of verification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Ordinal_numbers:has_type surname",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Spanish naming conventions (paternal/maternal surnames) in the context of the Spanish language. There is a weak semantic link between the language and the concept of a surname type."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Substance:has_theme material",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'unsourced material' in the context of the article, which is related to the Spanish source article. The connection to 'material' as a theme of the Spanish language is very weak and tangential."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Calendric_unit:has_time 2018",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions the year 2018 in a citation note and also mentions the Spanish language. There is no direct link, but both concepts are present, creating a very weak, indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Discussion:has_location talk page",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'talk page' in the context of discussing issues related to the article, and the article is about a Spanish-named individual with content translated from Spanish, creating a semantic connection between discussion and the Spanish language context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mexico Supply:has_theme copyright attribution",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'copyright attribution' and is about Octavio Paz who was Mexican. While the connection is indirect, there's a semantic link between the Mexican subject and the copyright attribution requirement for the article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Required_event:has_theme revise errors as necessary and confirm that the translation is accurate",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses translating from Spanish and the requirement to 'revise errors as necessary and confirm that the translation is accurate', creating a clear semantic connection between Spanish language and this required action."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Text:has_text text",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions translating text from Spanish and discusses 'text' multiple times in the context of translation, creating a reasonable semantic connection between Spanish language and text content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Calendric_unit:has_theme 2018",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains the date '2018' in a citation context, and since the article involves Spanish language translation, there's a weak but valid semantic connection through the temporal context of the article's maintenance."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 22,
+    "accuracy": 0.44,
+    "avg_confidence": 0.45799999999999996,
+    "high_confidence_50": 22,
+    "high_confidence_80": 9,
+    "percent_50": 44.0,
+    "percent_80": 18.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,299 @@
+digraph Edgar_Allan_Poe {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer, poet, editor, and l..." [label="writer, poet, editor, and l...", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writer, primarily of poems" [label="writer, primarily of poems", fillcolor=lightcoral, color=red, shape=circle];
+    "well-known American writer" [label="well-known American writer", fillcolor=lightcoral, color=red, shape=circle];
+    "become a writer, primarily ..." [label="become a writer, primarily ...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "country" [label="country", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "American literature" [label="American literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "death of Allan's wife, Fran..." [label="death of Allan's wife, Fran...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "after the death of Allan's ..." [label="after the death of Allan's ...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "earn a living exclusively t..." [label="earn a living exclusively t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1827" [label="1827", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his education as well as hi..." [label="his education as well as hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edgar Allan Poe" [label="Edgar Allan Poe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective fiction genre" [label="detective fiction genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective fiction" [label="detective fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poe and Allan" [label="Poe and Allan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "money" [label="money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "officer" [label="officer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Allan's" [label="Allan's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John and Frances Allan of R..." [label="John and Frances Allan of R...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following" [label="following", fillcolor=lightgray, color=gray, shape=hexagon];
+    "failed as an officer cadet ..." [label="failed as an officer cadet ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adulthood" [label="adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "only to "a Bostonian" [label="only to "a Bostonian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an officer cadet at West..." [label="as an officer cadet at West...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ways" [label="ways", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following year" [label="following year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first collection, Tamer..." [label="his first collection, Tamer...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "quarreled with John Allan o..." [label="quarreled with John Allan o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the central figur..." [label="as one of the central figur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American" [label="American", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formally adopted him" [label="formally adopted him", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poe and Allan reached a tem..." [label="Poe and Allan reached a tem...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ELIZA" [label="ELIZA", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poetry and short storie..." [label="his poetry and short storie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "frequently" [label="frequently", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be the inventor of the dete..." [label="be the inventor of the dete...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after only a year due to a ..." [label="after only a year due to a ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edgar Allan Poe  né Edgar P..." [label="Edgar Allan Poe  né Edgar P...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "temporary" [label="temporary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston" [label="Boston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1829" [label="1829", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "well into young adulthood" [label="well into young adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "actors David and Elizabeth ..." [label="actors David and Elizabeth ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second" [label="second", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Virginia" [label="University of Virginia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "genre" [label="genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States Military Academy" [label="United States Military Academy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his intention to become a w..." [label="his intention to become a w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "continue his education as w..." [label="continue his education as w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Allan colonel" [label="John Allan colonel", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Allan's wife, Frances" [label="Allan's wife, Frances", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edgar Allan Poe disambiguat..." [label="Edgar Allan Poe disambiguat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Frances" [label="Frances", fillcolor=lightgray, color=gray, shape=hexagon];
+    "temporary rapprochement" [label="temporary rapprochement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over the funds needed to co..." [label="over the funds needed to co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formally" [label="formally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "funds" [label="funds", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States Army" [label="United States Army", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edgar A. Perry" [label="Edgar A. Perry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "practitioners of the short ..." [label="practitioners of the short ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "contributing significantly ..." [label="contributing significantly ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gambling" [label="gambling", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Edgar Allan Poe" -> "be the inventor of the dete..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "University of Virginia" -> "Edgar Allan Poe" [label="has theme [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "John Allan colonel" -> "1829" [label="has time [Death]", color=purple, penwidth=2];
+    "Edgar Allan Poe" -> "Boston" [label="has location [Being_born]", color=green, penwidth=2];
+    "Edgar Allan Poe" -> "Edgar Allan Poe  né Edgar P..." [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "United States" -> "detective fiction" [label="has category [Type]", color=lightcyan, penwidth=1];
+    "John Allan colonel" -> "gambling" [label="has theme [Commitment]", color=lightsteelblue, penwidth=1];
+    "University of Virginia" -> "his first collection, Tamer..." [label="has work [Publishing]", color=lightgray, penwidth=1];
+    "Edgar Allan Poe" -> "who" [label="has entity [Fame]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "contributing significantly ..." [label="has behavior [Praiseworthiness]", color=lightseagreen, penwidth=1];
+    "United States" -> "ELIZA" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "United States Military Academy" -> "officer" [label="has teacher [Education_teaching]", color=lightsalmon, penwidth=1];
+    "United States" -> "earn a living exclusively t..." [label="has theme [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "following" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "United States" -> "money" [label="has theme [Possession]", color=lightsteelblue, penwidth=1];
+    "University of Virginia" -> "year" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "University of Virginia" -> "funds" [label="has theme [Being_necessary]", color=lightblue, penwidth=1];
+    "Edgar Allan Poe" -> "poetry" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "John Allan colonel" -> "writer, primarily of poems" [label="has theme [Becoming]", color=lightgreen, penwidth=1];
+    "John Allan colonel" -> "temporary rapprochement" [label="has goal [Arriving]", color=lightyellow, penwidth=1];
+    "United States" -> "adulthood" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "United States" -> "family" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Edgar Allan Poe" -> "Edgar Allan Poe disambiguat..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "University of Virginia" -> "Edgar Allan Poe" [label="has student [Education_teaching]", color=lightsalmon, penwidth=1];
+    "John Allan colonel" -> "United States Military Academy" [label="has location [Purpose]", color=green, penwidth=2];
+    "University of Virginia" -> "which" [label="has theme [Praiseworthiness]", color=lightseagreen, penwidth=1];
+    "Edgar Allan Poe" -> "United States Military Academy" [label="has location [Statement]", color=green, penwidth=2];
+    "University of Virginia" -> "quarreled with John Allan o..." [label="has event [Frequency]", color=lightseagreen, penwidth=1];
+    "John Allan colonel" -> "Edgar Allan Poe" [label="has entity [Becoming]", color=lightgreen, penwidth=1];
+    "United States" -> "country" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "John Allan colonel" -> "Allan's wife, Frances" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "United States" -> "formally" [label="has theme [Adopt_selection]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "Edgar Allan Poe" [label="has value [Adopt_selection]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "University of Virginia" -> "United States Army" [label="has group [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "Edgar Allan Poe" -> "as an officer cadet at West..." [label="has goal [Success_or_failure]", color=lightsteelblue, penwidth=1];
+    "United States" -> "young" [label="has age [Age]", color=lightpink, penwidth=1];
+    "Edgar Allan Poe" -> "Allan's" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "University of Virginia" -> "funds" [label="has theme [Money]", color=lightblue, penwidth=1];
+    "University of Virginia" -> "1827" [label="has time [Publishing]", color=purple, penwidth=2];
+    "University of Virginia" -> "temporary" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "John Allan colonel" -> "United States Military Academy" [label="has location [Becoming]", color=green, penwidth=2];
+    "United States" -> "child" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "United States Military Academy" -> "poems" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "United States Military Academy" -> "failed as an officer cadet ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "University of Virginia" -> "death of Allan's wife, Fran..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Edgar Allan Poe" -> "United States Military Academy" [label="has location [Means]", color=green, penwidth=2];
+    "John Allan colonel" -> "Poe and Allan" [label="has theme [Arriving]", color=lightyellow, penwidth=1];
+    "United States" -> "year" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Edgar Allan Poe" -> "father" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "John Allan colonel" -> "Edgar Allan Poe" [label="has theme [Quarreling]", color=lightpink, penwidth=1];
+    "Edgar Allan Poe" -> "writer, poet, editor, and l..." [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "United States" -> "Edgar Allan Poe" [label="has theme [Praiseworthiness]", color=lightseagreen, penwidth=1];
+    "John Allan colonel" -> "Edgar Allan Poe" [label="has speaker [Commitment]", color=lightsteelblue, penwidth=1];
+    "Edgar Allan Poe" -> "John and Frances Allan of R..." [label="has theme [Conquering]", color=lightcyan, penwidth=1];
+    "John Allan colonel" -> "over the funds needed to co..." [label="has issue [Quarreling]", color=lightpink, penwidth=1];
+    "University of Virginia" -> "Edgar A. Perry" [label="has theme [Being_named]", color=lightsteelblue, penwidth=1];
+    "Edgar Allan Poe" -> "detective fiction genre" [label="has theme [Achieving_first]", color=lightgray, penwidth=1];
+    "Edgar Allan Poe" -> "later" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "United States" -> "early" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "University of Virginia" -> "money" [label="has theme [Money]", color=lightblue, penwidth=1];
+    "Edgar Allan Poe" -> "uses" [label="has class [Increment]", color=lightseagreen, penwidth=1];
+    "United States" -> "genre" [label="has theme [Type]", color=lightcyan, penwidth=1];
+    "John Allan colonel" -> "frequently" [label="has theme [Quarreling]", color=lightpink, penwidth=1];
+    "Edgar Allan Poe" -> "stories" [label="has theme [Duration_description]", color=lightsalmon, penwidth=1];
+    "Edgar Allan Poe" -> "poems" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Edgar Allan Poe" -> "ways" [label="has means [Means]", color=lightyellow, penwidth=1];
+    "University of Virginia" -> "his education as well as hi..." [label="has activity [Activity_ongoing]", color=lightgoldenrod, penwidth=1];
+    "Edgar Allan Poe" -> "best" [label="has degree [Fame]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "following year" [label="has time [Death]", color=purple, penwidth=2];
+    "Edgar Allan Poe" -> "as one of the central figur..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Edgar Allan Poe" -> "United States" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "Edgar Allan Poe" -> "actors David and Elizabeth ..." [label="has theme [People_by_age]", color=lightpink, penwidth=1];
+    "John Allan colonel" -> "Edgar Allan Poe" [label="has agent [Purpose]", color=lightgray, penwidth=1];
+    "University of Virginia" -> "only to "a Bostonian" [label="has degree [Praiseworthiness]", color=lightseagreen, penwidth=1];
+    "University of Virginia" -> "first" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Edgar Allan Poe" -> "United States Military Academy" [label="has location [Success_or_failure]", color=green, penwidth=2];
+    "Edgar Allan Poe" -> "after only a year due to a ..." [label="has time [Departing]", color=purple, penwidth=2];
+    "University of Virginia" -> "Edgar Allan Poe" [label="has theme [Publishing]", color=lightgray, penwidth=1];
+    "University of Virginia" -> "Poe and Allan" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "University of Virginia" -> "Poe and Allan reached a tem..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "United States" -> "formally adopted him" [label="has event [Frequency]", color=lightseagreen, penwidth=1];
+    "United States" -> "actors David and Elizabeth ..." [label="has theme [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "University of Virginia" -> "collection" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Edgar Allan Poe" -> "his poetry and short storie..." [label="has reason [Fame]", color=lightgoldenrodyellow, penwidth=1];
+    "Edgar Allan Poe" -> "his intention to become a w..." [label="has message [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Edgar Allan Poe" -> "Frances" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "United States" -> "practitioners of the short ..." [label="has person [Personal_success]", color=red, penwidth=2];
+    "Edgar Allan Poe" -> "United States Military Academy" [label="has location [Text_creation]", color=green, penwidth=2];
+    "John Allan colonel" -> "become a writer, primarily ..." [label="has goal [Purpose]", color=lightgray, penwidth=1];
+    "Edgar Allan Poe" -> "University of Virginia" [label="has event [Attending]", color=lightcoral, penwidth=1];
+    "University of Virginia" -> "continue his education as w..." [label="has theme [Being_necessary]", color=lightblue, penwidth=1];
+    "United States" -> "story" [label="has theme [Duration_description]", color=lightsalmon, penwidth=1];
+    "Edgar Allan Poe" -> "well into young adulthood" [label="has time [Residence]", color=purple, penwidth=2];
+    "Edgar Allan Poe" -> "American" [label="has theme [Residence]", color=lightgreen, penwidth=1];
+    "United States" -> "American literature" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "well-known American writer" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Edgar Allan Poe" -> "second" [label="has theme [People_by_age]", color=lightpink, penwidth=1];
+    "John Allan colonel" -> "after the death of Allan's ..." [label="has time [Arriving]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Commitment_legend" [label="Commitment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Praiseworthiness_legend" [label="Praiseworthiness", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Purpose_legend" [label="Purpose", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Adopt_selection_legend" [label="Adopt_selection", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Money_legend" [label="Money", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Means_legend" [label="Means", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Quarreling_legend" [label="Quarreling", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Conquering_legend" [label="Conquering", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Achieving_first_legend" [label="Achieving_first", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Personal_success_legend" [label="Personal_success", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

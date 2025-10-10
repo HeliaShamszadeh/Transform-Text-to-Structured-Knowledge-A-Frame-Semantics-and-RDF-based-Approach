@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Cardinal_numbers:has_entity more novels",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Kerouac served in WWII and later published '12 more novels'. There is a very weak, indirect temporal connection between the two facts, but no direct semantic relationship is stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jerry_Garcia Inclusion:has_theme Bob Dylan, the Beatles, Jerry Garcia, and the Doors",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Kerouac influenced 'Bob Dylan, the Beatles, Jerry Garcia, and the Doors'. While the predicate 'has_theme' is a stretch, the entities are explicitly listed together in a single group, supporting a weak 'inclusion' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Achieving_first:has_theme pioneer",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "William S. Burroughs is mentioned alongside Kerouac and Ginsberg as 'pioneers of the Beat Generation'. The concept of 'pioneer' is semantically related to 'achieving first', and Burroughs is directly associated with it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Achieving_first:has_theme http://en.wikipedia.org/wiki/Beat_Generation",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states William S. Burroughs was a 'pioneer of the Beat Generation', which is a strong semantic connection to the theme of the Beat Generation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Quantified_mass:has_theme poetry volumes",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "WWII and poetry volumes are both mentioned in the paragraph, but there is no semantic connection between them. The poetry volumes are mentioned in the context of Kerouac's later publications, with no relation to his WWII service."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity novelist and poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph identifies Jack Kerouac as an 'American novelist and poet'. While the triple's structure is unusual, the semantic connection between the United States and Kerouac's profession is clearly established."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_named:has_theme as Jack Kerouac",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he was 'known as Jack Kerouac', directly supporting the theme of naming."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Locative_relation:has_theme his name",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "World War II is mentioned in the context of Kerouac's service, but there is no semantic connection made between the war and the theme of his name. The concepts are unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses the confusion and variations in the spelling of his name ('Jean-Louis Lebris de Kérouac'), making 'name' a relevant theme associated with the entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Like_a_Rolling_Stone Objective_influence:has_theme many of the cultural icons of the 1960s, including Bob Dylan, the Beatles, Jerry Garcia, and the Doors",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The specific song 'Like a Rolling Stone' is not mentioned. However, Bob Dylan is listed as one of the 'cultural icons of the 1960s' that Kerouac influenced. This is a very weak and indirect semantic link through the artist, not the song itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_named:has_time 1922",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states Jack Kerouac was born in 1922, which is a direct temporal association with his name/identity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Death:has_time 1969",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Kerouac died in 1969, but this is not connected to World War II. The war is mentioned in the context of his service, not his death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Time_vector:has_event which was published more than 40 years",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "During WWII, Kerouac served and completed his first novel, which was published more than 40 years after his death. There is a weak temporal connection between the war and this publishing event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Cardinal_numbers:has_theme 12",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 12 appears in the context of the number of novels Kerouac published, which has no semantic connection to World War II."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_work his first novel",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'During World War II, he served... he completed his first novel at the time,' creating a direct connection between WWII and the creation of his first work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Locative_relation:has_theme some confusion",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'some confusion' appears in the paragraph, but it refers to confusion about Kerouac's name, not to World War II. There is no semantic connection between WWII and the theme of confusion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Quantified_mass:has_quantity several",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'several' appears in the paragraph ('several previously unseen works'), but it is not associated with World War II. There is no semantic link between the quantity 'several' and WWII."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Text:has_text novel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Kerouac's work as a novelist is a central theme of the paragraph. It explicitly mentions he 'completed his first novel' and published many more, making the connection between Kerouac and the text type 'novel' strongly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jerry_Garcia Inclusion:has_theme many of the cultural icons of the 1960s",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Jerry Garcia is explicitly named as one of the 'cultural icons of the 1960s' that Kerouac influenced. Therefore, a semantic connection exists between Jerry Garcia and the theme of being a cultural icon of the 1960s."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_work book",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'During World War II, he served... he completed his first novel at the time'. A novel is a type of book, creating a weak but valid semantic link between WWII and the act of producing a written work (book)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_born:has_time March 12, 1922",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Kerouac was born on March 12, 1922'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_born:has_location Lowell, Massachusetts",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Kerouac was born on March 12, 1922, in Lowell, Massachusetts'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Achieving_first:has_time 1922",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions William S. Burroughs but provides no information about him achieving anything in 1922; 1922 is only mentioned as Kerouac's birth year"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Town_and_the_City Causation:has_effect beat icon",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Kerouac's second book 'made him a beat icon'; while this refers to On the Road rather than The Town and the City, there's a semantic connection to his published works creating his beat icon status"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Time_vector:has_theme previously",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak but valid connection - WWII is mentioned in temporal context ('During World War II'), and the word 'previously' appears later in the paragraph about unpublished works, creating a loose temporal theme connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Canada Kinship:has_location Lowell",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Kerouac is described as having 'French-Canadian parentage' and being 'raised in... Lowell, Massachusetts'. This creates a semantic link between Canada (via his heritage) and the location of Lowell."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Time_vector:has_theme Since",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'Since' appears in the text ('Since then, his literary prestige has grown'), but it is not thematically linked to World War II. The connection is purely coincidental and not semantically meaningful."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Text:has_theme poetry",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "World War II is mentioned as the period when Kerouac served, and he is identified as a poet who wrote poetry volumes. While the text does not explicitly state that his poetry was about WWII, a lenient interpretation allows for a connection between the era and his thematic output."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Text:has_text poetry",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Similar to the previous triple, a weak semantic connection exists as both WWII and poetry (as a form of text he produced) are mentioned in the paragraph. The relationship is indirect but present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Activity_finish:has_activity which was published more than 40 years after his death",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'which was published more than 40 years after his death' directly describes the publication fate of his first novel, an activity (writing/finishing a novel) attributed to Kerouac."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Increment:has_theme 12",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The number 12 appears in the text (12 more novels), but there is no semantic connection between World War II and the number 12. The concepts are completely unrelated in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Fame:has_degree widespread",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he achieved widespread fame and notoriety with his second, On the Road, in 1957', directly connecting Kerouac to widespread fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_theme http://en.wikipedia.org/wiki/Jack_Kerouac",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While both concepts appear in the paragraph, there is no indication that World War II is a theme of publishing about Kerouac. The relationship is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_time first",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'During World War II, he served as a United States Merchant Mariner; he completed his first novel at the time', connecting WWII temporally with the completion of his first novel, which is related to publishing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Kinship:has_time 1922",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "World War II (1939-1945) and the year 1922 (Kerouac's birth year) are both mentioned, but there is no semantic relationship between them. The year 1922 predates WWII and no connection is established."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Intoxicants:has_theme drugs",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states his work covers topics such as 'life in New York City' and 'drugs'. While not explicitly stating New York City has a theme of drugs, the concepts are thematically linked in the description of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Increment:has_theme Beats",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "World War II is mentioned as the time he served as a Merchant Mariner. The Beats are mentioned as a movement he pioneered. There is no semantic connection in the text linking WWII as having the theme of the Beats."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_work several previously unseen works",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "WWII is mentioned as the time he completed his first novel. The 'previously unseen works' are mentioned as being published after his death, with no connection to WWII."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Fields:has_theme literary",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "WWII is mentioned as a period of his service. While the paragraph is entirely about a literary figure, there is no connection made between WWII itself and a literary theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Existence:has_entity some confusion surrounding his name",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The confusion about his name is discussed in the final sentence, completely separate from the mention of WWII. There is no semantic link between the two concepts in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Intentionally_create:has_theme hippie movement",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states Kerouac was 'a progenitor of the hippie movement', which is a strong semantic connection to the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_S._Burroughs Correctness:has_information accent",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions an accent in relation to Kerouac, not William S. Burroughs. There is no semantic connection between Burroughs and an accent in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Like_a_Rolling_Stone Objective_influence:has_theme http://en.wikipedia.org/wiki/Jack_Kerouac",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Kerouac greatly influenced Bob Dylan. 'Like a Rolling Stone' is a famous Bob Dylan song, creating a weak but valid indirect semantic link for influence as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Kinship:has_theme parents",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "World War II is mentioned as the time when Kerouac served, but there is no semantic connection made between the war and the theme of parents."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Being_born:has_theme French Canadian parents, Léo-Alcide Kéroack and Gabrielle-Ange Lévesque",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Kerouac was 'born ... to French Canadian parents, Léo-Alcide Kéroack and Gabrielle-Ange Lévesque', which is a direct match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Publishing:has_time more than 40 years after his death",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that during WWII, Kerouac completed his first novel, which was published 'more than 40 years after his death'. While the triple's subject is WWII and the predicate is about publishing time, there is a semantic connection through the event sequence described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Growing_food:has_location French-speaking home in Lowell, Massachusetts",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Kerouac was raised in a 'French-speaking home in Lowell, Massachusetts', but there is no mention of 'growing food' or any agricultural activity. The concept is completely unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Ordinal_numbers:has_time 1950",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "World War II ended in 1945, and 1950 is mentioned as the publication year of Kerouac's first book, not as a time period for WWII. The information is contradictory to historical facts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Like_a_Rolling_Stone Objective_influence:has_degree greatly",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Kerouac 'greatly influencing many of the cultural icons' including Bob Dylan, who wrote 'Like a Rolling Stone'. While the connection is indirect, there's a semantic link through the influence relationship and the adverb 'greatly'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jack_Kerouac Accomplishment:has_time 1957",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states Kerouac 'achieved widespread fame and notoriety with his second, On the Road, in 1957', which represents a major accomplishment occurring in that year."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 25,
+    "accuracy": 0.5,
+    "avg_confidence": 0.4600000000000002,
+    "high_confidence_50": 25,
+    "high_confidence_80": 15,
+    "percent_50": 50.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

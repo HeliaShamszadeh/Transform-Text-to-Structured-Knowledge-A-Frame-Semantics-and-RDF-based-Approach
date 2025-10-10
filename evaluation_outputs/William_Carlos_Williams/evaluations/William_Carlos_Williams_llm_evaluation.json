@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Leadership:has_leader chief",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'chief of pediatrics' but this is a medical role for Williams at a hospital, not a political leadership role for the state of New Jersey. The connection is extremely weak and semantically unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Cognitive_connection:has_time 1963",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Williams was an American poet and gives his death year as 1963. While the triple's subject is 'American poetry' generically and not Williams specifically, there is a semantic connection through his identity and the date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Being_named:has_entity which",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Paterson, New Jersey. The predicate 'has_entity which' is vague, but the state is an entity referenced in the text, creating a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Proportional_quantity:has_theme Some",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph discusses Paterson, New Jersey as a theme/subject of Williams's poem. The predicate 'has_theme Some' is vague, but a thematic connection to the state exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Waste_Land Categorization:has_category as breaking through the alienation of the near at hand and reviving its wonder",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'breaking through the alienation...' is a quote about Williams's view of the imagination, attributed to Hugh Fox. It is not presented as a category or description of 'The Waste Land'. The connection is semantically incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Calendric_unit:has_time 1923",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'American poet' and the year 1923 in the context of Williams's work 'Spring and All'. This is a very weak and indirect connection, as the subject is not 'American poetry' as a concept but a specific American poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Carlos_Williams Text:has_text \" The Great Figure",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Williams wrote a poem titled 'The Great Figure'. This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Waste_Land Categorization:has_item real [original emphasis] function of the imagination",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'real [original emphasis] function of the imagination' is attributed to Hugh Fox's commentary on Williams's views, not to 'The Waste Land'. The only connection is that 'The Waste Land' is mentioned earlier in the paragraph, but the phrase is semantically unrelated to it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions New Jersey (Paterson) as the subject of Williams's five-volume poem 'Paterson'. There is a weak semantic link between the location and the concept of poems, as the location was the inspiration for a major poetic work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Buildings:has_theme St. Mary's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Passaic General Hospital, with which Williams was affiliated, is located in New Jersey and is now known as St. Mary's General Hospital. This creates a reasonable, though indirect, connection between the state and the building."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Proportional_quantity:has_theme his best known poems, \" This Is Just to Say \" and \" The Red Wheelbarrow\"",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The poems are mentioned, and Paterson, New Jersey is mentioned as the subject of his poem 'Paterson', but there is no direct or indirect semantic link suggesting New Jersey is a theme of the specific poems 'This Is Just to Say' and 'The Red Wheelbarrow'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Little_Men Expressing_publicly:has_theme his point of view",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph quotes Randall Jarrell saying Williams feels that 'the differences between men are less important than their similarities—that he and you and I, together, are the Little Men.' This connects the concept of 'Little Men' to Williams's perspective or point of view on humanity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Buildings:has_theme Hospital",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Williams was affiliated with Passaic General Hospital, which is located in New Jersey (as indicated by the context of Paterson, NJ). The hospital is a significant building in his life story, creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Craft:has_activity arts",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph discusses Williams's influence on and from the visual arts. While the connection to New Jersey is weak (he lived and worked there), the arts are a major theme of his work discussed in the paragraph, creating a tenuous but valid link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Williams_College Expressing_publicly:has_theme his democracy",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Marc Hofstadter wrote that Williams 'sought to express his democracy through his way of speaking.' However, there is no mention of, or semantic connection to, Williams College anywhere in the text. The subject 'Williams' refers to the poet, not the college."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Williams_College Statement:has_message that the differences between men are less important than their similarities—that he and you and I, together, are the Little Men",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph contains a quote from Randall Jarrell stating this exact sentiment about Williams, providing a semantic connection, even if the subject (Williams College) is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Williams_College Expressing_publicly:has_means through his way of speaking",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states that Marc Hofstadter wrote that Williams 'sought to express his democracy through his way of speaking.' This is a direct semantic match for the predicate and object, though the subject is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Categorization:has_item Paterson, New Jersey",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that in his poem Paterson, Williams 'took Paterson, New Jersey as my case.' This provides a clear, direct connection between New Jersey and Paterson."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Liberia_national_football_team Request:has_message poetry such as I did not know",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'poetry such as I did not know' is a direct quote from Williams in the paragraph, providing a weak semantic link to the object of the triple, though the subject is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Waste_Land Subjective_influence:has_entity his poem \" The Great Figure \"",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'The Waste Land' and separately mentions Williams's poem 'The Great Figure.' While no direct influence is stated between these two specific works, the paragraph discusses literary influences and works, creating a weak thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Liberia_national_football_team Awareness:has_theme as",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Liberian footballer' in the disambiguation for Carlos Williams, providing a weak semantic link to Liberia and football, though the specific national team is not mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_entity poet and physician",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "William Carlos Williams is explicitly described as an 'American poet and physician', which directly connects the entity of a poet and physician to American poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Demuth Perception_experience:has_location Gold",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Charles Demuth's painting is titled 'I Saw the Figure 5 in Gold', creating a strong semantic connection between Demuth and the concept of 'Gold'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Cognitive_connection:has_degree closely",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text says Williams 'was closely associated with modernism and imagism', and since he is an American poet, this implies a close connection to American poetry, though the phrase 'closely associated' is not directly modifying 'American poetry'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Text:has_text Poems",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the poem 'Paterson' which is about Paterson, New Jersey, creating an indirect link between the location (New Jersey) and poetic text ('Poems')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Little_Men People:has_person men",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'Little Men' appears in a quote by Randall Jarrell, but the triple's structure and predicate are semantically weak and unclear. There is a very indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Waste_Land Text_creation:has_time wake of T. S. Eliot's The Waste Land (1922)",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'His Spring and All (1923) was written in the wake of T. S. Eliot's The Waste Land (1922)', which directly connects the text 'The Waste Land' to the time concept of its 'wake'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Waste_Land Text_creation:has_text His Spring and All (1923)",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The same sentence links 'The Waste Land' and 'His Spring and All' in a contextual relationship of influence, making the connection semantically reasonable, though the predicate 'has_text' is imprecise."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Leadership:has_theme pediatrics",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Paterson, New Jersey is mentioned as the subject of a poem, and Williams practiced pediatrics. The connection between the location and the theme is very indirect and weak, but not completely absent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Death:has_theme http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "There is no semantic connection in the paragraph suggesting New Jersey is a theme of William Carlos Williams's death. His death is mentioned without a geographic theme, and his association with New Jersey is related to his work, not his death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Buildings:has_time 1924",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Williams was affiliated with a hospital in New Jersey from 1924 until his death. While the triple's predicate is abstract, the concepts of a location (New Jersey) and a time (1924) are semantically connected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Increment:has_class poems",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses poems by Williams, and his major work 'Paterson' is about Paterson, New Jersey. The connection between New Jersey and the class/category of 'poems' is weak and indirect but semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Objective_influence:has_theme http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Williams used the city of Paterson, New Jersey as the central theme/case study for his major poem 'Paterson'. This establishes a clear semantic link between New Jersey and Williams as a theme or subject of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Craft:has_culture visual",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions the 'visual arts' in relation to Williams's work and influence. While the connection to New Jersey is tenuous (his poem inspired a painting, and his work was about NJ), a weak semantic chain exists for 'culture' and 'visual'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Little_Men Similarity:has_theme between men",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly quotes Randall Jarrell stating that Williams feels 'the differences between men are less important than their similarities' and refers to 'the Little Men'. This is a very clear semantic match for the triple's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Randall_Jarrell Statement:has_message that Williams \" feels, not just says, that the differences between men are less important than their similarities—that he and you and I, together, are the Little Men",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly quotes Randall Jarrell making this exact statement about Williams."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_theme http://en.wikipedia.org/wiki/Americans",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Williams was an American poet, and the paragraph discusses his focus on American themes and using 'the language and thought materials of America', which provides a weak but reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Buildings:has_theme hospital",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paterson, New Jersey is mentioned as the subject of his poem, and he was affiliated with Passaic General Hospital (now St. Mary's General Hospital), creating a reasonable connection between New Jersey and hospitals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Death:has_time 1924",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "1924 is mentioned as the year Williams became chief of pediatrics, not as a death time. His actual death year (1963) is stated and contradicts this triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Statement:has_theme that",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that Williams took Paterson, New Jersey as his 'case' to work up in his poem Paterson, establishing a clear thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Demuth Perception_experience:has_theme Figure 5 in Gold by Charles Demuth",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Williams's poem 'The Great Figure' inspired the painting 'I Saw the Figure 5 in Gold by Charles Demuth'. This establishes a clear thematic connection between Charles Demuth and the painting."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Being_named:has_theme as St. Mary's General Hospital",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions New Jersey (Paterson) and St. Mary's General Hospital (formerly Passaic General Hospital), but it does not state that New Jersey has the theme of 'being named as St. Mary's General Hospital'. The relationship is about a hospital's location, not the state being thematically named after the hospital."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Carlos_Williams People_by_vocation:has_time 1963",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly gives William Carlos Williams's death year as 1963. This is a direct temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Carlos_Williams People_by_vocation:has_theme http://en.wikipedia.org/wiki/Americans",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph identifies Williams as an 'American poet' and discusses his focus on American themes and language (e.g., 'use the language and thought materials of America'). This provides a reasonable semantic connection to the theme of being American."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Calendric_unit:has_theme Spring",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Williams's work 'Spring and All'. While the connection between the abstract concept of 'American poetry' and the season 'Spring' is weak, the presence of a major work with 'Spring' in its title within the context of American poetry provides a lenient, indirect thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Statement:has_message We walk the wards that Williams walked",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'We walk the wards that Williams walked' is directly quoted from a memorial plaque at a hospital in New Jersey (Passaic General Hospital, now St. Mary's General Hospital). While the message is attributed to the hospital's plaque, the hospital is in New Jersey, creating a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Williams_College Self_motion:has_theme that",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about William Carlos Williams, the poet. There is no mention of Williams College, any concept of 'self_motion', or the word 'that' used in a way that relates to these subjects. The triple is completely unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_time 1963",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The subject of the paragraph is an American poet (William Carlos Williams) who died in 1963. This creates a weak semantic link between 'American poetry' and the time '1963', as his death year is a relevant date in his poetic career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Leadership:has_theme hospital's",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The poem 'Paterson' is about Paterson, New Jersey, and Williams was affiliated with Passaic General Hospital, where he was 'chief of pediatrics'. The word 'hospital's' appears in the text, and the leadership role is connected to a location in New Jersey."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Jersey Fame:has_degree best",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The poem 'Paterson' is about a city in New Jersey, and the text mentions 'some of his best known poems'. This creates a very weak, indirect link between New Jersey (the subject of a major work) and the concept of 'best' (in terms of fame for his poems)."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 28,
+    "accuracy": 0.56,
+    "avg_confidence": 0.4960000000000001,
+    "high_confidence_50": 28,
+    "high_confidence_80": 10,
+    "percent_50": 56.00000000000001,
+    "percent_80": 20.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Cannery Row' is a comic novel by Steinbeck. The triple's intent (that the entity 'Cannery Row' is a text of the type 'novel') is semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Steinbeck's 'works frequently explored the themes of fate and injustice'. While the predicate 'has_theme works' is awkwardly phrased, the semantic connection between Steinbeck, his works, and their themes is clearly present, justifying a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Commerce_sell:has_time 75th anniversary of its publishing date",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The '75th anniversary' is mentioned in relation to the sales of 'The Grapes of Wrath', not in relation to the United States. There is no semantic link between the subject (United States) and the object (75th anniversary) as described by the predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Text:has_theme literary",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Steinbeck's literary works, canon, and themes. While 'Cannery Row' itself is not explicitly stated to have a 'literary' theme, the entire context is literary. This is a weak but valid connection under lenient rules."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Fame:has_time 1935",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1935 is mentioned as the publication date for 'Tortilla Flat', one of Steinbeck's comic novels. A lenient interpretation connects the year to his writing career and associated fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Palestine_(region) Killing:has_time 1913",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the death of Steinbeck's grandfather's brother in Palestine in 1913. While not a direct 'killing' event, the context of 'Arab attackers killed his brother' in Palestine around 1913 provides a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Being_named:has_theme name",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent ('has_theme name'). The paragraph mentions 'Cannery Row' as a comic novel but does not discuss its themes in a way that relates to this triple's structure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Western_canon Origin:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'The Grapes of Wrath... is considered Steinbeck's masterpiece and part of the American literary canon.' This connects the concept of a (Western/American) canon to an American author and his work, providing a reasonable, though indirect, link to the United States as a theme of origin for the canon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent ('Increment:has_class people'). The paragraph mentions the United States, but nothing relates to an 'increment' of a 'class' of 'people' in a way that can be reasonably interpreted from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baig Aggregate:has_theme short stories",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Baig' is not mentioned or alluded to anywhere in the paragraph. The object 'short stories' is present, but there is no semantic connection to the subject to form a reasonable triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Reference_text:has_theme Steinbeck (surname )",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Steinbeck (surname)' in the context of a redirect, creating a very weak semantic link to the subject John Steinbeck. The connection is indirect and thematic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Western_canon Part_whole:has_theme American literary canon",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'part of the American literary canon' in reference to Steinbeck's work. While the triple's subject is 'Western_canon', there is a semantic relationship between the two concepts, making it weakly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Text:has_author Steinbeck's",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about John Steinbeck as an author, and possessive references like 'Steinbeck's masterpiece' and 'Steinbeck's work' clearly establish him as the author of texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Text:has_theme comic",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions 'the comic novels... Cannery Row (1945)', directly linking the novel to the theme of being comic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Palestine_(region) Personal_relationship:has_theme his brother's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions a colony in 'Palestine' and the tragic events involving 'his brother'. This creates a very weak, indirect semantic connection between the region and the familial relationship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Win_prize:has_time 1962",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'He won the 1962 Nobel Prize in Literature', directly connecting John Steinbeck to the year 1962 in the context of winning a prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Commerce_sell:has_goods 14 million copies",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions '14 million copies' were sold of 'The Grapes of Wrath', but there is no semantic connection to the United States as an entity selling goods. The connection is too indirect and the subject is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baig Text:has_theme non-fiction",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Baig' is not mentioned in the paragraph at all. The paragraph mentions Steinbeck wrote 'six non-fiction books', but this is not connected to the entity 'Baig'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Win_prize:has_prize 1962 Nobel Prize in Literature",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He won the 1962 Nobel Prize in Literature', which is a direct match for the triple's predicate and object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Heiligenhaus Being_named:has_entity family farm in Heiligenhaus, Mettmann, Germany",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The family farm in Heiligenhaus, Mettmann, Germany, is still named \"Großsteinbeck\"'. This establishes a clear connection between Heiligenhaus and the entity of the family farm located there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Western_canon Origin:has_time 1939",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'The Pulitzer Prize–winning The Grapes of Wrath (1939) is considered Steinbeck's masterpiece and part of the American literary canon.' While 'American literary canon' is not identical to 'Western canon,' the concepts are semantically related. The year 1939 is directly associated with the work being part of a canon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Fame:has_degree widely",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He is widely known for the comic novels...' and refers to him as 'a giant of American letters,' which directly supports the concept of having a high degree of fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Win_prize:has_location Literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'He won the 1962 Nobel Prize in Literature.' The predicate 'has_location' can be loosely interpreted as the category or domain of the prize, which is clearly Literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Being_born:has_location Salinas, California",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Steinbeck was born on February 27, 1902, in Salinas, California.' This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Fame:has_reason comic novels Tortilla Flat (1935) and Cannery Row (1945 ), the multigeneration epic East of Eden (1952 ), and the novellas The Red Pony (1933) and Of Mice and Men (1937",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly links his fame to these specific works: 'He is widely known for the comic novels Tortilla Flat (1935) and Cannery Row (1945), the multigeneration epic East of Eden (1952), and the novellas The Red Pony (1933) and Of Mice and Men (1937).'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Using:has_agent Much of Steinbeck's work",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Much of Steinbeck's work employs settings...', clearly indicating Steinbeck is the agent/creator of the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Categorization:has_category Steinbeck's masterpiece",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Steinbeck won the Nobel Prize for Literature, and separately mentions 'The Grapes of Wrath' as his masterpiece. There is no direct or indirect link stated between the Nobel Prize and the specific book 'The Grapes of Wrath' being his masterpiece."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Text:has_time 1962",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1962 is explicitly mentioned in the context of Steinbeck winning the Nobel Prize in Literature. The triple semantically connects Steinbeck to the time 1962, which is directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Text:has_text canon",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While 'Cannery Row' is mentioned as a comic novel by Steinbeck, and the word 'canon' appears in the phrase 'American literary canon' in reference to 'The Grapes of Wrath', the connection is very weak and indirect. Being lenient, both concepts (the book and the idea of a literary canon) are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Text:has_text East of Eden",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Both 'Cannery Row' and 'East of Eden' are mentioned in the same sentence as works by Steinbeck. The triple suggests a direct textual relationship which isn't there, but both entities are co-mentioned in the text, creating a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Palestine_(region) Personal_relationship:has_time 1913",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Steinbeck's grandfather was involved with a colony in Palestine and gives his death year as 1913. The connection is very indirect and the triple's subject is the region itself, not a person or event, making this a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Fields:has_time 1939",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph explicitly states 'Cannery Row (1945)', giving it a publication date of 1945. The triple claims a time of 1939, which is contradictory information, not an extractable relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/California_Coast_Ranges Locale:has_theme region",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Steinbeck's work employs settings in the 'California Coast Ranges region'. The triple's predicate 'has_theme' is a stretch, but the concept of the region being a thematic or setting element in his work is present, supporting a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Being_born:has_time February 27, 1902",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The birth date 'February 27, 1902' is explicitly stated in the sentence 'Steinbeck was born on February 27, 1902, in Salinas, California.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Text:has_text writings",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly mentions Steinbeck's 'writings' in the context of his Nobel Prize: 'for his realistic and imaginative writings'. The connection between the subject and the object is clear and explicit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baig Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Baig' is not mentioned in the paragraph. There is no semantic connection to any entity or theme in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Western_canon Origin:has_entity literary canon",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'part of the American literary canon'. While 'Western canon' is not explicitly mentioned, 'literary canon' is directly stated and is a closely related concept."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Arriving:has_goal http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'He arrived in the United States in 1858' referring to Steinbeck's grandfather. The semantic connection to John Steinbeck's family history and arrival in the US is clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Kinship:has_time 1935",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "1935 is mentioned as the publication date for 'Tortilla Flat' and as the year John Ernst Steinbeck (Steinbeck's father) died. While 'Kinship:has_time' is vague, the year 1935 is semantically connected to events in Steinbeck's life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Win_prize:has_theme his realistic and imaginative writings",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states he won the Nobel Prize 'for his realistic and imaginative writings'. This is a direct semantic match for the triple's object and relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Labor_product:has_agent Steinbeck's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph is entirely about Steinbeck and his work (labor). The possessive 'Steinbeck's' can be loosely interpreted as the agent of his own literary labor, though the relationship is very indirect and the predicate is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Labeling:has_theme \" a giant of American letters",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He has been called \"a giant of American letters.\"' This is a direct thematic label applied to him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity letters",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The term 'letters' in the paragraph refers to the field of literature ('American letters'), not physical letters or an entity originating from the United States. The subject (United States) is also not the main focus of this specific connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Buildings:has_theme farm",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While 'Cannery Row' is mentioned, the theme of a 'farm' is only indirectly connected. The paragraph mentions a 'family farm' in the context of Steinbeck's grandfather, and Steinbeck's work uses rural/agricultural settings. The connection is very weak but semantically plausible in a broad sense."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Explaining_the_facts:has_theme themes of fate and injustice, especially as applied to downtrodden or everyman protagonists",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'His works frequently explored the themes of fate and injustice...' This is a general statement about his works. Since 'Cannery Row' is one of his specifically mentioned works, it is reasonable to infer that this theme applies to it, even if not explicitly stated for that specific book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Western_canon Part_whole:has_time 1939",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states 'The Pulitzer Prize–winning The Grapes of Wrath (1939) is considered Steinbeck's masterpiece and part of the American literary canon.' There is a weak semantic connection between 'American literary canon' and 'Western canon', and the year 1939 is associated with the work that is part of a canon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cannery_Row_(novel) Buildings:has_location Heiligenhaus, Mettmann, Germany",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the novel 'Cannery Row' and the location 'Heiligenhaus, Mettmann, Germany' in the context of Steinbeck's family farm. There is no stated or implied connection between the novel's setting and this German town; the information is about different subjects entirely."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Steinbeck Using:has_instrument settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Much of Steinbeck's work employs settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region.' This is a direct semantic match for the triple's predicate and object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Salinas,_California Natural_features:has_theme Valley",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Salinas, California' as Steinbeck's birthplace and separately discusses the 'Salinas Valley'. There is a reasonable, though indirect, semantic connection that the city of Salinas is associated with a valley."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Categorization:has_item Pulitzer Prize –winning The Grapes of Wrath (1939)",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Steinbeck 'won the 1962 Nobel Prize in Literature' and also mentions 'The Pulitzer Prize–winning The Grapes of Wrath (1939)'. While the triple suggests the novel is an item of the Nobel Prize, the paragraph only connects both to the same author, creating a very weak but semantically related link."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.536,
+    "high_confidence_50": 27,
+    "high_confidence_80": 20,
+    "percent_50": 54.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

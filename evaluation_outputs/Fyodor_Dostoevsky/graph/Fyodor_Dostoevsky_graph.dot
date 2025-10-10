@@ -1,0 +1,255 @@
+digraph Fyodor_Dostoevsky {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "Russian and foreign authors" [label="Russian and foreign authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "he worked as an engineer an..." [label="he worked as an engineer an...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works of existentialist lit..." [label="works of existentialist lit...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His most acclaimed novels" [label="His most acclaimed novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Dostoevsky's literary works" [label="Dostoevsky's literary works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "one of the first works of e..." [label="one of the first works of e...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novella" [label="novella", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "banned books" [label="banned books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "many of his works" [label="many of his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "banned books critical of Ts..." [label="banned books critical of Ts...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "existentialist literature" [label="existentialist literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his first novel, Poor Folk" [label="his first novel, Poor Folk", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "death," [label="death,", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "enter the Nikolayev Militar..." [label="enter the Nikolayev Militar...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "philosophical and religious..." [label="philosophical and religious...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign" [label="foreign", fillcolor=lightgray, color=gray, shape=hexagon];
+    "extra money" [label="extra money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "military" [label="military", fillcolor=lightgray, color=gray, shape=hexagon];
+    "six" [label="six", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poor Folk" [label="Poor Folk", fillcolor=lightgray, color=gray, shape=hexagon];
+    "group" [label="group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "belonging to a literary gro..." [label="belonging to a literary gro...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critical of Tsarist Russia" [label="critical of Tsarist Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Military Engineering-Technical University" [label="Military Engineering-Technical University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "around the same time" [label="around the same time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Crime and Punishment 1866 ,..." [label="Crime and Punishment 1866 ,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "existentialist" [label="existentialist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "27 February 1837, when he w..." [label="27 February 1837, when he w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "highly" [label="highly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "circles" [label="circles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Crime and Punishment" [label="Crime and Punishment", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dostoevsky surname " [label="Dostoevsky surname ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1849" [label="1849", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "human condition in the trou..." [label="human condition in the trou...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His Notes from Underground,..." [label="His Notes from Underground,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1864" [label="1864", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1821" [label="1821", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His mother" [label="His mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tsarist Russia" [label="Tsarist Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Raw Youth" [label="The Raw Youth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nikolayev Military Engineer..." [label="Nikolayev Military Engineer...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saint Petersburg" [label="Saint Petersburg", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the greatest nove..." [label="as one of the greatest nove...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary group, the Petrash..." [label="literary group, the Petrash...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an engineer" [label="as an engineer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "highly influential masterpi..." [label="highly influential masterpi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "masterpieces" [label="masterpieces", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age" [label="age", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mid-1840s" [label="mid-1840s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After" [label="After", fillcolor=lightgray, color=gray, shape=hexagon];
+    "money" [label="money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "graduating" [label="graduating", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After graduating" [label="After graduating", fillcolor=lightgray, color=gray, shape=hexagon];
+    "compulsory military service..." [label="compulsory military service...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fyodor Dostoevsky" [label="Fyodor Dostoevsky", fillcolor=lightgray, color=gray, shape=hexagon];
+    "variety" [label="variety", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian language" [label="Russian language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow" [label="Moscow", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Moscow" -> "foreign" [label="has theme [Foreign_or_domestic_country]", color=lightblue, penwidth=1];
+    "Saint Petersburg" -> "critical of Tsarist Russia" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Moscow" -> "age" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "The Raw Youth" -> "tuberculosis" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "Fyodor Dostoevsky" -> "around the same time" [label="has time [Departing]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "as one of the greatest nove..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Fyodor Dostoevsky" -> "literature" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "The Raw Youth" -> "His Notes from Underground,..." [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Saint Petersburg" -> "compulsory military service..." [label="has process [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "Saint Petersburg" -> "books" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Fyodor Dostoevsky" -> "mid-1840s" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "His most acclaimed novels" [label="has theme [Inclusion]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Petersburg" -> "literary" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "highly influential masterpi..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Saint Petersburg" -> "belonging to a literary gro..." [label="has theme [Arrest]", color=lightsalmon, penwidth=1];
+    "Saint Petersburg" -> "novel" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Fyodor Dostoevsky" -> "school" [label="has theme [Departing]", color=lightpink, penwidth=1];
+    "Military Engineering-Technical University" -> "later" [label="has time [Name_conferral]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "six" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "Moscow" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Fyodor Dostoevsky" -> "authors" [label="has author [Text_creation]", color=lightgray, penwidth=1];
+    "Saint Petersburg" -> "circles" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "Crime and Punishment 1866 ,..." [label="has theme [Inclusion]", color=lightgoldenrodyellow, penwidth=1];
+    "Fyodor Dostoevsky" -> "Nikolayev Military Engineer..." [label="has group [Becoming_a_member]", color=lightsteelblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "as an engineer" [label="has position [Being_employed]", color=lightcoral, penwidth=1];
+    "Crime and Punishment" -> "books" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Fyodor Dostoevsky" -> "highly" [label="has degree [Subjective_influence]", color=lightblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "His Notes from Underground,..." [label="has work [Publishing]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "group" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "graduating" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "1864" [label="has time [Publishing]", color=purple, penwidth=2];
+    "The Raw Youth" -> "one of the first works of e..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Russian language" -> "authors" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "Saint Petersburg" -> "Tsarist Russia" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Saint Petersburg" -> "banned books critical of Ts..." [label="has theme [Discussion]", color=lightcyan, penwidth=1];
+    "Fyodor Dostoevsky" -> "variety" [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Crime and Punishment" -> "Russian and foreign authors" [label="has author [Text]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "military" [label="has theme [Military]", color=lightsteelblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "first" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "The Raw Youth" -> "His mother" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "Fyodor Dostoevsky" -> "he worked as an engineer an..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "works" [label="has theme [Fields]", color=lightgoldenrodyellow, penwidth=1];
+    "Fyodor Dostoevsky" -> "enter the Nikolayev Militar..." [label="has purpose [Departing]", color=lightpink, penwidth=1];
+    "Fyodor Dostoevsky" -> "time" [label="has theme [Identicality]", color=lightseagreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "literary group, the Petrash..." [label="has group [Membership]", color=lightsalmon, penwidth=1];
+    "Fyodor Dostoevsky" -> "Poor Folk" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "Fyodor Dostoevsky" [label="has theme [Arrest]", color=lightsalmon, penwidth=1];
+    "Saint Petersburg" -> "years" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "death," [label="has theme [Sentencing]", color=lightgoldenrod, penwidth=1];
+    "Fyodor Dostoevsky" -> "Moscow" [label="has location [Being_born]", color=green, penwidth=2];
+    "Fyodor Dostoevsky" -> "Dostoevsky surname " [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Russian language" -> "Moscow" [label="has location [Origin]", color=green, penwidth=2];
+    "Saint Petersburg" -> "banned books" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Fyodor Dostoevsky" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Fyodor Dostoevsky" -> "his first novel, Poor Folk" [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Fyodor Dostoevsky" -> "masterpieces" [label="has entity [Subjective_influence]", color=lightblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "existentialist literature" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Fyodor Dostoevsky" -> "extra money" [label="has theme [Earnings_and_losses]", color=lightcoral, penwidth=1];
+    "Fyodor Dostoevsky" -> "After" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "human condition in the trou..." [label="has theme [Scrutiny]", color=lightblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "money" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "Crime and Punishment" -> "Moscow" [label="has location [Text]", color=green, penwidth=2];
+    "Fyodor Dostoevsky" -> "philosophical and religious..." [label="has theme [Aggregate]", color=lightseagreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Fyodor Dostoevsky" -> "works of existentialist lit..." [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Fyodor Dostoevsky" -> "existentialist" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "four" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "After graduating" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "mother" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "Fyodor Dostoevsky" -> "money" [label="has theme [Money]", color=lightyellow, penwidth=1];
+    "The Raw Youth" -> "27 February 1837, when he w..." [label="has time [Death]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "1849" [label="has time [Arrest]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "books" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "that" [label="has theme [Discussion]", color=lightcyan, penwidth=1];
+    "Fyodor Dostoevsky" -> "1821" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Fyodor Dostoevsky" -> "Dostoevsky's literary works" [label="has theme [Scrutiny]", color=lightblue, penwidth=1];
+    "Fyodor Dostoevsky" -> "many of his works" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Fyodor Dostoevsky" -> "novella" [label="has text [Text]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Arrest_legend" [label="Arrest", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Name_conferral_legend" [label="Name_conferral", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Military_legend" [label="Military", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Sentencing_legend" [label="Sentencing", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Money_legend" [label="Money", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

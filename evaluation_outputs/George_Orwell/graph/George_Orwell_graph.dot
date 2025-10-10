@@ -1,0 +1,214 @@
+digraph George_Orwell {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "totalitarian and authoritarian" [label="totalitarian and authoritarian", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "Northern England" [label="Northern England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "Orwell's work" [label="Orwell's work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "politics, literature, langu..." [label="politics, literature, langu...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His non-fiction works" [label="His non-fiction works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novella Animal Farm 1945" [label="novella Animal Farm 1945", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His non-fiction works, incl..." [label="His non-fiction works, incl...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his allegorical novella Ani..." [label="his allegorical novella Ani...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "working-class life in indus..." [label="working-class life in indus...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Nineteen Eighty-Four" [label="Nineteen Eighty-Four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adjective " Orwellian "—des..." [label="adjective " Orwellian "—des...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Orwell disambiguation" [label="Orwell disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politician" [label="politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dystopian" [label="dystopian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "popular culture and in poli..." [label="popular culture and in poli...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1937" [label="1937", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eric Blair " redirects" [label="Eric Blair " redirects", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2008" [label="2008", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a " lower-upper-middle c..." [label="as a " lower-upper-middle c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1945" [label="1945", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social" [label="social", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish Civil War" [label="Spanish Civil War", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lower-upper-middle class" [label="lower-upper-middle class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1903" [label="1903", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many of his neologisms, suc..." [label="many of his neologisms, suc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Times" [label="Times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "soldiering for the Republic..." [label="soldiering for the Republic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as his essays on politics, ..." [label="as his essays on politics, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "account" [label="account", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Motihari, Bengal Presidency..." [label="Motihari, Bengal Presidency...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "culture" [label="culture", fillcolor=lightgray, color=gray, shape=hexagon];
+    "here" [label="here", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "all totalitarianism both au..." [label="all totalitarianism both au...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influential in popular cult..." [label="influential in popular cult...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eric Blair Ontario politician" [label="Eric Blair Ontario politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Road to Wigan Pier 1937 " [label="Road to Wigan Pier 1937 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "25 June 1903" [label="25 June 1903", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ontario" [label="Ontario", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what" [label="what", fillcolor=lightgray, color=gray, shape=hexagon];
+    "under the pen name of Georg..." [label="under the pen name of Georg...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Times" [label="The Times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Motihari" [label="Motihari", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second-greatest British wri..." [label="second-greatest British wri...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his experiences soldiering ..." [label="his experiences soldiering ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Orwell" [label="George Orwell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "George Orwell" -> "Nineteen Eighty-Four" [label="has text [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "1903" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "England" -> "uses" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "England" -> "author" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "His non-fiction works, incl..." [label="has evaluee [Judgment]", color=lightyellow, penwidth=1];
+    "George Orwell" -> "under the pen name of Georg..." [label="has theme [Text_creation]", color=lightcoral, penwidth=1];
+    "England" -> "1903" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "George Orwell" -> "poetry" [label="has text [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "Motihari, Bengal Presidency..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Spanish Civil War" -> "1937" [label="has time [Perception_experience]", color=purple, penwidth=2];
+    "Motihari" -> "lower-upper-middle class" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "George Orwell" -> "part" [label="has theme [Part_whole]", color=lightgray, penwidth=1];
+    "George Orwell" -> "adjective " Orwellian "—des..." [label="has theme [Similarity]", color=lightgoldenrodyellow, penwidth=1];
+    "George Orwell" -> "Road to Wigan Pier 1937 " [label="has theme [Inclusion]", color=lightseagreen, penwidth=1];
+    "George Orwell" -> "Orwell disambiguation" [label="has theme [Reference_text]", color=lightsalmon, penwidth=1];
+    "George Orwell" -> "who" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "account" [label="has text [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "totalitarian and authoritarian" [label="has agent [Practice]", color=lightgoldenrod, penwidth=1];
+    "George Orwell" -> "essays" [label="has text [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "his experiences soldiering ..." [label="has theme [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "as his essays on politics, ..." [label="has degree [Judgment]", color=lightyellow, penwidth=1];
+    "Motihari" -> "what" [label="has item [Communicate_categorization]", color=lightpink, penwidth=1];
+    "Spanish Civil War" -> "George Orwell" [label="has theme [Perception_experience]", color=lightcyan, penwidth=1];
+    "George Orwell" -> "1937" [label="has time [Text]", color=purple, penwidth=2];
+    "George Orwell" -> "Orwell's work" [label="has entity [State_continue]", color=lightsteelblue, penwidth=1];
+    "The Times" -> "Times" [label="has theme [Appointing]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "1903" [label="has time [Being_named]", color=purple, penwidth=2];
+    "George Orwell" -> "Eric Blair " redirects" [label="has theme [Locative_relation]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "popular culture and in poli..." [label="has location [Objective_influence]", color=green, penwidth=2];
+    "The Times" -> "second-greatest British wri..." [label="has role [Appointing]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "Northern England" [label="has location [Manufacturing]", color=green, penwidth=2];
+    "George Orwell" -> "1937" [label="has time [Manufacturing]", color=purple, penwidth=2];
+    "Motihari" -> "family" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "George Orwell" -> "politics, literature, langu..." [label="has theme [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "novella Animal Farm 1945" [label="has text [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "his allegorical novella Ani..." [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "George Orwell" -> "working-class life in indus..." [label="has theme [Perception_experience]", color=lightcyan, penwidth=1];
+    "George Orwell" -> "all totalitarianism both au..." [label="has issue [Taking_sides]", color=lightcyan, penwidth=1];
+    "George Orwell" -> "social" [label="has theme [Practice]", color=lightgoldenrod, penwidth=1];
+    "George Orwell" -> "here" [label="has theme [Locative_relation]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "Orwell's work" [label="has theme [Objective_influence]", color=lightgreen, penwidth=1];
+    "George Orwell" -> "many of his neologisms, suc..." [label="has theme [Similarity]", color=lightgoldenrodyellow, penwidth=1];
+    "The Times" -> "2008" [label="has time [Appointing]", color=purple, penwidth=2];
+    "George Orwell" -> "1945" [label="has time [Fame]", color=purple, penwidth=2];
+    "George Orwell" -> "1937" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Ontario" -> "politician" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "George Orwell" -> "dystopian" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "George Orwell" -> "influential in popular cult..." [label="has state [State_continue]", color=lightsteelblue, penwidth=1];
+    "Spanish Civil War" -> "soldiering for the Republic..." [label="has theme [Perception_experience]", color=lightcyan, penwidth=1];
+    "Motihari" -> "as a " lower-upper-middle c..." [label="has category [Communicate_categorization]", color=lightpink, penwidth=1];
+    "George Orwell" -> "culture" [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "Motihari" -> "1903" [label="has time [Kinship]", color=purple, penwidth=2];
+    "George Orwell" -> "1945" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Motihari" -> "1903" [label="has time [Communicate_categorization]", color=purple, penwidth=2];
+    "George Orwell" -> "25 June 1903" [label="has time [Being_born]", color=purple, penwidth=2];
+    "George Orwell" -> "English language" [label="has theme [Part_whole]", color=lightgray, penwidth=1];
+    "George Orwell" -> "1937" [label="has time [Judgment]", color=purple, penwidth=2];
+    "George Orwell" -> "1937" [label="has time [Perception_experience]", color=purple, penwidth=2];
+    "George Orwell" -> "works" [label="has theme [Labor_product]", color=lightgoldenrodyellow, penwidth=1];
+    "George Orwell" -> "His non-fiction works" [label="has theme [Inclusion]", color=lightseagreen, penwidth=1];
+    "George Orwell" -> "George Orwell" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "The Times" -> "George Orwell" [label="has theme [Appointing]", color=lightcoral, penwidth=1];
+    "George Orwell" -> "1945" [label="has time [Text]", color=purple, penwidth=2];
+    "Motihari" -> "George Orwell" [label="has speaker [Communicate_categorization]", color=lightpink, penwidth=1];
+    "George Orwell" -> "Eric Blair Ontario politician" [label="has theme [Reference_text]", color=lightsalmon, penwidth=1];
+    "George Orwell" -> "politician" [label="has person [People_by_vocation]", color=red, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Practice_legend" [label="Practice", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Manufacturing_legend" [label="Manufacturing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Taking_sides_legend" [label="Taking_sides", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Reference_text:has_theme James Baldwin (disambiguation)",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'James Baldwin (disambiguation)' as a reference for other people with the same name, creating a very weak semantic link to the subject and object of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity writer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "James Baldwin is explicitly identified as an 'American writer' and the United States is mentioned in the context of the civil rights movement, creating a reasonable indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Create_physical_artwork:has_creator artists",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The MountainWest Sports Network is completely unrelated to the paragraph's content. While 'artists' are mentioned as being influenced by Baldwin, there is no connection to this specific entity or the action of creating physical artwork."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Objective_influence:has_theme that",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The MountainWest Sports Network is completely unrelated to the paragraph. The word 'that' is a common pronoun in the text but has no meaningful connection to this entity or theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Fame:has_time 1955",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1955 is explicitly mentioned in the paragraph in relation to James Baldwin's essay collection 'Notes of a Native Son' which helped establish his reputation, which can be loosely interpreted as relating to fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Age:has_location http://en.wikipedia.org/wiki/Harlem",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Harlem Hospital in New York City', establishing a clear location relationship between Harlem and New York City."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Judgment_communication:has_reason his essays, novels, plays, and poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Baldwin 'garnered acclaim for his essays, novels, plays, and poems', which semantically connects his acclaim/reputation (a form of judgment) to his body of work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Being_named:has_entity 2018 film",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'his 1974 novel If Beale Street Could Talk was adapted into a 2018 film of the same name'. While the triple's subject is the street and the object is the film, the novel (an entity) named after the street was adapted into the film, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Judgment_communication:has_theme which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The object 'which' is not a valid entity or concept. The paragraph discusses themes in Baldwin's work in general, but does not link specific themes to the novel 'If Beale Street Could Talk' or the street itself in a way that makes this triple extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_time 2016",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'His unfinished manuscript... was expanded and adapted as the 2016 documentary film...'. This connects Baldwin's work (text) to the year 2016, though the relationship is about adaptation rather than a direct temporal property of the text itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin People:has_theme same name",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'For other people with the same name, see James Baldwin (disambiguation)', establishing a semantic connection between James Baldwin and the theme/concept of having the same name as others."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Being_named:has_theme name",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Baldwin's novel 'If Beale Street Could Talk'. While the triple's subject is the street itself and the relationship is weak, there is a semantic link through the novel's title being the name of a street."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states his name multiple times ('James Arthur Baldwin', 'né Jones') and discusses the concept of naming and identity, making the theme of 'name' strongly associated with the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph repeatedly states that Baldwin was a writer of novels and specifically mentions his novels 'Go Tell It on the Mountain' and 'Giovanni's Room', creating a clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Occupy_rank:has_time 1953",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to anything in the paragraph. The year 1953 is mentioned in relation to Baldwin's novel, but there is no semantic connection to the given subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Indigenous_origin:has_entity Son",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Notes of a Native Son' and 'Go Tell It on the Mountain', creating a very weak semantic link to the word 'Son'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Behind_the_scenes:has_product same name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'If Beale Street Could Talk was adapted into a 2018 film of the same name', which directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Assistance:has_theme His 1955 essay collection Notes of a Native Son",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses 'Notes of a Native Son' as an essay collection that established Baldwin's reputation. The subject of the triple is unrelated, but the theme 'Notes of a Native Son' is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_time 1924",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph clearly states 'James Arthur Baldwin... August 2, 1924', providing a direct and unambiguous match for the year 1924."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Confronting_problem:has_theme typically",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph uses the word 'typically' in the context of characters facing obstacles, which is a weak semantic connection to the theme of 'confronting problems'. The subject is unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Documentary Win_prize:has_competitor His unfinished manuscript Remember This House",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that the documentary 'I Am Not Your Negro', adapted from 'Remember This House', won the BAFTA Award for Best Documentary. The relationship is about winning, not competition, but there is a semantic connection between the award and the manuscript via the documentary."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Occupy_rank:has_item 100 English-language novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Time magazine' ranking a novel among the top 100 English-language novels. The subject 'MountainWest Sports Network' is completely unrelated and not mentioned. The object '100 English-language novels' is present, but the overall triple is not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Assessing:has_time 1953",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1953 is mentioned in the paragraph as the publication date of a novel. The subject 'MountainWest Sports Network' is completely unrelated and not mentioned. The triple as a whole is not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin People:has_person people",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The entire paragraph is about James Baldwin, a person. The predicate 'has_person' is vague, but the subject is the main topic and the paragraph discusses other people (e.g., his mother), creating a weak semantic link to the concept of 'people'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Separating:has_time 1903",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1903 is mentioned as the birth year of Baldwin's mother. The subject 'Beale Street' is related to Baldwin's novel 'If Beale Street Could Talk', which is mentioned. The predicate 'Separating:has_time' is abstract, but a weak semantic connection exists via the novel and the presence of a date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Arriving:has_time when she was 19 years old",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Emma Jones arrived in Harlem, New York when she was 19. While the predicate is awkward, the semantic connection between the location (NYC/Harlem) and the time of arrival (age 19) is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Text:has_text essay",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest Sports Network' is completely unrelated to any entity mentioned in the paragraph. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_text If Beale Street Could Talk",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His 1974 novel If Beale Street Could Talk...', creating a clear semantic link between James Baldwin and this specific text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Intentionally_create:has_theme intricate narratives that influenced both the civil rights movement and the gay liberation movement in mid-twentieth century America",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest Sports Network' is completely unrelated to any entity mentioned in the paragraph. The thematic content described relates to Baldwin's work, but the subject is wrong."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_text Go Tell It on the Mountain",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His 1953 novel Go Tell It on the Mountain...', creating a clear semantic link between James Baldwin and this specific text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Assessing:has_standard as one of the top 100 English-language novels",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to the paragraph's content about James Baldwin. The 'standard' of being a top novel is attributed to Time magazine, not this entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Cause_change_of_phase:has_patient His 1974 novel If Beale Street Could Talk",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Beale_Street' as a location is not the agent of a change described in the paragraph. The novel was adapted into a film, but Beale Street itself is not stated as causing a change of phase for the novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Assessing:has_theme His 1953 novel Go Tell It on the Mountain",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to the paragraph's content about James Baldwin and his novel. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Objective_influence:has_theme artists and writers",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to the paragraph. While Baldwin's work influences artists and writers, this entity has no connection to that relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Being_born:has_time August 2, 1924",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Baldwin was born... on August 2, 1924'. This is a direct and clear match for the triple's predicate and object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Scrutiny:has_theme self- and social acceptance",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states that Baldwin's characters face obstacles in their search for 'self- and social acceptance' in the context of American society and the civil rights movement. The connection to the United States is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_theme 1953",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "James Baldwin's 1953 novel 'Go Tell It on the Mountain' is mentioned. While '1953' is a publication date and not explicitly a theme, there is a semantic connection between the author, his text, and the year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Arriving:has_goal Harlem, New York",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Baldwin's mother 'arrived in Harlem, New York' after fleeing the South. Harlem is a neighborhood in New York City, creating a reasonable semantic link for an arrival event with that destination."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Aggregate:has_theme collection",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to any entity mentioned in the paragraph. The paragraph mentions an essay 'collection' by Baldwin, but there is no connection to this specific network."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Intentionally_create:has_theme his reputation as a voice for human equality",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest_Sports_Network' is completely unrelated to any entity mentioned in the paragraph. The paragraph states that an essay collection helped establish Baldwin's reputation, but there is no connection to this sports network."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emma_Davies_(cyclist) Being_born:has_person Emma Jones",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Emma Davies (cyclist)' is completely unrelated to the paragraph, which is about James Baldwin and his mother Emma Jones. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Performing_arts:has_theme plays",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that James Baldwin 'garnered acclaim for his essays, novels, plays, and poems,' directly mentioning plays as part of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Interior_profile_relation:has_theme http://en.wikipedia.org/wiki/Southern_United_States",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions the novel 'If Beale Street Could Talk' and the Great Migration from the South, there is no direct or indirect statement linking the theme of Beale Street to the Southern United States. The connection is too tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Being_born:has_theme Emma Berdis Jones",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Baldwin was born as James Arthur Jones to Emma Berdis Jones,' establishing a clear relationship between James Baldwin's birth and his mother, Emma Berdis Jones. The predicate 'has_theme' is a reasonable, if slightly abstract, interpretation of this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Identicality:has_type name",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions the novel 'If Beale Street Could Talk' and the film adaptation 'of the same name.' This implies that 'Beale Street' is a name (the name of a novel and a film). The connection is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_theme 1974",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 1974 is mentioned in relation to Baldwin's novel 'If Beale Street Could Talk', but the triple's predicate 'has_theme' is not directly supported. The connection is weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/MountainWest_Sports_Network Objective_influence:has_theme Baldwin's work",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'MountainWest Sports Network' is not mentioned or related to any content in the paragraph. The entire triple is unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beale_Street Interior_profile_relation:has_time 1903",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year 1903 is mentioned in the paragraph (birth of Emma Jones), and 'Beale Street' is mentioned (title of a 1974 novel). The predicate 'has_time' is not a direct match for this context, creating a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Baldwin 'garnered acclaim for his essays, novels, plays, and poems.' This directly supports the idea that his body of work (text) includes poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Baldwin Text:has_time 1953",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His 1953 novel Go Tell It on the Mountain...', providing a clear link between the subject (Baldwin), a text (the novel), and the time 1953."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 24,
+    "accuracy": 0.48,
+    "avg_confidence": 0.446,
+    "high_confidence_50": 24,
+    "high_confidence_80": 16,
+    "percent_50": 48.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

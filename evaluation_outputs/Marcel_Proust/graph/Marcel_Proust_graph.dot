@@ -1,0 +1,277 @@
+digraph Marcel_Proust {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "critics and writers" [label="critics and writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "His first works, including ..." [label="His first works, including ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work on la recherche du tem..." [label="work on la recherche du tem...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "20th century in literature" [label="20th century in literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature and writing" [label="literature and writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Proust began work on la rec..." [label="Proust began work on la rec...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His first works" [label="His first works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his later novel" [label="his later novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "have a disrupted education" [label="have a disrupted education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "twentieth" [label="twentieth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection of stories Les p..." [label="collection of stories Les p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "du temps perdu" [label="du temps perdu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "narrator's" [label="narrator's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "elite Parisian high society..." [label="elite Parisian high society...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "recollections" [label="recollections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "became an atheist" [label="became an atheist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "These social connections" [label="These social connections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Proust was raised in his fa..." [label="Proust was raised in his fa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Auteuil quarter of Paris" [label="Auteuil quarter of Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven volumes" [label="seven volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert" [label="Robert", fillcolor=lightgray, color=gray, shape=hexagon];
+    "aristocrats and the upper b..." [label="aristocrats and the upper b...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father's Catholic faith" [label="his father's Catholic faith", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he later became an atheist" [label="he later became an atheist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "remaining volumes" [label="remaining volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Catholic Church" [label="Catholic Church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lifetime" [label="his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "connections" [label="connections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1908" [label="1908", fillcolor=lightgray, color=gray, shape=hexagon];
+    "based on drafts and proofs" [label="based on drafts and proofs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between 1913 and 1927" [label="between 1913 and 1927", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Adrien Proust" [label="Adrien Proust", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his brother Robert" [label="his brother Robert", fillcolor=lightgray, color=gray, shape=hexagon];
+    "severe" [label="severe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1890s" [label="1890s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "man" [label="man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "In Search of Lost Time" [label="In Search of Lost Time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "volumes" [label="volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cholera" [label="cholera", fillcolor=lightgray, color=gray, shape=hexagon];
+    "atheist" [label="atheist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high society salons" [label="high society salons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1913" [label="1913", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age" [label="age", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Les plaisirs et les jours" [label="Les plaisirs et les jours", fillcolor=lightgray, color=gray, shape=hexagon];
+    "initial sections" [label="initial sections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be one of the most influent..." [label="be one of the most influent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English" [label="English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wealthy bourgeois family" [label="wealthy bourgeois family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "proofs" [label="proofs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "inspiration and material" [label="inspiration and material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories Les plaisirs et les..." [label="stories Les plaisirs et les...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paris" [label="Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "la recherche du temps perdu" [label="la recherche du temps perdu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "asthma" [label="asthma", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Marcel Proust" [label="Marcel Proust", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Proust disambiguation" [label="Proust disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Marcel Proust" -> "critics and writers" [label="has theme [Categorization]", color=lightblue, penwidth=1];
+    "Marcel Proust" -> "1908" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Marcel Proust" -> "who" [label="has theme [Scrutiny]", color=lightgreen, penwidth=1];
+    "Marcel Proust" -> "Proust disambiguation" [label="has theme [Reference_text]", color=lightyellow, penwidth=1];
+    "Marcel Proust" -> "his later novel" [label="has theme [Supply]", color=lightpink, penwidth=1];
+    "Marcel Proust" -> "narrator's" [label="has theme [Memory]", color=lightcyan, penwidth=1];
+    "Marcel Proust" -> "du temps perdu" [label="has theme [Research]", color=lightsteelblue, penwidth=1];
+    "Adrien Proust" -> "have a disrupted education" [label="has effect [Causation]", color=lightgray, penwidth=1];
+    "Marcel Proust" -> "his later novel" [label="has product [Subjective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Marcel Proust" -> "his brother Robert" [label="has theme [Publishing]", color=lightseagreen, penwidth=1];
+    "Marcel Proust" -> "asthma" [label="has theme [Attack]", color=lightsalmon, penwidth=1];
+    "Marcel Proust" -> "volumes" [label="has theme [Remainder]", color=lightgoldenrod, penwidth=1];
+    "Marcel Proust" -> "inspiration and material" [label="has theme [Supply]", color=lightpink, penwidth=1];
+    "Catholic Church" -> "Marcel Proust" [label="has theme [Causation]", color=lightgray, penwidth=1];
+    "Marcel Proust" -> "works" [label="has type [Ordinal_numbers]", color=lightpink, penwidth=1];
+    "Adrien Proust" -> "atheist" [label="has theme [Becoming]", color=lightsteelblue, penwidth=1];
+    "Les plaisirs et les jours" -> "His first works, including ..." [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "Adrien Proust" -> "Marcel Proust" [label="has entity [Becoming]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "posthumously" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Marcel Proust" -> "seven volumes" [label="has theme [Publishing]", color=lightseagreen, penwidth=1];
+    "Adrien Proust" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "In Search of Lost Time" -> "1908" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Adrien Proust" -> "works" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "1890s" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Marcel Proust" -> "These social connections" [label="has theme [Supply]", color=lightpink, penwidth=1];
+    "Marcel Proust" -> "later" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Marcel Proust" -> "asthma" [label="has theme [Medical_conditions]", color=lightyellow, penwidth=1];
+    "Robert" -> "remaining volumes" [label="has process [Cause_to_resume]", color=lightpink, penwidth=1];
+    "Robert" -> "based on drafts and proofs" [label="has means [Cause_to_resume]", color=lightpink, penwidth=1];
+    "Adrien Proust" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "elite Parisian high society..." [label="has location [Motion]", color=green, penwidth=2];
+    "Marcel Proust" -> "1908" [label="has time [Research]", color=purple, penwidth=2];
+    "Marcel Proust" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Adrien Proust" -> "later" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Adrien Proust" -> "Marcel Proust" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Les plaisirs et les jours" -> "stories Les plaisirs et les..." [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "Marcel Proust" -> "work on la recherche du tem..." [label="has activity [Activity_start]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "he later became an atheist" [label="has theme [Concessive]", color=lightgoldenrodyellow, penwidth=1];
+    "Marcel Proust" -> "initial sections" [label="has entity [Coming_to_be]", color=lightseagreen, penwidth=1];
+    "Adrien Proust" -> "brother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "English" [label="has location [Text]", color=green, penwidth=2];
+    "Adrien Proust" -> "Marcel Proust" [label="has agent [Labor_product]", color=lightcoral, penwidth=1];
+    "Les plaisirs et les jours" -> "collection of stories Les p..." [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Marcel Proust" -> "These social connections" [label="has theme [Subjective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Adrien Proust" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "literature and writing" [label="has theme [Emotion_directed]", color=lightgoldenrod, penwidth=1];
+    "Marcel Proust" -> "wealthy bourgeois family" [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "Marcel Proust" -> "connections" [label="has theme [Social_connection]", color=lightsteelblue, penwidth=1];
+    "Robert" -> "his brother Robert" [label="has agent [Cause_to_resume]", color=lightpink, penwidth=1];
+    "Marcel Proust" -> "20th century in literature" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "Marcel Proust" -> "novel" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Marcel Proust" -> "1922" [label="has time [Text]", color=purple, penwidth=2];
+    "Marcel Proust" -> "cholera" [label="has theme [Scrutiny]", color=lightgreen, penwidth=1];
+    "Marcel Proust" -> "remaining volumes" [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "Paris" -> "elite Parisian high society..." [label="has theme [Frequency]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "young" [label="has age [People]", color=lightblue, penwidth=1];
+    "Marcel Proust" -> "volumes" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "recollections" [label="has theme [Memory]", color=lightcyan, penwidth=1];
+    "Les plaisirs et les jours" -> "His first works" [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Marcel Proust" -> "became an atheist" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Marcel Proust" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Marcel Proust" -> "family" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Marcel Proust" -> "based on drafts and proofs" [label="has means [Publishing]", color=lightseagreen, penwidth=1];
+    "Marcel Proust" -> "century" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Marcel Proust" -> "which" [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "In Search of Lost Time" -> "1908" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Les plaisirs et les jours" -> "collection" [label="has theme [Aggregate]", color=lightgray, penwidth=1];
+    "Adrien Proust" -> "which" [label="has cause [Causation]", color=lightgray, penwidth=1];
+    "Marcel Proust" -> "English" [label="has location [Publishing]", color=green, penwidth=2];
+    "Marcel Proust" -> "Auteuil quarter of Paris" [label="has location [Being_born]", color=green, penwidth=2];
+    "Marcel Proust" -> "between 1913 and 1927" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Marcel Proust" -> "twentieth" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Marcel Proust" -> "la recherche du temps perdu" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "age" [label="has attribute [Age]", color=lightyellow, penwidth=1];
+    "Catholic Church" -> "his father's Catholic faith" [label="has cause [Causation]", color=lightgray, penwidth=1];
+    "Marcel Proust" -> "man" [label="has entity [Age]", color=lightyellow, penwidth=1];
+    "Marcel Proust" -> "be one of the most influent..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Marcel Proust" -> "Proust was raised in his fa..." [label="has theme [Concessive]", color=lightgoldenrodyellow, penwidth=1];
+    "Marcel Proust" -> "man" [label="has person [People]", color=red, penwidth=2];
+    "Adrien Proust" -> "Marcel Proust" [label="has author [Text]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "proofs" [label="has theme [Evidence]", color=lightpink, penwidth=1];
+    "Marcel Proust" -> "high society salons" [label="has theme [Desirability]", color=lightcyan, penwidth=1];
+    "Marcel Proust" -> "young" [label="has age [Age]", color=lightyellow, penwidth=1];
+    "Marcel Proust" -> "novel" [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "Marcel Proust" -> "public" [label="has agent [Success_or_failure]", color=lightsteelblue, penwidth=1];
+    "Marcel Proust" -> "severe" [label="has theme [Attack]", color=lightsalmon, penwidth=1];
+    "Marcel Proust" -> "His first works, including ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Marcel Proust" -> "authors" [label="has author [Text_creation]", color=lightgray, penwidth=1];
+    "Paris" -> "aristocrats and the upper b..." [label="has event [Frequency]", color=lightcoral, penwidth=1];
+    "In Search of Lost Time" -> "Proust began work on la rec..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Marcel Proust" -> "uses" [label="has class [Increment]", color=lightgoldenrodyellow, penwidth=1];
+    "Marcel Proust" -> "his lifetime" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Marcel Proust" -> "art" [label="has activity [Fields]", color=lightseagreen, penwidth=1];
+    "Les plaisirs et les jours" -> "1890s" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Marcel Proust" -> "authors" [label="has entity [Subjective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Marcel Proust" -> "1913" [label="has time [Coming_to_be]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Memory_legend" [label="Memory", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Research_legend" [label="Research", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Attack_legend" [label="Attack", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Remainder_legend" [label="Remainder", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Cause_to_resume_legend" [label="Cause_to_resume", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Concessive_legend" [label="Concessive", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Coming_to_be_legend" [label="Coming_to_be", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Social_connection_legend" [label="Social_connection", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

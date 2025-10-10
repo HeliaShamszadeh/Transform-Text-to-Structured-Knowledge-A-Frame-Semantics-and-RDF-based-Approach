@@ -1,0 +1,281 @@
+digraph Franz_Kafka {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novella The Metamorphosis 1..." [label="novella The Metamorphosis 1...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels and short stories" [label="his novels and short stories", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Only a minority of his works" [label="Only a minority of his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His best-known works" [label="His best-known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novella" [label="novella", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His work" [label="His work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "hundreds of letters" [label="hundreds of letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "internal" [label="internal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "socio- bureaucratic" [label="socio- bureaucratic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "little" [label="little", fillcolor=lightgray, color=gray, shape=hexagon];
+    "legal" [label="legal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a lawyer" [label="as a lawyer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "describe situations like th..." [label="describe situations like th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends" [label="friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "close" [label="close", fillcolor=lightgray, color=gray, shape=hexagon];
+    "full-time" [label="full-time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family and close friends" [label="family and close friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "40" [label="40", fillcolor=lightgray, color=gray, shape=hexagon];
+    "engaged to several women" [label="engaged to several women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1924" [label="1924", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prague" [label="Prague", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his legal education" [label="his legal education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary magazines" [label="literary magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "aged 40" [label="aged 40", fillcolor=lightgray, color=gray, shape=hexagon];
+    "situations like those depic..." [label="situations like those depic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a middle-class German-..." [label="into a middle-class German-...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1912" [label="1912", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Franz Kafka  b  3 July 1883..." [label="Franz Kafka  b  3 July 1883...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kafka disambiguation" [label="Kafka disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father, with whom he ha..." [label="his father, with whom he ha...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during his life" [label="during his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hundreds" [label="hundreds", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austro-Hungarian" [label="Austro-Hungarian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austria" [label="Austria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "typically" [label="typically", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lawyer" [label="lawyer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after completing his legal ..." [label="after completing his legal ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "women" [label="women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a major figure of 20th-c..." [label="as a major figure of 20th-c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "obligations" [label="obligations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Empire" [label="Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "History of the Jews in Czechoslovakia" [label="History of the Jews in Czechoslovakia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prague, in the Austro-Hunga..." [label="Prague, in the Austro-Hunga...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Franz Kafka" [label="Franz Kafka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lexicon" [label="lexicon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that his true vocation was ..." [label="that his true vocation was ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazines" [label="magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure of 20th-century lite..." [label="figure of 20th-century lite...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "legal and insurance" [label="legal and insurance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "internal conflict as he fel..." [label="internal conflict as he fel...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fables and aphorisms" [label="fables and aphorisms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "term Kafkaesque" [label="term Kafkaesque", fillcolor=lightgray, color=gray, shape=hexagon];
+    "various legal and insurance..." [label="various legal and insurance...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "completing his legal education" [label="completing his legal education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bohemia" [label="Bohemia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "isolated protagonists facin..." [label="isolated protagonists facin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1915" [label="1915", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His professional obligations" [label="His professional obligations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Metamorphosis" [label="Metamorphosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "individual stories, such as..." [label="individual stories, such as...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whom" [label="whom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artists, philosophers, comp..." [label="artists, philosophers, comp...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "incomprehensible" [label="incomprehensible", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Franz Kafka" -> "Prague, in the Austro-Hunga..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Bohemia" -> "Franz Kafka" [label="has employee [Being_employed]", color=lightcoral, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "aged 40" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "Franz Kafka" -> "Metamorphosis" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Franz Kafka" -> "most" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Franz Kafka" -> "letters" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "artists, philosophers, comp..." [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "Bohemia" -> "whom" [label="has theme [Relation]", color=lightsteelblue, penwidth=1];
+    "Franz Kafka" -> "family and close friends" [label="has addressee [Text_creation]", color=lightgray, penwidth=1];
+    "Bohemia" -> "Franz Kafka" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Bohemia" -> "legal" [label="has theme [Education_teaching]", color=lightseagreen, penwidth=1];
+    "Bohemia" -> "legal" [label="has theme [Domain]", color=lightsalmon, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "His work" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "1924" [label="has time [Death]", color=purple, penwidth=2];
+    "Franz Kafka" -> "1924" [label="has time [Age]", color=purple, penwidth=2];
+    "History of the Jews in Czechoslovakia" -> "literature" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "1915" [label="has time [Text]", color=purple, penwidth=2];
+    "Bohemia" -> "as a lawyer" [label="has role [Education_teaching]", color=lightseagreen, penwidth=1];
+    "Bohemia" -> "full-time" [label="has theme [Being_employed]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "letters" [label="has theme [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "Franz Kafka" -> "hundreds of letters" [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Bohemia" -> "1912" [label="has time [Fields]", color=purple, penwidth=2];
+    "Franz Kafka" -> "term Kafkaesque" [label="has theme [Arriving]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "Franz Kafka" [label="has theme [Relation]", color=lightsteelblue, penwidth=1];
+    "Franz Kafka" -> "describe situations like th..." [label="has purpose [Arriving]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "stories" [label="has theme [Duration_description]", color=lightblue, penwidth=1];
+    "Bohemia" -> "little" [label="has degree [Attention]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "1912" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Franz Kafka" -> "work" [label="has theme [Labor_product]", color=lightyellow, penwidth=1];
+    "Bohemia" -> "during his life" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Austria" -> "Kafka disambiguation" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Bohemia" -> "his father, with whom he ha..." [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "socio- bureaucratic" [label="has type [Leadership]", color=lightsteelblue, penwidth=1];
+    "Franz Kafka" -> "his novels and short stories" [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "Franz Kafka" -> "1912" [label="has time [Text]", color=purple, penwidth=2];
+    "Franz Kafka" -> "Franz Kafka  b  3 July 1883..." [label="has person [Being_born]", color=red, penwidth=2];
+    "History of the Jews in Czechoslovakia" -> "isolated protagonists facin..." [label="has role [Performers_and_roles]", color=lightgray, penwidth=1];
+    "Bohemia" -> "Franz Kafka" [label="has theme [Being_obligated]", color=lightgoldenrodyellow, penwidth=1];
+    "Bohemia" -> "women" [label="has person [People]", color=red, penwidth=2];
+    "Bohemia" -> "internal conflict as he fel..." [label="has effect [Causation]", color=lightsalmon, penwidth=1];
+    "Franz Kafka" -> "works" [label="has theme [Labor_product]", color=lightyellow, penwidth=1];
+    "Franz Kafka" -> "family and close friends" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "widely" [label="has degree [Objective_influence]", color=lightcyan, penwidth=1];
+    "Prague" -> "1924" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Prague" -> "Austro-Hungarian" [label="has theme [Political_locales]", color=lightgoldenrod, penwidth=1];
+    "Bohemia" -> "legal and insurance" [label="has theme [Being_employed]", color=lightcoral, penwidth=1];
+    "Austria" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Bohemia" -> "friends" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Bohemia" -> "magazines" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "Bohemia" -> "tuberculosis" [label="has theme [Medical_conditions]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "40" [label="has age [Age]", color=lightgoldenrod, penwidth=1];
+    "Franz Kafka" -> "situations like those depic..." [label="has item [Communicate_categorization]", color=lightblue, penwidth=1];
+    "Bohemia" -> "His professional obligations" [label="has cause [Causation]", color=lightsalmon, penwidth=1];
+    "Franz Kafka" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "tuberculosis" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "Bohemia" -> "completing his legal education" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Bohemia" -> "hundreds" [label="has quantity [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "novella" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "novella The Metamorphosis 1..." [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+    "Bohemia" -> "obligations" [label="has theme [Being_obligated]", color=lightgoldenrodyellow, penwidth=1];
+    "Franz Kafka" -> "that his true vocation was ..." [label="has opinion [Opinion]", color=lightgreen, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "Franz Kafka" [label="has theme [Death]", color=lightgreen, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "Metamorphosis" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "incomprehensible" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Bohemia" -> "Franz Kafka" [label="has student [Education_teaching]", color=lightseagreen, penwidth=1];
+    "Bohemia" -> "his works" [label="has theme [Attention]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "engaged to several women" [label="has theme [Becoming]", color=lightyellow, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "typically" [label="has type [Performers_and_roles]", color=lightgray, penwidth=1];
+    "Franz Kafka" -> "1924" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Bohemia" -> "magazines" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Bohemia" -> "1924" [label="has time [Medical_conditions]", color=purple, penwidth=2];
+    "Prague" -> "Empire" [label="has theme [Political_locales]", color=lightgoldenrod, penwidth=1];
+    "Bohemia" -> "fables and aphorisms" [label="has theme [Duration_description]", color=lightblue, penwidth=1];
+    "Franz Kafka" -> "lexicon" [label="has goal [Arriving]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "Franz Kafka" [label="has patient [Medical_conditions]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "after completing his legal ..." [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Bohemia" -> "literary magazines" [label="has theme [Publishing]", color=lightgreen, penwidth=1];
+    "Bohemia" -> "lawyer" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "History of the Jews in Czechoslovakia" -> "as a major figure of 20th-c..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "1915" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Bohemia" -> "internal" [label="has theme [Hostile_encounter]", color=lightsteelblue, penwidth=1];
+    "Bohemia" -> "individual stories, such as..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Bohemia" -> "Only a minority of his works" [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "his work" [label="has theme [Performers_and_roles]", color=lightgray, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "figure of 20th-century lite..." [label="has theme [Importance]", color=lightgray, penwidth=1];
+    "History of the Jews in Czechoslovakia" -> "His best-known works" [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+    "Bohemia" -> "1912" [label="has time [Attention]", color=purple, penwidth=2];
+    "History of the Jews in Czechoslovakia" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Bohemia" -> "literary" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Franz Kafka" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Franz Kafka" -> "his legal education" [label="has activity [Activity_finish]", color=lightgoldenrodyellow, penwidth=1];
+    "Franz Kafka" -> "Prague" [label="has location [Being_born]", color=green, penwidth=2];
+    "Bohemia" -> "1912" [label="has time [Text]", color=purple, penwidth=2];
+    "History of the Jews in Czechoslovakia" -> "his work" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Franz Kafka" -> "1915" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Bohemia" -> "various legal and insurance..." [label="has task [Being_employed]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Bohemia" -> "close" [label="has degree [Personal_relationship]", color=red, penwidth=2];
+    "Franz Kafka" -> "into a middle-class German-..." [label="has theme [Being_born]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Domain_legend" [label="Domain", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Attention_legend" [label="Attention", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Performers_and_roles_legend" [label="Performers_and_roles", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_obligated_legend" [label="Being_obligated", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Activity_finish_legend" [label="Activity_finish", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

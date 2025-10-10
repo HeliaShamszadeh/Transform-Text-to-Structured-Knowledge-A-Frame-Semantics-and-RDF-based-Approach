@@ -1,0 +1,1396 @@
+{
+  "metadata": {
+    "total_triples": 63,
+    "source_file": "Alexander_Pushkin",
+    "extraction_date": "2025-09-27 19:33:06",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "era",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Age:has_age",
+        "object": "15",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Kinship:has_theme",
+        "object": "Russian nobility",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Unattributed_information:has_theme",
+        "object": "lover",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Kinship:has_theme",
+        "object": "Pushkin's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "People_by_vocation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Origin:has_entity",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Text:has_text",
+        "object": "poem",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+        "predicate": "Foreign_or_domestic_country:has_theme",
+        "object": "homeland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Categorization:has_theme",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Increment:has_theme",
+        "object": "modern Russian literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "husband",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Capability:has_event",
+        "object": "publish",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Kinship:has_theme",
+        "object": "maternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Leadership:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Origin:has_entity",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Causation:has_effect",
+        "object": "his exile by Emperor Alexander I",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Text_creation:has_text",
+        "object": "his controversial poem \" Ode to Liberty ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Growing_food:has_location",
+        "object": "Emperor's court household",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Being_born:has_theme",
+        "object": "into the Russian nobility",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "her sister's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Text_creation:has_text",
+        "object": "his most famous play, Boris Godunov",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Kinship:has_theme",
+        "object": "Sergey Lvovich Pushkin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Categorization:has_category",
+        "object": "be the greatest Russian poet, as well as the founder of modern Russian literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Text:has_theme",
+        "object": "verse Eugene Onegin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chevalier_Guard_Regiment",
+        "predicate": "Being_incarcerated:has_theme",
+        "object": "French officer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Origin:has_theme",
+        "object": "ancestry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "wife",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Cause_harm:has_theme",
+        "object": "duel with his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+        "predicate": "Kinship:has_theme",
+        "object": "Nadezhda (Nadya) Ossipovna Gannibal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Reference_text:has_theme",
+        "object": "Pushkin (disambiguation) and Alexander Pushkin (disambiguation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Causation:has_cause",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Text:has_text",
+        "object": "Ode to Liberty",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Possession:has_theme",
+        "object": "old noble family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Cause_harm:has_result",
+        "object": "fatally",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+        "predicate": "Kinship:has_theme",
+        "object": "grandmother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "lover",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Russian literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Origin:has_theme",
+        "object": "origin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Age:has_entity",
+        "object": "noble family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "poem",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Possession:has_owner",
+        "object": "His father, Sergey Lvovich Pushkin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "his wife's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "Romantic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Leadership:has_leader",
+        "object": "Emperor",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Publishing:has_time",
+        "object": "age of 15",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Growing_food:has_purpose",
+        "object": "as his godson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Growing_food:has_theme",
+        "object": "who",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Georges-Charles_de_Heeckeren_d'Anthès",
+        "predicate": "Being_named:has_theme",
+        "object": "as Dantes-Gekkern",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Publishing:has_work",
+        "object": "his first poem",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+        "predicate": "Leadership:has_leader",
+        "object": "Alexander I",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Africa",
+        "predicate": "Education_teaching:has_institution",
+        "object": "http://en.wikipedia.org/wiki/Secondary_education_in_France",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Capability:has_event",
+          "object": "publish",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Being_born:has_theme",
+          "object": "into the Russian nobility",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "era",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Age:has_age",
+          "object": "15",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Kinship:has_theme",
+          "object": "Russian nobility",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Unattributed_information:has_theme",
+          "object": "lover",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Kinship:has_theme",
+          "object": "Pushkin's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "People_by_vocation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Origin:has_entity",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Text:has_text",
+          "object": "poem",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+          "predicate": "Foreign_or_domestic_country:has_theme",
+          "object": "homeland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Categorization:has_theme",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Increment:has_theme",
+          "object": "modern Russian literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "husband",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Kinship:has_theme",
+          "object": "maternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Leadership:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Origin:has_entity",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Causation:has_effect",
+          "object": "his exile by Emperor Alexander I",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Text_creation:has_text",
+          "object": "his controversial poem \" Ode to Liberty ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Growing_food:has_location",
+          "object": "Emperor's court household",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "her sister's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Text_creation:has_text",
+          "object": "his most famous play, Boris Godunov",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Kinship:has_theme",
+          "object": "Sergey Lvovich Pushkin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Categorization:has_category",
+          "object": "be the greatest Russian poet, as well as the founder of modern Russian literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Text:has_theme",
+          "object": "verse Eugene Onegin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chevalier_Guard_Regiment",
+          "predicate": "Being_incarcerated:has_theme",
+          "object": "French officer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Origin:has_theme",
+          "object": "ancestry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "wife",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Cause_harm:has_theme",
+          "object": "duel with his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+          "predicate": "Kinship:has_theme",
+          "object": "Nadezhda (Nadya) Ossipovna Gannibal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Reference_text:has_theme",
+          "object": "Pushkin (disambiguation) and Alexander Pushkin (disambiguation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Causation:has_cause",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Text:has_text",
+          "object": "Ode to Liberty",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Possession:has_theme",
+          "object": "old noble family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Cause_harm:has_result",
+          "object": "fatally",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+          "predicate": "Kinship:has_theme",
+          "object": "grandmother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "lover",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Russian literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Origin:has_theme",
+          "object": "origin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Age:has_entity",
+          "object": "noble family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "poem",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Possession:has_owner",
+          "object": "His father, Sergey Lvovich Pushkin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Eugene_Onegin",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "his wife's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "Romantic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Leadership:has_leader",
+          "object": "Emperor",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Publishing:has_time",
+          "object": "age of 15",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Growing_food:has_purpose",
+          "object": "as his godson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Growing_food:has_theme",
+          "object": "who",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Georges-Charles_de_Heeckeren_d'Anthès",
+          "predicate": "Being_named:has_theme",
+          "object": "as Dantes-Gekkern",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Publishing:has_work",
+          "object": "his first poem",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+          "predicate": "Leadership:has_leader",
+          "object": "Alexander I",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Africa",
+          "predicate": "Education_teaching:has_institution",
+          "object": "http://en.wikipedia.org/wiki/Secondary_education_in_France",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Chevalier_Guard_Regiment",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Georges-Charles_de_Heeckeren_d'Anthès",
+      "http://en.wikipedia.org/wiki/Africa",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "http://en.wikipedia.org/wiki/Africa"
+    ],
+    "objects": [
+      "era",
+      "literature",
+      "15",
+      "Russian nobility",
+      "lover",
+      "poet",
+      "Pushkin's",
+      "http://en.wikipedia.org/wiki/Russia",
+      "literature",
+      "poem",
+      "homeland",
+      "father",
+      "many",
+      "modern Russian literature",
+      "husband",
+      "publish",
+      "maternal",
+      "http://en.wikipedia.org/wiki/Russia",
+      "family",
+      "poet",
+      "his exile by Emperor Alexander I",
+      "his controversial poem \" Ode to Liberty ",
+      "Emperor's court household",
+      "into the Russian nobility",
+      "her sister's",
+      "family",
+      "his most famous play, Boris Godunov",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "Sergey Lvovich Pushkin",
+      "be the greatest Russian poet, as well as the founder of modern Russian literature",
+      "verse Eugene Onegin",
+      "French officer",
+      "mother",
+      "ancestry",
+      "wife",
+      "duel with his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "Nadezhda (Nadya) Ossipovna Gannibal",
+      "Pushkin (disambiguation) and Alexander Pushkin (disambiguation",
+      "that",
+      "Ode to Liberty",
+      "old noble family",
+      "fatally",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "grandmother",
+      "lover",
+      "uses",
+      "Russian literature",
+      "novel",
+      "origin",
+      "noble family",
+      "poem",
+      "His father, Sergey Lvovich Pushkin",
+      "his wife's",
+      "Romantic",
+      "Emperor",
+      "age of 15",
+      "as his godson",
+      "who",
+      "as Dantes-Gekkern",
+      "his first poem",
+      "Alexander I",
+      "http://en.wikipedia.org/wiki/Secondary_education_in_France"
+    ],
+    "all_unique": [
+      "literature",
+      "uses",
+      "15",
+      "that",
+      "ancestry",
+      "era",
+      "http://en.wikipedia.org/wiki/Russia",
+      "family",
+      "Alexander I",
+      "noble family",
+      "mother",
+      "origin",
+      "his first poem",
+      "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+      "publish",
+      "his most famous play, Boris Godunov",
+      "be the greatest Russian poet, as well as the founder of modern Russian literature",
+      "fatally",
+      "Romantic",
+      "who",
+      "verse Eugene Onegin",
+      "as his godson",
+      "his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "father",
+      "Pushkin (disambiguation) and Alexander Pushkin (disambiguation",
+      "lover",
+      "husband",
+      "grandmother",
+      "His father, Sergey Lvovich Pushkin",
+      "http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "duel with his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "his exile by Emperor Alexander I",
+      "Russian literature",
+      "Nadezhda (Nadya) Ossipovna Gannibal",
+      "age of 15",
+      "http://en.wikipedia.org/wiki/Secondary_education_in_France",
+      "French officer",
+      "http://en.wikipedia.org/wiki/Chevalier_Guard_Regiment",
+      "Sergey Lvovich Pushkin",
+      "http://en.wikipedia.org/wiki/Africa",
+      "into the Russian nobility",
+      "many",
+      "wife",
+      "Ode to Liberty",
+      "her sister's",
+      "Russian nobility",
+      "maternal",
+      "http://en.wikipedia.org/wiki/Eugene_Onegin",
+      "homeland",
+      "poet",
+      "modern Russian literature",
+      "novel",
+      "as Dantes-Gekkern",
+      "old noble family",
+      "his wife's",
+      "Pushkin's",
+      "Emperor's court household",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "Emperor",
+      "http://en.wikipedia.org/wiki/Georges-Charles_de_Heeckeren_d'Anthès",
+      "poem",
+      "his controversial poem \" Ode to Liberty "
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Calendric_unit:has_theme",
+      "Fields:has_theme",
+      "Age:has_age",
+      "Kinship:has_theme",
+      "Unattributed_information:has_theme",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "People_by_vocation:has_theme",
+      "Origin:has_entity",
+      "Text:has_text",
+      "Foreign_or_domestic_country:has_theme",
+      "Kinship:has_theme",
+      "Categorization:has_theme",
+      "Increment:has_theme",
+      "Personal_relationship:has_theme",
+      "Capability:has_event",
+      "Kinship:has_theme",
+      "Leadership:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_entity",
+      "Causation:has_effect",
+      "Text_creation:has_text",
+      "Growing_food:has_location",
+      "Being_born:has_theme",
+      "Personal_relationship:has_theme",
+      "Kinship:has_theme",
+      "Text_creation:has_text",
+      "Publishing:has_theme",
+      "Kinship:has_theme",
+      "Categorization:has_category",
+      "Text:has_theme",
+      "Being_incarcerated:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_theme",
+      "Personal_relationship:has_theme",
+      "Cause_harm:has_theme",
+      "Kinship:has_theme",
+      "Reference_text:has_theme",
+      "Causation:has_cause",
+      "Text:has_text",
+      "Possession:has_theme",
+      "Cause_harm:has_result",
+      "Being_born:has_location",
+      "Hostile_encounter:has_theme",
+      "Kinship:has_theme",
+      "Personal_relationship:has_theme",
+      "Increment:has_class",
+      "Temporal_collocation:has_theme",
+      "Text:has_text",
+      "Origin:has_theme",
+      "Age:has_entity",
+      "Ordinal_numbers:has_type",
+      "Possession:has_owner",
+      "Personal_relationship:has_theme",
+      "Calendric_unit:has_theme",
+      "Leadership:has_leader",
+      "Publishing:has_time",
+      "Growing_food:has_purpose",
+      "Growing_food:has_theme",
+      "Being_named:has_theme",
+      "Publishing:has_work",
+      "Leadership:has_leader",
+      "Education_teaching:has_institution"
+    ],
+    "unique_predicates": [
+      "Growing_food:has_theme",
+      "Personal_relationship:has_theme",
+      "People_by_vocation:has_theme",
+      "Calendric_unit:has_theme",
+      "Cause_harm:has_result",
+      "Age:has_age",
+      "Age:has_entity",
+      "Temporal_collocation:has_theme",
+      "Being_born:has_theme",
+      "Fields:has_theme",
+      "Origin:has_theme",
+      "Possession:has_theme",
+      "Being_named:has_theme",
+      "Education_teaching:has_institution",
+      "Causation:has_effect",
+      "Growing_food:has_purpose",
+      "Unattributed_information:has_theme",
+      "Leadership:has_theme",
+      "Possession:has_owner",
+      "Capability:has_event",
+      "Leadership:has_leader",
+      "Publishing:has_time",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Causation:has_cause",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Categorization:has_category",
+      "Cause_harm:has_theme",
+      "Hostile_encounter:has_theme",
+      "Text_creation:has_text",
+      "Increment:has_theme",
+      "Text:has_theme",
+      "Categorization:has_theme",
+      "Origin:has_entity",
+      "Being_incarcerated:has_theme",
+      "Foreign_or_domestic_country:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Growing_food:has_location"
+    ],
+    "predicate_counts": {
+      "Calendric_unit:has_theme": 2,
+      "Fields:has_theme": 1,
+      "Age:has_age": 1,
+      "Kinship:has_theme": 10,
+      "Unattributed_information:has_theme": 1,
+      "Text:has_text": 4,
+      "People_by_vocation:has_theme": 1,
+      "Origin:has_entity": 2,
+      "Foreign_or_domestic_country:has_theme": 1,
+      "Categorization:has_theme": 1,
+      "Increment:has_theme": 1,
+      "Personal_relationship:has_theme": 5,
+      "Capability:has_event": 1,
+      "Leadership:has_theme": 1,
+      "Causation:has_effect": 1,
+      "Text_creation:has_text": 2,
+      "Growing_food:has_location": 1,
+      "Being_born:has_theme": 1,
+      "Publishing:has_theme": 1,
+      "Categorization:has_category": 1,
+      "Text:has_theme": 1,
+      "Being_incarcerated:has_theme": 1,
+      "Origin:has_theme": 2,
+      "Cause_harm:has_theme": 1,
+      "Reference_text:has_theme": 1,
+      "Causation:has_cause": 1,
+      "Possession:has_theme": 1,
+      "Cause_harm:has_result": 1,
+      "Being_born:has_location": 1,
+      "Hostile_encounter:has_theme": 1,
+      "Increment:has_class": 1,
+      "Temporal_collocation:has_theme": 1,
+      "Age:has_entity": 1,
+      "Ordinal_numbers:has_type": 1,
+      "Possession:has_owner": 1,
+      "Leadership:has_leader": 2,
+      "Publishing:has_time": 1,
+      "Growing_food:has_purpose": 1,
+      "Growing_food:has_theme": 1,
+      "Being_named:has_theme": 1,
+      "Publishing:has_work": 1,
+      "Education_teaching:has_institution": 1
+    }
+  }
+}

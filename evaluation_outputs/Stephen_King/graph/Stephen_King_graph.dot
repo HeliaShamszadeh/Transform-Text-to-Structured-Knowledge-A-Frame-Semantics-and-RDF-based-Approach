@@ -1,0 +1,257 @@
+digraph Stephen_King {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "American writer" [label="American writer", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "four novellas" [label="four novellas", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his horror novels" [label="his horror novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novellas" [label="novellas", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels" [label="his novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "Dolores Claiborne" [label="Dolores Claiborne", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "The Man in the Black Suit" [label="The Man in the Black Suit", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1982" [label="1982", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1947" [label="1947", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1974" [label="1974", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Carrie 1976 , The Shining 1..." [label="Carrie 1976 , The Shining 1...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stephen King" [label="Stephen King", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films adapted from King's f..." [label="films adapted from King's f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most of which" [label="most of which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his overall contributions t..." [label="his overall contributions t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "continuous" [label="continuous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2003" [label="2003", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2003 Medal for Distinguishe..." [label="2003 Medal for Distinguishe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "departure from the genre" [label="departure from the genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sons" [label="sons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "11/22/63 2011" [label="11/22/63 2011", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "O. Henry Award for " The Ma..." [label="O. Henry Award for " The Ma...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other genres, among them su..." [label="other genres, among them su...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "approximately 200 short sto..." [label="approximately 200 short sto...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "King" [label="King", fillcolor=lightgray, color=gray, shape=hexagon];
+    "September 21, 1947" [label="September 21, 1947", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stephen King disambiguation" [label="Stephen King disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "honors" [label="honors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "names" [label="names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1981" [label="1981", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1994" [label="1994", fillcolor=lightgray, color=gray, shape=hexagon];
+    "genres" [label="genres", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Peter Straub" [label="Peter Straub", fillcolor=lightgray, color=gray, shape=hexagon];
+    "O. Henry" [label="O. Henry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other awards" [label="other awards", fillcolor=lightgray, color=gray, shape=hexagon];
+    "popular culture" [label="popular culture", fillcolor=lightgray, color=gray, shape=hexagon];
+    "horror" [label="horror", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Owen King" [label="Owen King", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nonfiction" [label="nonfiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brilliantly rooted, psychol..." [label="brilliantly rooted, psychol...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "under the pseudonym Richard..." [label="under the pseudonym Richard...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major departure from the genre" [label="major departure from the genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Portland, Maine" [label="Portland, Maine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American scene" [label="American scene", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same or similar names" [label="same or similar names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1976" [label="1976", fillcolor=lightgray, color=gray, shape=hexagon];
+    "King of Horror" [label="King of Horror", fillcolor=lightgray, color=gray, shape=hexagon];
+    "overall contributions to li..." [label="overall contributions to li...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "inspiration" [label="inspiration", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Award" [label="Award", fillcolor=lightgray, color=gray, shape=hexagon];
+    "awards" [label="awards", fillcolor=lightgray, color=gray, shape=hexagon];
+    "primarily" [label="primarily", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joyce Carol Oates" [label="Joyce Carol Oates", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National" [label="National", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Stephen King" -> "departure from the genre" [label="has theme [Importance]", color=lightblue, penwidth=1];
+    "Stephen King" -> "2003" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Stephen King" -> "1982" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Dolores Claiborne" -> "awards" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Stephen King" -> "his horror novels" [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "Stephen King" -> "1981" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Dolores Claiborne" -> "1994" [label="has time [Leadership]", color=purple, penwidth=2];
+    "United States" -> "1947" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Stephen King" -> "other people" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Dolores Claiborne" -> "inspiration" [label="has theme [Source_of_getting]", color=lightseagreen, penwidth=1];
+    "Dolores Claiborne" -> "Stephen King" [label="has theme [Publishing]", color=lightsalmon, penwidth=1];
+    "Dolores Claiborne" -> "films adapted from King's f..." [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "Stephen King" -> "Stephen King disambiguation" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Stephen King" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Dolores Claiborne" -> "2003" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Owen King" -> "King" [label="has competitor [Win_prize]", color=lightcoral, penwidth=1];
+    "Dolores Claiborne" -> "The Man in the Black Suit" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Dolores Claiborne" -> "under the pseudonym Richard..." [label="has theme [Publishing]", color=lightsalmon, penwidth=1];
+    "Dolores Claiborne" -> "2003 Medal for Distinguishe..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "genres" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Stephen King" -> "major departure from the genre" [label="has type [Ordinal_numbers]", color=lightblue, penwidth=1];
+    "Stephen King" -> "1982" [label="has time [Importance]", color=purple, penwidth=2];
+    "Owen King" -> "King" [label="has person [Being_born]", color=red, penwidth=2];
+    "Stephen King" -> "1982" [label="has time [Text]", color=purple, penwidth=2];
+    "Stephen King" -> "four novellas" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "Stephen King" -> "genres" [label="has theme [Type]", color=lightgreen, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "Owen King" -> "Portland, Maine" [label="has location [Being_born]", color=green, penwidth=2];
+    "Dolores Claiborne" -> "Stephen King" [label="has theme [Commemorative]", color=lightpink, penwidth=1];
+    "Stephen King" -> "names" [label="has theme [Similarity]", color=lightcyan, penwidth=1];
+    "Stephen King" -> "novellas" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "same or similar names" [label="has theme [People]", color=lightsteelblue, penwidth=1];
+    "Dolores Claiborne" -> "his overall contributions t..." [label="has theme [Commemorative]", color=lightpink, penwidth=1];
+    "Dolores Claiborne" -> "2003" [label="has time [Commemorative]", color=purple, penwidth=2];
+    "Dolores Claiborne" -> "literature" [label="has recipient [Giving]", color=lightsteelblue, penwidth=1];
+    "Dolores Claiborne" -> "continuous" [label="has theme [Source_of_getting]", color=lightseagreen, penwidth=1];
+    "Dolores Claiborne" -> "films" [label="has score [Behind_the_scenes]", color=lightgray, penwidth=1];
+    "Stephen King" -> "primarily" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Stephen King" -> "1982" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Dolores Claiborne" -> "1976" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Stephen King" -> "horror" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "collections" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "United States" -> "popular culture" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "Stephen King" -> "nonfiction" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Dolores Claiborne" -> "Carrie 1976 , The Shining 1..." [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "Stephen King" -> "widely" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Stephen King" -> "King of Horror" [label="has theme [Name_conferral]", color=lightgoldenrodyellow, penwidth=1];
+    "Stephen King" -> "his overall contributions t..." [label="has theme [Win_prize]", color=lightcoral, penwidth=1];
+    "Dolores Claiborne" -> "O. Henry" [label="has leader [Leadership]", color=lightsteelblue, penwidth=1];
+    "Dolores Claiborne" -> "Award" [label="has role [Leadership]", color=lightsteelblue, penwidth=1];
+    "Owen King" -> "September 21, 1947" [label="has time [Being_born]", color=purple, penwidth=2];
+    "United States" -> "author" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "Owen King" -> "O. Henry Award for " The Ma..." [label="has prize [Win_prize]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "honors" [label="has prize [Win_prize]", color=lightcoral, penwidth=1];
+    "Joyce Carol Oates" -> "King" [label="has entity [Labeling]", color=lightseagreen, penwidth=1];
+    "Dolores Claiborne" -> "King" [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "Stephen King" -> "sons" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Dolores Claiborne" -> "authors" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Stephen King" -> "approximately 200 short sto..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Dolores Claiborne" -> "authors" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Stephen King" -> "most of which" [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "Dolores Claiborne" -> "overall contributions to li..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "collections" [label="has theme [Publishing]", color=lightsalmon, penwidth=1];
+    "Dolores Claiborne" -> "Stephen King" [label="has theme [Giving]", color=lightsteelblue, penwidth=1];
+    "Stephen King" -> "stories" [label="has theme [Duration_description]", color=lightgoldenrod, penwidth=1];
+    "Dolores Claiborne" -> "American scene" [label="has theme [Source_of_getting]", color=lightseagreen, penwidth=1];
+    "Stephen King" -> "collection" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "Stephen King" -> "names" [label="has type [Identicality]", color=lightpink, penwidth=1];
+    "Stephen King" -> "other genres, among them su..." [label="has theme [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "United States" -> "1947" [label="has time [Origin]", color=purple, penwidth=2];
+    "Stephen King" -> "his novels" [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "Dolores Claiborne" -> "2003" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Peter Straub" -> "Stephen King" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Dolores Claiborne" -> "1994" [label="has time [Increment]", color=purple, penwidth=2];
+    "Dolores Claiborne" -> "National" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Stephen King" -> "author" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "United States" -> "American writer" [label="has person [Being_born]", color=red, penwidth=2];
+    "Joyce Carol Oates" -> "brilliantly rooted, psychol..." [label="has theme [Labeling]", color=lightseagreen, penwidth=1];
+    "Dolores Claiborne" -> "other awards" [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "Stephen King" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Dolores Claiborne" -> "2003" [label="has time [Giving]", color=purple, penwidth=2];
+    "Stephen King" -> "United States" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Dolores Claiborne" -> "1976" [label="has time [Be_subset_of]", color=purple, penwidth=2];
+    "Stephen King" -> "1947" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Stephen King" -> "September 21, 1947" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Stephen King" -> "people" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Dolores Claiborne" -> "1994" [label="has time [Be_subset_of]", color=purple, penwidth=2];
+    "Stephen King" -> "1974" [label="has time [Making_faces]", color=purple, penwidth=2];
+    "Owen King" -> "11/22/63 2011" [label="has time [Win_prize]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Importance_legend" [label="Importance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Commemorative_legend" [label="Commemorative", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Name_conferral_legend" [label="Name_conferral", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Making_faces_legend" [label="Making_faces", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

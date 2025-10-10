@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that the Iliad is set during the Trojan War, and the Iliad is a poem. Therefore, there is a semantic connection between the Trojan War and poems, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Text:has_text article",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph is an article that contains text about the Iliad. While the triple's intended meaning is unclear, there is a weak semantic link as the article's text discusses the Iliad."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ancient_Greek Text:has_text literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that the Iliad and Odyssey are foundational works of ancient Greek literature. This creates a clear semantic connection between 'Ancient Greek' and 'literature'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Quantified_mass:has_time 2025",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The date '2025' appears only in a meta-comment about the article's clarity and is completely unrelated to the content or timeline of the Iliad. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Calendric_unit:has_theme year",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'the last year of the Trojan War'. This establishes a direct, though syntactically different, semantic link between the Trojan War and the concept of a 'year' as a unit of time related to its theme/duration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Transfer:has_time originally",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'has_time originally' does not correspond to any clear information in the paragraph. The Trojan War is mentioned in the context of its 'last year,' but the specific relationship 'has_time originally' is not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Praiseworthiness:has_behavior as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Greek literature",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'Anno Domini' is completely unrelated to the paragraph's content about Homer. The predicate and object describe Homer's authorship, but the triple as a whole is not extractable due to the incorrect subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ancient_Greek Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "There is a weak semantic connection. The paragraph states Homer was an 'ancient Greek poet' and the poems are in 'Homeric Greek.' While 'Text:has_text poet' is an abstract relationship, it can be loosely interpreted as the language (Ancient Greek) being associated with a poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Resolve_problem:has_problem through the punishment of the gods",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The Trojan War and the 'punishment of the gods' are mentioned, but they are in separate contexts. The punishment is related to Odysseus's journey in the Odyssey, not directly to a problem within the Trojan War narrative. The connection is too indirect and the specific relationship 'Resolve_problem:has_problem' is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Fields:has_theme language",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'The poems are in Homeric Greek, also known as Epic Greek, a literary language...'. This directly supports the relationship that Homeric Greek (the subject) is a language (the object). The predicate 'Fields:has_theme' is a reasonable, if slightly abstract, categorization for this 'is-a' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Cause_to_perceive:has_location http://en.wikipedia.org/wiki/Homeric_Greek",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the poems are in Homeric Greek, but there is no direct or indirect connection made between the location of the Trojan War and the Homeric Greek language. The concepts are related through the poems but not in a 'has_location' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Instance:has_theme instances",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incomplete and semantically nonsensical ('has_theme instances'). No meaningful information can be extracted to support this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Cause_to_perceive:has_agent that",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incomplete and semantically nonsensical ('has_agent that'). No meaningful information can be extracted to support this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Emphasizing:has_theme quarrel between King Agamemnon and the warrior Achilles during the last year of the Trojan War",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'The Iliad centers on a quarrel between King Agamemnon and the warrior Achilles during the last year of the Trojan War,' which directly matches the triple's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ithaca Travel:has_time after the fall of Troy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The Odyssey chronicles the ten-year journey of Odysseus, king of Ithaca, back to his home after the fall of Troy.' This establishes a strong semantic link between Ithaca (via its king) and the time period 'after the fall of Troy' in the context of a journey/travel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Certainty:has_theme his authorship",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Despite doubts about his authorship', which connects the theme of 'certainty' (or lack thereof) to the concept of 'his authorship'. The connection is weak and indirect, but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Existence:has_location talk page",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The article mentions 'There might be a discussion about this on the talk page'. While the 'talk page' is a location for discussion about the article (which is about Homer and the Iliad), the connection to the Iliad's existence having a location is very indirect and weak, but semantically plausible in a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Reading_perception:has_reader readers",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The article begins by addressing 'readers' directly ('This article may be confusing or unclear to readers'). As the article is fundamentally about the Iliad and Odyssey, a lenient interpretation connects the Iliad to the concept of having readers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Calendric_unit:has_theme last",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'the last year of the Trojan War'. This connects the Trojan War to the calendric concept of a 'last' year. The predicate 'has_theme' is a stretch, but a lenient interpretation accepts 'last' as a thematic element of the war's description."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homer Categorization:has_category one of the most influential authors in history",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Homer is considered one of the most influential authors in history', which is a direct categorization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Spatial_contact:has_theme discussion about this",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'discussion about this' refers to the article's clarity, not the theme of the Iliad. The actual themes of the Iliad mentioned are a quarrel during the Trojan War, not a general discussion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Redirecting:has_goal here",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The redirects mentioned ('Several terms redirect here') are for disambiguation pages related to 'Homer', not for the Iliad itself. The triple subject is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Identicality:has_type centuries",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Homeric Greek 'shows a mixture of features... from different centuries'. There is a weak semantic link between the language and the concept of centuries, though the relationship 'has_type' is not a direct fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Certainty:has_theme that the poems were originally transmitted orally",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "There is an indirect connection. The Iliad is set during the Trojan War, and the paragraph states 'the poems were originally transmitted orally'. While the oral transmission is not a theme *of* the war, the war is a theme *of* the poem whose transmission is discussed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ithaca Travel:has_traveler Odysseus, king of Ithaca",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'The Odyssey chronicles the ten-year journey of Odysseus, king of Ithaca, back to his home'. This directly supports the relationship of Ithaca having a traveler (Odysseus) who is on a journey."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Dominate_situation:has_theme influence",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states 'The poems are in Homeric Greek' and discusses the influence of the Homeric poems on Greek culture. There is a very weak semantic link between 'Homeric Greek' and the concept of 'influence' via the poems' cultural impact."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Fame:has_degree predominantly",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the Trojan War and states the poems are 'predominantly known for their tragic and serious themes'. There is a weak semantic link connecting 'Trojan War' and the concept of 'predominantly' through the description of the poems' themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Text_creation:has_author who",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The concept 'Anno Domini' is not mentioned or alluded to in the paragraph. The text discusses 8th century BCE, which is a different dating system. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Leadership:has_theme http://en.wikipedia.org/wiki/Ithaca",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'The Odyssey chronicles the ten-year journey of Odysseus, king of Ithaca, back to his home after the fall of Troy.' This creates a reasonable, though indirect, semantic link between the Trojan War and the theme of Ithaca (as the homeland of a key participant)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Fame:has_reason their tragic and serious themes",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions the Trojan War and states the poems are known for 'their tragic and serious themes'. There is a reasonable semantic link, as the war is a central subject of one of the poems, and the themes are a reason for the poems' fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Calendric_unit:has_theme Trojan War",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The Trojan War is mentioned as the setting for the Iliad, but the paragraph does not explicitly state it is a 'theme' of the war itself. There is a weak semantic connection as the war provides the context for the poem's events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Origin:has_entity culture and education",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the Homeric poems shaped Greek culture and education, but this is not attributed as an origin or entity of the Trojan War. The concepts are related but the specific relationship in the triple is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Being_named:has_entity poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'The poems are in Homeric Greek', establishing a clear naming/classification relationship between Homeric Greek and the poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Redirecting:has_cause Several terms",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph begins with 'Several terms redirect here' in the context of the article about Homer, who authored the Iliad. There is a reasonable, though indirect, connection that terms redirect to this page which discusses the Iliad."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Likelihood:has_theme be confusing or unclear to readers",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The article disclaimer about potential confusion applies to the entire article, which is primarily about Homer and his works, including the Iliad. This is a weak but valid semantic connection regarding the theme of the article's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Text_creation:has_author author",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Homer is credited as the author of the Iliad."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'epic poems' and 'Homeric poems' which are texts. The connection to 'Anno Domini' is extremely weak but the paragraph does discuss dates ('8th century BCE'), providing a very indirect semantic link to time periods."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Labor_product:has_theme foundational",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The Iliad and Odyssey are described as 'foundational works'. While the connection to 'Anno Domini' is tenuous, the triple's theme of 'foundational' is directly extractable from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greece Education_teaching:has_teacher who",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph quotes Plato saying Homer 'has taught Greece'. This directly connects Greece (the student) to a teacher (Homer, referred to as 'who')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Quantified_mass:has_theme terms",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'Several terms redirect here' at the beginning, and the Iliad is a major subject of the text. This is a very weak semantic link, as 'terms' could be loosely connected to the themes or subjects discussed in relation to the Iliad."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Temporal_collocation:has_theme Greek culture and education",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'The Homeric poems shaped aspects of ancient Greek culture and education'. Since the Iliad is about the Trojan War, there is a weak but reasonable semantic link that the Trojan War, as the subject of the poem, is thematically connected to Greek culture and education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Text:has_text epics",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The Iliad centers on a quarrel... during the last year of the Trojan War'. The Iliad is explicitly called an 'epic poem' earlier in the text. Therefore, an epic (the Iliad) has text about the Trojan War."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anno_Domini Temporal_collocation:has_theme Greek literature",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The concept 'Anno Domini' (AD) is not mentioned or alluded to in the paragraph. The text discusses ancient Greek literature from the 8th century BCE, which is a completely different chronological system. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'The poems are in Homeric Greek'. This is a clear and direct statement that the poems (the text) are written in the Homeric Greek language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ithaca Travel:has_theme ten-year",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'The Odyssey chronicles the ten-year journey of Odysseus, king of Ithaca'. This establishes a clear link between Ithaca (Odysseus's kingdom) and a ten-year journey (travel)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Iliad Spatial_contact:has_theme talk page",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'talk page' appears in the context of the article's discussion page, not as a theme of the Iliad. There is no semantic connection between the Iliad and a talk page."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Instance:has_type comedy and laughter",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the Homeric poems contain comedy and laughter, but this is a general statement about the poems, not a classification of the Trojan War itself. The connection is too indirect and semantically unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War Cause_to_perceive:has_theme mixture of features of the Ionic and Aeolic dialects from different centuries",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The 'mixture of features' describes the Homeric Greek language of the poems, not a theme of the Trojan War. The concepts are semantically unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Homeric_Greek Objective_influence:has_theme Eastern Ionic",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'the predominant influence is Eastern Ionic' in the description of Homeric Greek. This is a direct and clear semantic connection, even if the predicate 'has_theme' is a slightly imperfect match for 'has predominant influence'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trojan_War People_by_vocation:has_person researchers",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Researchers are mentioned in the context of believing the poems were transmitted orally. There is no stated connection between researchers and the Trojan War itself."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 22,
+    "accuracy": 0.44,
+    "avg_confidence": 0.42800000000000016,
+    "high_confidence_50": 22,
+    "high_confidence_80": 11,
+    "percent_50": 44.0,
+    "percent_80": 22.0,
+    "max_triples_limit": 50
+  }
+}

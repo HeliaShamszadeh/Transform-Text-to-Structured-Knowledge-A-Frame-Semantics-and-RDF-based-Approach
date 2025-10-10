@@ -1,0 +1,235 @@
+digraph Dante_Alighieri {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "Italian writers such as Pet..." [label="Italian writers such as Pet...", fillcolor=lightcoral, color=red, shape=circle];
+    "English writers such as Geo..." [label="English writers such as Geo...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "country" [label="country", fillcolor=lightgreen, color=green, shape=box];
+    "country's" [label="country's", fillcolor=lightgreen, color=green, shape=box];
+    "country's national poets an..." [label="country's national poets an...", fillcolor=lightgreen, color=green, shape=box];
+    "be among the country's nati..." [label="be among the country's nati...", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works such as The New Life ..." [label="works such as The New Life ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing" [label="writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Western art and literature" [label="Western art and literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "establishing the literature..." [label="establishing the literature...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature of Italy" [label="literature of Italy", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "His Divine Comedy" [label="His Divine Comedy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Italian poets" [label="Italian poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Middle Ages" [label="Middle Ages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "national" [label="national", fillcolor=lightgray, color=gray, shape=hexagon];
+    "follow" [label="follow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most important p..." [label="one of the most important p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "use of the interlocking thr..." [label="use of the interlocking thr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Florentine dialect" [label="Florentine dialect", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French or Provençal" [label="French or Provençal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "vernacular, specifically hi..." [label="vernacular, specifically hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His use of the Florentine d..." [label="His use of the Florentine d...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dante Alighieri" [label="Dante Alighieri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interlocking three-line rhy..." [label="interlocking three-line rhy...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first use of the interlocki..." [label="first use of the interlocki...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French or Provençal traditions" [label="French or Provençal traditions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "La Vita Nuova" [label="La Vita Nuova", fillcolor=lightgray, color=gray, shape=hexagon];
+    "larger" [label="larger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dominant language for schol..." [label="dominant language for schol...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tuscan dialect" [label="Tuscan dialect", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dante disambiguation" [label="Dante disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "body" [label="body", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the " father " of the It..." [label="as the " father " of the It...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholarly and literary" [label="scholarly and literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "establish the modern-day st..." [label="establish the modern-day st...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "still" [label="still", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Divine Comedy" [label="Divine Comedy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language" [label="language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His depictions of Hell, Pur..." [label="His depictions of Hell, Pur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as il Sommo Poeta "the Supr..." [label="as il Sommo Poeta "the Supr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many Italian poets" [label="many Italian poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Divina" [label="Divina", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Comeda modern Italian: Comm..." [label="Comeda modern Italian: Comm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholarly defenses of the v..." [label="scholarly defenses of the v...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His Divine Comedy, original..." [label="His Divine Comedy, original...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern-day standardized Ita..." [label="modern-day standardized Ita...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Italy" [label="Italy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "larger body of Western art ..." [label="larger body of Western art ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "inspiration" [label="inspiration", fillcolor=lightgray, color=gray, shape=hexagon];
+    "christened Divina by Giovan..." [label="christened Divina by Giovan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Giovanni Boccaccio" [label="Giovanni Boccaccio", fillcolor=lightgray, color=gray, shape=hexagon];
+    "originally" [label="originally", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Middle Ages" -> "establish the modern-day st..." [label="has goal [Assistance]", color=lightblue, penwidth=1];
+    "La Vita Nuova" -> "larger body of Western art ..." [label="has theme [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "one of the most important p..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Italy" -> "uses" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Middle Ages" -> "follow" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Middle Ages" -> "interlocking three-line rhy..." [label="has means [Purpose]", color=lightcyan, penwidth=1];
+    "La Vita Nuova" -> "first use of the interlocki..." [label="has evaluee [Judgment]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "use of the interlocking thr..." [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "La Vita Nuova" -> "English writers such as Geo..." [label="has theme [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "His Divine Comedy, original..." [label="has item [Categorization]", color=lightgreen, penwidth=1];
+    "Middle Ages" -> "Western art and literature" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "Divine Comedy" -> "Giovanni Boccaccio" [label="has speaker [Name_conferral]", color=lightseagreen, penwidth=1];
+    "Divine Comedy" -> "His Divine Comedy" [label="has entity [Name_conferral]", color=lightseagreen, penwidth=1];
+    "Dante Alighieri" -> "works such as The New Life ..." [label="has purpose [Using]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "literary" [label="has theme [Fields]", color=lightgoldenrod, penwidth=1];
+    "English language" -> "writers" [label="has text [Text]", color=lightpink, penwidth=1];
+    "La Vita Nuova" -> "Dante Alighieri" [label="has theme [Judgment]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "poems" [label="has theme [Importance]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "writers" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "Italy" -> "poets" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "Italian writers such as Pet..." [label="has theme [Importance]", color=lightsteelblue, penwidth=1];
+    "Dante Alighieri" -> "Italy" [label="has location [Subjective_influence]", color=green, penwidth=2];
+    "Divine Comedy" -> "Comeda modern Italian: Comm..." [label="has theme [Referring_by_name]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "writing" [label="has theme [Expertise]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "Italian poets" [label="has theme [Quantified_mass]", color=lightgreen, penwidth=1];
+    "Middle Ages" -> "inspiration" [label="has theme [Supply]", color=lightyellow, penwidth=1];
+    "Middle Ages" -> "Italy" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "Italy" -> "Dante disambiguation" [label="has theme [Reference_text]", color=lightcyan, penwidth=1];
+    "Middle Ages" -> "language" [label="has theme [Dominate_situation]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "writing" [label="has theme [Fields]", color=lightgoldenrod, penwidth=1];
+    "Middle Ages" -> "country" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Italy" -> "inspiration" [label="has theme [Cause_motion]", color=lightgoldenrodyellow, penwidth=1];
+    "Italy" -> "French or Provençal traditions" [label="has theme [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Dante Alighieri" -> "country's national poets an..." [label="has theme [Be_subset_of]", color=lightseagreen, penwidth=1];
+    "Middle Ages" -> "art" [label="has theme [Fields]", color=lightgoldenrod, penwidth=1];
+    "Italy" -> "many Italian poets" [label="has agent [Cause_motion]", color=lightgoldenrodyellow, penwidth=1];
+    "Middle Ages" -> "works" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "His depictions of Hell, Pur..." [label="has theme [Supply]", color=lightyellow, penwidth=1];
+    "Middle Ages" -> "national" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Middle Ages" -> "French or Provençal" [label="has theme [Custom]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "writing" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Dante Alighieri" -> "establishing the literature..." [label="has theme [Importance]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "dominant language for schol..." [label="has theme [Continued_state_of_affairs]", color=lightgoldenrod, penwidth=1];
+    "Middle Ages" -> "Italy" [label="has location [Fields]", color=green, penwidth=2];
+    "Middle Ages" -> "His use of the Florentine d..." [label="has theme [Assistance]", color=lightblue, penwidth=1];
+    "Tuscan dialect" -> "Tuscan dialect" [label="has entity [Indigenous_origin]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "poems" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Dante Alighieri" -> "be among the country's nati..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Dante Alighieri" -> "poets" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Divine Comedy" -> "His Divine Comedy" [label="has entity [Referring_by_name]", color=lightblue, penwidth=1];
+    "Divine Comedy" -> "originally" [label="has time [Referring_by_name]", color=purple, penwidth=2];
+    "Dante Alighieri" -> "literature of Italy" [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Dante Alighieri" -> "as the " father " of the It..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Middle Ages" -> "poets" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "larger" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "Dante Alighieri" -> "Florentine dialect" [label="has instrument [Using]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "body" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "Middle Ages" -> "many" [label="has quantity [Quantified_mass]", color=lightgreen, penwidth=1];
+    "La Vita Nuova" -> "His depictions of Hell, Pur..." [label="has theme [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "scholarly and literary" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "christened Divina by Giovan..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Middle Ages" -> "literature" [label="has theme [Fields]", color=lightgoldenrod, penwidth=1];
+    "Middle Ages" -> "still" [label="has theme [Continued_state_of_affairs]", color=lightgoldenrod, penwidth=1];
+    "La Vita Nuova" -> "Dante Alighieri" [label="has entity [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "modern-day standardized Ita..." [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Italy" -> "many Italian poets" [label="has theme [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "scholarly defenses of the v..." [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "Italy" -> "French or Provençal traditions" [label="has theme [Cause_motion]", color=lightgoldenrodyellow, penwidth=1];
+    "Dante Alighieri" -> "vernacular, specifically hi..." [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "country's" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Dante Alighieri" -> "Italy" [label="has location [Categorization]", color=green, penwidth=2];
+    "Divine Comedy" -> "Divina" [label="has theme [Name_conferral]", color=lightseagreen, penwidth=1];
+    "Dante Alighieri" -> "as il Sommo Poeta "the Supr..." [label="has product [Subjective_influence]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "larger body of Western art ..." [label="has recipient [Supply]", color=lightyellow, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Assistance_legend" [label="Assistance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Purpose_legend" [label="Purpose", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Name_conferral_legend" [label="Name_conferral", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Dominate_situation_legend" [label="Dominate_situation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cause_motion_legend" [label="Cause_motion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Custom_legend" [label="Custom", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Continued_state_of_affairs_legend" [label="Continued_state_of_affairs", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Indigenous_origin_legend" [label="Indigenous_origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

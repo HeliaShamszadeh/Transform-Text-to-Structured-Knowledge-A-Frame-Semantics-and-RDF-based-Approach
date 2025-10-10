@@ -1,0 +1,266 @@
+digraph Anton_Chekhov {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers and critics" [label="writers and critics", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "because in place of convent..." [label="because in place of convent...", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "said, " and literature is m..." [label="said, " and literature is m...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing stories to earn money" [label="writing stories to earn money", fillcolor=lightblue, color=blue, shape=ellipse];
+    "These four works" [label="These four works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "and literature is my mistress" [label="and literature is my mistress", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "reception of The Seagull in..." [label="reception of The Seagull in...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "action" [label="action", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow Art Theatre" [label="Moscow Art Theatre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acting ensemble  f  as well..." [label="acting ensemble  f  as well...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high" [label="high", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after the reception of The ..." [label="after the reception of The ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19th century" [label="19th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russia" [label="Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early modernism" [label="early modernism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chekhov's Uncle Vanya" [label="Chekhov's Uncle Vanya", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1904" [label="1904", fillcolor=lightgray, color=gray, shape=hexagon];
+    "questions" [label="questions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "feast day of St" [label="feast day of St", fillcolor=lightgray, color=gray, shape=hexagon];
+    "difficulties this posed to ..." [label="difficulties this posed to ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1896" [label="1896", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reception of The Seagull" [label="reception of The Seagull", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the three seminal..." [label="as one of the three seminal...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his best short stories" [label="his best short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "evolution of the modern sho..." [label="evolution of the modern sho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "also produced Chekhov's Unc..." [label="also produced Chekhov's Unc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artistic" [label="artistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal innovations that inf..." [label="formal innovations that inf...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "physician" [label="physician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chekov disambiguation" [label="Chekov disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Henrik Ibsen" [label="Henrik Ibsen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this" [label="this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the role of an artist ..." [label="that the role of an artist ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Konstantin Stanislavski's M..." [label="Konstantin Stanislavski's M...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cross on top is" [label="cross on top is", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chekhov renounced the theatre" [label="Chekhov renounced the theatre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "no longer present" [label="no longer present", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "present" [label="present", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artist" [label="artist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anton Chekhov" [label="Anton Chekhov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His career as a playwright" [label="His career as a playwright", fillcolor=lightgray, color=gray, shape=hexagon];
+    "challenge to the acting ens..." [label="challenge to the acting ens...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four classics" [label="four classics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Seagull" [label="The Seagull", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his artistic ambition" [label="his artistic ambition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "earn money" [label="earn money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Taganrog, Chekhova street, ..." [label="Taganrog, Chekhova street, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "subsequently" [label="subsequently", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1898" [label="1898", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern short story" [label="modern short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "audience" [label="audience", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "money" [label="money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "somewhat haunting atmosphere" [label="somewhat haunting atmosphere", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house" [label="house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Medicine" [label="Medicine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernism" [label="modernism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theatre" [label="theatre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "once" [label="once", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays that Chekhov wrote" [label="plays that Chekhov wrote", fillcolor=lightgray, color=gray, shape=hexagon];
+    "readers" [label="readers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acclaim" [label="acclaim", fillcolor=lightgray, color=gray, shape=hexagon];
+    "conventional" [label="conventional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Taganrog" [label="Taganrog", fillcolor=lightgray, color=gray, shape=hexagon];
+    "esteem" [label="esteem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal" [label="formal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "play" [label="play", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Henrik Ibsen" -> "theatre" [label="has theme [Buildings]", color=lightblue, penwidth=1];
+    "Anton Chekhov" -> "and literature is my mistress" [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "Henrik Ibsen" -> "no longer present" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anton Chekhov" -> "1898" [label="has time [Cause_to_resume]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "subsequently" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "conventional" [label="has theme [Intentionally_act]", color=lightcyan, penwidth=1];
+    "Anton Chekhov" -> "formal" [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Henrik Ibsen" -> "modernism" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Henrik Ibsen" -> "plays" [label="has entity [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Henrik Ibsen" -> "Chekhov renounced the theatre" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "plays that Chekhov wrote" [label="has cause [Creating]", color=lightsalmon, penwidth=1];
+    "Anton Chekhov" -> "money" [label="has theme [Earnings_and_losses]", color=lightgoldenrod, penwidth=1];
+    "Henrik Ibsen" -> "action" [label="has act [Intentionally_act]", color=lightcyan, penwidth=1];
+    "The Seagull" -> "modern short story" [label="has entity [Coming_to_be]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "house" [label="has theme [Buildings]", color=lightblue, penwidth=1];
+    "Anton Chekhov" -> "formal innovations that inf..." [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Russia" -> "Medicine" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Henrik Ibsen" -> "1896" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Henrik Ibsen" -> "money" [label="has theme [Money]", color=lightcoral, penwidth=1];
+    "Henrik Ibsen" -> "his artistic ambition" [label="has item [Expansion]", color=lightblue, penwidth=1];
+    "Anton Chekhov" -> "that" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Anton Chekhov" -> "high" [label="has judgment [Regard]", color=lightgreen, penwidth=1];
+    "Anton Chekhov" -> "after the reception of The ..." [label="has time [Renunciation]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "reception of The Seagull" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anton Chekhov" -> "as one of the three seminal..." [label="has theme [Referring_by_name]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "esteem" [label="has theme [Position_on_a_scale]", color=lightcyan, penwidth=1];
+    "Anton Chekhov" -> "four classics" [label="has theme [Behind_the_scenes]", color=lightpink, penwidth=1];
+    "Henrik Ibsen" -> "two" [label="has theme [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Henrik Ibsen" -> "present" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anton Chekhov" -> "Russia" [label="has theme [Communication_response]", color=lightsteelblue, penwidth=1];
+    "Henrik Ibsen" -> "cross on top is" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Moscow Art Theatre" -> "artist" [label="has speaker [Questioning]", color=lightgray, penwidth=1];
+    "Taganrog" -> "19th century" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Anton Chekhov" -> "Konstantin Stanislavski's M..." [label="has agent [Cause_to_resume]", color=lightyellow, penwidth=1];
+    "Henrik Ibsen" -> "theatre" [label="has theme [Fields]", color=lightgoldenrodyellow, penwidth=1];
+    "Henrik Ibsen" -> "because in place of convent..." [label="has theme [Omen]", color=lightseagreen, penwidth=1];
+    "Henrik Ibsen" -> "audience" [label="has theme [Creating]", color=lightsalmon, penwidth=1];
+    "Henrik Ibsen" -> "this" [label="has activity [Difficulty]", color=lightsalmon, penwidth=1];
+    "Henrik Ibsen" -> "questions" [label="has message [Questioning]", color=lightgray, penwidth=1];
+    "Anton Chekhov" -> "short stories" [label="has theme [Desirability]", color=lightgoldenrod, penwidth=1];
+    "Henrik Ibsen" -> "early" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Henrik Ibsen" -> "which" [label="has theme [Behind_the_scenes]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "his best short stories" [label="has theme [Regard]", color=lightgreen, penwidth=1];
+    "Henrik Ibsen" -> "readers" [label="has reader [Reading_perception]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "that the role of an artist ..." [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "Henrik Ibsen" -> "reception of The Seagull in..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Anton Chekhov" -> "feast day of St" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Anton Chekhov" -> "acclaim" [label="has purpose [Cause_to_resume]", color=lightyellow, penwidth=1];
+    "Henrik Ibsen" -> "somewhat haunting atmosphere" [label="has theme [Creating]", color=lightsalmon, penwidth=1];
+    "Anton Chekhov" -> "stories" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "The Seagull" -> "acting ensemble  f  as well..." [label="has theme [Competition]", color=lightcoral, penwidth=1];
+    "Henrik Ibsen" -> "evolution of the modern sho..." [label="has theme [Objective_influence]", color=lightblue, penwidth=1];
+    "Anton Chekhov" -> "writing stories to earn money" [label="has activity [Activity_start]", color=lightcoral, penwidth=1];
+    "Henrik Ibsen" -> "also produced Chekhov's Unc..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Anton Chekhov" -> "play" [label="has process [Cause_to_resume]", color=lightyellow, penwidth=1];
+    "Henrik Ibsen" -> "theatre" [label="has location [Giving_birth]", color=green, penwidth=2];
+    "Henrik Ibsen" -> "artistic" [label="has theme [Desiring]", color=lightyellow, penwidth=1];
+    "Anton Chekhov" -> "theatre" [label="has theme [Renunciation]", color=lightyellow, penwidth=1];
+    "Anton Chekhov" -> "earn money" [label="has purpose [Text_creation]", color=lightcoral, penwidth=1];
+    "Anton Chekhov" -> "His career as a playwright" [label="has artist [Behind_the_scenes]", color=lightpink, penwidth=1];
+    "Henrik Ibsen" -> "These four works" [label="has theme [Omen]", color=lightseagreen, penwidth=1];
+    "Henrik Ibsen" -> "Anton Chekhov" [label="has theme [Desiring]", color=lightyellow, penwidth=1];
+    "Russia" -> "1904" [label="has time [Increment]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "challenge to the acting ens..." [label="has outcome [Omen]", color=lightseagreen, penwidth=1];
+    "Russia" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "writers" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "The Seagull" -> "These four works" [label="has competition [Competition]", color=lightcoral, penwidth=1];
+    "Anton Chekhov" -> "physician" [label="has type [People_by_vocation]", color=lightsteelblue, penwidth=1];
+    "Anton Chekhov" -> "Taganrog, Chekhova street, ..." [label="has location [Buildings]", color=green, penwidth=2];
+    "Anton Chekhov" -> "writers and critics" [label="has theme [Regard]", color=lightgreen, penwidth=1];
+    "Henrik Ibsen" -> "that" [label="has theme [Objective_influence]", color=lightblue, penwidth=1];
+    "Henrik Ibsen" -> "early modernism" [label="has child [Giving_birth]", color=lightgreen, penwidth=1];
+    "Henrik Ibsen" -> "audience" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Russia" -> "Chekov disambiguation" [label="has theme [Reference_text]", color=lightgray, penwidth=1];
+    "Russia" -> "1904" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Henrik Ibsen" -> "said, " and literature is m..." [label="has event [Event_instance]", color=lightgoldenrodyellow, penwidth=1];
+    "Henrik Ibsen" -> "short story" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Henrik Ibsen" -> "play" [label="has theme [Judgment_communication]", color=lightseagreen, penwidth=1];
+    "Henrik Ibsen" -> "Chekhov's Uncle Vanya" [label="has theme [Behind_the_scenes]", color=lightpink, penwidth=1];
+    "Anton Chekhov" -> "difficulties this posed to ..." [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "Anton Chekhov" -> "once" [label="has time [Statement]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Buildings_legend" [label="Buildings", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Cause_to_resume_legend" [label="Cause_to_resume", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Creating_legend" [label="Creating", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Coming_to_be_legend" [label="Coming_to_be", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Money_legend" [label="Money", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Expansion_legend" [label="Expansion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Regard_legend" [label="Regard", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Renunciation_legend" [label="Renunciation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Position_on_a_scale_legend" [label="Position_on_a_scale", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Communication_response_legend" [label="Communication_response", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Questioning_legend" [label="Questioning", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Omen_legend" [label="Omen", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Difficulty_legend" [label="Difficulty", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Reading_perception_legend" [label="Reading_perception", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Competition_legend" [label="Competition", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Giving_birth_legend" [label="Giving_birth", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Event_instance_legend" [label="Event_instance", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Being_born:has_time 1920",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states she was born on December 10, 1920."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Cause_harm:has_theme http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is semantically incoherent. 'Family Ties' is a work by Lispector, so it cannot have 'Clarice Lispector' as its theme. The relationship is reversed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Relative_time:has_time 1944",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Lispector left Brazil for Europe (and the US) in 1944, establishing a connection between Europe and the year 1944."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Publishing:has_work novels and stories, including the celebrated gua Viva",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The object of the triple is a literal string describing works, not a valid RDF resource. Furthermore, the paragraph states that 'Family Ties' is a specific work (a story collection) published by Lispector, not that it 'has' other works like 'Água Viva'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Frequency:has_event pain",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "There is no connection between the work 'Family Ties' and the concept of 'pain' in the paragraph. The mention of pain is related to an accident Lispector had in 1966, which is unrelated to the themes or events of the book 'Family Ties'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Benjamin_Moser Text:has_theme 2009",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Benjamin Moser published a biography of Clarice Lispector in 2009, creating a semantic connection between the subject (Moser) and the year (2009) via the publication event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Law:has_law law",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that Clarice Lispector attended law school in Rio de Janeiro. While the connection is indirect and the triple is poorly formed, there is a weak semantic link between Rio de Janeiro and the concept of law through this educational context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brazil Interior_profile_relation:has_location http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Rio de Janeiro is explicitly mentioned as a city in Brazil multiple times in the paragraph, establishing a clear location relationship between Brazil and Rio de Janeiro."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Measure_duration:has_theme 10",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Lispector spent 'the next decade and a half in Europe and the United States.' While 'decade and a half' (15 years) is not exactly 10, there is a reasonable semantic connection to a duration theme related to Europe."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Cause_change:has_entity Several of her works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Family Ties' as one of Lispector's works and separately states that 'Several of her works have been turned into films.' There is a reasonable semantic connection between the specific work 'Family Ties' and the broader category 'Several of her works' through their shared authorship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Podolia Committing_crime:has_theme pogroms",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she was born in Podolia and her family moved amidst the pogroms. While the relationship is indirect (the pogroms were happening in the region, not that Podolia itself has 'pogroms' as a theme), there is a semantic connection between the location and the event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Ordinal_numbers:has_type novel",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is nonsensical. The relationship 'has_type novel' does not logically apply to the entity 'Rio de Janeiro' based on any information in the paragraph. Rio is mentioned as a location for her life and work, but not as something that has a 'type' of novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Text:has_location http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she lived in Rio de Janeiro, published work there, and went to law school there. While 'Text:has_location' is ambiguous, it is reasonable to extract a connection between the author and the city where her textual/creative activities took place."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Benjamin_Moser Origin:has_entity writer Benjamin Moser",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly identifies Benjamin Moser as 'the American writer'. The triple's meaning, that Benjamin Moser is a writer, is directly and clearly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Activity_start:has_activity publishing her first journalistic work and short stories",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'she began publishing her first journalistic work and short stories' while in law school in Rio. This directly describes the start of a publishing activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ukraine Categorization:has_item style and language that",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'style and language that' is part of a description of Lispector's novel, not a categorization of Ukraine. The triple's components are semantically disconnected and do not form a coherent relationship extractable from the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Cause_harm:has_cause accident",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions both 'Family Ties' and an 'accident', but they are completely unrelated events separated by several years in the narrative. There is no semantic connection suggesting the accident caused the book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ukraine Categorization:has_category revolutionary",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'revolutionary' is used to describe Lispector's literary style in Brazil, not as a category for Ukraine. There is no semantic link between Ukraine and the concept of 'revolutionary' in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Publishing:has_theme http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lispector's life and publishing career are strongly associated with Rio de Janeiro (she moved there, studied law there, and published her first works there). While not explicitly stated as a 'theme' of the city, the connection is a reasonable, though indirect, semantic inference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Measure_duration:has_theme decade",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Lispector spent 'the next decade and a half in Europe and the United States'. There is a weak semantic connection between Europe and a duration measured in decades, though 'has_theme' is a very loose fit for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Part_whole:has_time 1944",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Lispector left Brazil in 1944 and spent time in Europe. The triple connects Europe to the year 1944, which is a reasonable, though indirect, semantic connection based on her move."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Publishing:has_work her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she was in law school in Rio when she began publishing and catapulted to fame with her first novel. This creates a strong semantic link between Rio de Janeiro and the publication of her first novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Labor_product:has_theme journalistic",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions she published her first 'journalistic work'. While the triple's predicate is broad ('has_theme'), there is a weak semantic connection between Lispector and the theme of 'journalistic' work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Calendric_unit:has_theme last",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The work 'Family Ties' is mentioned, but there is no information connecting it to a 'last' theme or any calendric unit. The connection is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Distinctiveness:has_entity works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph repeatedly discusses Clarice Lispector's 'works', 'novels', and 'stories'. The connection between the entity (Lispector) and her works is a central theme of the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Departing:has_time following her marriage to a Brazilian diplomat",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Lispector left Brazil in 1944 following her marriage to a Brazilian diplomat', which directly supports the triple's meaning of departure linked to marriage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Death:has_time 1977",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Clarice Lispector died in 1977, but there is no mention of the work 'Family Ties' being associated with a death event or having a death time of 1977."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Inclusion:has_time 1966",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions an accident in 1966, but there is no connection between this year and the work 'Family Ties', which was published after her return to Rio in 1959."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Being_born:has_theme Jewish family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she was 'Born to a Jewish family', which semantically connects the theme of her birth to a Jewish family context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Text_creation:has_theme as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions she wrote her first novel 'as an interior monologue... revolutionary in Brazil' while she was in law school in Rio. There's a weak but valid semantic connection between Rio de Janeiro and the theme of this revolutionary writing style."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Relative_time:has_theme her marriage to a Brazilian diplomat",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she left Brazil for Europe following her marriage. The theme of her marriage is contextually linked to her move to Europe, though not explicitly stated as a theme of Europe itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Temporal_collocation:has_theme law school in Rio",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions she attended law school in Rio de Janeiro, creating a strong temporal and thematic link between the location and the event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brazil Interior_profile_relation:has_theme style and language that was considered revolutionary",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states her first novel's style was considered revolutionary in Brazil. This creates a semantic link between the country and the theme of a revolutionary literary style."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Departing:has_location http://en.wikipedia.org/wiki/Europe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text clearly states 'Lispector left Brazil in 1944... and spent the next decade and a half in Europe', directly supporting the departure to Europe."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Age:has_age 23",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While she was 23 and catapulted to fame while associated with Rio (as she was in law school there), the triple directly attributes the age of 23 to the city of Rio de Janeiro, which is a nonsensical relationship not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ukraine Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions she was 'Born to a Jewish family in Podolia in Western Ukraine'. While the relationship is 'born to' rather than a direct 'has_theme', the concepts of Ukraine and family are semantically connected in the context of her origin."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states 'her mother died when Clarice was nine'. This directly connects the subject (Clarice Lispector) to the theme of 'mother' through a kinship event (her mother's death)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Motion:has_time when she was in her teens",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'The family moved to Rio de Janeiro when she was in her teens.' This is a clear and direct match for the motion event (moving) to Rio de Janeiro occurring at the specified time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Text_creation:has_time 1966",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text mentions she was 'Injured in an accident in 1966' and that she spent the subsequent decade 'steadily writing and publishing'. While 1966 is specifically the year of her accident, it is contextually the start of a significant period of her writing career, providing a reasonable semantic connection to text creation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Benjamin_Moser Origin:has_time 2009",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph ends with 'In 2009, the American writer Benjamin Moser published...'. This is a direct statement linking Benjamin Moser and the time 2009 in the context of the origin/publication of a work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Publishing:has_work her first journalistic work and short stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she began publishing her first journalistic work and short stories while in law school in Rio de Janeiro. There is a semantic connection between the location (Rio) and the action of publishing, though the predicate 'has_work' is a bit abstract for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Text:has_text Near to the Wild Heart",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she wrote the novel 'Near to the Wild Heart'. The predicate 'has_text' is a reasonable abstraction for an author having a written work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ukraine Categorization:has_location http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Ukraine (her birthplace) and Rio de Janeiro (where she lived), but it does not state or imply that Rio de Janeiro is a location within Ukraine. The relationship is contradictory to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Departing:has_theme http://en.wikipedia.org/wiki/Brazil",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the paragraph does not explicitly state 'departing' with Brazil as a theme, it mentions she left Brazil in 1944. The connection between the subject, the action of departing, and the location Brazil is weakly present, making the triple semantically related but very indirectly."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Arriving:has_goal http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states the family moved to Rio de Janeiro when she was in her teens. While 'goal' is not explicitly mentioned, moving to a city implies arriving there. The semantic connection is reasonable though indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rio_de_Janeiro Temporal_collocation:has_theme she began publishing her first journalistic work and short stories, catapulting to fame at the age of 23 with the publication of her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem ), written as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she began publishing her first work and achieved fame while in law school in Rio de Janeiro. The triple's theme (her early publishing success) is semantically connected to the location (Rio de Janeiro) as the context where it happened, though the predicate 'has_theme' is a weak match for this temporal/locational relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Family_Ties Cause_change:has_theme into films",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'Several of her works have been turned into films' and mentions 'Family Ties' as one of her published works. There is a weak semantic connection that 'Family Ties' (as one of her works) shares the theme of being adaptable into films, though it's not explicitly stated for this specific work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Kinship:has_location http://en.wikipedia.org/wiki/Recife",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'Lispector grew up in Recife'. The 'has_location' relationship is directly supported, though the 'Kinship' predicate is a slightly odd fit for a 'grew up in' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ukraine Fame:has_location http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph contains information about both Ukraine and Rio de Janeiro, but it does not establish any direct or indirect semantic relationship between the country Ukraine and the city Rio de Janeiro. The information is about the subject's movement from one to the other, not a relationship between the places themselves."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Clarice_Lispector Forming_relationships:has_location http://en.wikipedia.org/wiki/Europe",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she 'spent the next decade and a half in Europe and the United States' after her marriage. This clearly places her in Europe for a period, supporting the 'has_location' relationship. The predicate 'Forming_relationships' is loosely connected as the move was following her marriage."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 32,
+    "accuracy": 0.64,
+    "avg_confidence": 0.5399999999999999,
+    "high_confidence_50": 32,
+    "high_confidence_80": 19,
+    "percent_50": 64.0,
+    "percent_80": 38.0,
+    "max_triples_limit": 50
+  }
+}

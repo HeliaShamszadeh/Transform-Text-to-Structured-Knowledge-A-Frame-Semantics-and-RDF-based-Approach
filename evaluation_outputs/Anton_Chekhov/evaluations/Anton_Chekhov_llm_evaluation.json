@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Buildings:has_theme theatre",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Henrik Ibsen is mentioned as one of the 'three seminal figures in the birth of early modernism in the theatre,' creating a semantic link between Ibsen and the theme of theatre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Statement:has_message and literature is my mistress",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Chekhov is directly quoted as saying 'and literature is my mistress.' The triple's message is a direct substring of the quoted statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_collocation:has_theme no longer present",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'no longer present' refers to a cross on a building in Taganrog, which is unrelated to Henrik Ibsen. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Cause_to_resume:has_time 1898",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1898 is mentioned as the time when 'The Seagull' was revived to acclaim. This event ('revived') can be leniently interpreted as a 'resumption' of success for Chekhov's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Behind_the_scenes:has_time subsequently",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'subsequently' appears in the text, but it refers to the Moscow Art Theatre's actions after 1898, which are related to Chekhov, not Ibsen. There is no connection to Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Intentionally_act:has_theme conventional",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Chekhov's plays offer a 'theatre of mood' in place of 'conventional action'. While this is attributed to Chekhov, the triple's predicate 'has_theme conventional' is weakly connected to the concept of 'conventional action' discussed in the context of theatre, a domain Ibsen is also associated with in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Intentionally_create:has_theme formal",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Chekhov 'made formal innovations' in his short stories. The triple's predicate 'has_theme formal' is a reasonable, though not exact, semantic match for the concept of 'formal innovations' which were a theme of his creative work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_subregion:has_theme modernism",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph links Henrik Ibsen to 'the birth of early modernism in the theatre'. The triple's object 'modernism' is a direct semantic match for the mentioned 'early modernism', establishing a clear thematic connection for Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Cardinal_numbers:has_entity plays",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses plays in the context of Chekhov, who is grouped with Ibsen as a seminal figure in theatre. While plays are not explicitly attributed to Ibsen here, the semantic connection to his domain of work (theatre/plays) is reasonably implied by the context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Relative_time:has_theme Chekhov renounced the theatre",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The event 'Chekhov renounced the theatre' is specifically about Chekhov. There is no information in the paragraph that connects this action thematically or otherwise to Henrik Ibsen. The entities are mentioned separately, and this specific action is not attributed to Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Creating:has_cause plays that Chekhov wrote",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Henrik Ibsen as a seminal figure alongside Chekhov, but there is no stated causal relationship between Ibsen and the plays Chekhov wrote. The connection is associative, not causal."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Earnings_and_losses:has_theme money",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Chekhov began writing stories to earn money.' This directly links Chekhov to the theme of money, even if the specific predicate 'has_theme' is an interpretation of the motivation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Intentionally_act:has_act action",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Ibsen's name only in a list of seminal figures. There is no information about Ibsen performing any specific act or action. The concept of 'action' is mentioned in relation to Chekhov's plays, not Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Seagull Coming_to_be:has_entity modern short story",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'The Seagull' and separately discusses Chekhov's influence on the 'modern short story'. However, there is no direct or implied connection stated between the play 'The Seagull' and the entity 'modern short story'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Buildings:has_theme house",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph ends by mentioning 'Birth house of Anton Chekhov' and 'Childhood', linking Chekhov to the concept of a house. While the connection to 'theme' is weak, the semantic link between the subject and object exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Intentionally_create:has_theme formal innovations that influenced the evolution of the modern short story",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states Chekhov made formal innovations that influenced the evolution of the modern short story"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Personal_relationship:has_theme Medicine",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Medicine is mentioned as Chekhov's profession, not as a theme related to Russia"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_collocation:has_theme 1896",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Henrik Ibsen is mentioned alongside Chekhov, and 1896 is mentioned as the year of The Seagull's reception, creating a weak temporal connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Money:has_theme money",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Henrik Ibsen is mentioned and money is discussed in context of Chekhov's writing motivation, creating a weak thematic connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Expansion:has_item his artistic ambition",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Henrik Ibsen is mentioned and 'his artistic ambition' refers to Chekhov's ambition mentioned in the paragraph, creating a weak associative connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Text_creation:has_text that",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Chekhov's writing career, including his plays and short stories, which are his created texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Regard:has_judgment high",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states his short stories are 'held in high esteem' and he's considered 'one of the greatest writers of all time', indicating high regard."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Renunciation:has_time after the reception of The Seagull in 1896",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Chekhov renounced the theatre after the reception of The Seagull in 1896'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_collocation:has_theme reception of The Seagull",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Henrik Ibsen is mentioned as one of three seminal figures alongside Chekhov, but there is no connection made between Ibsen and the reception of The Seagull."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Referring_by_name:has_theme as one of the three seminal figures in the birth of early modernism in the theatre",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'Chekhov is often referred to as one of the three seminal figures in the birth of early modernism in the theatre'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Position_on_a_scale:has_theme esteem",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Chekhov's best short stories are 'held in high esteem by writers and critics,' which connects the theme of esteem to Chekhov's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Behind_the_scenes:has_theme four classics",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that 'His career as a playwright produced four classics,' directly linking Chekhov to the theme of four classics."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Cardinal_numbers:has_theme two",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Henrik Ibsen is mentioned, there is no connection to the number two in the paragraph. The number two appears in reference to Chekhov's 'last two plays,' not Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_collocation:has_theme present",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Ibsen is mentioned as one of three seminal figures, but the word 'present' in the paragraph ('These four works present a challenge') is not thematically linked to Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Communication_response:has_theme http://en.wikipedia.org/wiki/Russia",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Chekhov is explicitly identified as a 'Russian' playwright, and his birth house is located in Taganrog, Russia, creating a strong semantic link to Russia."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_collocation:has_theme cross on top is",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'cross on top is' refers to the Taganrog Boys Gymnasium building, not Henrik Ibsen. There is no semantic connection between Ibsen and the cross."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow_Art_Theatre Questioning:has_speaker artist",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the Moscow Art Theatre and separately discusses Chekhov's view that 'the role of an artist was to ask questions'. While not a direct attribution, there is a thematic connection between the theatre context and the concept of an artist questioning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Taganrog Temporal_subregion:has_theme 19th century",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Taganrog is explicitly mentioned in the context of 'The Taganrog Boys Gymnasium in the late 19th century', creating a clear temporal association between the location and the time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Cause_to_resume:has_agent Konstantin Stanislavski's Moscow Art Theatre, which subsequently also produced Chekhov's Uncle Vanya and premiered his last two plays, Three Sisters and The Cherry Orchard",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Chekhov renounced theatre after The Seagull's poor reception, but it was revived to acclaim by Stanislavski's Moscow Art Theatre, which then produced his other plays. This describes the theatre causing a resumption of his playwriting success."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Fields:has_theme theatre",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Ibsen is mentioned as one of 'the three seminal figures in the birth of early modernism in the theatre', creating a clear semantic connection between Ibsen and the theme of theatre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Omen:has_theme because in place of conventional action Chekhov offers a \"theatre of mood\" and a \"submerged life in the text",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate and object are a direct, unparsed quote from the paragraph, but the subject (Henrik Ibsen) is incorrectly linked to this theme. The paragraph attributes this theatrical style to Chekhov, not Ibsen. The semantic connection is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Creating:has_theme audience",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. The paragraph mentions Henrik Ibsen as a seminal figure alongside Chekhov, but there is no connection stated or implied between Ibsen and the theme of 'audience'. The relationship 'Creating:has_theme audience' is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Difficulty:has_activity this",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. The word 'this' in the paragraph refers to the formal innovations Chekhov made in his stories. There is no connection between this difficulty and Henrik Ibsen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Questioning:has_message questions",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Chekhov insisted the artist's role was to ask questions. There is no mention or implication that Henrik Ibsen is associated with this message of questioning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Desirability:has_theme short stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Chekhov's 'best short stories are held in high esteem by writers and critics,' which semantically connects the subject (Chekhov) to the theme of short stories in a positive/desirable context. The relationship 'Desirability:has_theme' is a reasonable, though indirect, interpretation of this esteem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Temporal_subregion:has_theme early",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Chekhov is referred to as one of three seminal figures in the 'birth of early modernism' along with Ibsen. This weakly connects Ibsen to the theme of 'early' modernism."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Behind_the_scenes:has_theme which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'which' appears in the paragraph, but it is not thematically linked to Henrik Ibsen in any meaningful way. The connection is purely coincidental and not semantically supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Regard:has_theme his best short stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'his best short stories are held in high esteem'. This directly associates Chekhov with the theme of 'his best short stories' in a context of regard or esteem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Reading_perception:has_reader readers",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'readers' in the context of Chekhov's writing. While Ibsen is mentioned separately, the text discusses the broader literary context, creating a weak, indirect semantic link between a playwright and the concept of readers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Statement:has_message that the role of an artist was to ask questions, not to answer them",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Chekhov's insistence 'that the role of an artist was to ask questions, not to answer them'. This is a direct statement with a clear message."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Relative_time:has_theme reception of The Seagull in 1896",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Henrik Ibsen and the reception of The Seagull, but it does not connect Ibsen to the theme or reception of that specific play. The connection is too indirect and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Being_born:has_time feast day of St",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Anton Pavlovich Chekhov was born on the feast day of St.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Cause_to_resume:has_purpose acclaim",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Chekhov renounced theatre after The Seagull's reception, but it was 'revived to acclaim' which caused his work to be produced again. This is a reasonable, though slightly indirect, connection between acclaim and the resumption of his theatrical success."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henrik_Ibsen Creating:has_theme somewhat haunting atmosphere",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Ibsen and a 'somewhat haunting atmosphere' in the context of Chekhov's plays, but it does not attribute this theme to Ibsen's creative work. The connection is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anton_Chekhov Text_creation:has_text stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states 'Chekhov began writing stories' and discusses his short stories, which are texts. This is a clear semantic connection."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 29,
+    "accuracy": 0.58,
+    "avg_confidence": 0.49000000000000016,
+    "high_confidence_50": 29,
+    "high_confidence_80": 14,
+    "percent_50": 57.99999999999999,
+    "percent_80": 28.000000000000004,
+    "max_triples_limit": 50
+  }
+}

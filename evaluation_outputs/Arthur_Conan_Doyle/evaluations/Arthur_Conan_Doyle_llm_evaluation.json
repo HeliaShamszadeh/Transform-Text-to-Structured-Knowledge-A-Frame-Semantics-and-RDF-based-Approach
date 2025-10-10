@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Fields:has_theme crime fiction",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'crime fiction' in relation to Sherlock Holmes stories, but this is completely unrelated to the 'Rugby_union' entity. The rugby player Conan Doyle is mentioned as a separate redirect, with no thematic link to crime fiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Inclusion:has_theme his works",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'his works' referring to Arthur Conan Doyle's literary output, which has no semantic connection to the 'Rugby_union' entity mentioned only as a redirect for a different person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Giving:has_theme his baptism entry in the register of St Mary's Cathedral, Edinburgh",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly discusses Doyle's baptism entry in the register of St Mary's Cathedral, Edinburgh, which provides evidence about his naming. There is a clear semantic connection to the theme of documenting his name and baptism."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Evidence:has_theme that 'Conan' is part of a compound surname rather than a middle name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly addresses this theme, stating 'Doyle is often referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle\", implying that \"Conan\" is part of a compound surname rather than a middle name' and provides supporting evidence from various sources."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Intentionally_create:has_purpose Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'He created the character Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels and fifty-six short stories about Holmes and Dr. Watson.' While 'intentionally_create:has_purpose' is an interpretive relationship, the creation of Holmes for this specific work is clearly described, supporting a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Scarlets Ordinal_numbers:has_item first",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'A Study in Scarlet' as the 'first of four novels'. While 'Scarlets' is not explicitly mentioned, 'Scarlet' is present and is associated with the ordinal concept 'first'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Text:has_text poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'rugby union' in the context of a person named Conan Doyle, but it does not associate rugby union with poetry. Poetry is mentioned separately as one of Doyle's works, with no connection to rugby."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Text_creation:has_text text",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively describes Arthur Conan Doyle as a writer who created texts (novels, short stories, plays, poetry, non-fiction). The concept of text creation is a central theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_named:has_theme given names",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph has a section discussing his name, explicitly stating that his baptism entry gives 'Arthur Ignatius Conan' as his 'given names', making 'given names' a direct theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Time_vector:has_theme Shortly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph uses the word 'Shortly' in a temporal context related to Doyle's life ('Shortly after he graduated...'). This establishes a time-related theme connected to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Appointing:has_theme Michael Conan",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Michael Conan as Arthur Conan Doyle's godfather, which is a type of appointment/designation role, creating a semantic connection to the 'Appointing' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_born:has_location 11 Picardy Place, Edinburgh, Scotland",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Doyle was born on 22 May 1859 at 11 Picardy Place, Edinburgh, Scotland' - this is a direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal Statement:has_speaker Steven Doyle, publisher of The Baker Street Journal",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph contains a direct quote attributed to 'Steven Doyle, publisher of The Baker Street Journal', making him the speaker of a statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Part_whole:has_theme compound surname",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses how 'Conan Doyle' implies a 'compound surname' and debates whether 'Conan' is part of the surname or a middle name, directly relating to the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Relative_time:has_theme short stories",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While both 'rugby union' and 'short stories' are mentioned separately in the paragraph, there is no semantic connection between them - rugby union is mentioned only in a redirect context, and short stories refer to Doyle's literary works with no relationship to rugby."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Scarlets Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'A Study in Scarlet' (a novel), but 'Scarlets' appears to be a different entity. The connection is extremely weak and likely a misinterpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Text:has_theme Sherlock Holmes",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'rugby union' only in the context of a different person named Conan Doyle. There is no semantic link between rugby union and the theme of Sherlock Holmes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_named:has_entity Arthur's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses the naming of Arthur Conan Doyle, including a direct quote referencing 'Arthur's middle name'. The predicate 'has_entity' is vague, but a connection to the name 'Arthur' exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Performing_arts:has_theme plays",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'rugby union' and separately mentions 'plays' as a type of work Doyle wrote. There is no direct connection between the subject (rugby union) and the object (plays)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Napoleonic_era Member_of_military:has_person Brigadier Gerard",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states there are 'humorous stories about the Napoleonic soldier Brigadier Gerard'. This creates a clear semantic link between the Napoleonic era and the person Brigadier Gerard."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Using:has_role as a sort of surname",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses how Doyle used 'Conan' as a sort of surname, which semantically relates to the concept of a 'role' in how he presented his name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Membership:has_member member",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Conan Doyle (rugby union)', which weakly implies a connection between the entity 'Rugby union' and a person named Conan Doyle, suggesting a potential membership relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions rugby union only in the context of disambiguating a person's name. There is no semantic connection between rugby union and stories as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Activity_start:has_activity using Conan as a sort of surname",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Shortly after he graduated from high school he began using Conan as a sort of surname.' This describes the start of an activity related to name usage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Expertise:has_theme writer",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions rugby union only as a disambiguation for a namesake. There is no semantic link suggesting rugby union has a theme of 'writer'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Becoming_aware:has_state drifting at sea with no crew member aboard",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'drifting at sea with no crew member aboard' describes the Mary Celeste, not the state of Rugby Union. The connection is extremely weak and semantically unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Library_of_Congress Communicate_categorization:has_item Doyle",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The catalogues of the British Library and the Library of Congress treat \"Doyle\" alone as his surname,' which semantically connects the Library of Congress to an item (Doyle's name) in its catalog."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Intentionally_create:has_theme character Sherlock Holmes",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He created the character Sherlock Holmes,' providing a direct and clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Text:has_text stories",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While 'stories' are mentioned extensively in the paragraph, they are associated with Doyle's writings, not with the text of Rugby Union. The connection is semantically invalid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Scarlets Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Scarlets' is not mentioned in the paragraph. There is no semantic connection to be made."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Part_whole:has_theme Conan",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph extensively discusses the nature of 'Conan' as part of his name (given name, middle name, or part of a compound surname), which relates to the theme of naming and identity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_named:has_theme simply'Dog '",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'Dog' or any related concept is not mentioned in the paragraph. The text 'simply' appears in a quote about his last name being 'Doyle', but it is not connected to 'Dog'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Subjective_influence:has_time often",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'often' is used in the phrase 'Doyle is often referred to as...', providing a weak semantic connection to the concept of frequency or habitual action."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Baker_Street_Journal Statement:has_message Conan was Arthur's middle name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph contains a direct quote from Steven Doyle, publisher of The Baker Street Journal, which states 'Conan was Arthur's middle name.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Frequency:has_event referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle\"",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Doyle is often referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle\"', which directly matches the event described in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Library_of_Congress Communicate_categorization:has_category alone as his surname",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that the Library of Congress treats 'Doyle' alone as his surname. While the predicate 'has_category' is an imperfect match for the described action, the semantic connection to the Library of Congress and its categorization of the surname is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Library_of_Congress Communicate_categorization:has_theme catalogues of the British Library and the Library of Congress",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions 'the catalogues of the British Library and the Library of Congress'. The triple's subject and object are directly present, and the predicate 'has_theme' can be loosely interpreted as the catalogues being a subject of discussion or a thematic element in the context of the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Scarlets Ordinal_numbers:has_theme four novels and fifty-six short stories about Holmes and Dr. Watson",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'Scarlets' is completely unrelated to the paragraph's content, which is about Arthur Conan Doyle. The object of the triple is present in the text, but the subject has no semantic connection whatsoever."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Scarlets Duration_description:has_theme fifty-six",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 'fifty-six' is mentioned in the paragraph, but the subject 'Scarlets' is entirely unrelated to the text. Without a valid connection for the subject, the triple as a whole is not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Becoming_aware:has_theme brigantine Mary Celeste",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The subject 'Rugby_union' is mentioned in the disambiguation note about 'Conan Doyle (rugby union)', but this is a different person. The object 'brigantine Mary Celeste' is mentioned in the context of Doyle's story. However, the triple connects these two concepts directly, which the paragraph does not support; the rugby player and the ship are not semantically linked in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Giving:has_theme Arthur Ignatius Conan",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Arthur Ignatius Conan Doyle' and discusses his name, but the relationship 'Giving:has_theme' is not clearly supported. There is a very weak semantic connection through the mention of his full name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Inclusion:has_theme fantasy and science fiction stories about Professor Challenger, and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction, and historical novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'Rugby_union' is only mentioned in a redirect note and is completely unrelated to the theme of Doyle's literary works. The information in the object is present in the paragraph, but it is not connected to rugby union in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Subjective_influence:has_behavior as \"Sir Arthur Conan Doyle\" or \"Conan Doyle\"",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph explicitly states 'Doyle is often referred to as \"Sir Arthur Conan Doyle\" or \"Conan Doyle\"'. The predicate 'Subjective_influence:has_behavior' is a vague match for 'is often referred to as', but a semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Intentionally_create:has_time 1887",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'He created the character Sherlock Holmes in 1887'. The predicate 'Intentionally_create:has_time' is a reasonable match for the act of creation and the associated year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Time_vector:has_event he began using Conan as a sort of surname",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph contains the direct quote: 'he began using Conan as a sort of surname'. The predicate 'Time_vector:has_event' is a reasonable, though not perfect, match for this past event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Intentionally_create:has_location http://en.wikipedia.org/wiki/Scarlets",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'A Study in Scarlet' but this is a novel title, not a location called 'Scarlets'. There is no semantic connection to the location entity in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_born:has_time 22 May 1859",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Doyle was born on 22 May 1859', which directly matches the triple's information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Doyle's works including Holmes stories, fantasy, science fiction, historical novels, etc., clearly establishing that his labor products have various themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rugby_union Membership:has_group crew",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While rugby union is mentioned in the context of 'Conan Doyle (rugby union)', there is no mention of 'crew' or any group membership related to rugby in the paragraph. The connection is extremely weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Conan_Doyle Being_named:has_entity Conan",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses naming conventions for Doyle, specifically mentioning that 'Conan' was part of his given names and how he used it, establishing a semantic connection to being named with 'Conan'."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.49000000000000016,
+    "high_confidence_50": 27,
+    "high_confidence_80": 19,
+    "percent_50": 54.0,
+    "percent_80": 38.0,
+    "max_triples_limit": 50
+  }
+}

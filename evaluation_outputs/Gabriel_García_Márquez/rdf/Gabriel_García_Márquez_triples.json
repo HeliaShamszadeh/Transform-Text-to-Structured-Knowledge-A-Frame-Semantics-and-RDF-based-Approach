@@ -1,0 +1,2187 @@
+{
+  "metadata": {
+    "total_triples": 101,
+    "source_file": "Gabriel_García_Márquez",
+    "extraction_date": "2025-09-27 23:18:57",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "Mercedes Barcha Pardo",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_text",
+        "object": "Spanish language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Kinship:has_time",
+        "object": "1958",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Political_locales:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "His works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Receiving:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Importance:has_theme",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "Being_named:has_entity",
+        "object": "paternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "sons",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Temporal_collocation:has_time",
+        "object": "1958",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Hostile_encounter:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he married Mercedes Barcha Pardo",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Kinship:has_theme",
+        "object": "sons",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Commerce_sell:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Receiving:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Fame:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Duration_description:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "non-fiction works and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Activity_start:has_role",
+        "object": "as a journalist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Receiving:has_theme",
+        "object": "Nobel Prize in Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "Being_named:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_degree",
+        "object": "significant",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Typicality:has_theme",
+        "object": "situations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "works and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_text",
+        "object": "world of imagination",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "Colombian and foreign politics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Being_named:has_entity",
+        "object": "literary style",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "Being_named:has_theme",
+        "object": "Garca",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text_creation:has_text",
+        "object": "many acclaimed non-fiction works and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "First_experience:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Amalgamation:has_theme",
+        "object": "richly composed world of imagination",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Labor_product:has_theme",
+        "object": "non-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Being_named:has_entity",
+        "object": "second or maternal family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Receiving:has_time",
+        "object": "1972",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Commerce_sell:has_buyer",
+        "object": "over fifty million copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Using:has_instrument",
+        "object": "magical elements and events",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_time",
+        "object": "1972",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spain",
+        "predicate": "Being_named:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Amalgamation:has_theme",
+        "object": "fantastic and the realistic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Success_or_failure:has_agent",
+        "object": "His works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Fame:has_reason",
+        "object": "his novels, such as No One Writes to the Colonel (1961 ), One Hundred Years of Solitude (1967 ), which has sold over fifty million copies worldwide, Chronicle of a Death Foretold (1981 ), and Love in the Time of Cholera (1985",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Using:has_agent",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Duration_description:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Using:has_theme",
+        "object": "otherwise ordinary and realistic situations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text_creation:has_author",
+        "object": "Garca Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Political_locales:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Spain",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Success_or_failure:has_degree",
+        "object": "widespread",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Being_named:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Commerce_sell:has_goods",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1958",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Amalgamation:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "20th",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Text_creation:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Importance:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Political_locales:has_theme",
+        "object": "imagination",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Being_named:has_entity",
+        "object": "maternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Receiving:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Amalgamation:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Fields:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Political_locales:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Macondo",
+        "predicate": "Subjective_influence:has_theme",
+        "object": "his birthplace, Aracataca",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Calendric_unit:has_time",
+        "object": "1972",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1958",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "family name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Departing:has_purpose",
+        "object": "career in journalism",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Receiving:has_theme",
+        "object": "his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Macondo",
+        "predicate": "Political_locales:has_theme",
+        "object": "fictional",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Activity_start:has_agent",
+        "object": "Garca Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Education_teaching:has_theme",
+        "object": "self-directed",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Foreign_or_domestic_country:has_theme",
+        "object": "foreign",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Importance:has_degree",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Colombia",
+        "predicate": "First_experience:has_theme",
+        "object": "surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Importance:has_time",
+        "object": "1972",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "two",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Departing:has_theme",
+        "object": "law school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Cardinal_numbers:has_time",
+        "object": "1958",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Receiving:has_theme",
+        "object": "1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "critical",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Hostile_encounter:has_location",
+        "object": "continent's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Education_teaching:has_student",
+        "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Commerce_sell:has_location",
+        "object": "worldwide",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Receiving:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Macondo",
+        "predicate": "Political_locales:has_theme",
+        "object": "village",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Calendric_unit:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Receiving:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text_creation:has_text",
+        "object": "http://en.wikipedia.org/wiki/Spanish_language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Text:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Latin_America",
+        "predicate": "Being_named:has_theme",
+        "object": "as magic realism",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Importance:has_theme",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Macondo",
+          "predicate": "Subjective_influence:has_theme",
+          "object": "his birthplace, Aracataca",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Using:has_instrument",
+          "object": "magical elements and events",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Fame:has_reason",
+          "object": "his novels, such as No One Writes to the Colonel (1961 ), One Hundred Years of Solitude (1967 ), which has sold over fifty million copies worldwide, Chronicle of a Death Foretold (1981 ), and Love in the Time of Cholera (1985",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Receiving:has_theme",
+          "object": "his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "Mercedes Barcha Pardo",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_text",
+          "object": "Spanish language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Kinship:has_time",
+          "object": "1958",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Political_locales:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "His works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Receiving:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "Being_named:has_entity",
+          "object": "paternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "sons",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Temporal_collocation:has_time",
+          "object": "1958",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Hostile_encounter:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he married Mercedes Barcha Pardo",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Kinship:has_theme",
+          "object": "sons",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Commerce_sell:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Receiving:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Fame:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Duration_description:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "non-fiction works and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Activity_start:has_role",
+          "object": "as a journalist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Receiving:has_theme",
+          "object": "Nobel Prize in Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "Being_named:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_degree",
+          "object": "significant",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Typicality:has_theme",
+          "object": "situations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "works and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_text",
+          "object": "world of imagination",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "Colombian and foreign politics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Being_named:has_entity",
+          "object": "literary style",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "Being_named:has_theme",
+          "object": "Garca",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text_creation:has_text",
+          "object": "many acclaimed non-fiction works and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "First_experience:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Amalgamation:has_theme",
+          "object": "richly composed world of imagination",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Labor_product:has_theme",
+          "object": "non-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Being_named:has_entity",
+          "object": "second or maternal family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Receiving:has_time",
+          "object": "1972",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Commerce_sell:has_buyer",
+          "object": "over fifty million copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_time",
+          "object": "1972",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spain",
+          "predicate": "Being_named:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Amalgamation:has_theme",
+          "object": "fantastic and the realistic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Success_or_failure:has_agent",
+          "object": "His works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Using:has_agent",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Duration_description:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Using:has_theme",
+          "object": "otherwise ordinary and realistic situations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text_creation:has_author",
+          "object": "Garca Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Political_locales:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Spain",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Success_or_failure:has_degree",
+          "object": "widespread",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Being_named:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Commerce_sell:has_goods",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1958",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Amalgamation:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "20th",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Text_creation:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Importance:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Political_locales:has_theme",
+          "object": "imagination",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Being_named:has_entity",
+          "object": "maternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Receiving:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Amalgamation:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Fields:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Political_locales:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Calendric_unit:has_time",
+          "object": "1972",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1958",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "family name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Departing:has_purpose",
+          "object": "career in journalism",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Macondo",
+          "predicate": "Political_locales:has_theme",
+          "object": "fictional",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Activity_start:has_agent",
+          "object": "Garca Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Education_teaching:has_theme",
+          "object": "self-directed",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Foreign_or_domestic_country:has_theme",
+          "object": "foreign",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Importance:has_degree",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Colombia",
+          "predicate": "First_experience:has_theme",
+          "object": "surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Importance:has_time",
+          "object": "1972",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "two",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Departing:has_theme",
+          "object": "law school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Cardinal_numbers:has_time",
+          "object": "1958",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Receiving:has_theme",
+          "object": "1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "critical",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Hostile_encounter:has_location",
+          "object": "continent's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Education_teaching:has_student",
+          "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Commerce_sell:has_location",
+          "object": "worldwide",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Receiving:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Macondo",
+          "predicate": "Political_locales:has_theme",
+          "object": "village",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Calendric_unit:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Receiving:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text_creation:has_text",
+          "object": "http://en.wikipedia.org/wiki/Spanish_language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Text:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Latin_America",
+          "predicate": "Being_named:has_theme",
+          "object": "as magic realism",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Spain",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Spain",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Macondo",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Macondo",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Macondo",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Latin_America"
+    ],
+    "objects": [
+      "Mercedes Barcha Pardo",
+      "Spanish language",
+      "1958",
+      "1982",
+      "His works",
+      "1982",
+      "authors",
+      "paternal",
+      "sons",
+      "century",
+      "1958",
+      "1982",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "he married Mercedes Barcha Pardo",
+      "Literature",
+      "sons",
+      "novels",
+      "1961",
+      "Literature",
+      "1961",
+      "1961",
+      "Literature",
+      "non-fiction works and short stories",
+      "as a journalist",
+      "Nobel Prize in Literature",
+      "1927",
+      "significant",
+      "situations",
+      "works and short stories",
+      "world of imagination",
+      "1927",
+      "Colombian and foreign politics",
+      "literary style",
+      "authors",
+      "Garca",
+      "many acclaimed non-fiction works and short stories",
+      "1927",
+      "many",
+      "richly composed world of imagination",
+      "non-fiction",
+      "second or maternal family",
+      "1972",
+      "over fifty million copies",
+      "magical elements and events",
+      "1972",
+      "1927",
+      "fantastic and the realistic",
+      "His works",
+      "his novels, such as No One Writes to the Colonel (1961 ), One Hundred Years of Solitude (1967 ), which has sold over fifty million copies worldwide, Chronicle of a Death Foretold (1981 ), and Love in the Time of Cholera (1985",
+      "which",
+      "1982",
+      "otherwise ordinary and realistic situations",
+      "Garca Márquez",
+      "works",
+      "world",
+      "name",
+      "widespread",
+      "1927",
+      "which",
+      "1958",
+      "Literature",
+      "20th",
+      "stories",
+      "1982",
+      "Literature",
+      "imagination",
+      "1982",
+      "maternal",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "1982",
+      "literary",
+      "Literature",
+      "his birthplace, Aracataca",
+      "1972",
+      "1958",
+      "family name",
+      "career in journalism",
+      "his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts",
+      "fictional",
+      "Garca Márquez",
+      "self-directed",
+      "foreign",
+      "20th century",
+      "surname",
+      "1972",
+      "two",
+      "law school",
+      "1958",
+      "1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature",
+      "critical",
+      "continent's",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "worldwide",
+      "Literature",
+      "village",
+      "Literature",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "Literature",
+      "works",
+      "as magic realism"
+    ],
+    "all_unique": [
+      "Garca Márquez",
+      "paternal",
+      "non-fiction",
+      "over fifty million copies",
+      "1961",
+      "1982",
+      "Nobel Prize in Literature",
+      "http://en.wikipedia.org/wiki/Latin_America",
+      "non-fiction works and short stories",
+      "century",
+      "many acclaimed non-fiction works and short stories",
+      "1972",
+      "second or maternal family",
+      "His works",
+      "world of imagination",
+      "which",
+      "works",
+      "name",
+      "foreign",
+      "career in journalism",
+      "imagination",
+      "novels",
+      "sons",
+      "he married Mercedes Barcha Pardo",
+      "works and short stories",
+      "as magic realism",
+      "Spanish language",
+      "self-directed",
+      "authors",
+      "two",
+      "Literature",
+      "literary",
+      "richly composed world of imagination",
+      "literary style",
+      "http://en.wikipedia.org/wiki/Spanish_language",
+      "family name",
+      "law school",
+      "worldwide",
+      "1927",
+      "many",
+      "surname",
+      "http://en.wikipedia.org/wiki/Macondo",
+      "village",
+      "critical",
+      "situations",
+      "http://en.wikipedia.org/wiki/Colombia",
+      "magical elements and events",
+      "maternal",
+      "1958",
+      "http://en.wikipedia.org/wiki/Spain",
+      "otherwise ordinary and realistic situations",
+      "widespread",
+      "Mercedes Barcha Pardo",
+      "stories",
+      "fantastic and the realistic",
+      "his birthplace, Aracataca",
+      "20th century",
+      "his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts",
+      "his novels, such as No One Writes to the Colonel (1961 ), One Hundred Years of Solitude (1967 ), which has sold over fifty million copies worldwide, Chronicle of a Death Foretold (1981 ), and Love in the Time of Cholera (1985",
+      "1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature",
+      "Garca",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "20th",
+      "Colombian and foreign politics",
+      "fictional",
+      "continent's",
+      "significant",
+      "as a journalist",
+      "http://en.wikipedia.org/wiki/Gabriel_García_Márquez",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "world"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Personal_relationship:has_theme",
+      "Text_creation:has_text",
+      "Kinship:has_time",
+      "Political_locales:has_time",
+      "Judgment_communication:has_theme",
+      "Receiving:has_time",
+      "Importance:has_theme",
+      "Being_named:has_entity",
+      "Cardinal_numbers:has_entity",
+      "Calendric_unit:has_theme",
+      "Temporal_collocation:has_time",
+      "Hostile_encounter:has_time",
+      "Judgment_communication:has_theme",
+      "Temporal_collocation:has_theme",
+      "Text_creation:has_location",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Commerce_sell:has_time",
+      "Receiving:has_location",
+      "Fame:has_time",
+      "Text:has_time",
+      "Duration_description:has_location",
+      "Judgment_communication:has_theme",
+      "Activity_start:has_role",
+      "Receiving:has_theme",
+      "Being_named:has_time",
+      "Judgment_communication:has_degree",
+      "Typicality:has_theme",
+      "Quantified_mass:has_theme",
+      "Text_creation:has_text",
+      "Ordinal_numbers:has_time",
+      "Judgment_communication:has_theme",
+      "Being_named:has_entity",
+      "Text_creation:has_author",
+      "Being_named:has_theme",
+      "Text_creation:has_text",
+      "First_experience:has_time",
+      "Quantified_mass:has_quantity",
+      "Amalgamation:has_theme",
+      "Labor_product:has_theme",
+      "Being_named:has_entity",
+      "Receiving:has_time",
+      "Commerce_sell:has_buyer",
+      "Using:has_instrument",
+      "Text_creation:has_time",
+      "Being_named:has_time",
+      "Amalgamation:has_theme",
+      "Success_or_failure:has_agent",
+      "Fame:has_reason",
+      "Using:has_agent",
+      "Duration_description:has_time",
+      "Using:has_theme",
+      "Text_creation:has_author",
+      "Labor_product:has_theme",
+      "Political_locales:has_theme",
+      "Being_named:has_theme",
+      "Success_or_failure:has_degree",
+      "Being_named:has_time",
+      "Commerce_sell:has_goods",
+      "Temporal_collocation:has_theme",
+      "Amalgamation:has_location",
+      "Calendric_unit:has_theme",
+      "Duration_description:has_theme",
+      "Text_creation:has_time",
+      "Importance:has_location",
+      "Political_locales:has_theme",
+      "Text:has_time",
+      "Being_named:has_entity",
+      "Receiving:has_recipient",
+      "Amalgamation:has_time",
+      "Fields:has_theme",
+      "Political_locales:has_location",
+      "Subjective_influence:has_theme",
+      "Calendric_unit:has_time",
+      "Personal_relationship:has_time",
+      "Ordinal_numbers:has_type",
+      "Departing:has_purpose",
+      "Receiving:has_theme",
+      "Political_locales:has_theme",
+      "Activity_start:has_agent",
+      "Education_teaching:has_theme",
+      "Foreign_or_domestic_country:has_theme",
+      "Importance:has_degree",
+      "First_experience:has_theme",
+      "Importance:has_time",
+      "Cardinal_numbers:has_theme",
+      "Departing:has_theme",
+      "Cardinal_numbers:has_time",
+      "Receiving:has_theme",
+      "Judgment_communication:has_theme",
+      "Hostile_encounter:has_location",
+      "Education_teaching:has_student",
+      "Commerce_sell:has_location",
+      "Receiving:has_location",
+      "Political_locales:has_theme",
+      "Calendric_unit:has_location",
+      "Receiving:has_recipient",
+      "Text_creation:has_text",
+      "Text:has_location",
+      "Labor_product:has_theme",
+      "Being_named:has_theme"
+    ],
+    "unique_predicates": [
+      "Foreign_or_domestic_country:has_theme",
+      "Personal_relationship:has_theme",
+      "Calendric_unit:has_time",
+      "Departing:has_purpose",
+      "Importance:has_location",
+      "Calendric_unit:has_theme",
+      "Receiving:has_location",
+      "Kinship:has_time",
+      "Cardinal_numbers:has_theme",
+      "Hostile_encounter:has_location",
+      "Text:has_location",
+      "Temporal_collocation:has_theme",
+      "Personal_relationship:has_time",
+      "Calendric_unit:has_location",
+      "Fields:has_theme",
+      "Commerce_sell:has_location",
+      "Receiving:has_theme",
+      "Departing:has_theme",
+      "Being_named:has_theme",
+      "Receiving:has_recipient",
+      "Being_named:has_entity",
+      "Amalgamation:has_time",
+      "Importance:has_degree",
+      "Text_creation:has_time",
+      "Importance:has_time",
+      "Amalgamation:has_location",
+      "Success_or_failure:has_agent",
+      "Receiving:has_time",
+      "Success_or_failure:has_degree",
+      "Activity_start:has_agent",
+      "Cardinal_numbers:has_entity",
+      "Using:has_instrument",
+      "Text_creation:has_location",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Ordinal_numbers:has_time",
+      "Duration_description:has_theme",
+      "Amalgamation:has_theme",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Ordinal_numbers:has_type",
+      "Political_locales:has_time",
+      "Judgment_communication:has_theme",
+      "Judgment_communication:has_degree",
+      "Education_teaching:has_theme",
+      "First_experience:has_theme",
+      "Quantified_mass:has_quantity",
+      "Using:has_agent",
+      "Cardinal_numbers:has_time",
+      "Text_creation:has_text",
+      "Temporal_collocation:has_time",
+      "Activity_start:has_role",
+      "Commerce_sell:has_buyer",
+      "Political_locales:has_theme",
+      "Fame:has_time",
+      "Using:has_theme",
+      "Importance:has_theme",
+      "Typicality:has_theme",
+      "Hostile_encounter:has_time",
+      "Commerce_sell:has_goods",
+      "Political_locales:has_location",
+      "Subjective_influence:has_theme",
+      "Education_teaching:has_student",
+      "Duration_description:has_location",
+      "First_experience:has_time",
+      "Being_named:has_time",
+      "Commerce_sell:has_time",
+      "Labor_product:has_theme",
+      "Duration_description:has_time",
+      "Fame:has_reason",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Personal_relationship:has_theme": 1,
+      "Text_creation:has_text": 4,
+      "Kinship:has_time": 1,
+      "Political_locales:has_time": 1,
+      "Judgment_communication:has_theme": 5,
+      "Receiving:has_time": 2,
+      "Importance:has_theme": 1,
+      "Being_named:has_entity": 4,
+      "Cardinal_numbers:has_entity": 1,
+      "Calendric_unit:has_theme": 2,
+      "Temporal_collocation:has_time": 1,
+      "Hostile_encounter:has_time": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Text_creation:has_location": 1,
+      "Kinship:has_theme": 1,
+      "Text:has_text": 1,
+      "Commerce_sell:has_time": 1,
+      "Receiving:has_location": 2,
+      "Fame:has_time": 1,
+      "Text:has_time": 2,
+      "Duration_description:has_location": 1,
+      "Activity_start:has_role": 1,
+      "Receiving:has_theme": 3,
+      "Being_named:has_time": 3,
+      "Judgment_communication:has_degree": 1,
+      "Typicality:has_theme": 1,
+      "Quantified_mass:has_theme": 1,
+      "Ordinal_numbers:has_time": 1,
+      "Text_creation:has_author": 2,
+      "Being_named:has_theme": 3,
+      "First_experience:has_time": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Amalgamation:has_theme": 2,
+      "Labor_product:has_theme": 3,
+      "Commerce_sell:has_buyer": 1,
+      "Using:has_instrument": 1,
+      "Text_creation:has_time": 2,
+      "Success_or_failure:has_agent": 1,
+      "Fame:has_reason": 1,
+      "Using:has_agent": 1,
+      "Duration_description:has_time": 1,
+      "Using:has_theme": 1,
+      "Political_locales:has_theme": 4,
+      "Success_or_failure:has_degree": 1,
+      "Commerce_sell:has_goods": 1,
+      "Amalgamation:has_location": 1,
+      "Duration_description:has_theme": 1,
+      "Importance:has_location": 1,
+      "Receiving:has_recipient": 2,
+      "Amalgamation:has_time": 1,
+      "Fields:has_theme": 1,
+      "Political_locales:has_location": 1,
+      "Subjective_influence:has_theme": 1,
+      "Calendric_unit:has_time": 1,
+      "Personal_relationship:has_time": 1,
+      "Ordinal_numbers:has_type": 1,
+      "Departing:has_purpose": 1,
+      "Activity_start:has_agent": 1,
+      "Education_teaching:has_theme": 1,
+      "Foreign_or_domestic_country:has_theme": 1,
+      "Importance:has_degree": 1,
+      "First_experience:has_theme": 1,
+      "Importance:has_time": 1,
+      "Cardinal_numbers:has_theme": 1,
+      "Departing:has_theme": 1,
+      "Cardinal_numbers:has_time": 1,
+      "Hostile_encounter:has_location": 1,
+      "Education_teaching:has_student": 1,
+      "Commerce_sell:has_location": 1,
+      "Calendric_unit:has_location": 1,
+      "Text:has_location": 1
+    }
+  }
+}

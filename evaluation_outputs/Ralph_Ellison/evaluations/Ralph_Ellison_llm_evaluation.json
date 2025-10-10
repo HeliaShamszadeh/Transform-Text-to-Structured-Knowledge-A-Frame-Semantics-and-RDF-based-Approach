@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Leadership:has_theme school",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Shadow and Act' but does not associate it with the theme of 'school' in any way. The theme is described as 'political, social, and critical essays'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Fame:has_reason his novel Invisible Man, which won the National Book Award in 1953",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Ellison is 'best known for his novel Invisible Man, which won the National Book Award in 1953', which is a direct semantic match for the reason for his fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Possession:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 1916 is mentioned in the paragraph in the context of Ellison's father's death and his brother's birth, but it is not associated with the National Book Award, which is mentioned in the context of 1953."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Experiencer_focus:has_theme literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The National Book Award is mentioned in the context of a novel (a form of literature). While the paragraph does not explicitly state 'literature' as the award's theme, the connection is semantically reasonable and indirectly supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Death:has_theme firstborn Alfred",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'firstborn Alfred died in infancy', but this event is completely unrelated to the National Book Award. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alto_saxophone Expensiveness:has_goods lessons",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions free lessons for playing the alto saxophone, which directly contradicts the concept of 'expensiveness' or having goods. The relationship is not semantically supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Being_named:has_theme after Ralph Waldo Emerson",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Ralph Waldo Ellison, named after Ralph Waldo Emerson'. This is a clear and direct semantic match for the naming relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alto_saxophone Being_employed:has_employee Ralph",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The alto saxophone is an instrument that Ralph received lessons for; it is not an entity that employs people. The semantic relationship of employment is not present or implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Death:has_time after work-related injury and a failed operation",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'after work-related injury and a failed operation' describes the time of Lewis Alfred Ellison's death. There is no semantic connection linking this event to the book 'Shadow and Act'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Motion:has_time 1921",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1921 is mentioned in the context of Ellison's mother moving the family. There is no mention or implication of any event related to the book 'Shadow and Act' occurring in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Ordinal_numbers:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 1916 in relation to Ralph Ellison's family events (father's death, brother's birth), but there is no connection whatsoever to Ralph Waldo Emerson's timeline or any event involving him in 1916."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Businesses:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The National Book Award is mentioned in the context of 1953 (when Ellison won it). The year 1916 appears in the text for unrelated family events. There is no semantic connection between the award and 1916."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Being_born:has_location Oklahoma City, Oklahoma",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Ralph Waldo Ellison... was born in Oklahoma City, Oklahoma'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Successful_action:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The National Book Award is explicitly associated with the year 1953. The year 1916 is mentioned for unrelated events. There is no connection between the award's success and 1916."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Ordinal_numbers:has_theme three sons",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'three sons' refers to the children of Lewis Alfred Ellison and Ida Millsap (Ralph Ellison's parents). Ralph Waldo Emerson is only mentioned as the namesake, with no information about his family or children."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Text:has_theme Juneteenth",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the National Book Award was won for 'Invisible Man', not 'Juneteenth'. The two works are distinct, and no connection is made between the award and Juneteenth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times_Best_Seller_list Opinion:has_opinion that \" my brother and I would have a better chance of reaching manhood if we grew up in the north\"",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The opinion is attributed to Ellison's mother, not The New York Times Best Seller list. The New York Times is mentioned in a different context (praising Ellison), creating no semantic link to this specific opinion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Kinship:has_theme Ellison's mother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Ellison's mother (Ida Millsap) and her actions (moving the family, remarrying), making 'Ellison's mother' a significant theme related to his life story, even if 'Kinship:has_theme' is an unusual predicate for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Leadership:has_leader bandmaster",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Shadow and Act' as a book by Ellison and separately mentions he became a 'school bandmaster'. There is no semantic connection between the book and the leadership role of bandmaster."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Kinship:has_time 1921",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1921 is explicitly mentioned in the paragraph as the time when Ellison's mother moved the family to Gary, Indiana, which is a key event related to his kinship/family life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Cardinal_numbers:has_entity sons",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions the National Book Award and separately mentions Ellison had 'three sons'. While there is no direct connection, both entities exist in the text, creating a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times_Best_Seller_list Being_born:has_person younger brother Herbert Maurice (or Millsap)",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The New York Times is mentioned, and Ellison's younger brother Herbert Maurice is named. The connection is indirect and thematic (both are entities in the biography) rather than direct."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Text:has_time 1913",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Ralph Waldo Emerson is mentioned, and the year 1913 (Ellison's birth year) is mentioned multiple times. The text states Ellison was named after Emerson, creating a semantic link between the person and the time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Businesses:has_business operation",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The National Book Award is mentioned, and the word 'operation' appears in the context of Ellison's father's 'failed operation'. This is an extremely weak and indirect connection based on word co-occurrence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Transition_to_state:has_location north",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Ralph Ellison is the subject, and the paragraph mentions his mother moved the family 'to the north' (Gary, Indiana) for a better life. This is a clear, though not explicitly framed as a 'transition', reference to a location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Death:has_theme Lewis Alfred Ellison, a small-business owner and a construction foreman",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Shadow and Act and Lewis Alfred Ellison, but there is no semantic connection between them. The book is a collection of essays, and Lewis is Ralph's father who died earlier; no thematic link is established."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Part_orientational:has_theme north",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The National Book Award is mentioned (won by Invisible Man), and 'north' is mentioned in the context of moving for a better life. While the connection is very weak and indirect (the book's themes are not explicitly linked to the north), a lenient interpretation allows for a thematic link to the broader context of social movement and opportunity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Proportional_quantity:has_theme chance of reaching manhood",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The National Book Award is mentioned, and the phrase 'a better chance of reaching manhood' is a central reason for a family move. A lenient, thematic interpretation could link the award-winning novel's exploration of social issues to the concept of opportunity and manhood discussed in the author's biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Being_born:has_time 1916",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The National Book Award is mentioned, and the year 1916 is mentioned (brother's birth, father's death), but there is no semantic connection between the award and the event of being born in 1916. Ralph Ellison was born in 1913."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Death:has_time infancy",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The National Book Award is mentioned, and a death in infancy is mentioned (Ellison's brother Alfred). A very lenient, thematic interpretation could link the literary work recognized by the award to the theme of mortality and family history present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Temporal_collocation:has_theme she did not find a job and her brother lost his",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The theme 'she did not find a job and her brother lost his' describes a family's financial hardship and is completely unrelated to the National Book Award, which is mentioned only in the context of Ellison winning it for his novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Kinship:has_theme brother",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While Ralph Waldo Emerson is mentioned, the theme 'brother' refers to Ellison's younger brother, not Emerson's. There is a weak, indirect connection via the shared context of the paragraph, but the specific kinship is not related to Emerson."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Aggregate:has_theme political, social, and critical essays",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The National Book Award was won for the novel 'Invisible Man'. The 'political, social, and critical essays' are the theme of a different book, 'Shadow and Act'. The triple incorrectly associates the essay theme with the award."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Becoming_aware:has_theme Ralph",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Ellison was named after Ralph Waldo Emerson. The theme 'Ralph' (referring to Ellison) is semantically connected to Emerson through this naming event, which implies a state of 'becoming aware' or establishing an identity link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Businesses:has_theme failed",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'failed' appears in the context of a medical operation on Ellison's father. This has no semantic connection to the National Book Award or any business-related theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alto_saxophone People_by_age:has_person youth",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions that Ralph Ellison received free lessons for playing the alto saxophone during his youth. There is a weak semantic connection between the instrument and the concept of a youth (Ellison himself) learning it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Ellison Kinship:has_theme brother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Ralph Ellison's younger brother, Herbert Maurice. The theme of brotherhood is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Being_born:has_person Alfred",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The National Book Award is mentioned in connection with Ralph Ellison's novel. 'Alfred' refers to Ellison's firstborn brother who died in infancy. There is no semantic connection between the award and the person Alfred in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity writer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Ralph Ellison is explicitly described as an 'American writer'. This establishes a clear connection between the United States and a writer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shadow_and_Act Receiving:has_theme free lessons for playing trumpet and alto saxophone",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "'Shadow and Act' is one of Ellison's published books. The 'free lessons' are a personal event from his youth. The text does not connect the book to the event; they are two separate pieces of information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Kinship:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 1916 in the context of Ellison's father's death and his brother's birth, but there is no semantic connection to Ralph Waldo Emerson having a time in 1916."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Experiencer_obj:has_time 1913",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 1913 as Ellison's birth year, and he was named after Emerson, but there is no information connecting Emerson himself to the year 1913."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Text:has_text essays",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak connection: The National Book Award is mentioned in relation to Ellison's novel, and Ellison also wrote essays. The triple implies a direct link between the award and essays, which is not explicitly stated but can be loosely inferred from the context of the author's body of work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alto_saxophone Assistance:has_goal family support",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Very weak but valid connection: Ellison received music lessons (which included alto saxophone) and he worked various jobs to assist with family support. The connection is highly indirect, implying a general theme of activities undertaken during his youth, but the saxophone lessons are not directly linked to the goal of family support."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Publishing:has_time after being assembled from voluminous notes Ellison left upon his death",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'after being assembled from voluminous notes Ellison left upon his death' describes the publication of his posthumous novel 'Juneteenth', not the National Book Award. The award is mentioned in a completely separate sentence about a different book ('Invisible Man'). The connection is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Relative_time:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states the National Book Award was won in 1953. The year 1916 is mentioned in relation to Ellison's father's death and his brother's birth, which is completely unrelated to the award."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alto_saxophone Kinship:has_theme father",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "A weak semantic connection exists: Ellison received saxophone lessons from 'the father of a neighborhood friend'. While the predicate 'has_theme father' is a stretch, the concepts of 'alto saxophone' and a paternal figure are both present in the same context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ralph_Waldo_Emerson Name_conferral:has_entity http://en.wikipedia.org/wiki/Ralph_Ellison",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Ralph Waldo Ellison, named after Ralph Waldo Emerson', which is a direct semantic match for a name conferral relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Text:has_time 1964",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 1964 is mentioned as the publication date for 'Shadow and Act', which is a different work by Ellison. There is no connection stated between the National Book Award and the year 1964."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_New_York_Times_Best_Seller_list Age:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The New York Times is mentioned in a quote, but 'The New York Times Best Seller list' is not referenced. The year 1916 is present, but it is unrelated to any New York Times publication or list."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 12,
+    "accuracy": 0.24,
+    "avg_confidence": 0.29800000000000004,
+    "high_confidence_50": 12,
+    "high_confidence_80": 9,
+    "percent_50": 24.0,
+    "percent_80": 18.0,
+    "max_triples_limit": 50
+  }
+}

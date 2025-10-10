@@ -1,0 +1,275 @@
+digraph Jane_Austen {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her work" [label="Her work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "epistolary novel Lady Susan" [label="epistolary novel Lady Susan", fillcolor=lightblue, color=blue, shape=ellipse];
+    "major novels" [label="major novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "two other novels" [label="two other novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her works" [label="Her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "juvenile writings in manusc..." [label="juvenile writings in manusc...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writings" [label="writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Austen's novels have rarely..." [label="Austen's novels have rarely...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Austen wrote major novels" [label="Austen wrote major novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "her death" [label="her death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "another, eventually titled ..." [label="another, eventually titled ...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "eventually" [label="eventually", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "transition to 19th-century ..." [label="transition to 19th-century ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19th-century" [label="19th-century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "another" [label="another", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "significant transition in h..." [label="significant transition in h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "favourable social standing ..." [label="favourable social standing ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a set" [label="as a set", fillcolor=lightgray, color=gray, shape=hexagon];
+    "large number of critical es..." [label="large number of critical es...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three volumes of juvenile w..." [label="three volumes of juvenile w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "readership" [label="readership", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when they were republished ..." [label="when they were republished ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "end" [label="end", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wide" [label="wide", fillcolor=lightgray, color=gray, shape=hexagon];
+    "amongst critics and scholars" [label="amongst critics and scholars", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Richard Bentley" [label="Richard Bentley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "been out of print" [label="been out of print", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1817" [label="1817", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until she was 35" [label="until she was 35", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pursuit of favourable socia..." [label="pursuit of favourable socia...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "significant" [label="significant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "anonymously published Sense..." [label="anonymously published Sense...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "women" [label="women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Memoir" [label="Memoir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sensibility" [label="sensibility", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social commentary, realism," [label="social commentary, realism,", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1869" [label="1869", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Memoir of Jane Austen" [label="Memoir of Jane Austen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "security" [label="security", fillcolor=lightgray, color=gray, shape=hexagon];
+    "marriage" [label="marriage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pride and Prejudice" [label="Pride and Prejudice", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many literary anthologies" [label="many literary anthologies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sanditon" [label="Sanditon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "18th century" [label="18th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jane Austen" [label="Jane Austen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "22" [label="22", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wide acclaim and popular re..." [label="wide acclaim and popular re...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Richard Bentley's Standard ..." [label="Richard Bentley's Standard ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her reputation" [label="her reputation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 22" [label="age of 22", fillcolor=lightgray, color=gray, shape=hexagon];
+    "large" [label="large", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her use of social commentar..." [label="Her use of social commentar...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critical essays" [label="critical essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gradually" [label="gradually", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before the age of 22" [label="before the age of 22", fillcolor=lightgray, color=gray, shape=hexagon];
+    "manuscript" [label="manuscript", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austen's" [label="Austen's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "anthologies" [label="anthologies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary anthologies" [label="literary anthologies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "economic" [label="economic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Watsons" [label="The Watsons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her nephew" [label="her nephew", fillcolor=lightgray, color=gray, shape=hexagon];
+    "18th" [label="18th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "half" [label="half", fillcolor=lightgray, color=gray, shape=hexagon];
+    "volumes" [label="volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second half of the 18th cen..." [label="second half of the 18th cen...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her nephew published A Memo..." [label="her nephew published A Memo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critical" [label="critical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Northanger Abbey and Persua..." [label="Northanger Abbey and Persua...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Watsons" [label="Watsons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "transition in her reputation" [label="transition in her reputation", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Jane Austen" -> "marriage" [label="has instrument [Reliance]", color=lightblue, penwidth=1];
+    "Jane Austen" -> "favourable social standing ..." [label="has theme [Cotheme]", color=lightcoral, penwidth=1];
+    "Jane Austen" -> "economic" [label="has theme [Being_at_risk]", color=lightgreen, penwidth=1];
+    "Jane Austen" -> "end" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Richard Bentley" -> "essays" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "major novels" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "Her use of social commentar..." [label="has reason [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Jane Austen" -> "her nephew published A Memo..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Richard Bentley" -> "transition in her reputation" [label="has theme [Importance]", color=lightgoldenrodyellow, penwidth=1];
+    "Richard Bentley" -> "anthologies" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "volumes" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "18th century" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Jane Austen" -> "until she was 35" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Jane Austen" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "critical essays" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Richard Bentley" -> "number" [label="has quantity [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Jane Austen" -> "second half of the 18th cen..." [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "amongst critics and scholars" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Jane Austen" -> "transition to 19th-century ..." [label="has theme [Part_whole]", color=lightgoldenrod, penwidth=1];
+    "Jane Austen" -> "1869" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Jane Austen" -> "before the age of 22" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Jane Austen" -> "writings" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "two other novels" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "Austen's" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Pride and Prejudice" -> "wide acclaim and popular re..." [label="has theme [Getting]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "significant transition in h..." [label="has event [Event]", color=lightsteelblue, penwidth=1];
+    "Jane Austen" -> "Austen's novels have rarely..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Richard Bentley" -> "Richard Bentley's Standard ..." [label="has goal [Removing]", color=lightblue, penwidth=1];
+    "Jane Austen" -> "Memoir" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "1817" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Richard Bentley" -> "literary anthologies" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Richard Bentley" -> "many literary anthologies" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Richard Bentley" -> "her reputation" [label="has entity [Undergo_change]", color=lightgreen, penwidth=1];
+    "Richard Bentley" -> "many" [label="has quantity [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Jane Austen" -> "Her works" [label="has theme [Part_whole]", color=lightgoldenrod, penwidth=1];
+    "Pride and Prejudice" -> "anonymously published Sense..." [label="has theme [Personal_success]", color=red, penwidth=2];
+    "Jane Austen" -> "18th century" [label="has theme [Part_whole]", color=lightgoldenrod, penwidth=1];
+    "Richard Bentley" -> "when they were republished ..." [label="has time [Event]", color=purple, penwidth=2];
+    "Jane Austen" -> "18th" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "significant" [label="has degree [Undergo_change]", color=lightgreen, penwidth=1];
+    "Richard Bentley" -> "literary" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "Her work" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Richard Bentley" -> "readership" [label="has theme [Desirability]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "women" [label="has person [People]", color=red, penwidth=2];
+    "Jane Austen" -> "sensibility" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "century" [label="has theme [Grasp]", color=lightgray, penwidth=1];
+    "Pride and Prejudice" -> "Jane Austen" [label="has recipient [Getting]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "epistolary novel Lady Susan" [label="has theme [Duration_description]", color=lightgoldenrodyellow, penwidth=1];
+    "Jane Austen" -> "another, eventually titled ..." [label="has activity [Activity_start]", color=lightseagreen, penwidth=1];
+    "Jane Austen" -> "juvenile writings in manusc..." [label="has author [Text]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "1869" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "critical" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "half" [label="has theme [Part_whole]", color=lightgoldenrod, penwidth=1];
+    "Jane Austen" -> "century" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "social commentary, realism," [label="has instrument [Using]", color=lightsalmon, penwidth=1];
+    "Jane Austen" -> "security" [label="has theme [Being_at_risk]", color=lightgreen, penwidth=1];
+    "Jane Austen" -> "three volumes of juvenile w..." [label="has theme [Abandonment]", color=lightgoldenrod, penwidth=1];
+    "Jane Austen" -> "volumes" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Sanditon" -> "eventually" [label="has time [Documents]", color=purple, penwidth=2];
+    "Sanditon" -> "another" [label="has document [Documents]", color=lightsteelblue, penwidth=1];
+    "Richard Bentley" -> "large" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Jane Austen" -> "economic" [label="has theme [Economy]", color=lightcoral, penwidth=1];
+    "Jane Austen" -> "been out of print" [label="has event [Frequency]", color=lightblue, penwidth=1];
+    "Jane Austen" -> "novels" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "Jane Austen" -> "Northanger Abbey and Persua..." [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "Jane Austen" -> "manuscript" [label="has theme [Text_creation]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "pursuit of favourable socia..." [label="has theme [Reliance]", color=lightblue, penwidth=1];
+    "Jane Austen" -> "three volumes of juvenile w..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Richard Bentley" -> "essays" [label="has theme [Importance]", color=lightgoldenrodyellow, penwidth=1];
+    "The Watsons" -> "Watsons" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "19th-century" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Jane Austen" -> "three" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "half" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Jane Austen" -> "Austen wrote major novels" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Jane Austen" -> "18th century" [label="has theme [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Richard Bentley" -> "number" [label="has theme [Size]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "large number of critical es..." [label="has theme [Subjective_influence]", color=lightcyan, penwidth=1];
+    "Pride and Prejudice" -> "gradually" [label="has theme [Getting]", color=lightpink, penwidth=1];
+    "Richard Bentley" -> "Memoir of Jane Austen" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "women" [label="has theme [Reliance]", color=lightblue, penwidth=1];
+    "Richard Bentley" -> "literary" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "manuscript" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "her death" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Richard Bentley" -> "as a set" [label="has result [Commerce_sell]", color=lightsteelblue, penwidth=1];
+    "Richard Bentley" -> "Her work" [label="has entity [Subjective_influence]", color=lightcyan, penwidth=1];
+    "Jane Austen" -> "age of 22" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Jane Austen" -> "wide" [label="has degree [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Jane Austen" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Richard Bentley" -> "her nephew" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Jane Austen" -> "22" [label="has age [Age]", color=lightgoldenrodyellow, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Reliance_legend" [label="Reliance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cotheme_legend" [label="Cotheme", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_at_risk_legend" [label="Being_at_risk", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Undergo_change_legend" [label="Undergo_change", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Personal_success_legend" [label="Personal_success", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Abandonment_legend" [label="Abandonment", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Documents_legend" [label="Documents", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Economy_legend" [label="Economy", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Size_legend" [label="Size", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

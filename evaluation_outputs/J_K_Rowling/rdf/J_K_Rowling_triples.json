@@ -1,0 +1,2483 @@
+{
+  "metadata": {
+    "total_triples": 115,
+    "source_file": "J_K_Rowling",
+    "extraction_date": "2025-09-28 02:20:23",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Being_named:has_theme",
+        "object": "J. K. Rowling",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Aggregate:has_theme",
+        "object": "imitators",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Categorization:has_category",
+        "object": "as conventional",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Publishing:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Cause_to_resume:has_process",
+        "object": "fantasy as a genre in the children's market",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Being_born:has_location",
+        "object": "Yate, Gloucestershire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_author",
+        "object": "British author and philanthropist (born 1965 ) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Being_named:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Calluna",
+        "predicate": "Translating:has_theme",
+        "object": "into 84 languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text_creation:has_text",
+        "object": "Harry Potter, a seven-volume series about a young wizard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Part_inner_outer:has_theme",
+        "object": "themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Frequency:has_theme",
+        "object": "languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Inclusion:has_theme",
+        "object": "films and video games",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Publishing:has_work",
+        "object": "fantasy novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Forming_relationships:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text_creation:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Part_inner_outer:has_theme",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text_creation:has_author",
+        "object": "British author and philanthropist (born 1965) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Text:has_text",
+        "object": "writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_theme",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_theme",
+        "object": "Six sequels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Categorization:has_item",
+        "object": "Rowling's writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Cause_to_resume:has_cause",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Inclusion:has_theme",
+        "object": "global media franchise",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Frequency:has_theme",
+        "object": "period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Text_creation:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Categorization:has_theme",
+        "object": "Many reviewers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Individual_history:has_theme",
+        "object": "history",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Categorization:has_category",
+        "object": "as regressive",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Discussion:has_theme",
+        "object": "over the Harry Potter series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Publishing:has_time",
+        "object": "1997 to 2007",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_text",
+        "object": "novelist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Causation:has_effect",
+        "object": "death of her mother, the birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Giving_birth:has_theme",
+        "object": "host of imitators",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Duplication:has_theme",
+        "object": "copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Inclusion:has_theme",
+        "object": "Bildungsroman ( the coming-of-age genre ), school stories, fairy tales, and Christian allegory",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Being_named:has_entity",
+        "object": "Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Being_born:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_text",
+        "object": "sequels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_theme",
+        "object": "boy called Harry Potter as he attends Hogwarts ( a school for wizards ), and battles Lord Voldemort",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "accolades",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "husband",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Giving_birth:has_mother",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Individual_history:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "wizards",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Age:has_entity",
+        "object": "wizard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "People_by_age:has_person",
+        "object": "boy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Being_born:has_time",
+        "object": "31 July 1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_theme",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "Lord Voldemort",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Forbes",
+        "predicate": "Appointing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Age:has_age",
+        "object": "young",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Forbes",
+        "predicate": "Appointing:has_time",
+        "object": "2008",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Judgment:has_reason",
+        "object": "her work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Death:has_theme",
+        "object": "her mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Forming_relationships:has_theme",
+        "object": "her first husband",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Causation:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+        "predicate": "Process_end:has_time",
+        "object": "2007",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Inclusion:has_theme",
+        "object": "Its influences",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Existence:has_entity",
+        "object": "religious debates over the Harry Potter series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Subjective_influence:has_theme",
+        "object": "active fandom",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_theme",
+        "object": "fantasy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Being_born:has_time",
+        "object": "1990",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Categorization:has_theme",
+        "object": "some",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_theme",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Process_continue:has_event",
+        "object": "crime fiction series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Kinship:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_text",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "Many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Commerce_sell:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_time",
+        "object": "2007",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Getting:has_theme",
+        "object": "many accolades for her work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Giving_birth:has_child",
+        "object": "her first child",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Ordinal_numbers:has_theme",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Death:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Text_creation:has_text",
+        "object": "Cormoran Strike, an ongoing crime fiction series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "reviewers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Kinship:has_theme",
+        "object": "child",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Referring_by_name:has_entity",
+        "object": "boy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Giving_birth:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Political_locales:has_theme",
+        "object": "global",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Text:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Amalgamation:has_degree",
+        "object": "more",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Text:has_author",
+        "object": "Rowling's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Attending:has_event",
+        "object": "Hogwarts (a school for wizards )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Publishing:has_work",
+        "object": "first novel in the series, Harry Potter and the Philosopher's Stone",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Being_active:has_agent",
+        "object": "fandom",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Discussion:has_theme",
+        "object": "religious",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Forbes",
+        "predicate": "Appointing:has_role",
+        "object": "world's highest-paid author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Amalgamation:has_theme",
+        "object": "Critical reception",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Relative_time:has_time",
+        "object": "2007",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Duplication:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Commerce_sell:has_goods",
+        "object": "over 600 million copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Age:has_time",
+        "object": "1965",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Frequency:has_time",
+        "object": "1997",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+        "predicate": "Process_end:has_process",
+        "object": "Harry Potter and the Deathly Hallows (2007)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+        "predicate": "Causation:has_cause",
+        "object": "seven-year period that followed",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Categorization:has_item",
+        "object": "her portrayal of gender and social division",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+        "predicate": "Aggregate:has_theme",
+        "object": "host",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+        "predicate": "Text_creation:has_time",
+        "object": "2008",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_author",
+          "object": "British author and philanthropist (born 1965 ) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text_creation:has_author",
+          "object": "British author and philanthropist (born 1965) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Forbes",
+          "predicate": "Appointing:has_role",
+          "object": "world's highest-paid author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Being_born:has_location",
+          "object": "Yate, Gloucestershire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Causation:has_effect",
+          "object": "death of her mother, the birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Being_named:has_entity",
+          "object": "Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Being_born:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Being_born:has_time",
+          "object": "31 July 1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Death:has_theme",
+          "object": "her mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Being_born:has_time",
+          "object": "1990",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Process_continue:has_event",
+          "object": "crime fiction series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Death:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Attending:has_event",
+          "object": "Hogwarts (a school for wizards )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+          "predicate": "Process_end:has_process",
+          "object": "Harry Potter and the Deathly Hallows (2007)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Publishing:has_work",
+          "object": "fantasy novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Text:has_text",
+          "object": "writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Categorization:has_item",
+          "object": "Rowling's writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_text",
+          "object": "novelist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_theme",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_text",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Publishing:has_work",
+          "object": "first novel in the series, Harry Potter and the Philosopher's Stone",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Being_named:has_theme",
+          "object": "J. K. Rowling",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Aggregate:has_theme",
+          "object": "imitators",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Categorization:has_category",
+          "object": "as conventional",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Publishing:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Cause_to_resume:has_process",
+          "object": "fantasy as a genre in the children's market",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Being_named:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Calluna",
+          "predicate": "Translating:has_theme",
+          "object": "into 84 languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text_creation:has_text",
+          "object": "Harry Potter, a seven-volume series about a young wizard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Part_inner_outer:has_theme",
+          "object": "themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Frequency:has_theme",
+          "object": "languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Inclusion:has_theme",
+          "object": "films and video games",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Forming_relationships:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text_creation:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Part_inner_outer:has_theme",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_theme",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_theme",
+          "object": "Six sequels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_Kingdom",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Cause_to_resume:has_cause",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Inclusion:has_theme",
+          "object": "global media franchise",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Frequency:has_theme",
+          "object": "period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Text_creation:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Categorization:has_theme",
+          "object": "Many reviewers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Individual_history:has_theme",
+          "object": "history",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Categorization:has_category",
+          "object": "as regressive",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Discussion:has_theme",
+          "object": "over the Harry Potter series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Publishing:has_time",
+          "object": "1997 to 2007",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Giving_birth:has_theme",
+          "object": "host of imitators",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Duplication:has_theme",
+          "object": "copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Inclusion:has_theme",
+          "object": "Bildungsroman ( the coming-of-age genre ), school stories, fairy tales, and Christian allegory",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_text",
+          "object": "sequels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_theme",
+          "object": "boy called Harry Potter as he attends Hogwarts ( a school for wizards ), and battles Lord Voldemort",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "accolades",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "husband",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Giving_birth:has_mother",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Individual_history:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "wizards",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Age:has_entity",
+          "object": "wizard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "People_by_age:has_person",
+          "object": "boy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_theme",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "Lord Voldemort",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Forbes",
+          "predicate": "Appointing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Age:has_age",
+          "object": "young",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Forbes",
+          "predicate": "Appointing:has_time",
+          "object": "2008",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Judgment:has_reason",
+          "object": "her work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Forming_relationships:has_theme",
+          "object": "her first husband",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Causation:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+          "predicate": "Process_end:has_time",
+          "object": "2007",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Inclusion:has_theme",
+          "object": "Its influences",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Existence:has_entity",
+          "object": "religious debates over the Harry Potter series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Subjective_influence:has_theme",
+          "object": "active fandom",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_theme",
+          "object": "fantasy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Categorization:has_theme",
+          "object": "some",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Kinship:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "Many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Commerce_sell:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Text:has_time",
+          "object": "2007",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Getting:has_theme",
+          "object": "many accolades for her work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Giving_birth:has_child",
+          "object": "her first child",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Ordinal_numbers:has_theme",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Text_creation:has_text",
+          "object": "Cormoran Strike, an ongoing crime fiction series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "reviewers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Kinship:has_theme",
+          "object": "child",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Referring_by_name:has_entity",
+          "object": "boy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Giving_birth:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Political_locales:has_theme",
+          "object": "global",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Text:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Amalgamation:has_degree",
+          "object": "more",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Text:has_author",
+          "object": "Rowling's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Being_active:has_agent",
+          "object": "fandom",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Discussion:has_theme",
+          "object": "religious",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Amalgamation:has_theme",
+          "object": "Critical reception",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Relative_time:has_time",
+          "object": "2007",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Duplication:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Commerce_sell:has_goods",
+          "object": "over 600 million copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Age:has_time",
+          "object": "1965",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Frequency:has_time",
+          "object": "1997",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Harry_Potter",
+          "predicate": "Causation:has_cause",
+          "object": "seven-year period that followed",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Categorization:has_item",
+          "object": "her portrayal of gender and social division",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Amnesty_International",
+          "predicate": "Aggregate:has_theme",
+          "object": "host",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._K._Rowling",
+          "predicate": "Text_creation:has_time",
+          "object": "2008",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Calluna",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Forbes",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Forbes",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Forbes",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "http://en.wikipedia.org/wiki/J._K._Rowling"
+    ],
+    "objects": [
+      "1997",
+      "J. K. Rowling",
+      "novel",
+      "novels",
+      "imitators",
+      "as conventional",
+      "novel",
+      "1997",
+      "1997",
+      "1997",
+      "fantasy as a genre in the children's market",
+      "Yate, Gloucestershire",
+      "British author and philanthropist (born 1965 ) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "1965",
+      "into 84 languages",
+      "Harry Potter, a seven-volume series about a young wizard",
+      "themes",
+      "languages",
+      "films and video games",
+      "many",
+      "fantasy novels",
+      "1997",
+      "1965",
+      "series",
+      "British author and philanthropist (born 1965) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "writing",
+      "school",
+      "1965",
+      "that",
+      "Six sequels",
+      "Rowling's writing",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "series",
+      "global media franchise",
+      "period",
+      "1965",
+      "mother",
+      "Many reviewers",
+      "history",
+      "as regressive",
+      "over the Harry Potter series",
+      "1997 to 2007",
+      "novelist",
+      "death of her mother, the birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997",
+      "host of imitators",
+      "copies",
+      "Bildungsroman ( the coming-of-age genre ), school stories, fairy tales, and Christian allegory",
+      "Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965)",
+      "1965",
+      "sequels",
+      "boy called Harry Potter as he attends Hogwarts ( a school for wizards ), and battles Lord Voldemort",
+      "accolades",
+      "husband",
+      "series",
+      "1997",
+      "wizards",
+      "wizard",
+      "boy",
+      "31 July 1965",
+      "series",
+      "Lord Voldemort",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "young",
+      "2008",
+      "her work",
+      "her mother",
+      "her first husband",
+      "1997",
+      "2007",
+      "Its influences",
+      "religious debates over the Harry Potter series",
+      "active fandom",
+      "fantasy",
+      "1990",
+      "some",
+      "novels",
+      "crime fiction series",
+      "1997",
+      "book",
+      "Many",
+      "1997",
+      "2007",
+      "many accolades for her work",
+      "her first child",
+      "series",
+      "1997",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "Cormoran Strike, an ongoing crime fiction series",
+      "reviewers",
+      "child",
+      "boy",
+      "1997",
+      "global",
+      "1997",
+      "more",
+      "Rowling's",
+      "1997",
+      "Hogwarts (a school for wizards )",
+      "first novel in the series, Harry Potter and the Philosopher's Stone",
+      "series",
+      "fandom",
+      "religious",
+      "world's highest-paid author",
+      "Critical reception",
+      "novels",
+      "2007",
+      "1997",
+      "over 600 million copies",
+      "1965",
+      "1997",
+      "Harry Potter and the Deathly Hallows (2007)",
+      "seven-year period that followed",
+      "her portrayal of gender and social division",
+      "host",
+      "2008"
+    ],
+    "all_unique": [
+      "death of her mother, the birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997",
+      "that",
+      "http://en.wikipedia.org/wiki/Harry_Potter",
+      "1997 to 2007",
+      "languages",
+      "Critical reception",
+      "husband",
+      "British author and philanthropist (born 1965 ) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "http://en.wikipedia.org/wiki/Calluna",
+      "Rowling's writing",
+      "wizards",
+      "period",
+      "fandom",
+      "Cormoran Strike, an ongoing crime fiction series",
+      "1990",
+      "31 July 1965",
+      "1965",
+      "over the Harry Potter series",
+      "first novel in the series, Harry Potter and the Philosopher's Stone",
+      "host of imitators",
+      "Harry Potter and the Deathly Hallows (2007)",
+      "mother",
+      "Lord Voldemort",
+      "more",
+      "novels",
+      "host",
+      "school",
+      "boy",
+      "http://en.wikipedia.org/wiki/Forbes",
+      "Six sequels",
+      "many",
+      "Harry Potter, a seven-volume series about a young wizard",
+      "Many reviewers",
+      "Yate, Gloucestershire",
+      "child",
+      "fantasy",
+      "her mother",
+      "Hogwarts (a school for wizards )",
+      "world's highest-paid author",
+      "films and video games",
+      "copies",
+      "Rowling's",
+      "writing",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "imitators",
+      "history",
+      "her work",
+      "Many",
+      "J. K. Rowling",
+      "reviewers",
+      "boy called Harry Potter as he attends Hogwarts ( a school for wizards ), and battles Lord Voldemort",
+      "series",
+      "British author and philanthropist (born 1965) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "her portrayal of gender and social division",
+      "fantasy novels",
+      "global",
+      "global media franchise",
+      "sequels",
+      "young",
+      "2007",
+      "active fandom",
+      "themes",
+      "Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965)",
+      "as conventional",
+      "Its influences",
+      "2008",
+      "http://en.wikipedia.org/wiki/J._K._Rowling",
+      "http://en.wikipedia.org/wiki/Amnesty_International",
+      "as regressive",
+      "wizard",
+      "fantasy as a genre in the children's market",
+      "http://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+      "1997",
+      "her first husband",
+      "her first child",
+      "accolades",
+      "religious debates over the Harry Potter series",
+      "novelist",
+      "over 600 million copies",
+      "some",
+      "crime fiction series",
+      "religious",
+      "many accolades for her work",
+      "seven-year period that followed",
+      "Bildungsroman ( the coming-of-age genre ), school stories, fairy tales, and Christian allegory",
+      "novel",
+      "into 84 languages",
+      "book"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text:has_time",
+      "Being_named:has_theme",
+      "Text:has_text",
+      "Text:has_text",
+      "Aggregate:has_theme",
+      "Categorization:has_category",
+      "Ordinal_numbers:has_type",
+      "Publishing:has_time",
+      "Personal_relationship:has_time",
+      "Ordinal_numbers:has_time",
+      "Cause_to_resume:has_process",
+      "Being_born:has_location",
+      "Text:has_author",
+      "Being_named:has_time",
+      "Translating:has_theme",
+      "Text_creation:has_text",
+      "Part_inner_outer:has_theme",
+      "Frequency:has_theme",
+      "Inclusion:has_theme",
+      "Quantified_mass:has_quantity",
+      "Publishing:has_work",
+      "Forming_relationships:has_time",
+      "Text_creation:has_time",
+      "Part_inner_outer:has_theme",
+      "Text_creation:has_author",
+      "Text:has_text",
+      "Locale_by_use:has_theme",
+      "Text:has_time",
+      "Relative_time:has_theme",
+      "Relative_time:has_theme",
+      "Categorization:has_item",
+      "Text:has_location",
+      "Cause_to_resume:has_cause",
+      "Inclusion:has_theme",
+      "Frequency:has_theme",
+      "Text_creation:has_time",
+      "Kinship:has_theme",
+      "Categorization:has_theme",
+      "Individual_history:has_theme",
+      "Categorization:has_category",
+      "Discussion:has_theme",
+      "Publishing:has_time",
+      "Text:has_text",
+      "Causation:has_effect",
+      "Giving_birth:has_theme",
+      "Duplication:has_theme",
+      "Inclusion:has_theme",
+      "Being_named:has_entity",
+      "Being_born:has_time",
+      "Text:has_text",
+      "Relative_time:has_theme",
+      "Quantified_mass:has_theme",
+      "Personal_relationship:has_theme",
+      "Giving_birth:has_mother",
+      "Individual_history:has_time",
+      "Locale_by_use:has_theme",
+      "Age:has_entity",
+      "People_by_age:has_person",
+      "Being_born:has_time",
+      "Text:has_theme",
+      "Hostile_encounter:has_theme",
+      "Appointing:has_theme",
+      "Age:has_age",
+      "Appointing:has_time",
+      "Judgment:has_reason",
+      "Death:has_theme",
+      "Forming_relationships:has_theme",
+      "Causation:has_time",
+      "Process_end:has_time",
+      "Inclusion:has_theme",
+      "Existence:has_entity",
+      "Subjective_influence:has_theme",
+      "Text:has_theme",
+      "Being_born:has_time",
+      "Categorization:has_theme",
+      "Relative_time:has_theme",
+      "Process_continue:has_event",
+      "Kinship:has_time",
+      "Text:has_text",
+      "Quantified_mass:has_quantity",
+      "Commerce_sell:has_time",
+      "Text:has_time",
+      "Getting:has_theme",
+      "Giving_birth:has_child",
+      "Ordinal_numbers:has_theme",
+      "Death:has_time",
+      "Hostile_encounter:has_theme",
+      "Text_creation:has_text",
+      "Quantified_mass:has_theme",
+      "Kinship:has_theme",
+      "Referring_by_name:has_entity",
+      "Giving_birth:has_time",
+      "Political_locales:has_theme",
+      "Text:has_time",
+      "Amalgamation:has_degree",
+      "Text:has_author",
+      "Relative_time:has_time",
+      "Attending:has_event",
+      "Publishing:has_work",
+      "Subjective_influence:has_entity",
+      "Being_active:has_agent",
+      "Discussion:has_theme",
+      "Appointing:has_role",
+      "Amalgamation:has_theme",
+      "Text:has_text",
+      "Relative_time:has_time",
+      "Duplication:has_time",
+      "Commerce_sell:has_goods",
+      "Age:has_time",
+      "Frequency:has_time",
+      "Process_end:has_process",
+      "Causation:has_cause",
+      "Categorization:has_item",
+      "Aggregate:has_theme",
+      "Text_creation:has_time"
+    ],
+    "unique_predicates": [
+      "Ordinal_numbers:has_theme",
+      "Individual_history:has_theme",
+      "Forming_relationships:has_time",
+      "Age:has_entity",
+      "Appointing:has_role",
+      "Personal_relationship:has_time",
+      "Attending:has_event",
+      "Translating:has_theme",
+      "Causation:has_effect",
+      "Giving_birth:has_mother",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Ordinal_numbers:has_time",
+      "Causation:has_cause",
+      "Appointing:has_theme",
+      "Categorization:has_item",
+      "Text:has_theme",
+      "Duplication:has_time",
+      "Being_named:has_time",
+      "Commerce_sell:has_time",
+      "Aggregate:has_theme",
+      "Appointing:has_time",
+      "Being_active:has_agent",
+      "Giving_birth:has_theme",
+      "Cause_to_resume:has_cause",
+      "Being_named:has_entity",
+      "Discussion:has_theme",
+      "Process_continue:has_event",
+      "Text:has_text",
+      "Process_end:has_time",
+      "Ordinal_numbers:has_type",
+      "Quantified_mass:has_quantity",
+      "People_by_age:has_person",
+      "Subjective_influence:has_theme",
+      "Age:has_time",
+      "Existence:has_entity",
+      "Locale_by_use:has_theme",
+      "Giving_birth:has_time",
+      "Publishing:has_work",
+      "Kinship:has_time",
+      "Frequency:has_theme",
+      "Being_named:has_theme",
+      "Death:has_theme",
+      "Publishing:has_time",
+      "Getting:has_theme",
+      "Being_born:has_location",
+      "Amalgamation:has_theme",
+      "Categorization:has_category",
+      "Individual_history:has_time",
+      "Text_creation:has_text",
+      "Being_born:has_time",
+      "Part_inner_outer:has_theme",
+      "Frequency:has_time",
+      "Referring_by_name:has_entity",
+      "Death:has_time",
+      "Personal_relationship:has_theme",
+      "Causation:has_time",
+      "Age:has_age",
+      "Text:has_location",
+      "Process_end:has_process",
+      "Amalgamation:has_degree",
+      "Judgment:has_reason",
+      "Giving_birth:has_child",
+      "Forming_relationships:has_theme",
+      "Relative_time:has_time",
+      "Text_creation:has_time",
+      "Duplication:has_theme",
+      "Text_creation:has_author",
+      "Text:has_author",
+      "Quantified_mass:has_theme",
+      "Hostile_encounter:has_theme",
+      "Political_locales:has_theme",
+      "Inclusion:has_theme",
+      "Commerce_sell:has_goods",
+      "Categorization:has_theme",
+      "Cause_to_resume:has_process",
+      "Subjective_influence:has_entity",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Text:has_time": 4,
+      "Being_named:has_theme": 1,
+      "Text:has_text": 7,
+      "Aggregate:has_theme": 2,
+      "Categorization:has_category": 2,
+      "Ordinal_numbers:has_type": 1,
+      "Publishing:has_time": 2,
+      "Personal_relationship:has_time": 1,
+      "Ordinal_numbers:has_time": 1,
+      "Cause_to_resume:has_process": 1,
+      "Being_born:has_location": 1,
+      "Text:has_author": 2,
+      "Being_named:has_time": 1,
+      "Translating:has_theme": 1,
+      "Text_creation:has_text": 2,
+      "Part_inner_outer:has_theme": 2,
+      "Frequency:has_theme": 2,
+      "Inclusion:has_theme": 4,
+      "Quantified_mass:has_quantity": 2,
+      "Publishing:has_work": 2,
+      "Forming_relationships:has_time": 1,
+      "Text_creation:has_time": 3,
+      "Text_creation:has_author": 1,
+      "Locale_by_use:has_theme": 2,
+      "Relative_time:has_theme": 4,
+      "Categorization:has_item": 2,
+      "Text:has_location": 1,
+      "Cause_to_resume:has_cause": 1,
+      "Kinship:has_theme": 2,
+      "Categorization:has_theme": 2,
+      "Individual_history:has_theme": 1,
+      "Discussion:has_theme": 2,
+      "Causation:has_effect": 1,
+      "Giving_birth:has_theme": 1,
+      "Duplication:has_theme": 1,
+      "Being_named:has_entity": 1,
+      "Being_born:has_time": 3,
+      "Quantified_mass:has_theme": 2,
+      "Personal_relationship:has_theme": 1,
+      "Giving_birth:has_mother": 1,
+      "Individual_history:has_time": 1,
+      "Age:has_entity": 1,
+      "People_by_age:has_person": 1,
+      "Text:has_theme": 2,
+      "Hostile_encounter:has_theme": 2,
+      "Appointing:has_theme": 1,
+      "Age:has_age": 1,
+      "Appointing:has_time": 1,
+      "Judgment:has_reason": 1,
+      "Death:has_theme": 1,
+      "Forming_relationships:has_theme": 1,
+      "Causation:has_time": 1,
+      "Process_end:has_time": 1,
+      "Existence:has_entity": 1,
+      "Subjective_influence:has_theme": 1,
+      "Process_continue:has_event": 1,
+      "Kinship:has_time": 1,
+      "Commerce_sell:has_time": 1,
+      "Getting:has_theme": 1,
+      "Giving_birth:has_child": 1,
+      "Ordinal_numbers:has_theme": 1,
+      "Death:has_time": 1,
+      "Referring_by_name:has_entity": 1,
+      "Giving_birth:has_time": 1,
+      "Political_locales:has_theme": 1,
+      "Amalgamation:has_degree": 1,
+      "Relative_time:has_time": 2,
+      "Attending:has_event": 1,
+      "Subjective_influence:has_entity": 1,
+      "Being_active:has_agent": 1,
+      "Appointing:has_role": 1,
+      "Amalgamation:has_theme": 1,
+      "Duplication:has_time": 1,
+      "Commerce_sell:has_goods": 1,
+      "Age:has_time": 1,
+      "Frequency:has_time": 1,
+      "Process_end:has_process": 1,
+      "Causation:has_cause": 1
+    }
+  }
+}

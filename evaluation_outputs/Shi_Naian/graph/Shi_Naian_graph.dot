@@ -1,0 +1,298 @@
+digraph Shi_Naian {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "edition of the novel" [label="edition of the novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Four Great Classical Novels" [label="Four Great Classical Novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Classic Chinese Novels" [label="Classic Chinese Novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Three Kingdoms" [label="Three Kingdoms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few" [label="few", fillcolor=lightgray, color=gray, shape=hexagon];
+    "little" [label="little", fillcolor=lightgray, color=gray, shape=hexagon];
+    "memorial tablet bearing Shi..." [label="memorial tablet bearing Shi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Xinghua county, Jiangsu" [label="Xinghua county, Jiangsu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Yuan dynasty" [label="Yuan dynasty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his biography" [label="his biography", fillcolor=lightgray, color=gray, shape=hexagon];
+    "chief investigator" [label="chief investigator", fillcolor=lightgray, color=gray, shape=hexagon];
+    "researches" [label="researches", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Guanzhong" [label="Luo Guanzhong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "team" [label="team", fillcolor=lightgray, color=gray, shape=hexagon];
+    "team of researches" [label="team of researches", fillcolor=lightgray, color=gray, shape=hexagon];
+    "investigate" [label="investigate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "have been invented by compo..." [label="have been invented by compo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shi Nai'an" [label="Shi Nai'an", fillcolor=lightgray, color=gray, shape=hexagon];
+    "conclusive end" [label="conclusive end", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the debate over the ex..." [label="that the debate over the ex...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "end" [label="end", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whether either Luo or Shi, ..." [label="whether either Luo or Shi, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romance of the Three Kingdo..." [label="Romance of the Three Kingdo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "never" [label="never", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Late Ming and early Qing sc..." [label="Late Ming and early Qing sc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "near the end of the Yuan dy..." [label="near the end of the Yuan dy...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that in any case, we will n..." [label="that in any case, we will n...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Luo Guanzhong, the editor o..." [label="Luo Guanzhong, the editor o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Xinghua, Jiangsu" [label="Xinghua, Jiangsu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his honour" [label="his honour", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "identity" [label="identity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "determine whether either Lu..." [label="determine whether either Lu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shuihu zhuan  Water Margin ..." [label="Shuihu zhuan  Water Margin ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citations" [label="citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "either Luo or Shi" [label="either Luo or Shi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lu Xun" [label="Lu Xun", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sources for his biography" [label="sources for his biography", fillcolor=lightgray, color=gray, shape=hexagon];
+    "compilation of Water Margin" [label="compilation of Water Margin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "additional citations" [label="additional citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lu state" [label="Lu state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lu" [label="Lu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Shi lived near the end..." [label="that Shi lived near the end...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early 20th century" [label="early 20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reliable sources for his bi..." [label="reliable sources for his bi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hangzhou" [label="Hangzhou", fillcolor=lightgray, color=gray, shape=hexagon];
+    "investigator" [label="investigator", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gé Korsten" [label="Gé Korsten", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name "Shi Nai'an " [label="name "Shi Nai'an ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edition" [label="edition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World War II" [label="World War II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholar Ge Liangyan" [label="scholar Ge Liangyan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few reliable sources for hi..." [label="few reliable sources for hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sources" [label="sources", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over the existence of Shi" [label="over the existence of Shi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shi's" [label="Shi's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that little is known about ..." [label="that little is known about ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Little" [label="Little", fillcolor=lightgray, color=gray, shape=hexagon];
+    "debate over the existence o..." [label="debate over the existence o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "genealogy" [label="genealogy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ge Liangyan" [label="Ge Liangyan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "composers of a later editio..." [label="composers of a later editio...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "case" [label="case", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the genealogy was auth..." [label="that the genealogy was auth...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "recent Chinese scholar Ge L..." [label="recent Chinese scholar Ge L...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the name "Shi Nai'an "..." [label="that the name "Shi Nai'an "...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "memorial tablet" [label="memorial tablet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Evidence in a family genealogy" [label="Evidence in a family genealogy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be there" [label="be there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that he was a teacher of Lu..." [label="that he was a teacher of Lu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shi's name" [label="Shi's name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reliable" [label="reliable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chinese language" [label="Chinese language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shortly" [label="Shortly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Not even the faintest vesti..." [label="Not even the faintest vesti...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "affirm his identity" [label="affirm his identity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early 20th century scholar ..." [label="early 20th century scholar ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1950s" [label="1950s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholar" [label="scholar", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Three Kingdoms" -> "Romance of the Three Kingdo..." [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Lu Xun" -> "name "Shi Nai'an " [label="has theme [Achieving_first]", color=lightcoral, penwidth=1];
+    "Gé Korsten" -> "that the debate over the ex..." [label="has theme [Coming_to_believe]", color=lightgreen, penwidth=1];
+    "Xinghua, Jiangsu" -> "investigate" [label="has purpose [Sending]", color=lightyellow, penwidth=1];
+    "Shi Nai'an" -> "reliable" [label="has theme [Source_of_getting]", color=lightpink, penwidth=1];
+    "Shi Nai'an" -> "debate over the existence o..." [label="has cause [Causation]", color=lightcyan, penwidth=1];
+    "Chinese language" -> "writer" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Three Kingdoms" -> "that Shi lived near the end..." [label="has message [Statement]", color=lightgray, penwidth=1];
+    "Lu Xun" -> "20th century" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "Shi Nai'an" -> "Xinghua, Jiangsu" [label="has location [Being_named]", color=green, penwidth=2];
+    "Chinese language" -> "name" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Lu Xun" -> "novel" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Gé Korsten" -> "Ge Liangyan" [label="has theme [Coming_to_believe]", color=lightgreen, penwidth=1];
+    "Shi Nai'an" -> "Xinghua, Jiangsu" [label="has location [Being_born]", color=green, penwidth=2];
+    "Classic Chinese Novels" -> "Four Great Classical Novels" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "World War II" -> "Xinghua county, Jiangsu" [label="has location [Locating]", color=green, penwidth=2];
+    "Lu Xun" -> "scholar" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Xinghua, Jiangsu" -> "team" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "World War II" -> "Not even the faintest vesti..." [label="has theme [Becoming_aware]", color=lightcoral, penwidth=1];
+    "World War II" -> "be there" [label="has state [Becoming_aware]", color=lightcoral, penwidth=1];
+    "Lu Xun" -> "early 20th century scholar ..." [label="has theme [Opinion]", color=lightgreen, penwidth=1];
+    "Shi Nai'an" -> "Hangzhou" [label="has theme [Indigenous_origin]", color=lightyellow, penwidth=1];
+    "World War II" -> "World War II" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "World War II" -> "memorial tablet bearing Shi..." [label="has theme [Locating]", color=lightsteelblue, penwidth=1];
+    "Shi Nai'an" -> "sources for his biography" [label="has information [Trust]", color=lightcyan, penwidth=1];
+    "World War II" -> "investigator" [label="has item [First_rank]", color=lightsteelblue, penwidth=1];
+    "Three Kingdoms" -> "Late Ming and early Qing sc..." [label="has speaker [Statement]", color=lightgray, penwidth=1];
+    "Three Kingdoms" -> "that" [label="has issue [Taking_sides]", color=lightgray, penwidth=1];
+    "World War II" -> "chief investigator" [label="has speaker [Statement]", color=lightgray, penwidth=1];
+    "World War II" -> "debate over the existence o..." [label="has process [Process_end]", color=lightgoldenrodyellow, penwidth=1];
+    "Chinese language" -> "recent Chinese scholar Ge L..." [label="has speaker [Statement]", color=lightgray, penwidth=1];
+    "Lu Xun" -> "that the name "Shi Nai'an "..." [label="has opinion [Opinion]", color=lightgreen, penwidth=1];
+    "Lu Xun" -> "novel" [label="has theme [Text]", color=lightsalmon, penwidth=1];
+    "Three Kingdoms" -> "Shi Nai'an" [label="has teacher [Education_teaching]", color=lightseagreen, penwidth=1];
+    "Shi Nai'an" -> "Shi's" [label="has entity [Being_named]", color=lightseagreen, penwidth=1];
+    "Lu state" -> "Lu" [label="has entity [Existence]", color=lightsalmon, penwidth=1];
+    "World War II" -> "Evidence in a family genealogy" [label="has theme [Give_impression]", color=lightgoldenrod, penwidth=1];
+    "Xinghua, Jiangsu" -> "team of researches" [label="has theme [Sending]", color=lightyellow, penwidth=1];
+    "Shi Nai'an" -> "family" [label="has entity [Being_named]", color=lightseagreen, penwidth=1];
+    "Classic Chinese Novels" -> "Shuihu zhuan  Water Margin ..." [label="has evaluee [Judgment]", color=lightpink, penwidth=1];
+    "Three Kingdoms" -> "Luo Guanzhong" [label="has theme [Awareness]", color=lightsteelblue, penwidth=1];
+    "Chinese language" -> "that little is known about ..." [label="has message [Statement]", color=lightgray, penwidth=1];
+    "Shi Nai'an" -> "Shi's name" [label="has person [Being_born]", color=red, penwidth=2];
+    "Shi Nai'an" -> "few reliable sources for hi..." [label="has entity [Existence]", color=lightsalmon, penwidth=1];
+    "Lu Xun" -> "composers of a later editio..." [label="has theme [Achieving_first]", color=lightcoral, penwidth=1];
+    "World War II" -> "his honour" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Shi Nai'an" -> "sources" [label="has theme [Source_of_getting]", color=lightpink, penwidth=1];
+    "Classic Chinese Novels" -> "Four Great Classical Novels" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Shi Nai'an" -> "few" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "Shi Nai'an" -> "literary" [label="has theme [Intentionally_act]", color=lightcoral, penwidth=1];
+    "World War II" -> "affirm his identity" [label="has theme [Give_impression]", color=lightgoldenrod, penwidth=1];
+    "Three Kingdoms" -> "end" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "Shi Nai'an" -> "conclusive end" [label="has effect [Causation]", color=lightcyan, penwidth=1];
+    "Lu Xun" -> "early 20th century" [label="has theme [People_by_vocation]", color=lightcoral, penwidth=1];
+    "Lu Xun" -> "edition" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "World War II" -> "Not even the faintest vesti..." [label="has message [Statement]", color=lightgray, penwidth=1];
+    "Shi Nai'an" -> "name" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Three Kingdoms" -> "little" [label="has theme [Awareness]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "case" [label="has theme [Instance]", color=lightgreen, penwidth=1];
+    "Shi Nai'an" -> "Little" [label="has theme [Awareness]", color=lightsteelblue, penwidth=1];
+    "Three Kingdoms" -> "Yuan dynasty" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "Xinghua, Jiangsu" -> "early" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "Three Kingdoms" -> "Luo Guanzhong, the editor o..." [label="has institution [Education_teaching]", color=lightseagreen, penwidth=1];
+    "World War II" -> "genealogy" [label="has action [Legality]", color=lightyellow, penwidth=1];
+    "Three Kingdoms" -> "that he was a teacher of Lu..." [label="has theme [Certainty]", color=lightpink, penwidth=1];
+    "Xinghua, Jiangsu" -> "additional citations" [label="has theme [Being_necessary]", color=lightcyan, penwidth=1];
+    "World War II" -> "compilation of Water Margin" [label="has event [Participation]", color=lightsteelblue, penwidth=1];
+    "Lu Xun" -> "have been invented by compo..." [label="has theme [Likelihood]", color=lightgray, penwidth=1];
+    "Shi Nai'an" -> "never" [label="has time [Causation]", color=purple, penwidth=2];
+    "World War II" -> "family" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Three Kingdoms" -> "author" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "Shi Nai'an" -> "memorial tablet" [label="has theme [Being_born]", color=lightgoldenrod, penwidth=1];
+    "World War II" -> "Xinghua, Jiangsu" [label="has location [Time_vector]", color=green, penwidth=2];
+    "Classic Chinese Novels" -> "Shi Nai'an" [label="has reason [Judgment]", color=lightpink, penwidth=1];
+    "Xinghua, Jiangsu" -> "1950s" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "World War II" -> "Shortly" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Shi Nai'an" -> "Shi Nai'an" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Three Kingdoms" -> "that in any case, we will n..." [label="has message [Statement]", color=lightgray, penwidth=1];
+    "Shi Nai'an" -> "determine whether either Lu..." [label="has event [Capability]", color=lightseagreen, penwidth=1];
+    "World War II" -> "that the genealogy was auth..." [label="has theme [Obviousness]", color=lightsalmon, penwidth=1];
+    "Shi Nai'an" -> "near the end of the Yuan dy..." [label="has time [Residence]", color=purple, penwidth=2];
+    "Shi Nai'an" -> "his biography" [label="has theme [Source_of_getting]", color=lightpink, penwidth=1];
+    "Xinghua, Jiangsu" -> "researches" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Lu Xun" -> "edition of the novel" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Xinghua, Jiangsu" -> "researches" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "Shi Nai'an" -> "whether either Luo or Shi, ..." [label="has theme [Contingency]", color=lightsteelblue, penwidth=1];
+    "Classic Chinese Novels" -> "one" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Xinghua, Jiangsu" -> "team of researches" [label="has theme [Scrutiny]", color=lightcoral, penwidth=1];
+    "World War II" -> "over the existence of Shi" [label="has theme [Discussion]", color=lightblue, penwidth=1];
+    "World War II" -> "identity" [label="has type [Identicality]", color=lightcoral, penwidth=1];
+    "Three Kingdoms" -> "Late Ming and early Qing sc..." [label="has theme [Taking_sides]", color=lightgray, penwidth=1];
+    "Shi Nai'an" -> "reliable sources for his bi..." [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "World War II" -> "memorial tablet bearing Shi..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Chinese language" -> "scholar Ge Liangyan" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Xinghua, Jiangsu" -> "citations" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "World War II" -> "either Luo or Shi" [label="has theme [Participation]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Achieving_first_legend" [label="Achieving_first", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Coming_to_believe_legend" [label="Coming_to_believe", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Sending_legend" [label="Sending", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Indigenous_origin_legend" [label="Indigenous_origin", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Trust_legend" [label="Trust", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Taking_sides_legend" [label="Taking_sides", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Process_end_legend" [label="Process_end", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Instance_legend" [label="Instance", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Legality_legend" [label="Legality", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Certainty_legend" [label="Certainty", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Participation_legend" [label="Participation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Obviousness_legend" [label="Obviousness", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Contingency_legend" [label="Contingency", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

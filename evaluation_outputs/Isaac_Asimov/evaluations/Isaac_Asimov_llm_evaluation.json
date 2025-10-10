@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Fame:has_degree most",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not correspond to any information in the paragraph. The Hugo Award is mentioned as being won, but the predicate 'Fame:has_degree most' does not relate to any described event or relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Accompaniment:has_theme Robert A. Heinlein and Arthur C. Clarke",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Asimov was part of the 'Big Three' science fiction writers along with Heinlein and Clarke. The 'Accompaniment:has_theme' predicate can be loosely interpreted as a relationship of association or shared context, which is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Individual_history:has_participant his works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the Hugo Award was won by Asimov's Foundation series. This can be interpreted as the award ('Hugo_Award') having a participant ('his works'), even if the phrasing is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Text_creation:has_means using the pen name Paul French",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Asimov wrote the Lucky Starr series... using the pen name Paul French.' This directly supports the triple's meaning that a means of text creation (a pen name) was used."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Temporal_subregion:has_theme earlier",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'earlier' appears in the paragraph in the context of the Galactic Empire novels being set earlier than the Foundation series. This is completely unrelated to the Hugo Award, and the triple does not form a coherent statement extractable from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University People_by_vocation:has_type biochemistry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Asimov was a 'professor of biochemistry at Boston University', establishing a clear semantic link between Boston University and the field of biochemistry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Categorization:has_time During his lifetime",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'During his lifetime' is directly quoted from the paragraph, providing a clear temporal context for Asimov's career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/LeBron_James Cardinal_numbers:has_theme one",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "LeBron James is not mentioned in the paragraph at all, and there is no semantic connection to the content about Isaac Asimov."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Origin:has_time 1920",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the paragraph mentions 1920 as Asimov's birth year and his association with Boston University, the connection between the university's origin and 1920 is very weak and indirect, but a lenient interpretation allows for a semantic link through Asimov's biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Foundation_series Identicality:has_type fictional universe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states the Foundation series is set in a 'fictional universe' and links it to his other series, creating a unified 'future history'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Instance:has_theme Examples",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the Hugo Award in the context of Asimov's work ('won the one-time Hugo Award'), and the paragraph is full of examples of his work (Foundation series, Robot series, etc.). While the connection is indirect, the award is associated with his thematic works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Inclusion:has_theme social science fiction novelette \" Nightfall \"",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that 'Nightfall' was voted the best story by the Science Fiction Writers of America, not that it won a Hugo Award. The Hugo Award mentioned in the paragraph is for the Foundation series. This triple incorrectly attributes the award to 'Nightfall'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The Hugo Award is mentioned, and the paragraph extensively discusses Asimov's stories (over 380 short stories). The connection is weak and indirect, but the semantic link between the award and the theme of 'stories' is reasonably extractable given the lenient guidelines."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Expertise:has_theme writer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Arthur C. Clarke is explicitly mentioned as one of the 'Big Three' science fiction writers. The theme of being a writer is directly associated with him in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Text_creation:has_text estimated 90,000 letters and postcards",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text directly states 'He also wrote an estimated 90,000 letters and postcards,' which is a clear instance of text creation by Isaac Asimov."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Text:has_time 1964",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Nightfall' was voted the best short science fiction story in 1964. While the Hugo Award is not explicitly named, the Hugo Awards are the most prominent awards in science fiction, and the context of 'voted the best' by the Science Fiction Writers of America strongly implies a Hugo Award connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Range:has_event future",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Asimov's works creating a 'unified future history'. The Hugo Award is associated with science fiction, a genre often concerned with the future. This is a very weak and indirect semantic link based on genre themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Creating:has_time 1986",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'with Foundation and Earth (1986), he linked this distant future to the Robot series'. This directly connects Asimov to a creation event in 1986."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Text_creation:has_text science fiction",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Arthur C. Clarke is mentioned as one of the 'Big Three' science fiction writers. This strongly implies his involvement in the creation of science fiction texts, even if specific titles are not listed for him in this paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Text:has_text letters",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states that Isaac Asimov 'wrote an estimated 90,000 letters and postcards'. There is no mention of Arthur C. Clarke writing letters; the information is attributed to the wrong subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Galactic_Empire_(Isaac_Asimov) Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'The Galactic Empire novels are set in...'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Text_creation:has_time mid-1950s",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Hugo Award is mentioned in context of 1966, while mid-1950s refers to different books (The Caves of Steel and The Naked Sun) with no direct connection to the award"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Importance:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hugo Award was given to Asimov's Foundation series works, creating a semantic connection between the award and his works"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Make_cognitive_connection:has_theme this distant future",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states Asimov 'linked this distant future to the Robot series', showing he made connections involving this theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Text_creation:has_text mysteries and fantasy, as well as popular science and other non-fiction",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'Asimov also wrote mysteries and fantasy, as well as popular science and other non-fiction'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Creating:has_theme unified \" future history \" for his works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'he linked this distant future to the Robot series, creating a unified \"future history\" for his works'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Importance:has_theme series",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hugo Award is mentioned in context of the Foundation series winning an award, and series is a major theme throughout the paragraph about Asimov's work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Origin:has_entity writer",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Boston University is mentioned as where Asimov was a professor, and Asimov is clearly identified as a writer throughout the paragraph"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Temporal_collocation:has_theme his lifetime",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Arthur C. Clarke is mentioned as one of the 'Big Three' science fiction writers alongside Asimov during his lifetime"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Text:has_text books",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "While Arthur C. Clarke is mentioned and books are extensively discussed in relation to Asimov's work, the connection between Clarke and books is indirect through the context of science fiction writing"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically incomplete and semantically unclear. The phrase 'has_class uses' does not correspond to any concept or relationship mentioned in the paragraph about Isaac Asimov."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Ordinal_numbers:has_type three books of which",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the first three books of the Foundation series won a Hugo Award. There is a semantic connection between the Hugo Award and the concept of 'three books' (an ordinal quantity), though the specific relationship 'has_type' is not explicitly defined."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Range:has_time 1986",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1986 is mentioned in relation to the book 'Foundation and Earth', but this book is not stated to have won a Hugo Award. The connection between the award and the date 1986 is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University People_by_vocation:has_person Isaac Asimov ( / z m v / AZ -im-ov ; [ b ] [ c. January 2, 1920 [ a ] – April 6, 1992 )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Isaac Asimov... was an American writer and professor of biochemistry at Boston University'. This is a clear and direct relationship between the entity (Boston University) and the person (Isaac Asimov) via his vocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Inclusion:has_theme which",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The Hugo Award is mentioned in the context of the Foundation series, which is a work of science fiction. There is a very weak semantic link that the award 'includes' or is related to the 'theme' of science fiction literature, but the connection is highly indirect and the phrasing of the triple is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_time 1920",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Asimov was born 'c. 1920' and was an American writer. The connection between 'United States' and '1920' is very indirect and weak, but both concepts are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/LeBron_James Cardinal_numbers:has_entity \" Big Three \" science fiction writers",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "LeBron James is not mentioned in the paragraph and has no semantic connection to the content. The 'Big Three' concept is present, but it is attributed to Asimov, Heinlein, and Clarke, not LeBron James."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Cardinal_numbers:has_time 1966",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the Foundation series 'won the one-time Hugo Award... in 1966'. This is a direct statement connecting the Hugo Award to the year 1966."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Fame:has_time 1966",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions the Hugo Award was won in 1966. While 'fame' is not explicitly stated, winning a major award implies recognition and fame, making this a reasonable, though indirect, connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Temporal_collocation:has_theme Asimov was considered one of the \" Big Three \" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The predicate and object of the triple are a verbatim excerpt from the paragraph, which directly discusses Arthur C. Clarke in the context of the 'Big Three' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Inclusion:has_time 1964",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Nightfall' was voted the best short story in 1964 by the Science Fiction Writers of America. The Hugo Award is the most famous award in science fiction, and while not explicitly named, the context strongly implies an award event in 1964."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Temporal_subregion:has_theme history of the same fictional universe as the Foundation series",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses the 'history of the same fictional universe' connecting the Foundation, Galactic Empire, and Robot series. The Hugo Award is mentioned in the context of the Foundation series winning an award. There is a very weak, indirect link via the shared theme of the fictional universe's history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Individual_history:has_theme history",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph contains the word 'history' in the context of a 'unified future history' for Asimov's works. The Hugo Award is mentioned. This is a very weak semantic connection based on the shared concept of 'history'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University People_by_vocation:has_time 1920",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Boston University is mentioned as Asimov's employer, and the year 1920 is mentioned as his birth year. However, there is no semantic connection between the university and the year 1920 in the text; the two pieces of information are unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Labor_product:has_time 1986",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Foundation and Earth (1986)' was written by Isaac Asimov. This directly connects the entity (Asimov), his labor product (a book), and the time (1986)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Estimating:has_item letters",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Isaac Asimov wrote letters, not Arthur C. Clarke. There is no semantic connection between Clarke and letters in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Text_creation:has_text major works such as The Caves of Steel and 'The Naked Sun'",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Hugo Award is mentioned in relation to the Foundation series winning an award. The major works 'The Caves of Steel' and 'The Naked Sun' are listed as part of Asimov's Robot series, with no stated connection to the Hugo Award in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Text_creation:has_text more than 500 books",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'he wrote or edited more than 500 books', directly linking Isaac Asimov to the creation of this text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Time_vector:has_event he linked this distant future to the Robot series",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The event of linking the distant future to the Robot series is attributed to Asimov's work on 'Foundation and Earth'. The Hugo Award is mentioned in a different context (the Foundation series winning an award), and there is no connection between the award and this narrative event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award Text:has_theme social science fiction",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The term 'social science fiction' is used to describe Asimov's short story 'Nightfall'. The Hugo Award is mentioned in a separate sentence about the Foundation series. There is no direct or implied link between the award and the theme of social science fiction in the paragraph."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.5420000000000001,
+    "high_confidence_50": 30,
+    "high_confidence_80": 20,
+    "percent_50": 60.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

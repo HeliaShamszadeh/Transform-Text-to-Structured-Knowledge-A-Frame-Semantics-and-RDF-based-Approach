@@ -1,0 +1,2430 @@
+{
+  "metadata": {
+    "total_triples": 112,
+    "source_file": "Robert_Lowell",
+    "extraction_date": "2025-09-28 05:51:52",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Statement:has_speaker",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Emphasizing:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "number",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+        "predicate": "Serving_in_capacity:has_location",
+        "object": "where",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_entity",
+        "object": "poets",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+        "predicate": "Part_whole:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Individual_history:has_participant",
+        "object": "American poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Allen_Tate",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "who",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Political_locales:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Expensiveness:has_goods",
+        "object": "verse",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Proportional_quantity:has_theme",
+        "object": "some",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Political_locales:has_theme",
+        "object": "National",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+        "predicate": "Win_prize:has_prize",
+        "object": "National Institute of Arts and Letters Award",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Labor_product:has_agent",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Being_employed:has_time",
+        "object": "over the course of his career",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Categorization:has_theme",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Locale:has_theme",
+        "object": "region",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Cause_to_amalgamate:has_theme",
+        "object": "personal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Categorization:has_category",
+        "object": "important part of the confessional poetry movement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Likelihood:has_theme",
+        "object": "combination",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Categorization:has_category",
+        "object": "one of the most important American poets of the postwar era",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Age:has_entity",
+        "object": "emphasis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Appointing:has_location",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Age:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Labor_product:has_theme",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Categorization:has_theme",
+        "object": "particularly in his early work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Discussion:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Desiring:has_theme",
+        "object": "American poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Cause_to_amalgamate:has_theme",
+        "object": "public",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Categorization:has_time",
+        "object": "After the publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "People_by_vocation:has_time",
+        "object": "1917",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Individual_history:has_theme",
+        "object": "past",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+        "predicate": "Win_prize:has_time",
+        "object": "1947",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "distinctive stylistic modes and forms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Type:has_theme",
+        "object": "stylistic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_time",
+        "object": "1917",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Origin:has_theme",
+        "object": "origins",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Importance:has_theme",
+        "object": "his poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Kinship:has_theme",
+        "object": "Boston Brahmin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Emphasizing:has_theme",
+        "object": "intense, uninhibited discussion of personal, family, and psychological struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Time_vector:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Paula_Hayes",
+        "predicate": "Opinion:has_opinion",
+        "object": "that Lowell mythologized New England, particularly in his early work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Typicality:has_theme",
+        "object": "confessional poetry \" model",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Appointing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Allen_Tate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_author",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Kinship:has_theme",
+        "object": "American poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Type:has_theme",
+        "object": "forms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Paula_Hayes",
+        "predicate": "Opinion:has_theme",
+        "object": "literary scholar Paula Hayes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Compliance:has_theme",
+        "object": "typical \"confessional poetry \" model",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_entity",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Proportional_quantity:has_theme",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Text:has_author",
+        "object": "American poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Measure_linear_extent:has_theme",
+        "object": "verse",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_time",
+        "object": "1917",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Publishing:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Kinship:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Compliance:has_theme",
+        "object": "much of Lowell's work, which often combined the public with the personal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Being_born:has_theme",
+        "object": "into a Boston Brahmin family that could trace its origins back to the Mayflower",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Age:has_age",
+        "object": "new",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Categorization:has_item",
+        "object": "http://en.wikipedia.org/wiki/Life_Studies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Emphasizing:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "era",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Importance:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_text",
+        "object": "verse",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Time_vector:has_event",
+        "object": "he was considered an important part of the confessional poetry movement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "postwar",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Being_employed:has_task",
+        "object": "number of distinctive stylistic modes and forms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_theme",
+        "object": "some poems from Life Studies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Discussion:has_theme",
+        "object": "intense, uninhibited",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "People_by_vocation:has_person",
+        "object": "Robert Traill Spence Lowell IV ( / l o l / ; March 1, 1917 – September 12, 1977)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Being_employed:has_employee",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Grasp:has_theme",
+        "object": "that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+        "predicate": "Serving_in_capacity:has_time",
+        "object": "1947",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Life_Studies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Statement:has_message",
+        "object": "poets who most directly influenced me... were Allen Tate, Elizabeth Bishop, and William Carlos Williams",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Importance:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+        "predicate": "Part_whole:has_theme",
+        "object": "confessional poetry movement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Importance:has_theme",
+        "object": "American poets",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Labor_product:has_agent",
+        "object": "Lowell's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Time_vector:has_theme",
+        "object": "publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Possibility:has_theme",
+        "object": "see that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Importance:has_time",
+        "object": "http://en.wikipedia.org/wiki/Post-war",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_theme",
+        "object": "formal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Locale:has_location",
+        "object": "http://en.wikipedia.org/wiki/Boston",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+        "predicate": "Craft:has_theme",
+        "object": "informal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Cause_to_amalgamate:has_agent",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+        "predicate": "Text:has_author",
+        "object": "Life Studies and Notebook",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Categorization:has_item",
+        "object": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "Text:has_theme",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+        "predicate": "Craft:has_activity",
+        "object": "art",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text_creation:has_author",
+        "object": "Lowell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_text",
+        "object": "Robert Traill Spence Lowell IV",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text_creation:has_text",
+        "object": "both formal, metered verse as well as free verse",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Discussion:has_theme",
+        "object": "personal, family, and psychological struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Publishing:has_work",
+        "object": "his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Text:has_text",
+        "object": "Book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "Text:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Allen_Tate",
+        "predicate": "Subjective_influence:has_theme",
+        "object": "most directly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+        "predicate": "People_by_vocation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_England",
+        "predicate": "Importance:has_theme",
+        "object": "part of the confessional poetry movement",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Appointing:has_time",
+        "object": "1947",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Importance:has_theme",
+        "object": "subjects",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+        "predicate": "Serving_in_capacity:has_theme",
+        "object": "1947 until 1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+        "predicate": "Appointing:has_role",
+        "object": "sixth Consultant in Poetry to the Library of Congress, where he served from 1947 until 1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Cause_to_amalgamate:has_theme",
+          "object": "personal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Categorization:has_time",
+          "object": "After the publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Emphasizing:has_theme",
+          "object": "intense, uninhibited discussion of personal, family, and psychological struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Compliance:has_theme",
+          "object": "much of Lowell's work, which often combined the public with the personal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Time_vector:has_theme",
+          "object": "publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Discussion:has_theme",
+          "object": "personal, family, and psychological struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Publishing:has_work",
+          "object": "his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Statement:has_speaker",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Emphasizing:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "number",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Political_locales:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Expensiveness:has_goods",
+          "object": "verse",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Proportional_quantity:has_theme",
+          "object": "some",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Political_locales:has_theme",
+          "object": "National",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Labor_product:has_agent",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Being_employed:has_time",
+          "object": "over the course of his career",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Categorization:has_theme",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Locale:has_theme",
+          "object": "region",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Likelihood:has_theme",
+          "object": "combination",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Age:has_entity",
+          "object": "emphasis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Age:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Labor_product:has_theme",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Categorization:has_theme",
+          "object": "particularly in his early work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Discussion:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Cause_to_amalgamate:has_theme",
+          "object": "public",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "distinctive stylistic modes and forms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Type:has_theme",
+          "object": "stylistic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Time_vector:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Paula_Hayes",
+          "predicate": "Opinion:has_opinion",
+          "object": "that Lowell mythologized New England, particularly in his early work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Typicality:has_theme",
+          "object": "confessional poetry \" model",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_author",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Type:has_theme",
+          "object": "forms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Compliance:has_theme",
+          "object": "typical \"confessional poetry \" model",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Proportional_quantity:has_theme",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Measure_linear_extent:has_theme",
+          "object": "verse",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Publishing:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Kinship:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Age:has_age",
+          "object": "new",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Emphasizing:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Importance:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_text",
+          "object": "verse",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Time_vector:has_event",
+          "object": "he was considered an important part of the confessional poetry movement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Being_employed:has_task",
+          "object": "number of distinctive stylistic modes and forms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_theme",
+          "object": "some poems from Life Studies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Discussion:has_theme",
+          "object": "intense, uninhibited",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Being_employed:has_employee",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Statement:has_message",
+          "object": "poets who most directly influenced me... were Allen Tate, Elizabeth Bishop, and William Carlos Williams",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Labor_product:has_agent",
+          "object": "Lowell's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Possibility:has_theme",
+          "object": "see that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_theme",
+          "object": "formal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Locale:has_location",
+          "object": "http://en.wikipedia.org/wiki/Boston",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Cause_to_amalgamate:has_agent",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text_creation:has_author",
+          "object": "Lowell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text_creation:has_text",
+          "object": "both formal, metered verse as well as free verse",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Text:has_text",
+          "object": "Book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_England",
+          "predicate": "Importance:has_theme",
+          "object": "part of the confessional poetry movement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Being_born:has_theme",
+          "object": "into a Boston Brahmin family that could trace its origins back to the Mayflower",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+          "predicate": "Win_prize:has_prize",
+          "object": "National Institute of Arts and Letters Award",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+          "predicate": "Win_prize:has_time",
+          "object": "1947",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+          "predicate": "Text:has_author",
+          "object": "Life Studies and Notebook",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+          "predicate": "Serving_in_capacity:has_location",
+          "object": "where",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_entity",
+          "object": "poets",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+          "predicate": "Part_whole:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Individual_history:has_participant",
+          "object": "American poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Allen_Tate",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "who",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Categorization:has_category",
+          "object": "important part of the confessional poetry movement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Categorization:has_category",
+          "object": "one of the most important American poets of the postwar era",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Appointing:has_location",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Desiring:has_theme",
+          "object": "American poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "People_by_vocation:has_time",
+          "object": "1917",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Individual_history:has_theme",
+          "object": "past",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_time",
+          "object": "1917",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Origin:has_theme",
+          "object": "origins",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Importance:has_theme",
+          "object": "his poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Kinship:has_theme",
+          "object": "Boston Brahmin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Appointing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Allen_Tate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Kinship:has_theme",
+          "object": "American poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Paula_Hayes",
+          "predicate": "Opinion:has_theme",
+          "object": "literary scholar Paula Hayes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_entity",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Text:has_author",
+          "object": "American poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_time",
+          "object": "1917",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Categorization:has_item",
+          "object": "http://en.wikipedia.org/wiki/Life_Studies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "era",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "postwar",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "People_by_vocation:has_person",
+          "object": "Robert Traill Spence Lowell IV ( / l o l / ; March 1, 1917 – September 12, 1977)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Grasp:has_theme",
+          "object": "that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+          "predicate": "Serving_in_capacity:has_time",
+          "object": "1947",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Life_Studies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Importance:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Life_Studies",
+          "predicate": "Part_whole:has_theme",
+          "object": "confessional poetry movement",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Importance:has_theme",
+          "object": "American poets",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Importance:has_time",
+          "object": "http://en.wikipedia.org/wiki/Post-war",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+          "predicate": "Craft:has_theme",
+          "object": "informal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Categorization:has_item",
+          "object": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "Text:has_theme",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+          "predicate": "Craft:has_activity",
+          "object": "art",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_text",
+          "object": "Robert Traill Spence Lowell IV",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "Text:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Allen_Tate",
+          "predicate": "Subjective_influence:has_theme",
+          "object": "most directly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+          "predicate": "People_by_vocation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Appointing:has_time",
+          "object": "1947",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Importance:has_theme",
+          "object": "subjects",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+          "predicate": "Serving_in_capacity:has_theme",
+          "object": "1947 until 1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Library_of_Congress",
+          "predicate": "Appointing:has_role",
+          "object": "sixth Consultant in Poetry to the Library of Congress, where he served from 1947 until 1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Allen_Tate",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Paula_Hayes",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Paula_Hayes",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/Allen_Tate",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "http://en.wikipedia.org/wiki/New_England",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "http://en.wikipedia.org/wiki/Library_of_Congress"
+    ],
+    "objects": [
+      "Lowell",
+      "which",
+      "number",
+      "where",
+      "poets",
+      "1959",
+      "American poet",
+      "who",
+      "work",
+      "1959",
+      "verse",
+      "some",
+      "National",
+      "National Institute of Arts and Letters Award",
+      "Lowell",
+      "over the course of his career",
+      "Lowell",
+      "region",
+      "personal",
+      "important part of the confessional poetry movement",
+      "family",
+      "combination",
+      "one of the most important American poets of the postwar era",
+      "emphasis",
+      "Poetry",
+      "1959",
+      "work",
+      "particularly in his early work",
+      "1959",
+      "American poet",
+      "public",
+      "After the publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "1917",
+      "past",
+      "1947",
+      "distinctive stylistic modes and forms",
+      "stylistic",
+      "1917",
+      "origins",
+      "his poetry",
+      "Boston Brahmin",
+      "intense, uninhibited discussion of personal, family, and psychological struggles",
+      "1959",
+      "http://en.wikipedia.org/wiki/United_States",
+      "that Lowell mythologized New England, particularly in his early work",
+      "confessional poetry \" model",
+      "http://en.wikipedia.org/wiki/Allen_Tate",
+      "Lowell",
+      "American poet",
+      "forms",
+      "literary scholar Paula Hayes",
+      "poetry",
+      "typical \"confessional poetry \" model",
+      "poet",
+      "poems",
+      "American poet",
+      "verse",
+      "1917",
+      "1959",
+      "1959",
+      "much of Lowell's work, which often combined the public with the personal",
+      "into a Boston Brahmin family that could trace its origins back to the Mayflower",
+      "new",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "1959",
+      "era",
+      "1959",
+      "verse",
+      "he was considered an important part of the confessional poetry movement",
+      "postwar",
+      "number of distinctive stylistic modes and forms",
+      "some poems from Life Studies",
+      "intense, uninhibited",
+      "Robert Traill Spence Lowell IV ( / l o l / ; March 1, 1917 – September 12, 1977)",
+      "1959",
+      "Lowell",
+      "that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+      "1947",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "poets who most directly influenced me... were Allen Tate, Elizabeth Bishop, and William Carlos Williams",
+      "most",
+      "poems",
+      "confessional poetry movement",
+      "American poets",
+      "Lowell's",
+      "publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "see that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+      "http://en.wikipedia.org/wiki/Post-war",
+      "formal",
+      "http://en.wikipedia.org/wiki/Boston",
+      "informal",
+      "which",
+      "Life Studies and Notebook",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "1959",
+      "art",
+      "Lowell",
+      "Robert Traill Spence Lowell IV",
+      "both formal, metered verse as well as free verse",
+      "poems",
+      "personal, family, and psychological struggles",
+      "his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "Book",
+      "1959",
+      "most directly",
+      "family",
+      "http://en.wikipedia.org/wiki/United_States",
+      "part of the confessional poetry movement",
+      "1947",
+      "subjects",
+      "1947 until 1948",
+      "sixth Consultant in Poetry to the Library of Congress, where he served from 1947 until 1948"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Boston",
+      "part of the confessional poetry movement",
+      "which",
+      "1917",
+      "sixth Consultant in Poetry to the Library of Congress, where he served from 1947 until 1948",
+      "http://en.wikipedia.org/wiki/Post-war",
+      "his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "Lowell's",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "work",
+      "informal",
+      "verse",
+      "distinctive stylistic modes and forms",
+      "American poet",
+      "that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+      "http://en.wikipedia.org/wiki/Allen_Tate",
+      "art",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "1947",
+      "who",
+      "After the publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "most",
+      "poets",
+      "both formal, metered verse as well as free verse",
+      "subjects",
+      "public",
+      "http://en.wikipedia.org/wiki/William_Carlos_Williams",
+      "Boston Brahmin",
+      "most directly",
+      "http://en.wikipedia.org/wiki/Life_Studies",
+      "http://en.wikipedia.org/wiki/United_States",
+      "region",
+      "origins",
+      "http://en.wikipedia.org/wiki/New_England",
+      "Book",
+      "forms",
+      "he was considered an important part of the confessional poetry movement",
+      "typical \"confessional poetry \" model",
+      "personal, family, and psychological struggles",
+      "particularly in his early work",
+      "personal",
+      "poetry",
+      "American poets",
+      "that Lowell mythologized New England, particularly in his early work",
+      "Robert Traill Spence Lowell IV ( / l o l / ; March 1, 1917 – September 12, 1977)",
+      "confessional poetry \" model",
+      "http://en.wikipedia.org/wiki/Paula_Hayes",
+      "stylistic",
+      "one of the most important American poets of the postwar era",
+      "important part of the confessional poetry movement",
+      "Robert Traill Spence Lowell IV",
+      "some poems from Life Studies",
+      "over the course of his career",
+      "Poetry",
+      "emphasis",
+      "1959",
+      "past",
+      "into a Boston Brahmin family that could trace its origins back to the Mayflower",
+      "number",
+      "poet",
+      "combination",
+      "his poetry",
+      "poets who most directly influenced me... were Allen Tate, Elizabeth Bishop, and William Carlos Williams",
+      "see that Bishop is a sort of bridge between Tate's formalism and Williams's informal art",
+      "http://en.wikipedia.org/wiki/Robert_Traill_(Irish_clergyman)",
+      "era",
+      "family",
+      "1947 until 1948",
+      "http://en.wikipedia.org/wiki/National_Book_Award_for_Poetry",
+      "number of distinctive stylistic modes and forms",
+      "http://en.wikipedia.org/wiki/Library_of_Congress",
+      "new",
+      "postwar",
+      "literary scholar Paula Hayes",
+      "publication of his 1959 book Life Studies, which won the 1960 National Book Award and \"featured a new emphasis on intense, uninhibited discussion of personal, family, and psychological struggles",
+      "Life Studies and Notebook",
+      "much of Lowell's work, which often combined the public with the personal",
+      "intense, uninhibited discussion of personal, family, and psychological struggles",
+      "Lowell",
+      "some",
+      "National Institute of Arts and Letters Award",
+      "where",
+      "confessional poetry movement",
+      "intense, uninhibited",
+      "National",
+      "formal",
+      "poems"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Statement:has_speaker",
+      "Emphasizing:has_theme",
+      "Quantified_mass:has_quantity",
+      "Serving_in_capacity:has_location",
+      "Origin:has_entity",
+      "Part_whole:has_time",
+      "Individual_history:has_participant",
+      "Subjective_influence:has_entity",
+      "Temporal_collocation:has_theme",
+      "Political_locales:has_time",
+      "Expensiveness:has_goods",
+      "Proportional_quantity:has_theme",
+      "Political_locales:has_theme",
+      "Win_prize:has_prize",
+      "Labor_product:has_agent",
+      "Being_employed:has_time",
+      "Categorization:has_theme",
+      "Locale:has_theme",
+      "Cause_to_amalgamate:has_theme",
+      "Categorization:has_category",
+      "Kinship:has_theme",
+      "Likelihood:has_theme",
+      "Categorization:has_category",
+      "Age:has_entity",
+      "Appointing:has_location",
+      "Age:has_time",
+      "Labor_product:has_theme",
+      "Categorization:has_theme",
+      "Discussion:has_time",
+      "Desiring:has_theme",
+      "Cause_to_amalgamate:has_theme",
+      "Categorization:has_time",
+      "People_by_vocation:has_time",
+      "Individual_history:has_theme",
+      "Win_prize:has_time",
+      "Quantified_mass:has_theme",
+      "Type:has_theme",
+      "Origin:has_time",
+      "Origin:has_theme",
+      "Importance:has_theme",
+      "Kinship:has_theme",
+      "Emphasizing:has_theme",
+      "Time_vector:has_time",
+      "Origin:has_theme",
+      "Opinion:has_opinion",
+      "Typicality:has_theme",
+      "Appointing:has_theme",
+      "Text:has_author",
+      "Kinship:has_theme",
+      "Type:has_theme",
+      "Opinion:has_theme",
+      "Text:has_text",
+      "Compliance:has_theme",
+      "Origin:has_entity",
+      "Proportional_quantity:has_theme",
+      "Text:has_author",
+      "Measure_linear_extent:has_theme",
+      "Text:has_time",
+      "Publishing:has_time",
+      "Kinship:has_time",
+      "Compliance:has_theme",
+      "Being_born:has_theme",
+      "Age:has_age",
+      "Categorization:has_item",
+      "Emphasizing:has_time",
+      "Calendric_unit:has_theme",
+      "Importance:has_time",
+      "Text:has_text",
+      "Time_vector:has_event",
+      "Calendric_unit:has_theme",
+      "Being_employed:has_task",
+      "Text:has_theme",
+      "Discussion:has_theme",
+      "People_by_vocation:has_person",
+      "Text:has_time",
+      "Being_employed:has_employee",
+      "Grasp:has_theme",
+      "Serving_in_capacity:has_time",
+      "Text:has_text",
+      "Statement:has_message",
+      "Importance:has_degree",
+      "Text:has_text",
+      "Part_whole:has_theme",
+      "Importance:has_theme",
+      "Labor_product:has_agent",
+      "Time_vector:has_theme",
+      "Possibility:has_theme",
+      "Importance:has_time",
+      "Text:has_theme",
+      "Locale:has_location",
+      "Craft:has_theme",
+      "Cause_to_amalgamate:has_agent",
+      "Text:has_author",
+      "Categorization:has_item",
+      "Text:has_theme",
+      "Craft:has_activity",
+      "Text_creation:has_author",
+      "Text:has_text",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Discussion:has_theme",
+      "Publishing:has_work",
+      "Text:has_text",
+      "Text:has_time",
+      "Subjective_influence:has_theme",
+      "Kinship:has_theme",
+      "People_by_vocation:has_theme",
+      "Importance:has_theme",
+      "Appointing:has_time",
+      "Importance:has_theme",
+      "Serving_in_capacity:has_theme",
+      "Appointing:has_role"
+    ],
+    "unique_predicates": [
+      "Expensiveness:has_goods",
+      "Individual_history:has_theme",
+      "Likelihood:has_theme",
+      "Age:has_entity",
+      "Appointing:has_role",
+      "Importance:has_degree",
+      "Importance:has_time",
+      "Kinship:has_theme",
+      "Appointing:has_theme",
+      "Grasp:has_theme",
+      "Categorization:has_item",
+      "Win_prize:has_time",
+      "Cause_to_amalgamate:has_agent",
+      "Part_whole:has_time",
+      "Being_employed:has_task",
+      "Time_vector:has_theme",
+      "Text:has_theme",
+      "Typicality:has_theme",
+      "Serving_in_capacity:has_theme",
+      "Origin:has_entity",
+      "Categorization:has_time",
+      "Labor_product:has_agent",
+      "Opinion:has_opinion",
+      "Appointing:has_time",
+      "People_by_vocation:has_person",
+      "Temporal_collocation:has_theme",
+      "Craft:has_theme",
+      "Measure_linear_extent:has_theme",
+      "Origin:has_theme",
+      "Discussion:has_theme",
+      "Serving_in_capacity:has_location",
+      "Desiring:has_theme",
+      "Time_vector:has_time",
+      "Being_employed:has_employee",
+      "Text:has_text",
+      "Emphasizing:has_time",
+      "Emphasizing:has_theme",
+      "Quantified_mass:has_quantity",
+      "Individual_history:has_participant",
+      "Locale:has_location",
+      "Statement:has_message",
+      "Subjective_influence:has_theme",
+      "Age:has_time",
+      "Publishing:has_work",
+      "Time_vector:has_event",
+      "Appointing:has_location",
+      "People_by_vocation:has_theme",
+      "Calendric_unit:has_theme",
+      "Kinship:has_time",
+      "Cause_to_amalgamate:has_theme",
+      "Being_employed:has_time",
+      "Compliance:has_theme",
+      "Locale:has_theme",
+      "Publishing:has_time",
+      "Opinion:has_theme",
+      "Serving_in_capacity:has_time",
+      "Categorization:has_category",
+      "Text_creation:has_text",
+      "Importance:has_theme",
+      "Origin:has_time",
+      "Age:has_age",
+      "Win_prize:has_prize",
+      "Being_born:has_theme",
+      "Statement:has_speaker",
+      "Proportional_quantity:has_theme",
+      "Part_whole:has_theme",
+      "Discussion:has_time",
+      "People_by_vocation:has_time",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Text:has_author",
+      "Political_locales:has_time",
+      "Craft:has_activity",
+      "Political_locales:has_theme",
+      "Possibility:has_theme",
+      "Categorization:has_theme",
+      "Type:has_theme",
+      "Subjective_influence:has_entity",
+      "Labor_product:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Statement:has_speaker": 1,
+      "Emphasizing:has_theme": 2,
+      "Quantified_mass:has_quantity": 1,
+      "Serving_in_capacity:has_location": 1,
+      "Origin:has_entity": 2,
+      "Part_whole:has_time": 1,
+      "Individual_history:has_participant": 1,
+      "Subjective_influence:has_entity": 1,
+      "Temporal_collocation:has_theme": 1,
+      "Political_locales:has_time": 1,
+      "Expensiveness:has_goods": 1,
+      "Proportional_quantity:has_theme": 2,
+      "Political_locales:has_theme": 1,
+      "Win_prize:has_prize": 1,
+      "Labor_product:has_agent": 2,
+      "Being_employed:has_time": 1,
+      "Categorization:has_theme": 2,
+      "Locale:has_theme": 1,
+      "Cause_to_amalgamate:has_theme": 2,
+      "Categorization:has_category": 2,
+      "Kinship:has_theme": 4,
+      "Likelihood:has_theme": 1,
+      "Age:has_entity": 1,
+      "Appointing:has_location": 1,
+      "Age:has_time": 1,
+      "Labor_product:has_theme": 1,
+      "Discussion:has_time": 1,
+      "Desiring:has_theme": 1,
+      "Categorization:has_time": 1,
+      "People_by_vocation:has_time": 1,
+      "Individual_history:has_theme": 1,
+      "Win_prize:has_time": 1,
+      "Quantified_mass:has_theme": 1,
+      "Type:has_theme": 2,
+      "Origin:has_time": 1,
+      "Origin:has_theme": 2,
+      "Importance:has_theme": 4,
+      "Time_vector:has_time": 1,
+      "Opinion:has_opinion": 1,
+      "Typicality:has_theme": 1,
+      "Appointing:has_theme": 1,
+      "Text:has_author": 3,
+      "Opinion:has_theme": 1,
+      "Text:has_text": 7,
+      "Compliance:has_theme": 2,
+      "Measure_linear_extent:has_theme": 1,
+      "Text:has_time": 3,
+      "Publishing:has_time": 1,
+      "Kinship:has_time": 1,
+      "Being_born:has_theme": 1,
+      "Age:has_age": 1,
+      "Categorization:has_item": 2,
+      "Emphasizing:has_time": 1,
+      "Calendric_unit:has_theme": 2,
+      "Importance:has_time": 2,
+      "Time_vector:has_event": 1,
+      "Being_employed:has_task": 1,
+      "Text:has_theme": 3,
+      "Discussion:has_theme": 2,
+      "People_by_vocation:has_person": 1,
+      "Being_employed:has_employee": 1,
+      "Grasp:has_theme": 1,
+      "Serving_in_capacity:has_time": 1,
+      "Statement:has_message": 1,
+      "Importance:has_degree": 1,
+      "Part_whole:has_theme": 1,
+      "Time_vector:has_theme": 1,
+      "Possibility:has_theme": 1,
+      "Locale:has_location": 1,
+      "Craft:has_theme": 1,
+      "Cause_to_amalgamate:has_agent": 1,
+      "Craft:has_activity": 1,
+      "Text_creation:has_author": 1,
+      "Text_creation:has_text": 1,
+      "Publishing:has_work": 1,
+      "Subjective_influence:has_theme": 1,
+      "People_by_vocation:has_theme": 1,
+      "Appointing:has_time": 1,
+      "Serving_in_capacity:has_theme": 1,
+      "Appointing:has_role": 1
+    }
+  }
+}

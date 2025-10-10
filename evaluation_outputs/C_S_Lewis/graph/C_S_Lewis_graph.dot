@@ -1,0 +1,301 @@
+digraph C_S_Lewis {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "as the author of The Chroni..." [label="as the author of The Chroni...", fillcolor=lightcoral, color=red, shape=circle];
+    "British writer" [label="British writer", fillcolor=lightcoral, color=red, shape=circle];
+    "American writer Joy Davidman" [label="American writer Joy Davidman", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "Church of England" [label="Church of England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "books that make up The Chro..." [label="books that make up The Chro...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His philosophical writings" [label="His philosophical writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works of fiction" [label="works of fiction", fillcolor=lightblue, color=blue, shape=ellipse];
+    "more than 30 books which ha..." [label="more than 30 books which ha...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his other works of fiction,..." [label="his other works of fiction,...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "she died of cancer" [label="she died of cancer", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Labour Party UK" [label="Labour Party UK", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oxford" [label="Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lord of the Rings" [label="Lord of the Rings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 32" [label="age of 32", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four years" [label="four years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "kidney failure" [label="kidney failure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Theology" [label="Theology", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was baptized in the Chur..." [label="he was baptized in the Chur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "32" [label="32", fillcolor=lightgray, color=gray, shape=hexagon];
+    "millions of copies" [label="millions of copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the Inklings" [label="as the Inklings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends" [label="friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "millions" [label="millions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Chronicles of Narnia" [label="The Chronicles of Narnia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "close" [label="close", fillcolor=lightgray, color=gray, shape=hexagon];
+    "J. R. R. Tolkien, the autho..." [label="J. R. R. Tolkien, the autho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ordinary layman of the Chur..." [label="ordinary layman of the Chur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lewis's 1955 memoir Surpris..." [label="Lewis's 1955 memoir Surpris...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politician" [label="politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "memoir Surprised by Joy" [label="memoir Surprised by Joy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Isle of Lewis" [label="Isle of Lewis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "profoundly" [label="profoundly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Christian scholars from man..." [label="Christian scholars from man...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his non-fiction Christian a..." [label="his non-fiction Christian a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his wartime radio broadcast..." [label="his wartime radio broadcast...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friend" [label="friend", fillcolor=lightgray, color=gray, shape=hexagon];
+    "informal Oxford literary group" [label="informal Oxford literary group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cecil Day-Lewis" [label="Cecil Day-Lewis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "30" [label="30", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United Kingdom" [label="United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joy Davidman" [label="Joy Davidman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies" [label="copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "kidney" [label="kidney", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lewis's faith" [label="Lewis's faith", fillcolor=lightgray, color=gray, shape=hexagon];
+    "men" [label="men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 45" [label="age of 45", fillcolor=lightgray, color=gray, shape=hexagon];
+    "group" [label="group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "64" [label="64", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English faculty at the Univ..." [label="English faculty at the Univ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cancer" [label="cancer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Letters" [label="Letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "22 November 1963" [label="22 November 1963", fillcolor=lightgray, color=gray, shape=hexagon];
+    "layman" [label="layman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Screwtape" [label="Screwtape", fillcolor=lightgray, color=gray, shape=hexagon];
+    "J. R. R. Tolkien" [label="J. R. R. Tolkien", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into more than 30 languages" [label="into more than 30 languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Oxford" [label="University of Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adolescence" [label="adolescence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oxford literary group" [label="Oxford literary group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wide acclaim" [label="wide acclaim", fillcolor=lightgray, color=gray, shape=hexagon];
+    "informal Oxford literary gr..." [label="informal Oxford literary gr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Coolock parish Church of Ireland" [label="Coolock parish Church of Ireland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Christianity" [label="Christianity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mere Christianity, Miracles..." [label="Mere Christianity, Miracles...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "45" [label="45", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "C. S. Lewis" [label="C. S. Lewis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Both men" [label="Both men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Lord of the Rings" [label="The Lord of the Rings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Clive Lewis politician" [label="Clive Lewis politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Magdalen College, Oxford" [label="Magdalen College, Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anglicanism" [label="Anglicanism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acclaim" [label="acclaim", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lewis's" [label="Lewis's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1963" [label="1963", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tolkien and other friends" [label="Tolkien and other friends", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "The Lord of the Rings" -> "his wartime radio broadcast..." [label="has cause [Causation]", color=lightblue, penwidth=1];
+    "University of Oxford" -> "English faculty at the Univ..." [label="has theme [Being_incarcerated]", color=lightcoral, penwidth=1];
+    "University of Oxford" -> "four years" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Isle of Lewis" -> "Lewis's" [label="has author [Text]", color=lightyellow, penwidth=1];
+    "The Lord of the Rings" -> "age of 45" [label="has time [Death]", color=purple, penwidth=2];
+    "Isle of Lewis" -> "memoir Surprised by Joy" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "his work" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "Theology" -> "Church of England" [label="has knowledge [Expertise]", color=lightsteelblue, penwidth=1];
+    "University of Oxford" -> "45" [label="has age [Age]", color=lightgray, penwidth=1];
+    "Magdalen College, Oxford" -> "Oxford literary group" [label="has theme [Social_event]", color=lightgoldenrodyellow, penwidth=1];
+    "University of Oxford" -> "she died of cancer" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Magdalen College, Oxford" -> "his non-fiction Christian a..." [label="has theme [Inclusion]", color=lightseagreen, penwidth=1];
+    "Magdalen College, Oxford" -> "works of fiction" [label="has class [Increment]", color=lightsalmon, penwidth=1];
+    "Coolock parish Church of Ireland" -> "he was baptized in the Chur..." [label="has theme [Attributed_information]", color=lightgoldenrod, penwidth=1];
+    "Isle of Lewis" -> "1955" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "C. S. Lewis" -> "as the author of The Chroni..." [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "1956" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "University of Oxford" -> "years" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "C. S. Lewis" -> "his other works of fiction,..." [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "which" [label="has theme [Translating]", color=lightcoral, penwidth=1];
+    "University of Oxford" -> "1956" [label="has time [Age]", color=purple, penwidth=2];
+    "Isle of Lewis" -> "Anglicanism" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Cecil Day-Lewis" -> "1963" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "Lord of the Rings" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "University of Oxford" -> "friends" [label="has class [Increment]", color=lightsalmon, penwidth=1];
+    "Oxford" -> "group" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "64" [label="has age [Age]", color=lightgray, penwidth=1];
+    "University of Oxford" -> "1963" [label="has time [Age]", color=purple, penwidth=2];
+    "The Lord of the Rings" -> "C. S. Lewis" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Isle of Lewis" -> "friend" [label="has theme [Social_connection]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "copies" [label="has theme [Duplication]", color=lightcyan, penwidth=1];
+    "University of Oxford" -> "acclaim" [label="has item [Cause_expansion]", color=lightsteelblue, penwidth=1];
+    "Isle of Lewis" -> "close" [label="has degree [Social_connection]", color=lightpink, penwidth=1];
+    "Isle of Lewis" -> "J. R. R. Tolkien, the autho..." [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "University of Oxford" -> "Both men" [label="has theme [Being_incarcerated]", color=lightcoral, penwidth=1];
+    "University of Oxford" -> "32" [label="has age [Age]", color=lightgray, penwidth=1];
+    "Isle of Lewis" -> "American writer Joy Davidman" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "University of Oxford" -> "men" [label="has person [People]", color=red, penwidth=2];
+    "University of Oxford" -> "books" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "1956" [label="has time [Medical_conditions]", color=purple, penwidth=2];
+    "University of Oxford" -> "30" [label="has theme [Cardinal_numbers]", color=lightsalmon, penwidth=1];
+    "Theology" -> "layman" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "University of Oxford" -> "Tolkien and other friends" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "University of Oxford" -> "1955" [label="has time [People_by_age]", color=purple, penwidth=2];
+    "J. R. R. Tolkien" -> "J. R. R. Tolkien" [label="has author [Text_creation]", color=lightgreen, penwidth=1];
+    "University of Oxford" -> "millions of copies" [label="has theme [Commerce_sell]", color=lightpink, penwidth=1];
+    "Coolock parish Church of Ireland" -> "Lewis's 1955 memoir Surpris..." [label="has text [Attributed_information]", color=lightgoldenrod, penwidth=1];
+    "The Lord of the Rings" -> "wide acclaim" [label="has effect [Causation]", color=lightblue, penwidth=1];
+    "University of Oxford" -> "Joy Davidman" [label="has patient [Medical_conditions]", color=lightseagreen, penwidth=1];
+    "United Kingdom" -> "British writer" [label="has author [Text_creation]", color=lightgreen, penwidth=1];
+    "Labour Party UK" -> "politician" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Magdalen College, Oxford" -> "Isle of Lewis" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "Christianity" -> "widely" [label="has theme [Adducing]", color=lightcoral, penwidth=1];
+    "University of Oxford" -> "copies" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "Magdalen College, Oxford" -> "Letters" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "Lewis's faith" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "The Chronicles of Narnia" -> "most" [label="has theme [Commerce_sell]", color=lightpink, penwidth=1];
+    "Oxford" -> "literary" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Isle of Lewis" -> "1955" [label="has time [Text]", color=purple, penwidth=2];
+    "C. S. Lewis" -> "Clive Lewis politician" [label="has theme [Reference_text]", color=lightcoral, penwidth=1];
+    "United States" -> "1956" [label="has time [Origin]", color=purple, penwidth=2];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Coolock parish Church of Ireland" -> "C. S. Lewis" [label="has theme [Rite]", color=lightgreen, penwidth=1];
+    "C. S. Lewis" -> "best" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Isle of Lewis" -> "age of 32" [label="has time [Arriving]", color=purple, penwidth=2];
+    "University of Oxford" -> "millions" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "Coolock parish Church of Ireland" -> "1955" [label="has time [Rite]", color=purple, penwidth=2];
+    "The Lord of the Rings" -> "Joy Davidman" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "into more than 30 languages" [label="has theme [Translating]", color=lightcoral, penwidth=1];
+    "United Kingdom" -> "1963" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Joy Davidman" -> "1956" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "University of Oxford" -> "languages" [label="has theme [Substance]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "as the Inklings" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Coolock parish Church of Ireland" -> "1955" [label="has time [Attributed_information]", color=purple, penwidth=2];
+    "University of Oxford" -> "books" [label="has entity [Cardinal_numbers]", color=lightsalmon, penwidth=1];
+    "Christianity" -> "Christian scholars from man..." [label="has speaker [Adducing]", color=lightcoral, penwidth=1];
+    "Magdalen College, Oxford" -> "Mere Christianity, Miracles..." [label="has theme [Inclusion]", color=lightseagreen, penwidth=1];
+    "Isle of Lewis" -> "close" [label="has degree [Personal_relationship]", color=red, penwidth=2];
+    "Isle of Lewis" -> "more than 30 books which ha..." [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "C. S. Lewis" -> "ordinary layman of the Chur..." [label="has theme [Becoming]", color=lightcyan, penwidth=1];
+    "University of Oxford" -> "1956" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "University of Oxford" -> "profoundly" [label="has degree [Objective_influence]", color=lightcyan, penwidth=1];
+    "University of Oxford" -> "friends" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Isle of Lewis" -> "1956" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "University of Oxford" -> "four" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "C. S. Lewis" -> "The Chronicles of Narnia" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "University of Oxford" -> "Both men" [label="has agent [Being_active]", color=lightsteelblue, penwidth=1];
+    "University of Oxford" -> "his wartime radio broadcast..." [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "Christianity" -> "His philosophical writings" [label="has theme [Adducing]", color=lightcoral, penwidth=1];
+    "University of Oxford" -> "which" [label="has goods [Commerce_sell]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "informal Oxford literary group" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "informal Oxford literary gr..." [label="has activity [Being_active]", color=lightsteelblue, penwidth=1];
+    "Magdalen College, Oxford" -> "kidney failure" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "The Lord of the Rings" -> "cancer" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "University of Oxford" -> "adolescence" [label="has age [People_by_age]", color=lightgoldenrod, penwidth=1];
+    "University of Oxford" -> "kidney" [label="has goal [Success_or_failure]", color=lightgoldenrodyellow, penwidth=1];
+    "University of Oxford" -> "languages" [label="has entity [Cardinal_numbers]", color=lightsalmon, penwidth=1];
+    "The Chronicles of Narnia" -> "books that make up The Chro..." [label="has goods [Commerce_sell]", color=lightpink, penwidth=1];
+    "Magdalen College, Oxford" -> "Screwtape" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "University of Oxford" -> "1963" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "Magdalen College, Oxford" -> "22 November 1963" [label="has time [Death]", color=purple, penwidth=2];
+    "Isle of Lewis" -> "J. R. R. Tolkien, the autho..." [label="has theme [Social_connection]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Causation_legend" [label="Causation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_incarcerated_legend" [label="Being_incarcerated", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Social_event_legend" [label="Social_event", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Social_connection_legend" [label="Social_connection", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duplication_legend" [label="Duplication", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Cause_expansion_legend" [label="Cause_expansion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Adducing_legend" [label="Adducing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_active_legend" [label="Being_active", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

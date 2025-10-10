@@ -1,0 +1,2155 @@
+{
+  "metadata": {
+    "total_triples": 100,
+    "source_file": "Dashiell_Hammet",
+    "extraction_date": "2025-09-27 21:41:53",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/France",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_theme",
+        "object": "detective",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Being_named:has_theme",
+        "object": "de Chiel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Age:has_age",
+        "object": "younger",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philadelphia",
+        "predicate": "Rite:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Catholic_Church",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text_creation:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Desirability:has_time",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Categorization:has_theme",
+        "object": "his obituary in The New York Times",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Growing_food:has_location",
+        "object": "Philadelphia and Baltimore",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Categorization:has_item",
+        "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Being_born:has_theme",
+        "object": "Richard Thomas Hammett and his wife Anne Bond Dashiell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Residence:has_location",
+        "object": "where",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Being_named:has_entity",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+        "predicate": "Categorization:has_item",
+        "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Age:has_age",
+        "object": "26 years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Intentionally_create:has_theme",
+        "object": "characters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Behind_the_scenes:has_type",
+        "object": "noir",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Kinship:has_theme",
+        "object": "sister",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Inclusion:has_theme",
+        "object": "its list of the 100 best English-language novels published between 1923 and 2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Text:has_theme",
+        "object": "English-language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Age:has_entity",
+        "object": "sister",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Being_named:has_location",
+        "object": "http://en.wikipedia.org/wiki/Philadelphia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_text",
+        "object": "Red Harvest",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Measure_duration:has_theme",
+        "object": "four",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Being_named:has_entity",
+        "object": "whose",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Age:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_theme",
+        "object": "hard-boiled",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Behind_the_scenes:has_type",
+        "object": "mystery",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Inclusion:has_theme",
+        "object": "style that came to be known as film noir",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Inclusion:has_time",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text_creation:has_text",
+        "object": "hard-boiled detective novels and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Text:has_text",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Residence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Age:has_entity",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Arriving:has_theme",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Measure_duration:has_theme",
+        "object": "26",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Inclusion:has_theme",
+        "object": "mystery films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "Anne Bond Dashiell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Time_vector:has_event",
+        "object": "Maltese Falcon placed second on The Top 100 Mystery Novels of All Time as selected by the Mystery Writers of America",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Kinship:has_theme",
+        "object": "Hammett's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Measure_duration:has_theme",
+        "object": "Five",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Categorization:has_location",
+        "object": "New York Times",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text_creation:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Political_locales:has_theme",
+        "object": "city",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Locative_relation:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Arriving:has_goal",
+        "object": "be known as film noir",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Objective_influence:has_theme",
+        "object": "mystery films, including the style that came to be known as film noir",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Personal_relationship:has_location",
+        "object": "Saint Mary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Kinship:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Choosing:has_theme",
+        "object": "Mystery Writers of America",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Desirability:has_theme",
+        "object": "mystery writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Desirability:has_theme",
+        "object": "English-language novels published between 1923 and 2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Being_named:has_theme",
+        "object": "as Sam",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Be_subset_of:has_theme",
+        "object": "characters he created",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Duration_description:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Time_vector:has_theme",
+        "object": "Five years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Political_locales:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+        "predicate": "Ordinal_numbers:has_theme",
+        "object": "Top 100 Mystery Novels of All Time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_time",
+        "object": "1990",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Desirability:has_degree",
+        "object": "very",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_author",
+        "object": "Hammett's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Objective_influence:has_degree",
+        "object": "significant",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+        "predicate": "Ordinal_numbers:has_item",
+        "object": "Maltese Falcon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Text:has_time",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Age:has_age",
+        "object": "four years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text_creation:has_author",
+        "object": "American writer (1894–1961 ) Samuel Dashiell Hammett ( / d l h m t / DASH -l HAM -it ; May 27, 1894 – January 10, 1961)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Measure_duration:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Text:has_theme",
+        "object": "mystery",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/France",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Maryland",
+        "predicate": "Age:has_entity",
+        "object": "Maryland family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Locative_relation:has_theme",
+        "object": "where",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_time",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_theme",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Publishing:has_time",
+        "object": "between 1923 and 2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Publishing:has_work",
+        "object": "100 best English-language novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Locative_relation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1961",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Being_born:has_location",
+        "object": "near Great Mills on the \"Hopewell and Aim\" farm in Saint Mary's County, Maryland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+        "predicate": "Categorization:has_category",
+        "object": "as \" the dean of the...'hard-boiled'school of detective fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Be_subset_of:has_theme",
+        "object": "Sam Spade ( The Maltese Falcon ), Nick and Nora Charles ( The Thin Man ), The Continental Op ( Red Harvest and The Dain Curse ) and the comic strip character Secret Agent X-9",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Residence:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Objective_influence:has_theme",
+        "object": "His novels and stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Personal_relationship:has_location",
+        "object": "Philadelphia and Baltimore",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_location",
+        "object": "New York Times",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Maryland",
+        "predicate": "Age:has_location",
+        "object": "http://en.wikipedia.org/wiki/France",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Being_named:has_theme",
+        "object": "as film noir",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Inclusion:has_theme",
+        "object": "Hammett's 1929 novel Red Harvest",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Kinship:has_theme",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the very best mystery writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+        "predicate": "Being_named:has_location",
+        "object": "http://en.wikipedia.org/wiki/France",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+        "predicate": "Text:has_theme",
+        "object": "New York Times",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Time_vector:has_event",
+          "object": "Maltese Falcon placed second on The Top 100 Mystery Novels of All Time as selected by the Mystery Writers of America",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Being_born:has_theme",
+          "object": "Richard Thomas Hammett and his wife Anne Bond Dashiell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Being_born:has_location",
+          "object": "near Great Mills on the \"Hopewell and Aim\" farm in Saint Mary's County, Maryland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Inclusion:has_theme",
+          "object": "its list of the 100 best English-language novels published between 1923 and 2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Behind_the_scenes:has_type",
+          "object": "mystery",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text_creation:has_text",
+          "object": "hard-boiled detective novels and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Inclusion:has_theme",
+          "object": "mystery films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Objective_influence:has_theme",
+          "object": "mystery films, including the style that came to be known as film noir",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Choosing:has_theme",
+          "object": "Mystery Writers of America",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Desirability:has_theme",
+          "object": "mystery writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Desirability:has_theme",
+          "object": "English-language novels published between 1923 and 2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+          "predicate": "Ordinal_numbers:has_theme",
+          "object": "Top 100 Mystery Novels of All Time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Text:has_theme",
+          "object": "mystery",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Publishing:has_work",
+          "object": "100 best English-language novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Objective_influence:has_theme",
+          "object": "His novels and stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Inclusion:has_theme",
+          "object": "Hammett's 1929 novel Red Harvest",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the very best mystery writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/France",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_theme",
+          "object": "detective",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Being_named:has_theme",
+          "object": "de Chiel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Age:has_age",
+          "object": "younger",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philadelphia",
+          "predicate": "Rite:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Catholic_Church",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text_creation:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Desirability:has_time",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Categorization:has_theme",
+          "object": "his obituary in The New York Times",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Growing_food:has_location",
+          "object": "Philadelphia and Baltimore",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Categorization:has_item",
+          "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Residence:has_location",
+          "object": "where",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Being_named:has_entity",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+          "predicate": "Categorization:has_item",
+          "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Age:has_age",
+          "object": "26 years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Intentionally_create:has_theme",
+          "object": "characters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Behind_the_scenes:has_type",
+          "object": "noir",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Kinship:has_theme",
+          "object": "sister",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Text:has_theme",
+          "object": "English-language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Age:has_entity",
+          "object": "sister",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Being_named:has_location",
+          "object": "http://en.wikipedia.org/wiki/Philadelphia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_text",
+          "object": "Red Harvest",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Measure_duration:has_theme",
+          "object": "four",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Being_named:has_entity",
+          "object": "whose",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Age:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_theme",
+          "object": "hard-boiled",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Inclusion:has_theme",
+          "object": "style that came to be known as film noir",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Inclusion:has_time",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Text:has_text",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Residence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Age:has_entity",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Arriving:has_theme",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Measure_duration:has_theme",
+          "object": "26",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "Anne Bond Dashiell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Kinship:has_theme",
+          "object": "Hammett's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Measure_duration:has_theme",
+          "object": "Five",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Categorization:has_location",
+          "object": "New York Times",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text_creation:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Political_locales:has_theme",
+          "object": "city",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Locative_relation:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Arriving:has_goal",
+          "object": "be known as film noir",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Personal_relationship:has_location",
+          "object": "Saint Mary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Kinship:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Being_named:has_theme",
+          "object": "as Sam",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Be_subset_of:has_theme",
+          "object": "characters he created",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Duration_description:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Time_vector:has_theme",
+          "object": "Five years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Political_locales:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_time",
+          "object": "1990",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Desirability:has_degree",
+          "object": "very",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_author",
+          "object": "Hammett's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Objective_influence:has_degree",
+          "object": "significant",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+          "predicate": "Ordinal_numbers:has_item",
+          "object": "Maltese Falcon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Text:has_time",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Age:has_age",
+          "object": "four years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text_creation:has_author",
+          "object": "American writer (1894–1961 ) Samuel Dashiell Hammett ( / d l h m t / DASH -l HAM -it ; May 27, 1894 – January 10, 1961)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Measure_duration:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/France",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Maryland",
+          "predicate": "Age:has_entity",
+          "object": "Maryland family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Locative_relation:has_theme",
+          "object": "where",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_time",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_theme",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Publishing:has_time",
+          "object": "between 1923 and 2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Locative_relation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1961",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "predicate": "Categorization:has_category",
+          "object": "as \" the dean of the...'hard-boiled'school of detective fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Be_subset_of:has_theme",
+          "object": "Sam Spade ( The Maltese Falcon ), Nick and Nora Charles ( The Thin Man ), The Continental Op ( Red Harvest and The Dain Curse ) and the comic strip character Secret Agent X-9",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Residence:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Personal_relationship:has_location",
+          "object": "Philadelphia and Baltimore",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_location",
+          "object": "New York Times",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Maryland",
+          "predicate": "Age:has_location",
+          "object": "http://en.wikipedia.org/wiki/France",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Being_named:has_theme",
+          "object": "as film noir",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Kinship:has_theme",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+          "predicate": "Being_named:has_location",
+          "object": "http://en.wikipedia.org/wiki/France",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+          "predicate": "Text:has_theme",
+          "object": "New York Times",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/France",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Philadelphia",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Maryland",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/Maryland",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett"
+    ],
+    "objects": [
+      "family",
+      "detective",
+      "films",
+      "de Chiel",
+      "younger",
+      "http://en.wikipedia.org/wiki/Catholic_Church",
+      "http://en.wikipedia.org/wiki/United_States",
+      "1929",
+      "his obituary in The New York Times",
+      "Philadelphia and Baltimore",
+      "novels",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "Richard Thomas Hammett and his wife Anne Bond Dashiell",
+      "where",
+      "that",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "26 years",
+      "characters",
+      "noir",
+      "sister",
+      "novels",
+      "its list of the 100 best English-language novels published between 1923 and 2005",
+      "English-language",
+      "sister",
+      "http://en.wikipedia.org/wiki/Philadelphia",
+      "Red Harvest",
+      "four",
+      "whose",
+      "1920",
+      "hard-boiled",
+      "mystery",
+      "style that came to be known as film noir",
+      "1929",
+      "hard-boiled detective novels and short stories",
+      "writers",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "brother",
+      "that",
+      "26",
+      "mystery films",
+      "Anne Bond Dashiell",
+      "Maltese Falcon placed second on The Top 100 Mystery Novels of All Time as selected by the Mystery Writers of America",
+      "Hammett's",
+      "Five",
+      "New York Times",
+      "1961",
+      "city",
+      "1920",
+      "be known as film noir",
+      "mystery films, including the style that came to be known as film noir",
+      "Saint Mary",
+      "1920",
+      "Mystery Writers of America",
+      "novels",
+      "mystery writers",
+      "English-language novels published between 1923 and 2005",
+      "as Sam",
+      "characters he created",
+      "1961",
+      "Five years",
+      "1920",
+      "Top 100 Mystery Novels of All Time",
+      "1990",
+      "very",
+      "Hammett's",
+      "stories",
+      "significant",
+      "Maltese Falcon",
+      "1961",
+      "1929",
+      "four years",
+      "American writer (1894–1961 ) Samuel Dashiell Hammett ( / d l h m t / DASH -l HAM -it ; May 27, 1894 – January 10, 1961)",
+      "1920",
+      "mystery",
+      "http://en.wikipedia.org/wiki/France",
+      "Maryland family",
+      "where",
+      "1929",
+      "1929",
+      "years",
+      "between 1923 and 2005",
+      "100 best English-language novels",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "mother",
+      "1961",
+      "near Great Mills on the \"Hopewell and Aim\" farm in Saint Mary's County, Maryland",
+      "as \" the dean of the...'hard-boiled'school of detective fiction",
+      "Sam Spade ( The Maltese Falcon ), Nick and Nora Charles ( The Thin Man ), The Continental Op ( Red Harvest and The Dain Curse ) and the comic strip character Secret Agent X-9",
+      "1920",
+      "His novels and stories",
+      "Philadelphia and Baltimore",
+      "New York Times",
+      "http://en.wikipedia.org/wiki/France",
+      "writer",
+      "as film noir",
+      "Hammett's 1929 novel Red Harvest",
+      "brother",
+      "as one of the very best mystery writers",
+      "http://en.wikipedia.org/wiki/France",
+      "New York Times"
+    ],
+    "all_unique": [
+      "Hammett's 1929 novel Red Harvest",
+      "26",
+      "that",
+      "Red Harvest",
+      "Five years",
+      "whose",
+      "English-language",
+      "as film noir",
+      "Maltese Falcon",
+      "detective",
+      "as Sam",
+      "four years",
+      "characters",
+      "style that came to be known as film noir",
+      "Mystery Writers of America",
+      "four",
+      "city",
+      "26 years",
+      "sister",
+      "http://en.wikipedia.org/wiki/Maryland",
+      "Saint Mary",
+      "Sam Spade ( The Maltese Falcon ), Nick and Nora Charles ( The Thin Man ), The Continental Op ( Red Harvest and The Dain Curse ) and the comic strip character Secret Agent X-9",
+      "stories",
+      "1990",
+      "Maryland family",
+      "http://en.wikipedia.org/wiki/Catholic_Church",
+      "100 best English-language novels",
+      "Anne Bond Dashiell",
+      "mother",
+      "http://en.wikipedia.org/wiki/Dashiell_Hammett",
+      "1929",
+      "novels",
+      "hard-boiled detective novels and short stories",
+      "http://en.wikipedia.org/wiki/The_Thin_Man_(film)",
+      "between 1923 and 2005",
+      "English-language novels published between 1923 and 2005",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nick_and_Nora_Charles",
+      "films",
+      "near Great Mills on the \"Hopewell and Aim\" farm in Saint Mary's County, Maryland",
+      "Top 100 Mystery Novels of All Time",
+      "http://en.wikipedia.org/wiki/Philadelphia",
+      "Philadelphia and Baltimore",
+      "significant",
+      "its list of the 100 best English-language novels published between 1923 and 2005",
+      "mystery films, including the style that came to be known as film noir",
+      "de Chiel",
+      "http://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)",
+      "1920",
+      "His novels and stories",
+      "as \" the dean of the...'hard-boiled'school of detective fiction",
+      "http://en.wikipedia.org/wiki/France",
+      "characters he created",
+      "writers",
+      "noir",
+      "Maltese Falcon placed second on The Top 100 Mystery Novels of All Time as selected by the Mystery Writers of America",
+      "his obituary in The New York Times",
+      "American writer (1894–1961 ) Samuel Dashiell Hammett ( / d l h m t / DASH -l HAM -it ; May 27, 1894 – January 10, 1961)",
+      "very",
+      "New York Times",
+      "writer",
+      "mystery writers",
+      "be known as film noir",
+      "Hammett's",
+      "as one of the very best mystery writers",
+      "Richard Thomas Hammett and his wife Anne Bond Dashiell",
+      "1961",
+      "family",
+      "Five",
+      "hard-boiled",
+      "http://en.wikipedia.org/wiki/The_New_York_Times",
+      "mystery",
+      "years",
+      "younger",
+      "where",
+      "mystery films",
+      "brother"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Kinship:has_theme",
+      "Text:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Being_named:has_theme",
+      "Age:has_age",
+      "Rite:has_theme",
+      "Text_creation:has_location",
+      "Desirability:has_time",
+      "Categorization:has_theme",
+      "Growing_food:has_location",
+      "Text:has_text",
+      "Categorization:has_item",
+      "Being_born:has_theme",
+      "Residence:has_location",
+      "Being_named:has_entity",
+      "Categorization:has_item",
+      "Age:has_age",
+      "Intentionally_create:has_theme",
+      "Behind_the_scenes:has_type",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Inclusion:has_theme",
+      "Text:has_theme",
+      "Age:has_entity",
+      "Being_named:has_location",
+      "Text:has_text",
+      "Measure_duration:has_theme",
+      "Being_named:has_entity",
+      "Age:has_time",
+      "Text:has_theme",
+      "Behind_the_scenes:has_type",
+      "Inclusion:has_theme",
+      "Inclusion:has_time",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Residence:has_theme",
+      "Age:has_entity",
+      "Arriving:has_theme",
+      "Measure_duration:has_theme",
+      "Inclusion:has_theme",
+      "Personal_relationship:has_theme",
+      "Time_vector:has_event",
+      "Kinship:has_theme",
+      "Measure_duration:has_theme",
+      "Categorization:has_location",
+      "Text_creation:has_time",
+      "Political_locales:has_theme",
+      "Locative_relation:has_time",
+      "Arriving:has_goal",
+      "Objective_influence:has_theme",
+      "Personal_relationship:has_location",
+      "Kinship:has_time",
+      "Choosing:has_theme",
+      "Text:has_text",
+      "Desirability:has_theme",
+      "Desirability:has_theme",
+      "Being_named:has_theme",
+      "Be_subset_of:has_theme",
+      "Duration_description:has_time",
+      "Time_vector:has_theme",
+      "Political_locales:has_time",
+      "Ordinal_numbers:has_theme",
+      "Text:has_time",
+      "Desirability:has_degree",
+      "Text:has_author",
+      "Duration_description:has_theme",
+      "Objective_influence:has_degree",
+      "Ordinal_numbers:has_item",
+      "Text:has_time",
+      "Text:has_time",
+      "Age:has_age",
+      "Text_creation:has_author",
+      "Measure_duration:has_time",
+      "Text:has_theme",
+      "Kinship:has_location",
+      "Age:has_entity",
+      "Locative_relation:has_theme",
+      "Text:has_time",
+      "Text:has_theme",
+      "Measure_duration:has_theme",
+      "Publishing:has_time",
+      "Publishing:has_work",
+      "Locative_relation:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_time",
+      "Being_born:has_location",
+      "Categorization:has_category",
+      "Be_subset_of:has_theme",
+      "Residence:has_time",
+      "Objective_influence:has_theme",
+      "Personal_relationship:has_location",
+      "Text:has_location",
+      "Age:has_location",
+      "Origin:has_entity",
+      "Being_named:has_theme",
+      "Inclusion:has_theme",
+      "Kinship:has_theme",
+      "Categorization:has_category",
+      "Being_named:has_location",
+      "Text:has_theme"
+    ],
+    "unique_predicates": [
+      "Choosing:has_theme",
+      "Residence:has_theme",
+      "Personal_relationship:has_theme",
+      "Objective_influence:has_theme",
+      "Ordinal_numbers:has_theme",
+      "Measure_duration:has_theme",
+      "Arriving:has_goal",
+      "Publishing:has_work",
+      "Kinship:has_time",
+      "Measure_duration:has_time",
+      "Age:has_age",
+      "Age:has_entity",
+      "Text:has_location",
+      "Being_born:has_theme",
+      "Being_named:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Being_named:has_entity",
+      "Inclusion:has_time",
+      "Residence:has_location",
+      "Text_creation:has_time",
+      "Objective_influence:has_degree",
+      "Desirability:has_theme",
+      "Kinship:has_theme",
+      "Text_creation:has_location",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Publishing:has_time",
+      "Being_born:has_location",
+      "Rite:has_theme",
+      "Age:has_location",
+      "Text_creation:has_author",
+      "Text:has_author",
+      "Locative_relation:has_theme",
+      "Political_locales:has_time",
+      "Personal_relationship:has_location",
+      "Categorization:has_category",
+      "Kinship:has_location",
+      "Text_creation:has_text",
+      "Residence:has_time",
+      "Political_locales:has_theme",
+      "Categorization:has_item",
+      "Duration_description:has_time",
+      "Desirability:has_degree",
+      "Ordinal_numbers:has_item",
+      "Locative_relation:has_time",
+      "Behind_the_scenes:has_type",
+      "Time_vector:has_theme",
+      "Text:has_theme",
+      "Inclusion:has_theme",
+      "Categorization:has_theme",
+      "Origin:has_entity",
+      "Age:has_time",
+      "Origin:has_time",
+      "Being_named:has_location",
+      "Time_vector:has_event",
+      "Intentionally_create:has_theme",
+      "Arriving:has_theme",
+      "Categorization:has_location",
+      "Desirability:has_time",
+      "Be_subset_of:has_theme",
+      "Text:has_time",
+      "Growing_food:has_location"
+    ],
+    "predicate_counts": {
+      "Kinship:has_theme": 5,
+      "Text:has_theme": 6,
+      "Behind_the_scenes:has_theme": 1,
+      "Being_named:has_theme": 3,
+      "Age:has_age": 3,
+      "Rite:has_theme": 1,
+      "Text_creation:has_location": 1,
+      "Desirability:has_time": 1,
+      "Categorization:has_theme": 1,
+      "Growing_food:has_location": 1,
+      "Text:has_text": 5,
+      "Categorization:has_item": 2,
+      "Being_born:has_theme": 1,
+      "Residence:has_location": 1,
+      "Being_named:has_entity": 2,
+      "Intentionally_create:has_theme": 1,
+      "Behind_the_scenes:has_type": 2,
+      "Inclusion:has_theme": 4,
+      "Age:has_entity": 3,
+      "Being_named:has_location": 2,
+      "Measure_duration:has_theme": 4,
+      "Age:has_time": 1,
+      "Inclusion:has_time": 1,
+      "Text_creation:has_text": 1,
+      "Residence:has_theme": 1,
+      "Arriving:has_theme": 1,
+      "Personal_relationship:has_theme": 1,
+      "Time_vector:has_event": 1,
+      "Categorization:has_location": 1,
+      "Text_creation:has_time": 1,
+      "Political_locales:has_theme": 1,
+      "Locative_relation:has_time": 1,
+      "Arriving:has_goal": 1,
+      "Objective_influence:has_theme": 2,
+      "Personal_relationship:has_location": 2,
+      "Kinship:has_time": 1,
+      "Choosing:has_theme": 1,
+      "Desirability:has_theme": 2,
+      "Be_subset_of:has_theme": 2,
+      "Duration_description:has_time": 1,
+      "Time_vector:has_theme": 1,
+      "Political_locales:has_time": 1,
+      "Ordinal_numbers:has_theme": 1,
+      "Text:has_time": 4,
+      "Desirability:has_degree": 1,
+      "Text:has_author": 1,
+      "Duration_description:has_theme": 1,
+      "Objective_influence:has_degree": 1,
+      "Ordinal_numbers:has_item": 1,
+      "Text_creation:has_author": 1,
+      "Measure_duration:has_time": 1,
+      "Kinship:has_location": 1,
+      "Locative_relation:has_theme": 2,
+      "Publishing:has_time": 1,
+      "Publishing:has_work": 1,
+      "Origin:has_time": 1,
+      "Being_born:has_location": 1,
+      "Categorization:has_category": 2,
+      "Residence:has_time": 1,
+      "Text:has_location": 1,
+      "Age:has_location": 1,
+      "Origin:has_entity": 1
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Order of the British Empire and poems separately, but there is no semantic connection between them. The poems are part of Tolkien's body of work, not a text property of the Order."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien People_by_vocation:has_theme Rawlinson and Bosworth",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Tolkien held the position of 'Rawlinson and Bosworth Professor of Anglo-Saxon,' which is a vocational role. While 'has_theme' is an imperfect predicate, there is a clear semantic connection between Tolkien and this professorial title through his vocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Social_connection:has_degree close",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Tolkien was a close friend of C. S. Lewis.' The predicate 'has_degree' with the value 'close' reasonably captures the nature of this social connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Causation:has_effect avalanche of new fantasy books and authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The 'avalanche of new fantasy books' is described as an effect of the success of Tolkien's works, not his appointment to the Order of the British Empire. The two concepts are mentioned in different contexts with no causal link between them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Tolkien 'has been popularly identified as the \"father\" of modern fantasy literature.' While this is a metaphorical use of 'father' related to his influence (a theme), not a literal kinship, the semantic connection is reasonably extractable under lenient guidelines."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Text_creation:has_text high fantasy works The Hobbit and The Lord of the Rings",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He was the author of the high fantasy works The Hobbit and The Lord of the Rings', which directly supports the triple's meaning of Tolkien creating these texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien People_by_vocation:has_type Anglo-Saxon",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Tolkien held the title 'Rawlinson and Bosworth Professor of Anglo-Saxon'. While 'Anglo-Saxon' here refers to a subject of study rather than a direct vocational type, there is a semantic connection to his expertise and professional focus."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Increment:has_class authors",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Tolkien (an author) was appointed a Commander of the Order of the British Empire. The connection between the Order and the class 'authors' is very weak and indirect, but the Order was awarded to an author, creating a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Aggregate:has_theme connected",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states the body of Tolkien's works 'form a connected body of tales'. The Order of the British Empire is mentioned in the same text. While the connection is extremely tenuous, the theme of 'connected' is present in the paragraph, allowing for a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Coming_up_with:has_theme languages",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Tolkien invented languages and the Order of the British Empire is mentioned. The connection is very weak, but both concepts ('invented languages' and the Order) appear in the text, creating a minimal, indirect semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Identicality:has_theme university",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Tolkien's academic positions at the University of Oxford, which is related to the theme of university studies, though 'English studies' as a specific field is only indirectly connected through his role as Merton Professor of English Language and Literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge People:has_person Fellow",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Tolkien was a 'Fellow of Pembroke College' at Oxford, but the triple incorrectly specifies Cambridge. There is a weak semantic connection based on the role of 'Fellow' and the college name, despite the university mismatch."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Personal_success:has_theme Hobbit and The Lord of the Rings",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Tolkien was appointed to the Order of the British Empire, and his works 'The Hobbit and The Lord of the Rings' are mentioned as his notable creations. There is an indirect connection between the honor and his literary success, though not explicitly linked in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Simple_name:has_theme legendarium",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The Order of the British Empire is mentioned in relation to Tolkien, and the term 'legendarium' is used to describe his writings. The connection is very weak and indirect, but both concepts appear in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Using:has_purpose larger part of these writings",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Tolkien 'applied the term legendarium to the larger part of these writings,' which directly connects him to using the term for a purpose related to his body of work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text_creation:has_author authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's predicate 'Text_creation:has_author' and object 'authors' do not form a coherent semantic relationship with the subject. The paragraph states Tolkien was appointed a Commander of the Order of the British Empire, but this is unrelated to the concept of text creation or authorship attributed to the Order itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Age:has_age new",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'English_studies' is thematically related to Tolkien's academic positions, but the predicate 'Age:has_age' and object 'new' are completely unrelated to any information in the paragraph. There is no mention of the age or newness of English studies."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Social_connection:has_theme C. S. Lewis, a co-member of the Inklings, an informal literary discussion group",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The subject is Tolkien. The paragraph explicitly states 'Tolkien was a close friend of C. S. Lewis, a co-member of the Inklings'. While the predicate 'Social_connection:has_theme' is an unusual way to phrase a friendship, it semantically captures the existence of a social connection between the two individuals mentioned in the object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Referring_by_name:has_theme http://en.wikipedia.org/wiki/Arda_(Tolkien)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject (Order of the British Empire) and the object (Arda) are both mentioned in the paragraph, but there is absolutely no connection or theme linking them. The honor was awarded to Tolkien, and Arda is his fictional world; the paragraph does not suggest the Order has any thematic relation to Arda."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hobbit Position_on_a_scale:has_item fantasy works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The subject 'The Hobbit' is mentioned, and the paragraph describes it as one of Tolkien's 'high fantasy works'. The object 'fantasy works' is directly related. The predicate 'Position_on_a_scale:has_item' is a stretch, but can be loosely interpreted as categorizing The Hobbit as an item belonging to the category of fantasy works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Part_whole:has_theme part",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not form a meaningful statement. The phrase 'has_theme part' is not a standard or interpretable predicate. The paragraph mentions the Order of the British Empire in the context of Tolkien's appointment, but this triple does not express a coherent idea that can be extracted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Publishing:has_time before Tolkien",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. The phrase 'Publishing:has_time before Tolkien' is not a standard or interpretable predicate. It attempts to relate the Order to a time 'before Tolkien', but the paragraph only states Tolkien was appointed to the Order in 1972, not that the Order itself existed before him in a 'publishing' context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Creating:has_cause These, together with The Hobbit and The Lord of the Rings",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and the relationship is not supported. The paragraph states Tolkien's works caused his fame, not that his works were the cause of the Order of the British Empire. The predicate 'Creating:has_cause' does not logically connect the subject and object based on the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Categorization:has_category as one of the most influential authors of all time",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The relationship is incorrectly attributed. The paragraph states Tolkien is regarded as one of the most influential authors, but this categorization is a result of his literary success, not a property of the Order of the British Empire. The triple connects the category directly to the Order, which is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text:has_text essays",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The relationship is weak and incorrectly attributed. The paragraph mentions 'literary essays' as part of Tolkien's body of work about Middle-earth. However, this is not a property of the Order of the British Empire. The triple falsely attributes the text 'essays' to the Order."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Part_whole:has_theme these writings",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is mentioned as an honor bestowed upon Tolkien, but there is no semantic connection suggesting it has 'these writings' as a theme. The writings are Tolkien's literary works, not related to the theme of the Order."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Emotion_directed:has_theme fantasy genre",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses the fantasy genre in relation to Tolkien's influence, but the Order of the British Empire is an unrelated honor. There is no link between the Order and the fantasy genre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Publishing:has_work works of fantasy",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is an award, not a publishing entity. The 'works of fantasy' are authored by Tolkien, not by the Order."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Subjective_influence:has_entity authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order is a decoration given to individuals; it does not 'have' authors as entities in the sense described. Authors are mentioned in the paragraph, but not in relation to 'having' them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text:has_theme fantasy world called Arda and, within it, Middle-earth",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The fantasy world is a theme of Tolkien's writings, not a theme of the Order of the British Empire. The Order and the fantasy world are completely unrelated concepts in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Quantified_mass:has_quantity avalanche",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions an 'avalanche of new fantasy books' as a result of Tolkien's influence, and separately mentions the Order of the British Empire. The connection is extremely weak and indirect, but both concepts are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_studies Being_employed:has_time 1945",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Tolkien became the Merton Professor of English Language and Literature in 1945. This is a direct connection to English studies and the specific year 1945."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Emotion_directed:has_degree profound",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions a 'profound interest' in fantasy and separately mentions the Order of the British Empire. The connection is very weak and indirect, but both the concept of 'profound' and the Order are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Awareness:has_theme himself",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Tolkien was English, and thought of himself as such,' which directly indicates self-awareness or thought about himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Inclusion:has_theme his father's extensive notes and unpublished manuscripts",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions both the Order of the British Empire and the publication of works based on 'his father's extensive notes and unpublished manuscripts.' The connection is very tenuous, as they are separate facts, but both elements are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Increment:has_theme many",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Order of the British Empire in the context of Tolkien's appointment, but there is no mention of a theme of 'many' or any concept that could be semantically linked to 'many' in relation to the Order."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Publishing:has_theme many other authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is mentioned, and 'many other authors' are mentioned in a different context about fantasy literature. However, there is no semantic connection linking the Order to a theme of 'many other authors'; the concepts are entirely separate in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Merton_College,_Oxford Institutionalization:has_time 1945",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Tolkien became a Fellow of Merton College in 1945. This directly connects Merton College to the time '1945' in the context of an institutional role (a fellowship)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Publishing:has_work series of works based on his father's extensive notes and unpublished manuscripts, including The Silmarillion",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is mentioned in one sentence, and the publication of works by Christopher Tolkien is mentioned in a completely separate sentence. There is no semantic link between the Order and the act of publishing these works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien People_by_vocation:has_time 1945",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1945 is explicitly mentioned twice in the paragraph as a significant time for Tolkien's career, marking a change in his professional vocation (becoming Merton Professor and Fellow of Merton College)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Hobbit Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'The Hobbit' is one of Tolkien's high fantasy works, establishing a clear semantic connection between the subject and the theme of 'works'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Labor_product:has_theme works",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Order of the British Empire in the context of an honor bestowed upon Tolkien, but there is no semantic connection, even indirect, suggesting the Order has a theme related to 'works'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text:has_text manuscripts",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'manuscripts' in the context of Tolkien's unpublished writings, but there is no semantic link, however weak, connecting this concept to the Order of the British Empire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Inclusion:has_theme Silmarillion",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'The Silmarillion' as a work published posthumously, but there is no information linking it thematically or otherwise to the Order of the British Empire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Text:has_text books",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'books' in the context of the fantasy genre's popularity, but there is no semantic relationship, implied or direct, between this concept and the Order of the British Empire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Relative_time:has_theme Tolkien's death",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Tolkien's death and the Order of the British Empire, but there is no semantic connection between them. The OBE appointment happened before his death and is unrelated to it as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._R._R._Tolkien Social_connection:has_theme friend",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Tolkien was a close friend of C. S. Lewis', establishing a clear social connection with the theme of friendship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Appointing:has_theme Queen Elizabeth II",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'He was appointed a Commander of the Order of the British Empire by Queen Elizabeth II', directly linking the OBE, the act of appointing, and the Queen as the appointer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Categorization:has_category as the 'father' of modern fantasy literature",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Tolkien being identified as the 'father' of modern fantasy literature, but this is a separate fact from his appointment to the Order of the British Empire. There is no semantic link between the OBE and this categorization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pembroke_College,_Cambridge Locale_by_use:has_time 1925",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'From 1925 to 1945 Tolkien was... a Fellow of Pembroke College'. While the college specified is at Oxford, not Cambridge, the triple captures the semantic relationship of an institution being associated with a specific time period (1925). The core concept is extractable, though the specific college identity is incorrect."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 18,
+    "accuracy": 0.36,
+    "avg_confidence": 0.36999999999999994,
+    "high_confidence_50": 18,
+    "high_confidence_80": 10,
+    "percent_50": 36.0,
+    "percent_80": 20.0,
+    "max_triples_limit": 50
+  }
+}

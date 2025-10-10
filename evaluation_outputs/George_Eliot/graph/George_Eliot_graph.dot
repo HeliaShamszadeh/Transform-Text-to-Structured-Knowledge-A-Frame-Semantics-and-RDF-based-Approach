@@ -1,0 +1,268 @@
+digraph George_Eliot {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "provincial England" [label="provincial England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist Virginia Woolf" [label="novelist Virginia Woolf", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her works" [label="Her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as the greatest novel in th..." [label="as the greatest novel in th...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "most of her works" [label="most of her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "seven novels : Adam Bede 18..." [label="seven novels : Adam Bede 18...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "few English novels" [label="few English novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Pearson" [label="Pearson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "another man" [label="another man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Daniel Deronda" [label="Daniel Deronda", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her pen name George Eliot" [label="her pen name George Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few" [label="few", fillcolor=lightgray, color=gray, shape=hexagon];
+    "another" [label="another", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Evans" [label="Robert Evans", fillcolor=lightgray, color=gray, shape=hexagon];
+    "long-time" [label="long-time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "live with another man and h..." [label="live with another man and h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "twin" [label="twin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Eliot" [label="George Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her husband" [label="her husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much younger than she" [label="much younger than she", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victorian era" [label="Victorian era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "days" [label="days", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Chrissey 1814–1859" [label="as Chrissey 1814–1859", fillcolor=lightgray, color=gray, shape=hexagon];
+    "husband" [label="husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jake Jervis" [label="Jake Jervis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Freetown Christiania" [label="Freetown Christiania", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grown-up people" [label="grown-up people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much" [label="much", fillcolor=lightgray, color=gray, shape=hexagon];
+    "March" [label="March", fillcolor=lightgray, color=gray, shape=hexagon];
+    "local mill-owner" [label="local mill-owner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jervis left him to live wit..." [label="Jervis left him to live wit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her long-time friend John C..." [label="her long-time friend John C...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Mill on the Floss" [label="The Mill on the Floss", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mary Ann Cross" [label="Mary Ann Cross", fillcolor=lightgray, color=gray, shape=hexagon];
+    "He remained married to his ..." [label="He remained married to his ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "married to his wife, Agnes ..." [label="married to his wife, Agnes ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "daughter" [label="daughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Hardy" [label="Thomas Hardy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "man" [label="man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his wife, Agnes Jervis" [label="his wife, Agnes Jervis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charles Dickens" [label="Charles Dickens", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their realism, psychologica..." [label="their realism, psychologica...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven" [label="seven", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few days after birth in Mar..." [label="few days after birth in Mar...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Henry Lewes" [label="George Henry Lewes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Evans 1773–1849, man..." [label="Robert Evans 1773–1849, man...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "South Farm on the Arbury Ha..." [label="South Farm on the Arbury Ha...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "third" [label="third", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charles Dickens and Thomas ..." [label="Charles Dickens and Thomas ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "married George Henry Lewes" [label="married George Henry Lewes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English" [label="English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Middlemarch" [label="Middlemarch", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger" [label="younger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Evans 1773–1849" [label="Robert Evans 1773–1849", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virginia Woolf" [label="Virginia Woolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Christiana Evans" [label="Christiana Evans", fillcolor=lightgray, color=gray, shape=hexagon];
+    "siblings" [label="siblings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lewes's" [label="Lewes's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arbury Hall estate" [label="Arbury Hall estate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "May 1880" [label="May 1880", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Agnes Jervis" [label="Agnes Jervis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her name" [label="her name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eighteen months after Lewes..." [label="eighteen months after Lewes...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brothers" [label="brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Eliot married her lo..." [label="George Eliot married her lo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Eliot disambiguation" [label="George Eliot disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Thomas Hardy" -> "child" [label="has type [Ordinal_numbers]", color=lightblue, penwidth=1];
+    "Thomas Hardy" -> "few English novels" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "man" [label="has entity [Age]", color=lightgreen, penwidth=1];
+    "Thomas Hardy" -> "George Eliot" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "George Eliot" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "George Eliot married her lo..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Middlemarch" -> "who" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "The Mill on the Floss" -> "March" [label="has location [Kinship]", color=green, penwidth=2];
+    "George Eliot" -> "husband" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Jake Jervis" -> "children" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Thomas Hardy" -> "another" [label="has theme [Increment]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "George Eliot married her lo..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "The Mill on the Floss" -> "local mill-owner" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Jake Jervis" -> "live with another man and h..." [label="has theme [Abandonment]", color=lightseagreen, penwidth=1];
+    "Freetown Christiania" -> "Pearson" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Middlemarch" -> "March" [label="has location [Death]", color=green, penwidth=2];
+    "George Eliot" -> "her name" [label="has entity [Cause_change]", color=lightgoldenrod, penwidth=1];
+    "Thomas Hardy" -> "English" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "March" [label="has location [Completeness]", color=green, penwidth=2];
+    "Daniel Deronda" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "much younger than she" [label="has age [People]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "grown-up people" [label="has theme [Text_creation]", color=lightcoral, penwidth=1];
+    "Jake Jervis" -> "his wife, Agnes Jervis" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "George Eliot" -> "George Eliot disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Thomas Hardy" -> "man" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "siblings" [label="has theme [Completeness]", color=lightsteelblue, penwidth=1];
+    "George Eliot" -> "siblings" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Thomas Hardy" -> "May 1880" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Thomas Hardy" -> "long-time" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Thomas Hardy" -> "George Eliot" [label="has theme [Residence]", color=lightcoral, penwidth=1];
+    "George Eliot" -> "name" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Thomas Hardy" -> "March" [label="has location [Quantified_mass]", color=green, penwidth=2];
+    "George Eliot" -> "provincial England" [label="has theme [Departing]", color=lightyellow, penwidth=1];
+    "George Eliot" -> "March" [label="has location [Kinship]", color=green, penwidth=2];
+    "The Mill on the Floss" -> "brothers" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "George Eliot" -> "brothers" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Thomas Hardy" -> "much" [label="has degree [Age]", color=lightgreen, penwidth=1];
+    "Thomas Hardy" -> "few" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "The Mill on the Floss" -> "daughter" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "George Eliot" -> "her husband" [label="has theme [Simple_naming]", color=lightcyan, penwidth=1];
+    "Jake Jervis" -> "married to his wife, Agnes ..." [label="has state [State_continue]", color=lightsteelblue, penwidth=1];
+    "Thomas Hardy" -> "Jervis left him to live wit..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "George Eliot" -> "writers" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "novelist Virginia Woolf" [label="has speaker [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Thomas Hardy" -> "few" [label="has quantity [Quantified_mass]", color=lightgreen, penwidth=1];
+    "Charles Dickens" -> "George Eliot" [label="has theme [Similarity]", color=lightseagreen, penwidth=1];
+    "George Eliot" -> "uses" [label="has goal [Purpose]", color=lightsalmon, penwidth=1];
+    "Thomas Hardy" -> "their realism, psychologica..." [label="has reason [Fame]", color=lightgoldenrod, penwidth=1];
+    "Freetown Christiania" -> "March" [label="has location [Being_named]", color=green, penwidth=2];
+    "George Eliot" -> "third" [label="has age [People_by_age]", color=lightpink, penwidth=1];
+    "George Eliot" -> "her long-time friend John C..." [label="has theme [Forming_relationships]", color=lightsteelblue, penwidth=1];
+    "Daniel Deronda" -> "seven" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "George Eliot" -> "eighteen months after Lewes..." [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Thomas Hardy" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "George Eliot" -> "Victorian era" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "Middlemarch" [label="has theme [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Freetown Christiania" -> "Christiana Evans" [label="has entity [Being_named]", color=lightsalmon, penwidth=1];
+    "Thomas Hardy" -> "Lewes's" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "George Eliot" -> "Mary Ann Cross" [label="has theme [Cause_change]", color=lightgoldenrod, penwidth=1];
+    "George Eliot" -> "works" [label="has theme [Labor_product]", color=lightblue, penwidth=1];
+    "Thomas Hardy" -> "married George Henry Lewes" [label="has theme [Residence]", color=lightcoral, penwidth=1];
+    "George Eliot" -> "Robert Evans 1773–1849, man..." [label="has theme [People_by_age]", color=lightpink, penwidth=1];
+    "George Eliot" -> "her pen name George Eliot" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Robert Evans" -> "Arbury Hall estate" [label="has theme [People_by_vocation]", color=lightcoral, penwidth=1];
+    "Charles Dickens" -> "Charles Dickens and Thomas ..." [label="has theme [Similarity]", color=lightseagreen, penwidth=1];
+    "George Eliot" -> "George Henry Lewes" [label="has entity [Simple_naming]", color=lightcyan, penwidth=1];
+    "The Mill on the Floss" -> "twin" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Thomas Hardy" -> "man" [label="has person [People]", color=red, penwidth=2];
+    "Thomas Hardy" -> "days" [label="has theme [Quantified_mass]", color=lightgreen, penwidth=1];
+    "Thomas Hardy" -> "younger" [label="has age [Age]", color=lightgreen, penwidth=1];
+    "Jake Jervis" -> "Agnes Jervis" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Virginia Woolf" -> "Virginia Woolf" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "most of her works" [label="has theme [Placing]", color=lightgreen, penwidth=1];
+    "Daniel Deronda" -> "novels" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "Her works" [label="has entity [Fame]", color=lightgoldenrod, penwidth=1];
+    "Thomas Hardy" -> "He remained married to his ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Thomas Hardy" -> "there" [label="has goal [Placing]", color=lightgreen, penwidth=1];
+    "Robert Evans" -> "Robert Evans 1773–1849" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Thomas Hardy" -> "another man" [label="has theme [Residence]", color=lightcoral, penwidth=1];
+    "George Eliot" -> "seven novels : Adam Bede 18..." [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Thomas Hardy" -> "days" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "Thomas Hardy" -> "era" [label="has theme [Calendric_unit]", color=lightyellow, penwidth=1];
+    "George Eliot" -> "South Farm on the Arbury Ha..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Thomas Hardy" -> "Robert Evans 1773–1849, man..." [label="has theme [Ordinal_numbers]", color=lightblue, penwidth=1];
+    "Thomas Hardy" -> "March" [label="has location [Measure_duration]", color=green, penwidth=2];
+    "Freetown Christiania" -> "as Chrissey 1814–1859" [label="has theme [Being_named]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "as the greatest novel in th..." [label="has message [Statement]", color=lightgoldenrodyellow, penwidth=1];
+    "Middlemarch" -> "few days after birth in Mar..." [label="has time [Death]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Abandonment_legend" [label="Abandonment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Completeness_legend" [label="Completeness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Simple_naming_legend" [label="Simple_naming", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Purpose_legend" [label="Purpose", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Placing_legend" [label="Placing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

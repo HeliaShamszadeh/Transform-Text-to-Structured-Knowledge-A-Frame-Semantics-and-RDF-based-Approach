@@ -1,0 +1,259 @@
+digraph William_Shakespeare {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "as the greatest writer in t..." [label="as the greatest writer in t...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England's national poet and..." [label="England's national poet and...", fillcolor=lightgreen, color=green, shape=box];
+    "called England's national p..." [label="called England's national p...", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works attributed to him" [label="works attributed to him", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as some of the best works p..." [label="as some of the best works p...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "most of his known works" [label="most of his known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works produced in these genres" [label="works produced in these genres", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His extant works" [label="His extant works", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "be studied and reinterpreted" [label="be studied and reinterpreted", fillcolor=lightyellow, color=orange, shape=diamond];
+    "he died" [label="he died", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "playing company called the ..." [label="playing company called the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James VI and I" [label="James VI and I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verses" [label="verses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "national" [label="national", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His early plays" [label="His early plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the King's Men" [label="as the King's Men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few" [label="few", fillcolor=lightgray, color=gray, shape=hexagon];
+    "considerable speculation ab..." [label="considerable speculation ab...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "49" [label="49", fillcolor=lightgray, color=gray, shape=hexagon];
+    "arguably the most influenti..." [label="arguably the most influenti...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Hathaway," [label="Anne Hathaway,", fillcolor=lightgray, color=gray, shape=hexagon];
+    "18" [label="18", fillcolor=lightgray, color=gray, shape=hexagon];
+    "playing company" [label="playing company", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chamberlain office" [label="Chamberlain office", fillcolor=lightgray, color=gray, shape=hexagon];
+    "considerable" [label="considerable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other verses" [label="other verses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Shakespeare" [label="William Shakespeare", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into every major living lan..." [label="into every major living lan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uncertain" [label="uncertain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "these genres" [label="these genres", fillcolor=lightgray, color=gray, shape=hexagon];
+    "playwright" [label="playwright", fillcolor=lightgray, color=gray, shape=hexagon];
+    "narrative" [label="narrative", fillcolor=lightgray, color=gray, shape=hexagon];
+    "others" [label="others", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collaborations" [label="collaborations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "playing" [label="playing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stratford-upon-Avon, Warwic..." [label="Stratford-upon-Avon, Warwic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "company" [label="company", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this" [label="this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shakespeare disambiguation ..." [label="Shakespeare disambiguation ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shakespeare's private life" [label="Shakespeare's private life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more often than those of an..." [label="more often than those of an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "have retired to Stratford, ..." [label="have retired to Stratford, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sometime between 1585 and 1592" [label="Sometime between 1585 and 1592", fillcolor=lightgray, color=gray, shape=hexagon];
+    "religious" [label="religious", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three years" [label="three years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three years later" [label="three years later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Hathaway" [label="Anne Hathaway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "career" [label="career", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between 1589 and 1613" [label="between 1589 and 1613", fillcolor=lightgray, color=gray, shape=hexagon];
+    "London" [label="London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 18" [label="age of 18", fillcolor=lightgray, color=gray, shape=hexagon];
+    "such matters as his physica..." [label="such matters as his physica...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "successful career in London..." [label="successful career in London...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lord Chamberlain's Men" [label="Lord Chamberlain's Men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His plays" [label="His plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Few records of Shakespeare'..." [label="Few records of Shakespeare'...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "records" [label="records", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "William Shakespeare" -> "His plays" [label="has act [Intentionally_act]", color=lightblue, penwidth=1];
+    "William Shakespeare" -> "called England's national p..." [label="has event [Frequency]", color=lightcoral, penwidth=1];
+    "William Shakespeare" -> "children" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "William Shakespeare" -> "verses" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "James VI and I" -> "such matters as his physica..." [label="has theme [Coming_to_believe]", color=lightpink, penwidth=1];
+    "William Shakespeare" -> "his works" [label="has theme [Scrutiny]", color=lightcyan, penwidth=1];
+    "William Shakespeare" -> "uses" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "James VI and I" -> "years" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "William Shakespeare" -> "English language" [label="has theme [Subjective_influence]", color=lightgray, penwidth=1];
+    "William Shakespeare" -> "Stratford-upon-Avon, Warwic..." [label="has location [Being_born]", color=green, penwidth=2];
+    "London" -> "Lord Chamberlain's Men" [label="has theme [Referring_by_name]", color=lightseagreen, penwidth=1];
+    "William Shakespeare" -> "as the greatest writer in t..." [label="has category [Categorization]", color=lightsalmon, penwidth=1];
+    "James VI and I" -> "works" [label="has theme [Awareness]", color=lightgoldenrod, penwidth=1];
+    "James VI and I" -> "records" [label="has theme [Records]", color=lightpink, penwidth=1];
+    "William Shakespeare" -> "London" [label="has location [Activity_start]", color=green, penwidth=2];
+    "James VI and I" -> "William Shakespeare" [label="has theme [Give_impression]", color=lightcoral, penwidth=1];
+    "Chamberlain office" -> "playing company called the ..." [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "James VI and I" -> "this" [label="has cause [Cause_to_start]", color=lightcoral, penwidth=1];
+    "William Shakespeare" -> "his works" [label="has entity [Rejuvenation]", color=lightgreen, penwidth=1];
+    "Chamberlain office" -> "London" [label="has location [Being_named]", color=green, penwidth=2];
+    "William Shakespeare" -> "arguably the most influenti..." [label="has state [State_continue]", color=lightyellow, penwidth=1];
+    "James VI and I" -> "Shakespeare's private life" [label="has data [Records]", color=lightpink, penwidth=1];
+    "William Shakespeare" -> "Sometime between 1585 and 1592" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "James VI and I" -> "three" [label="has theme [Measure_duration]", color=lightsteelblue, penwidth=1];
+    "William Shakespeare" -> "writer" [label="has entity [Subjective_influence]", color=lightgray, penwidth=1];
+    "William Shakespeare" -> "more often than those of an..." [label="has theme [Intentionally_act]", color=lightblue, penwidth=1];
+    "James VI and I" -> "have retired to Stratford, ..." [label="has theme [Give_impression]", color=lightcoral, penwidth=1];
+    "William Shakespeare" -> "successful career in London..." [label="has activity [Activity_start]", color=lightsteelblue, penwidth=1];
+    "William Shakespeare" -> "be studied and reinterpreted" [label="has event [Process_continue]", color=lightpink, penwidth=1];
+    "James VI and I" -> "considerable" [label="has degree [Coming_to_believe]", color=lightpink, penwidth=1];
+    "William Shakespeare" -> "Stratford-upon-Avon, Warwic..." [label="has location [Growing_food]", color=green, penwidth=2];
+    "James VI and I" -> "others" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "William Shakespeare" -> "age of 18" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "James VI and I" -> "plays" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Chamberlain office" -> "as the King's Men" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "William Shakespeare" -> "His plays" [label="has theme [Translating]", color=lightseagreen, penwidth=1];
+    "William Shakespeare" -> "Anne Hathaway," [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "James VI and I" -> "49" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "Anne Hathaway" -> "18" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "James VI and I" -> "as some of the best works p..." [label="has category [Categorization]", color=lightsalmon, penwidth=1];
+    "William Shakespeare" -> "other verses" [label="has theme [Quantified_mass]", color=lightgoldenrod, penwidth=1];
+    "London" -> "company" [label="has business [Businesses]", color=lightpink, penwidth=1];
+    "James VI and I" -> "works produced in these genres" [label="has theme [Desirability]", color=lightsteelblue, penwidth=1];
+    "William Shakespeare" -> "His extant works" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "James VI and I" -> "three years later" [label="has time [Death]", color=purple, penwidth=2];
+    "William Shakespeare" -> "collaborations" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "William Shakespeare" -> "poems" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "James VI and I" -> "these genres" [label="has type [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "James VI and I" -> "William Shakespeare" [label="has recipient [Giving]", color=lightyellow, penwidth=1];
+    "James VI and I" -> "works attributed to him" [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "James VI and I" -> "William Shakespeare" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "James VI and I" -> "three years" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "James VI and I" -> "works" [label="has theme [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "William Shakespeare" -> "between 1589 and 1613" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "William Shakespeare" -> "few" [label="has quantity [Quantified_mass]", color=lightgoldenrod, penwidth=1];
+    "James VI and I" -> "His early plays" [label="has item [Categorization]", color=lightsalmon, penwidth=1];
+    "James VI and I" -> "Few records of Shakespeare'..." [label="has theme [Surviving]", color=lightcyan, penwidth=1];
+    "London" -> "playing company" [label="has entity [Referring_by_name]", color=lightseagreen, penwidth=1];
+    "William Shakespeare" -> "Shakespeare disambiguation ..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "London" -> "playing" [label="has theme [Businesses]", color=lightpink, penwidth=1];
+    "William Shakespeare" -> "national" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "William Shakespeare" -> "career" [label="has goal [Success_or_failure]", color=lightgoldenrodyellow, penwidth=1];
+    "William Shakespeare" -> "England's national poet and..." [label="has theme [Labeling]", color=lightseagreen, penwidth=1];
+    "William Shakespeare" -> "few" [label="has theme [Increment]", color=lightyellow, penwidth=1];
+    "James VI and I" -> "works" [label="has theme [Giving]", color=lightyellow, penwidth=1];
+    "William Shakespeare" -> "religious" [label="has theme [Opinion]", color=lightsalmon, penwidth=1];
+    "William Shakespeare" -> "into every major living lan..." [label="has theme [Translating]", color=lightseagreen, penwidth=1];
+    "James VI and I" -> "where" [label="has location [Death]", color=green, penwidth=2];
+    "William Shakespeare" -> "uncertain" [label="has theme [Leadership]", color=lightgoldenrod, penwidth=1];
+    "William Shakespeare" -> "playwright" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "William Shakespeare" -> "most of his known works" [label="has theme [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "William Shakespeare" -> "London" [label="has location [Success_or_failure]", color=green, penwidth=2];
+    "James VI and I" -> "he died" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "William Shakespeare" -> "works" [label="has work [Work]", color=lightpink, penwidth=1];
+    "James VI and I" -> "considerable speculation ab..." [label="has effect [Cause_to_start]", color=lightcoral, penwidth=1];
+    "James VI and I" -> "others" [label="has theme [Increment]", color=lightyellow, penwidth=1];
+    "William Shakespeare" -> "narrative" [label="has theme [Text]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Coming_to_believe_legend" [label="Coming_to_believe", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Records_legend" [label="Records", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cause_to_start_legend" [label="Cause_to_start", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Rejuvenation_legend" [label="Rejuvenation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Process_continue_legend" [label="Process_continue", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Surviving_legend" [label="Surviving", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Work_legend" [label="Work", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

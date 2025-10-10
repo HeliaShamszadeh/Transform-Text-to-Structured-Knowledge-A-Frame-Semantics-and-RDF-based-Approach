@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Quantified_mass:has_quantity several",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he published 'several short stories', which directly relates to the concept of 'several' as a quantity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Part_whole:has_theme part",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses themes in his work (history, morality, religion, evil, sin) which can be interpreted as 'parts' of his overall literary output, though the relationship is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_Custom_House Being_employed:has_employee http://en.wikipedia.org/wiki/Nathaniel_Hawthorne",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He worked at the Boston Custom House', clearly establishing an employment relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Inclusion:has_theme His published works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph extensively discusses the themes and content of his published works (novels, short stories, biography), establishing a strong semantic link between the author and his works' themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Taking:has_theme Hawthorne and family",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The phrase 'A political appointment as consul took Hawthorne and family to Europe' implies a 'taking' action. While 'has_theme' is a slightly odd predicate for this action, there is a weak semantic connection to the concept of being taken or moved."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Being_born:has_location Salem, Massachusetts",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He was born in 1804 in Salem, Massachusetts'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Time_vector:has_theme their return to Concord in 1860",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'their return to Concord in 1860' which is a specific time-related event in Hawthorne's life"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Topic:has_theme themes",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses Hawthorne's themes multiple times: 'His themes often center on...', 'His works often have moral messages'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Attempt:has_goal suppress it",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'he later tried to suppress it' referring to his first novel Fanshawe"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Subjective_influence:has_theme anti- Puritan",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'many works feature moral metaphors with an anti-Puritan inspiration'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Salem,_Oregon Membership:has_group that town",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph refers to Salem, Massachusetts, not Salem, Oregon. The phrase 'that town' clearly refers to Salem, Massachusetts, mentioned in the context of his birthplace and family association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Becoming_a_member:has_time before marrying Peabody in 1842",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he 'joined Brook Farm, a transcendentalist community, before marrying Peabody in 1842.' This directly connects the act of joining (Becoming_a_member) with the timeframe 'before marrying Peabody in 1842'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Inclusion:has_theme novels, short stories, and a biography of his college friend Franklin Pierce, written for his 1852 campaign for President of the United States, which Pierce won, becoming the 14th president",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His published works include novels, short stories, and a biography of his college friend Franklin Pierce, written for his 1852 campaign for President of the United States, which Pierce won, becoming the 14th president.' This is a direct match for the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Appellations:has_theme 14th",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The number '14th' is mentioned in the context of Franklin Pierce becoming the 14th president. While the connection to 'Appellations:has_theme' is very weak and indirect, the information is present in the text, representing a minimal semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The word 'family' is mentioned multiple times (e.g., 'from a family,' 'Hawthorne and family'). While 'Kinship:has_theme' is a broad and somewhat awkward relation, the concept of family is semantically present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wayside Motion:has_time later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'later moving to The Wayside in Concord.' The phrase 'later' is directly associated with the move to The Wayside, providing a weak but valid semantic connection to the triple's concept of time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Text_creation:has_text biography of his college friend Franklin Pierce",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hawthorne's published works include 'a biography of his college friend Franklin Pierce.' This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/President_of_the_United_States Win_prize:has_competition which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not form a meaningful statement. The word 'which' in the paragraph is a relative pronoun referring to the campaign, not an attribute of the presidency or a competition in the sense implied by the predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Text:has_text stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph repeatedly mentions Hawthorne's writing, including 'short stories' and that his 'published works include novels, short stories.' There is a strong semantic connection between the author and his texts/stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/President_of_the_United_States Win_prize:has_theme becoming the 14th president",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Franklin Pierce won the campaign for President, 'becoming the 14th president.' While the 'Win_prize' frame is an indirect metaphor for winning an election, the information about the theme of becoming the 14th president is present and related to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Aggregate:has_theme community",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hawthorne joined Brook Farm, a 'transcendentalist community'. While 'community' is not a central theme of his works, his involvement with a community is part of his life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Text_creation:has_purpose his 1852 campaign for President of the United States",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states he wrote a biography of Franklin Pierce 'written for his 1852 campaign for President of the United States', directly linking the creation of the text to the campaign purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/President_of_the_United_States Personal_relationship:has_theme http://en.wikipedia.org/wiki/Nathaniel_Hawthorne",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is inverted and nonsensical. The paragraph connects Hawthorne to a President (Franklin Pierce) via a biography, but it does not state that the 'President of the United States' as a concept has Hawthorne as a theme. The relationship is the other way around."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wayside Categorization:has_item His fiction works",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions Hawthorne moved to The Wayside, and separately discusses his fiction works, but there is no stated or implied connection that his works are 'items' located at or associated with The Wayside in a categorizational sense."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Publishing:has_time 1850",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'The Scarlet Letter was published in 1850'. This is a clear and direct statement of a publishing event in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Salem,_Oregon Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Salem, Massachusetts, not Salem, Oregon. The theme 'family' is mentioned in relation to Salem, MA, but the subject is incorrectly specified as a different city."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wayside Interior_profile_relation:has_theme Wayside",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The Wayside is explicitly mentioned as a place Hawthorne lived. The triple's theme 'Wayside' is directly connected to this subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph extensively discusses Hawthorne's works, including novels, short stories, and their themes. The connection between Hawthorne and his works is the central topic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Leadership:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hawthorne is identified as an 'American' author, and the paragraph mentions his biography of Franklin Pierce for a U.S. presidential campaign. There is a reasonable semantic connection to the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Being_born:has_theme family long associated with that town",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Hawthorne 'was born in 1804 in Salem, Massachusetts, from a family long associated with that town.' This directly connects the subject (Hawthorne's birth) with the theme (family association with Salem)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Education_teaching:has_time 1825",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states Hawthorne graduated from Bowdoin College in 1825, which is a clear educational event with a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Increment:has_class novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hawthorne is identified as a novelist, and his published works include novels. The term 'class' can be loosely interpreted as a category or type of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Appellations:has_type president",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Hawthorne was never a president. The paragraph mentions he wrote a biography for Franklin Pierce, who became president, but this does not mean Hawthorne held the 'type' or 'appellation' of president himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_Custom_House Being_employed:has_time before marrying Peabody in 1842",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'He worked at the Boston Custom House... before marrying Peabody in 1842,' which semantically connects the employment to that time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Leadership:has_leader President",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Franklin Pierce, a friend for whom Hawthorne wrote a biography, became President. While the relationship is not explicitly 'leader,' there is a weak semantic connection through the political context and Pierce's role as a national leader."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hawthorne was a short story writer and his works often focus on specific themes. 'Stories' is semantically related to his body of work and the themes discussed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Temporal_collocation:has_theme 1860",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 1860 is mentioned in the context of his return from Europe. While the connection to 'theme' is extremely weak, there is a semantic link via a temporal event in his life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Feeling:has_theme that it was not equal to the standard of his later work",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'feeling that it was not equal to the standard of his later work' is a direct quote from the paragraph regarding his suppression of 'Fanshawe'. The 'Feeling' frame is semantically appropriate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Attributed_information:has_theme http://en.wikipedia.org/wiki/Bowdoin_College",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Bowdoin College is explicitly mentioned as the college Hawthorne attended. While 'has_theme' is a stretch, there is a clear semantic connection (attributed information about his education)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Gathering_up:has_theme which",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'which' appears in the text ('which he collected...'). The 'Gathering_up' frame could loosely relate to the act of collecting stories. This is a very weak but semantically present connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he was a novelist and mentions his novels, including 'Fanshawe' and 'The Scarlet Letter', establishing a clear semantic connection between Hawthorne and novels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Temporal_collocation:has_theme 1828",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1828 is mentioned as when he published his first work. While 'has_theme' is a weak semantic fit for a publication date, there is a temporal connection which is a valid, albeit indirect, relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Origin:has_entity author",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph begins by identifying him as an 'American author', providing a direct and explicit match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Origin:has_entity novelist and short story writer",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states 'was an American novelist and short story writer', which is a direct and exact match for the entity in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Subjective_influence:has_behavior moral metaphors",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'many works feature moral metaphors', which directly links Hawthorne's works (his behavior/influence as a writer) to the concept of moral metaphors."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Publishing:has_theme periodicals",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states he published short stories in periodicals. While 'periodicals' is not explicitly stated as a 'theme' of his publishing, there is a semantic connection between his publishing activities and the medium of periodicals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Temporal_collocation:has_theme He published his first work",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'He published his first work' is directly in the text. The predicate 'has_theme' is a very weak semantic fit for this event, but the event itself is clearly extractable, representing a lenient interpretation of a temporal theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Gathering_up:has_time 1837",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1837 is explicitly mentioned as the time he collected his short stories ('he collected in 1837'), which is a clear semantic match for the 'Gathering_up:has_time' frame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Being_born:has_time 1804",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states 'He was born in 1804', which is a direct and unambiguous match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nathaniel_Hawthorne Gathering_up:has_means as Twice-Told Tales",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states he collected his stories 'as Twice-Told Tales'. 'Twice-Told Tales' is the title of the collection, which can be reasonably interpreted as the 'means' or the resulting entity of the gathering action."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.68,
+    "high_confidence_50": 40,
+    "high_confidence_80": 27,
+    "percent_50": 80.0,
+    "percent_80": 54.0,
+    "max_triples_limit": 50
+  }
+}

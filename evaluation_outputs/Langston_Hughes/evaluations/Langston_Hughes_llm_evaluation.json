@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Judgment:has_location Crisis",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hughes 'gained notice from New York publishers, first in The Crisis magazine'. While 'Crisis' is a publication and not a location, the predicate 'has_location' could be loosely interpreted as 'has_publication_in' or 'appeared_in', making the connection semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Demographics_of_Africa Education_teaching:has_student Both of Hughes's paternal great-grandmothers",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject (Demographics_of_Africa) is completely unrelated to the paragraph. The object ('Both of Hughes's paternal great-grandmothers') is mentioned, but there is no semantic connection to the subject or the predicate 'has_student' in an educational context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lincoln_University_(Pennsylvania) Education_teaching:has_time eventually",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'Hughes eventually graduated from Lincoln University'. The subject is the university, and the object 'eventually' is directly connected to the graduation event. The predicate 'has_time' is a very weak but semantically plausible extraction from the adverb modifying the graduation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Publishing:has_time 1926",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Hughes is called 'a leader of the Harlem Renaissance' and his first poetry collection was published in 1926. There is an indirect temporal connection between the Harlem Renaissance (the subject) and the year 1926 (the object) via Hughes's publication during that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_theme nonfiction",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hughes, a leader of the Harlem Renaissance, wrote 'several nonfiction works'. This creates a reasonable, though indirect, semantic link between the Harlem Renaissance (subject) and the theme of nonfiction (object) through the body of work produced by one of its key figures."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Possession:has_owner owners",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Hughes as a 'leader' of the Harlem Renaissance, but there is no mention of 'owners' or a possession relationship. The concept of ownership is not semantically connected to the information provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_time 1926",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1926 is mentioned in the context of Hughes's first poetry collection being published. While not directly attributed to the Harlem Renaissance, Hughes is described as a leader of it, creating a reasonable, though indirect, temporal link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Publishing:has_work His first poetry collection, The Weary Blues",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hughes, a leader of the Harlem Renaissance, published 'The Weary Blues' in 1926. There is a clear semantic connection between the movement and this significant work by one of its key figures."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Temporal_collocation:has_theme age",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Hughes being a 'prolific writer at an early age' and his involvement in the Harlem Renaissance. The theme of 'age' or youth is weakly but reasonably connected to the context of his early career during the Renaissance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Statement:has_message be Jewish",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hughes claimed one of his paternal ancestors, Silas Cushenberry, 'to be Jewish'. This is a direct statement attributed to Hughes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Political_locales:has_theme College",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Oberlin College' and the 'Harlem Renaissance' separately, but there is no direct semantic link between them. A very weak, indirect connection exists through the mention of Hughes's grandmother attending college and Hughes being a leader of the Renaissance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henry_Clay Kinship:has_theme statesman Henry Clay",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Sam Clay was 'said to be a relative of statesman Henry Clay', providing a direct semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Becoming_a_member:has_time before her studies",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'before her studies' refers to Hughes's maternal grandmother getting married, which is completely unrelated to the Harlem Renaissance. No semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Kinship:has_theme Hughes's",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph is entirely about Langston Hughes and his family, frequently using the possessive 'Hughes's' to describe his relatives and attributes. The triple's subject and theme are semantically central to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Leadership:has_leader leader",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'Hughes is best known as a leader of the Harlem Renaissance', providing a clear and explicit semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_theme black",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the Harlem Renaissance and Hughes's African-American heritage and his work in the context of the civil rights movement, providing a weak but reasonable semantic link to the theme of 'black' identity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Increment:has_time 1901",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The predicate 'Increment:has_time' is ambiguous, and the paragraph does not describe the United States as having a time increment of 1901. The year 1901 is only mentioned as Hughes's birth year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Studying:has_student http://en.wikipedia.org/wiki/Langston_Hughes",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He studied at Columbia University in New York City,' creating a clear semantic connection between New York City (via the university) and Hughes as a student."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_time 1901",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The predicate 'Text:has_time' is unclear, and the paragraph does not associate the year 1901 with the United States as a textual or thematic property. The year is solely associated with Hughes's birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Hughes was a leader of the Harlem Renaissance and that he wrote novels. This provides a weak, indirect link that novels could be considered a 'text' associated with the movement he led."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Interior_profile_relation:has_theme http://en.wikipedia.org/wiki/Midwestern_United_States",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Hughes 'grew up in the Midwest' and was a 'leader of the Harlem Renaissance'. This creates a weak, indirect thematic link between the Harlem Renaissance and the Midwest via Hughes's personal background."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Interior_profile_relation:has_theme Growing up",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The text mentions Hughes 'growing up' and his association with the Harlem Renaissance. The predicate is vague, but a very lenient interpretation allows a connection between the movement and the concept of 'growing up' as part of a biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Locale_by_use:has_theme University",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Hughes, a leader of the Harlem Renaissance, is directly stated to have studied at Columbia University and graduated from Lincoln University. This creates a reasonable thematic link between the movement and universities through its key figures."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lincoln_University_(Pennsylvania) Education_teaching:has_student http://en.wikipedia.org/wiki/Langston_Hughes",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hughes eventually graduated from Lincoln University,' which directly implies he was a student there. This is a clear and direct extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_text story",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hughes, a leader of the Harlem Renaissance, 'published short story collections.' This provides a reasonable, though indirect, connection between the Harlem Renaissance and the concept of 'story' via the literary output of its prominent members."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Time_vector:has_theme her studies",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No semantic connection between Harlem Renaissance and 'her studies' (referring to Hughes's maternal grandmother) is present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Becoming:has_theme Growing up in the Midwest",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Langston Hughes is the subject of the paragraph, and 'Growing up in the Midwest' is a key event in his life described in the text, establishing a clear thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Weary_Blues Being_named:has_entity other putative paternal ancestor whom",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple connects a poetry collection ('The Weary Blues') to a phrase describing a distant ancestor ('other putative paternal ancestor'), for which there is no semantic relationship in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance People:has_person man",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The Harlem Renaissance is mentioned, and Hughes is described as moving to New York as a 'young man' where he became a leader of that movement. The connection between the movement and a person is indirectly supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_theme jazz",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Hughes is explicitly described as 'an early innovator of jazz poetry' and 'a leader of the Harlem Renaissance,' creating a strong, direct link between the Harlem Renaissance and the theme of jazz."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Aggregate:has_theme poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hughes was a leader of the Harlem Renaissance and an innovator of jazz poetry, strongly linking the Harlem Renaissance to the theme of poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Oberlin_College Ordinal_numbers:has_theme attend Oberlin College",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'One of the first women to attend Oberlin College' referring to Hughes's maternal grandmother, directly linking Oberlin College to the theme of attendance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Duration_description:has_theme story",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hughes was part of the Harlem Renaissance and that he wrote short stories, creating a weak but valid semantic link between the Harlem Renaissance and the theme of stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Fame:has_role as a leader of the Harlem Renaissance",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Hughes is best known as a leader of the Harlem Renaissance,' providing a direct and clear match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Reference_text:has_time 1901",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph begins with 'American writer and social activist (1901–1967)' and later specifies 'James Mercer Langston Hughes (February 1, 1901 – May 22, 1967)', clearly associating Hughes with the year 1901."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Living_conditions:has_location http://en.wikipedia.org/wiki/Midwestern_United_States",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'Growing up in the Midwest' and that Hughes was 'from Joplin, Missouri', which is in the Midwest."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Quantified_mass:has_quantity several",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph does not quantify the Harlem Renaissance itself. While Hughes wrote 'several nonfiction works', this is not directly attributed to the Harlem Renaissance as a quantity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Aggregate:has_theme short story",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Hughes, a leader of the Harlem Renaissance, 'published short story collections'. This creates a reasonable semantic link between the movement and the theme of short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Origin:has_theme mixed",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states 'Hughes was of mixed ancestry' and describes his mixed heritage in detail, making 'mixed' a clear theme of his origin."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Motion:has_goal http://en.wikipedia.org/wiki/New_York_City",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states 'He moved to New York City as a young man, where he made his career,' clearly indicating New York City was the goal of his movement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Langston_Hughes Motion:has_theme as a young man",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'He moved to New York City as a young man, where he made his career.' This connects the subject to the theme of his life/actions as a young man, though the predicate 'Motion:has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_text works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Hughes is described as a 'leader of the Harlem Renaissance' and the paragraph extensively lists his works (poetry, plays, stories, novels). There is a strong semantic link between the Harlem Renaissance and the literary works produced by one of its leaders."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Aggregate:has_time 1926",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The Harlem Renaissance is the cultural context, and 1926 is the publication year of Hughes's first poetry collection, which was a significant event during that period. The connection is indirect but semantically reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Aggregate:has_theme collections",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The Harlem Renaissance was a literary movement, and the paragraph mentions Hughes's 'poetry collection' and other collections of his work. There is a thematic link between the movement and the concept of literary collections."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Civil_rights_movement Getting:has_time 1942",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'From 1942 to 1962, as the civil rights movement gained traction, Hughes wrote...'. This provides a direct temporal link between the civil rights movement and the year 1942."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Ordinal_numbers:has_time 1926",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hughes was a leader of the Harlem Renaissance and that his first poetry collection was published in 1926. While not a direct date for the movement itself, there is a semantic connection between the Renaissance, Hughes's role in it, and the year 1926."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Civil_rights_movement Getting:has_theme traction",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'as the civil rights movement gained traction' is directly stated in the paragraph, providing a clear semantic link between the movement and the concept of gaining traction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Henry_Clay Kinship:has_theme relative",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly mentions that Sam Clay was 'said to be a relative of statesman Henry Clay,' creating a direct semantic connection between Henry Clay and the theme of kinship/relatives."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_text newspaper",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The Harlem Renaissance is mentioned, and later, Hughes's weekly column in 'The Chicago Defender' newspaper is discussed. The connection is indirect and thematic (cultural output of the era) rather than direct, but a weak semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harlem_Renaissance Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Hughes is described as a leader of the Harlem Renaissance and is explicitly called an American poet; his poetry collection 'The Weary Blues' is also mentioned. This creates a very strong semantic connection between the Harlem Renaissance and poetry."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 35,
+    "accuracy": 0.7,
+    "avg_confidence": 0.592,
+    "high_confidence_50": 35,
+    "high_confidence_80": 20,
+    "percent_50": 70.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

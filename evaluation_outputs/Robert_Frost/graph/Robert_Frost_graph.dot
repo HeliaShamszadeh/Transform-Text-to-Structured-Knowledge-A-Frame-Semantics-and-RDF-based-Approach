@@ -1,0 +1,296 @@
+digraph Robert_Frost {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New England" [label="New England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Other nodes
+    "journalist William Prescott..." [label="journalist William Prescott...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reader" [label="reader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "San Francisco" [label="San Francisco", fillcolor=lightgray, color=gray, shape=hexagon];
+    "previous" [label="previous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Lee Frost March 26, ..." [label="Robert Lee Frost March 26, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of America's rare " pub..." [label="one of America's rare " pub...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "few" [label="few", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during his lifetime" [label="during his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "absolute mastery" [label="absolute mastery", fillcolor=lightgray, color=gray, shape=hexagon];
+    "actions of ordinary men" [label="actions of ordinary men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stevens and Eliot" [label="Stevens and Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "so well" [label="so well", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet as for the reader" [label="poet as for the reader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dramatic monologues or dram..." [label="dramatic monologues or dram...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "settings from rural life in..." [label="settings from rural life in...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poetics : No tears in t..." [label="his poetics : No tears in t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "men" [label="men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "material" [label="material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his 1939 essay " The Figure..." [label="his 1939 essay " The Figure...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Frost disambiguation" [label="Robert Frost disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Randall Jarrell" [label="Randall Jarrell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artistic" [label="artistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "only poet" [label="only poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1939" [label="1939", fillcolor=lightgray, color=gray, shape=hexagon];
+    "something" [label="something", fillcolor=lightgray, color=gray, shape=hexagon];
+    "something I didn 't know I ..." [label="something I didn 't know I ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ordinary men" [label="ordinary men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other living poet" [label="other living poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "institution" [label="institution", fillcolor=lightgray, color=gray, shape=hexagon];
+    "relation" [label="relation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American" [label="American", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Frost's virtues" [label="Frost's virtues", fillcolor=lightgray, color=gray, shape=hexagon];
+    "greatest freedom of the mat..." [label="greatest freedom of the mat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tears" [label="tears", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four Pulitzer Prizes for Po..." [label="four Pulitzer Prizes for Po...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1910" [label="1910", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "remembering something I did..." [label="remembering something I did...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "greatest of the American po..." [label="greatest of the American po...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Frost" [label="Robert Frost", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "surprise of remembering som..." [label="surprise of remembering som...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verse that uses, sometimes ..." [label="verse that uses, sometimes ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "revelations" [label="revelations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet laureate of Vermont" [label="poet laureate of Vermont", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Congressional Gold Medal" [label="Congressional Gold Medal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Frost, along with St..." [label="Robert Frost, along with St...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1958" [label="1958", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his realistic depictions of..." [label="his realistic depictions of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poem" [label="Poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "speech" [label="speech", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "complex social and philosop..." [label="complex social and philosop...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "frequently" [label="frequently", fillcolor=lightgray, color=gray, shape=hexagon];
+    "examine complex social and ..." [label="examine complex social and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "No other living poet" [label="No other living poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "America's rare " public lit..." [label="America's rare " public lit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "actions" [label="actions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1963" [label="1963", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same name" [label="same name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "relations" [label="relations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    " The Figure a Poem Makes" [label=" The Figure a Poem Makes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States Poet Laureate" [label="United States Poet Laureate", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "New England" -> "Randall Jarrell" [label="has theme [Give_impression]", color=lightblue, penwidth=1];
+    "Robert Frost" -> "his 1939 essay " The Figure..." [label="has theme [Statement]", color=lightcoral, penwidth=1];
+    "United States" -> "America's rare " public lit..." [label="has entity [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "New England" -> "other living poet" [label="has theme [Increment]", color=lightyellow, penwidth=1];
+    "Robert Frost" -> "Stevens and Eliot" [label="has theme [Accompaniment]", color=lightpink, penwidth=1];
+    "New England" -> "American" [label="has location [Intentionally_create]", color=green, penwidth=2];
+    "Robert Frost" -> "New England" [label="has location [Statement]", color=green, penwidth=2];
+    "New England" -> "1939" [label="has time [Text]", color=purple, penwidth=2];
+    "American poetry" -> "four Pulitzer Prizes for Po..." [label="has theme [Receiving]", color=lightgray, penwidth=1];
+    "New England" -> "revelations" [label="has theme [Sequence]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "American" [label="has location [Motion]", color=green, penwidth=2];
+    "New England" -> "literary" [label="has theme [Fields]", color=lightsalmon, penwidth=1];
+    "Robert Frost" -> "name" [label="has theme [Being_named]", color=lightgoldenrod, penwidth=1];
+    "Robert Frost" -> "1939" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "New England" -> "American" [label="has theme [Experiencer_focus]", color=lightpink, penwidth=1];
+    "American poetry" -> "poet" [label="has author [Text]", color=lightsteelblue, penwidth=1];
+    "New England" -> "1939" [label="has time [Body_parts]", color=purple, penwidth=2];
+    "New England" -> "actions" [label="has act [Intentionally_act]", color=lightcoral, penwidth=1];
+    "Robert Frost" -> "other people" [label="has entity [Being_named]", color=lightgoldenrod, penwidth=1];
+    "Robert Frost" -> "1910" [label="has time [Being_born]", color=purple, penwidth=2];
+    "American poetry" -> "poet" [label="has theme [Dead_or_alive]", color=lightcoral, penwidth=1];
+    "Robert Frost" -> "his realistic depictions of..." [label="has reason [Fame]", color=lightgreen, penwidth=1];
+    "United States" -> "1963" [label="has time [Text]", color=purple, penwidth=2];
+    "Robert Frost" -> "settings from rural life in..." [label="has theme [Statement]", color=lightcoral, penwidth=1];
+    "United States" -> "something" [label="has theme [Awareness]", color=lightyellow, penwidth=1];
+    "New England" -> "Robert Frost, along with St..." [label="has theme [Give_impression]", color=lightblue, penwidth=1];
+    "Robert Frost" -> "name" [label="has type [Identicality]", color=lightpink, penwidth=1];
+    "Robert Frost" -> "poet laureate of Vermont" [label="has theme [Being_named]", color=lightgoldenrod, penwidth=1];
+    "Robert Frost" -> "complex social and philosop..." [label="has theme [Scrutiny]", color=lightcyan, penwidth=1];
+    "New England" -> "artistic" [label="has activity [Fields]", color=lightsalmon, penwidth=1];
+    "Robert Frost" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "American poetry" -> "only poet" [label="has recipient [Receiving]", color=lightgray, penwidth=1];
+    "New England" -> "United States Poet Laureate" [label="has role [Appointing]", color=lightgray, penwidth=1];
+    "New England" -> "Frost's virtues" [label="has theme [Desirability]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "writer" [label="has theme [Experiencer_obj]", color=lightseagreen, penwidth=1];
+    "New England" -> "during his lifetime" [label="has time [Compliance]", color=purple, penwidth=2];
+    "New England" -> "institution" [label="has theme [Fields]", color=lightsalmon, penwidth=1];
+    "New England" -> "writer" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Robert Frost" -> "1958" [label="has time [Being_named]", color=purple, penwidth=2];
+    "New England" -> "relation" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Robert Frost" -> "New England" [label="has location [Scrutiny]", color=green, penwidth=2];
+    "Robert Frost" -> "frequently" [label="has theme [Statement]", color=lightcoral, penwidth=1];
+    "American poetry" -> "poets" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "American poetry" -> "poets" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "New England" -> "something I didn 't know I ..." [label="has theme [Memory]", color=lightcoral, penwidth=1];
+    "New England" -> "ordinary men" [label="has agent [Intentionally_act]", color=lightcoral, penwidth=1];
+    "Robert Frost" -> "1939" [label="has time [Text]", color=purple, penwidth=2];
+    "New England" -> "remembering something I did..." [label="has theme [Just_found_out]", color=lightblue, penwidth=1];
+    "New England" -> "material" [label="has theme [Substance]", color=lightcoral, penwidth=1];
+    "New England" -> "men" [label="has person [People]", color=red, penwidth=2];
+    "Robert Frost" -> "United States" [label="has theme [People_by_vocation]", color=lightgreen, penwidth=1];
+    "New England" -> "greatest of the American po..." [label="has theme [Give_impression]", color=lightblue, penwidth=1];
+    "Robert Frost" -> "1963" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "New England" -> "writer" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Robert Frost" -> "journalist William Prescott..." [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "American poetry" -> "poet" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Robert Frost" -> " The Figure a Poem Makes" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Robert Frost" -> "New England" [label="has location [Using]", color=green, penwidth=2];
+    "Robert Frost" -> "New England" [label="has instrument [Using]", color=lightyellow, penwidth=1];
+    "Robert Frost" -> "examine complex social and ..." [label="has purpose [Using]", color=lightyellow, penwidth=1];
+    "Congressional Gold Medal" -> "1958" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Randall Jarrell" -> "Robert Frost, along with St..." [label="has message [Statement]", color=lightcoral, penwidth=1];
+    "New England" -> "poet as for the reader" [label="has theme [Reveal_secret]", color=lightpink, penwidth=1];
+    "New England" -> "men" [label="has theme [Typicality]", color=lightcyan, penwidth=1];
+    "New England" -> "century" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "New England" -> "absolute mastery" [label="has event [Frequency]", color=lightgray, penwidth=1];
+    "New England" -> "early" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "Robert Frost" -> "his poetics : No tears in t..." [label="has theme [Statement]", color=lightcoral, penwidth=1];
+    "United States" -> "one" [label="has theme [Cardinal_numbers]", color=lightgreen, penwidth=1];
+    "American poetry" -> "No other living poet" [label="has author [Text_creation]", color=lightseagreen, penwidth=1];
+    "New England" -> "1958" [label="has time [Appointing]", color=purple, penwidth=2];
+    "American poetry" -> "actions of ordinary men" [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "article" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "New England" -> "relations" [label="has theme [Intentionally_create]", color=lightcyan, penwidth=1];
+    "Robert Frost" -> "New England" [label="has location [Fame]", color=green, penwidth=2];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "American poetry" -> "1963" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Congressional Gold Medal" -> "Robert Frost" [label="has recipient [Receiving]", color=lightgray, penwidth=1];
+    "New England" -> "people" [label="has theme [Awareness]", color=lightyellow, penwidth=1];
+    "Robert Frost" -> "1939" [label="has time [Statement]", color=purple, penwidth=2];
+    "Robert Frost" -> "San Francisco" [label="has location [Being_born]", color=green, penwidth=2];
+    "New England" -> "poets" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Robert Frost" -> "one of America's rare " pub..." [label="has theme [Becoming]", color=lightgoldenrod, penwidth=1];
+    "Robert Frost" -> "same name" [label="has theme [People]", color=lightsteelblue, penwidth=1];
+    "New England" -> "greatest freedom of the mat..." [label="has entity [Existence]", color=lightpink, penwidth=1];
+    "New England" -> "20th century" [label="has theme [Temporal_subregion]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "surprise of remembering som..." [label="has event [Experiencer_focus]", color=lightpink, penwidth=1];
+    "New England" -> "few" [label="has quantity [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "New England" -> "tears" [label="has theme [Body_parts]", color=lightsteelblue, penwidth=1];
+    "New England" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "New England" -> "verse that uses, sometimes ..." [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "United States" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "New England" -> "previous" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "New England" -> "Poem" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "1963" [label="has time [Text]", color=purple, penwidth=2];
+    "New England" -> "speech" [label="has type [Actually_occurring_entity]", color=lightsteelblue, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Robert Frost" -> "Robert Frost disambiguation" [label="has theme [Reference_text]", color=lightcoral, penwidth=1];
+    "Robert Frost" -> "Robert Lee Frost March 26, ..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "American poetry" -> "so well" [label="has theme [Text_creation]", color=lightseagreen, penwidth=1];
+    "New England" -> "1939" [label="has time [Reading_perception]", color=purple, penwidth=2];
+    "Robert Frost" -> "people" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "New England" -> "reader" [label="has theme [Just_found_out]", color=lightblue, penwidth=1];
+    "American poetry" -> "1963" [label="has time [Origin]", color=purple, penwidth=2];
+    "New England" -> "dramatic monologues or dram..." [label="has theme [Desirability]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "poet" [label="has type [Sole_instance]", color=lightcoral, penwidth=1];
+    "New England" -> "reader" [label="has reader [Reading_perception]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Accompaniment_legend" [label="Accompaniment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Sequence_legend" [label="Sequence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Experiencer_focus_legend" [label="Experiencer_focus", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Body_parts_legend" [label="Body_parts", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Dead_or_alive_legend" [label="Dead_or_alive", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Experiencer_obj_legend" [label="Experiencer_obj", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Compliance_legend" [label="Compliance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Memory_legend" [label="Memory", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Just_found_out_legend" [label="Just_found_out", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Reveal_secret_legend" [label="Reveal_secret", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Typicality_legend" [label="Typicality", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Actually_occurring_entity_legend" [label="Actually_occurring_entity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reading_perception_legend" [label="Reading_perception", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Sole_instance_legend" [label="Sole_instance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

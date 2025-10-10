@@ -1,0 +1,324 @@
+digraph José_Saramago {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "1998 Nobel Prize in Literature" [label="1998 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Saramago's books" [label="Saramago's books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work was religiously offensive" [label="work was religiously offensive", fillcolor=lightblue, color=blue, shape=ellipse];
+    "removal of one of his works..." [label="removal of one of his works...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "one of his works, The Gospe..." [label="one of his works, The Gospe...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "copies of Saramago's books" [label="copies of Saramago's books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "he narrates his novels as i..." [label="he narrates his novels as i...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His works, some of which" [label="His works, some of which", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as " the most gifted noveli..." [label="as " the most gifted noveli...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "most gifted novelist" [label="most gifted novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "one of his works, The Gospel" [label="one of his works, The Gospel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "most gifted novelist alive ..." [label="most gifted novelist alive ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels" [label="his novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "events" [label="events", fillcolor=lightyellow, color=orange, shape=diamond];
+    "until his death in 2010" [label="until his death in 2010", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "as allegories" [label="as allegories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as if he were someone both ..." [label="as if he were someone both ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Portugal" [label="Portugal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2003" [label="2003", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "member of the National Fron..." [label="member of the National Fron...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Aristeion Prize's shortlist" [label="Aristeion Prize's shortlist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Western canon" [label="Western canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second or paternal family" [label="second or paternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "someone" [label="someone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "founding" [label="founding", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anbal Cavaco Silva" [label="Anbal Cavaco Silva", fillcolor=lightgray, color=gray, shape=hexagon];
+    "improve the human condition" [label="improve the human condition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what" [label="what", fillcolor=lightgray, color=gray, shape=hexagon];
+    "island" [label="island", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first or maternal family" [label="first or maternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "More than two million copie..." [label="More than two million copie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "than two million copies of ..." [label="than two million copies of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "paternal" [label="paternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tone" [label="tone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "apprehend an elusory reality" [label="apprehend an elusory reality", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Wood critic" [label="James Wood critic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Aníbal Cavaco Silva" [label="Aníbal Cavaco Silva", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lanzarote" [label="Lanzarote", fillcolor=lightgray, color=gray, shape=hexagon];
+    "instrument" [label="instrument", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National Front for the Defe..." [label="National Front for the Defe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he considers Saramago to be..." [label="he considers Saramago to be...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "disheartened by what he per..." [label="disheartened by what he per...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harold Bloom" [label="Harold Bloom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "25" [label="25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "institutions such as the Ca..." [label="institutions such as the Ca...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his " parables sustained by..." [label="his " parables sustained by...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lisbon" [label="Lisbon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Government of Portugal unde..." [label="Government of Portugal unde...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "human condition" [label="human condition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "José Saramago" [label="José Saramago", fillcolor=lightgray, color=gray, shape=hexagon];
+    "once again" [label="once again", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2010" [label="2010", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies" [label="copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Government of Portugal" [label="Government of Portugal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "institutions" [label="institutions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Catholic Church" [label="Catholic Church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "alone" [label="alone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saramago's" [label="Saramago's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pilar del Ro" [label="Pilar del Ro", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Wood praises " the di..." [label="James Wood praises " the di...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jesus" [label="Jesus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "million" [label="million", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nobel Memorial Prize in Economic Sciences" [label="Nobel Memorial Prize in Economic Sciences", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into 25 languages" [label="into 25 languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an instrument to improve..." [label="as an instrument to improve...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1992" [label="1992", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as political censorship of ..." [label="as political censorship of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1998" [label="1998", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish language" [label="Spanish language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "love" [label="love", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be " a permanent part of th..." [label="be " a permanent part of th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "today" [label="today", fillcolor=lightgray, color=gray, shape=hexagon];
+    "the distinctive tone to his..." [label="the distinctive tone to his...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "historic" [label="historic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his fiction" [label="his fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "alongside his Spanish wife ..." [label="alongside his Spanish wife ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Spanish language" -> "island" [label="has theme [Natural_features]", color=lightblue, penwidth=1];
+    "Portugal" -> "1922" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "most gifted novelist alive ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "José Saramago" -> "paternal" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "Jesus" -> "1992" [label="has time [Attributed_information]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "José Saramago" [label="has theme [Expressing_publicly]", color=lightpink, penwidth=1];
+    "Government of Portugal" -> "Government of Portugal unde..." [label="has speaker [Statement]", color=lightcyan, penwidth=1];
+    "Portugal" -> "Saramago's books" [label="has theme [Duplication]", color=lightsteelblue, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "tone" [label="has feature [Distinctiveness]", color=lightgray, penwidth=1];
+    "James Wood critic" -> "he narrates his novels as i..." [label="has cause [Causation]", color=lightgoldenrodyellow, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "as allegories" [label="has category [Grasp]", color=lightseagreen, penwidth=1];
+    "Harold Bloom" -> "as " the most gifted noveli..." [label="has category [Communicate_categorization]", color=lightsalmon, penwidth=1];
+    "Harold Bloom" -> "2010" [label="has time [Statement]", color=purple, penwidth=2];
+    "Portugal" -> "languages" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "José Saramago" -> "Literature" [label="has location [Preventing_or_letting]", color=green, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "most gifted novelist" [label="has theme [Dead_or_alive]", color=lightsteelblue, penwidth=1];
+    "Portugal" -> "25" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Catholic Church" -> "José Saramago" [label="has theme [Defending]", color=lightcoral, penwidth=1];
+    "Harold Bloom" -> "he considers Saramago to be..." [label="has message [Statement]", color=lightcyan, penwidth=1];
+    "Portugal" -> "1922" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "José Saramago" -> "founding" [label="has theme [Membership]", color=lightcoral, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "1998" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Jesus" -> "one of his works, The Gospel" [label="has theme [Attributed_information]", color=lightyellow, penwidth=1];
+    "James Wood critic" -> "2003" [label="has time [Causation]", color=purple, penwidth=2];
+    "José Saramago" -> "2003" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "events" [label="has event [Event]", color=lightpink, penwidth=1];
+    "Catholic Church" -> "one" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Catholic Church" -> "as political censorship of ..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Catholic Church" -> "alongside his Spanish wife ..." [label="has theme [Residence]", color=lightsteelblue, penwidth=1];
+    "Catholic Church" -> "disheartened by what he per..." [label="has theme [Feeling]", color=lightgray, penwidth=1];
+    "José Saramago" -> "million" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Catholic Church" -> "instrument" [label="has theme [Gizmo]", color=lightgoldenrodyellow, penwidth=1];
+    "Aníbal Cavaco Silva" -> "Anbal Cavaco Silva" [label="has leader [Leadership]", color=lightseagreen, penwidth=1];
+    "Jesus" -> "Aristeion Prize's shortlist" [label="has theme [Removing]", color=lightsalmon, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "his " parables sustained by..." [label="has theme [Receiving]", color=lightgreen, penwidth=1];
+    "José Saramago" -> "2003" [label="has time [Text]", color=purple, penwidth=2];
+    "José Saramago" -> "second or paternal family" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "José Saramago" -> "Portugal" [label="has location [Cardinal_numbers]", color=green, penwidth=2];
+    "Catholic Church" -> "human condition" [label="has project [Cause_to_make_progress]", color=lightpink, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "his fiction" [label="has entity [Distinctiveness]", color=lightgray, penwidth=1];
+    "Catholic Church" -> "Lisbon" [label="has location [Intentionally_create]", color=green, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "1998 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightgreen, penwidth=1];
+    "José Saramago" -> "Lisbon" [label="has location [Membership]", color=green, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "world" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Portugal" -> "languages" [label="has theme [Frequency]", color=lightblue, penwidth=1];
+    "José Saramago" -> "once again" [label="has theme [Preventing_or_letting]", color=lightpink, penwidth=1];
+    "Catholic Church" -> "José Saramago" [label="has theme [Categorization]", color=lightcyan, penwidth=1];
+    "Portugal" -> "family name" [label="has type [Ordinal_numbers]", color=lightblue, penwidth=1];
+    "Jesus" -> "one of his works, The Gospe..." [label="has theme [Removing]", color=lightsalmon, penwidth=1];
+    "José Saramago" -> "2003" [label="has time [People]", color=purple, penwidth=2];
+    "Government of Portugal" -> "work was religiously offensive" [label="has message [Statement]", color=lightcyan, penwidth=1];
+    "Catholic Church" -> "member of the National Fron..." [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Jesus" -> "1992" [label="has time [Removing]", color=purple, penwidth=2];
+    "José Saramago" -> "1998" [label="has time [Preventing_or_letting]", color=purple, penwidth=2];
+    "Portugal" -> "name" [label="has theme [Being_named]", color=lightcoral, penwidth=1];
+    "Catholic Church" -> "2010" [label="has time [Feeling]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "historic" [label="has theme [Event]", color=lightpink, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "José Saramago" -> "1992" [label="has time [Membership]", color=purple, penwidth=2];
+    "Catholic Church" -> "improve the human condition" [label="has theme [Gizmo]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "Lanzarote" [label="has theme [Natural_features]", color=lightblue, penwidth=1];
+    "Catholic Church" -> "as an instrument to improve..." [label="has purpose [Defending]", color=lightcoral, penwidth=1];
+    "Portugal" -> "alone" [label="has theme [Commerce_sell]", color=lightgreen, penwidth=1];
+    "José Saramago" -> "2003" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Harold Bloom" -> "José Saramago" [label="has item [Communicate_categorization]", color=lightsalmon, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "someone" [label="has theme [Mental_property]", color=lightyellow, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "José Saramago" -> "Western canon" [label="has theme [Part_whole]", color=lightyellow, penwidth=1];
+    "Aníbal Cavaco Silva" -> "1992" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Catholic Church" -> "until his death in 2010" [label="has time [Residence]", color=purple, penwidth=2];
+    "Government of Portugal" -> "1992" [label="has time [Statement]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "his novels" [label="has theme [Expressing_publicly]", color=lightpink, penwidth=1];
+    "Catholic Church" -> "where" [label="has location [Residence]", color=green, penwidth=2];
+    "José Saramago" -> "copies of Saramago's books" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Catholic Church" -> "2010" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Mental_property]", color=purple, penwidth=2];
+    "Portugal" -> "copies" [label="has theme [Duplication]", color=lightsteelblue, penwidth=1];
+    "José Saramago" -> "Pilar del Ro" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Portugal" -> "than two million copies of ..." [label="has class [Increment]", color=lightcyan, penwidth=1];
+    "Catholic Church" -> "2010" [label="has time [Death]", color=purple, penwidth=2];
+    "James Wood critic" -> "James Wood praises " the di..." [label="has effect [Causation]", color=lightgoldenrodyellow, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "today" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Portugal" -> "1922" [label="has time [First_experience]", color=purple, penwidth=2];
+    "José Saramago" -> "novels" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Dead_or_alive]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Distinctiveness]", color=purple, penwidth=2];
+    "Catholic Church" -> "his works" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "José Saramago" -> "2010" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Catholic Church" -> "1992" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "José Saramago" -> "two" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Catholic Church" -> "what" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "José Saramago" -> "be " a permanent part of th..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "José Saramago" -> "Saramago's" [label="has author [Text]", color=lightgoldenrod, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Portugal" -> "his work" [label="has theme [Translating]", color=lightgoldenrodyellow, penwidth=1];
+    "José Saramago" -> "institutions such as the Ca..." [label="has theme [Judgment_communication]", color=lightseagreen, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Attention]", color=purple, penwidth=2];
+    "Government of Portugal" -> "removal of one of his works..." [label="has message [Request]", color=lightgoldenrod, penwidth=1];
+    "James Wood critic" -> "2003" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "His works, some of which" [label="has theme [Grasp]", color=lightseagreen, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "as if he were someone both ..." [label="has theme [Expressing_publicly]", color=lightpink, penwidth=1];
+    "Catholic Church" -> "José Saramago" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "Harold Bloom" -> "2003" [label="has time [Communicate_categorization]", color=purple, penwidth=2];
+    "Catholic Church" -> "1992" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "Spanish language" -> "2010" [label="has time [Natural_features]", color=purple, penwidth=2];
+    "José Saramago" -> "1922" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Nobel Memorial Prize in Economic Sciences" -> "José Saramago" [label="has recipient [Receiving]", color=lightgreen, penwidth=1];
+    "Government of Portugal" -> "Government of Portugal unde..." [label="has speaker [Request]", color=lightgoldenrod, penwidth=1];
+    "Government of Portugal" -> "1992" [label="has time [Request]", color=purple, penwidth=2];
+    "José Saramago" -> "maternal" [label="has type [Being_named]", color=lightcoral, penwidth=1];
+    "Portugal" -> "family name" [label="has theme [First_experience]", color=lightgray, penwidth=1];
+    "Catholic Church" -> "institutions" [label="has institution [Institutions]", color=lightpink, penwidth=1];
+    "José Saramago" -> "apprehend an elusory reality" [label="has event [Preventing_or_letting]", color=lightpink, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "someone" [label="has theme [Attention]", color=lightsalmon, penwidth=1];
+    "Nobel Memorial Prize in Economic Sciences" -> "2003" [label="has time [Expressing_publicly]", color=purple, penwidth=2];
+    "José Saramago" -> "books" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Portugal" -> "More than two million copie..." [label="has goods [Commerce_sell]", color=lightgreen, penwidth=1];
+    "James Wood critic" -> "the distinctive tone to his..." [label="has reason [Judgment_communication]", color=lightseagreen, penwidth=1];
+    "Catholic Church" -> "love" [label="has theme [Defending]", color=lightcoral, penwidth=1];
+    "José Saramago" -> "first or maternal family" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "José Saramago" -> "National Front for the Defe..." [label="has group [Membership]", color=lightcoral, penwidth=1];
+    "José Saramago" -> "Portugal" [label="has location [Text]", color=green, penwidth=2];
+    "Portugal" -> "into 25 languages" [label="has theme [Translating]", color=lightgoldenrodyellow, penwidth=1];
+    "Catholic Church" -> "José Saramago" [label="has theme [Residence]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Expressing_publicly_legend" [label="Expressing_publicly", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Duplication_legend" [label="Duplication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Distinctiveness_legend" [label="Distinctiveness", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Preventing_or_letting_legend" [label="Preventing_or_letting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Dead_or_alive_legend" [label="Dead_or_alive", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Defending_legend" [label="Defending", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Feeling_legend" [label="Feeling", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Gizmo_legend" [label="Gizmo", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cause_to_make_progress_legend" [label="Cause_to_make_progress", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Mental_property_legend" [label="Mental_property", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Attention_legend" [label="Attention", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Request_legend" [label="Request", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Institutions_legend" [label="Institutions", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

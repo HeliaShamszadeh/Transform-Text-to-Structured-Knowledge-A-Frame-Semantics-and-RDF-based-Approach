@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Attention:has_theme miniaturist ’s",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions that Bishop won the National Book Award and that her poetry is noted for 'a miniaturist’s discretion and attention.' While the award is not explicitly linked to this theme, the theme is a characteristic of her work, for which she won the award. This is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature Finish_competition:has_location Poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Bishop won the Neustadt Prize for Literature. The predicate 'has_location Poetry' does not correspond to any information in the text. The prize is for literature, not located in 'Poetry,' which appears to be a misinterpretation of the text mentioning she was a poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature Finish_competition:has_competition Poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Bishop won the Neustadt Prize for Literature. The predicate 'has_competition Poetry' is not supported. The text mentions she was a poet and won a prize for literature, but it does not frame poetry as a 'competition' related to the prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Differentiation:has_quality tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Bishop won the National Book Award and describes her poetry's qualities, including the exact phrase 'tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist’s discretion and attention.' The connection between the award and these qualities is implied, as the award recognizes the work possessing these qualities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Relative_time:has_time 1916",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 1916 is mentioned in the paragraph as the date Bishop's mother was institutionalized. This event is completely unrelated to the National Book Award, which she won in 1970. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_time 1911",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Elizabeth Bishop was born in 1911 in the United States (Massachusetts). The connection between the US and the year 1911 is very indirect and weak, but the information co-exists in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nova_Scotia Separating:has_theme http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bishop lived in Nova Scotia as a child, and the text mentions her separation from that place when she moved to Worcester, which caused her loneliness. The theme of separation is contextually related to Nova Scotia."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dwight_Garner_(critic) Reasoning:has_theme that she was perhaps \" the most purely gifted poet of the 20th century",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Dwight Garner is directly quoted making this specific argument about Bishop's giftedness, which is a clear act of reasoning with this theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Bishop Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph extensively discusses Bishop's mother, her mental illness, institutionalization, and death, making 'mother' a significant thematic element of her life story as presented."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Fame:has_reason its careful attention to detail",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Bishop won the National Book Award and that her poetry is noted for its careful attention to detail. The connection between the award and this reason is implied but not explicitly stated, creating a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Elizabeth Bishop is explicitly identified as an 'American poet' multiple times. The United States is semantically connected to 'American'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Sole_instance:has_type child",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bishop lived in Worcester as a child after being removed from her grandparents' custody. The connection between Worcester and her childhood status is implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Time_vector:has_event write about the time of her mother's struggles in her short story \" In the Village",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The National Book Award is mentioned as an award Bishop won, but there is no semantic connection between the award and the event of writing about her mother's struggles. The two pieces of information are unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nova_Scotia Causation:has_cause her separation from her maternal grandparents",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Bishop lived with her grandparents in Nova Scotia before being separated from them to move to Worcester. The separation was a direct consequence of leaving Nova Scotia."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Recording:has_theme Her time in Worcester",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Her time in Worcester is briefly chronicled in her poem \"In the Waiting Room\"', directly linking the location to being a theme of her recording (writing)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Text:has_time 1949",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states the National Book Award was won in 1970, not 1949. The year 1949 is mentioned in relation to her role as Consultant in Poetry, which is unrelated to the award."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Relative_time:has_theme her father, a successful builder, died when she was eight months old",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "There is no semantic connection between the National Book Award and the death of her father. These are entirely separate pieces of information in the biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Calendric_unit:has_time 2018",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 2018 is mentioned in the context of a critical argument by Dwight Garner, which is unrelated to the National Book Award, which she won in 1970."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Being_born:has_location Worcester, Massachusetts",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states 'Bishop, an only child, was born in Worcester, Massachusetts'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Statement:has_theme time of her mother's struggles",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Bishop wrote about 'the time of her mother's struggles' in her short story 'In the Village', making this a clear and direct theme connected to her work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Fame:has_entity her poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Bishop won the National Book Award. While it doesn't explicitly say the award was 'for her poetry,' she is identified as a poet, and the award is listed among her literary achievements, creating a strong semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nova_Scotia Causation:has_effect lonely",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bishop lived in Nova Scotia as a child and was later moved away, which made her lonely. There is an indirect causal chain connecting the location to the emotional state."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Bishop Text:has_location http://en.wikipedia.org/wiki/Worcester",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states she was born in Worcester and later lived there, making the connection between the person and the location clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Recording:has_theme her poem 'In the Waiting Room'",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Her time in Worcester is briefly chronicled in her poem \"In the Waiting Room\".' This directly links the location to being the theme/subject of the poem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Hostile_encounter:has_theme her mother's",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The National Book Award is mentioned as an achievement for Bishop's poetry. There is no information connecting it to her mother or any 'hostile encounter' theme; the concepts are completely unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Increment:has_time 1911",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states Elizabeth Bishop was born in 1911, which is a specific time associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Recording:has_theme briefly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Her time in Worcester is briefly chronicled', connecting Worcester to the theme of being briefly recorded/described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Increment:has_class people",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Elizabeth Bishop as a person and mentions 'other people named Elizabeth Bishop', establishing her classification as a person/people."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Being_born:has_theme William Thomas and Gertrude May (Bulmer) Bishop",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Bishop was born to William Thomas and Gertrude May (Bulmer) Bishop, directly connecting her birth to her parents."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Interior_profile_relation:has_theme she was living",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'While she was living in Worcester', establishing a relationship between Worcester and the theme of her living there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Calendric_unit:has_theme century",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Bishop won the National Book Award in 1970, but there is no mention of the award having a theme related to a 'century'. The connection is too abstract and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Medical_conditions:has_theme asthma",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'While she was living in Worcester, she developed chronic asthma'. This creates a semantic link between the location (Worcester) and the medical condition (asthma), though the predicate 'has_theme' is a weak interpretation of this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Bishop Text_creation:has_author Elizabeth Bishop (February 8, 1911 – October 6, 1979 )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about Elizabeth Bishop and mentions her poetry and short stories, making the semantic connection that she is the author of her own works highly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop People:has_person people",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The term 'Bishop' refers to the person Elizabeth Bishop throughout the paragraph. The triple is a very generic statement (a person has the property of being a person), which can be weakly inferred from the context, though the phrasing is odd."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Medical_conditions:has_theme chronic asthma, from which she suffered for the rest of her life",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph explicitly links Worcester to the development of 'chronic asthma, from which she suffered for the rest of her life'. The semantic connection is clear, though the predicate 'has_theme' is again a less precise fit for the relationship described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Award Success_or_failure:has_agent builder",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple connects the National Book Award to a 'builder', but the paragraph states Bishop's father was a builder, not that a builder was the agent of the award. This is a completely unrelated connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop State_continue:has_state asylum",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Bishop's mother was institutionalized in an asylum and remained there until her death. While the subject is Bishop's mother, not Bishop herself, the concept of an asylum is semantically connected to Bishop's life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nova_Scotia Time_vector:has_event Bishop's paternal family gained custody",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The event of the paternal family gaining custody happened 'Later in childhood', after Bishop lived in Nova Scotia. The paragraph implies she was removed from Nova Scotia before this event, making the connection very weak and likely incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Becoming:has_theme mentally ill",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that Bishop's mother 'became mentally ill'. The theme of mental illness is a significant part of Bishop's biography as presented."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Medical_conditions:has_theme chronic",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'While she was living in Worcester, she developed chronic asthma'. There is a clear semantic connection between the location (Worcester) and the theme of a chronic medical condition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Statement:has_time later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph uses the word 'later' in relation to Bishop's actions ('Bishop would later write...'), establishing a semantic connection between the entity and a later time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Village Topic:has_theme http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Great Village is explicitly mentioned as the location of her maternal grandparents' farm, and she referred to this period in her writing, creating a strong thematic link between the place and her life/work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature Finish_competition:has_prize Pulitzer Prize",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph lists the Neustadt Prize and Pulitzer Prize as separate awards Bishop received. There is no information suggesting the Neustadt Prize 'has' the Pulitzer Prize as a sub-prize or component; they are distinct entities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nova_Scotia Residence:has_theme her maternal grandparents",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Nova Scotia is mentioned as the location of the farm where her maternal grandparents lived and where she resided during her early childhood, creating a clear residential and thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Catastrophe:has_time rest of her life",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While in Worcester, she developed chronic asthma from which she suffered for the 'rest of her life'. This weakly connects the location to the timeframe of a lifelong condition (which could be interpreted as a 'catastrophe'), though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Catastrophe:has_patient http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While Worcester is not the site of a 'catastrophe' in the literal sense, the paragraph states Bishop was unhappy there and developed a chronic illness (asthma) while living there. This can be weakly interpreted as a negative health event associated with the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Bishop Text:has_time 1911",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1911 is explicitly stated as her birth year, which is a fundamental temporal attribute of the subject. The predicate 'has_time' is semantically broad enough to cover this."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Bishop Being_named:has_time 1911",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The predicate 'Being_named:has_time' is ambiguous. The year 1911 is the year she was born, which is the point at which she was given her name. This is a reasonable, though indirect, semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bishop Becoming:has_time 1916",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1916 is mentioned as the year her mother was institutionalized, a significant event that changed her family status ('effectively orphaned'). This can be loosely interpreted as a 'Becoming' a de facto orphan."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Worcester Desiring:has_theme her grandparents",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The text states Bishop was unhappy in Worcester and lonely due to separation from her grandparents. This implies a longing or 'Desiring' for them, making 'her grandparents' a weak but valid thematic connection to the location."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.5220000000000001,
+    "high_confidence_50": 30,
+    "high_confidence_80": 15,
+    "percent_50": 60.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

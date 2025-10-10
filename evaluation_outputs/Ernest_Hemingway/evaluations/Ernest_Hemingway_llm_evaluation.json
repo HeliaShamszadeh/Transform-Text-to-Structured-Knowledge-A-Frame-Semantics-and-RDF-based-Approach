@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_location Literature",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's relationship 'Receiving:has_location Literature' is semantically incoherent. The paragraph states Hemingway was awarded the Nobel Prize in Literature, but the predicate 'has_location' applied to 'Literature' does not form a meaningful or extractable statement from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Arriving:has_goal U.S., where he settled in Key West, Florida",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Hemingway returned to the U.S., where he settled in Key West, Florida.' This directly supports the semantic meaning of Hemingway's arrival having the goal of settling in a specific U.S. location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Perception_experience:has_theme http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph describes Hemingway's direct, personal experience serving as an ambulance driver and being wounded on the Italian Front in WWI. While the predicate 'Perception_experience:has_theme' is abstract, a lenient interpretation allows for the connection that Hemingway was a central figure/thematic element of a WWI experience described in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Supply:has_recipient Arms",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "This is a very weak but semantically valid connection under lenient rules. The paragraph states Hemingway's 'experiences during the war supplied material for his 1929 novel A Farewell to Arms'. This creates a tenuous chain: WWI -> (supplied) -> (material for) -> 'Arms' (as a title abbreviation). The connection is highly indirect but not completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/International_Red_Cross_and_Red_Crescent_Movement Time_vector:has_event he spent six months as a reporter for The Kansas City Star before enlisting in the Red Cross",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph explicitly links the event of working as a reporter to the subsequent event of enlisting in the Red Cross using the temporal marker 'before'. The predicate 'Time_vector:has_event' can reasonably be interpreted as describing this sequence of events associated with the Red Cross."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Travel:has_time 1954",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On a 1954 trip to Africa', directly linking Hemingway to travel in 1954."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Labor_product:has_location Literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hemingway is identified as an American author, and his works are described as 'classics of American literature', implying a connection between the United States and the production of literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_text Farewell to Arms",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions his 1929 novel 'A Farewell to Arms', directly associating Hemingway with this text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Aggregate:has_theme expatriate",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Hemingway served in WWI and later was part of the 'Lost Generation' expatriate community in Paris. While the connection between WWI and the theme of expatriatism is indirect, it is a reasonable thematic link from the narrative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_location Literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Hemingway is an American author whose works are 'classics of American literature', implying the United States is an origin location for this literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Impact:has_theme plane",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "World War I is mentioned, and planes are mentioned in the context of Hemingway's 1954 plane crashes. While the connection is very indirect (different time periods), there's a semantic link through the theme of war/aviation and personal danger."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity novelist",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Hemingway is explicitly identified as an American novelist. The United States is clearly the origin of this entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/International_Red_Cross_and_Red_Crescent_Movement Time_vector:has_theme before",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hemingway enlisted in the Red Cross, and this event is placed in a temporal sequence ('before' becoming an ambulance driver). The theme of 'before' can be reasonably inferred from the narrative structure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Medical_conditions:has_theme health",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "World War I is mentioned as the context where Hemingway was 'seriously wounded'. Health/medical conditions are a theme of that event. The later mention of his ill health, while from a different cause, reinforces the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Fields:has_location Literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hemingway's works are described as 'classics of American literature'. This strongly implies that the field of Literature is located in or associated with the United States in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Publishing:has_audience considerable acclaim",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states 'The Old Man and the Sea' was published to considerable acclaim, but this acclaim is not linked to World War I. The triple incorrectly connects the acclaim to the war instead of the book."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_text Old Man and the Sea",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hemingway's novel 'The Old Man and the Sea' was published in 1952, establishing a clear author-text relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_recipient http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'he was awarded the 1954 Nobel Prize in Literature', which is a clear recipient relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_time 1954",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While 1954 is mentioned as the year he won the Nobel Prize, the predicate 'Text:has_time' is ambiguous. There is a weak semantic connection as the year is associated with a major event in his career, though not directly with a specific text's publication time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Colonization:has_theme http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Colonization:has_theme' is completely unrelated to the content. While Hemingway served in WWI, the paragraph does not suggest the war's theme was Hemingway himself; the relationship is misrepresented."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Labor_product:has_theme non-fiction",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Hemingway was an American author and that his two non-fiction works are considered classics of American literature. There is a weak semantic link between the United States, the author's nationality, and the theme of non-fiction as a product of his labor."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Aggregate:has_theme short-story",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Hemingway was an American author and mentions his six short-story collections as part of his work. There is a weak semantic connection between the United States and the aggregate theme of short-story writing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_theme 1940",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Hemingway's novel 'For Whom the Bell Tolls' was published in 1940. The year 1940 is directly associated with one of his texts, forming a reasonable, though indirect, 'has_theme' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Growing_food:has_location Oak Park, Illinois, a suburb of Chicago",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph clearly states Hemingway was raised in Oak Park, Illinois, the predicate 'Growing_food:has_location' is completely unrelated to the concept of being raised or living somewhere. The semantic connection to 'growing food' is absent and contradictory to the context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway People_by_vocation:has_type ambulance",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Hemingway 'served as an ambulance driver' during WWI. This directly links the person (Hemingway) to a vocational type (ambulance driver), even if the predicate is slightly awkwardly phrased."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_time 1937",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1937, Hemingway went to Spain to cover the Spanish Civil War', directly linking Hemingway to the year 1937."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Rest:has_theme rest",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Hemingway's service in WWI, but there is no mention of the theme 'rest' in relation to WWI. The predicate and object are too vague and unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Foreign_or_domestic_country:has_time 1921",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hemingway moved to Paris in 1921, but this event is not linked to World War I, which had ended by that time. The triple incorrectly associates the time with the war."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Sun_Also_Rises Win_prize:has_prize http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph states that 'The Old Man and the Sea' won the Pulitzer Prize for Fiction. While 'The Sun Also Rises' is mentioned, there is no information connecting it to winning this prize. The connection is incorrect based on the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_location Literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Hemingway's works 'have become classics of American literature' and he won the Nobel Prize in Literature. This provides a strong semantic connection between Hemingway and the domain/concept of Literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Motion:has_purpose cover the Spanish Civil War",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hemingway went to Spain to cover the Spanish Civil War', which directly connects the subject to the purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_subregion:has_theme 20th-century",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The United States is mentioned ('American'), and the '20th-century' is mentioned, but there is no semantic link between them in the paragraph. The theme is attributed to Hemingway's style, not the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Temporal_collocation:has_time 1928",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "World War I is mentioned as ending with Hemingway's injury in 1918. The year 1928 is mentioned as when he returned to the U.S. There is no connection between WWI and 1928 in the text; the relationship is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Fame:has_reason economical, understated style that influenced later 20th-century writers",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hemingway is 'Known for an economical, understated style that influenced later 20th-century writers'. This is a direct reason for his fame, even if the property name 'Fame:has_reason' is an interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_time 1929",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'His experiences during the war supplied material for his 1929 novel A Farewell to Arms'. This weakly supports a connection between Hemingway (the author) and a text/time, though the predicate 'Text:has_time' is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I First_rank:has_time 1926",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Hemingway served in WWI (1918) and published his debut novel in 1926, but there is no semantic connection suggesting WWI 'has time' 1926. The events are separate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Rest:has_theme his life",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hemingway's WWI experiences 'supplied material' for his novel 'A Farewell to Arms'. This implies WWI was a significant theme or influence on his life and work, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Subjective_influence:has_entity modernist writers and artists of the \" Lost Generation \" expatriate community",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Hemingway 'was influenced by the modernist writers and artists of the \"Lost Generation\" expatriate community', which is a direct semantic match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Text_creation:has_time 1937",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Hemingway went to Spain in 1937 to cover the Spanish Civil War, which is a different conflict from World War I. There is no connection between WWI and the year 1937 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hemingway was an American author and that some of his works 'have become classics of American literature'. This creates a reasonable, though indirect, semantic link between the United States and literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Cardinal_numbers:has_entity successive plane crashes",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'successive plane crashes' in the context of a 1954 trip to Africa, which is unrelated to World War I. There is no semantic connection between World War I and the plane crashes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Assistance:has_theme http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hemingway served as an ambulance driver on the Italian Front in World War I and was wounded. This establishes a clear thematic connection between Hemingway and World War I through his assistance/service role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Travel:has_goal http://en.wikipedia.org/wiki/Africa",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On a 1954 trip to Africa', clearly indicating that Hemingway traveled to Africa."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Hemingway was an American author whose works are mentioned as 'classics of American literature'. There is a weak but valid semantic connection between the United States and his literary works as products of labor."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Supply:has_theme His experiences during the war",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'His experiences during the war supplied material for his 1929 novel A Farewell to Arms', and the preceding context makes it clear this refers to World War I, where he served as an ambulance driver."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_time 1961",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Hemingway died in 1961 and he was an American author. The connection is weak and indirect, but there is a semantic link between the United States (his nationality) and the time 1961 (his death year)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_I Judgment_communication:has_theme considerable",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'considerable' appears in the paragraph in relation to the acclaim for 'The Old Man and the Sea', which is completely unrelated to World War I. There is no semantic connection between the theme of WWI and the concept of 'considerable'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ernest_Hemingway Text:has_time 1952",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1952, his novel The Old Man and the Sea was published'. This directly links Hemingway (the subject) and a text-related event to the year 1952."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Havana Topic:has_time 1937",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'In 1937, Hemingway went to Spain... which formed the basis for his 1940 novel For Whom the Bell Tolls , written in Havana, Cuba'. While the timing is not perfectly aligned (1937 is the trip, 1940 is the writing), there is a clear semantic chain connecting Havana to the events of 1937."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walter_Mitty Causation:has_effect pain and ill health for much of the rest of his life",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Walter Mitty' is not mentioned anywhere in the paragraph. The effect 'pain and ill health' is described as a result of Hemingway's plane crashes, but it is not connected to Walter Mitty in any way."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.5199999999999999,
+    "high_confidence_50": 30,
+    "high_confidence_80": 15,
+    "percent_50": 60.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

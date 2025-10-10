@@ -1,0 +1,279 @@
+digraph Wu_Chengen {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "be the author of Journey to..." [label="be the author of Journey to...", fillcolor=lightcoral, color=red, shape=circle];
+    "accomplished writer" [label="accomplished writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "prominent contemporary writers" [label="prominent contemporary writers", fillcolor=lightcoral, color=red, shape=circle];
+    "contemporary writers" [label="contemporary writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "classical literature, popul..." [label="classical literature, popul...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Chinese novelist and poet" [label="Chinese novelist and poet", fillcolor=lightblue, color=blue, shape=ellipse];
+    "enthusiasm for literature—i..." [label="enthusiasm for literature—i...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "eventually" [label="eventually", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "middle" [label="middle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jiangsu" [label="Jiangsu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Huai'an" [label="Huai'an", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Literary" [label="Literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "primary" [label="primary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mandarin, or imperial official" [label="mandarin, or imperial official", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wu Cheng'en" [label="Wu Cheng'en", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "financial" [label="financial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "official" [label="official", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Contemporary history" [label="Contemporary history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same enthusiasm for literat..." [label="same enthusiasm for literat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university" [label="university", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wu's" [label="Wu's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "resigned" [label="resigned", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his family's" [label="his family's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nanjing" [label="Nanjing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "throughout his life" [label="throughout his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "political climate of the ti..." [label="political climate of the ti...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rest" [label="rest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lianshui County" [label="Lianshui County", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his life" [label="his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much" [label="much", fillcolor=lightgray, color=gray, shape=hexagon];
+    "postings" [label="postings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after that" [label="after that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both poetry and prose" [label="both poetry and prose", fillcolor=lightgray, color=gray, shape=hexagon];
+    "imperial" [label="imperial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both Beijing and Changxing ..." [label="both Beijing and Changxing ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lianshui, Jiangsu province" [label="Lianshui, Jiangsu province", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ming dynasty" [label="Ming dynasty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends with several promin..." [label="friends with several promin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Journey to the West, one of..." [label="Journey to the West, one of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "spent his life as an artisan" [label="spent his life as an artisan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his family's financial diff..." [label="his family's financial diff...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories and poems" [label="stories and poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "moved to Huai'an" [label="moved to Huai'an", fillcolor=lightgray, color=gray, shape=hexagon];
+    "entry into the imperial uni..." [label="entry into the imperial uni...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "primary education" [label="primary education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During this time" [label="During this time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age" [label="age", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several prominent contempor..." [label="several prominent contempor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poor" [label="poor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chinese language" [label="Chinese language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "province" [label="province", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ng" [label="Ng", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wu" [label="Wu", fillcolor=lightgray, color=gray, shape=hexagon];
+    "devote himself to literary ..." [label="devote himself to literary ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "become a mandarin, or imper..." [label="become a mandarin, or imper...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "claim to fame" [label="claim to fame", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Journey to the West" [label="Journey to the West", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his hometown" [label="his hometown", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ng name" [label="Ng name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wu Rui eunuch" [label="Wu Rui eunuch", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Nanjing" -> "eventually" [label="has time [Quitting]", color=purple, penwidth=2];
+    "Wu Cheng'en" -> "many" [label="has theme [Categorization]", color=lightcoral, penwidth=1];
+    "Nanjing" -> "university" [label="has theme [Locale_by_use]", color=lightgreen, penwidth=1];
+    "Nanjing" -> "resigned" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Ming dynasty" -> "several" [label="has quantity [Quantified_mass]", color=lightpink, penwidth=1];
+    "Wu Cheng'en" -> "his hometown" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Ming dynasty" -> "world" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Ming dynasty" -> "stories" [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "Ming dynasty" -> "poetry" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ming dynasty" -> "primary education" [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "Wu Cheng'en" -> "poor" [label="has state [State_continue]", color=lightseagreen, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Jiangsu" -> "province" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Ming dynasty" -> "novelist" [label="has entity [Origin]", color=lightgoldenrod, penwidth=1];
+    "Wu Cheng'en" -> "Huai'an" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "Wu Rui eunuch" -> "devote himself to literary ..." [label="has activity [Activity_ongoing]", color=lightsteelblue, penwidth=1];
+    "Nanjing" -> "Wu Cheng'en" [label="has theme [Examination]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "Literary" [label="has theme [Work]", color=lightblue, penwidth=1];
+    "Ming dynasty" -> "Nanjing" [label="has location [Getting]", color=green, penwidth=2];
+    "Ming dynasty" -> "political climate of the ti..." [label="has theme [Experiencer_focus]", color=lightgreen, penwidth=1];
+    "Wu Cheng'en" -> "Nanjing" [label="has location [Attempt]", color=green, penwidth=2];
+    "Wu Cheng'en" -> "Journey to the West" [label="has theme [Leadership]", color=lightpink, penwidth=1];
+    "Chinese language" -> "Chinese novelist and poet" [label="has entity [Being_named]", color=lightcyan, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Ming dynasty" -> "entry into the imperial uni..." [label="has theme [Getting]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "Wu Rui eunuch" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Ng name" -> "friends with several promin..." [label="has theme [Becoming]", color=lightgray, penwidth=1];
+    "Ming dynasty" -> "financial" [label="has theme [Difficulty]", color=lightgoldenrodyellow, penwidth=1];
+    "Ng name" -> "Ng" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Wu Cheng'en" -> "official" [label="has theme [Becoming]", color=lightgray, penwidth=1];
+    "Wu Cheng'en" -> "be the author of Journey to..." [label="has category [Categorization]", color=lightcoral, penwidth=1];
+    "Jiangsu" -> "Lianshui County" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Wu Cheng'en" -> "father" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Nanjing" -> "postings" [label="has theme [Interior_profile_relation]", color=lightsalmon, penwidth=1];
+    "Ming dynasty" -> "Wu Cheng'en" [label="has recipient [Getting]", color=lightcoral, penwidth=1];
+    "Wu Cheng'en" -> "Wu's" [label="has leader [Leadership]", color=lightpink, penwidth=1];
+    "Ming dynasty" -> "primary" [label="has level [Education_teaching]", color=lightgoldenrod, penwidth=1];
+    "Ming dynasty" -> "his family's financial diff..." [label="has cause [Causation]", color=lightpink, penwidth=1];
+    "Wu Cheng'en" -> "Wu's" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Nanjing" -> "middle" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has recipient [Getting]", color=lightcoral, penwidth=1];
+    "Nanjing" -> "his work" [label="has theme [Experiencer_focus]", color=lightgreen, penwidth=1];
+    "Lianshui County" -> "moved to Huai'an" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Nanjing" -> "rest" [label="has theme [Rest]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "Journey to the West" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Wu Cheng'en" -> "become a mandarin, or imper..." [label="has goal [Attempt]", color=lightyellow, penwidth=1];
+    "Wu Rui eunuch" -> "Nanjing" [label="has location [Leadership]", color=green, penwidth=2];
+    "Ming dynasty" -> "classical literature, popul..." [label="has theme [Inclusion]", color=lightblue, penwidth=1];
+    "Wu Cheng'en" -> "after that" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Nanjing" -> "Wu Cheng'en" [label="has theme [Experiencer_focus]", color=lightgreen, penwidth=1];
+    "Wu Rui eunuch" -> "imperial" [label="has theme [Leadership]", color=lightpink, penwidth=1];
+    "Wu Cheng'en" -> "Journey to the West, one of..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "Chinese language" -> "Wu" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "Ming dynasty" -> "much" [label="has theme [Proportional_quantity]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "writer" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Nanjing" -> "imperial" [label="has theme [Examination]", color=lightcoral, penwidth=1];
+    "Wu Cheng'en" -> "throughout his life" [label="has theme [State_continue]", color=lightseagreen, penwidth=1];
+    "Ming dynasty" -> "Wu Cheng'en" [label="has theme [Experiencer_focus]", color=lightgreen, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has entity [State_continue]", color=lightseagreen, penwidth=1];
+    "Nanjing" -> "age" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Ng name" -> "both poetry and prose" [label="has theme [Behind_the_scenes]", color=lightyellow, penwidth=1];
+    "Ming dynasty" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Ng name" -> "During this time" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Ng name" -> "accomplished writer" [label="has theme [Becoming]", color=lightgray, penwidth=1];
+    "Ming dynasty" -> "literature" [label="has theme [Inclusion]", color=lightblue, penwidth=1];
+    "Contemporary history" -> "contemporary writers" [label="has entity [Prominence]", color=lightpink, penwidth=1];
+    "Ming dynasty" -> "his life" [label="has theme [Proportional_quantity]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "his family's" [label="has theme [Difficulty]", color=lightgoldenrodyellow, penwidth=1];
+    "Ming dynasty" -> "child" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Wu Cheng'en" -> "same enthusiasm for literat..." [label="has theme [Getting]", color=lightcoral, penwidth=1];
+    "Ming dynasty" -> "spent his life as an artisan" [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Nanjing" -> "Wu Cheng'en" [label="has employee [Quitting]", color=lightblue, penwidth=1];
+    "Ming dynasty" -> "claim to fame" [label="has item [First_rank]", color=lightsteelblue, penwidth=1];
+    "Ming dynasty" -> "prominent contemporary writers" [label="has theme [Quantified_mass]", color=lightpink, penwidth=1];
+    "Ming dynasty" -> "enthusiasm for literature—i..." [label="has type [Identicality]", color=lightgray, penwidth=1];
+    "Wu Cheng'en" -> "Nanjing" [label="has location [Becoming]", color=green, penwidth=2];
+    "Ming dynasty" -> "Chinese language" [label="has theme [Origin]", color=lightgoldenrod, penwidth=1];
+    "Chinese language" -> "name" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "Nanjing" -> "his life" [label="has theme [Rest]", color=lightcoral, penwidth=1];
+    "Ng name" -> "Ng" [label="has entity [Becoming]", color=lightgray, penwidth=1];
+    "Ng name" -> "several prominent contempor..." [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Ng name" -> "Ng" [label="has artist [Behind_the_scenes]", color=lightyellow, penwidth=1];
+    "Wu Cheng'en" -> "Lianshui County" [label="has location [Motion]", color=green, penwidth=2];
+    "Nanjing" -> "Wu Cheng'en" [label="has process [Process_end]", color=lightgoldenrodyellow, penwidth=1];
+    "Nanjing" -> "both Beijing and Changxing ..." [label="has theme [Interior_profile_relation]", color=lightsalmon, penwidth=1];
+    "Contemporary history" -> "writers" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Wu Cheng'en" -> "Wu" [label="has person [Being_born]", color=red, penwidth=2];
+    "Ming dynasty" -> "Journey to the West" [label="has agent [Work]", color=lightblue, penwidth=1];
+    "Wu Cheng'en" -> "children" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Wu Cheng'en" -> "mandarin, or imperial official" [label="has theme [Becoming]", color=lightgray, penwidth=1];
+    "Wu Cheng'en" -> "Lianshui, Jiangsu province" [label="has location [Being_born]", color=green, penwidth=2];
+    "Wu Cheng'en" -> "stories and poems" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Nanjing" -> "imperial" [label="has theme [Locale_by_use]", color=lightgreen, penwidth=1];
+    "Wu Rui eunuch" -> "official" [label="has leader [Leadership]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Quitting_legend" [label="Quitting", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Examination_legend" [label="Examination", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Work_legend" [label="Work", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Experiencer_focus_legend" [label="Experiencer_focus", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Difficulty_legend" [label="Difficulty", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Rest_legend" [label="Rest", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Prominence_legend" [label="Prominence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Process_end_legend" [label="Process_end", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

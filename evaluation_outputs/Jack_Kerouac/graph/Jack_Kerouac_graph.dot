@@ -1,0 +1,287 @@
+digraph Jack_Kerouac {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+    "The Town and the City" [label="The Town and the City", fillcolor=lightgreen, color=green, shape=box];
+    "Town and the City" [label="Town and the City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "previously unseen works" [label="previously unseen works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "unseen works" [label="unseen works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "more novels" [label="more novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "publish 12 more novels and ..." [label="publish 12 more novels and ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his first novel" [label="his first novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "published book" [label="published book", fillcolor=lightblue, color=blue, shape=ellipse];
+    "12 more novels and numerous..." [label="12 more novels and numerous...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist and poet" [label="novelist and poet", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "his death" [label="his death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Canada" [label="Canada", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several previously unseen w..." [label="several previously unseen w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French-speaking home in Low..." [label="French-speaking home in Low...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "marked" [label="marked", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which was published more th..." [label="which was published more th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "previously unseen" [label="previously unseen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Jean-Louis Lebris de Ker..." [label="as Jean-Louis Lebris de Ker...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "topics such as his Catholic..." [label="topics such as his Catholic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pioneer" [label="pioneer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jerry Garcia" [label="Jerry Garcia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some confusion" [label="some confusion", fillcolor=lightgray, color=gray, shape=hexagon];
+    "legacy" [label="legacy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French Canadian" [label="French Canadian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more than 40 years after hi..." [label="more than 40 years after hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Since" [label="Since", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his literary prestige has g..." [label="his literary prestige has g...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "40" [label="40", fillcolor=lightgray, color=gray, shape=hexagon];
+    "previously" [label="previously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "greatly" [label="greatly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "12" [label="12", fillcolor=lightgray, color=gray, shape=hexagon];
+    "drugs" [label="drugs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Since then" [label="Since then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William S. Burroughs" [label="William S. Burroughs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hippie movement" [label="hippie movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "March 12, 1922" [label="March 12, 1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lowell, Massachusetts" [label="Lowell, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parents" [label="parents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beats" [label="Beats", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some confusion surrounding ..." [label="some confusion surrounding ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread fame and notoriety" [label="widespread fame and notoriety", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many of the cultural icons ..." [label="many of the cultural icons ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French-speaking" [label="French-speaking", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after" [label="after", fillcolor=lightgray, color=gray, shape=hexagon];
+    "accent" [label="accent", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his literary prestige" [label="his literary prestige", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1957" [label="1957", fillcolor=lightgray, color=gray, shape=hexagon];
+    "underground celebrity and, ..." [label="underground celebrity and, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "antagonistic toward some of..." [label="antagonistic toward some of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World War II" [label="World War II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his name" [label="his name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bob Dylan, the Beatles, Jer..." [label="Bob Dylan, the Beatles, Jer...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1950" [label="1950", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his second, On the Road" [label="his second, On the Road", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread" [label="widespread", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry volumes" [label="poetry volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jack Kerouac" [label="Jack Kerouac", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beat Generation" [label="Beat Generation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1969" [label="1969", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "beat icon" [label="beat icon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Jack Kerouac" [label="as Jack Kerouac", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Road" [label="Road", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French Canadian parents, Lé..." [label="French Canadian parents, Lé...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lowell" [label="Lowell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Like a Rolling Stone" [label="Like a Rolling Stone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "volumes" [label="volumes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "k" [label="k", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "World War II" -> "more novels" [label="has entity [Cardinal_numbers]", color=lightblue, penwidth=1];
+    "Jerry Garcia" -> "Bob Dylan, the Beatles, Jer..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "pioneer" [label="has theme [Achieving_first]", color=lightgreen, penwidth=1];
+    "William S. Burroughs" -> "Beat Generation" [label="has theme [Achieving_first]", color=lightgreen, penwidth=1];
+    "World War II" -> "poetry volumes" [label="has theme [Quantified_mass]", color=lightyellow, penwidth=1];
+    "United States" -> "novelist and poet" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Jack Kerouac" -> "as Jack Kerouac" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "World War II" -> "his name" [label="has theme [Locative_relation]", color=lightsteelblue, penwidth=1];
+    "Jack Kerouac" -> "name" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "Like a Rolling Stone" -> "many of the cultural icons ..." [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "Jack Kerouac" -> "1922" [label="has time [Being_named]", color=purple, penwidth=2];
+    "World War II" -> "1969" [label="has time [Death]", color=purple, penwidth=2];
+    "World War II" -> "which was published more th..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "World War II" -> "12" [label="has theme [Cardinal_numbers]", color=lightblue, penwidth=1];
+    "World War II" -> "his first novel" [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "World War II" -> "some confusion" [label="has theme [Locative_relation]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "several" [label="has quantity [Quantified_mass]", color=lightyellow, penwidth=1];
+    "Jack Kerouac" -> "novel" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Jerry Garcia" -> "many of the cultural icons ..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "World War II" -> "book" [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "Jack Kerouac" -> "March 12, 1922" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "Lowell, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "William S. Burroughs" -> "1922" [label="has time [Achieving_first]", color=purple, penwidth=2];
+    "The Town and the City" -> "beat icon" [label="has effect [Causation]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "previously" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Canada" -> "Lowell" [label="has location [Kinship]", color=green, penwidth=2];
+    "World War II" -> "Since" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "World War II" -> "poetry" [label="has theme [Text]", color=lightgoldenrod, penwidth=1];
+    "World War II" -> "poetry" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Jack Kerouac" -> "which was published more th..." [label="has activity [Activity_finish]", color=lightblue, penwidth=1];
+    "World War II" -> "12" [label="has theme [Increment]", color=lightcoral, penwidth=1];
+    "Jack Kerouac" -> "widespread" [label="has degree [Fame]", color=lightgreen, penwidth=1];
+    "World War II" -> "Jack Kerouac" [label="has theme [Publishing]", color=lightsalmon, penwidth=1];
+    "World War II" -> "first" [label="has time [Publishing]", color=purple, penwidth=2];
+    "World War II" -> "1922" [label="has time [Kinship]", color=purple, penwidth=2];
+    "New York City" -> "drugs" [label="has theme [Intoxicants]", color=lightyellow, penwidth=1];
+    "World War II" -> "Beats" [label="has theme [Increment]", color=lightcoral, penwidth=1];
+    "World War II" -> "several previously unseen w..." [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "World War II" -> "literary" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "World War II" -> "some confusion surrounding ..." [label="has entity [Existence]", color=lightcyan, penwidth=1];
+    "Jack Kerouac" -> "hippie movement" [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "accent" [label="has information [Correctness]", color=lightgray, penwidth=1];
+    "Like a Rolling Stone" -> "Jack Kerouac" [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "World War II" -> "parents" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Jack Kerouac" -> "French Canadian parents, Lé..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "World War II" -> "more than 40 years after hi..." [label="has time [Publishing]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "French-speaking home in Low..." [label="has location [Growing_food]", color=green, penwidth=2];
+    "World War II" -> "1950" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Like a Rolling Stone" -> "greatly" [label="has degree [Objective_influence]", color=lightgray, penwidth=1];
+    "Jack Kerouac" -> "1957" [label="has time [Accomplishment]", color=purple, penwidth=2];
+    "New York City" -> "his work" [label="has text [Topic]", color=blue, penwidth=2];
+    "William S. Burroughs" -> "French-speaking" [label="has type [Buildings]", color=lightpink, penwidth=1];
+    "World War II" -> "years" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "previously unseen" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "World War II" -> "12 more novels and numerous..." [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "World War II" -> "French Canadian" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "World War II" -> "unseen works" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "Town and the City" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "World War II" -> "legacy" [label="has theme [Duration_description]", color=lightblue, penwidth=1];
+    "World War II" -> "publish 12 more novels and ..." [label="has event [Process_continue]", color=lightcoral, penwidth=1];
+    "World War II" -> "works" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "World War II" -> "Jack Kerouac" [label="has theme [Death]", color=lightgoldenrodyellow, penwidth=1];
+    "William S. Burroughs" -> "Jack Kerouac" [label="has theme [Correctness]", color=lightgray, penwidth=1];
+    "World War II" -> "his literary prestige" [label="has item [Change_position_on_a_scale]", color=lightgreen, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Jack Kerouac" -> "time" [label="has time [Activity_finish]", color=purple, penwidth=2];
+    "United States" -> "1922" [label="has time [Origin]", color=purple, penwidth=2];
+    "World War II" -> "40" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "Lowell" [label="has location [Kinship]", color=green, penwidth=2];
+    "World War II" -> "after" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "home" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Jack Kerouac" -> "his second, On the Road" [label="has means [Accomplishment]", color=lightsalmon, penwidth=1];
+    "World War II" -> "novels" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "Jack Kerouac" -> "underground celebrity and, ..." [label="has theme [Becoming]", color=lightyellow, penwidth=1];
+    "World War II" -> "volumes" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "The Town and the City" -> "Town and the City" [label="has cause [Causation]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "Road" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "The Town and the City" -> "Jack Kerouac" [label="has theme [Causation]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "marked" [label="has degree [Correctness]", color=lightgray, penwidth=1];
+    "William S. Burroughs" -> "Lowell" [label="has location [Buildings]", color=green, penwidth=2];
+    "Jack Kerouac" -> "1950" [label="has time [Text]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "1950" [label="has time [Fame]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "k" [label="has entity [Being_named]", color=lightcyan, penwidth=1];
+    "World War II" -> "then" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "New York City" -> "topics such as his Catholic..." [label="has theme [Topic]", color=blue, penwidth=2];
+    "Jack Kerouac" -> "antagonistic toward some of..." [label="has state [State_continue]", color=lightpink, penwidth=1];
+    "World War II" -> "published book" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "World War II" -> "his death" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "World War II" -> "novels" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "World War II" -> "previously unseen works" [label="has theme [Quantified_mass]", color=lightyellow, penwidth=1];
+    "Jack Kerouac" -> "as Jean-Louis Lebris de Ker..." [label="has message [Statement]", color=lightcyan, penwidth=1];
+    "World War II" -> "his literary prestige has g..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "World War II" -> "Since then" [label="has time [Change_position_on_a_scale]", color=purple, penwidth=2];
+    "Jack Kerouac" -> "widespread fame and notoriety" [label="has goal [Accomplishment]", color=lightsalmon, penwidth=1];
+    "World War II" -> "novel" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Achieving_first_legend" [label="Achieving_first", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Activity_finish_legend" [label="Activity_finish", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Intoxicants_legend" [label="Intoxicants", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Correctness_legend" [label="Correctness", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Accomplishment_legend" [label="Accomplishment", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Process_continue_legend" [label="Process_continue", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+    }
+}

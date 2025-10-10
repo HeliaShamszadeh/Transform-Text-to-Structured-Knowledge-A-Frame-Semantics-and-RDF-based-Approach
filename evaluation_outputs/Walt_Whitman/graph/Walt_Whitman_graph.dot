@@ -1,0 +1,297 @@
+digraph Walt_Whitman {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "out to the common person wi..." [label="out to the common person wi...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "American literature and wor..." [label="American literature and wor...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "go to work" [label="go to work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "two novels" [label="two novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Walt Whitman" [label="Walt Whitman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reach out to the common per..." [label="reach out to the common per...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he went to Washington, D.C...." [label="he went to Washington, D.C....", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as obscene" [label="as obscene", fillcolor=lightgray, color=gray, shape=hexagon];
+    "often" [label="often", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both loss and healing" [label="both loss and healing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Washington, D.C" [label="Washington, D.C", fillcolor=lightgray, color=gray, shape=hexagon];
+    "O Captain! My Captain!" [label="O Captain! My Captain!", fillcolor=lightgray, color=gray, shape=hexagon];
+    "focused on both loss and he..." [label="focused on both loss and he...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "without Walt Whitman, witho..." [label="without Walt Whitman, witho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal" [label="formal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "caring for the wounded" [label="caring for the wounded", fillcolor=lightgray, color=gray, shape=hexagon];
+    "money" [label="money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age 11" [label="age 11", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet, essayist, and journalist" [label="poet, essayist, and journalist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal schooling" [label="formal schooling", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American Epic" [label="American Epic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a journalist, a teacher,..." [label="as a journalist, a teacher,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "end" [label="end", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His poetry" [label="His poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "greatly" [label="greatly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his funeral" [label="his funeral", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his life" [label="his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "11" [label="11", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Huntington, West Virginia" [label="Huntington, West Virginia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Whitman's influence on poetry" [label="Whitman's influence on poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strong" [label="strong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "teacher" [label="teacher", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wounded" [label="wounded", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most influential..." [label="one of the most influential...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "well known" [label="well known", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Whitman moved to Camden, Ne..." [label="Whitman moved to Camden, Ne...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American Civil War" [label="American Civil War", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its overt sensuality" [label="its overt sensuality", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Whitman's" [label="Whitman's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "suffering a stroke towards ..." [label="suffering a stroke towards ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "free verse" [label="free verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Abraham Lincoln, whom Whitm..." [label="Abraham Lincoln, whom Whitm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his health" [label="his health", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Whitman's major poetry coll..." [label="Whitman's major poetry coll...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During the American Civil War" [label="During the American Civil War", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Camden, New Jersey, where h..." [label="Camden, New Jersey, where h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a child and through much..." [label="as a child and through much...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1892" [label="1892", fillcolor=lightgray, color=gray, shape=hexagon];
+    "further" [label="further", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1855" [label="1855", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Huntington on Long Island" [label="Huntington on Long Island", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number of poems, including ..." [label="number of poems, including ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Art historian Mary Berenson" [label="Art historian Mary Berenson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry collection" [label="poetry collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "You ca not really understan..." [label="You ca not really understan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mary Berenson" [label="Mary Berenson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brooklyn" [label="Brooklyn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Leaves of Grass" [label="Leaves of Grass", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age 72" [label="age 72", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lincoln" [label="Lincoln", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father of free verse" [label="father of free verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stroke towards the end of h..." [label="stroke towards the end of h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whom" [label="whom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "expanding and revising Leav..." [label="expanding and revising Leav...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lectures" [label="lectures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hospitals" [label="hospitals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Leaves of Grass" -> "focused on both loss and he..." [label="has event [Frequency]", color=lightblue, penwidth=1];
+    "Leaves of Grass" -> "often" [label="has theme [Emphasizing]", color=lightcoral, penwidth=1];
+    "Leaves of Grass" -> "collection" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "Walt Whitman" -> "Brooklyn" [label="has location [Residence]", color=green, penwidth=2];
+    "Walt Whitman" -> "expanding and revising Leav..." [label="has activity [Activity_ongoing]", color=lightpink, penwidth=1];
+    "Walt Whitman" -> "which" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "greatly" [label="has degree [Judgment]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "free verse" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Leaves of Grass" -> "formal" [label="has level [Education_teaching]", color=lightgoldenrodyellow, penwidth=1];
+    "Leaves of Grass" -> "teacher" [label="has teacher [Education_teaching]", color=lightgoldenrodyellow, penwidth=1];
+    "Leaves of Grass" -> "money" [label="has theme [Money]", color=lightseagreen, penwidth=1];
+    "Leaves of Grass" -> "Walt Whitman" [label="has employee [Being_employed]", color=lightsalmon, penwidth=1];
+    "Walt Whitman" -> "as obscene" [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Leaves of Grass" -> "further" [label="has degree [Improvement_or_decline]", color=lightgoldenrod, penwidth=1];
+    "Walt Whitman" -> "two" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Leaves of Grass" -> "wounded" [label="has theme [Cause_harm]", color=lightsteelblue, penwidth=1];
+    "Leaves of Grass" -> "suffering a stroke towards ..." [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Walt Whitman" -> "Leaves of Grass" [label="has item [Cause_expansion]", color=lightblue, penwidth=1];
+    "Leaves of Grass" -> "Whitman's influence on poetry" [label="has theme [Level_of_force_exertion]", color=lightcoral, penwidth=1];
+    "Walt Whitman" -> "poetry" [label="has theme [Objective_influence]", color=lightgreen, penwidth=1];
+    "Walt Whitman" -> "work" [label="has goal [Motion]", color=lightyellow, penwidth=1];
+    "Leaves of Grass" -> "work" [label="has theme [Labor_product]", color=lightpink, penwidth=1];
+    "Leaves of Grass" -> "His poetry" [label="has theme [Emphasizing]", color=lightcoral, penwidth=1];
+    "Leaves of Grass" -> "poems" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "go to work" [label="has purpose [Departing]", color=lightsteelblue, penwidth=1];
+    "Leaves of Grass" -> "caring for the wounded" [label="has task [Being_employed]", color=lightsalmon, penwidth=1];
+    "Walt Whitman" -> "as a child and through much..." [label="has time [Residence]", color=purple, penwidth=2];
+    "Walt Whitman" -> "two novels" [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Leaves of Grass" -> "Whitman's major poetry coll..." [label="has work [Publishing]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "literature" [label="has entity [Origin]", color=lightseagreen, penwidth=1];
+    "Walt Whitman" -> "whom" [label="has evaluee [Judgment]", color=lightsteelblue, penwidth=1];
+    "Leaves of Grass" -> "Walt Whitman" [label="has patient [Medical_conditions]", color=lightsalmon, penwidth=1];
+    "Leaves of Grass" -> "poetry" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "Leaves of Grass" -> "both loss and healing" [label="has theme [Emphasizing]", color=lightcoral, penwidth=1];
+    "Walt Whitman" -> "father of free verse" [label="has theme [Labeling]", color=lightgoldenrod, penwidth=1];
+    "American Epic" -> "reach out to the common per..." [label="has goal [Attempt]", color=lightpink, penwidth=1];
+    "Leaves of Grass" -> "his funeral" [label="has event [Event]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "its overt sensuality" [label="has theme [Categorization]", color=lightcyan, penwidth=1];
+    "Leaves of Grass" -> "Walt Whitman" [label="has possessor [Money]", color=lightseagreen, penwidth=1];
+    "Walt Whitman" -> "Washington, D.C" [label="has goal [Motion]", color=lightyellow, penwidth=1];
+    "Walt Whitman" -> "age 72" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "United States" -> "literature" [label="has theme [Fields]", color=lightblue, penwidth=1];
+    "Leaves of Grass" -> "major" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "American Civil War" -> "American Civil War" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "poets" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "American Epic" -> "out to the common person wi..." [label="has goal [Arriving]", color=lightgreen, penwidth=1];
+    "Walt Whitman" -> "Whitman's influence on poetry" [label="has entity [State_continue]", color=lightyellow, penwidth=1];
+    "Leaves of Grass" -> "hospitals" [label="has theme [Being_employed]", color=lightsalmon, penwidth=1];
+    "Mary Berenson" -> "without Walt Whitman, witho..." [label="has theme [Grasp]", color=lightpink, penwidth=1];
+    "United States" -> "poet" [label="has entity [Origin]", color=lightseagreen, penwidth=1];
+    "Mary Berenson" -> "United States" [label="has theme [Grasp]", color=lightpink, penwidth=1];
+    "Walt Whitman" -> "1892" [label="has time [Death]", color=purple, penwidth=2];
+    "Leaves of Grass" -> "1855" [label="has time [Publishing]", color=purple, penwidth=2];
+    "American Civil War" -> "he went to Washington, D.C...." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Leaves of Grass" -> "his health" [label="has entity [Improvement_or_decline]", color=lightgoldenrod, penwidth=1];
+    "Walt Whitman" -> "age 11" [label="has time [Departing]", color=purple, penwidth=2];
+    "Leaves of Grass" -> "poetry" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Leaves of Grass" -> "as a journalist, a teacher,..." [label="has position [Being_employed]", color=lightsalmon, penwidth=1];
+    "Walt Whitman" -> "well known" [label="has theme [Becoming]", color=lightcyan, penwidth=1];
+    "Mary Berenson" -> "Art historian Mary Berenson" [label="has speaker [Statement]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "Lincoln" [label="has theme [Social_event]", color=lightgray, penwidth=1];
+    "Leaves of Grass" -> "public" [label="has theme [Event]", color=lightsteelblue, penwidth=1];
+    "United States" -> "American literature and wor..." [label="has theme [Subjective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Walt Whitman" -> "novels" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "Huntington on Long Island" [label="has location [Being_born]", color=green, penwidth=2];
+    "United States" -> "poet, essayist, and journalist" [label="has entity [Origin]", color=lightseagreen, penwidth=1];
+    "Leaves of Grass" -> "poems" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Walt Whitman" -> "Leaves of Grass" [label="has information [Reveal_secret]", color=lightgoldenrod, penwidth=1];
+    "Walt Whitman" -> "novels" [label="has entity [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Mary Berenson" -> "You ca not really understan..." [label="has message [Statement]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "Whitman's" [label="has theme [Objective_influence]", color=lightgreen, penwidth=1];
+    "Walt Whitman" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Walt Whitman" -> "United States" [label="has location [Categorization]", color=green, penwidth=2];
+    "Huntington, West Virginia" -> "Walt Whitman" [label="has theme [Desiring]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "one of the most influential..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "United States" -> "poets" [label="has entity [Subjective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Walt Whitman" -> "stroke towards the end of h..." [label="has event [Eventive_affecting]", color=lightcoral, penwidth=1];
+    "Leaves of Grass" -> "end" [label="has theme [Temporal_subregion]", color=lightblue, penwidth=1];
+    "Walt Whitman" -> "Whitman's major poetry coll..." [label="has entity [Becoming]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "strong" [label="has state [State_continue]", color=lightyellow, penwidth=1];
+    "Leaves of Grass" -> "Whitman moved to Camden, Ne..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Walt Whitman" -> "some" [label="has theme [Categorization]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "lectures" [label="has theme [Social_event]", color=lightgray, penwidth=1];
+    "Walt Whitman" -> "Camden, New Jersey, where h..." [label="has goal [Motion]", color=lightyellow, penwidth=1];
+    "Walt Whitman" -> "poetry" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "formal schooling" [label="has theme [Departing]", color=lightsteelblue, penwidth=1];
+    "Leaves of Grass" -> "wounded" [label="has event [Desiring]", color=lightsteelblue, penwidth=1];
+    "Walt Whitman" -> "During the American Civil War" [label="has time [Motion]", color=purple, penwidth=2];
+    "Leaves of Grass" -> "his life" [label="has theme [Temporal_subregion]", color=lightblue, penwidth=1];
+    "Walt Whitman" -> "uses" [label="has goal [Purpose]", color=lightcoral, penwidth=1];
+    "O Captain! My Captain!" -> "poems" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Walt Whitman" -> "number of poems, including ..." [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Leaves of Grass" -> "Walt Whitman" [label="has theme [Desiring]", color=lightsteelblue, penwidth=1];
+    "Leaves of Grass" -> "Abraham Lincoln, whom Whitm..." [label="has theme [Killing]", color=lightyellow, penwidth=1];
+    "Leaves of Grass" -> "hospitals" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Leaves of Grass" -> "poetry collection" [label="has theme [Importance]", color=lightcyan, penwidth=1];
+    "Walt Whitman" -> "11" [label="has age [Age]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Frequency_legend" [label="Frequency", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Money_legend" [label="Money", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Improvement_or_decline_legend" [label="Improvement_or_decline", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cause_harm_legend" [label="Cause_harm", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cause_expansion_legend" [label="Cause_expansion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Level_of_force_exertion_legend" [label="Level_of_force_exertion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Social_event_legend" [label="Social_event", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Reveal_secret_legend" [label="Reveal_secret", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Eventive_affecting_legend" [label="Eventive_affecting", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Purpose_legend" [label="Purpose", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Killing_legend" [label="Killing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

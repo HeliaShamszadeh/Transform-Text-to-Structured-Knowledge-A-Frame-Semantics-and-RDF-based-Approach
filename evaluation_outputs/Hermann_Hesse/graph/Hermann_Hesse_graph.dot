@@ -1,0 +1,268 @@
+digraph Hermann_Hesse {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His first works of poetry a..." [label="His first works of poetry a...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His best-known novels" [label="His best-known novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works of poetry and prose" [label="works of poetry and prose", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his first novel, Peter Came..." [label="his first novel, Peter Came...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "shape his literary work" [label="shape his literary work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Johann Wolfgang von Goethe" [label="Johann Wolfgang von Goethe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "briefly" [label="briefly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "individual's" [label="individual's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hermann Karl Hesse" [label="Hermann Karl Hesse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citation" [label="citation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his polyglot grandfather" [label="his polyglot grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Calw" [label="Calw", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hermann Hess politician" [label="Hermann Hess politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandfather" [label="grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gymnasium school" [label="Gymnasium school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politician" [label="politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "music" [label="music", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hermann Hesse" [label="Hermann Hesse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1904" [label="1904", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after his formal education ..." [label="after his formal education ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His interest in Eastern rel..." [label="His interest in Eastern rel...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "German - Swiss" [label="German - Swiss", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eastern religious, spiritua..." [label="Eastern religious, spiritua...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black Forest town of Calw, ..." [label="Black Forest town of Calw, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Switzerland" [label="Switzerland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Württemberg, German Empire" [label="Württemberg, German Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1900s" [label="1900s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Demian, Steppenwolf, Siddha..." [label="Demian, Steppenwolf, Siddha...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandmother" [label="grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Empire" [label="Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "youth" [label="youth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry and prose" [label="poetry and prose", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his mother," [label="his mother,", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jungian analysis" [label="Jungian analysis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2 July 1877" [label="2 July 1877", fillcolor=lightgray, color=gray, shape=hexagon];
+    "businessman" [label="businessman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "depression" [label="depression", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his formal education" [label="his formal education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sanatorium" [label="sanatorium", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boarding" [label="boarding", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Protestant boarding school,..." [label="Protestant boarding school,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "polyglot" [label="polyglot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1877" [label="1877", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Protestantism" [label="Protestantism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Baltic German" [label="Baltic German", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eastern" [label="Eastern", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal" [label="formal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "religious, spiritual, and p..." [label="religious, spiritual, and p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black Forest" [label="Black Forest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "temporarily" [label="temporarily", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1893, when his formal educa..." [label="1893, when his formal educa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germany" [label="Germany", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Calw, a town in Germany's N..." [label="Calw, a town in Germany's N...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theological treatises, Gree..." [label="theological treatises, Gree...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "town" [label="town", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1890s and early 1900s" [label="1890s and early 1900s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "passion for poetry and music" [label="passion for poetry and music", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germany's Northern Black Fo..." [label="Germany's Northern Black Fo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father" [label="His father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bildungsroman" [label="Bildungsroman", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Nobel Prize in Literature" -> "shape his literary work" [label="has goal [Assistance]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "his formal education" [label="has process [Process_end]", color=lightcoral, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "theological treatises, Gree..." [label="has text [Reading_activity]", color=lightgreen, penwidth=1];
+    "Protestantism" -> "school" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "Nobel Prize in Literature" -> "briefly" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "individual's" [label="has theme [Seeking]", color=lightcyan, penwidth=1];
+    "Nobel Prize in Literature" -> "youth" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Nobel Prize in Literature" -> "music" [label="has theme [Performing_arts]", color=lightgray, penwidth=1];
+    "Nobel Prize in Literature" -> "Hermann Hesse" [label="has theme [Emotion_directed]", color=lightgoldenrodyellow, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "works of poetry and prose" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Bildungsroman" -> "his first novel, Peter Came..." [label="has entity [Circumscribed_existence]", color=lightsalmon, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern" [label="has location [Participation]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "child" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Nobel Prize in Literature" -> "Protestant boarding school,..." [label="has institution [Education_teaching]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "temporarily" [label="has time [Cause_to_land]", color=purple, penwidth=2];
+    "Hermann Hesse" -> "1904" [label="has time [Text]", color=purple, penwidth=2];
+    "Germany" -> "poet" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Hermann Hesse" -> "1877" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Johann Wolfgang von Goethe" -> "1890s and early 1900s" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "sanatorium" [label="has goal [Cause_to_land]", color=lightpink, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1904" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Johann Wolfgang von Goethe" -> "Hermann Hesse" [label="has student [Education_teaching]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern religious, spiritua..." [label="has theme [Emotion_directed]", color=lightgoldenrodyellow, penwidth=1];
+    "Nobel Prize in Literature" -> "Jungian analysis" [label="has event [Participation]", color=lightgoldenrod, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern" [label="has location [Custom]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "depression" [label="has theme [Medical_conditions]", color=lightgreen, penwidth=1];
+    "Hermann Hesse" -> "1904" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Protestantism" -> "boarding" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "Nobel Prize in Literature" -> "religious, spiritual, and p..." [label="has theme [Custom]", color=lightcoral, penwidth=1];
+    "Calw" -> "Germany's Northern Black Fo..." [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1900s" [label="has theme [Temporal_subregion]", color=lightcyan, penwidth=1];
+    "Germany" -> "article" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern" [label="has location [Assistance]", color=green, penwidth=2];
+    "Hermann Hesse" -> "Hermann Karl Hesse" [label="has person [Being_born]", color=red, penwidth=2];
+    "Germany" -> "German - Swiss" [label="has author [Text]", color=lightsteelblue, penwidth=1];
+    "Hermann Hesse" -> "poetry and prose" [label="has theme [Labor_product]", color=lightyellow, penwidth=1];
+    "Nobel Prize in Literature" -> "Hermann Hesse" [label="has theme [Participation]", color=lightgoldenrod, penwidth=1];
+    "Germany" -> "Empire" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Hermann Hesse" -> "Hermann Hess politician" [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "poetry" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Hermann Hesse" -> "passion for poetry and music" [label="has entity [Sharing]", color=lightgray, penwidth=1];
+    "Hermann Hesse" -> "mother" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "formal" [label="has level [Education_teaching]", color=lightpink, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "after his formal education ..." [label="has time [Reading_activity]", color=purple, penwidth=2];
+    "Black Forest" -> "Calw" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern" [label="has theme [Custom]", color=lightcoral, penwidth=1];
+    "Hermann Hesse" -> "Calw, a town in Germany's N..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Johann Wolfgang von Goethe" -> "His first works of poetry a..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "Baltic German" [label="has theme [People_by_origin]", color=lightseagreen, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "his formal education" [label="has process [Process_end]", color=lightcoral, penwidth=1];
+    "Germany" -> "father" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Bildungsroman" -> "1904" [label="has time [Circumscribed_existence]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Demian, Steppenwolf, Siddha..." [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Nobel Prize in Literature" -> "Eastern" [label="has location [Fields]", color=green, penwidth=2];
+    "Hermann Hesse" -> "works" [label="has theme [Labor_product]", color=lightyellow, penwidth=1];
+    "Hermann Hesse" -> "his mother," [label="has theme [Sharing]", color=lightgray, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "work" [label="has task [Being_employed]", color=lightpink, penwidth=1];
+    "Hermann Hesse" -> "Black Forest town of Calw, ..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "his polyglot grandfather" [label="has theme [Objective_influence]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "work" [label="has theme [Fields]", color=lightgoldenrod, penwidth=1];
+    "Hermann Hesse" -> "2 July 1877" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Switzerland" -> "politician" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Switzerland" -> "businessman" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Nobel Prize in Literature" -> "His father" [label="has person [People_by_origin]", color=red, penwidth=2];
+    "Germany" -> "1962" [label="has time [Text]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Eastern" [label="has location [Emotion_directed]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "which" [label="has theme [Cause_to_land]", color=lightpink, penwidth=1];
+    "Hermann Hesse" -> "grandfather" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Black Forest" -> "Württemberg, German Empire" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Hermann Hesse" -> "Gymnasium school" [label="has activity [Activity_finish]", color=lightblue, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "his first novel, Peter Came..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Hermann Hesse" -> "1893, when his formal educa..." [label="has time [Activity_finish]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "citation" [label="has theme [Being_necessary]", color=lightcoral, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "novel" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1890s and early 1900s" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Hermann Hesse" [label="has student [Education_teaching]", color=lightpink, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "His first works of poetry a..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Hermann Hesse" -> "novels" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1904" [label="has time [Temporal_subregion]", color=purple, penwidth=2];
+    "Johann Wolfgang von Goethe" -> "early" [label="has theme [Temporal_subregion]", color=lightcyan, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "Hermann Hesse" [label="has reader [Reading_activity]", color=lightgreen, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1904" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Calw" -> "town" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "His interest in Eastern rel..." [label="has theme [Assistance]", color=lightblue, penwidth=1];
+    "Johann Wolfgang von Goethe" -> "1904" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "His best-known novels" [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Nobel Prize in Literature" -> "sanatorium" [label="has theme [Prison]", color=lightyellow, penwidth=1];
+    "Germany" -> "grandmother" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Hermann Hesse" -> "Bildungsroman" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Hermann Hesse" -> "polyglot" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Germany" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "formal" [label="has level [Education_teaching]", color=lightpink, penwidth=1];
+    "Black Forest" -> "town" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Assistance_legend" [label="Assistance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Process_end_legend" [label="Process_end", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reading_activity_legend" [label="Reading_activity", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Seeking_legend" [label="Seeking", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Circumscribed_existence_legend" [label="Circumscribed_existence", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Participation_legend" [label="Participation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cause_to_land_legend" [label="Cause_to_land", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Custom_legend" [label="Custom", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Sharing_legend" [label="Sharing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "People_by_origin_legend" [label="People_by_origin", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Activity_finish_legend" [label="Activity_finish", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Prison_legend" [label="Prison", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

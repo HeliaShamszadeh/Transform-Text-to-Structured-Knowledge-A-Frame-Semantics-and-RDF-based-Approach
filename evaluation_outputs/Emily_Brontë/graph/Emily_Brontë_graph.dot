@@ -1,0 +1,355 @@
+digraph Emily_Brontë {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "as the Bront Birthplace" [label="as the Bront Birthplace", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book of poetry with her sis..." [label="book of poetry with her sis...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her work" [label="Her work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "little books and journals d..." [label="little books and journals d...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "English literature" [label="English literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "Emily Bront died in 1848, a..." [label="Emily Bront died in 1848, a...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Penzance merchant and prope..." [label="Penzance merchant and prope...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charlotte, North Carolina" [label="Charlotte, North Carolina", fillcolor=lightgray, color=gray, shape=hexagon];
+    "aged 30" [label="aged 30", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many critics" [label="many critics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "now" [label="now", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poems by Currer, Ellis and ..." [label="Poems by Currer, Ellis and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "outskirts of Bradford, in t..." [label="outskirts of Bradford, in t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family servant" [label="family servant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fifth" [label="fifth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "outskirts of Bradford" [label="outskirts of Bradford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wealthy Penzance merchant a..." [label="wealthy Penzance merchant a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "period" [label="period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tim Green" [label="Tim Green", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Currer, Ellis and Acton Bell" [label="Currer, Ellis and Acton Bell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house" [label="house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Brontë" [label="Anne Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she was three" [label="when she was three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sisters" [label="sisters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adulthood" [label="adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "30 July 1818" [label="30 July 1818", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1848" [label="1848", fillcolor=lightgray, color=gray, shape=hexagon];
+    "piano" [label="piano", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thornton, West Yorkshire" [label="Thornton, West Yorkshire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "considered to be a classic ..." [label="considered to be a classic ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thornton, a village on the ..." [label="Thornton, a village on the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "daughter" [label="daughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Market Street San Francisco" [label="Market Street San Francisco", fillcolor=lightgray, color=gray, shape=hexagon];
+    "aunt" [label="aunt", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront siblings" [label="Bront siblings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Riding of Yorkshire" [label="Riding of Yorkshire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "keen" [label="keen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poems" [label="Poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Bront" [label="Emily Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront" [label="Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "originally" [label="originally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "30" [label="30", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Branwell" [label="Elizabeth Branwell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nature and animals" [label="nature and animals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "herself" [label="herself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "West Riding of Yorkshire" [label="West Riding of Yorkshire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "teacher" [label="teacher", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as solitary, strong-willed ..." [label="as solitary, strong-willed ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "intervals" [label="intervals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "chores" [label="chores", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront family lived" [label="Bront family lived", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be a classic of English lit..." [label="be a classic of English lit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "six Bront siblings, four of..." [label="six Bront siblings, four of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "care of their aunt, Elizabe..." [label="care of their aunt, Elizabe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her siblings" [label="her siblings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Market Street, in Thornton,..." [label="Market Street, in Thornton,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "owner" [label="owner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Their house" [label="Their house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "very" [label="very", fillcolor=lightgray, color=gray, shape=hexagon];
+    "property" [label="property", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wuthering Heights" [label="Wuthering Heights", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brussels" [label="Brussels", fillcolor=lightgray, color=gray, shape=hexagon];
+    "servant" [label="servant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its publication" [label="its publication", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria Branwell, the daughte..." [label="Maria Branwell, the daughte...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Penzance" [label="Penzance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister Charlotte" [label="her sister Charlotte", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Market" [label="Market", fillcolor=lightgray, color=gray, shape=hexagon];
+    "siblings" [label="siblings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront family" [label="Bront family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "under the pen name Ellis Bell" [label="under the pen name Ellis Bell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "student" [label="student", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four of whom" [label="four of whom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "six" [label="six", fillcolor=lightgray, color=gray, shape=hexagon];
+    "open to the public" [label="open to the public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "classic" [label="classic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "generally" [label="generally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1847" [label="1847", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into adulthood" [label="into adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the characters in Wuth..." [label="that the characters in Wuth...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "village on the outskirts of..." [label="village on the outskirts of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father, Patrick Bront, ..." [label="her father, Patrick Bront, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Irish people" [label="Irish people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "village" [label="village", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her mother" [label="Her mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charlotte Brontë" [label="Charlotte Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Haworth" [label="Haworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whom" [label="whom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Street" [label="Street", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Brontë" [label="Emily Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Emily Brontë" -> "Their house" [label="has theme [Openness]", color=lightblue, penwidth=1];
+    "West Riding of Yorkshire" -> "Thornton, West Yorkshire" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Charlotte, North Carolina" -> "book of poetry with her sis..." [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Elizabeth Branwell" -> "children" [label="has theme [Abandonment]", color=lightyellow, penwidth=1];
+    "Emily Brontë" -> "sister" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Brussels" -> "teacher" [label="has teacher [Education_teaching]", color=lightcyan, penwidth=1];
+    "Brussels" -> "chores" [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "Haworth" -> "intervals" [label="has theme [Frequency]", color=lightgray, penwidth=1];
+    "Haworth" -> "home" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Brussels" -> "school" [label="has event [Frequency]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "1847" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "Emily Bront" [label="has theme [Death]", color=lightseagreen, penwidth=1];
+    "Emily Brontë" -> "aged 30" [label="has theme [Death]", color=lightseagreen, penwidth=1];
+    "Irish people" -> "family" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Wuthering Heights" -> "into adulthood" [label="has time [Surviving]", color=purple, penwidth=2];
+    "Wuthering Heights" -> "fifth" [label="has theme [Partitive]", color=lightgoldenrod, penwidth=1];
+    "Emily Brontë" -> "Emily Bront" [label="has person [Being_born]", color=red, penwidth=2];
+    "Wuthering Heights" -> "four" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Haworth" -> "Emily Brontë" [label="has theme [Experiencer_focus]", color=lightcoral, penwidth=1];
+    "Brussels" -> "books" [label="has theme [Education_teaching]", color=lightcyan, penwidth=1];
+    "Anne Brontë" -> "Poems" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Wuthering Heights" -> "Her mother" [label="has theme [Death]", color=lightseagreen, penwidth=1];
+    "Emily Brontë" -> "Bront" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "West Riding of Yorkshire" -> "outskirts of Bradford, in t..." [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Haworth" -> "books" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Penzance" -> "wealthy Penzance merchant a..." [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Brussels" -> "herself" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "Elizabeth Branwell" -> "sister" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "owner" [label="has owner [Possession]", color=lightblue, penwidth=1];
+    "Haworth" -> "her siblings" [label="has theme [Social_connection]", color=lightcoral, penwidth=1];
+    "Wuthering Heights" -> "that the characters in Wuth..." [label="has opinion [Opinion]", color=lightgreen, penwidth=1];
+    "Emily Brontë" -> "Charlotte Brontë" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Brussels" -> "family" [label="has theme [People_by_vocation]", color=lightyellow, penwidth=1];
+    "Haworth" -> "home" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "England" -> "now" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Brussels" -> "chores" [label="has task [Being_employed]", color=lightsteelblue, penwidth=1];
+    "Thornton, West Yorkshire" -> "Riding of Yorkshire" [label="has theme [Part_orientational]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "Thornton, West Yorkshire" [label="has location [Kinship]", color=green, penwidth=2];
+    "West Riding of Yorkshire" -> "Bront family" [label="has theme [Residence]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "house" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Brussels" -> "period" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Emily Brontë" -> "30 July 1818" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Wuthering Heights" -> "adulthood" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Haworth" -> "children" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Brussels" -> "period" [label="has theme [Frequency]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "six Bront siblings, four of..." [label="has theme [Part_whole]", color=lightgoldenrod, penwidth=1];
+    "Emily Brontë" -> "Her work" [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "Emily Bront died in 1848, a..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Charlotte, North Carolina" -> "Poems by Currer, Ellis and ..." [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Emily Brontë" -> "piano" [label="has theme [Performers_and_roles]", color=lightcoral, penwidth=1];
+    "Thornton, West Yorkshire" -> "outskirts of Bradford" [label="has theme [Spatial_contact]", color=lightblue, penwidth=1];
+    "Wuthering Heights" -> "Bront siblings" [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Emily Brontë" -> "public" [label="has theme [Openness]", color=lightblue, penwidth=1];
+    "Haworth" -> "three" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Emily Brontë" -> "Brussels" [label="has location [Performers_and_roles]", color=green, penwidth=2];
+    "Emily Brontë" -> "under the pen name Ellis Bell" [label="has theme [Publishing]", color=lightpink, penwidth=1];
+    "Brussels" -> "books" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Penzance" -> "Penzance merchant and prope..." [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Brussels" -> "student" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "Thornton, West Yorkshire" -> "Street" [label="has theme [Roadways]", color=lightgreen, penwidth=1];
+    "Emily Brontë" -> "property" [label="has theme [Possession]", color=lightblue, penwidth=1];
+    "Charlotte, North Carolina" -> "as solitary, strong-willed ..." [label="has message [Statement]", color=lightyellow, penwidth=1];
+    "Haworth" -> "classic" [label="has theme [Type]", color=lightpink, penwidth=1];
+    "Anne Brontë" -> "Currer, Ellis and Acton Bell" [label="has author [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "England" -> "be a classic of English lit..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Wuthering Heights" -> "book" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "sisters" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Haworth" -> "considered to be a classic ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Wuthering Heights" -> "four of whom" [label="has theme [Surviving]", color=lightsalmon, penwidth=1];
+    "Emily Brontë" -> "now" [label="has time [Openness]", color=purple, penwidth=2];
+    "Emily Brontë" -> "as the Bront Birthplace" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Haworth" -> "keen" [label="has degree [Experiencer_focus]", color=lightcoral, penwidth=1];
+    "Emily Brontë" -> "originally" [label="has time [Publishing]", color=purple, penwidth=2];
+    "West Riding of Yorkshire" -> "Thornton, West Yorkshire" [label="has location [Interior_profile_relation]", color=green, penwidth=2];
+    "Haworth" -> "novel" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "West Riding of Yorkshire" -> "village" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Emily Brontë" -> "open to the public" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Emily Brontë" -> "year" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Haworth" -> "Emily Brontë" [label="has theme [Social_connection]", color=lightcoral, penwidth=1];
+    "England" -> "literature" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Wuthering Heights" -> "many critics" [label="has theme [Opinion]", color=lightgreen, penwidth=1];
+    "Haworth" -> "Emily Brontë" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "Wuthering Heights" -> "whom" [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Brussels" -> "family" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Market Street San Francisco" -> "Thornton, West Yorkshire" [label="has location [Interior_profile_relation]", color=green, penwidth=2];
+    "Emily Brontë" -> "siblings" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "Their house" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Brussels" -> "servant" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Elizabeth Branwell" -> "care of their aunt, Elizabe..." [label="has theme [Abandonment]", color=lightyellow, penwidth=1];
+    "Wuthering Heights" -> "generally" [label="has degree [Judgment]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "family" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Haworth" -> "nature and animals" [label="has theme [Experiencer_focus]", color=lightcoral, penwidth=1];
+    "England" -> "novel" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Emily Brontë" -> "Wuthering Heights" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Haworth" -> "school" [label="has theme [Locale_by_use]", color=lightseagreen, penwidth=1];
+    "Haworth" -> "school" [label="has event [Frequency]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "Maria Branwell, the daughte..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "Tim Green" -> "Haworth" [label="has theme [Create_representation]", color=lightsalmon, penwidth=1];
+    "Wuthering Heights" -> "poetry" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "Emily Bront" [label="has entity [Age]", color=lightgoldenrod, penwidth=1];
+    "Emily Brontë" -> "30" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Haworth" -> "her father, Patrick Bront, ..." [label="has teacher [Education_teaching]", color=lightcyan, penwidth=1];
+    "Haworth" -> "sister" [label="has entity [Age]", color=lightgoldenrod, penwidth=1];
+    "Market Street San Francisco" -> "Bront family lived" [label="has theme [Spatial_contact]", color=lightblue, penwidth=1];
+    "Emily Brontë" -> "mother" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "year" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Brussels" -> "school" [label="has theme [Locale_by_use]", color=lightseagreen, penwidth=1];
+    "Emily Brontë" -> "Brussels" [label="has location [Kinship]", color=green, penwidth=2];
+    "Market Street San Francisco" -> "Thornton, West Yorkshire" [label="has location [Spatial_contact]", color=green, penwidth=2];
+    "Wuthering Heights" -> "six Bront siblings, four of..." [label="has group [Partitive]", color=lightgoldenrod, penwidth=1];
+    "Haworth" -> "English literature" [label="has category [Type]", color=lightpink, penwidth=1];
+    "England" -> "literature" [label="has theme [Fields]", color=lightsteelblue, penwidth=1];
+    "West Riding of Yorkshire" -> "village on the outskirts of..." [label="has theme [Interior_profile_relation]", color=lightsteelblue, penwidth=1];
+    "Wuthering Heights" -> "poetry" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Anne Brontë" -> "little books and journals d..." [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Charlotte, North Carolina" -> "her sister Charlotte" [label="has speaker [Statement]", color=lightyellow, penwidth=1];
+    "Market Street San Francisco" -> "Thornton, a village on the ..." [label="has theme [Interior_profile_relation]", color=lightsteelblue, penwidth=1];
+    "Thornton, West Yorkshire" -> "Market" [label="has theme [Roadways]", color=lightgreen, penwidth=1];
+    "Brussels" -> "Emily Brontë" [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "Wuthering Heights" -> "when she was three" [label="has time [Death]", color=purple, penwidth=2];
+    "Emily Brontë" -> "work" [label="has theme [Labor_product]", color=lightblue, penwidth=1];
+    "West Riding of Yorkshire" -> "Market Street, in Thornton,..." [label="has location [Residence]", color=green, penwidth=2];
+    "Haworth" -> "very" [label="has degree [Social_connection]", color=lightcoral, penwidth=1];
+    "Brussels" -> "family servant" [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "Penzance" -> "daughter" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Wuthering Heights" -> "six" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Emily Brontë" -> "1848" [label="has time [Death]", color=purple, penwidth=2];
+    "Emily Brontë" -> "30" [label="has age [Age]", color=lightgoldenrod, penwidth=1];
+    "Thornton, West Yorkshire" -> "village" [label="has theme [Spatial_contact]", color=lightblue, penwidth=1];
+    "Emily Brontë" -> "father" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "aunt" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Emily Brontë" -> "its publication" [label="has theme [Time_vector]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Openness_legend" [label="Openness", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Abandonment_legend" [label="Abandonment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Surviving_legend" [label="Surviving", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Partitive_legend" [label="Partitive", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Experiencer_focus_legend" [label="Experiencer_focus", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Social_connection_legend" [label="Social_connection", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Part_orientational_legend" [label="Part_orientational", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Performers_and_roles_legend" [label="Performers_and_roles", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Spatial_contact_legend" [label="Spatial_contact", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Roadways_legend" [label="Roadways", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Create_representation_legend" [label="Create_representation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+    }
+}

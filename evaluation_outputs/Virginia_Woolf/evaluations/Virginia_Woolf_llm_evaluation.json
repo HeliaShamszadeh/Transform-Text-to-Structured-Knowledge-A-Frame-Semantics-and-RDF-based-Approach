@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Euwer_Wolff Reference_text:has_theme Virginia Euwer Wolff",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Virginia Euwer Wolff in a disambiguation context, creating a very weak semantic link between the subject and the theme of the text being about disambiguation/reference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Euwer_Wolff Text:has_theme American children's",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'For the American children's author, see Virginia Euwer Wolff', weakly linking the subject to the theme of 'American children's' literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Text_creation:has_text modernist",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Virginia Woolf is described as an 'English modernist writer' and 'British modernist author', creating a semantic connection between the UK and modernist text creation, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Text_creation:has_time 1941",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "1941 is mentioned as Virginia Woolf's death year, and her text creation occurred throughout her life up to that point, creating a reasonable temporal connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Colonization:has_time 1940",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'They eventually settled in Sussex in 1940', which can be loosely interpreted as a form of 'colonization' (establishing residence) at that time, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Prominence:has_time during the interwar period",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'rose to prominence during the interwar period'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Judgment_communication:has_theme feminist",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions 'the feminist essay A Room of One's Own' and '1970s feminist criticism', establishing feminist themes in her work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf People_by_age:has_person Virginia Woolf",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak semantic connection - the paragraph is entirely about Virginia Woolf, so there is a relationship between the subject and herself, though the specific predicate is unclear"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Translating:has_theme Her work",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph states 'her work' has been 'translated into over 50 languages', connecting Virginia Woolf to her work in a translation context"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Leonard_Woolf Intentionally_create:has_theme which published much of her work",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph states Leonard Woolf and Virginia 'established the Hogarth Press... which published much of her work', connecting Leonard Woolf to the theme of publishing her work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Becoming:has_theme central to 1970s feminist criticism",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'Her work became central to 1970s feminist criticism', which is semantically equivalent to the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_Kensington Kinship:has_theme Relatives",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "South Kensington is mentioned only as a birthplace location; no information about relatives being associated with South Kensington is present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Being_born:has_location South Kensington, London",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Paragraph explicitly states 'Virginia Woolf was born in South Kensington, London' - direct match with the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf State_continue:has_entity Her work",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Virginia Woolf's work and its continued influence, including mentions of her legacy enduring through scholarship and cultural portrayals, which semantically connects to the concept of her work continuing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Education_teaching:has_student http://en.wikipedia.org/wiki/Virginia_Woolf",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Virginia Woolf is identified as an English writer and she studied at King's College London, which is in England. While the relationship is indirect, there's a semantic connection between England and her education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Woolf wrote novels, listing specific examples like 'Mrs Dalloway', 'To the Lighthouse', and 'Orlando'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Reference_text:has_theme Virginia Wolf",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Virginia Wolf' only as a disambiguation for a British rock band, which is unrelated to the author Virginia Woolf. There is no thematic connection between the author and the band."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Temporal_collocation:has_theme 1904",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1904 is mentioned as a significant event (the death of her father and the family's move to Bloomsbury). While 'has_theme' is a vague relation, the year is contextually important to her life story as presented."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Colonization:has_theme http://en.wikipedia.org/wiki/Leonard_Woolf",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states that Woolf and her husband Leonard 'settled in Sussex'. While 'Colonization:has_theme' is a very specific and arguably incorrect relation, the triple semantically connects Sussex and Leonard Woolf, which is a weak but valid connection from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Activity_start:has_time 1900",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Woolf began publishing professionally in 1900'. This directly supports the notion of an activity (publishing) starting at that time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf State_continue:has_state influential",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she was 'one of the most influential 20th-century modernist authors' and that her work 'remains influential worldwide'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Proportional_quantity:has_theme over",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically unclear and does not correspond to any specific information or theme in the paragraph. The word 'over' appears in 'translated into over 50 languages', but this does not relate to a 'theme'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Membership:has_time 1904",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1904 is mentioned as the time when her father died and she moved to Bloomsbury, where she became a founding member of the Bloomsbury Group. While membership isn't explicitly dated to 1904, the event that precipitated it is, providing a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Being_named:has_time 1941",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1941 is given as her death date. 'Being_named' can be loosely interpreted as the period of her existence or life, which ended in 1941."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Participation:has_institution literary circles",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'They eventually settled in Sussex in 1940, maintaining their involvement in literary circles throughout their lives.' This directly connects Sussex to participation in literary circles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Motion:has_goal bohemian Bloomsbury district",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Woolf moved to the 'bohemian Bloomsbury district' after her father's death. While 'has_goal' is a strong interpretation, the movement to that location is a key event, creating a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_time 1941",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1941 is mentioned only as the year of Woolf's death. There is no semantic connection established between 'England' and the time '1941' in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Motion_directional:has_goal prominence",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states she 'rose to prominence during the interwar period'. This can be loosely interpreted as a directional motion towards the state of being prominent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Text:has_theme feminist",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions her feminist essay 'A Room of One's Own' and states her work became central to 'feminist criticism'. The feminist theme is a clear and direct element of her work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Reference_text:has_theme Woolf (disambiguation)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "'Woolf (disambiguation)' is mentioned only as a navigational link for other uses of the name 'Woolf'. There is no semantic link between 'England' and this disambiguation page in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Labor_product:has_time 1912",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'She married Leonard Woolf in 1912', which is a significant life event that can be reasonably connected to the concept of 'Labor_product:has_time' in a broad, semantic sense."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Activity_ongoing:has_activity their involvement in literary circles",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'They eventually settled in Sussex in 1940, maintaining their involvement in literary circles...'. This directly links the location (Sussex) with the ongoing activity, even if the predicate is slightly abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Becoming:has_theme founding member of the influential Bloomsbury Group",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states '...where she became a founding member of the influential Bloomsbury Group'. This is a direct and clear match for the triple's theme of 'Becoming' a founding member."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Relative_time:has_theme death of her father in 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'After the death of her father in 1904...'. This is a clear reference to a past event (death of her father) that serves as a temporal marker, fitting the 'Relative_time' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Becoming:has_entity Her work",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses 'Her work' extensively in the context of its creation, publication, and legacy. While the connection to the 'Becoming' frame is weak and indirect (the work 'became' central to feminist criticism), there is a semantic link between the subject and the entity 'Her work'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Aggregate:has_time 1940",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'They eventually settled in Sussex in 1940,' which semantically connects the location 'Sussex' with the time '1940'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Time_vector:has_time 1940",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'They eventually settled in Sussex in 1940,' which semantically connects the location 'Sussex' with the time '1940'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Time_vector:has_event settled in Sussex in 1940",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The event 'settled in Sussex in 1940' is directly and explicitly stated in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf People_by_age:has_age seventh",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she was 'the seventh child,' which is a weak but valid semantic connection to an age-related or ordinal position property."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Relative_time:has_time 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1904 is explicitly mentioned in the context of her father's death and the family's subsequent move, creating a clear temporal connection to Virginia Woolf."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sussex Participation:has_time 1940",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states 'They eventually settled in Sussex in 1940', directly linking Sussex with the time 1940."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bloomsbury Aggregate:has_time 1904",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states 'After the death of her father in 1904, Woolf and her family moved to the bohemian Bloomsbury district', connecting Bloomsbury with the year 1904."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph mentions her father Leslie Stephen and the event of his death, making 'father' a clear kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Membership:has_theme founding",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'she became a founding member of the influential Bloomsbury Group', directly linking her to the theme of founding."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Gizmo:has_theme literary",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph is entirely about Virginia Woolf as a writer, mentioning her literary works, the Hogarth Press, and involvement in literary circles, making 'literary' a pervasive theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Subjective_influence:has_location worldwide",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states her work 'remains influential worldwide', which semantically connects the subject (Virginia Woolf) to a location (worldwide) in terms of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bloomsbury Aggregate:has_theme Group",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions the 'Bloomsbury district' and states she became a founding member of the 'influential Bloomsbury Group'. This creates a semantic link between Bloomsbury and a Group, though the predicate 'has_theme' is a weak match for 'is associated with a group'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Cardinal_numbers:has_theme 50",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The number 50 appears in the context of her work being 'translated into over 50 languages'. The connection to the subject is very indirect and the predicate 'has_theme' is a poor fit for 'has work translated into X languages', but a weak semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Publishing:has_work much of her work",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the Hogarth Press ... published much of her work'. This directly connects the subject to the object via a publishing relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Education_teaching:has_theme English classics and Victorian literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she was 'Educated at home in English classics and Victorian literature'. This establishes a clear educational theme connecting the subject to the specified literature, even if the predicate 'has_theme' is a slightly abstract match for 'was educated in'."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.6679999999999998,
+    "high_confidence_50": 40,
+    "high_confidence_80": 26,
+    "percent_50": 80.0,
+    "percent_80": 52.0,
+    "max_triples_limit": 50
+  }
+}

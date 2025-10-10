@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Text_creation:has_text Romance of the Three Kingdoms, another of the Four Great Classical Novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Romance of the Three Kingdoms' is 'another of the Four Great Classical Novels' and is attributed to Luo Guanzhong, who is mentioned in relation to Shi Nai'an. The semantic connection to the Three Kingdoms topic and the novel's status is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Achieving_first:has_theme name \"Shi Nai'an \"",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lu Xun is mentioned in the paragraph in the context of having a thought or theory about the name 'Shi Nai'an'. While the predicate 'Achieving_first:has_theme' is abstract, the text connects Lu Xun to the theme of the name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gé_Korsten Coming_to_believe:has_theme that the debate over the existence of Shi will \" never lead to a conclusive end",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gé Korsten' is not mentioned in the paragraph. The quoted text is attributed to Ge Liangyan, not Gé Korsten. This is a complete mismatch of the subject entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Xinghua,_Jiangsu Sending:has_purpose investigate",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that a team of researchers was sent to Xinghua county to investigate. This directly connects the location to the action of sending for the purpose of investigation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Source_of_getting:has_theme reliable",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'There are few reliable sources for his biography'. This connects the subject (Shi Nai'an) to the theme of reliability, albeit in a negative context (lack of reliable sources). The semantic connection is weak but valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Causation:has_cause debate over the existence of Shi",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly discusses the 'debate over the existence of Shi' in relation to Shi Nai'an, establishing a clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chinese_language Origin:has_entity writer",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Chinese writer' and 'Chinese literature', providing a very weak, indirect semantic link to the concept of a writer originating from or being associated with the Chinese language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Statement:has_message that Shi lived near the end of the Yuan dynasty and that he was a native of Hangzhou",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The specified message is directly stated in the paragraph. The connection to 'Three Kingdoms' is weak but exists through the mention of 'Romance of the Three Kingdoms' in the same context as Shi Nai'an."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Temporal_subregion:has_theme 20th century",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'The early 20th century scholar Lu Xun', providing a clear and direct link between Lu Xun and the 20th century."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Being_named:has_location http://en.wikipedia.org/wiki/Xinghua,_Jiangsu",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that a memorial tablet for Shi was found in 'Xinghua county, Jiangsu', establishing a clear location association for Shi Nai'an."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chinese_language Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Chinese names and includes the Chinese characters for Shi Nai'an's name. The theme of 'name' in the context of the Chinese language is semantically connected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Text:has_text novel",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Lu Xun is mentioned in the context of commenting on the novel 'Water Margin' (specifically, the name 'Shi Nai'an' in relation to the novel). There is a semantic connection between Lu Xun and the text of a novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gé_Korsten Coming_to_believe:has_theme Ge Liangyan",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gé Korsten' is not mentioned or related to anything in the paragraph. The object 'Ge Liangyan' is a scholar discussed, but the triple as a whole is about an unrelated entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Being_born:has_location http://en.wikipedia.org/wiki/Xinghua,_Jiangsu",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions a memorial tablet for Shi Nai'an was found in Xinghua county, Jiangsu. This is a weak, indirect connection to a location associated with him, but not explicitly his birthplace. Leniently considering any location association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Classic_Chinese_Novels Increment:has_class Four Great Classical Novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The 'Four Great Classical Novels' are explicitly mentioned multiple times in the paragraph as the class to which 'Water Margin' belongs. The semantic connection is clear and direct."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Locating:has_location Xinghua county, Jiangsu",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that after WWII, a tablet was found in Xinghua county, Jiangsu. While WWII itself is not described as having a location, the event 'after WWII' is temporally connected to the location where the discovery happened."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun People_by_vocation:has_person scholar",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly refers to 'the early 20th century scholar Lu Xun', directly stating his vocation as a scholar."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Xinghua,_Jiangsu Aggregate:has_theme team",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions that a 'team of researches was sent to investigate' in Xinghua county. There is a weak semantic connection between the location and the theme of a team being involved there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Becoming_aware:has_theme Not even the faintest vestige of Shi Nai'an",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The discovery that 'Not even the faintest vestige of Shi Nai'an was found' happened shortly after WWII. There is a very weak, indirect temporal connection between the event (WWII) and the theme of the discovery."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Becoming_aware:has_state be there",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'be there' is part of the quote about the investigation that occurred after WWII. The connection is extremely weak and indirect, but the state of 'being there' (or rather, not being there) is thematically linked to the post-WWII investigation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Opinion:has_theme early 20th century scholar Lu Xun",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Lu Xun is explicitly mentioned as an early 20th century scholar who held an opinion about Shi Nai'an."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Indigenous_origin:has_theme http://en.wikipedia.org/wiki/Hangzhou",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that scholars claimed Shi Nai'an was a native of Hangzhou, connecting him to the location, though the connection is presented as a historical claim rather than a confirmed fact."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Time_vector:has_theme World War II",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "World War II is explicitly mentioned as a time marker ('Shortly after World War II'), establishing it as a theme related to the timeline of events described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Locating:has_theme memorial tablet bearing Shi's name",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The discovery of the memorial tablet is temporally linked to the post-World War II period. There is a weak but valid semantic connection between the event (WWII) and the object found shortly after it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Trust:has_information sources for his biography",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'There are few reliable sources for his biography,' which is a clear statement about the existence (and quality) of information sources related to Shi Nai'an's biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II First_rank:has_item investigator",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions an investigation that occurred 'Shortly after World War II' and refers to a 'chief investigator'. While the relationship 'has_item' is abstract, there is a semantic connection between WWII and the investigation/investigator."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Statement:has_speaker Late Ming and early Qing scholars",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that 'Late Ming and early Qing scholars claimed that Shi lived...'. This claim is related to the context of Shi Nai'an, who is linked to 'Romance of the Three Kingdoms' through his student. The scholars are speakers of a statement within the broader topic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Taking_sides:has_issue that",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses debates and claims (e.g., about Shi's existence and biography) related to the authorship of classic novels, including 'Romance of the Three Kingdoms'. The word 'that' is vague, but it can loosely refer to the various issues debated. This is a very weak but semantically connected link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Statement:has_speaker chief investigator",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states that after WWII, an investigation was conducted and the 'chief investigator declared' a specific finding. This directly links the timeframe of WWII to a statement made by the chief investigator."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Process_end:has_process debate over the existence of Shi",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph places the investigation 'Shortly after World War II' and later mentions that a scholar 'concludes that the debate over the existence of Shi will never lead to a conclusive end.' While the debate is not explicitly stated to have ended, the investigation post-WWII is part of the ongoing process concerning Shi's existence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chinese_language Statement:has_speaker recent Chinese scholar Ge Liangyan",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Ge Liangyan is identified as a 'recent Chinese scholar' in the paragraph. While the triple's subject is 'Chinese language' and the relationship is 'has_speaker', the paragraph connects Ge Liangyan to Chinese literature/scholarship, providing a weak but valid semantic link to the broader concept of Chinese language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Opinion:has_opinion that the name \"Shi Nai'an \" might have been invented by composers of a later edition of the novel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states: 'The early 20th century scholar Lu Xun thought that the name \"Shi Nai'an\" might have been invented by composers of a later edition of the novel.' This is a direct match for the triple's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Text:has_theme novel",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Lu Xun is mentioned in the context of discussing a novel ('Water Margin'). The connection is indirect and the relationship 'has_theme' is not explicitly stated, but there is a weak semantic link through the shared context of literary analysis."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Education_teaching:has_teacher http://en.wikipedia.org/wiki/Shi_Nai'an",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states: 'Traditionally, it was believed that he was a teacher of Luo Guanzhong, the editor or author of Romance of the Three Kingdoms.' This directly supports the relationship that Shi Nai'an was a teacher associated with the work 'Three Kingdoms', even if the subject is the work itself rather than its author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Being_named:has_entity Shi's",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph contains the phrase 'a memorial tablet bearing Shi's name'. This indicates possession ('Shi's') related to the entity Shi Nai'an, providing a reasonable basis for the 'has_entity' relationship, though the exact meaning of the predicate is ambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_(state) Existence:has_entity Lu",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Lu Xun' and 'Lu, Naiyan'. While these refer to people and not the state of Lu, the semantic connection through the shared term 'Lu' is a weak but valid link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Give_impression:has_theme Evidence in a family genealogy",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states that 'Shortly after World War II... Evidence in a family genealogy seemed to affirm his identity.' This creates a weak thematic link between WWII and the evidence, though the relationship is not one of 'giving an impression'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Xinghua,_Jiangsu Sending:has_theme team of researches",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text explicitly states that a tablet was found in 'Xinghua county, Jiangsu' and that 'a team of researches was sent to investigate.' This directly links the location to the action of sending a team."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Being_named:has_entity family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph begins with 'In this Chinese name , the family name is Shi' and later mentions a 'family genealogy'. This provides a reasonable, though indirect, semantic connection between Shi Nai'an and the concept of a family name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Classic_Chinese_Novels Judgment:has_evaluee Shuihu zhuan ( Water Margin ), one of the Four Great Classical Novels of Chinese literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text directly states that 'Shuihu zhuan ( Water Margin ), one of the Four Great Classical Novels of Chinese literature , is traditionally attributed to him.' This is a clear and explicit statement of judgment or attribution regarding the novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Three_Kingdoms Awareness:has_theme http://en.wikipedia.org/wiki/Luo_Guanzhong",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Luo Guanzhong was the 'editor or author of Romance of the Three Kingdoms', establishing a clear thematic connection between the work and the person, though the predicate 'has_theme' is an imperfect match for the 'author/editor' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chinese_language Statement:has_message that little is known about Luo, and about Shi even less",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The exact phrase 'that little is known about Luo, and about Shi even less' appears in the paragraph. While the subject 'Chinese language' is a very broad and indirect connection (the text is in English about Chinese literature), the message itself is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Being_born:has_person Shi's name",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'Shi's name' is mentioned in the context of a memorial tablet. The predicate 'has_person' is semantically weak and the connection to 'Being_born' is tenuous, but the triple's components are loosely related to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Existence:has_entity few reliable sources for his biography, much less his literary activity",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'few reliable sources for his biography, much less his literary activity' is a direct quote from the paragraph and is central to the discussion of Shi Nai'an's existence and historical record."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lu_Xun Achieving_first:has_theme composers of a later edition of the novel",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states that Lu Xun 'thought that the name \"Shi Nai'an\" might have been invented by composers of a later edition of the novel.' The subject and object are directly connected, though the predicate 'Achieving_first:has_theme' is a very poor semantic fit for the 'proposed a theory about' relationship described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/World_War_II Being_named:has_theme his honour",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Shortly after World War II' and 'The Shi Nai'an Literary Prize is named in his honour.' While the connection between WWII and 'his honour' is extremely weak and indirect (both appear in the text but are not semantically connected), a lenient interpretation allows for extraction based on both concepts being present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Source_of_getting:has_theme sources",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states 'There are few reliable sources for his biography,' establishing a clear semantic connection between Shi Nai'an and the theme of 'sources.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Classic_Chinese_Novels Cardinal_numbers:has_entity Four Great Classical Novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'Four Great Classical Novels' is explicitly mentioned in the paragraph, and it is a cardinal entity (a set of four). The subject 'Classic_Chinese_Novels' is a reasonable conceptual match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Quantified_mass:has_quantity few",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'There are few reliable sources for his biography,' directly associating the quantity 'few' with information about Shi Nai'an."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Shi_Nai'an Intentionally_act:has_theme literary",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Shi Nai'an is described as a 'writer,' and the text discusses his 'literary activity' and attribution of a major 'literary' work to him. The theme of 'literary' is central to the paragraph's subject."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 38,
+    "accuracy": 0.76,
+    "avg_confidence": 0.6279999999999998,
+    "high_confidence_50": 38,
+    "high_confidence_80": 18,
+    "percent_50": 76.0,
+    "percent_80": 36.0,
+    "max_triples_limit": 50
+  }
+}

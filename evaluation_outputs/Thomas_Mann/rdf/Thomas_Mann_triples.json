@@ -1,0 +1,1464 @@
+{
+  "metadata": {
+    "total_triples": 66,
+    "source_file": "Thomas_Mann",
+    "extraction_date": "2025-09-28 06:32:57",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Arriving:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Fame:has_entity",
+        "object": "His highly symbolic and ironic epic novels and novellas",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "People:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Fleeing:has_time",
+        "object": "When Adolf Hitler came to power in 1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Killing:has_theme",
+        "object": "his trading firm",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "People:has_person",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Type:has_theme",
+        "object": "modernized",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hanseatic_League",
+        "predicate": "Kinship:has_theme",
+        "object": "hanseatic Mann",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Origin:has_entity",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Create_physical_artwork:has_creator",
+        "object": "artist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Leadership:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Businesses:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "Mann's six children",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Text_creation:has_author",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Reference_text:has_theme",
+        "object": "Thomas Mann (disambiguation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Being_named:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Fame:has_reason",
+        "object": "their insight into the psychology of the artist and the intellectual",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Switzerland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Motion:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Businesses:has_business",
+        "object": "firm",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Being_named:has_entity",
+        "object": "other people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Relative_time:has_theme",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Increment:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Reference_text:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Text_creation:has_theme",
+        "object": "exile",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Using:has_theme",
+        "object": "so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "Jlia da Silva Bruhns",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Taking_sides:has_theme",
+        "object": "Hitler regime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Arriving:has_time",
+        "object": "1952",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "children",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Age:has_degree",
+        "object": "older",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Germany",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Relative_time:has_theme",
+        "object": "his trading firm was liquidated",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Arriving:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Motion:has_goal",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Arriving:has_goal",
+        "object": "power",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "six",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Taking_sides:has_theme",
+        "object": "who",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+        "predicate": "Increment:has_class",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Buddenbrooks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Becoming:has_theme",
+        "object": "significant German writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "three",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Text_creation:has_text",
+        "object": "German literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Rite:has_organization",
+        "object": "into his father's Lutheran religion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "children",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Using:has_instrument",
+        "object": "modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+        "predicate": "Text_creation:has_author",
+        "object": "those who opposed the Hitler regime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+        "predicate": "Motion:has_time",
+        "object": "When World War II broke out in 1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Type:has_category",
+        "object": "German and Biblical stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Businesses:has_theme",
+        "object": "trading",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Using:has_agent",
+        "object": "His analysis and critique of the European and German soul",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Fleeing:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Switzerland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Killing:has_time",
+        "object": "after that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "predicate": "Age:has_entity",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Becoming:has_entity",
+        "object": "three of Mann's six children – Erika Mann, Klaus Mann and Golo Mann –",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Kinship:has_theme",
+        "object": "Mann's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+        "predicate": "Scrutiny:has_theme",
+        "object": "European and German soul",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+        "predicate": "Membership:has_group",
+        "object": "hanseatic Mann family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Fame:has_entity",
+          "object": "His highly symbolic and ironic epic novels and novellas",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Arriving:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "People:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Fleeing:has_time",
+          "object": "When Adolf Hitler came to power in 1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Killing:has_theme",
+          "object": "his trading firm",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "People:has_person",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Type:has_theme",
+          "object": "modernized",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hanseatic_League",
+          "predicate": "Kinship:has_theme",
+          "object": "hanseatic Mann",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Origin:has_entity",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Create_physical_artwork:has_creator",
+          "object": "artist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Leadership:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Businesses:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "Mann's six children",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Text_creation:has_author",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Reference_text:has_theme",
+          "object": "Thomas Mann (disambiguation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Being_named:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Fame:has_reason",
+          "object": "their insight into the psychology of the artist and the intellectual",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Switzerland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Motion:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Businesses:has_business",
+          "object": "firm",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Being_named:has_entity",
+          "object": "other people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Relative_time:has_theme",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Increment:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Reference_text:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Text_creation:has_theme",
+          "object": "exile",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Using:has_theme",
+          "object": "so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "Jlia da Silva Bruhns",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Taking_sides:has_theme",
+          "object": "Hitler regime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Arriving:has_time",
+          "object": "1952",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "children",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Age:has_degree",
+          "object": "older",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Germany",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Relative_time:has_theme",
+          "object": "his trading firm was liquidated",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Arriving:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Motion:has_goal",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Arriving:has_goal",
+          "object": "power",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "six",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Taking_sides:has_theme",
+          "object": "who",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize",
+          "predicate": "Increment:has_class",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Buddenbrooks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Becoming:has_theme",
+          "object": "significant German writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "three",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Text_creation:has_text",
+          "object": "German literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Rite:has_organization",
+          "object": "into his father's Lutheran religion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "children",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Using:has_instrument",
+          "object": "modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Adolf_Hitler",
+          "predicate": "Text_creation:has_author",
+          "object": "those who opposed the Hitler regime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Erika_Mann",
+          "predicate": "Motion:has_time",
+          "object": "When World War II broke out in 1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Type:has_category",
+          "object": "German and Biblical stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Businesses:has_theme",
+          "object": "trading",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Using:has_agent",
+          "object": "His analysis and critique of the European and German soul",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Fleeing:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Switzerland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Killing:has_time",
+          "object": "after that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+          "predicate": "Age:has_entity",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Becoming:has_entity",
+          "object": "three of Mann's six children – Erika Mann, Klaus Mann and Golo Mann –",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Kinship:has_theme",
+          "object": "Mann's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+          "predicate": "Scrutiny:has_theme",
+          "object": "European and German soul",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Mann",
+          "predicate": "Membership:has_group",
+          "object": "hanseatic Mann family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Hanseatic_League",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "http://en.wikipedia.org/wiki/Thomas_Mann"
+    ],
+    "objects": [
+      "1933",
+      "His highly symbolic and ironic epic novels and novellas",
+      "1955",
+      "When Adolf Hitler came to power in 1933",
+      "his trading firm",
+      "brother",
+      "people",
+      "modernized",
+      "hanseatic Mann",
+      "writers",
+      "artist",
+      "1933",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "Mann's six children",
+      "writers",
+      "Thomas Mann (disambiguation",
+      "1955",
+      "their insight into the psychology of the artist and the intellectual",
+      "http://en.wikipedia.org/wiki/Switzerland",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "firm",
+      "mother",
+      "other people",
+      "that",
+      "1955",
+      "1955",
+      "father",
+      "exile",
+      "so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime",
+      "Jlia da Silva Bruhns",
+      "Hitler regime",
+      "1952",
+      "children",
+      "father",
+      "older",
+      "http://en.wikipedia.org/wiki/Germany",
+      "his trading firm was liquidated",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "http://en.wikipedia.org/wiki/United_States",
+      "power",
+      "six",
+      "who",
+      "people",
+      "http://en.wikipedia.org/wiki/Buddenbrooks",
+      "significant German writers",
+      "three",
+      "German literature",
+      "into his father's Lutheran religion",
+      "children",
+      "modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "novel",
+      "family",
+      "those who opposed the Hitler regime",
+      "When World War II broke out in 1939",
+      "German and Biblical stories",
+      "trading",
+      "novels",
+      "His analysis and critique of the European and German soul",
+      "http://en.wikipedia.org/wiki/Switzerland",
+      "after that",
+      "brother",
+      "three of Mann's six children – Erika Mann, Klaus Mann and Golo Mann –",
+      "Mann's",
+      "European and German soul",
+      "hanseatic Mann family"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Hanseatic_League",
+      "power",
+      "that",
+      "hanseatic Mann",
+      "Mann's six children",
+      "children",
+      "http://en.wikipedia.org/wiki/Erika_Mann",
+      "http://en.wikipedia.org/wiki/Switzerland",
+      "modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer",
+      "family",
+      "mother",
+      "http://en.wikipedia.org/wiki/Buddenbrooks",
+      "six",
+      "his trading firm",
+      "writers",
+      "who",
+      "http://en.wikipedia.org/wiki/Nobel_Prize",
+      "1955",
+      "http://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "their insight into the psychology of the artist and the intellectual",
+      "father",
+      "Thomas Mann (disambiguation",
+      "other people",
+      "three",
+      "http://en.wikipedia.org/wiki/Europe",
+      "novels",
+      "http://en.wikipedia.org/wiki/Adolf_Hitler",
+      "his trading firm was liquidated",
+      "trading",
+      "people",
+      "after that",
+      "1952",
+      "three of Mann's six children – Erika Mann, Klaus Mann and Golo Mann –",
+      "When World War II broke out in 1939",
+      "German literature",
+      "those who opposed the Hitler regime",
+      "artist",
+      "http://en.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "His analysis and critique of the European and German soul",
+      "into his father's Lutheran religion",
+      "His highly symbolic and ironic epic novels and novellas",
+      "When Adolf Hitler came to power in 1933",
+      "http://en.wikipedia.org/wiki/Germany",
+      "http://en.wikipedia.org/wiki/United_States",
+      "European and German soul",
+      "Mann's",
+      "1933",
+      "significant German writers",
+      "modernized",
+      "firm",
+      "Hitler regime",
+      "hanseatic Mann family",
+      "novel",
+      "Jlia da Silva Bruhns",
+      "so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime",
+      "exile",
+      "http://en.wikipedia.org/wiki/Thomas_Mann",
+      "older",
+      "brother",
+      "German and Biblical stories"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Arriving:has_time",
+      "Fame:has_entity",
+      "People:has_time",
+      "Fleeing:has_time",
+      "Killing:has_theme",
+      "Kinship:has_theme",
+      "People:has_person",
+      "Type:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_entity",
+      "Create_physical_artwork:has_creator",
+      "Leadership:has_time",
+      "Businesses:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Text_creation:has_author",
+      "Reference_text:has_theme",
+      "Being_named:has_time",
+      "Fame:has_reason",
+      "Arriving:has_goal",
+      "Motion:has_theme",
+      "Businesses:has_business",
+      "Kinship:has_theme",
+      "Being_named:has_entity",
+      "Relative_time:has_theme",
+      "Increment:has_time",
+      "Reference_text:has_time",
+      "Kinship:has_theme",
+      "Text_creation:has_theme",
+      "Using:has_theme",
+      "Personal_relationship:has_theme",
+      "Taking_sides:has_theme",
+      "Arriving:has_time",
+      "Cardinal_numbers:has_entity",
+      "Kinship:has_theme",
+      "Age:has_degree",
+      "Origin:has_theme",
+      "Relative_time:has_theme",
+      "Arriving:has_theme",
+      "Motion:has_goal",
+      "Arriving:has_goal",
+      "Cardinal_numbers:has_theme",
+      "Taking_sides:has_theme",
+      "Increment:has_class",
+      "Text:has_text",
+      "Becoming:has_theme",
+      "Cardinal_numbers:has_theme",
+      "Text_creation:has_text",
+      "Rite:has_organization",
+      "Kinship:has_theme",
+      "Using:has_instrument",
+      "Kinship:has_theme",
+      "Ordinal_numbers:has_type",
+      "Kinship:has_theme",
+      "Text_creation:has_author",
+      "Motion:has_time",
+      "Type:has_category",
+      "Businesses:has_theme",
+      "Text:has_text",
+      "Using:has_agent",
+      "Fleeing:has_goal",
+      "Killing:has_time",
+      "Age:has_entity",
+      "Becoming:has_entity",
+      "Kinship:has_theme",
+      "Scrutiny:has_theme",
+      "Membership:has_group"
+    ],
+    "unique_predicates": [
+      "Personal_relationship:has_theme",
+      "Motion:has_time",
+      "Arriving:has_goal",
+      "People:has_time",
+      "Cardinal_numbers:has_theme",
+      "Motion:has_theme",
+      "Age:has_entity",
+      "People:has_person",
+      "Origin:has_theme",
+      "Being_named:has_entity",
+      "Businesses:has_business",
+      "Reference_text:has_time",
+      "Rite:has_organization",
+      "Cardinal_numbers:has_entity",
+      "Using:has_instrument",
+      "Relative_time:has_theme",
+      "Scrutiny:has_theme",
+      "Kinship:has_theme",
+      "Leadership:has_time",
+      "Reference_text:has_theme",
+      "Text:has_text",
+      "Membership:has_group",
+      "Arriving:has_theme",
+      "Killing:has_theme",
+      "Text_creation:has_author",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Becoming:has_entity",
+      "Taking_sides:has_theme",
+      "Create_physical_artwork:has_creator",
+      "Fleeing:has_goal",
+      "Motion:has_goal",
+      "Using:has_agent",
+      "Type:has_category",
+      "Text_creation:has_text",
+      "Killing:has_time",
+      "Arriving:has_time",
+      "Increment:has_time",
+      "Fleeing:has_time",
+      "Age:has_degree",
+      "Using:has_theme",
+      "Origin:has_entity",
+      "Fame:has_entity",
+      "Type:has_theme",
+      "Text_creation:has_theme",
+      "Being_named:has_time",
+      "Becoming:has_theme",
+      "Businesses:has_theme",
+      "Fame:has_reason"
+    ],
+    "predicate_counts": {
+      "Arriving:has_time": 2,
+      "Fame:has_entity": 1,
+      "People:has_time": 1,
+      "Fleeing:has_time": 1,
+      "Killing:has_theme": 1,
+      "Kinship:has_theme": 9,
+      "People:has_person": 1,
+      "Type:has_theme": 1,
+      "Origin:has_entity": 1,
+      "Create_physical_artwork:has_creator": 1,
+      "Leadership:has_time": 1,
+      "Businesses:has_theme": 2,
+      "Cardinal_numbers:has_entity": 2,
+      "Text_creation:has_author": 2,
+      "Reference_text:has_theme": 1,
+      "Being_named:has_time": 1,
+      "Fame:has_reason": 1,
+      "Arriving:has_goal": 2,
+      "Motion:has_theme": 1,
+      "Businesses:has_business": 1,
+      "Being_named:has_entity": 1,
+      "Relative_time:has_theme": 2,
+      "Increment:has_time": 1,
+      "Reference_text:has_time": 1,
+      "Text_creation:has_theme": 1,
+      "Using:has_theme": 1,
+      "Personal_relationship:has_theme": 1,
+      "Taking_sides:has_theme": 2,
+      "Age:has_degree": 1,
+      "Origin:has_theme": 1,
+      "Arriving:has_theme": 1,
+      "Motion:has_goal": 1,
+      "Cardinal_numbers:has_theme": 2,
+      "Increment:has_class": 1,
+      "Text:has_text": 2,
+      "Becoming:has_theme": 1,
+      "Text_creation:has_text": 1,
+      "Rite:has_organization": 1,
+      "Using:has_instrument": 1,
+      "Ordinal_numbers:has_type": 1,
+      "Motion:has_time": 1,
+      "Type:has_category": 1,
+      "Using:has_agent": 1,
+      "Fleeing:has_goal": 1,
+      "Killing:has_time": 1,
+      "Age:has_entity": 1,
+      "Becoming:has_entity": 1,
+      "Scrutiny:has_theme": 1,
+      "Membership:has_group": 1
+    }
+  }
+}

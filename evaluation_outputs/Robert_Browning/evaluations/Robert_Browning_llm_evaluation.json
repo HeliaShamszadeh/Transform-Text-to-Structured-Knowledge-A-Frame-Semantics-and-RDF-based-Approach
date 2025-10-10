@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dramatis_Personae Causation:has_cause His Dramatis Personae (1864) and book-length epic poem The Ring and the Book (1868–1869)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple suggests Dramatis Personae *caused* The Ring and the Book, but the paragraph only lists them sequentially as works that established his reputation. There is no semantic connection of causation described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bank_of_England Earnings_and_losses:has_theme £150",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Browning's father was a clerk for the Bank of England earning £150 per year. While 'has_theme' is an abstract relation, there is a clear semantic connection between the Bank of England and the £150 salary figure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Being_employed:has_task sugar plantation",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Browning's father was sent to the West Indies (which includes Saint Kitts, as mentioned earlier in the sentence) to work on a sugar plantation. This directly connects the location to the task."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Text:has_text poem",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Robert Browning is repeatedly described as a poet, and specific poems (Pauline, Paracelsus, Sordello, The Ring and the Book) are mentioned. The connection between the person and the text type 'poem' is explicit and central to the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_location Lock",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Robert Browning was baptised at 'Lock's Fields Independent Chapel'. This is a weak semantic connection, as 'Lock' is part of a place name ('Lock's Fields') associated with an event in his life (baptism), not a direct location of the person himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/York_Street Rite:has_theme http://en.wikipedia.org/wiki/Robert_Browning",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "York Street is mentioned as the location of Browning's baptism chapel, creating a weak but valid semantic connection between the place and the person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Scrutiny:has_theme his work",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Societies for studying his work survived in Britain and the US', which directly connects Robert Browning's work to the theme of study/scrutiny."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Calendric_unit:has_theme 20th",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Britain (part of UK) is mentioned in relation to societies studying Browning's work surviving 'into the 20th century', creating a weak temporal connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bank_of_England Measure_duration:has_theme year",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bank of England is mentioned with 'earning about £150 per year', connecting the institution to annual measurement of salary."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Duration_description:has_theme poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph extensively discusses Browning's poems across different time periods, including his early poems, works from 1840s, and later collections, establishing a clear temporal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Publishing:has_work collection Men and Women",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he had published the collection Men and Women (1855)', providing a direct and clear relationship between Browning and the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Judgment_communication:has_theme Pauline (1833) and Paracelsus (1835)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the poems 'Pauline (1833) and Paracelsus (1835)' in the context of his work being 'acclaimed'. While 'has_theme' is a broad relation, the text establishes a connection between Browning and these specific works, allowing for a reasonable, though indirect, extraction of a thematic or creative relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Personal_relationship:has_location http://en.wikipedia.org/wiki/Dundee",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Browning's mother was the daughter of a shipowner who settled in Dundee. This describes a location associated with his maternal grandfather, not a location directly associated with Robert Browning himself. The connection is too indirect for the triple's predicate 'has_location'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Position_on_a_scale:has_value high",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states his dramatic monologues put him 'high among the Victorian poets'. This directly expresses a high position on a scale of reputation or standing among his peers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Surviving:has_location Britain and the US",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Societies for studying his work survived in Britain and the US into the 20th century.' This implies that his legacy or influence (a form of 'surviving') was present in those locations, providing a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Kinship:has_theme German shipowner who had settled in Dundee, Scotland and his Scottish wife",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a German shipowner and his Scottish wife as Browning's maternal grandparents, but this information is not connected to Saint Kitts. Saint Kitts is only mentioned in the context of Browning's paternal grandfather being a slave owner there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Categorization:has_category as a sage and philosopher-poet who had fed into Victorian social and political discourse",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'he was seen as a sage and philosopher-poet who had fed into Victorian social and political discourse'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Growing_food:has_theme sugar",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Browning's father was sent to the West Indies (which includes Saint Kitts) to work on a sugar plantation, creating a strong semantic link between the location and the theme of sugar."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Measure_duration:has_theme decade",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph mentions that his reputation 'took over a decade to recover', directly using the word 'decade' in relation to events in Browning's life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Forming_relationships:has_time 1846",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'In 1846, he married fellow poet Elizabeth Barrett', which directly connects the year 1846 to the event of forming a relationship (marriage)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Reference_text:has_theme Robert Browning (disambiguation)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'For other people, see Robert Browning (disambiguation)', establishing a direct semantic connection between the subject and the disambiguation page as a reference text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Taking_time:has_theme over a decade",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states his reputation 'took over a decade to recover', which semantically connects the subject to the theme of a time period ('over a decade') related to a process of recovery."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Scrutiny:has_theme Societies",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Societies for studying his work', which implies a theme of organized groups (Societies) that are involved in examination or scrutiny of his work, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text article",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject of the triple is 'England', but the paragraph is about Robert Browning. While he is an English poet, the specific connection of England having a text/article is not supported. The word 'article' in the text refers to the Wikipedia article about Browning, not one about England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Personal_relationship:has_theme Scottish wife",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Browning's maternal grandmother was his mother's 'Scottish wife'. This is a weak connection, as it refers to a relative's spouse rather than Browning's own personal relationship, but it is semantically related to the theme of a 'Scottish wife' within his family history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Browning's father multiple times, discussing his occupation and abolitionist views, establishing a clear kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Being_born:has_location Walworth in the parish of Camberwell, Surrey, which now forms part of the Borough of Southwark in south London",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The exact location 'Browning was born in Walworth in the parish of Camberwell, Surrey, which now forms part of the Borough of Southwark in south London' is directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Proportional_quantity:has_theme over",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The word 'over' appears in the phrase 'took over a decade to recover'. While the connection to a 'Proportional_quantity' theme is very weak and abstract, the word is present, representing a minimal semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Motion:has_goal more personal style",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text states Browning 'moved from Shelleyan forms to a more personal style'. This can be interpreted as a metaphorical 'motion' with the 'goal' of achieving a 'more personal style'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_theme Sarah Anna (née Wiedemann) and Robert Browning",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly names 'Sarah Anna (née Wiedemann) and Robert Browning' as Browning's parents, establishing a direct kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_location http://en.wikipedia.org/wiki/Dundee",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Browning's mother was the daughter of a German shipowner who had settled in Dundee, establishing a family connection to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Categorization:has_time his death in 1889",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly mentions 'By his death in 1889' and gives his death date as '12 December 1889'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Arriving:has_time following a slave revolt",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'Browning's father had been sent to the West Indies... but returned to England following a slave revolt.' This is an indirect connection about his father's arrival time, not Robert Browning's own arrival."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Walworth Part_whole:has_theme Borough of Southwark in south London",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Walworth 'now forms part of the Borough of Southwark in south London,' establishing a part-whole relationship between the locations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Scrutiny:has_location http://en.wikipedia.org/wiki/United_Kingdom",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph identifies Browning as an 'English poet and playwright,' mentions his birth in Surrey (now part of London), and discusses his life in Britain, all of which are within the United Kingdom."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'For other people, see Robert Browning (disambiguation)' weakly connects the subject to a 'class' of people, but the connection to the specific predicate 'has_class' is very indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Victorian_era Discussion:has_theme social and political",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Browning 'fed into Victorian social and political discourse,' directly linking the Victorian era to social and political themes, though the predicate 'Discussion:has_theme' is an approximation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Growing_food:has_theme plantation",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text explicitly mentions Saint Kitts and that Browning's father worked on a sugar plantation there, creating a strong semantic link between the location and the theme of a plantation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Caribbean Causation:has_theme Browning's father",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Saint Kitts is in the West Indies, which is part of the Caribbean. The paragraph describes events involving Browning's father there (being a clerk's son, abolitionist sentiment, working on a plantation, a slave revolt), creating a reasonable, though indirect, causal or thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Relative_time:has_theme slave revolt",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text directly states 'Browning's father had been sent to the West Indies to work on a sugar plantation but returned to England following a slave revolt.' As Saint Kitts is specified as the location of the family's connection to the West Indies, the link is very clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/York_Street Rite:has_location Lock's Fields Independent Chapel, York Street",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Lock's Fields Independent Chapel, York Street', establishing a clear location relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/York_Street Rite:has_time 14 June 1812",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The date '14 June 1812' is mentioned in the context of the baptism at the chapel on York Street, creating a weak but valid temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Proportional_quantity:has_theme decade",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that his reputation 'took over a decade to recover', thematically linking Browning to the concept of a decade."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Motion:has_goal http://en.wikipedia.org/wiki/Italy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states 'he moved to Italy', which semantically implies Italy was the goal of his movement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_location http://en.wikipedia.org/wiki/Saint_Kitts",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Browning's paternal grandfather was a slave owner in Saint Kitts, creating a weak but valid familial connection to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Kitts Relative_time:has_theme Browning's father",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Browning's paternal grandfather was a slave owner in Saint Kitts, and his father was sent to the West Indies to work on a plantation. This creates a thematic connection between Saint Kitts and Browning's father's history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Temporal_collocation:has_theme 1846",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1846 is explicitly mentioned in the paragraph as the year Robert Browning married Elizabeth Barrett and moved to Italy, creating a clear temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bank_of_England Earnings_and_losses:has_theme His father",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'His father was a well-paid clerk for the Bank of England, earning about £150 per year,' directly linking the Bank of England to earnings related to Browning's father."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Kinship:has_theme Browning's",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses Robert Browning's family relationships extensively, including his parents, grandfather, and wife, making kinship a relevant theme throughout the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Browning Arriving:has_goal http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "While the paragraph mentions Browning moving to Italy, it also states his father 'returned to England following a slave revolt,' implying a goal of arriving in England. This is a weak but valid semantic connection."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.66,
+    "high_confidence_50": 40,
+    "high_confidence_80": 22,
+    "percent_50": 80.0,
+    "percent_80": 44.0,
+    "max_triples_limit": 50
+  }
+}

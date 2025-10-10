@@ -1,0 +1,2624 @@
+{
+  "metadata": {
+    "total_triples": 122,
+    "source_file": "Elizabeth_Bishop",
+    "extraction_date": "2025-09-27 21:58:24",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Attention:has_theme",
+        "object": "miniaturist ’s",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Finish_competition:has_location",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Finish_competition:has_competition",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Differentiation:has_quality",
+        "object": "tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Relative_time:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Separating:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+        "predicate": "Reasoning:has_theme",
+        "object": "that she was perhaps \" the most purely gifted poet of the 20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Fame:has_reason",
+        "object": "its careful attention to detail",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Sole_instance:has_type",
+        "object": "child",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Time_vector:has_event",
+        "object": "write about the time of her mother's struggles in her short story \" In the Village",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Causation:has_cause",
+        "object": "her separation from her maternal grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Recording:has_theme",
+        "object": "Her time in Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Text:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Relative_time:has_theme",
+        "object": "her father, a successful builder, died when she was eight months old",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Calendric_unit:has_time",
+        "object": "2018",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Being_born:has_location",
+        "object": "Worcester, Massachusetts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Statement:has_theme",
+        "object": "time of her mother's struggles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Fame:has_entity",
+        "object": "her poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Causation:has_effect",
+        "object": "lonely",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Recording:has_theme",
+        "object": "her poem \" In the Waiting Room ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Hostile_encounter:has_theme",
+        "object": "her mother's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Increment:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Recording:has_theme",
+        "object": "briefly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Increment:has_class",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Being_born:has_theme",
+        "object": "William Thomas and Gertrude May (Bulmer) Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Interior_profile_relation:has_theme",
+        "object": "she was living",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "asthma",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text_creation:has_author",
+        "object": "Elizabeth Bishop (February 8, 1911 – October 6, 1979 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "People:has_person",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "chronic asthma, from which she suffered for the rest of her life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Success_or_failure:has_agent",
+        "object": "builder",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "State_continue:has_state",
+        "object": "asylum",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Time_vector:has_event",
+        "object": "Bishop's paternal family gained custody",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Becoming:has_theme",
+        "object": "mentally ill",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "chronic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Statement:has_time",
+        "object": "later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Village",
+        "predicate": "Topic:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Finish_competition:has_prize",
+        "object": "Pulitzer Prize",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Residence:has_theme",
+        "object": "her maternal grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Catastrophe:has_time",
+        "object": "rest of her life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Catastrophe:has_patient",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Being_named:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Becoming:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Desiring:has_theme",
+        "object": "her grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+        "predicate": "Reasoning:has_time",
+        "object": "2018",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Attention:has_theme",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "poet and short-story writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text_creation:has_text",
+        "object": "short-story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Finish_competition:has_time",
+        "object": "1970",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "People_by_age:has_location",
+        "object": "http://en.wikipedia.org/wiki/Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Separating:has_theme",
+        "object": "her maternal grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Residence:has_location",
+        "object": "farm in Great Village, Nova Scotia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+        "predicate": "Finish_competition:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Village",
+        "predicate": "Education_teaching:has_student",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Attention:has_theme",
+        "object": "detail",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Kinship:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Finish_competition:has_location",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Becoming:has_entity",
+        "object": "Bishop's mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Text:has_text",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_time",
+        "object": "2018",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "State_continue:has_entity",
+        "object": "Bishop's mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she was living in Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Being_named:has_entity",
+        "object": "other people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text_creation:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Kinship:has_time",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Age:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Relative_time:has_theme",
+        "object": "Bishop's mother became mentally ill and was institutionalized in 1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Kinship:has_theme",
+        "object": "Bishop's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Residence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Removing:has_theme",
+        "object": "care of her grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Death:has_theme",
+        "object": "her father, a successful builder",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Perception_active:has_theme",
+        "object": "tranquil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Removing:has_location",
+        "object": "http://en.wikipedia.org/wiki/Worcester",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Village",
+        "predicate": "Buildings:has_theme",
+        "object": "farm",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Kinship:has_theme",
+        "object": "her father's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Village",
+        "predicate": "Education_teaching:has_time",
+        "object": "during early childhood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Emotion_directed:has_event",
+        "object": "there",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Time_vector:has_theme",
+        "object": "childhood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Kinship:has_theme",
+        "object": "grandparents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Catastrophe:has_cause",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Age:has_age",
+        "object": "eight months",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "20th",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Reference_text:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "State_continue:has_time",
+        "object": "until her death in 1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Success_or_failure:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Text:has_location",
+        "object": "Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "Statement:has_theme",
+        "object": "her short story \" In the Village.)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Differentiation:has_theme",
+        "object": "one",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Duration_description:has_theme",
+        "object": "story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Village",
+        "predicate": "Topic:has_text",
+        "object": "her writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bishop",
+        "predicate": "People:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Time_vector:has_theme",
+        "object": "Later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Death:has_time",
+        "object": "1934",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Causation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Possession:has_owner",
+        "object": "Bishop's paternal family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Duration_description:has_theme",
+        "object": "asthma",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Death:has_time",
+        "object": "when she was eight months old",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+        "predicate": "Residence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she developed chronic asthma, from which she suffered for the rest of her life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text:has_text",
+        "object": " In the Waiting Room",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Worcester",
+        "predicate": "Medical_conditions:has_patient",
+        "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Kinship:has_time",
+        "object": "1916",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+        "predicate": "Text_creation:has_location",
+        "object": "http://en.wikipedia.org/wiki/Great_Village",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+        "predicate": "Political_locales:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ernest_Hilbert",
+        "predicate": "Text_creation:has_text",
+        "object": "“Bishop ’s poetics is one distinguished by tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Time_vector:has_event",
+          "object": "write about the time of her mother's struggles in her short story \" In the Village",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Being_born:has_location",
+          "object": "Worcester, Massachusetts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Being_born:has_theme",
+          "object": "William Thomas and Gertrude May (Bulmer) Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Time_vector:has_event",
+          "object": "Bishop's paternal family gained custody",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Death:has_theme",
+          "object": "her father, a successful builder",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Emotion_directed:has_event",
+          "object": "there",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "State_continue:has_time",
+          "object": "until her death in 1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Death:has_time",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Death:has_time",
+          "object": "when she was eight months old",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Attention:has_theme",
+          "object": "miniaturist ’s",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Differentiation:has_quality",
+          "object": "tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Relative_time:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Fame:has_reason",
+          "object": "its careful attention to detail",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Text:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Relative_time:has_theme",
+          "object": "her father, a successful builder, died when she was eight months old",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Calendric_unit:has_time",
+          "object": "2018",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Fame:has_entity",
+          "object": "her poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Hostile_encounter:has_theme",
+          "object": "her mother's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Success_or_failure:has_agent",
+          "object": "builder",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Attention:has_theme",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Finish_competition:has_time",
+          "object": "1970",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Attention:has_theme",
+          "object": "detail",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Finish_competition:has_location",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Text:has_text",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Relative_time:has_theme",
+          "object": "Bishop's mother became mentally ill and was institutionalized in 1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Perception_active:has_theme",
+          "object": "tranquil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "20th",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Success_or_failure:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Text:has_location",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Differentiation:has_theme",
+          "object": "one",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Duration_description:has_theme",
+          "object": "story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Village",
+          "predicate": "Topic:has_text",
+          "object": "her writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/National_Book_Award",
+          "predicate": "Political_locales:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Finish_competition:has_location",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Finish_competition:has_competition",
+          "object": "Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Separating:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+          "predicate": "Reasoning:has_theme",
+          "object": "that she was perhaps \" the most purely gifted poet of the 20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Sole_instance:has_type",
+          "object": "child",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Causation:has_cause",
+          "object": "her separation from her maternal grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Recording:has_theme",
+          "object": "Her time in Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Statement:has_theme",
+          "object": "time of her mother's struggles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Causation:has_effect",
+          "object": "lonely",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Recording:has_theme",
+          "object": "her poem \" In the Waiting Room ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Increment:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Recording:has_theme",
+          "object": "briefly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Increment:has_class",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Interior_profile_relation:has_theme",
+          "object": "she was living",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "asthma",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text_creation:has_author",
+          "object": "Elizabeth Bishop (February 8, 1911 – October 6, 1979 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "People:has_person",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "chronic asthma, from which she suffered for the rest of her life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "State_continue:has_state",
+          "object": "asylum",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Becoming:has_theme",
+          "object": "mentally ill",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "chronic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Statement:has_time",
+          "object": "later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Village",
+          "predicate": "Topic:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Finish_competition:has_prize",
+          "object": "Pulitzer Prize",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Residence:has_theme",
+          "object": "her maternal grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Catastrophe:has_time",
+          "object": "rest of her life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Catastrophe:has_patient",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Being_named:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Becoming:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Desiring:has_theme",
+          "object": "her grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+          "predicate": "Reasoning:has_time",
+          "object": "2018",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "poet and short-story writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text_creation:has_text",
+          "object": "short-story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "People_by_age:has_location",
+          "object": "http://en.wikipedia.org/wiki/Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Separating:has_theme",
+          "object": "her maternal grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Residence:has_location",
+          "object": "farm in Great Village, Nova Scotia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+          "predicate": "Finish_competition:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Village",
+          "predicate": "Education_teaching:has_student",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Kinship:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Becoming:has_entity",
+          "object": "Bishop's mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_time",
+          "object": "2018",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "State_continue:has_entity",
+          "object": "Bishop's mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she was living in Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Being_named:has_entity",
+          "object": "other people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text_creation:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Kinship:has_time",
+          "object": "1934",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Age:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Kinship:has_theme",
+          "object": "Bishop's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Residence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Removing:has_theme",
+          "object": "care of her grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Removing:has_location",
+          "object": "http://en.wikipedia.org/wiki/Worcester",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Village",
+          "predicate": "Buildings:has_theme",
+          "object": "farm",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Kinship:has_theme",
+          "object": "her father's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Village",
+          "predicate": "Education_teaching:has_time",
+          "object": "during early childhood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Time_vector:has_theme",
+          "object": "childhood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Kinship:has_theme",
+          "object": "grandparents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Catastrophe:has_cause",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Age:has_age",
+          "object": "eight months",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Reference_text:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "Statement:has_theme",
+          "object": "her short story \" In the Village.)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bishop",
+          "predicate": "People:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Time_vector:has_theme",
+          "object": "Later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Causation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Possession:has_owner",
+          "object": "Bishop's paternal family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Duration_description:has_theme",
+          "object": "asthma",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nova_Scotia",
+          "predicate": "Residence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she developed chronic asthma, from which she suffered for the rest of her life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text:has_text",
+          "object": " In the Waiting Room",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Worcester",
+          "predicate": "Medical_conditions:has_patient",
+          "object": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Kinship:has_time",
+          "object": "1916",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+          "predicate": "Text_creation:has_location",
+          "object": "http://en.wikipedia.org/wiki/Great_Village",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ernest_Hilbert",
+          "predicate": "Text_creation:has_text",
+          "object": "“Bishop ’s poetics is one distinguished by tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "http://en.wikipedia.org/wiki/Ernest_Hilbert"
+    ],
+    "objects": [
+      "miniaturist ’s",
+      "Poetry",
+      "Poetry",
+      "tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+      "1916",
+      "1911",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "that she was perhaps \" the most purely gifted poet of the 20th century",
+      "mother",
+      "its careful attention to detail",
+      "poet",
+      "child",
+      "write about the time of her mother's struggles in her short story \" In the Village",
+      "her separation from her maternal grandparents",
+      "Her time in Worcester",
+      "1949",
+      "her father, a successful builder, died when she was eight months old",
+      "2018",
+      "Worcester, Massachusetts",
+      "time of her mother's struggles",
+      "her poetry",
+      "lonely",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "her poem \" In the Waiting Room ",
+      "her mother's",
+      "1911",
+      "briefly",
+      "people",
+      "William Thomas and Gertrude May (Bulmer) Bishop",
+      "she was living",
+      "century",
+      "asthma",
+      "Elizabeth Bishop (February 8, 1911 – October 6, 1979 )",
+      "people",
+      "chronic asthma, from which she suffered for the rest of her life",
+      "builder",
+      "asylum",
+      "Bishop's paternal family gained custody",
+      "mentally ill",
+      "chronic",
+      "later",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "Pulitzer Prize",
+      "her maternal grandparents",
+      "rest of her life",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "1911",
+      "1911",
+      "1916",
+      "her grandparents",
+      "2018",
+      "mother",
+      "poetry",
+      "poet and short-story writer",
+      "short-story",
+      "1970",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "her maternal grandparents",
+      "poet",
+      "farm in Great Village, Nova Scotia",
+      "1956",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "detail",
+      "1911",
+      "1916",
+      "Poetry",
+      "Bishop's mother",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "Poetry",
+      "2018",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "Bishop's mother",
+      "she was living in Worcester",
+      "other people",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "1911",
+      "1934",
+      "1916",
+      "Bishop's mother became mentally ill and was institutionalized in 1916",
+      "Bishop's",
+      "father",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "care of her grandparents",
+      "family",
+      "her father, a successful builder",
+      "tranquil",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "farm",
+      "her father's",
+      "http://en.wikipedia.org/wiki/United_States",
+      "during early childhood",
+      "family",
+      "poetry",
+      "there",
+      "childhood",
+      "grandparents",
+      "which",
+      "eight months",
+      "20th",
+      "1911",
+      "until her death in 1934",
+      "1916",
+      "Poetry",
+      "her short story \" In the Village.)",
+      "one",
+      "story",
+      "her writing",
+      "1911",
+      "Later",
+      "1934",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "Bishop's paternal family",
+      "asthma",
+      "when she was eight months old",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "she developed chronic asthma, from which she suffered for the rest of her life",
+      " In the Waiting Room",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "1916",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "world",
+      "“Bishop ’s poetics is one distinguished by tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention"
+    ],
+    "all_unique": [
+      "which",
+      "1949",
+      "chronic",
+      "time of her mother's struggles",
+      "childhood",
+      "Bishop's mother became mentally ill and was institutionalized in 1916",
+      "1970",
+      "her father, a successful builder, died when she was eight months old",
+      "http://en.wikipedia.org/wiki/National_Book_Award",
+      "mentally ill",
+      "her grandparents",
+      "when she was eight months old",
+      "her writing",
+      "http://en.wikipedia.org/wiki/Great_Village",
+      "1916",
+      "20th",
+      "there",
+      "tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+      "http://en.wikipedia.org/wiki/Nova_Scotia",
+      "her poetry",
+      "http://en.wikipedia.org/wiki/Elizabeth_Bishop",
+      "story",
+      "her separation from her maternal grandparents",
+      "mother",
+      "Bishop's paternal family",
+      "father",
+      "she was living in Worcester",
+      "Bishop's mother",
+      "eight months",
+      " In the Waiting Room",
+      "miniaturist ’s",
+      "rest of her life",
+      "tranquil",
+      "2018",
+      "http://en.wikipedia.org/wiki/United_States",
+      "grandparents",
+      "builder",
+      "one",
+      "her poem \" In the Waiting Room ",
+      "Bishop's paternal family gained custody",
+      "she was living",
+      "lonely",
+      "her father, a successful builder",
+      "chronic asthma, from which she suffered for the rest of her life",
+      "child",
+      "farm in Great Village, Nova Scotia",
+      "poetry",
+      "farm",
+      "briefly",
+      "http://en.wikipedia.org/wiki/Dwight_Garner_(critic)",
+      "century",
+      "write about the time of her mother's struggles in her short story \" In the Village",
+      "Bishop's",
+      "her maternal grandparents",
+      "her father's",
+      "Later",
+      "until her death in 1934",
+      "her short story \" In the Village.)",
+      "Poetry",
+      "Pulitzer Prize",
+      "1911",
+      "1934",
+      "during early childhood",
+      "1956",
+      "http://en.wikipedia.org/wiki/Worcester",
+      "short-story",
+      "Worcester, Massachusetts",
+      "poet",
+      "“Bishop ’s poetics is one distinguished by tranquil observation, craft-like accuracy, care for the small things of the world, a miniaturist ’s discretion and attention",
+      "its careful attention to detail",
+      "Elizabeth Bishop (February 8, 1911 – October 6, 1979 )",
+      "http://en.wikipedia.org/wiki/Ernest_Hilbert",
+      "that she was perhaps \" the most purely gifted poet of the 20th century",
+      "world",
+      "family",
+      "Her time in Worcester",
+      "poet and short-story writer",
+      "other people",
+      "her mother's",
+      "people",
+      "asylum",
+      "William Thomas and Gertrude May (Bulmer) Bishop",
+      "http://en.wikipedia.org/wiki/Bishop",
+      "later",
+      "she developed chronic asthma, from which she suffered for the rest of her life",
+      "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature",
+      "detail",
+      "asthma",
+      "care of her grandparents"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Attention:has_theme",
+      "Finish_competition:has_location",
+      "Finish_competition:has_competition",
+      "Differentiation:has_quality",
+      "Relative_time:has_time",
+      "Text:has_time",
+      "Separating:has_theme",
+      "Reasoning:has_theme",
+      "Kinship:has_theme",
+      "Fame:has_reason",
+      "Text:has_text",
+      "Sole_instance:has_type",
+      "Time_vector:has_event",
+      "Causation:has_cause",
+      "Recording:has_theme",
+      "Text:has_time",
+      "Relative_time:has_theme",
+      "Calendric_unit:has_time",
+      "Being_born:has_location",
+      "Statement:has_theme",
+      "Fame:has_entity",
+      "Causation:has_effect",
+      "Text:has_location",
+      "Recording:has_theme",
+      "Hostile_encounter:has_theme",
+      "Increment:has_time",
+      "Recording:has_theme",
+      "Increment:has_class",
+      "Being_born:has_theme",
+      "Interior_profile_relation:has_theme",
+      "Calendric_unit:has_theme",
+      "Medical_conditions:has_theme",
+      "Text_creation:has_author",
+      "People:has_person",
+      "Medical_conditions:has_theme",
+      "Success_or_failure:has_agent",
+      "State_continue:has_state",
+      "Time_vector:has_event",
+      "Becoming:has_theme",
+      "Medical_conditions:has_theme",
+      "Statement:has_time",
+      "Topic:has_theme",
+      "Finish_competition:has_prize",
+      "Residence:has_theme",
+      "Catastrophe:has_time",
+      "Catastrophe:has_patient",
+      "Text:has_time",
+      "Being_named:has_time",
+      "Becoming:has_time",
+      "Desiring:has_theme",
+      "Reasoning:has_time",
+      "Kinship:has_theme",
+      "Attention:has_theme",
+      "Origin:has_entity",
+      "Text_creation:has_text",
+      "Finish_competition:has_time",
+      "People_by_age:has_location",
+      "Separating:has_theme",
+      "Text:has_text",
+      "Residence:has_location",
+      "Finish_competition:has_time",
+      "Education_teaching:has_student",
+      "Attention:has_theme",
+      "Origin:has_time",
+      "Kinship:has_time",
+      "Finish_competition:has_location",
+      "Becoming:has_entity",
+      "Death:has_theme",
+      "Text:has_text",
+      "Text:has_time",
+      "Kinship:has_location",
+      "State_continue:has_entity",
+      "Temporal_collocation:has_theme",
+      "Being_named:has_entity",
+      "Kinship:has_theme",
+      "Text_creation:has_time",
+      "Kinship:has_time",
+      "Age:has_time",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Kinship:has_theme",
+      "Residence:has_theme",
+      "Removing:has_theme",
+      "Kinship:has_theme",
+      "Death:has_theme",
+      "Perception_active:has_theme",
+      "Removing:has_location",
+      "Buildings:has_theme",
+      "Kinship:has_theme",
+      "Text:has_location",
+      "Education_teaching:has_time",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Emotion_directed:has_event",
+      "Time_vector:has_theme",
+      "Kinship:has_theme",
+      "Catastrophe:has_cause",
+      "Age:has_age",
+      "Calendric_unit:has_theme",
+      "Reference_text:has_time",
+      "State_continue:has_time",
+      "Success_or_failure:has_time",
+      "Text:has_location",
+      "Statement:has_theme",
+      "Differentiation:has_theme",
+      "Duration_description:has_theme",
+      "Topic:has_text",
+      "People:has_time",
+      "Time_vector:has_theme",
+      "Death:has_time",
+      "Causation:has_theme",
+      "Possession:has_owner",
+      "Duration_description:has_theme",
+      "Death:has_time",
+      "Residence:has_theme",
+      "Temporal_collocation:has_theme",
+      "Text:has_text",
+      "Medical_conditions:has_patient",
+      "Kinship:has_time",
+      "Text_creation:has_location",
+      "Political_locales:has_theme",
+      "Text_creation:has_text"
+    ],
+    "unique_predicates": [
+      "Finish_competition:has_time",
+      "Medical_conditions:has_patient",
+      "Perception_active:has_theme",
+      "Causation:has_theme",
+      "Causation:has_effect",
+      "Differentiation:has_quality",
+      "Possession:has_owner",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Success_or_failure:has_time",
+      "Causation:has_cause",
+      "Increment:has_time",
+      "Reasoning:has_time",
+      "Time_vector:has_theme",
+      "Origin:has_entity",
+      "Being_named:has_time",
+      "Becoming:has_theme",
+      "Sole_instance:has_type",
+      "Fame:has_reason",
+      "Residence:has_theme",
+      "State_continue:has_entity",
+      "People_by_age:has_location",
+      "Temporal_collocation:has_theme",
+      "People:has_person",
+      "Being_named:has_entity",
+      "Reference_text:has_time",
+      "Desiring:has_theme",
+      "Finish_competition:has_competition",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Recording:has_theme",
+      "Finish_competition:has_prize",
+      "Emotion_directed:has_event",
+      "Age:has_time",
+      "Education_teaching:has_student",
+      "Statement:has_time",
+      "Time_vector:has_event",
+      "Calendric_unit:has_time",
+      "Topic:has_text",
+      "Calendric_unit:has_theme",
+      "People:has_time",
+      "Attention:has_theme",
+      "Kinship:has_time",
+      "Medical_conditions:has_theme",
+      "Separating:has_theme",
+      "Removing:has_theme",
+      "Finish_competition:has_location",
+      "Catastrophe:has_cause",
+      "Residence:has_location",
+      "Death:has_theme",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Differentiation:has_theme",
+      "Text_creation:has_text",
+      "Topic:has_theme",
+      "Origin:has_time",
+      "Becoming:has_time",
+      "Death:has_time",
+      "State_continue:has_state",
+      "Reasoning:has_theme",
+      "Interior_profile_relation:has_theme",
+      "State_continue:has_time",
+      "Catastrophe:has_patient",
+      "Age:has_age",
+      "Text:has_location",
+      "Being_born:has_theme",
+      "Relative_time:has_time",
+      "Education_teaching:has_time",
+      "Text_creation:has_time",
+      "Success_or_failure:has_agent",
+      "Catastrophe:has_time",
+      "Text_creation:has_location",
+      "Buildings:has_theme",
+      "Text_creation:has_author",
+      "Statement:has_theme",
+      "Becoming:has_entity",
+      "Kinship:has_location",
+      "Hostile_encounter:has_theme",
+      "Political_locales:has_theme",
+      "Fame:has_entity",
+      "Removing:has_location",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Attention:has_theme": 3,
+      "Finish_competition:has_location": 2,
+      "Finish_competition:has_competition": 1,
+      "Differentiation:has_quality": 1,
+      "Relative_time:has_time": 1,
+      "Text:has_time": 4,
+      "Separating:has_theme": 2,
+      "Reasoning:has_theme": 1,
+      "Kinship:has_theme": 9,
+      "Fame:has_reason": 1,
+      "Text:has_text": 5,
+      "Sole_instance:has_type": 1,
+      "Time_vector:has_event": 2,
+      "Causation:has_cause": 1,
+      "Recording:has_theme": 3,
+      "Relative_time:has_theme": 2,
+      "Calendric_unit:has_time": 1,
+      "Being_born:has_location": 1,
+      "Statement:has_theme": 2,
+      "Fame:has_entity": 1,
+      "Causation:has_effect": 1,
+      "Text:has_location": 3,
+      "Hostile_encounter:has_theme": 1,
+      "Increment:has_time": 1,
+      "Increment:has_class": 1,
+      "Being_born:has_theme": 1,
+      "Interior_profile_relation:has_theme": 1,
+      "Calendric_unit:has_theme": 2,
+      "Medical_conditions:has_theme": 3,
+      "Text_creation:has_author": 1,
+      "People:has_person": 1,
+      "Success_or_failure:has_agent": 1,
+      "State_continue:has_state": 1,
+      "Becoming:has_theme": 1,
+      "Statement:has_time": 1,
+      "Topic:has_theme": 1,
+      "Finish_competition:has_prize": 1,
+      "Residence:has_theme": 3,
+      "Catastrophe:has_time": 1,
+      "Catastrophe:has_patient": 1,
+      "Being_named:has_time": 1,
+      "Becoming:has_time": 1,
+      "Desiring:has_theme": 1,
+      "Reasoning:has_time": 1,
+      "Origin:has_entity": 1,
+      "Text_creation:has_text": 2,
+      "Finish_competition:has_time": 2,
+      "People_by_age:has_location": 1,
+      "Residence:has_location": 1,
+      "Education_teaching:has_student": 1,
+      "Origin:has_time": 1,
+      "Kinship:has_time": 3,
+      "Becoming:has_entity": 1,
+      "Death:has_theme": 2,
+      "Kinship:has_location": 1,
+      "State_continue:has_entity": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Being_named:has_entity": 1,
+      "Text_creation:has_time": 1,
+      "Age:has_time": 1,
+      "Removing:has_theme": 1,
+      "Perception_active:has_theme": 1,
+      "Removing:has_location": 1,
+      "Buildings:has_theme": 1,
+      "Education_teaching:has_time": 1,
+      "Emotion_directed:has_event": 1,
+      "Time_vector:has_theme": 2,
+      "Catastrophe:has_cause": 1,
+      "Age:has_age": 1,
+      "Reference_text:has_time": 1,
+      "State_continue:has_time": 1,
+      "Success_or_failure:has_time": 1,
+      "Differentiation:has_theme": 1,
+      "Duration_description:has_theme": 2,
+      "Topic:has_text": 1,
+      "People:has_time": 1,
+      "Death:has_time": 2,
+      "Causation:has_theme": 1,
+      "Possession:has_owner": 1,
+      "Medical_conditions:has_patient": 1,
+      "Text_creation:has_location": 1,
+      "Political_locales:has_theme": 1
+    }
+  }
+}

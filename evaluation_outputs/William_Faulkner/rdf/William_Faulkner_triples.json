@@ -1,0 +1,2577 @@
+{
+  "metadata": {
+    "total_triples": 120,
+    "source_file": "William_Faulkner",
+    "extraction_date": "2025-09-28 07:38:44",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_location",
+        "object": "Yoknapatawpha County",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Giving:has_theme",
+        "object": "two Nobel laureates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Relative_time:has_theme",
+        "object": "year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Part_orientational:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+        "predicate": "Win_prize:has_prize",
+        "object": "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "predicate": "Text:has_author",
+        "object": "Ernest Hemingway's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Text_creation:has_text",
+        "object": "American literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Fame:has_entity",
+        "object": "Faulkner's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Change_position_on_a_scale:has_time",
+        "object": "following publication of Malcolm Cowley's The Portable Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Education_teaching:has_theme",
+        "object": "only Mississippi-born",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_text",
+        "object": "Sound and the Fury",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Leadership:has_leader",
+        "object": "laureates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/World_War_I",
+        "predicate": "Becoming_a_member:has_group",
+        "object": "Royal Canadian Air Force",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_text",
+        "object": "his first novel Soldiers'Pay (1925)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Ordinal_numbers:has_location",
+        "object": "Yoknapatawpha County",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Receiving:has_theme",
+        "object": "1949 Nobel Prize in Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Text:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+        "predicate": "Removing:has_theme",
+        "object": "former film",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Fame:has_degree",
+        "object": "best",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Leadership:has_theme",
+        "object": "Nobel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Behind_the_scenes:has_time",
+        "object": "former",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Categorization:has_category",
+        "object": "greatest writer of Southern literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/World_War_I",
+        "predicate": "Becoming_a_member:has_time",
+        "object": "During World War I",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Motion:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_text",
+        "object": "As I Lay Dying",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "Two",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Relative_time:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Education_teaching:has_level",
+        "object": "Nobel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Labor_product:has_time",
+        "object": "1954",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+        "predicate": "Removing:has_theme",
+        "object": "Ernest Hemingway's novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Categorization:has_item",
+        "object": "Nobel laureate, Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_text",
+        "object": "Sartoris (1927 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_time",
+        "object": "1927",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "predicate": "Behind_the_scenes:has_type",
+        "object": "contributions by two Nobel laureates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+        "predicate": "Win_prize:has_time",
+        "object": "1954",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Part_orientational:has_theme",
+        "object": "Southern",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Receiving:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Growing_food:has_location",
+        "object": "Oxford, Mississippi",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Giving:has_recipient",
+        "object": "Howard Hawks's To Have and Have Not and The Big Sleep, adapted from Raymond Chandler's novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Origin:has_entity",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Being_employed:has_position",
+        "object": "as a screenwriter",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the most influential and important writers of the 20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "20th",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Fame:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Fame:has_reason",
+        "object": "his novels and short stories set in the fictional Yoknapatawpha County",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Motion:has_goal",
+        "object": "back to Oxford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_location",
+        "object": "August",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Relative_time:has_theme",
+        "object": "publication of Malcolm Cowley's The Portable Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Importance:has_theme",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Raymond_Chandler",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Attending:has_time",
+        "object": "before dropping out",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Text:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "following",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_theme",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Reference_text:has_theme",
+        "object": "Faulkner (disambiguation) and William Faulkner (disambiguation )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Text_creation:has_author",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_time",
+        "object": "1929",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/World_War_I",
+        "predicate": "Becoming_a_member:has_theme",
+        "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Change_position_on_a_scale:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Raymond_Chandler",
+        "predicate": "Text:has_author",
+        "object": "Raymond Chandler's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Oxford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Attending:has_event",
+        "object": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "former film, adapted from Ernest Hemingway's novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Education_teaching:has_time",
+        "object": "laureate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Motion:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Text:has_text",
+        "object": "Malcolm Cowley's The Portable Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Subjective_influence:has_time",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Leadership:has_theme",
+        "object": "Nobel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Giving:has_theme",
+        "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Sole_instance:has_type",
+        "object": "film with contributions by two Nobel laureates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Text_creation:has_author",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Change_position_on_a_scale:has_item",
+        "object": "Faulkner's reputation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Education_teaching:has_teacher",
+        "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Relative_time:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Text:has_text",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Receiving:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Grasp:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_time",
+        "object": "1949",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_text",
+        "object": "Light",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_time",
+        "object": "following year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Text:has_theme",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Sole_instance:has_type",
+        "object": "Mississippi-born Nobel laureate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Being_born:has_location",
+        "object": "New Albany, Mississippi",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Relative_time:has_theme",
+        "object": "Faulkner's reputation grew",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Motion:has_goal",
+        "object": "New Orleans, where he wrote his first novel Soldiers'Pay (1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Receiving:has_theme",
+        "object": " his powerful and unique contribution to the modern American novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Fame:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_theme",
+        "object": "modern",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Importance:has_time",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lafayette_County,_Mississippi",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+        "predicate": "Win_prize:has_competitor",
+        "object": "Two of his works, A Fable (1954) and The Reivers (1962 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+        "predicate": "Receiving:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text_creation:has_time",
+        "object": "August",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_time",
+        "object": "1925",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Motion:has_location",
+        "object": "Yoknapatawpha County",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+        "predicate": "Cardinal_numbers:has_time",
+        "object": "1954",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Text:has_text",
+        "object": "Soldiers'Pay",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+        "predicate": "Attending:has_theme",
+        "object": "three semesters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Education_teaching:has_theme",
+          "object": "only Mississippi-born",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Attending:has_event",
+          "object": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Sole_instance:has_type",
+          "object": "Mississippi-born Nobel laureate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Being_born:has_location",
+          "object": "New Albany, Mississippi",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_text",
+          "object": "his first novel Soldiers'Pay (1925)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+          "predicate": "Removing:has_theme",
+          "object": "Ernest Hemingway's novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Giving:has_recipient",
+          "object": "Howard Hawks's To Have and Have Not and The Big Sleep, adapted from Raymond Chandler's novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Fame:has_reason",
+          "object": "his novels and short stories set in the fictional Yoknapatawpha County",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Raymond_Chandler",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "former film, adapted from Ernest Hemingway's novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Motion:has_goal",
+          "object": "New Orleans, where he wrote his first novel Soldiers'Pay (1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Receiving:has_theme",
+          "object": " his powerful and unique contribution to the modern American novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_location",
+          "object": "Yoknapatawpha County",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Giving:has_theme",
+          "object": "two Nobel laureates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Relative_time:has_theme",
+          "object": "year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Part_orientational:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+          "predicate": "Win_prize:has_prize",
+          "object": "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+          "predicate": "Text:has_author",
+          "object": "Ernest Hemingway's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Text_creation:has_text",
+          "object": "American literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Fame:has_entity",
+          "object": "Faulkner's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Change_position_on_a_scale:has_time",
+          "object": "following publication of Malcolm Cowley's The Portable Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_text",
+          "object": "Sound and the Fury",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Leadership:has_leader",
+          "object": "laureates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/World_War_I",
+          "predicate": "Becoming_a_member:has_group",
+          "object": "Royal Canadian Air Force",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Ordinal_numbers:has_location",
+          "object": "Yoknapatawpha County",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Receiving:has_theme",
+          "object": "1949 Nobel Prize in Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Text:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+          "predicate": "Removing:has_theme",
+          "object": "former film",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Fame:has_degree",
+          "object": "best",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Leadership:has_theme",
+          "object": "Nobel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Behind_the_scenes:has_time",
+          "object": "former",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Categorization:has_category",
+          "object": "greatest writer of Southern literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/World_War_I",
+          "predicate": "Becoming_a_member:has_time",
+          "object": "During World War I",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Motion:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_text",
+          "object": "As I Lay Dying",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "Two",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Relative_time:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Education_teaching:has_level",
+          "object": "Nobel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Labor_product:has_time",
+          "object": "1954",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Categorization:has_item",
+          "object": "Nobel laureate, Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_text",
+          "object": "Sartoris (1927 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_time",
+          "object": "1927",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+          "predicate": "Behind_the_scenes:has_type",
+          "object": "contributions by two Nobel laureates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+          "predicate": "Win_prize:has_time",
+          "object": "1954",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Part_orientational:has_theme",
+          "object": "Southern",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Receiving:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Growing_food:has_location",
+          "object": "Oxford, Mississippi",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Origin:has_entity",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Being_employed:has_position",
+          "object": "as a screenwriter",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the most influential and important writers of the 20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "20th",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Fame:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Motion:has_goal",
+          "object": "back to Oxford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_location",
+          "object": "August",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Relative_time:has_theme",
+          "object": "publication of Malcolm Cowley's The Portable Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Importance:has_theme",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Attending:has_time",
+          "object": "before dropping out",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Text:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "following",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_theme",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Reference_text:has_theme",
+          "object": "Faulkner (disambiguation) and William Faulkner (disambiguation )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Text_creation:has_author",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_time",
+          "object": "1929",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/World_War_I",
+          "predicate": "Becoming_a_member:has_theme",
+          "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Change_position_on_a_scale:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Raymond_Chandler",
+          "predicate": "Text:has_author",
+          "object": "Raymond Chandler's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Oxford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Education_teaching:has_time",
+          "object": "laureate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Motion:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Text:has_text",
+          "object": "Malcolm Cowley's The Portable Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Subjective_influence:has_time",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Leadership:has_theme",
+          "object": "Nobel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Giving:has_theme",
+          "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Sole_instance:has_type",
+          "object": "film with contributions by two Nobel laureates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Text_creation:has_author",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Change_position_on_a_scale:has_item",
+          "object": "Faulkner's reputation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Education_teaching:has_teacher",
+          "object": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Relative_time:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Text:has_text",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Receiving:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Grasp:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_time",
+          "object": "1949",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_text",
+          "object": "Light",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_time",
+          "object": "following year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Text:has_theme",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Relative_time:has_theme",
+          "object": "Faulkner's reputation grew",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Fame:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_theme",
+          "object": "modern",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Importance:has_time",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lafayette_County,_Mississippi",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+          "predicate": "Win_prize:has_competitor",
+          "object": "Two of his works, A Fable (1954) and The Reivers (1962 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+          "predicate": "Receiving:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text_creation:has_time",
+          "object": "August",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_time",
+          "object": "1925",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Motion:has_location",
+          "object": "Yoknapatawpha County",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Mississippi",
+          "predicate": "Cardinal_numbers:has_time",
+          "object": "1954",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Text:has_text",
+          "object": "Soldiers'Pay",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Faulkner",
+          "predicate": "Attending:has_theme",
+          "object": "three semesters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/World_War_I",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/World_War_I",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/Raymond_Chandler",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/World_War_I",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Raymond_Chandler",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Lafayette_County,_Mississippi",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "http://en.wikipedia.org/wiki/William_Faulkner"
+    ],
+    "objects": [
+      "Yoknapatawpha County",
+      "two Nobel laureates",
+      "http://en.wikipedia.org/wiki/United_States",
+      "year",
+      "literature",
+      "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+      "Ernest Hemingway's",
+      "American literature",
+      "Faulkner's",
+      "following publication of Malcolm Cowley's The Portable Faulkner",
+      "1927",
+      "only Mississippi-born",
+      "Sound and the Fury",
+      "laureates",
+      "Royal Canadian Air Force",
+      "his first novel Soldiers'Pay (1925)",
+      "Yoknapatawpha County",
+      "1949 Nobel Prize in Literature",
+      "Literature",
+      "uses",
+      "former film",
+      "best",
+      "Nobel",
+      "former",
+      "greatest writer of Southern literature",
+      "During World War I",
+      "1927",
+      "1962",
+      "As I Lay Dying",
+      "Two",
+      "1949",
+      "Nobel",
+      "1954",
+      "writers",
+      "Ernest Hemingway's novel",
+      "Nobel laureate, Faulkner",
+      "Sartoris (1927 )",
+      "1927",
+      "contributions by two Nobel laureates",
+      "literature",
+      "1954",
+      "works",
+      "Southern",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "Oxford, Mississippi",
+      "Howard Hawks's To Have and Have Not and The Big Sleep, adapted from Raymond Chandler's novel",
+      "literature",
+      "as a screenwriter",
+      "as one of the most influential and important writers of the 20th century",
+      "Literature",
+      "20th",
+      "Literature",
+      "1949",
+      "his novels and short stories set in the fictional Yoknapatawpha County",
+      "back to Oxford",
+      "1949",
+      "August",
+      "novel",
+      "publication of Malcolm Cowley's The Portable Faulkner",
+      "writers",
+      "novel",
+      "1925",
+      "before dropping out",
+      "1949",
+      "following",
+      "1929",
+      "Faulkner (disambiguation) and William Faulkner (disambiguation )",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "writer",
+      "1929",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "Literature",
+      "novel",
+      "Raymond Chandler's",
+      "http://en.wikipedia.org/wiki/Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "former film, adapted from Ernest Hemingway's novel",
+      "laureate",
+      "1925",
+      "Malcolm Cowley's The Portable Faulkner",
+      "20th century",
+      "Nobel",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "film with contributions by two Nobel laureates",
+      "his works",
+      "writers",
+      "Faulkner's reputation",
+      "novels",
+      "1925",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      "century",
+      "Literature",
+      "writers",
+      "1949",
+      "work",
+      "novel",
+      "century",
+      "1949",
+      "Light",
+      "following year",
+      "20th century",
+      "Mississippi-born Nobel laureate",
+      "New Albany, Mississippi",
+      "Faulkner's reputation grew",
+      "New Orleans, where he wrote his first novel Soldiers'Pay (1925",
+      " his powerful and unique contribution to the modern American novel",
+      "Literature",
+      "modern",
+      "20th century",
+      "writer",
+      "stories",
+      "Two of his works, A Fable (1954) and The Reivers (1962 )",
+      "Literature",
+      "August",
+      "1925",
+      "Yoknapatawpha County",
+      "1954",
+      "novel",
+      "Soldiers'Pay",
+      "three semesters"
+    ],
+    "all_unique": [
+      "literature",
+      "Southern",
+      "http://en.wikipedia.org/wiki/Southern_United_States_literature",
+      "works",
+      "1949",
+      "Soldiers'Pay",
+      "http://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+      "before dropping out",
+      "Ernest Hemingway's novel",
+      "his first novel Soldiers'Pay (1925)",
+      "New Albany, Mississippi",
+      "http://en.wikipedia.org/wiki/World_War_I",
+      "work",
+      "http://en.wikipedia.org/wiki/Oxford",
+      "http://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "stories",
+      "20th",
+      "Two of his works, A Fable (1954) and The Reivers (1962 )",
+      "following",
+      "three semesters",
+      "American literature",
+      "following year",
+      "greatest writer of Southern literature",
+      "as a screenwriter",
+      "http://en.wikipedia.org/wiki/William_Faulkner",
+      " his powerful and unique contribution to the modern American novel",
+      "Royal Canadian Air Force",
+      "1929",
+      "Nobel",
+      "novels",
+      "Raymond Chandler's",
+      "http://en.wikipedia.org/wiki/Lafayette_County,_Mississippi",
+      "publication of Malcolm Cowley's The Portable Faulkner",
+      "his novels and short stories set in the fictional Yoknapatawpha County",
+      "Mississippi-born Nobel laureate",
+      "Faulkner's reputation",
+      "http://en.wikipedia.org/wiki/United_States",
+      "his works",
+      "former",
+      "20th century",
+      "year",
+      "1925",
+      "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Fiction",
+      "Yoknapatawpha County",
+      "contributions by two Nobel laureates",
+      "Faulkner's",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "uses",
+      "Faulkner (disambiguation) and William Faulkner (disambiguation )",
+      "century",
+      "back to Oxford",
+      "Nobel laureate, Faulkner",
+      "Sartoris (1927 )",
+      "writers",
+      "former film",
+      "following publication of Malcolm Cowley's The Portable Faulkner",
+      "Literature",
+      "http://en.wikipedia.org/wiki/University_of_Mississippi",
+      "former film, adapted from Ernest Hemingway's novel",
+      "1927",
+      "http://en.wikipedia.org/wiki/Raymond_Chandler",
+      "writer",
+      "Sound and the Fury",
+      "Light",
+      "laureates",
+      "modern",
+      "During World War I",
+      "Oxford, Mississippi",
+      "Two",
+      "As I Lay Dying",
+      "August",
+      "film with contributions by two Nobel laureates",
+      "two Nobel laureates",
+      "best",
+      "Faulkner's reputation grew",
+      "1954",
+      "1949 Nobel Prize in Literature",
+      "only Mississippi-born",
+      "laureate",
+      "Ernest Hemingway's",
+      "as one of the most influential and important writers of the 20th century",
+      "1962",
+      "New Orleans, where he wrote his first novel Soldiers'Pay (1925",
+      "novel",
+      "Howard Hawks's To Have and Have Not and The Big Sleep, adapted from Raymond Chandler's novel",
+      "Malcolm Cowley's The Portable Faulkner"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text_creation:has_location",
+      "Giving:has_theme",
+      "Origin:has_theme",
+      "Relative_time:has_theme",
+      "Part_orientational:has_theme",
+      "Win_prize:has_prize",
+      "Text:has_author",
+      "Text_creation:has_text",
+      "Fame:has_entity",
+      "Change_position_on_a_scale:has_time",
+      "Ordinal_numbers:has_time",
+      "Education_teaching:has_theme",
+      "Text:has_text",
+      "Leadership:has_leader",
+      "Becoming_a_member:has_group",
+      "Text_creation:has_text",
+      "Ordinal_numbers:has_location",
+      "Receiving:has_theme",
+      "Text:has_location",
+      "Increment:has_class",
+      "Removing:has_theme",
+      "Fame:has_degree",
+      "Leadership:has_theme",
+      "Behind_the_scenes:has_time",
+      "Categorization:has_category",
+      "Becoming_a_member:has_time",
+      "Motion:has_time",
+      "Origin:has_time",
+      "Text_creation:has_text",
+      "Cardinal_numbers:has_theme",
+      "Relative_time:has_time",
+      "Education_teaching:has_level",
+      "Labor_product:has_time",
+      "Subjective_influence:has_entity",
+      "Removing:has_theme",
+      "Categorization:has_item",
+      "Text_creation:has_text",
+      "Text_creation:has_time",
+      "Behind_the_scenes:has_type",
+      "Fields:has_theme",
+      "Win_prize:has_time",
+      "Labor_product:has_theme",
+      "Part_orientational:has_theme",
+      "Receiving:has_recipient",
+      "Growing_food:has_location",
+      "Giving:has_recipient",
+      "Origin:has_entity",
+      "Being_employed:has_position",
+      "Categorization:has_category",
+      "Origin:has_location",
+      "Calendric_unit:has_theme",
+      "Text:has_location",
+      "Fame:has_time",
+      "Fame:has_reason",
+      "Motion:has_goal",
+      "Origin:has_time",
+      "Text_creation:has_location",
+      "Text:has_text",
+      "Relative_time:has_theme",
+      "Importance:has_theme",
+      "Text:has_text",
+      "Ordinal_numbers:has_time",
+      "Attending:has_time",
+      "Text:has_time",
+      "Calendric_unit:has_theme",
+      "Text:has_theme",
+      "Reference_text:has_theme",
+      "Being_employed:has_employee",
+      "Text_creation:has_author",
+      "Text:has_time",
+      "Becoming_a_member:has_theme",
+      "Change_position_on_a_scale:has_location",
+      "Ordinal_numbers:has_type",
+      "Text:has_author",
+      "Arriving:has_goal",
+      "Attending:has_event",
+      "Behind_the_scenes:has_theme",
+      "Education_teaching:has_time",
+      "Motion:has_time",
+      "Text:has_text",
+      "Subjective_influence:has_time",
+      "Leadership:has_theme",
+      "Giving:has_theme",
+      "Sole_instance:has_type",
+      "Cardinal_numbers:has_entity",
+      "Text_creation:has_author",
+      "Change_position_on_a_scale:has_item",
+      "Text:has_text",
+      "Text_creation:has_time",
+      "Education_teaching:has_teacher",
+      "Calendric_unit:has_theme",
+      "Relative_time:has_location",
+      "Text:has_text",
+      "Receiving:has_time",
+      "Ordinal_numbers:has_type",
+      "Text:has_text",
+      "Grasp:has_theme",
+      "Text:has_time",
+      "Text_creation:has_text",
+      "Text_creation:has_time",
+      "Text:has_theme",
+      "Sole_instance:has_type",
+      "Being_born:has_location",
+      "Relative_time:has_theme",
+      "Motion:has_goal",
+      "Receiving:has_theme",
+      "Fame:has_location",
+      "Text:has_theme",
+      "Importance:has_time",
+      "Origin:has_entity",
+      "Duration_description:has_theme",
+      "Win_prize:has_competitor",
+      "Receiving:has_location",
+      "Text_creation:has_time",
+      "Text:has_time",
+      "Motion:has_location",
+      "Cardinal_numbers:has_time",
+      "Origin:has_entity",
+      "Text:has_text",
+      "Attending:has_theme"
+    ],
+    "unique_predicates": [
+      "Motion:has_time",
+      "Cardinal_numbers:has_theme",
+      "Origin:has_location",
+      "Attending:has_event",
+      "Behind_the_scenes:has_theme",
+      "Importance:has_time",
+      "Labor_product:has_time",
+      "Becoming_a_member:has_time",
+      "Relative_time:has_theme",
+      "Ordinal_numbers:has_time",
+      "Education_teaching:has_theme",
+      "Win_prize:has_competitor",
+      "Subjective_influence:has_time",
+      "Cardinal_numbers:has_time",
+      "Grasp:has_theme",
+      "Categorization:has_item",
+      "Win_prize:has_time",
+      "Fame:has_time",
+      "Text:has_theme",
+      "Origin:has_entity",
+      "Sole_instance:has_type",
+      "Change_position_on_a_scale:has_location",
+      "Fame:has_reason",
+      "Fame:has_degree",
+      "Arriving:has_goal",
+      "Receiving:has_theme",
+      "Origin:has_theme",
+      "Becoming_a_member:has_theme",
+      "Receiving:has_time",
+      "Being_employed:has_employee",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Ordinal_numbers:has_type",
+      "Becoming_a_member:has_group",
+      "Change_position_on_a_scale:has_time",
+      "Education_teaching:has_level",
+      "Being_employed:has_position",
+      "Fame:has_location",
+      "Calendric_unit:has_theme",
+      "Relative_time:has_location",
+      "Removing:has_theme",
+      "Behind_the_scenes:has_time",
+      "Giving:has_recipient",
+      "Fields:has_theme",
+      "Leadership:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Leadership:has_leader",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Motion:has_goal",
+      "Text_creation:has_text",
+      "Behind_the_scenes:has_type",
+      "Importance:has_theme",
+      "Origin:has_time",
+      "Change_position_on_a_scale:has_item",
+      "Growing_food:has_location",
+      "Ordinal_numbers:has_location",
+      "Receiving:has_location",
+      "Giving:has_theme",
+      "Attending:has_theme",
+      "Text:has_location",
+      "Win_prize:has_prize",
+      "Receiving:has_recipient",
+      "Relative_time:has_time",
+      "Motion:has_location",
+      "Education_teaching:has_time",
+      "Text_creation:has_time",
+      "Text_creation:has_location",
+      "Reference_text:has_theme",
+      "Education_teaching:has_teacher",
+      "Attending:has_time",
+      "Text:has_author",
+      "Text_creation:has_author",
+      "Part_orientational:has_theme",
+      "Fame:has_entity",
+      "Subjective_influence:has_entity",
+      "Labor_product:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Text_creation:has_location": 2,
+      "Giving:has_theme": 2,
+      "Origin:has_theme": 1,
+      "Relative_time:has_theme": 3,
+      "Part_orientational:has_theme": 2,
+      "Win_prize:has_prize": 1,
+      "Text:has_author": 2,
+      "Text_creation:has_text": 5,
+      "Fame:has_entity": 1,
+      "Change_position_on_a_scale:has_time": 1,
+      "Ordinal_numbers:has_time": 2,
+      "Education_teaching:has_theme": 1,
+      "Text:has_text": 8,
+      "Leadership:has_leader": 1,
+      "Becoming_a_member:has_group": 1,
+      "Ordinal_numbers:has_location": 1,
+      "Receiving:has_theme": 2,
+      "Text:has_location": 2,
+      "Increment:has_class": 1,
+      "Removing:has_theme": 2,
+      "Fame:has_degree": 1,
+      "Leadership:has_theme": 2,
+      "Behind_the_scenes:has_time": 1,
+      "Categorization:has_category": 2,
+      "Becoming_a_member:has_time": 1,
+      "Motion:has_time": 2,
+      "Origin:has_time": 2,
+      "Cardinal_numbers:has_theme": 1,
+      "Relative_time:has_time": 1,
+      "Education_teaching:has_level": 1,
+      "Labor_product:has_time": 1,
+      "Subjective_influence:has_entity": 1,
+      "Categorization:has_item": 1,
+      "Text_creation:has_time": 4,
+      "Behind_the_scenes:has_type": 1,
+      "Fields:has_theme": 1,
+      "Win_prize:has_time": 1,
+      "Labor_product:has_theme": 1,
+      "Receiving:has_recipient": 1,
+      "Growing_food:has_location": 1,
+      "Giving:has_recipient": 1,
+      "Origin:has_entity": 3,
+      "Being_employed:has_position": 1,
+      "Origin:has_location": 1,
+      "Calendric_unit:has_theme": 3,
+      "Fame:has_time": 1,
+      "Fame:has_reason": 1,
+      "Motion:has_goal": 2,
+      "Importance:has_theme": 1,
+      "Attending:has_time": 1,
+      "Text:has_time": 4,
+      "Text:has_theme": 3,
+      "Reference_text:has_theme": 1,
+      "Being_employed:has_employee": 1,
+      "Text_creation:has_author": 2,
+      "Becoming_a_member:has_theme": 1,
+      "Change_position_on_a_scale:has_location": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Arriving:has_goal": 1,
+      "Attending:has_event": 1,
+      "Behind_the_scenes:has_theme": 1,
+      "Education_teaching:has_time": 1,
+      "Subjective_influence:has_time": 1,
+      "Sole_instance:has_type": 2,
+      "Cardinal_numbers:has_entity": 1,
+      "Change_position_on_a_scale:has_item": 1,
+      "Education_teaching:has_teacher": 1,
+      "Relative_time:has_location": 1,
+      "Receiving:has_time": 1,
+      "Grasp:has_theme": 1,
+      "Being_born:has_location": 1,
+      "Fame:has_location": 1,
+      "Importance:has_time": 1,
+      "Duration_description:has_theme": 1,
+      "Win_prize:has_competitor": 1,
+      "Receiving:has_location": 1,
+      "Motion:has_location": 1,
+      "Cardinal_numbers:has_time": 1,
+      "Attending:has_theme": 1
+    }
+  }
+}

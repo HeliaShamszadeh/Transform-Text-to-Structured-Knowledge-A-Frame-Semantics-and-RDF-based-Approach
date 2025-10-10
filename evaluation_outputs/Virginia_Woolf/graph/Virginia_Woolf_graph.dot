@@ -1,0 +1,320 @@
+digraph Virginia_Woolf {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "20th-century modernist authors" [label="20th-century modernist authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her work" [label="Her work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "much of her work" [label="much of her work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "death of her father" [label="death of her father", fillcolor=lightyellow, color=orange, shape=diamond];
+    "seventh" [label="seventh", fillcolor=lightyellow, color=orange, shape=diamond];
+    "death of her father in 1904" [label="death of her father in 1904", fillcolor=lightyellow, color=orange, shape=diamond];
+    "After the death of her fath..." [label="After the death of her fath...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Leonard Woolf" [label="Leonard Woolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American children's" [label="American children's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virginia Euwer Wolff" [label="Virginia Euwer Wolff", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1904" [label="1904", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1917" [label="1917", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Woolf disambiguation" [label="Woolf disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1900" [label="1900", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bloomsbury" [label="Bloomsbury", fillcolor=lightgray, color=gray, shape=hexagon];
+    "buildings" [label="buildings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "languages" [label="languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister, the painter Van..." [label="her sister, the painter Van...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bloomsbury Group" [label="Bloomsbury Group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early advocates for women ’..." [label="early advocates for women ’...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "bohemian Bloomsbury district" [label="bohemian Bloomsbury district", fillcolor=lightgray, color=gray, shape=hexagon];
+    "founding" [label="founding", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publishing professionally" [label="publishing professionally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "advocates for women’s right..." [label="advocates for women’s right...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "blended household of eight ..." [label="blended household of eight ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "founding member of the infl..." [label="founding member of the infl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virginia Wolf" [label="Virginia Wolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940" [label="1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1912" [label="1912", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influential Bloomsbury Group" [label="influential Bloomsbury Group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into an affluent and intell..." [label="into an affluent and intell...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Stephen" [label="Stephen", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Relatives" [label="Relatives", fillcolor=lightgray, color=gray, shape=hexagon];
+    "South Kensington" [label="South Kensington", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sussex" [label="Sussex", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Woolf and her family moved ..." [label="Woolf and her family moved ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "classics and history" [label="classics and history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virginia Woolf" [label="Virginia Woolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during the interwar period" [label="during the interwar period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Julia Prinsep Jackson and L..." [label="Julia Prinsep Jackson and L...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "circles" [label="circles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Woolf and her family" [label="Woolf and her family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary circles" [label="literary circles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United Kingdom" [label="United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "South Kensington, London" [label="South Kensington, London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "device" [label="device", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university" [label="university", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which published much of her..." [label="which published much of her...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "professionally" [label="professionally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "50" [label="50", fillcolor=lightgray, color=gray, shape=hexagon];
+    "settled in Sussex in 1940" [label="settled in Sussex in 1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their involvement in litera..." [label="their involvement in litera...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "worldwide" [label="worldwide", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist" [label="modernist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essay" [label="essay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "throughout their lives" [label="throughout their lives", fillcolor=lightgray, color=gray, shape=hexagon];
+    "50 languages" [label="50 languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prominence" [label="prominence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pioneer the use of stream o..." [label="pioneer the use of stream o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "feminist" [label="feminist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Group" [label="Group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Adeline Virginia Woolf" [label="Adeline Virginia Woolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English classics and Victor..." [label="English classics and Victor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1941" [label="1941", fillcolor=lightgray, color=gray, shape=hexagon];
+    "central to 1970s feminist c..." [label="central to 1970s feminist c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father" [label="her father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a literary device" [label="as a literary device", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stream of consciousness nar..." [label="stream of consciousness nar...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "district" [label="district", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over" [label="over", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eight children" [label="eight children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into over 50 languages" [label="into over 50 languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influential" [label="influential", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Virginia Euwer Wolff" -> "Virginia Euwer Wolff" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Virginia Euwer Wolff" -> "American children's" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "United Kingdom" -> "modernist" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "Virginia Woolf" -> "1941" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Sussex" -> "1940" [label="has time [Colonization]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "during the interwar period" [label="has time [Prominence]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "feminist" [label="has theme [Judgment_communication]", color=lightcyan, penwidth=1];
+    "Virginia Woolf" -> "Virginia Woolf" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Virginia Woolf" -> "Her work" [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "Leonard Woolf" -> "which published much of her..." [label="has theme [Intentionally_create]", color=lightgoldenrodyellow, penwidth=1];
+    "Virginia Woolf" -> "central to 1970s feminist c..." [label="has theme [Becoming]", color=lightseagreen, penwidth=1];
+    "South Kensington" -> "Relatives" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "South Kensington, London" [label="has location [Being_born]", color=green, penwidth=2];
+    "Virginia Woolf" -> "Her work" [label="has entity [State_continue]", color=lightpink, penwidth=1];
+    "England" -> "Virginia Woolf" [label="has student [Education_teaching]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "Virginia Wolf" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Sussex" -> "Leonard Woolf" [label="has theme [Colonization]", color=lightyellow, penwidth=1];
+    "Virginia Woolf" -> "1900" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "influential" [label="has state [State_continue]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "over" [label="has theme [Proportional_quantity]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has time [Membership]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "1941" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Sussex" -> "literary circles" [label="has institution [Participation]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "bohemian Bloomsbury district" [label="has goal [Motion]", color=lightcyan, penwidth=1];
+    "England" -> "1941" [label="has time [Text]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "prominence" [label="has goal [Motion_directional]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "feminist" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "England" -> "Woolf disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Virginia Woolf" -> "1912" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Sussex" -> "their involvement in litera..." [label="has activity [Activity_ongoing]", color=lightgoldenrodyellow, penwidth=1];
+    "Virginia Woolf" -> "founding member of the infl..." [label="has theme [Becoming]", color=lightseagreen, penwidth=1];
+    "Virginia Woolf" -> "death of her father in 1904" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "Her work" [label="has entity [Becoming]", color=lightseagreen, penwidth=1];
+    "Sussex" -> "1940" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Sussex" -> "1940" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "Sussex" -> "settled in Sussex in 1940" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "seventh" [label="has age [People_by_age]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Sussex" -> "1940" [label="has time [Participation]", color=purple, penwidth=2];
+    "Bloomsbury" -> "1904" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "father" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "founding" [label="has theme [Membership]", color=lightgreen, penwidth=1];
+    "Virginia Woolf" -> "literary" [label="has theme [Gizmo]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "worldwide" [label="has location [Subjective_influence]", color=green, penwidth=2];
+    "Bloomsbury" -> "Group" [label="has theme [Aggregate]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "50" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "much of her work" [label="has work [Publishing]", color=lightblue, penwidth=1];
+    "Virginia Woolf" -> "English classics and Victor..." [label="has theme [Education_teaching]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "death of her father" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Virginia Woolf" -> "pioneer the use of stream o..." [label="has goal [Assistance]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "which" [label="has theme [Publishing]", color=lightblue, penwidth=1];
+    "Sussex" -> "1940" [label="has time [Activity_ongoing]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "as a literary device" [label="has role [Using]", color=lightgreen, penwidth=1];
+    "Sussex" -> "circles" [label="has theme [Aggregate]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "South Kensington" [label="has location [People_by_age]", color=green, penwidth=2];
+    "Virginia Woolf" -> "1904" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "Stephen" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "Sussex" -> "throughout their lives" [label="has theme [Activity_ongoing]", color=lightgoldenrodyellow, penwidth=1];
+    "Virginia Woolf" -> "into over 50 languages" [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "Virginia Woolf" -> "essay" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "work" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Bloomsbury" -> "1904" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Virginia Euwer Wolff" -> "Virginia Euwer Wolff" [label="has author [Text]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "Woolf and her family moved ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "Adeline Virginia Woolf" [label="has entity [Being_named]", color=lightyellow, penwidth=1];
+    "Virginia Woolf" -> "Julia Prinsep Jackson and L..." [label="has theme [People_by_age]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "professionally" [label="has theme [Publishing]", color=lightblue, penwidth=1];
+    "Leonard Woolf" -> "1917" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Sussex" -> "literary" [label="has theme [Aggregate]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "name" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "Virginia Woolf" -> "her sister, the painter Van..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "university" [label="has type [Buildings]", color=lightcyan, penwidth=1];
+    "Virginia Woolf" -> "stream of consciousness nar..." [label="has instrument [Using]", color=lightgreen, penwidth=1];
+    "Virginia Woolf" -> "England" [label="has location [Becoming_aware]", color=green, penwidth=2];
+    "England" -> "advocates for women’s right..." [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Virginia Woolf" -> "blended household of eight ..." [label="has location [Growing_food]", color=green, penwidth=2];
+    "England" -> "uses" [label="has class [Increment]", color=lightseagreen, penwidth=1];
+    "England" -> "early" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Virginia Woolf" -> "sister" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "1900" [label="has time [Text]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "buildings" [label="has theme [Buildings]", color=lightcyan, penwidth=1];
+    "Virginia Woolf" -> "device" [label="has theme [Gizmo]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "publishing professionally" [label="has activity [Activity_start]", color=lightblue, penwidth=1];
+    "Virginia Woolf" -> "blended household of eight ..." [label="has theme [Living_conditions]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "her father" [label="has theme [Death]", color=lightgoldenrod, penwidth=1];
+    "Virginia Woolf" -> "influential Bloomsbury Group" [label="has group [Membership]", color=lightgreen, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has time [Death]", color=purple, penwidth=2];
+    "Bloomsbury" -> "district" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "England" -> "article" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "early advocates for women ’..." [label="has theme [Becoming_aware]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "1912" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "Virginia Woolf" [label="has person [Being_born]", color=red, penwidth=2];
+    "Virginia Woolf" -> "eight children" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Virginia Woolf" -> "Her work" [label="has entity [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "50 languages" [label="has theme [Proportional_quantity]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Bloomsbury Group" -> "1904" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "authors" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "Virginia Woolf" -> "worldwide" [label="has location [State_continue]", color=green, penwidth=2];
+    "Virginia Woolf" -> "languages" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Virginia Woolf" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Virginia Woolf" -> "into an affluent and intell..." [label="has theme [Being_born]", color=lightgoldenrod, penwidth=1];
+    "Virginia Woolf" -> "home" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Virginia Woolf" -> "1941" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "during the interwar period" [label="has time [Motion_directional]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "After the death of her fath..." [label="has time [Motion]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "20th-century modernist authors" [label="has entity [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "United Kingdom" -> "1941" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Leonard Woolf" -> "1912" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Virginia Woolf" -> "Woolf and her family" [label="has theme [Motion]", color=lightcyan, penwidth=1];
+    "Virginia Woolf" -> "1904" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Virginia Woolf" -> "languages" [label="has theme [Frequency]", color=lightsteelblue, penwidth=1];
+    "Virginia Woolf" -> "1900" [label="has time [Publishing]", color=purple, penwidth=2];
+    "England" -> "classics and history" [label="has theme [Education_teaching]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Colonization_legend" [label="Colonization", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Prominence_legend" [label="Prominence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Participation_legend" [label="Participation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Motion_directional_legend" [label="Motion_directional", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Gizmo_legend" [label="Gizmo", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Living_conditions_legend" [label="Living_conditions", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

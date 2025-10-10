@@ -1,0 +1,1727 @@
+{
+  "metadata": {
+    "total_triples": 79,
+    "source_file": "Fernando_Pessoa",
+    "extraction_date": "2025-09-27 22:46:28",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_entity",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Causation:has_effect",
+        "object": "He did not define these as pseudonyms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Trust:has_information",
+        "object": "sources",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Increment:has_class",
+        "object": "names",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Opinion:has_opinion",
+        "object": "that this did not capture their true independent intellectual life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Size:has_entity",
+        "object": "flat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Source_of_getting:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Source_of_getting:has_theme",
+        "object": "reliable",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Lisbon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Expertise:has_theme",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Importance:has_theme",
+        "object": "literary figures",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Increment:has_theme",
+        "object": "approximately seventy-five",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "family name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Locative_relation:has_theme",
+        "object": "So Carlos Square",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Aggregate:has_theme",
+        "object": "band",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Education_teaching:has_skill",
+        "object": "how and when to remove this message",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Building_subparts:has_location",
+        "object": "So Carlos Square",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Source_of_getting:has_theme",
+        "object": "sources",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lisbon",
+        "predicate": "Businesses:has_location",
+        "object": "Lisbon's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Text_creation:has_text",
+        "object": "his own name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Locating:has_theme",
+        "object": "sources",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Age:has_age",
+        "object": "younger",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Removing:has_theme",
+        "object": "this message",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "family name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Removing:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Age:has_entity",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Opinion:has_theme",
+        "object": "These imaginary figures",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Communicate_categorization:has_category",
+        "object": "as pseudonyms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Increment:has_class",
+        "object": "citations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Building_subparts:has_theme",
+        "object": "flat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Assistance:has_goal",
+        "object": "improve this article by adding citations to reliable sources in this section",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Age:has_age",
+        "object": "one",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Locative_relation:has_theme",
+        "object": "large flat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Building_subparts:has_theme",
+        "object": "large",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Building_subparts:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Labeling:has_theme",
+        "object": "heteronyms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lisbon",
+        "predicate": "Businesses:has_business",
+        "object": "opera",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Locative_relation:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Causation:has_cause",
+        "object": "he felt that this did not capture their true independent intellectual life and instead called them heteronyms, a term he invented",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Size:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "20th",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Death:has_theme",
+        "object": "tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Death:has_time",
+        "object": "less than seven months later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Time_vector:has_theme",
+        "object": "less than seven months",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lisbon",
+        "predicate": "Businesses:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Locating:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Opinion:has_opinion",
+        "object": "views",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Verification:has_theme",
+        "object": "This section",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Substance:has_theme",
+        "object": "material",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Substance:has_theme",
+        "object": "Unsourced",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_entity",
+        "object": "his own name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_entity",
+        "object": "maternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Kinship:has_theme",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Education_teaching:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Text:has_time",
+        "object": "1935",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Text_creation:has_text",
+        "object": "http://en.wikipedia.org/wiki/English_language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Age:has_entity",
+        "object": "younger brother Jorge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_entity",
+        "object": "second or paternal family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_born:has_time",
+        "object": "13 June 1888",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Death:has_theme",
+        "object": "his younger brother Jorge, aged one,",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Time_vector:has_event",
+        "object": "his younger brother Jorge, aged one, also died (2 January 1889",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "January",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Calendric_unit:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Death:has_theme",
+        "object": "his father, Joaquim de Seabra Pessôa",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_theme",
+        "object": "names",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Have_as_requirement:has_theme",
+        "object": "verification",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Have_as_requirement:has_theme",
+        "object": "This section",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Have_as_requirement:has_theme",
+        "object": "additional citations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Communicate_categorization:has_item",
+        "object": "these",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Importance:has_degree",
+        "object": "20th century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Achieving_first:has_theme",
+        "object": "term",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Being_named:has_entity",
+        "object": "paternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+        "predicate": "Removing:has_theme",
+        "object": "Unsourced material",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Lisbon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Increment:has_theme",
+          "object": "approximately seventy-five",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Death:has_theme",
+          "object": "tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Death:has_time",
+          "object": "less than seven months later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_born:has_time",
+          "object": "13 June 1888",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Death:has_theme",
+          "object": "his younger brother Jorge, aged one,",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Time_vector:has_event",
+          "object": "his younger brother Jorge, aged one, also died (2 January 1889",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Death:has_theme",
+          "object": "his father, Joaquim de Seabra Pessôa",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_entity",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Causation:has_effect",
+          "object": "He did not define these as pseudonyms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Trust:has_information",
+          "object": "sources",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Increment:has_class",
+          "object": "names",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Opinion:has_opinion",
+          "object": "that this did not capture their true independent intellectual life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Size:has_entity",
+          "object": "flat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Source_of_getting:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Source_of_getting:has_theme",
+          "object": "reliable",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Expertise:has_theme",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Importance:has_theme",
+          "object": "literary figures",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "family name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Locative_relation:has_theme",
+          "object": "So Carlos Square",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Aggregate:has_theme",
+          "object": "band",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Education_teaching:has_skill",
+          "object": "how and when to remove this message",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Building_subparts:has_location",
+          "object": "So Carlos Square",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Source_of_getting:has_theme",
+          "object": "sources",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lisbon",
+          "predicate": "Businesses:has_location",
+          "object": "Lisbon's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Text_creation:has_text",
+          "object": "his own name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Locating:has_theme",
+          "object": "sources",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Age:has_age",
+          "object": "younger",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Removing:has_theme",
+          "object": "this message",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "family name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Removing:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Age:has_entity",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Opinion:has_theme",
+          "object": "These imaginary figures",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Communicate_categorization:has_category",
+          "object": "as pseudonyms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Increment:has_class",
+          "object": "citations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Building_subparts:has_theme",
+          "object": "flat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Assistance:has_goal",
+          "object": "improve this article by adding citations to reliable sources in this section",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Age:has_age",
+          "object": "one",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Locative_relation:has_theme",
+          "object": "large flat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Building_subparts:has_theme",
+          "object": "large",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Building_subparts:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Labeling:has_theme",
+          "object": "heteronyms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lisbon",
+          "predicate": "Businesses:has_business",
+          "object": "opera",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Locative_relation:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Causation:has_cause",
+          "object": "he felt that this did not capture their true independent intellectual life and instead called them heteronyms, a term he invented",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Size:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "20th",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Time_vector:has_theme",
+          "object": "less than seven months",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lisbon",
+          "predicate": "Businesses:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Locating:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Opinion:has_opinion",
+          "object": "views",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Verification:has_theme",
+          "object": "This section",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Substance:has_theme",
+          "object": "material",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Substance:has_theme",
+          "object": "Unsourced",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_entity",
+          "object": "his own name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_entity",
+          "object": "maternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Kinship:has_theme",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Education_teaching:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Text:has_time",
+          "object": "1935",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Text_creation:has_text",
+          "object": "http://en.wikipedia.org/wiki/English_language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Age:has_entity",
+          "object": "younger brother Jorge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_entity",
+          "object": "second or paternal family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "January",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Calendric_unit:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_theme",
+          "object": "names",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Have_as_requirement:has_theme",
+          "object": "verification",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Have_as_requirement:has_theme",
+          "object": "This section",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Have_as_requirement:has_theme",
+          "object": "additional citations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Communicate_categorization:has_item",
+          "object": "these",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Importance:has_degree",
+          "object": "20th century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Achieving_first:has_theme",
+          "object": "term",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Being_named:has_entity",
+          "object": "paternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "predicate": "Removing:has_theme",
+          "object": "Unsourced material",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Lisbon",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Lisbon",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Lisbon",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa"
+    ],
+    "objects": [
+      "family",
+      "He did not define these as pseudonyms",
+      "sources",
+      "names",
+      "that this did not capture their true independent intellectual life",
+      "flat",
+      "article",
+      "2022",
+      "reliable",
+      "http://en.wikipedia.org/wiki/Lisbon",
+      "writer",
+      "literary figures",
+      "approximately seventy-five",
+      "family name",
+      "So Carlos Square",
+      "band",
+      "father",
+      "how and when to remove this message",
+      "So Carlos Square",
+      "sources",
+      "Lisbon's",
+      "his own name",
+      "sources",
+      "younger",
+      "this message",
+      "family name",
+      "2022",
+      "brother",
+      "These imaginary figures",
+      "as pseudonyms",
+      "as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language",
+      "citations",
+      "flat",
+      "improve this article by adding citations to reliable sources in this section",
+      "one",
+      "large flat",
+      "large",
+      "2022",
+      "heteronyms",
+      "opera",
+      "2022",
+      "he felt that this did not capture their true independent intellectual life and instead called them heteronyms, a term he invented",
+      "2022",
+      "20th",
+      "tuberculosis",
+      "less than seven months later",
+      "less than seven months",
+      "2022",
+      "2022",
+      "views",
+      "This section",
+      "material",
+      "Unsourced",
+      "his own name",
+      "century",
+      "maternal",
+      "brother",
+      "poet",
+      "2022",
+      "1935",
+      "http://en.wikipedia.org/wiki/English_language",
+      "younger brother Jorge",
+      "second or paternal family",
+      "13 June 1888",
+      "his younger brother Jorge, aged one,",
+      "his younger brother Jorge, aged one, also died (2 January 1889",
+      "January",
+      "2022",
+      "his father, Joaquim de Seabra Pessôa",
+      "names",
+      "verification",
+      "This section",
+      "additional citations",
+      "these",
+      "20th century",
+      "name",
+      "term",
+      "paternal",
+      "Unsourced material"
+    ],
+    "all_unique": [
+      "2022",
+      "term",
+      "http://en.wikipedia.org/wiki/English_language",
+      "as pseudonyms",
+      "paternal",
+      "Unsourced material",
+      "improve this article by adding citations to reliable sources in this section",
+      "family name",
+      "that this did not capture their true independent intellectual life",
+      "family",
+      "So Carlos Square",
+      "century",
+      "name",
+      "Lisbon's",
+      "these",
+      "his father, Joaquim de Seabra Pessôa",
+      "how and when to remove this message",
+      "verification",
+      "material",
+      "father",
+      "views",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "opera",
+      "article",
+      "his younger brother Jorge, aged one,",
+      "These imaginary figures",
+      "literary figures",
+      "names",
+      "this message",
+      "approximately seventy-five",
+      "his own name",
+      "heteronyms",
+      "January",
+      "He did not define these as pseudonyms",
+      "second or paternal family",
+      "as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language",
+      "younger brother Jorge",
+      "large",
+      "flat",
+      "sources",
+      "writer",
+      "13 June 1888",
+      "large flat",
+      "one",
+      "band",
+      "reliable",
+      "http://en.wikipedia.org/wiki/Lisbon",
+      "he felt that this did not capture their true independent intellectual life and instead called them heteronyms, a term he invented",
+      "This section",
+      "maternal",
+      "20th century",
+      "younger",
+      "citations",
+      "1935",
+      "poet",
+      "less than seven months",
+      "http://en.wikipedia.org/wiki/Fernando_Pessoa",
+      "his younger brother Jorge, aged one, also died (2 January 1889",
+      "20th",
+      "Unsourced",
+      "additional citations",
+      "tuberculosis",
+      "less than seven months later",
+      "brother"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Being_named:has_entity",
+      "Causation:has_effect",
+      "Trust:has_information",
+      "Increment:has_class",
+      "Opinion:has_opinion",
+      "Size:has_entity",
+      "Text:has_text",
+      "Source_of_getting:has_time",
+      "Source_of_getting:has_theme",
+      "Being_born:has_location",
+      "Expertise:has_theme",
+      "Importance:has_theme",
+      "Increment:has_theme",
+      "Ordinal_numbers:has_type",
+      "Locative_relation:has_theme",
+      "Aggregate:has_theme",
+      "Kinship:has_theme",
+      "Education_teaching:has_skill",
+      "Building_subparts:has_location",
+      "Source_of_getting:has_theme",
+      "Businesses:has_location",
+      "Text_creation:has_text",
+      "Locating:has_theme",
+      "Age:has_age",
+      "Removing:has_theme",
+      "Ordinal_numbers:has_type",
+      "Removing:has_time",
+      "Age:has_entity",
+      "Opinion:has_theme",
+      "Communicate_categorization:has_category",
+      "Categorization:has_category",
+      "Increment:has_class",
+      "Building_subparts:has_theme",
+      "Assistance:has_goal",
+      "Age:has_age",
+      "Locative_relation:has_theme",
+      "Building_subparts:has_theme",
+      "Building_subparts:has_time",
+      "Labeling:has_theme",
+      "Businesses:has_business",
+      "Locative_relation:has_time",
+      "Causation:has_cause",
+      "Size:has_time",
+      "Calendric_unit:has_theme",
+      "Death:has_theme",
+      "Death:has_time",
+      "Time_vector:has_theme",
+      "Businesses:has_time",
+      "Locating:has_time",
+      "Opinion:has_opinion",
+      "Verification:has_theme",
+      "Substance:has_theme",
+      "Substance:has_theme",
+      "Being_named:has_entity",
+      "Calendric_unit:has_theme",
+      "Being_named:has_entity",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Education_teaching:has_time",
+      "Text:has_time",
+      "Text_creation:has_text",
+      "Age:has_entity",
+      "Being_named:has_entity",
+      "Being_born:has_time",
+      "Death:has_theme",
+      "Time_vector:has_event",
+      "Calendric_unit:has_theme",
+      "Calendric_unit:has_time",
+      "Death:has_theme",
+      "Being_named:has_theme",
+      "Have_as_requirement:has_theme",
+      "Have_as_requirement:has_theme",
+      "Have_as_requirement:has_theme",
+      "Communicate_categorization:has_item",
+      "Importance:has_degree",
+      "Being_named:has_theme",
+      "Achieving_first:has_theme",
+      "Being_named:has_entity",
+      "Removing:has_theme"
+    ],
+    "unique_predicates": [
+      "Calendric_unit:has_time",
+      "Opinion:has_opinion",
+      "Aggregate:has_theme",
+      "Calendric_unit:has_theme",
+      "Building_subparts:has_theme",
+      "Age:has_age",
+      "Age:has_entity",
+      "Removing:has_theme",
+      "Locating:has_time",
+      "Substance:has_theme",
+      "Source_of_getting:has_time",
+      "Businesses:has_location",
+      "Communicate_categorization:has_item",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Businesses:has_business",
+      "Importance:has_degree",
+      "Assistance:has_goal",
+      "Causation:has_effect",
+      "Education_teaching:has_time",
+      "Source_of_getting:has_theme",
+      "Expertise:has_theme",
+      "Building_subparts:has_location",
+      "Death:has_theme",
+      "Trust:has_information",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Communicate_categorization:has_category",
+      "Size:has_entity",
+      "Opinion:has_theme",
+      "Being_born:has_location",
+      "Causation:has_cause",
+      "Removing:has_time",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Locative_relation:has_theme",
+      "Businesses:has_time",
+      "Categorization:has_category",
+      "Have_as_requirement:has_theme",
+      "Locating:has_theme",
+      "Achieving_first:has_theme",
+      "Increment:has_theme",
+      "Text_creation:has_text",
+      "Building_subparts:has_time",
+      "Locative_relation:has_time",
+      "Time_vector:has_theme",
+      "Being_born:has_time",
+      "Labeling:has_theme",
+      "Size:has_time",
+      "Importance:has_theme",
+      "Education_teaching:has_skill",
+      "Death:has_time",
+      "Verification:has_theme",
+      "Text:has_time",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Being_named:has_entity": 5,
+      "Causation:has_effect": 1,
+      "Trust:has_information": 1,
+      "Increment:has_class": 2,
+      "Opinion:has_opinion": 2,
+      "Size:has_entity": 1,
+      "Text:has_text": 2,
+      "Source_of_getting:has_time": 1,
+      "Source_of_getting:has_theme": 2,
+      "Being_born:has_location": 1,
+      "Expertise:has_theme": 1,
+      "Importance:has_theme": 1,
+      "Increment:has_theme": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Locative_relation:has_theme": 2,
+      "Aggregate:has_theme": 1,
+      "Kinship:has_theme": 2,
+      "Education_teaching:has_skill": 1,
+      "Building_subparts:has_location": 1,
+      "Businesses:has_location": 1,
+      "Text_creation:has_text": 2,
+      "Locating:has_theme": 1,
+      "Age:has_age": 2,
+      "Removing:has_theme": 2,
+      "Removing:has_time": 1,
+      "Age:has_entity": 2,
+      "Opinion:has_theme": 1,
+      "Communicate_categorization:has_category": 1,
+      "Categorization:has_category": 1,
+      "Building_subparts:has_theme": 2,
+      "Assistance:has_goal": 1,
+      "Building_subparts:has_time": 1,
+      "Labeling:has_theme": 1,
+      "Businesses:has_business": 1,
+      "Locative_relation:has_time": 1,
+      "Causation:has_cause": 1,
+      "Size:has_time": 1,
+      "Calendric_unit:has_theme": 3,
+      "Death:has_theme": 3,
+      "Death:has_time": 1,
+      "Time_vector:has_theme": 1,
+      "Businesses:has_time": 1,
+      "Locating:has_time": 1,
+      "Verification:has_theme": 1,
+      "Substance:has_theme": 2,
+      "Education_teaching:has_time": 1,
+      "Text:has_time": 1,
+      "Being_born:has_time": 1,
+      "Time_vector:has_event": 1,
+      "Calendric_unit:has_time": 1,
+      "Being_named:has_theme": 2,
+      "Have_as_requirement:has_theme": 3,
+      "Communicate_categorization:has_item": 1,
+      "Importance:has_degree": 1,
+      "Achieving_first:has_theme": 1
+    }
+  }
+}

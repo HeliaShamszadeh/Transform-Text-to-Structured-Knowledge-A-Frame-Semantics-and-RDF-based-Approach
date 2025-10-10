@@ -1,0 +1,322 @@
+digraph Raymond_Chandler {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "novelist and screenwriter" [label="novelist and screenwriter", fillcolor=lightcoral, color=red, shape=circle];
+    "Mystery Writers of America" [label="Mystery Writers of America", fillcolor=lightcoral, color=red, shape=circle];
+    "detective fiction writer" [label="detective fiction writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "Crime Writers'Association" [label="Crime Writers'Association", fillcolor=lightcoral, color=red, shape=circle];
+    "Black Mask writers" [label="Black Mask writers", fillcolor=lightcoral, color=red, shape=circle];
+    "Crime Writers' Association" [label="Crime Writers' Association", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "American popular literature" [label="American popular literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "100 best crime novels" [label="100 best crime novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "latter novel" [label="latter novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "elements of mystery" [label="elements of mystery", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His first novel, The Big Sleep" [label="His first novel, The Big Sleep", fillcolor=lightblue, color=blue, shape=ellipse];
+    "crime novels" [label="crime novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "possess elements of mystery" [label="possess elements of mystery", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "president of the Mystery Wr..." [label="president of the Mystery Wr...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as "arguably the first book..." [label="as "arguably the first book...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "seven novels" [label="seven novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "before his death" [label="before his death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "his death" [label="his death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "year before his death" [label="year before his death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "anthology of American crime..." [label="anthology of American crime...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "losing his job as an oil co..." [label="losing his job as an oil co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "forty-four" [label="forty-four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Philip Marlowe" [label="Philip Marlowe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1939" [label="1939", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Both" [label="Both", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1932" [label="1932", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective fiction" [label="detective fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black Mask magazine" [label="Black Mask magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hardboiled school of detect..." [label="hardboiled school of detect...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into motion pictures" [label="into motion pictures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1933" [label="1933", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published more than twenty ..." [label="published more than twenty ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Raymond F. Chandler" [label="Raymond F. Chandler", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be synonymous with " privat..." [label="be synonymous with " privat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dashiell Hammett" [label="Dashiell Hammett", fillcolor=lightgray, color=gray, shape=hexagon];
+    "twenty" [label="twenty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chandler published seven no..." [label="Chandler published seven no...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Humphrey Bogart" [label="Humphrey Bogart", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pulp" [label="pulp", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more than twenty years earlier" [label="more than twenty years earlier", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazine" [label="magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "qualify as a serious and si..." [label="qualify as a serious and si...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940" [label="1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Simple Art of Murder" [label="The Simple Art of Murder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poll" [label="poll", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American crime stories" [label="American crime stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hammett's Sam Spade" [label="Hammett's Sam Spade", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Philip Marlowe, like Hammet..." [label="Philip Marlowe, like Hammet...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hardboiled" [label="hardboiled", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Great Depression" [label="Great Depression", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Big Sleep" [label="The Big Sleep", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chandler became a detective..." [label="Chandler became a detective...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stylistic" [label="stylistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Simple Art of Murder" [label="Simple Art of Murder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mainstream" [label="mainstream", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an oil company executive" [label="as an oil company executive", fillcolor=lightgray, color=gray, shape=hexagon];
+    "serious and significant mai..." [label="serious and significant mai...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "All but Playback" [label="All but Playback", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert B. Parker " [label="Robert B. Parker ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1959" [label="1959", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black Mask, a pulp magazine" [label="Black Mask, a pulp magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crime stories" [label="crime stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before" [label="before", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his job as an oil company e..." [label="his job as an oil company e...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "immense" [label="immense", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during his lifetime" [label="during his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Americans in the United Kingdom" [label="Americans in the United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hammett's The Glass Key" [label="Hammett's The Glass Key", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His first short story, " Bl..." [label="His first short story, " Bl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Raymond Chandler" [label="Raymond Chandler", fillcolor=lightgray, color=gray, shape=hexagon];
+    "anthology" [label="anthology", fillcolor=lightgray, color=gray, shape=hexagon];
+    "company" [label="company", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert B. Parker" [label="Robert B. Parker", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Blackmailers Don't Shoot" [label="Blackmailers Don't Shoot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Humphrey Bogart, whom many ..." [label="Humphrey Bogart, whom many ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be the quintessential Marlowe" [label="be the quintessential Marlowe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his " The Simple Art of Mur..." [label="his " The Simple Art of Mur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after losing his job as an ..." [label="after losing his job as an ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during the Great Depression" [label="during the Great Depression", fillcolor=lightgray, color=gray, shape=hexagon];
+    "oil" [label="oil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whom" [label="whom", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Raymond F. Chandler" -> "1939" [label="has time [Text]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "possess elements of mystery" [label="has theme [Coincidence]", color=lightcoral, penwidth=1];
+    "Black Mask magazine" -> "pulp" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Philip Marlowe" -> "Hammett's Sam Spade" [label="has theme [Similarity]", color=lightgreen, penwidth=1];
+    "Raymond F. Chandler" -> "1933" [label="has time [Text]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "Black Mask, a pulp magazine" [label="has location [Publishing]", color=green, penwidth=2];
+    "The Simple Art of Murder" -> "Simple Art of Murder" [label="has activity [Fields]", color=lightpink, penwidth=1];
+    "Humphrey Bogart" -> "mainstream" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Raymond Chandler" -> "detective fiction" [label="has theme [Judgment_communication]", color=lightcyan, penwidth=1];
+    "Black Mask magazine" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Robert B. Parker" -> "Mystery Writers of America" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "United States" -> "literature" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "1932" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Black Mask magazine" -> "1939" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "stories" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Humphrey Bogart" -> "elements of mystery" [label="has theme [Possession]", color=lightsalmon, penwidth=1];
+    "Black Mask magazine" -> "1933" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "hardboiled" [label="has theme [Locale_by_use]", color=lightgoldenrod, penwidth=1];
+    "Humphrey Bogart" -> "qualify as a serious and si..." [label="has theme [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Dashiell Hammett" -> "Philip Marlowe, like Hammet..." [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Raymond Chandler" -> "during the Great Depression" [label="has time [Finish_competition]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "Hammett's The Glass Key" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "United States" -> "1932" [label="has time [Substance]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "before" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "more than twenty years earlier" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Raymond F. Chandler" -> "Raymond Chandler" [label="has creator [Intentionally_create]", color=lightcoral, penwidth=1];
+    "Humphrey Bogart" -> "Crime Writers'Association" [label="has theme [People_by_vocation]", color=lightgreen, penwidth=1];
+    "Humphrey Bogart" -> "anthology" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "company" [label="has business [Businesses]", color=lightyellow, penwidth=1];
+    "United States" -> "oil" [label="has product [Businesses]", color=lightyellow, penwidth=1];
+    "Philip Marlowe" -> "whom" [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Raymond Chandler" -> "American popular literature" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "Black Mask magazine" -> "magazine" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Black Mask magazine" -> "year" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "novel" [label="has item [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Humphrey Bogart" -> "novel" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Black Mask magazine" -> "his death" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Mystery Writers of America" -> "year before his death" [label="has time [Change_of_leadership]", color=purple, penwidth=2];
+    "United States" -> "1932" [label="has time [Businesses]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "his " The Simple Art of Mur..." [label="has text [Text]", color=lightblue, penwidth=1];
+    "Black Mask magazine" -> "short story" [label="has type [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Crime Writers' Association" -> "crime stories" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Raymond F. Chandler" -> "hardboiled school of detect..." [label="has theme [Intentionally_create]", color=lightcoral, penwidth=1];
+    "United States" -> "oil" [label="has theme [Substance]", color=lightcoral, penwidth=1];
+    "Dashiell Hammett" -> "school" [label="has theme [Locale_by_use]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "Raymond Chandler" [label="has employee [Being_employed]", color=lightgray, penwidth=1];
+    "Raymond Chandler" -> "during his lifetime" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "All but Playback" [label="has entity [Cause_change]", color=lightgoldenrodyellow, penwidth=1];
+    "Humphrey Bogart" -> "book" [label="has type [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Humphrey Bogart" -> "anthology of American crime..." [label="has theme [Judgment_communication]", color=lightcyan, penwidth=1];
+    "Mystery Writers of America" -> "Robert B. Parker" [label="has theme [Change_of_leadership]", color=lightcyan, penwidth=1];
+    "Humphrey Bogart" -> "as "arguably the first book..." [label="has role [Judgment_communication]", color=lightcyan, penwidth=1];
+    "Humphrey Bogart" -> "twenty" [label="has theme [Measure_duration]", color=lightseagreen, penwidth=1];
+    "Raymond Chandler" -> "seven novels" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Raymond F. Chandler" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "1932" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Robert B. Parker" -> "Chandler published seven no..." [label="has activity [Activity_finish]", color=lightgoldenrod, penwidth=1];
+    "Crime Writers' Association" -> "United States" [label="has theme [Origin]", color=lightsteelblue, penwidth=1];
+    "Humphrey Bogart" -> "1940" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "films" [label="has theme [Performers]", color=lightpink, penwidth=1];
+    "The Big Sleep" -> "1939" [label="has time [Publishing]", color=purple, penwidth=2];
+    "United States" -> "as an oil company executive" [label="has position [Being_employed]", color=lightgray, penwidth=1];
+    "Mystery Writers of America" -> "writers" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Raymond Chandler" -> "his job as an oil company e..." [label="has competition [Finish_competition]", color=lightsteelblue, penwidth=1];
+    "Raymond Chandler" -> "1959" [label="has time [Text]", color=purple, penwidth=2];
+    "United States" -> "Chandler became a detective..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Black Mask magazine" -> "1933" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Raymond F. Chandler" -> "1959" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Raymond F. Chandler" -> "Blackmailers Don't Shoot" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Raymond F. Chandler" -> "stories" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "1932" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Raymond F. Chandler" -> "Raymond Chandler" [label="has author [Text]", color=lightblue, penwidth=1];
+    "Raymond Chandler" -> "1932" [label="has time [Age]", color=purple, penwidth=2];
+    "Raymond Chandler" -> "forty-four" [label="has age [Age]", color=lightblue, penwidth=1];
+    "Dashiell Hammett" -> "some" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "Black Mask magazine" -> "before his death" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Philip Marlowe" -> "many" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "Black Mask magazine" -> "1933" [label="has time [Text]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "poll" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Mystery Writers of America" -> "president of the Mystery Wr..." [label="has role [Change_of_leadership]", color=lightcyan, penwidth=1];
+    "Humphrey Bogart" -> "latter novel" [label="has theme [Judgment_communication]", color=lightcyan, penwidth=1];
+    "Black Mask magazine" -> "Black Mask writers" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "Humphrey Bogart" -> "American crime stories" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Humphrey Bogart" -> "published more than twenty ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Raymond F. Chandler" -> "Black Mask magazine" [label="has location [Text]", color=green, penwidth=2];
+    "Black Mask magazine" -> "story" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Dashiell Hammett" -> "detective fiction" [label="has theme [Locale_by_use]", color=lightgoldenrod, penwidth=1];
+    "Humphrey Bogart" -> "years" [label="has theme [Measure_duration]", color=lightseagreen, penwidth=1];
+    "Humphrey Bogart" -> "Humphrey Bogart, whom many ..." [label="has theme [Performers]", color=lightpink, penwidth=1];
+    "United States" -> "1959" [label="has time [Origin]", color=purple, penwidth=2];
+    "Raymond Chandler" -> "novelist" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Black Mask magazine" -> "Raymond Chandler" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "United States" -> "Great Depression" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Humphrey Bogart" -> "1940" [label="has time [Desirability]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "be synonymous with " privat..." [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "Raymond Chandler" -> "detective fiction writer" [label="has theme [Becoming]", color=lightcyan, penwidth=1];
+    "United States" -> "losing his job as an oil co..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Humphrey Bogart" -> "book" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Humphrey Bogart" -> "100 best crime novels" [label="has theme [People_by_vocation]", color=lightgreen, penwidth=1];
+    "Black Mask magazine" -> "into motion pictures" [label="has theme [Cause_change]", color=lightgoldenrodyellow, penwidth=1];
+    "Black Mask magazine" -> "1933" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "United States" -> "novelist and screenwriter" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Humphrey Bogart" -> "Humphrey Bogart, whom many ..." [label="has artist [Behind_the_scenes]", color=lightsteelblue, penwidth=1];
+    "Raymond Chandler" -> "immense" [label="has degree [Objective_influence]", color=lightpink, penwidth=1];
+    "Raymond Chandler" -> "Americans in the United Kingdom" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Humphrey Bogart" -> "Both" [label="has person [Performers]", color=red, penwidth=2];
+    "United States" -> "Chandler became a detective..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Black Mask magazine" -> "His first short story, " Bl..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "United States" -> "losing his job as an oil co..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "The Big Sleep" -> "His first novel, The Big Sleep" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Philip Marlowe" -> "be the quintessential Marlowe" [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "Humphrey Bogart" -> "crime novels" [label="has theme [Desirability]", color=lightpink, penwidth=1];
+    "United States" -> "1932" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Humphrey Bogart" -> "serious and significant mai..." [label="has owner [Possession]", color=lightsalmon, penwidth=1];
+    "Raymond Chandler" -> "after losing his job as an ..." [label="has time [Becoming]", color=purple, penwidth=2];
+    "Raymond F. Chandler" -> "The Big Sleep" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Robert B. Parker" -> "Robert B. Parker " [label="has agent [Activity_finish]", color=lightgoldenrod, penwidth=1];
+    "Black Mask magazine" -> "Robert B. Parker" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "Raymond Chandler" -> "stylistic" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Coincidence_legend" [label="Coincidence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Finish_competition_legend" [label="Finish_competition", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Change_of_leadership_legend" [label="Change_of_leadership", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Activity_finish_legend" [label="Activity_finish", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Performers_legend" [label="Performers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

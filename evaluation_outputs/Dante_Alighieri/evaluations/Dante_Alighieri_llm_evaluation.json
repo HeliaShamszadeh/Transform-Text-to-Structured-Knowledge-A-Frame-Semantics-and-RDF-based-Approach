@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Assistance:has_goal establish the modern-day standardized Italian language",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Dante's work helped establish the language, but it does not attribute this goal to the 'Middle Ages' itself. The subject of the triple is misaligned with the semantic relationship described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/La_Vita_Nuova Subjective_influence:has_theme larger body of Western art and literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Dante's depictions provided inspiration for Western art and literature. While 'La Vita Nuova' is mentioned, the 'theme' of inspiring art is more directly attributed to his depictions of Hell, Purgatory, and Heaven. The connection is weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Categorization:has_category one of the most important poems of the Middle Ages and the greatest literary work in the Italian language",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states the Divine Comedy is 'widely considered one of the most important poems of the Middle Ages'. The triple's object is a direct quote, making the connection very clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The relationship 'Increment:has_class uses' is entirely unclear and does not correspond to any semantic concept or relationship described in the paragraph. The information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Time_vector:has_event follow",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Dante's work 'set a precedent that important Italian writers such as Petrarch and Boccaccio would later follow.' While the event of 'following' is attributed to the writers, not the 'Middle Ages', the event occurs within that time period, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Purpose:has_means interlocking three-line rhyme scheme, or the terza rima,",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the terza rima is attributed to Dante and that his Divine Comedy is an important poem of the Middle Ages, but it does not state that the Middle Ages 'has_means' (i.e., uses as an instrument) the terza rima. The relationship is incorrectly framed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/La_Vita_Nuova Judgment:has_evaluee first use of the interlocking three-line rhyme scheme, or the terza rima,",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The first use of the terza rima is attributed to Dante, but the paragraph does not connect this specific innovation to his work 'La Vita Nuova' (The New Life). It mentions The New Life in the context of establishing the Italian language, not the terza rima."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Ordinal_numbers:has_type use of the interlocking three-line rhyme scheme",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. It suggests the Middle Ages 'has a type' which is 'use of the terza rima'. This does not represent a reasonable relationship extractable from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/La_Vita_Nuova Subjective_influence:has_theme English writers such as Geoffrey Chaucer, John Milton, and Alfred Tennyson, among many others",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Dante influenced English writers, but it does not specify that his work 'La Vita Nuova' has these writers as a theme. The influence is attributed to Dante's work in general, not to this specific piece."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Categorization:has_item His Divine Comedy, originally called Comedìa (modern Italian: Commedia ) and later christened Divina by Giovanni Boccaccio",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that the Divine Comedy 'is widely considered one of the most important poems of the Middle Ages'. This supports the semantic relationship that the Middle Ages categorically 'has' this poem as an important item."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Aggregate:has_theme Western art and literature",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Dante's depictions 'provided inspiration for the larger body of Western art and literature.' While it doesn't explicitly state that the Middle Ages has this theme, Dante's work is from the Middle Ages and inspired Western art/literature, creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Divine_Comedy Name_conferral:has_speaker http://en.wikipedia.org/wiki/Giovanni_Boccaccio",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the Divine Comedy was 'later christened Divina by Giovanni Boccaccio.' While 'christened' is not exactly 'has_speaker,' it describes Boccaccio giving the work its name, which is semantically related to name conferral."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Divine_Comedy Name_conferral:has_entity His Divine Comedy",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'His Divine Comedy' and discusses how it was named/christened, making this a clear and direct semantic connection to name conferral having an entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Using:has_purpose works such as The New Life (1295) and Divine Comedy",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Dante used his native dialect for these works, but it does not state any specific purpose for using these works. The relationship 'has_purpose' is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Fields:has_theme literary",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Dante's Divine Comedy 'is widely considered one of the most important poems of the Middle Ages,' strongly implying that literary works are a significant theme of the Middle Ages period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Text:has_text writers",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Dante influenced English writers such as Geoffrey Chaucer, John Milton, and Alfred Tennyson. This implies a connection between the English language and writers, though the relationship is more about influence than the language 'having text' from these writers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/La_Vita_Nuova Judgment:has_theme http://en.wikipedia.org/wiki/Dante_Alighieri",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's structure suggests 'La Vita Nuova' has a theme of 'Dante Alighieri,' which is semantically odd (a work's theme is typically a concept, not a person). The paragraph mentions Dante authored 'The New Life' (La Vita Nuova), but this is the inverse relationship (author has work). The intended relationship is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Importance:has_theme poems",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the Divine Comedy is 'widely considered one of the most important poems of the Middle Ages.' This creates a strong semantic link between the Middle Ages and important poems, which can be reasonably interpreted as the era 'having a theme' of significant poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Text_creation:has_author writers",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Dante, a writer/poet, creating his most important work during the Middle Ages. This establishes a clear connection between the time period (Middle Ages) and the authors/writers who were active then."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Text:has_text poets",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Dante's work 'helped establish the modern-day standardized Italian language' and that he set a precedent for other Italian writers. It also calls him one of Italy's 'national poets.' This strongly supports a relationship between Italy and the text produced by its poets."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Importance:has_theme Italian writers such as Petrarch and Boccaccio",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dante's work set a precedent for Italian writers like Petrarch and Boccaccio, and his Divine Comedy is a key poem of the Middle Ages. There is a semantic link connecting the Middle Ages, Dante's influential work, and these writers, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Subjective_influence:has_location http://en.wikipedia.org/wiki/Italy",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Dante is explicitly described as an 'Italian poet' and is 'considered to be among the country's national poets'. The connection to Italy is direct and unambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Divine_Comedy Referring_by_name:has_theme Comeda (modern Italian: Commedia",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states the Divine Comedy was 'originally called Comedìa (modern Italian: Commedia)'. This is a direct statement of the original name/theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Expertise:has_theme writing",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses the Divine Comedy as a key literary work 'of the Middle Ages' and contextualizes it within the literary practices of that era (e.g., writing in Latin vs. vernacular). Writing is a central theme of the discussion about the period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Quantified_mass:has_theme Italian poets",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph places Dante, an Italian poet, and his most important work squarely within the Middle Ages. It also mentions 'many Italian poets' of the time, creating a reasonable semantic connection between the era and Italian poets as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Supply:has_theme inspiration",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dante's Divine Comedy is considered one of the most important poems of the Middle Ages, and his depictions of Hell, Purgatory, and Heaven provided inspiration for Western art. This creates a semantic link between the Middle Ages and the theme of inspiration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Origin:has_theme http://en.wikipedia.org/wiki/Italy",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Dante, an Italian poet, wrote his most important work during the Middle Ages, which helped establish Italian literature and language. This strongly links the theme of Italy to the Middle Ages through his seminal work from that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Reference_text:has_theme Dante (disambiguation)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "'Dante (disambiguation)' is mentioned only as a navigational reference for other uses of the name Dante, not as a theme of Italy. There is no semantic connection between Italy and the disambiguation page in the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Dominate_situation:has_theme language",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that 'Latin was still the dominant language for scholarly and literary writing' during the Middle Ages, which is the time period Dante lived in. This is a direct and clear connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Fields:has_theme writing",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph discusses literary writing, poems, and scholarly works in the context of the Middle Ages, making 'writing' a central theme of the discussion about that historical period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Political_locales:has_theme country",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Middle Ages in the context of Dante's poem being important for that period, but there is no direct or indirect connection made between the Middle Ages and the theme of a 'country'. The relationship is too vague and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Cause_motion:has_theme inspiration",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Dante was instrumental in establishing the literature of Italy and is a national poet. This implies that Italy, as a nation, was inspired or influenced by his work, which is a form of 'cause motion' or inspiration. The connection is indirect but semantically reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Subjective_influence:has_theme French or Provençal traditions",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph states that many Italian poets drew inspiration from French or Provençal traditions. This describes a characteristic of some Italian poets, not a theme of Italy itself. The subject of the influence is misattributed to the country 'Italy' as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Be_subset_of:has_theme country's national poets and the Western world's greatest literary icons",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Dante was instrumental in establishing the literature of Italy, and is considered to be among the country's national poets and the Western world's greatest literary icons.' This is a direct and clear match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Fields:has_theme art",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Dante's depictions of Hell, Purgatory, and Heaven provided inspiration for the larger body of Western art. Since his work is placed in the context of the Middle Ages, it is reasonable to infer that art (as a field) was a theme relevant to that era through his influence. The connection is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Cause_motion:has_agent many Italian poets",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'many Italian poets' and Dante's role in 'establishing the literature of Italy,' creating a semantic link between Italy and Italian poets as agents of cultural development."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Text:has_text works",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The Divine Comedy is explicitly stated to be 'one of the most important poems of the Middle Ages,' establishing a clear connection between the Middle Ages and a specific literary work (text)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Supply:has_theme His depictions of Hell, Purgatory, and Heaven",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The Divine Comedy (a work from the Middle Ages) is centrally about the depictions of Hell, Purgatory, and Heaven, which 'provided inspiration for the larger body of Western art and literature.' This is a strong thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Political_locales:has_theme national",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Dante is described as one of Italy's 'national poets.' While the connection to the Middle Ages is indirect (the era is the context for his work which led to this status), a weak semantic link exists through the theme of national identity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Custom:has_theme French or Provençal",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that in the Middle Ages ('At a time when...'), 'many Italian poets drew inspiration from French or Provençal traditions.' This directly links the era to these cultural traditions (customs)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Text:has_text writing",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the Divine Comedy is considered one of the most important poems of the Middle Ages. While it doesn't explicitly say the Middle Ages 'has text writing,' the era is contextually linked to literary production, and Dante's writing is a key example from that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Importance:has_theme establishing the literature of Italy",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The sentence 'Dante was instrumental in establishing the literature of Italy' is a direct and clear statement of this theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Continued_state_of_affairs:has_theme dominant language for scholarly and literary writing",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'At a time when Latin was still the dominant language for scholarly and literary writing,' and this time is explicitly the Middle Ages, as Dante lived from 1265-1321, which falls within that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Fields:has_location http://en.wikipedia.org/wiki/Italy",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is weak but semantically valid. The paragraph discusses Dante's role in Italian literature and the Italian language during the Middle Ages, implying the Middle Ages as a period had a location or context in Italy where these events took place."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Assistance:has_theme His use of the Florentine dialect for works such as The New Life (1295) and Divine Comedy",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The described action (use of Florentine dialect) by Dante occurred during the Middle Ages. While the theme of 'assistance' is not explicit, the action is a characteristic event of that era, providing a weak but reasonable semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Tuscan_dialect Indigenous_origin:has_entity Tuscan dialect",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Dante wrote in 'his native Tuscan dialect', establishing a direct connection between the Tuscan dialect and Dante's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middle_Ages Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the Divine Comedy is 'considered one of the most important poems of the Middle Ages'. While the relationship is indirect (the poem belongs to the era, not the era 'having' the poem), there is a clear semantic connection between the Middle Ages and poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Categorization:has_category be among the country's national poets and the Western world's greatest literary icons",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'Dante was instrumental in establishing the literature of Italy, and is considered to be among the country's national poets and the Western world's greatest literary icons', which is a near-verbatim match for the category."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dante_Alighieri Text:has_text poets",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Dante is explicitly described as an 'Italian poet' and is linked to other poets like Petrarch and Boccaccio. The relationship 'has_text poets' can be interpreted as Dante being associated with the concept/domain of poets, which is strongly supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Divine_Comedy Referring_by_name:has_entity His Divine Comedy",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly mentions 'His Divine Comedy' multiple times, providing a clear and explicit reference by name."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 36,
+    "accuracy": 0.72,
+    "avg_confidence": 0.59,
+    "high_confidence_50": 36,
+    "high_confidence_80": 19,
+    "percent_50": 72.0,
+    "percent_80": 38.0,
+    "max_triples_limit": 50
+  }
+}

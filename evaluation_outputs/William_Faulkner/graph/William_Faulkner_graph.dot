@@ -1,0 +1,309 @@
+digraph William_Faulkner {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "greatest writer of Southern..." [label="greatest writer of Southern...", fillcolor=lightcoral, color=red, shape=circle];
+    "as a screenwriter" [label="as a screenwriter", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Southern United States literature" [label="Southern United States literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Ernest Hemingway's novel" [label="Ernest Hemingway's novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "American literature" [label="American literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels and short storie..." [label="his novels and short storie...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Two of his works, A Fable 1..." [label="Two of his works, A Fable 1...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his first novel Soldiers'Pa..." [label="his first novel Soldiers'Pa...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "1949 Nobel Prize in Literature" [label="1949 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "Mississippi-born Nobel laur..." [label="Mississippi-born Nobel laur...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "only Mississippi-born" [label="only Mississippi-born", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Oxford" [label="Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Southern" [label="Southern", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1949" [label="1949", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soldiers'Pay" [label="Soldiers'Pay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before dropping out" [label="before dropping out", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ernest Hemingway" [label="Ernest Hemingway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New Albany, Mississippi" [label="New Albany, Mississippi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lafayette County, Mississippi" [label="Lafayette County, Mississippi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Sound and the Fury" [label="The Sound and the Fury", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following" [label="following", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three semesters" [label="three semesters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following year" [label="following year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Royal Canadian Air Force" [label="Royal Canadian Air Force", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1929" [label="1929", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nobel" [label="Nobel", fillcolor=lightgray, color=gray, shape=hexagon];
+    "film with contributions by ..." [label="film with contributions by ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Raymond Chandler's" [label="Raymond Chandler's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Faulkner's reputation" [label="Faulkner's reputation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sartoris 1927 " [label="Sartoris 1927 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Howard Hawks's To Have and ..." [label="Howard Hawks's To Have and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "former" [label="former", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Malcolm Cowley's The Portab..." [label="Malcolm Cowley's The Portab...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1925" [label="1925", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Yoknapatawpha County" [label="Yoknapatawpha County", fillcolor=lightgray, color=gray, shape=hexagon];
+    " his powerful and unique co..." [label=" his powerful and unique co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following publication of Ma..." [label="following publication of Ma...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Faulkner's" [label="Faulkner's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most influent..." [label="as one of the most influent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "back to Oxford" [label="back to Oxford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nobel laureate, Faulkner" [label="Nobel laureate, Faulkner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "contributions by two Nobel ..." [label="contributions by two Nobel ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "former film" [label="former film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1927" [label="1927", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sound and the Fury" [label="Sound and the Fury", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Light" [label="Light", fillcolor=lightgray, color=gray, shape=hexagon];
+    "laureates" [label="laureates", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication of Malcolm Cowl..." [label="publication of Malcolm Cowl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern" [label="modern", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During World War I" [label="During World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Faulkner" [label="William Faulkner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Faulkner disambiguation and..." [label="Faulkner disambiguation and...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oxford, Mississippi" [label="Oxford, Mississippi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World War I" [label="World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize for Fiction" [label="Pulitzer Prize for Fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Raymond Chandler" [label="Raymond Chandler", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Two" [label="Two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "former film, adapted from E..." [label="former film, adapted from E...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "As I Lay Dying" [label="As I Lay Dying", fillcolor=lightgray, color=gray, shape=hexagon];
+    "August" [label="August", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two Nobel laureates" [label="two Nobel laureates", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Faulkner's reputation grew" [label="Faulkner's reputation grew", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Mississippi" [label="University of Mississippi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1954" [label="1954", fillcolor=lightgray, color=gray, shape=hexagon];
+    "laureate" [label="laureate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ernest Hemingway's" [label="Ernest Hemingway's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New Orleans, where he wrote..." [label="New Orleans, where he wrote...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "William Faulkner" -> "Yoknapatawpha County" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "two Nobel laureates" [label="has theme [Giving]", color=lightcoral, penwidth=1];
+    "Southern United States literature" -> "United States" [label="has theme [Origin]", color=lightgreen, penwidth=1];
+    "University of Mississippi" -> "year" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Southern United States literature" -> "literature" [label="has theme [Part_orientational]", color=lightpink, penwidth=1];
+    "The Sound and the Fury" -> "Pulitzer Prize for Fiction" [label="has prize [Win_prize]", color=lightcyan, penwidth=1];
+    "Ernest Hemingway" -> "Ernest Hemingway's" [label="has author [Text]", color=lightsteelblue, penwidth=1];
+    "Southern United States literature" -> "American literature" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "Faulkner's" [label="has entity [Fame]", color=lightgray, penwidth=1];
+    "University of Mississippi" -> "following publication of Ma..." [label="has time [Change_position_on_a_scale]", color=purple, penwidth=2];
+    "University of Mississippi" -> "1927" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "University of Mississippi" -> "only Mississippi-born" [label="has theme [Education_teaching]", color=lightsalmon, penwidth=1];
+    "William Faulkner" -> "Sound and the Fury" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "laureates" [label="has leader [Leadership]", color=lightgoldenrod, penwidth=1];
+    "World War I" -> "Royal Canadian Air Force" [label="has group [Becoming_a_member]", color=lightpink, penwidth=1];
+    "William Faulkner" -> "his first novel Soldiers'Pa..." [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "University of Mississippi" -> "Yoknapatawpha County" [label="has location [Ordinal_numbers]", color=green, penwidth=2];
+    "Southern United States literature" -> "1949 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightsteelblue, penwidth=1];
+    "University of Mississippi" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "William Faulkner" -> "uses" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "The Sound and the Fury" -> "former film" [label="has theme [Removing]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "best" [label="has degree [Fame]", color=lightgray, penwidth=1];
+    "Nobel Prize in Literature" -> "Nobel" [label="has theme [Leadership]", color=lightgoldenrod, penwidth=1];
+    "University of Mississippi" -> "former" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Southern United States literature" -> "greatest writer of Southern..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "World War I" -> "During World War I" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "William Faulkner" -> "1927" [label="has time [Motion]", color=purple, penwidth=2];
+    "United States" -> "1962" [label="has time [Origin]", color=purple, penwidth=2];
+    "William Faulkner" -> "As I Lay Dying" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "University of Mississippi" -> "Two" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "University of Mississippi" -> "1949" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "University of Mississippi" -> "Nobel" [label="has level [Education_teaching]", color=lightsalmon, penwidth=1];
+    "William Faulkner" -> "1954" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Southern United States literature" -> "writers" [label="has entity [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "The Sound and the Fury" -> "Ernest Hemingway's novel" [label="has theme [Removing]", color=lightblue, penwidth=1];
+    "Southern United States literature" -> "Nobel laureate, Faulkner" [label="has item [Categorization]", color=lightgreen, penwidth=1];
+    "William Faulkner" -> "Sartoris 1927 " [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "1927" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Ernest Hemingway" -> "contributions by two Nobel ..." [label="has type [Behind_the_scenes]", color=lightcoral, penwidth=1];
+    "Southern United States literature" -> "literature" [label="has theme [Fields]", color=lightgray, penwidth=1];
+    "The Sound and the Fury" -> "1954" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "William Faulkner" -> "works" [label="has theme [Labor_product]", color=lightcyan, penwidth=1];
+    "Southern United States literature" -> "Southern" [label="has theme [Part_orientational]", color=lightpink, penwidth=1];
+    "Southern United States literature" -> "William Faulkner" [label="has recipient [Receiving]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "Oxford, Mississippi" [label="has location [Growing_food]", color=green, penwidth=2];
+    "University of Mississippi" -> "Howard Hawks's To Have and ..." [label="has recipient [Giving]", color=lightcoral, penwidth=1];
+    "Southern United States literature" -> "literature" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "University of Mississippi" -> "as a screenwriter" [label="has position [Being_employed]", color=lightseagreen, penwidth=1];
+    "William Faulkner" -> "as one of the most influent..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "United States" -> "Literature" [label="has location [Origin]", color=green, penwidth=2];
+    "Southern United States literature" -> "20th" [label="has theme [Calendric_unit]", color=lightsalmon, penwidth=1];
+    "United States" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "William Faulkner" -> "1949" [label="has time [Fame]", color=purple, penwidth=2];
+    "William Faulkner" -> "his novels and short storie..." [label="has reason [Fame]", color=lightgray, penwidth=1];
+    "William Faulkner" -> "back to Oxford" [label="has goal [Motion]", color=lightyellow, penwidth=1];
+    "United States" -> "1949" [label="has time [Origin]", color=purple, penwidth=2];
+    "William Faulkner" -> "August" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Ernest Hemingway" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "University of Mississippi" -> "publication of Malcolm Cowl..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Southern United States literature" -> "writers" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "Raymond Chandler" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "University of Mississippi" -> "1925" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "William Faulkner" -> "before dropping out" [label="has time [Attending]", color=purple, penwidth=2];
+    "University of Mississippi" -> "1949" [label="has time [Text]", color=purple, penwidth=2];
+    "University of Mississippi" -> "following" [label="has theme [Calendric_unit]", color=lightsalmon, penwidth=1];
+    "William Faulkner" -> "1929" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "Faulkner disambiguation and..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "University of Mississippi" -> "William Faulkner" [label="has employee [Being_employed]", color=lightseagreen, penwidth=1];
+    "Southern United States literature" -> "writer" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "1929" [label="has time [Text]", color=purple, penwidth=2];
+    "World War I" -> "William Faulkner" [label="has theme [Becoming_a_member]", color=lightpink, penwidth=1];
+    "University of Mississippi" -> "Literature" [label="has location [Change_position_on_a_scale]", color=green, penwidth=2];
+    "University of Mississippi" -> "novel" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Raymond Chandler" -> "Raymond Chandler's" [label="has author [Text]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "Oxford" [label="has goal [Arriving]", color=lightcoral, penwidth=1];
+    "William Faulkner" -> "University of Mississippi" [label="has event [Attending]", color=lightpink, penwidth=1];
+    "Ernest Hemingway" -> "former film, adapted from E..." [label="has theme [Behind_the_scenes]", color=lightcoral, penwidth=1];
+    "University of Mississippi" -> "laureate" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "William Faulkner" -> "1925" [label="has time [Motion]", color=purple, penwidth=2];
+    "University of Mississippi" -> "Malcolm Cowley's The Portab..." [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Southern United States literature" -> "20th century" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "William Faulkner" -> "Nobel" [label="has theme [Leadership]", color=lightgoldenrod, penwidth=1];
+    "University of Mississippi" -> "William Faulkner" [label="has theme [Giving]", color=lightcoral, penwidth=1];
+    "University of Mississippi" -> "film with contributions by ..." [label="has type [Sole_instance]", color=lightblue, penwidth=1];
+    "University of Mississippi" -> "his works" [label="has entity [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Southern United States literature" -> "writers" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "University of Mississippi" -> "Faulkner's reputation" [label="has item [Change_position_on_a_scale]", color=lightgoldenrodyellow, penwidth=1];
+    "William Faulkner" -> "novels" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "1925" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "University of Mississippi" -> "William Faulkner" [label="has teacher [Education_teaching]", color=lightsalmon, penwidth=1];
+    "Southern United States literature" -> "century" [label="has theme [Calendric_unit]", color=lightsalmon, penwidth=1];
+    "University of Mississippi" -> "Literature" [label="has location [Relative_time]", color=green, penwidth=2];
+    "Southern United States literature" -> "writers" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Southern United States literature" -> "1949" [label="has time [Receiving]", color=purple, penwidth=2];
+    "University of Mississippi" -> "work" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "United States" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Southern United States literature" -> "century" [label="has theme [Grasp]", color=lightcoral, penwidth=1];
+    "United States" -> "1949" [label="has time [Text]", color=purple, penwidth=2];
+    "William Faulkner" -> "Light" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "following year" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Southern United States literature" -> "20th century" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "University of Mississippi" -> "Mississippi-born Nobel laur..." [label="has type [Sole_instance]", color=lightblue, penwidth=1];
+    "William Faulkner" -> "New Albany, Mississippi" [label="has location [Being_born]", color=green, penwidth=2];
+    "University of Mississippi" -> "Faulkner's reputation grew" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "William Faulkner" -> "New Orleans, where he wrote..." [label="has goal [Motion]", color=lightyellow, penwidth=1];
+    "Southern United States literature" -> " his powerful and unique co..." [label="has theme [Receiving]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "Literature" [label="has location [Fame]", color=green, penwidth=2];
+    "United States" -> "modern" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "Southern United States literature" -> "20th century" [label="has time [Importance]", color=purple, penwidth=2];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Lafayette County, Mississippi" -> "stories" [label="has theme [Duration_description]", color=lightyellow, penwidth=1];
+    "The Sound and the Fury" -> "Two of his works, A Fable 1..." [label="has competitor [Win_prize]", color=lightcyan, penwidth=1];
+    "Southern United States literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "William Faulkner" -> "August" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "William Faulkner" -> "1925" [label="has time [Text]", color=purple, penwidth=2];
+    "William Faulkner" -> "Yoknapatawpha County" [label="has location [Motion]", color=green, penwidth=2];
+    "University of Mississippi" -> "1954" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "United States" -> "novel" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "William Faulkner" -> "Soldiers'Pay" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "William Faulkner" -> "three semesters" [label="has theme [Attending]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Part_orientational_legend" [label="Part_orientational", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Sole_instance_legend" [label="Sole_instance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Give_impression:has_theme Randall Jarrell",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No semantic connection found. Randall Jarrell is mentioned as a critic quoting Frost, but there is no link between New England and Jarrell as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Statement:has_theme his 1939 essay \" The Figure a Poem Makes \"",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The essay is explicitly mentioned as being written by Frost, establishing a clear 'has_theme' relationship between the subject (Frost) and his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Cardinal_numbers:has_entity America's rare \" public literary figures",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Frost is described as one of 'America's rare public literary figures'. There is a semantic link between the United States and this entity, though the predicate 'has_entity' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Increment:has_theme other living poet",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'other living poet' refers to a general comparison made by Jarrell, not to New England. No semantic connection exists between New England and this phrase."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Accompaniment:has_theme Stevens and Eliot",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Frost is grouped with Stevens and Eliot as the greatest American poets of the century by Jarrell. This establishes a thematic association, supporting a lenient interpretation of 'has_theme'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Intentionally_create:has_location American",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship 'Intentionally_create:has_location' is not semantically supported. The paragraph states Frost wrote about New England settings, but this does not imply New England 'creates' or 'has location' America; the relationship is illogical and not extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Statement:has_location http://en.wikipedia.org/wiki/New_England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Frost frequently wrote about settings from rural life in New England'. While 'Statement:has_location' is an abstract relation, it can be leniently interpreted as his work being associated with that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Text:has_time 1939",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1939 is mentioned in the context of Frost's essay, not as a time associated with New England itself. There is no semantic link between New England and the year 1939 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Receiving:has_theme four Pulitzer Prizes for Poetry",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph states Frost received four Pulitzer Prizes for Poetry. While this is an event in American poetry, the triple incorrectly assigns the 'theme' of 'receiving prizes' to the abstract concept of 'American poetry' rather than to the poet. The relationship is misattributed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Sequence:has_theme revelations",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'revelations' appears in a quote from Frost about poetry in general ('a series of revelations'). There is no direct or indirect semantic connection made between New England and the theme of revelations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Motion:has_location American",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'settings from rural life in New England' and Frost is identified as an 'American poet'. While not a direct location relationship, there is a semantic connection between New England and America."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Fields:has_theme literary",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "New England is described as the setting for Frost's poetry, which is a literary work. The connection between the location and the literary theme is reasonably implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Robert Frost's full name 'Robert Lee Frost', making the theme of naming clearly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Text:has_theme 1939",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Frost's 1939 essay 'The Figure a Poem Makes', creating a direct connection between Frost and the year 1939 in a textual context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Experiencer_focus:has_theme American",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "New England is a region in America, and Frost who wrote about it is American. There's a reasonable semantic connection between the location and the American theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Text:has_author poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Robert Frost as an American poet who wrote poetry, establishing a semantic connection between American poetry and a poet/author"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Body_parts:has_time 1939",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "New England is mentioned as a setting Frost wrote about, and 1939 is mentioned as the year of his essay 'The Figure a Poem Makes' - weak but valid temporal connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Intentionally_act:has_act actions",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "New England is mentioned as a setting where Frost wrote about 'actions of ordinary men' - indirect connection between location and actions"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Being_named:has_entity other people",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'other people with the same name' in the disambiguation reference, connecting Robert Frost to other entities/people"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Being_born:has_time 1910",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph includes 'Frost, c. 1910' in the biography section, directly connecting Robert Frost to the year 1910 in a biographical context"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Dead_or_alive:has_theme poet",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph is about an American poet and discusses themes in his poetry, creating a weak but valid semantic link between 'American poetry' and the theme of 'poet'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Fame:has_reason his realistic depictions of rural life and his command of American colloquial speech",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states Frost was 'Known for his realistic depictions of rural life and his command of American colloquial speech', which is a direct reason for his fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_time 1963",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1963 (Frost's death) is mentioned, and he was an American poet appointed to a US laureate position. The connection to 'United States' is weak but semantically present through context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Statement:has_theme settings from rural life in New England in the early 20th century",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text directly states 'Frost frequently wrote about settings from rural life in New England in the early 20th century'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Awareness:has_theme something",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The triple is extremely vague, but the paragraph discusses themes related to America (American poet, American colloquial speech). A minimal semantic connection exists, though the triple is poorly defined."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Give_impression:has_theme Robert Frost, along with Stevens and Eliot",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly attributes 'Robert Frost, along with Stevens and Eliot' as a theme of New England. The paragraph states Frost wrote about New England settings, and he is grouped with Stevens and Eliot as great poets, but these are separate facts, not a combined theme of New England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Identicality:has_type name",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly provides Robert Frost's full name ('Robert Lee Frost'), which is a type of name. The predicate 'has_type name' is semantically related to this information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Being_named:has_theme poet laureate of Vermont",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that Robert Frost 'was named poet laureate of Vermont'. The predicate 'has_theme' can be loosely interpreted to mean 'was appointed to the role of'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Scrutiny:has_theme complex social and philosophical themes",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that Frost used rural New England settings 'to examine complex social and philosophical themes', making this a direct and clear extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Fields:has_activity artistic",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Frost wrote about settings from rural life in New England. Writing is an artistic activity, and while the connection to New England is as a subject/setting rather than the location of the activity itself, there is a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost People:has_person people",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about the person Robert Frost, establishing a clear semantic connection to the concept of a person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Receiving:has_recipient only poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Frost is the only poet to receive four Pulitzer Prizes for Poetry,' which semantically connects the concept of being the 'only poet' to receive an award, even if the exact phrasing of the triple is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Appointing:has_role United States Poet Laureate",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Frost was appointed US Poet Laureate, this event is not semantically linked to New England in the paragraph. The triple incorrectly assigns the appointing role to New England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Desirability:has_theme Frost's virtues",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "There is a weak semantic link: Frost wrote about New England settings, and his virtues are discussed. The connection is indirect but present, as the virtues are part of his work which is associated with New England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Experiencer_obj:has_theme writer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Frost, the writer, is strongly associated with New England through the statement that he 'frequently wrote about settings from rural life in New England.' This creates a reasonable, though not explicit, semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Compliance:has_time during his lifetime",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Frost wrote about New England settings 'in the early 20th century' and was 'frequently honored during his lifetime'. While not a direct temporal link to New England, the concepts of his lifetime and New England writing are both present and contextually connected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Fields:has_theme institution",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph calls Frost 'almost an artistic institution'. He is strongly associated with New England. This is a very weak and indirect link, but a semantic connection exists between the concept of an institution and a theme related to New England's literary figure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Text:has_text writer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states Frost 'frequently wrote about settings from rural life in New England'. This directly connects the entity 'New England' to the text written by the writer (Frost)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Being_named:has_time 1958",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text clearly states 'Appointed United States Poet Laureate in 1958'. Being appointed is a form of being named to a position, creating a direct link between Robert Frost and the year 1958."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Time_vector:has_event relation",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "This is a very vague triple. The paragraph discusses Frost's poetry examining 'complex social and philosophical themes' and establishing 'relations' in the material. As his poetry is set in New England, a very weak, abstract connection can be made. Being lenient, it is extractable with low confidence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Scrutiny:has_location http://en.wikipedia.org/wiki/New_England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states Frost wrote about settings from rural life in New England, establishing a clear location connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Statement:has_theme frequently",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The word 'frequently' is used in the paragraph ('Frost frequently wrote...'), and while 'Statement:has_theme' is vague, it has a weak semantic connection to the act of writing about themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_entity poets",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses American poets (Frost, Stevens, Eliot) and poetry (Pulitzer Prizes for Poetry), creating a reasonable semantic link between American poetry and poets."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Expertise:has_theme poets",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Similar to the previous triple, the paragraph's subject is American poets and poetry, making a connection between the theme of American poetry and poets reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Memory:has_theme something I didn 't know I knew",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'something I didn't know I knew' is a direct quote from Frost about his poetics. While the connection to New England is very weak and indirect (Frost wrote about New England and also wrote about this concept), a lenient interpretation allows for a minimal semantic link through the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Intentionally_act:has_agent ordinary men",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Frost writing about 'ordinary men' and his settings are 'from rural life in New England'. There is a weak semantic connection linking New England as a setting for the actions/agents (ordinary men) Frost wrote about."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_Frost Text:has_time 1939",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In his 1939 essay \"The Figure a Poem Makes\"', directly linking Robert Frost to the year 1939 in the context of a text he wrote."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Just_found_out:has_theme remembering something I didn't know I knew",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'remembering something I didn't know I knew' is a theme from Frost's poetics discussed in the paragraph. While New England is the setting for his poems, the connection of this specific philosophical theme to the region is very indirect and weak, but semantically related through Frost's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England Substance:has_theme material",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph quotes Frost mentioning 'freedom of the material' in the context of his poetics. As New England is the primary setting for his material (poems), there is a very weak but semantically valid connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_England People:has_person men",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Frost wrote about 'ordinary men' and his settings were from 'rural life in New England'. This creates a reasonable, though indirect, semantic connection between New England and the people (men) inhabiting that setting in his work."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 31,
+    "accuracy": 0.62,
+    "avg_confidence": 0.564,
+    "high_confidence_50": 31,
+    "high_confidence_80": 17,
+    "percent_50": 62.0,
+    "percent_80": 34.0,
+    "max_triples_limit": 50
+  }
+}

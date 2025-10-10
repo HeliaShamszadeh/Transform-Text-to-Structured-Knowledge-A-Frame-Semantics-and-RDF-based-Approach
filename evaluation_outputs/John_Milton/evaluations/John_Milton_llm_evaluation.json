@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Origin:has_entity author",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly identifies John Milton as an 'English poet' and 'author', and discusses his writing, making the author entity clearly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Origin:has_theme http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "John Milton is repeatedly described as an 'English poet' and served the 'Commonwealth of England', strongly associating him with England as a theme of his origin."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Desiring:has_theme freedom",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Milton's desire for freedom, but it does not attribute this desire to England itself. The theme of freedom is connected to Milton, not the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Fame:has_reason as one of history's greatest poets",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text directly states 'Paradise Lost elevated Milton's reputation as one of history's greatest poets', providing a clear reason for his fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text_creation:has_text 12 books",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that his epic poem Paradise Lost 'included 12 books', which is a direct reference to the textual composition of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Inclusion:has_theme fall of man",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states Paradise Lost 'addressed the fall of man', which is a direct thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Accomplishment:has_goal fame and recognition",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph states 'Milton achieved fame and recognition during his lifetime', which semantically connects the subject to the goal/result of fame, though the predicate 'has_goal' is slightly more intentional than the achieved result stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Using:has_instrument unrhymed verse",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states Paradise Lost 'was written in blank verse' and that Milton was 'the first modern writer to employ unrhymed verse'. Blank verse is unrhymed iambic pentameter, making this a strong semantic match for using unrhymed verse as an instrument."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Ordinal_numbers:has_theme employ unrhymed verse outside of the theatre or translations",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The specific phrase 'employ unrhymed verse outside of the theatre or translations' is directly stated. The predicate 'has_theme' is a reasonable, though not perfect, semantic fit for this being a notable characteristic of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text:has_text books",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Paragraph mentions Paradise Lost 'included 12 books'. There is a weak but valid semantic connection between the subject (Milton's work) and containing books as textual units."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Topic:has_theme fall of man, including the temptation of Adam and Eve by the fallen angel Satan, and God's expulsion of them from the Garden of Eden",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that Paradise Lost 'addressed the fall of man, including the temptation of Adam and Eve by the fallen angel Satan, and God's expulsion of them from the Garden of Eden', which is a direct match for the triple's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Subjective_influence:has_entity defences of freedom of speech and freedom of the press",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Milton's 'Areopagitica' is 'among history's most influential and impassioned defences of freedom of speech and freedom of the press'. While the predicate 'has_entity' is vague, the concept of Milton being associated with these defences is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Be_subset_of:has_theme history's most influential and impassioned defences of freedom of speech and freedom of the press",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph attributes the theme of defending freedom of speech/press to Milton's work 'Areopagitica'. The predicate 'Be_subset_of:has_theme' is an unusual construction, but the semantic connection between Milton and this theme is strongly supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Fields:has_theme theatre",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions theatre indirectly: 'He was the first modern writer to employ unrhymed verse outside of the theatre or translations.' This is a weak connection, as theatre is mentioned as a context from which Milton's style departed, not as a theme of Milton himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Ordinal_numbers:has_type modern writer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He was the first modern writer to employ unrhymed verse...', which directly supports Milton being classified as a 'modern writer'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Connecting_architecture:has_theme Milton's reputation as one of history's greatest poets",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Paradise Lost elevated Milton's reputation as one of history's greatest poets,' establishing a clear thematic connection between the poem and the poet's reputation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Ordinal_numbers:has_type place",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's predicate and object ('has_type place') are completely unrelated to any information in the paragraph. The paragraph discusses Milton's life and work, not the classification of numbers or places."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Using:has_agent first modern writer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'He was the first modern writer to employ unrhymed verse...' This can be interpreted as John Milton (the agent) 'using' a specific style, which is a characteristic of being the 'first modern writer' to do so. The connection is semantically reasonable, though the predicate 'has_agent' is a bit indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Simple_name:has_theme words",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Milton's 'introduction of new words to the English language.' While the predicate 'Simple_name:has_theme' is vague, there is a semantic link between John Milton and the theme of 'words' (specifically, coining new ones)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Inclusion:has_theme His 1667 epic poem Paradise Lost",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The object of the triple, 'His 1667 epic poem Paradise Lost,' is a direct, verbatim description of the subject, 'Paradise Lost,' from the paragraph. The predicate 'Inclusion:has_theme' is a reasonable, if slightly awkward, way to represent this self-referential relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Age:has_entity words",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Milton's 'introduction of new words to the English language'. The triple's concept of 'has_entity words' is very abstract but can be weakly connected to this statement about his relationship with words."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Using:has_location outside of the theatre or translations",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He was the first modern writer to employ unrhymed verse outside of the theatre or translations,' which directly supports the semantic meaning of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Being_named:has_entity other people",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph begins by referencing 'other people named John Milton'. The triple's concept of 'has_entity other people' is a reasonable, though abstract, extraction of this reference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Text_creation:has_text His 1667 epic poem Paradise Lost",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'His 1667 epic poem Paradise Lost' is directly stated in the paragraph, clearly linking the text 'Paradise Lost' to its creation by Milton."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Judgment:has_theme poets such as William Blake, William Wordsworth, and Thomas Hardy",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Milton was revered by poets such as William Blake, William Wordsworth, and Thomas Hardy.' The triple's 'Judgment:has_theme' can be semantically connected to the theme of how these poets viewed/judged Milton."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Categorization:has_category as one of the preeminent writers in the English language",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that Milton 'remains generally regarded \"as one of the preeminent writers in the English language\"'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/God Removing:has_theme God",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'God's expulsion of them from the Garden of Eden' in the context of Paradise Lost. While the relationship 'Removing:has_theme' is not a perfect semantic match, God is a central theme/character in the poem's subject matter."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Communicate_categorization:has_item Milton's politics",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Milton's politics and Paradise Lost separately, but it does not state or imply that the poem's content categorizes or communicates about his political views. The connection is tenuous and not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text_creation:has_text http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Milton is described as an 'English poet' and served the 'Commonwealth of England'. While the triple's predicate is vague, there is a semantic connection between Milton (the text creator) and England (the subject/national context of his work and service)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Defending:has_theme freedom of speech and freedom of the press",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Milton's 'Areopagitica' is 'among history's most influential and impassioned defences of freedom of speech and freedom of the press'. This directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text_creation:has_text writers",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "John Milton is explicitly identified as a writer and poet, and the paragraph discusses his text creation (e.g., Paradise Lost, Areopagitica). The predicate 'has_text writers' semantically connects to his role as a creator of texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Judgment_communication:has_reason as \" a poem which... with respect to design may claim the first place, and with respect to performance, the second, among the productions of the human mind \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The exact quote is contained in the paragraph, attributed to Samuel Johnson as a judgment/reason for praising the poem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton State_continue:has_state generally regarded \" as one of the preeminent writers in the English language \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The exact phrase 'generally regarded \"as one of the preeminent writers in the English language\"' is stated in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Age:has_age new",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The concept of 'new' in relation to John Milton's age is not present. The paragraph mentions his birth and death years, but not a state of being 'new'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Inclusion:has_theme 12 books, written in a time of immense religious flux and political upheaval",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Paradise Lost 'included 12 books, written in a time of immense religious flux and political upheaval'. While 'theme' might be a slightly abstract interpretation, the information about the 12 books and the context of their creation is directly included, making a semantic connection to the triple's intent reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Judgment_communication:has_theme Samuel Johnson",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Samuel Johnson is mentioned in the context of praising Paradise Lost ('Samuel Johnson praised Paradise Lost...'), creating a semantic link between the work and the critic, though the predicate 'has_theme' is a weak match for 'praised'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Defending:has_theme history's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The word 'history's' appears in the text ('among history's most influential... defences'). The connection to the subject (John Milton) and the predicate (Defending:has_theme) is extremely weak and indirect, but a semantic link exists via the description of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Communicate_categorization:has_category as those of an \" acrimonious and surly republican\"",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'acrimonious and surly republican' is used by Samuel Johnson to describe Milton's politics, not as a category of the work Paradise Lost. The subject of the triple is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Defending:has_theme impassioned",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "John Milton's work 'Areopagitica' is described as an 'impassioned defence'. This creates a clear, though not perfectly aligned, semantic connection between the subject (Milton) and the concept of 'impassioned' defending."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text_creation:has_text modern verse",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states Milton was 'the first modern writer to employ unrhymed verse'. This directly links John Milton (Text_creation) to the concept of 'modern verse'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text_creation:has_theme English language",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Milton introduced new words to the English language, connecting his work (text creation) to the English language as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Be_subset_of:has_theme His celebrated Areopagitica (1644) condemning pre-publication censorship",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The triple's subject and object are directly mentioned. The predicate 'has_theme' can be reasonably inferred as Areopagitica is a key work by Milton discussed in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Text:has_text poem",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "John Milton is explicitly described as a poet, and his epic poem 'Paradise Lost' is a central topic of the paragraph, strongly connecting him to the text type 'poem'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paradise_Lost Text_creation:has_theme blank verse",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Paradise Lost 'was written in blank verse', which is a direct and clear match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/God Removing:has_theme http://en.wikipedia.org/wiki/Garden_of_Eden",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'God's expulsion of them from the Garden of Eden'. 'Expulsion' is semantically related to 'Removing', and God's action is directly tied to the Garden of Eden."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Judgment_communication:has_theme pre-publication censorship",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Milton's 'Areopagitica' condemns pre-publication censorship, making this a direct and strong semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Categorization:has_theme his biographer William Hayley",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions William Hayley as Milton's biographer. While the relationship is 'biographer of' rather than 'has_theme', there is a clear semantic connection between the subject and the person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph is about a person (John Milton) and mentions other people. The connection to the class 'people' is extremely weak and indirect, but the subject is a member of that class."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Locale:has_theme place",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions locations like 'England', 'Garden of Eden', and 'Commonwealth of England'. While no single 'place' is the theme, the concept of places is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Milton Fame:has_entity Milton's",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Milton's fame, reputation, and recognition. The possessive 'Milton's' is used multiple times in reference to these concepts (e.g., 'Milton's reputation'), creating a reasonable semantic link."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.6759999999999999,
+    "high_confidence_50": 40,
+    "high_confidence_80": 27,
+    "percent_50": 80.0,
+    "percent_80": 54.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,292 @@
+digraph Clarice_Lispector {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "American writer Benjamin Moser" [label="American writer Benjamin Moser", fillcolor=lightcoral, color=red, shape=circle];
+    "writer Benjamin Moser" [label="writer Benjamin Moser", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her first novel, Near to th..." [label="her first novel, Near to th...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her first journalistic work..." [label="her first journalistic work...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her works" [label="her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels and stories" [label="novels and stories", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels and stories, includi..." [label="novels and stories, includi...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "journalistic work" [label="journalistic work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Several of her works" [label="Several of her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "death" [label="death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "journalistic" [label="journalistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Family Ties" [label="Family Ties", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 23" [label="age of 23", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an interior monologue in..." [label="as an interior monologue in...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Podolia in Western Ukraine" [label="Podolia in Western Ukraine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories of Family Ties  Laç..." [label="stories of Family Ties  Laç...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Why This World : A Biograph..." [label="Why This World : A Biograph...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Passion According to G.H" [label="Passion According to G.H", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1944" [label="1944", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her marriage to a Brazilian..." [label="her marriage to a Brazilian...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Benjamin Moser" [label="Benjamin Moser", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1977" [label="1977", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Clarice Lispector   k l a i..." [label="Clarice Lispector   k l a i...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "celebrated gua Viva" [label="celebrated gua Viva", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Recife" [label="Recife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "23" [label="23", fillcolor=lightgray, color=gray, shape=hexagon];
+    "next" [label="next", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pogroms" [label="pogroms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "decade" [label="decade", fillcolor=lightgray, color=gray, shape=hexagon];
+    "law" [label="law", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brazil" [label="Brazil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rio de Janeiro" [label="Rio de Janeiro", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2009" [label="2009", fillcolor=lightgray, color=gray, shape=hexagon];
+    "style and language that was..." [label="style and language that was...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother" [label="her mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brazilian diplomat" [label="Brazilian diplomat", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many" [label="Many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when Clarice was nine" [label="when Clarice was nine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jewish family" [label="Jewish family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Podolia" [label="Podolia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she was in her teens" [label="when she was in her teens", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1959" [label="1959", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during the Russian Civil War" [label="during the Russian Civil War", fillcolor=lightgray, color=gray, shape=hexagon];
+    "frequent" [label="frequent", fillcolor=lightgray, color=gray, shape=hexagon];
+    "law school in Rio" [label="law school in Rio", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chaya Pinkhasivna Lispector" [label="Chaya Pinkhasivna Lispector", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pain" [label="pain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into films" [label="into films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "last" [label="last", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1966" [label="1966", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "music" [label="music", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following her marriage to a..." [label="following her marriage to a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Europe" [label="Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "revolutionary" [label="revolutionary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Near to the Wild Heart" [label="Near to the Wild Heart", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publishing her first journa..." [label="publishing her first journa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Clarice Lispector" [label="Clarice Lispector", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she began publishing her fi..." [label="she began publishing her fi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "accident" [label="accident", fillcolor=lightgray, color=gray, shape=hexagon];
+    "10" [label="10", fillcolor=lightgray, color=gray, shape=hexagon];
+    "half" [label="half", fillcolor=lightgray, color=gray, shape=hexagon];
+    "law school" [label="law school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ukraine" [label="Ukraine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lispector left Brazil in 1944" [label="Lispector left Brazil in 1944", fillcolor=lightgray, color=gray, shape=hexagon];
+    "style and language that" [label="style and language that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her distinctive and innovat..." [label="Her distinctive and innovat...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Clarice Lispector" -> "1920" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Family Ties" -> "Clarice Lispector" [label="has theme [Cause_harm]", color=lightcoral, penwidth=1];
+    "Europe" -> "1944" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Family Ties" -> "novels and stories, includi..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Family Ties" -> "pain" [label="has event [Frequency]", color=lightpink, penwidth=1];
+    "Benjamin Moser" -> "2009" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "Rio de Janeiro" -> "law" [label="has law [Law]", color=lightsteelblue, penwidth=1];
+    "Brazil" -> "Rio de Janeiro" [label="has location [Interior_profile_relation]", color=green, penwidth=2];
+    "Europe" -> "10" [label="has theme [Measure_duration]", color=lightgoldenrodyellow, penwidth=1];
+    "Family Ties" -> "Several of her works" [label="has entity [Cause_change]", color=lightseagreen, penwidth=1];
+    "Podolia" -> "pogroms" [label="has theme [Committing_crime]", color=lightsalmon, penwidth=1];
+    "Rio de Janeiro" -> "novel" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Clarice Lispector" -> "Rio de Janeiro" [label="has location [Text]", color=green, penwidth=2];
+    "Benjamin Moser" -> "writer Benjamin Moser" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Clarice Lispector" -> "publishing her first journa..." [label="has activity [Activity_start]", color=lightsteelblue, penwidth=1];
+    "Ukraine" -> "style and language that" [label="has item [Categorization]", color=lightcoral, penwidth=1];
+    "Family Ties" -> "accident" [label="has cause [Cause_harm]", color=lightcoral, penwidth=1];
+    "Ukraine" -> "revolutionary" [label="has category [Categorization]", color=lightcoral, penwidth=1];
+    "Rio de Janeiro" -> "Clarice Lispector" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "Europe" -> "decade" [label="has theme [Measure_duration]", color=lightgoldenrodyellow, penwidth=1];
+    "Europe" -> "1944" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "Rio de Janeiro" -> "her first novel, Near to th..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Clarice Lispector" -> "journalistic" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Family Ties" -> "last" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Clarice Lispector" -> "works" [label="has entity [Distinctiveness]", color=lightyellow, penwidth=1];
+    "Clarice Lispector" -> "following her marriage to a..." [label="has time [Departing]", color=purple, penwidth=2];
+    "Family Ties" -> "1977" [label="has time [Death]", color=purple, penwidth=2];
+    "Family Ties" -> "1966" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Clarice Lispector" -> "Jewish family" [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "Rio de Janeiro" -> "as an interior monologue in..." [label="has theme [Text_creation]", color=lightgray, penwidth=1];
+    "Europe" -> "her marriage to a Brazilian..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Rio de Janeiro" -> "law school in Rio" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Brazil" -> "style and language that was..." [label="has theme [Interior_profile_relation]", color=lightgray, penwidth=1];
+    "Clarice Lispector" -> "Europe" [label="has location [Departing]", color=green, penwidth=2];
+    "Rio de Janeiro" -> "23" [label="has age [Age]", color=lightseagreen, penwidth=1];
+    "Ukraine" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Clarice Lispector" -> "mother" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Rio de Janeiro" -> "when she was in her teens" [label="has time [Motion]", color=purple, penwidth=2];
+    "Clarice Lispector" -> "1966" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Benjamin Moser" -> "2009" [label="has time [Origin]", color=purple, penwidth=2];
+    "Rio de Janeiro" -> "her first journalistic work..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Clarice Lispector" -> "Near to the Wild Heart" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Ukraine" -> "Rio de Janeiro" [label="has location [Categorization]", color=green, penwidth=2];
+    "Clarice Lispector" -> "Brazil" [label="has theme [Departing]", color=lightpink, penwidth=1];
+    "Clarice Lispector" -> "Rio de Janeiro" [label="has goal [Arriving]", color=lightpink, penwidth=1];
+    "Rio de Janeiro" -> "she began publishing her fi..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Family Ties" -> "into films" [label="has theme [Cause_change]", color=lightseagreen, penwidth=1];
+    "Clarice Lispector" -> "Recife" [label="has location [Kinship]", color=green, penwidth=2];
+    "Ukraine" -> "Rio de Janeiro" [label="has location [Fame]", color=green, penwidth=2];
+    "Clarice Lispector" -> "Europe" [label="has location [Forming_relationships]", color=green, penwidth=2];
+    "Clarice Lispector" -> "international" [label="has theme [Political_locales]", color=lightblue, penwidth=1];
+    "Clarice Lispector" -> "novels and stories, includi..." [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Family Ties" -> "1966" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Family Ties" -> "Clarice Lispector" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "Clarice Lispector" -> "Clarice Lispector   k l a i..." [label="has person [Being_born]", color=red, penwidth=2];
+    "Brazil" -> "music" [label="has theme [Artifact]", color=lightcoral, penwidth=1];
+    "Benjamin Moser" -> "American writer Benjamin Moser" [label="has author [Text]", color=lightcyan, penwidth=1];
+    "Ukraine" -> "Clarice Lispector" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Family Ties" -> "1959" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Family Ties" -> "her works" [label="has theme [Quantified_mass]", color=lightgreen, penwidth=1];
+    "Europe" -> "1944" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "Clarice Lispector" -> "1959" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Benjamin Moser" -> "United States" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "Family Ties" -> "Many" [label="has quantity [Quantified_mass]", color=lightgreen, penwidth=1];
+    "Family Ties" -> "1966" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Family Ties" -> "novels and stories" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Rio de Janeiro" -> "journalistic work" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Family Ties" -> "1959" [label="has time [Text]", color=purple, penwidth=2];
+    "Ukraine" -> "Podolia" [label="has location [Kinship]", color=green, penwidth=2];
+    "Europe" -> "next" [label="has theme [Part_whole]", color=lightblue, penwidth=1];
+    "Rio de Janeiro" -> "her first novel, Near to th..." [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Brazil" -> "books" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Family Ties" -> "death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Clarice Lispector" -> "work" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Clarice Lispector" -> "international" [label="has theme [Judgment_communication]", color=lightyellow, penwidth=1];
+    "Benjamin Moser" -> "Why This World : A Biograph..." [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Podolia" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Family Ties" -> "decade" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Clarice Lispector" -> "Rio de Janeiro" [label="has location [Activity_start]", color=green, penwidth=2];
+    "Rio de Janeiro" -> "stories" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Benjamin Moser" -> "2009" [label="has time [Text]", color=purple, penwidth=2];
+    "Clarice Lispector" -> "Her distinctive and innovat..." [label="has theme [Judgment_communication]", color=lightyellow, penwidth=1];
+    "Family Ties" -> "stories of Family Ties  Laç..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Europe" -> "half" [label="has theme [Part_whole]", color=lightblue, penwidth=1];
+    "Clarice Lispector" -> "Podolia in Western Ukraine" [label="has location [Being_born]", color=green, penwidth=2];
+    "Family Ties" -> "Passion According to G.H" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Europe" -> "Lispector left Brazil in 1944" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Podolia" -> "during the Russian Civil War" [label="has time [Committing_crime]", color=purple, penwidth=2];
+    "Family Ties" -> "1966" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Brazil" -> "literature" [label="has theme [Fields]", color=lightcyan, penwidth=1];
+    "Clarice Lispector" -> "1944" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Rio de Janeiro" -> "family" [label="has theme [Motion]", color=lightgoldenrod, penwidth=1];
+    "Rio de Janeiro" -> "law school" [label="has theme [Interior_profile_relation]", color=lightgray, penwidth=1];
+    "Ukraine" -> "Brazil" [label="has theme [Categorization]", color=lightcoral, penwidth=1];
+    "Clarice Lispector" -> "Rio de Janeiro" [label="has location [Labor_product]", color=green, penwidth=2];
+    "Recife" -> "when Clarice was nine" [label="has time [Death]", color=purple, penwidth=2];
+    "Family Ties" -> "frequent" [label="has attribute [Frequency]", color=lightpink, penwidth=1];
+    "Clarice Lispector" -> "Chaya Pinkhasivna Lispector" [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "Family Ties" -> "films" [label="has theme [Behind_the_scenes]", color=lightsteelblue, penwidth=1];
+    "Clarice Lispector" -> "Brazilian diplomat" [label="has theme [Forming_relationships]", color=lightcoral, penwidth=1];
+    "Family Ties" -> "celebrated gua Viva" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Rio de Janeiro" -> "she began publishing her fi..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Recife" -> "her mother" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "Family Ties" -> "1966" [label="has time [Cause_harm]", color=purple, penwidth=2];
+    "Ukraine" -> "her first journalistic work..." [label="has entity [Fame]", color=lightsteelblue, penwidth=1];
+    "Rio de Janeiro" -> "age of 23" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Family Ties" -> "Clarice Lispector" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "Family Ties" -> "1966" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cause_harm_legend" [label="Cause_harm", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Law_legend" [label="Law", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Committing_crime_legend" [label="Committing_crime", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Distinctiveness_legend" [label="Distinctiveness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Artifact_legend" [label="Artifact", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

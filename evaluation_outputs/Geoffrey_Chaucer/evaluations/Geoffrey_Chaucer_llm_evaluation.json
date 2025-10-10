@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Proportional_quantity:has_theme Almost",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'Almost' appears in the text ('Almost two thousand English words...'), but it is not thematically linked to Chaucer as a 'Proportional_quantity:has_theme'. The relationship described in the triple is semantically incoherent and not supported by the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Locating:has_theme poetic matter",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Chaucer was the first to find 'poetic matter in English'. Given that England is the context for the English language and the literary scene described, a lenient semantic connection can be made that England is the location for this poetic matter."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Canterbury_Tales Capability:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Geoffrey Chaucer, the author of The Canterbury Tales, was an English poet, and the work is central to English literature. The entire context of the paragraph is set in England, making it a reasonable and strong inference that the work is located in England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Ordinal_numbers:has_type fyndere of our fair langage",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'fyndere of our fair langage' is a quote used to describe Chaucer, not England. The predicate 'Ordinal_numbers:has_type' does not logically fit the subject and object. The connection is extremely weak and semantically invalid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Text:has_text manuscripts",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph ends by stating 'Almost two thousand English words are first attested in Chaucerian manuscripts.' This directly links Chaucer to manuscripts containing his text, supporting the triple's semantic meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Canterbury_Tales Capability:has_event finding poetic matter in English",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Chaucer was best known for The Canterbury Tales and that he was hailed as the first to find poetic matter in English. While the triple directly links the event to the work, the paragraph only links the capability to the author, creating a weak but semantically related connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Proportional_quantity:has_theme two thousand English words",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states 'Almost two thousand English words are first attested in Chaucerian manuscripts,' which is a proportional quantity related to Chaucer's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Reference_text:has_theme Chaucer (disambiguation )",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'Chaucer (disambiguation)' is mentioned only as a reference for other uses of the name 'Chaucer' in a navigational context. It has no semantic connection to England having a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'uses' appears in the phrase 'For other uses, see Chaucer (disambiguation)', which is a navigational instruction unrelated to England having a class. No semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Temporal_subregion:has_theme early",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Geoffrey Chaucer was born in London, most likely in the early 1340s'. This connects London to a temporal subregion ('early 1340s'), though the predicate 'has_theme' is a weak match for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'English poet' and discusses Chaucer's role in English literature, creating a semantic link between England and the concept of a poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Continued_state_of_affairs:has_theme still",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The phrase 'at a time when the dominant literary languages in England were still Anglo-Norman French and Latin' connects England to the concept of a continuing state (things 'still' being a certain way)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Canterbury_Tales State_continue:has_entity precise date and location",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While 'The Canterbury Tales' is mentioned, there is no information linking it to a 'precise date and location'. The phrase 'precise date and location' in the text refers to Chaucer's birth, not his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Inclusion:has_theme some accounts",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "A weak but valid connection exists as London is mentioned in the sentence 'by some accounts, including his monument, he was born in 1343', linking the location to the theme of differing accounts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Grasp:has_category as crucial in legitimising the literary use of Middle English at a time when the dominant literary languages in England were still Anglo-Norman French and Latin",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This is a direct quote from the paragraph, making it clearly and directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Locale:has_theme languages",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Anglo-Norman French and Latin were the dominant literary languages in England, establishing a semantic connection between England and languages."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Text_creation:has_text scientific A Treatise on the Astrolabe for his ten-year-old son, Lewis",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text explicitly states that Chaucer composed the scientific work 'A Treatise on the Astrolabe' for his son Lewis."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England First_rank:has_theme our fair langage",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'our fair langage' refers to English, which is the language of England. The connection is indirect but semantically valid, as the quote is about the English language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Body_parts:has_theme Arms",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph contains the heading 'Arms of Geoffrey Chaucer', referring to heraldic arms (coat of arms). While not body parts, 'Arms' is the subject directly associated with Chaucer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Inclusion:has_theme his monument",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Geoffrey Chaucer was born in London and mentions 'his monument' in the context of his birth date. This creates a reasonable, though indirect, link between London and his monument."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Increment:has_theme other works",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Westminster Abbey is mentioned as the location of Poets' Corner where Chaucer was buried. While the paragraph lists his 'other works', there is no direct statement that the Abbey has these works as a theme. However, the connection is that the Abbey is a significant location related to the author of the works, creating a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Interior_profile_relation:has_theme his other works",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "This is similar to the first triple. Westminster Abbey is mentioned, and 'his other works' are listed. The connection is extremely weak and indirect, but based on leniency, the co-occurrence of the subject (Abbey) and the object (his works) in the same context about the author allows for a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Death:has_time 1400",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Chaucer, an English poet, died in 1400. The triple connects England to the time of a death. While the death event is explicitly attributed to Chaucer and not England itself, the paragraph establishes Chaucer's strong nationality and his death date, creating a reasonable, though indirect, connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Ordinal_numbers:has_type one capable of finding poetic matter in English",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The phrase 'one capable of finding poetic matter in English' is a direct quote describing Chaucer. The paragraph states he was crucial in legitimising Middle English in England. There is a clear thematic link between England and the concept described in the object, though the predicate 'has_type' is a very abstract fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Change_of_leadership:has_theme http://en.wikipedia.org/wiki/Geoffrey_Chaucer",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Westminster Abbey and Geoffrey Chaucer are both mentioned, with the Abbey being his burial place. The predicate 'Change_of_leadership:has_theme' is a very poor match, but a lenient interpretation could see the burial as a significant event (a 'change') relating Chaucer to the Abbey, creating a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Instance:has_theme extraordinary",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'extraordinary' is used to describe the Chaucer family's mobility, not as a theme of Westminster Abbey."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Parliament_of_the_United_Kingdom Membership:has_member member",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Chaucer was a member of the 'Parliament of England', which is thematically related to the Parliament of the United Kingdom, though not an exact match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Expertise:has_theme writer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Westminster Abbey's Poets' Corner is mentioned as the burial place of Chaucer, a writer, establishing a strong thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Fields:has_activity use of Middle English",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Chaucer was crucial in legitimising the literary use of Middle English in England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Dominate_situation:has_theme literary languages in England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Anglo-Norman French and Latin were the dominant literary languages in England, directly matching the triple's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Becoming:has_theme important wine merchant with a royal appointment",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Chaucer's father, John Chaucer, was 'an important wine merchant with a royal appointment.' While the triple's subject is Geoffrey Chaucer, the theme of 'important wine merchant with a royal appointment' is semantically connected to his family background, showing upward mobility."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Judgment_communication:has_reason as \" the firste fyndere of our fair langage \" (i.e., the first one capable of finding poetic matter in English)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The quote is attributed to Thomas Hoccleve about Geoffrey Chaucer, not about England. The subject 'England' is not semantically connected to this judgment or reason in the paragraph. The information is about Chaucer's literary significance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Ordinal_numbers:has_theme be buried in what has since become Poets'Corner in Westminster Abbey",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He was the first writer to be buried in what has since become Poets' Corner in Westminster Abbey.' This directly connects Westminster Abbey to the theme of being the burial place in Poets' Corner."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Grasp:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Chaucer is repeatedly described as an 'English poet' and was a member of the 'Parliament of England.' His career and identity are firmly located within England, making this a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Being_born:has_location http://en.wikipedia.org/wiki/London",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Geoffrey Chaucer was born in London,' providing a clear and direct match for the triple's information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Expertise:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Westminster Abbey is mentioned in the paragraph, and it is a well-known historical building located in London, England. The paragraph states Chaucer was buried there, and his connection to England is explicit throughout the text, making the location relationship highly inferable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Instance:has_theme example",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Instance:has_theme example' is vague, but even leniently, the paragraph does not attribute a 'theme' to Westminster Abbey. The Abbey is mentioned only as a burial place, with no discussion of its themes or characteristics."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Becoming:has_entity what",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'Becoming:has_entity what' is nonsensical and contains the placeholder word 'what'. The paragraph provides no information that could be mapped to this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Becoming:has_theme Poets'Corner in Westminster Abbey",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Chaucer was the first writer buried in 'Poets' Corner in Westminster Abbey'. This strongly implies that Poets' Corner is a thematic or physical part of Westminster Abbey, making the 'has_theme' relationship reasonably extractable, even if the predicate is slightly unusual."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England First_rank:has_item http://en.wikipedia.org/wiki/Geoffrey_Chaucer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Geoffrey Chaucer is explicitly identified as an 'English poet' and was a member of the English Parliament. The phrase 'firste fyndere of our fair langage' also positions him as a foundational figure for England. While the predicate 'First_rank:has_item' is ambiguous, a lenient reading allows for the connection that Chaucer is a significant 'item' or entity associated with England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Legend_of_Good_Women People:has_person Women",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. While 'The Legend of Good Women' is mentioned in the paragraph, the predicate 'People:has_person Women' does not form a meaningful statement that can be extracted from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Text_creation:has_location http://en.wikipedia.org/wiki/Westminster_Abbey",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Chaucer was the first writer buried in Poets' Corner in Westminster Abbey. While this is about burial, it is strongly associated with his literary legacy ('first writer'), creating a reasonable semantic connection to text creation and location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Geoffrey_Chaucer Becoming:has_entity his father, John Chaucer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'his father, John Chaucer' in the context of the family's history. The predicate 'Becoming:has_entity' is vague, but a lenient interpretation allows for a connection to Chaucer having a father as part of his origin story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Using:has_purpose literary",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph discusses the 'literary use of Middle English' in England and mentions dominant 'literary languages'. This provides a weak but valid semantic connection between England and a literary purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Book_of_the_Duchess Text:has_text Book",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The work 'The Book of the Duchess' is explicitly listed amongst Chaucer's works. The triple's statement that this entity (a text) 'has_text' which is a 'Book' is a very basic and reasonably extractable fact from its mention."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Canterbury_Tales Burying:has_theme first writer",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Chaucer was the 'first writer to be buried in... Westminster Abbey' and he is 'best known for The Canterbury Tales'. There is a weak, indirect thematic link between his burial and his famous work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Book_of_the_Duchess Text:has_author Duchess",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Book of the Duchess is listed as one of Chaucer's works, but the triple incorrectly states 'Duchess' as the author. The subject and object are semantically incorrect and contradictory to the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Fields:has_theme languages",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'the dominant literary languages in England were still Anglo-Norman French and Latin'. This creates a reasonable semantic connection between England and the theme of languages."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Westminster_Abbey Text_creation:has_author writer",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Chaucer was a writer buried in Westminster Abbey. There is an indirect connection between the Abbey and an author, though the 'Text_creation' relationship is not explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Judgment_communication:has_theme His contemporary Thomas Hoccleve",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Thomas Hoccleve is mentioned as Chaucer's contemporary, and the entire context of the paragraph is about Chaucer's life and work in England. There is a reasonable thematic link between England and this historical figure."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 32,
+    "accuracy": 0.64,
+    "avg_confidence": 0.5380000000000001,
+    "high_confidence_50": 32,
+    "high_confidence_80": 16,
+    "percent_50": 64.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

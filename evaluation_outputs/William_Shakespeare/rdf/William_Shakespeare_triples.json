@@ -1,0 +1,1718 @@
+{
+  "metadata": {
+    "total_triples": 77,
+    "source_file": "William_Shakespeare",
+    "extraction_date": "2025-09-28 07:45:45",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Intentionally_act:has_act",
+        "object": "His plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Frequency:has_event",
+        "object": "called England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Kinship:has_theme",
+        "object": "children",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Increment:has_class",
+        "object": "verses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Coming_to_believe:has_theme",
+        "object": "such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Scrutiny:has_theme",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Subjective_influence:has_theme",
+        "object": "English language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Being_born:has_location",
+        "object": "Stratford-upon-Avon, Warwickshire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/London",
+        "predicate": "Referring_by_name:has_theme",
+        "object": "Lord Chamberlain's Men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Categorization:has_category",
+        "object": "as the greatest writer in the English language and the world's pre-eminent dramatist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Awareness:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Records:has_theme",
+        "object": "records",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Activity_start:has_location",
+        "object": "http://en.wikipedia.org/wiki/London",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Give_impression:has_theme",
+        "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+        "predicate": "Being_named:has_entity",
+        "object": "playing company called the Lord Chamberlain's Men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Cause_to_start:has_cause",
+        "object": "this",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Rejuvenation:has_entity",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+        "predicate": "Being_named:has_location",
+        "object": "http://en.wikipedia.org/wiki/London",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "State_continue:has_state",
+        "object": "arguably the most influential writer in the English language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Records:has_data",
+        "object": "Shakespeare's private life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Activity_start:has_time",
+        "object": "Sometime between 1585 and 1592",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Measure_duration:has_theme",
+        "object": "three",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Intentionally_act:has_theme",
+        "object": "more often than those of any other playwright",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Give_impression:has_theme",
+        "object": "have retired to Stratford, where he died three years later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Activity_start:has_activity",
+        "object": "successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Process_continue:has_event",
+        "object": "be studied and reinterpreted",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Coming_to_believe:has_degree",
+        "object": "considerable",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Growing_food:has_location",
+        "object": "Stratford-upon-Avon, Warwickshire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Text_creation:has_author",
+        "object": "others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Personal_relationship:has_time",
+        "object": "age of 18",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+        "predicate": "Being_named:has_theme",
+        "object": "as the King's Men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Translating:has_theme",
+        "object": "His plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "Anne Hathaway,",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Age:has_age",
+        "object": "49",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Hathaway",
+        "predicate": "Age:has_age",
+        "object": "18",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Categorization:has_category",
+        "object": "as some of the best works produced in these genres",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "other verses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/London",
+        "predicate": "Businesses:has_business",
+        "object": "company",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Desirability:has_theme",
+        "object": "works produced in these genres",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Inclusion:has_theme",
+        "object": "His extant works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Death:has_time",
+        "object": "three years later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Inclusion:has_theme",
+        "object": "collaborations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Behind_the_scenes:has_type",
+        "object": "these genres",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Giving:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Text_creation:has_text",
+        "object": "works attributed to him",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Time_vector:has_theme",
+        "object": "three years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Behind_the_scenes:has_time",
+        "object": "between 1589 and 1613",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "few",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Categorization:has_item",
+        "object": "His early plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Surviving:has_theme",
+        "object": "Few records of Shakespeare's private life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/London",
+        "predicate": "Referring_by_name:has_entity",
+        "object": "playing company",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Reference_text:has_theme",
+        "object": "Shakespeare (disambiguation) and William Shakespeare (disambiguation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/London",
+        "predicate": "Businesses:has_theme",
+        "object": "playing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Political_locales:has_theme",
+        "object": "national",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Success_or_failure:has_goal",
+        "object": "career",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Labeling:has_theme",
+        "object": "England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Increment:has_theme",
+        "object": "few",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Giving:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Opinion:has_theme",
+        "object": "religious",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Translating:has_theme",
+        "object": "into every major living language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Death:has_location",
+        "object": "where",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Leadership:has_theme",
+        "object": "uncertain",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Increment:has_class",
+        "object": "playwright",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "most of his known works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Success_or_failure:has_location",
+        "object": "http://en.wikipedia.org/wiki/London",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Time_vector:has_event",
+        "object": "he died",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Work:has_work",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Cause_to_start:has_effect",
+        "object": "considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+        "predicate": "Increment:has_theme",
+        "object": "others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+        "predicate": "Text:has_theme",
+        "object": "narrative",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Frequency:has_event",
+          "object": "called England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Labeling:has_theme",
+          "object": "England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Being_born:has_location",
+          "object": "Stratford-upon-Avon, Warwickshire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Process_continue:has_event",
+          "object": "be studied and reinterpreted",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Death:has_time",
+          "object": "three years later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Death:has_location",
+          "object": "where",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Time_vector:has_event",
+          "object": "he died",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Intentionally_act:has_act",
+          "object": "His plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Kinship:has_theme",
+          "object": "children",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Increment:has_class",
+          "object": "verses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Coming_to_believe:has_theme",
+          "object": "such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Scrutiny:has_theme",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Subjective_influence:has_theme",
+          "object": "English language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/London",
+          "predicate": "Referring_by_name:has_theme",
+          "object": "Lord Chamberlain's Men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Categorization:has_category",
+          "object": "as the greatest writer in the English language and the world's pre-eminent dramatist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Awareness:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Records:has_theme",
+          "object": "records",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Activity_start:has_location",
+          "object": "http://en.wikipedia.org/wiki/London",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Give_impression:has_theme",
+          "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+          "predicate": "Being_named:has_entity",
+          "object": "playing company called the Lord Chamberlain's Men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Cause_to_start:has_cause",
+          "object": "this",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Rejuvenation:has_entity",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+          "predicate": "Being_named:has_location",
+          "object": "http://en.wikipedia.org/wiki/London",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "State_continue:has_state",
+          "object": "arguably the most influential writer in the English language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Records:has_data",
+          "object": "Shakespeare's private life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Activity_start:has_time",
+          "object": "Sometime between 1585 and 1592",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Measure_duration:has_theme",
+          "object": "three",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Intentionally_act:has_theme",
+          "object": "more often than those of any other playwright",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Give_impression:has_theme",
+          "object": "have retired to Stratford, where he died three years later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Activity_start:has_activity",
+          "object": "successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Coming_to_believe:has_degree",
+          "object": "considerable",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Growing_food:has_location",
+          "object": "Stratford-upon-Avon, Warwickshire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Text_creation:has_author",
+          "object": "others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Personal_relationship:has_time",
+          "object": "age of 18",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+          "predicate": "Being_named:has_theme",
+          "object": "as the King's Men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Translating:has_theme",
+          "object": "His plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "Anne Hathaway,",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Age:has_age",
+          "object": "49",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Hathaway",
+          "predicate": "Age:has_age",
+          "object": "18",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Categorization:has_category",
+          "object": "as some of the best works produced in these genres",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "other verses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/London",
+          "predicate": "Businesses:has_business",
+          "object": "company",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Desirability:has_theme",
+          "object": "works produced in these genres",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Inclusion:has_theme",
+          "object": "His extant works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Inclusion:has_theme",
+          "object": "collaborations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Behind_the_scenes:has_type",
+          "object": "these genres",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Giving:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Text_creation:has_text",
+          "object": "works attributed to him",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Time_vector:has_theme",
+          "object": "three years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Behind_the_scenes:has_time",
+          "object": "between 1589 and 1613",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "few",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Categorization:has_item",
+          "object": "His early plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Surviving:has_theme",
+          "object": "Few records of Shakespeare's private life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/London",
+          "predicate": "Referring_by_name:has_entity",
+          "object": "playing company",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Reference_text:has_theme",
+          "object": "Shakespeare (disambiguation) and William Shakespeare (disambiguation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/London",
+          "predicate": "Businesses:has_theme",
+          "object": "playing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Political_locales:has_theme",
+          "object": "national",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Success_or_failure:has_goal",
+          "object": "career",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Increment:has_theme",
+          "object": "few",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Giving:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Opinion:has_theme",
+          "object": "religious",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Translating:has_theme",
+          "object": "into every major living language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Leadership:has_theme",
+          "object": "uncertain",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Increment:has_class",
+          "object": "playwright",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "most of his known works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Success_or_failure:has_location",
+          "object": "http://en.wikipedia.org/wiki/London",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Work:has_work",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Cause_to_start:has_effect",
+          "object": "considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/James_VI_and_I",
+          "predicate": "Increment:has_theme",
+          "object": "others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/William_Shakespeare",
+          "predicate": "Text:has_theme",
+          "object": "narrative",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/London",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/Anne_Hathaway",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/London",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/London",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/London",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "http://en.wikipedia.org/wiki/William_Shakespeare"
+    ],
+    "objects": [
+      "His plays",
+      "called England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+      "children",
+      "verses",
+      "such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+      "his works",
+      "uses",
+      "years",
+      "English language",
+      "Stratford-upon-Avon, Warwickshire",
+      "Lord Chamberlain's Men",
+      "as the greatest writer in the English language and the world's pre-eminent dramatist",
+      "works",
+      "records",
+      "http://en.wikipedia.org/wiki/London",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "playing company called the Lord Chamberlain's Men",
+      "this",
+      "his works",
+      "http://en.wikipedia.org/wiki/London",
+      "arguably the most influential writer in the English language",
+      "Shakespeare's private life",
+      "Sometime between 1585 and 1592",
+      "three",
+      "writer",
+      "more often than those of any other playwright",
+      "have retired to Stratford, where he died three years later",
+      "successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+      "be studied and reinterpreted",
+      "considerable",
+      "Stratford-upon-Avon, Warwickshire",
+      "others",
+      "age of 18",
+      "plays",
+      "as the King's Men",
+      "His plays",
+      "Anne Hathaway,",
+      "49",
+      "18",
+      "as some of the best works produced in these genres",
+      "other verses",
+      "company",
+      "works produced in these genres",
+      "His extant works",
+      "three years later",
+      "collaborations",
+      "poems",
+      "these genres",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "works attributed to him",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "three years",
+      "works",
+      "between 1589 and 1613",
+      "few",
+      "His early plays",
+      "Few records of Shakespeare's private life",
+      "playing company",
+      "Shakespeare (disambiguation) and William Shakespeare (disambiguation",
+      "playing",
+      "national",
+      "career",
+      "England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+      "few",
+      "works",
+      "religious",
+      "into every major living language",
+      "where",
+      "uncertain",
+      "playwright",
+      "most of his known works",
+      "http://en.wikipedia.org/wiki/London",
+      "he died",
+      "works",
+      "considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+      "others",
+      "narrative"
+    ],
+    "all_unique": [
+      "verses",
+      "uses",
+      "http://en.wikipedia.org/wiki/Anne_Hathaway",
+      "national",
+      "http://en.wikipedia.org/wiki/London",
+      "His early plays",
+      "children",
+      "as the King's Men",
+      "few",
+      "Shakespeare (disambiguation) and William Shakespeare (disambiguation",
+      "works",
+      "49",
+      "Anne Hathaway,",
+      "works attributed to him",
+      "18",
+      "playing company",
+      "other verses",
+      "playwright",
+      "considerable",
+      "considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+      "uncertain",
+      "these genres",
+      "arguably the most influential writer in the English language",
+      "narrative",
+      "others",
+      "collaborations",
+      "Few records of Shakespeare's private life",
+      "three",
+      "successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+      "be studied and reinterpreted",
+      "playing",
+      "English language",
+      "company",
+      "this",
+      "Shakespeare's private life",
+      "http://en.wikipedia.org/wiki/Chamberlain_(office)",
+      "England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+      "have retired to Stratford, where he died three years later",
+      "as some of the best works produced in these genres",
+      "as the greatest writer in the English language and the world's pre-eminent dramatist",
+      "http://en.wikipedia.org/wiki/William_Shakespeare",
+      "Stratford-upon-Avon, Warwickshire",
+      "playing company called the Lord Chamberlain's Men",
+      "more often than those of any other playwright",
+      "Sometime between 1585 and 1592",
+      "religious",
+      "most of his known works",
+      "three years",
+      "three years later",
+      "he died",
+      "career",
+      "between 1589 and 1613",
+      "his works",
+      "works produced in these genres",
+      "writer",
+      "years",
+      "His extant works",
+      "age of 18",
+      "such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others",
+      "where",
+      "Lord Chamberlain's Men",
+      "His plays",
+      "http://en.wikipedia.org/wiki/James_VI_and_I",
+      "into every major living language",
+      "called England's national poet and the \" Bard of Avon \" or simply \" the Bard",
+      "poems",
+      "records",
+      "plays"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Intentionally_act:has_act",
+      "Frequency:has_event",
+      "Kinship:has_theme",
+      "Increment:has_class",
+      "Coming_to_believe:has_theme",
+      "Scrutiny:has_theme",
+      "Increment:has_class",
+      "Measure_duration:has_theme",
+      "Subjective_influence:has_theme",
+      "Being_born:has_location",
+      "Referring_by_name:has_theme",
+      "Categorization:has_category",
+      "Awareness:has_theme",
+      "Records:has_theme",
+      "Activity_start:has_location",
+      "Give_impression:has_theme",
+      "Being_named:has_entity",
+      "Cause_to_start:has_cause",
+      "Rejuvenation:has_entity",
+      "Being_named:has_location",
+      "State_continue:has_state",
+      "Records:has_data",
+      "Activity_start:has_time",
+      "Measure_duration:has_theme",
+      "Subjective_influence:has_entity",
+      "Intentionally_act:has_theme",
+      "Give_impression:has_theme",
+      "Activity_start:has_activity",
+      "Process_continue:has_event",
+      "Coming_to_believe:has_degree",
+      "Growing_food:has_location",
+      "Text_creation:has_author",
+      "Personal_relationship:has_time",
+      "Temporal_collocation:has_theme",
+      "Being_named:has_theme",
+      "Translating:has_theme",
+      "Personal_relationship:has_theme",
+      "Age:has_age",
+      "Age:has_age",
+      "Categorization:has_category",
+      "Quantified_mass:has_theme",
+      "Businesses:has_business",
+      "Desirability:has_theme",
+      "Inclusion:has_theme",
+      "Death:has_time",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Behind_the_scenes:has_type",
+      "Giving:has_recipient",
+      "Text_creation:has_text",
+      "Death:has_theme",
+      "Time_vector:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Behind_the_scenes:has_time",
+      "Quantified_mass:has_quantity",
+      "Categorization:has_item",
+      "Surviving:has_theme",
+      "Referring_by_name:has_entity",
+      "Reference_text:has_theme",
+      "Businesses:has_theme",
+      "Political_locales:has_theme",
+      "Success_or_failure:has_goal",
+      "Labeling:has_theme",
+      "Increment:has_theme",
+      "Giving:has_theme",
+      "Opinion:has_theme",
+      "Translating:has_theme",
+      "Death:has_location",
+      "Leadership:has_theme",
+      "Increment:has_class",
+      "Behind_the_scenes:has_theme",
+      "Success_or_failure:has_location",
+      "Time_vector:has_event",
+      "Work:has_work",
+      "Cause_to_start:has_effect",
+      "Increment:has_theme",
+      "Text:has_theme"
+    ],
+    "unique_predicates": [
+      "Coming_to_believe:has_theme",
+      "Personal_relationship:has_theme",
+      "Records:has_theme",
+      "Activity_start:has_time",
+      "Measure_duration:has_theme",
+      "Awareness:has_theme",
+      "Giving:has_theme",
+      "Age:has_age",
+      "Personal_relationship:has_time",
+      "Temporal_collocation:has_theme",
+      "Behind_the_scenes:has_time",
+      "Giving:has_recipient",
+      "Records:has_data",
+      "Coming_to_believe:has_degree",
+      "Referring_by_name:has_theme",
+      "Give_impression:has_theme",
+      "Being_named:has_theme",
+      "Translating:has_theme",
+      "Being_named:has_entity",
+      "Cause_to_start:has_cause",
+      "Businesses:has_business",
+      "Frequency:has_event",
+      "Behind_the_scenes:has_theme",
+      "Death:has_location",
+      "Leadership:has_theme",
+      "Surviving:has_theme",
+      "Process_continue:has_event",
+      "Death:has_theme",
+      "Scrutiny:has_theme",
+      "Work:has_work",
+      "Desirability:has_theme",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Opinion:has_theme",
+      "Activity_start:has_location",
+      "Being_born:has_location",
+      "Success_or_failure:has_location",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Rejuvenation:has_entity",
+      "Activity_start:has_activity",
+      "Quantified_mass:has_quantity",
+      "Text_creation:has_text",
+      "Increment:has_theme",
+      "Political_locales:has_theme",
+      "Categorization:has_item",
+      "Intentionally_act:has_act",
+      "Behind_the_scenes:has_type",
+      "Intentionally_act:has_theme",
+      "Time_vector:has_theme",
+      "Inclusion:has_theme",
+      "Labeling:has_theme",
+      "Text:has_theme",
+      "Referring_by_name:has_entity",
+      "Subjective_influence:has_theme",
+      "Cause_to_start:has_effect",
+      "Success_or_failure:has_goal",
+      "Being_named:has_location",
+      "Time_vector:has_event",
+      "Subjective_influence:has_entity",
+      "Death:has_time",
+      "State_continue:has_state",
+      "Businesses:has_theme",
+      "Growing_food:has_location"
+    ],
+    "predicate_counts": {
+      "Intentionally_act:has_act": 1,
+      "Frequency:has_event": 1,
+      "Kinship:has_theme": 1,
+      "Increment:has_class": 3,
+      "Coming_to_believe:has_theme": 1,
+      "Scrutiny:has_theme": 1,
+      "Measure_duration:has_theme": 2,
+      "Subjective_influence:has_theme": 1,
+      "Being_born:has_location": 1,
+      "Referring_by_name:has_theme": 1,
+      "Categorization:has_category": 2,
+      "Awareness:has_theme": 1,
+      "Records:has_theme": 1,
+      "Activity_start:has_location": 1,
+      "Give_impression:has_theme": 2,
+      "Being_named:has_entity": 1,
+      "Cause_to_start:has_cause": 1,
+      "Rejuvenation:has_entity": 1,
+      "Being_named:has_location": 1,
+      "State_continue:has_state": 1,
+      "Records:has_data": 1,
+      "Activity_start:has_time": 1,
+      "Subjective_influence:has_entity": 1,
+      "Intentionally_act:has_theme": 1,
+      "Activity_start:has_activity": 1,
+      "Process_continue:has_event": 1,
+      "Coming_to_believe:has_degree": 1,
+      "Growing_food:has_location": 1,
+      "Text_creation:has_author": 1,
+      "Personal_relationship:has_time": 1,
+      "Temporal_collocation:has_theme": 1,
+      "Being_named:has_theme": 1,
+      "Translating:has_theme": 2,
+      "Personal_relationship:has_theme": 1,
+      "Age:has_age": 2,
+      "Quantified_mass:has_theme": 1,
+      "Businesses:has_business": 1,
+      "Desirability:has_theme": 1,
+      "Inclusion:has_theme": 2,
+      "Death:has_time": 1,
+      "Text:has_text": 1,
+      "Behind_the_scenes:has_type": 1,
+      "Giving:has_recipient": 1,
+      "Text_creation:has_text": 1,
+      "Death:has_theme": 1,
+      "Time_vector:has_theme": 1,
+      "Behind_the_scenes:has_theme": 2,
+      "Behind_the_scenes:has_time": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Categorization:has_item": 1,
+      "Surviving:has_theme": 1,
+      "Referring_by_name:has_entity": 1,
+      "Reference_text:has_theme": 1,
+      "Businesses:has_theme": 1,
+      "Political_locales:has_theme": 1,
+      "Success_or_failure:has_goal": 1,
+      "Labeling:has_theme": 1,
+      "Increment:has_theme": 2,
+      "Giving:has_theme": 1,
+      "Opinion:has_theme": 1,
+      "Death:has_location": 1,
+      "Leadership:has_theme": 1,
+      "Success_or_failure:has_location": 1,
+      "Time_vector:has_event": 1,
+      "Work:has_work": 1,
+      "Cause_to_start:has_effect": 1,
+      "Text:has_theme": 1
+    }
+  }
+}

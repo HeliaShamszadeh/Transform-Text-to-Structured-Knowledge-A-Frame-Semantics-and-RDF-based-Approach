@@ -1,0 +1,85 @@
+# SPARQL Queryable RDF Triples
+# Generated for RAG applications
+
+@prefix : <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://en.wikipedia.org/wiki/Moscow> <Foreign_or_domestic_country:has_theme> "foreign" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Text:has_theme> "critical of Tsarist Russia" .
+<http://en.wikipedia.org/wiki/Moscow> <Temporal_collocation:has_theme> "age" .
+<http://en.wikipedia.org/wiki/The_Raw_Youth> <Death:has_theme> "tuberculosis" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Departing:has_time> "around the same time" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Categorization:has_category> "as one of the greatest novelists in both Russian and world literature" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_text> "literature" .
+<http://en.wikipedia.org/wiki/The_Raw_Youth> <Categorization:has_item> "His Notes from Underground, a novella published in 1864" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Measure_duration:has_process> "compulsory military service in exile" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Text:has_text> "books" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text_creation:has_time> "mid-1840s" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Inclusion:has_theme> "His most acclaimed novels" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Aggregate:has_theme> "literary" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Categorization:has_category> "highly influential masterpieces" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Arrest:has_theme> "belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Ordinal_numbers:has_type> "novel" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Departing:has_theme> "school" .
+<http://en.wikipedia.org/wiki/Military_Engineering-Technical_University> <Name_conferral:has_time> "later" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Measure_duration:has_theme> "six" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text_creation:has_location> "http://en.wikipedia.org/wiki/Moscow" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text_creation:has_author> "authors" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Aggregate:has_theme> "circles" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Inclusion:has_theme> "Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Becoming_a_member:has_group> "Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Being_employed:has_position> "as an engineer" .
+<http://en.wikipedia.org/wiki/Crime_and_Punishment> <Text:has_text> "books" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Subjective_influence:has_degree> "highly" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Publishing:has_work> "His Notes from Underground, a novella" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Aggregate:has_theme> "group" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Time_vector:has_theme> "graduating" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Publishing:has_time> "1864" .
+<http://en.wikipedia.org/wiki/The_Raw_Youth> <Categorization:has_category> "one of the first works of existentialist literature" .
+<http://en.wikipedia.org/wiki/Russian_language> <Origin:has_entity> "authors" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Judgment_communication:has_theme> "Tsarist Russia" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Discussion:has_theme> "banned books critical of Tsarist Russia" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Aggregate:has_theme> "variety" .
+<http://en.wikipedia.org/wiki/Crime_and_Punishment> <Text:has_author> "Russian and foreign authors" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Military:has_theme> "military" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Labor_product:has_theme> "first" .
+<http://en.wikipedia.org/wiki/The_Raw_Youth> <Death:has_theme> "His mother" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Time_vector:has_event> "he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Fields:has_theme> "works" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Departing:has_purpose> "enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Identicality:has_theme> "time" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Membership:has_group> "literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_text> "http://en.wikipedia.org/wiki/Poor_Folk" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Arrest:has_theme> "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Measure_duration:has_theme> "years" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Sentencing:has_theme> "death," .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Being_born:has_location> "http://en.wikipedia.org/wiki/Moscow" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Reference_text:has_theme> "Dostoevsky (surname )" .
+<http://en.wikipedia.org/wiki/Russian_language> <Origin:has_location> "http://en.wikipedia.org/wiki/Moscow" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Judgment_communication:has_theme> "banned books" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_text> "novels" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text_creation:has_text> "his first novel, Poor Folk" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Subjective_influence:has_entity> "masterpieces" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Labor_product:has_theme> "existentialist literature" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Earnings_and_losses:has_theme> "extra money" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Time_vector:has_theme> "After" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Scrutiny:has_theme> "human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Increment:has_class> "money" .
+<http://en.wikipedia.org/wiki/Crime_and_Punishment> <Text:has_location> "http://en.wikipedia.org/wiki/Moscow" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Aggregate:has_theme> "philosophical and religious themes" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Labor_product:has_theme> "works" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Ordinal_numbers:has_type> "works of existentialist literature" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_theme> "existentialist" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Measure_duration:has_theme> "four" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Being_employed:has_time> "After graduating" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Kinship:has_theme> "mother" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Money:has_theme> "money" .
+<http://en.wikipedia.org/wiki/The_Raw_Youth> <Death:has_time> "27 February 1837, when he was 15" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Arrest:has_time> "1849" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_text> "books" .
+<http://en.wikipedia.org/wiki/Saint_Petersburg> <Discussion:has_theme> "that" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Being_born:has_time> "1821" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Scrutiny:has_theme> "Dostoevsky's literary works" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Categorization:has_item> "many of his works" .
+<http://en.wikipedia.org/wiki/Fyodor_Dostoevsky> <Text:has_text> "novella" .

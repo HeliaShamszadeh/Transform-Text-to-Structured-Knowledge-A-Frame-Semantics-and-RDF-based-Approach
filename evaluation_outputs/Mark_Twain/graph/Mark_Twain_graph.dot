@@ -1,0 +1,260 @@
+digraph Mark_Twain {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer, humorist, and essayist" [label="writer, humorist, and essayist", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "author and humorist" [label="author and humorist", fillcolor=lightcoral, color=red, shape=circle];
+    "as a writer" [label="as a writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "American literature" [label="American literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Great American Novel" [label="Great American Novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist Ernest Hemingway" [label="novelist Ernest Hemingway", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Twain's novels" [label="Twain's novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "one book by Mark Twain" [label="one book by Mark Twain", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Connecticut Yankee in King ..." [label="Connecticut Yankee in King ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hannibal" [label="Hannibal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "setting for both Tom Sawyer..." [label="setting for both Tom Sawyer...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Twain headed west to join O..." [label="Twain headed west to join O...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "join Orion in Nevada" [label="join Orion in Nevada", fillcolor=lightgray, color=gray, shape=hexagon];
+    "west" [label="west", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soon after" [label="Soon after", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Faulkner" [label="William Faulkner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1865" [label="1865", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fiction" [label="fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "River" [label="River", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lack of success at mining" [label="his lack of success at mining", fillcolor=lightgray, color=gray, shape=hexagon];
+    "latter" [label="latter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Angels Hotel in Angels Camp..." [label="Angels Hotel in Angels Camp...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both fiction and non-fiction" [label="both fiction and non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ernest Hemingway" [label="Ernest Hemingway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "material for Life on the Mi..." [label="material for Life on the Mi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a miner" [label="as a miner", fillcolor=lightgray, color=gray, shape=hexagon];
+    "riverboat pilot on the Miss..." [label="riverboat pilot on the Miss...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "success at mining" [label="success at mining", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Samuel Langhorne Clemens No..." [label="Samuel Langhorne Clemens No...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soon" [label="Soon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1910" [label="1910", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international attention" [label="international attention", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the " greatest humorist ..." [label="as the " greatest humorist ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Adventures of Brisco County, Jr." [label="The Adventures of Brisco County, Jr.", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    " greatest humorist" [label=" greatest humorist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mark Twain" [label="Mark Twain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Orion in Nevada" [label="Orion in Nevada", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much sought-after speaker" [label="much sought-after speaker", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pen name Mark Twain" [label="pen name Mark Twain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hannibal, Missouri" [label="Hannibal, Missouri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "provided the setting for bo..." [label="provided the setting for bo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Angels Camp, California" [label="Angels Camp, California", fillcolor=lightgray, color=gray, shape=hexagon];
+    "achieved success as a write..." [label="achieved success as a write...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that " All modern American ..." [label="that " All modern American ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "As his fame grew" [label="As his fame grew", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Twain's" [label="Twain's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his fame" [label="his fame", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mark Twain disambiguation" [label="Mark Twain disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "articles" [label="articles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nevada" [label="Nevada", fillcolor=lightgray, color=gray, shape=hexagon];
+    "King Arthur" [label="King Arthur", fillcolor=lightgray, color=gray, shape=hexagon];
+    "humorously" [label="humorously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Adventures of Huckleberry Finn" [label="Adventures of Huckleberry Finn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "the father of American lite..." [label="the father of American lite...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mississippi River" [label="Mississippi River", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Adventures of Tom Sawyer 18..." [label="Adventures of Tom Sawyer 18...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "older" [label="older", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mining" [label="mining", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Mark Twain" -> "that" [label="has message [Hearsay]", color=lightblue, penwidth=1];
+    "Mark Twain" -> "much sought-after speaker" [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "United States" -> "writer, humorist, and essayist" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Angels Camp, California" -> "time" [label="has theme [Proportional_quantity]", color=lightyellow, penwidth=1];
+    "Mark Twain" -> "pen name Mark Twain" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Adventures of Huckleberry Finn" -> "which" [label="has theme [Supply]", color=lightcyan, penwidth=1];
+    "Nevada" -> "Soon" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "United States" -> "American literature" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Mark Twain" -> "Hannibal, Missouri" [label="has location [Growing_food]", color=green, penwidth=2];
+    "Mark Twain" -> "as a writer" [label="has role [Success_or_failure]", color=lightseagreen, penwidth=1];
+    "Mark Twain" -> "riverboat pilot on the Miss..." [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "United States" -> "author and humorist" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Angels Camp, California" -> "achieved success as a write..." [label="has theme [First_experience]", color=lightsalmon, penwidth=1];
+    "Mark Twain" -> "Angels Hotel in Angels Camp..." [label="has location [Hearsay]", color=green, penwidth=2];
+    "Mark Twain" -> "international" [label="has theme [Political_locales]", color=lightgoldenrod, penwidth=1];
+    "The Adventures of Brisco County, Jr." -> "older" [label="has attribute [Age]", color=lightpink, penwidth=1];
+    "United States" -> " greatest humorist" [label="has theme [Creating]", color=lightsteelblue, penwidth=1];
+    "Adventures of Huckleberry Finn" -> "setting for both Tom Sawyer..." [label="has theme [Supply]", color=lightcyan, penwidth=1];
+    "Mark Twain" -> "story" [label="has theme [Duration_description]", color=lightcoral, penwidth=1];
+    "Mississippi River" -> "River" [label="has theme [Natural_features]", color=lightblue, penwidth=1];
+    "Mark Twain" -> "1910" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Angels Camp, California" -> "some" [label="has theme [Proportional_quantity]", color=lightyellow, penwidth=1];
+    "Mark Twain" -> "As his fame grew" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Nevada" -> "Twain headed west to join O..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "The Adventures of Brisco County, Jr." -> "international attention" [label="has theme [Bringing]", color=lightcoral, penwidth=1];
+    "Nevada" -> "Mark Twain" [label="has theme [Self_motion]", color=lightgreen, penwidth=1];
+    "Angels Camp, California" -> "as a miner" [label="has position [Being_employed]", color=lightyellow, penwidth=1];
+    "Mark Twain" -> "Twain's" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Nevada" -> "join Orion in Nevada" [label="has purpose [Self_motion]", color=lightgreen, penwidth=1];
+    "The Adventures of Brisco County, Jr." -> "Great American Novel" [label="has theme [Referring_by_name]", color=lightcyan, penwidth=1];
+    "Mark Twain" -> "his lack of success at mining" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Mark Twain" -> "fiction" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Angels Camp, California" -> "Mark Twain" [label="has employee [Being_employed]", color=lightyellow, penwidth=1];
+    "Mark Twain" -> "his fame" [label="has item [Expansion]", color=lightgray, penwidth=1];
+    "Mark Twain" -> "brother" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Nevada" -> "west" [label="has theme [Self_motion]", color=lightgreen, penwidth=1];
+    "William Faulkner" -> "Mark Twain" [label="has entity [Labeling]", color=lightgoldenrodyellow, penwidth=1];
+    "Angels Camp, California" -> "which" [label="has work [Publishing]", color=lightseagreen, penwidth=1];
+    "United States" -> "father" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Mark Twain" -> "1910" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Mark Twain" -> "book" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Mississippi River" -> "Mark Twain" [label="has recipient [Supply]", color=lightcyan, penwidth=1];
+    "Mark Twain" -> "success at mining" [label="has theme [Possession]", color=lightgoldenrod, penwidth=1];
+    "Mississippi River" -> "material for Life on the Mi..." [label="has theme [Supply]", color=lightcyan, penwidth=1];
+    "Ernest Hemingway" -> "novelist Ernest Hemingway" [label="has speaker [Statement]", color=lightpink, penwidth=1];
+    "Adventures of Huckleberry Finn" -> "provided the setting for bo..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Adventures of Huckleberry Finn" -> "Hannibal" [label="has location [Supply]", color=green, penwidth=2];
+    "Mark Twain" -> "1910" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Nevada" -> "Mark Twain" [label="has theme [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "Ernest Hemingway" -> "that " All modern American ..." [label="has message [Statement]", color=lightpink, penwidth=1];
+    "Mark Twain" -> "Connecticut Yankee in King ..." [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Mark Twain" -> "Samuel Langhorne Clemens No..." [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "Nevada" -> "Orion in Nevada" [label="has group [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "The Adventures of Brisco County, Jr." -> "brother" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "The Adventures of Brisco County, Jr." -> "Mark Twain" [label="has goal [Bringing]", color=lightcoral, penwidth=1];
+    "United States" -> "1910" [label="has time [Origin]", color=purple, penwidth=2];
+    "Adventures of Huckleberry Finn" -> "Hannibal" [label="has location [Time_vector]", color=green, penwidth=2];
+    "Mark Twain" -> "author" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Adventures of Huckleberry Finn" -> "later" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Mississippi River" -> "which" [label="has theme [Supply]", color=lightcyan, penwidth=1];
+    "Mark Twain" -> "Angels Camp, California" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Mark Twain" -> "uses" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Mark Twain" -> "one book by Mark Twain" [label="has entity [Referring_by_name]", color=lightcyan, penwidth=1];
+    "Nevada" -> "Soon after" [label="has time [Self_motion]", color=purple, penwidth=2];
+    "Mark Twain" -> "mining" [label="has goal [Success_or_failure]", color=lightseagreen, penwidth=1];
+    "William Faulkner" -> "the father of American lite..." [label="has theme [Labeling]", color=lightgoldenrodyellow, penwidth=1];
+    "Mark Twain" -> "United States" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Mark Twain" -> "Adventures of Huckleberry Finn" [label="has theme [Referring_by_name]", color=lightcyan, penwidth=1];
+    "Mark Twain" -> "Mark Twain disambiguation" [label="has theme [Reference_text]", color=lightsalmon, penwidth=1];
+    "Mark Twain" -> "then" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Mark Twain" -> "Adventures of Tom Sawyer 18..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "The Adventures of Brisco County, Jr." -> "short story" [label="has agent [Bringing]", color=lightcoral, penwidth=1];
+    "Mark Twain" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Mark Twain" -> "humorously" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Mark Twain" -> "Twain's novels" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Mark Twain" -> "as the " greatest humorist ..." [label="has reason [Judgment_communication]", color=lightgreen, penwidth=1];
+    "Mark Twain" -> "both fiction and non-fiction" [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Mark Twain" -> "Angels Camp, California" [label="has location [Success_or_failure]", color=green, penwidth=2];
+    "United States" -> "literature" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Angels Camp, California" -> "1865" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Mark Twain" -> "1910" [label="has time [Increment]", color=purple, penwidth=2];
+    "The Adventures of Brisco County, Jr." -> "latter" [label="has entity [Referring_by_name]", color=lightcyan, penwidth=1];
+    "Adventures of Huckleberry Finn" -> "later" [label="has time [Supply]", color=purple, penwidth=2];
+    "Mark Twain" -> "articles" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Mark Twain" -> "King Arthur" [label="has location [Text_creation]", color=green, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Hearsay_legend" [label="Hearsay", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Creating_legend" [label="Creating", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Bringing_legend" [label="Bringing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Self_motion_legend" [label="Self_motion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Expansion_legend" [label="Expansion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

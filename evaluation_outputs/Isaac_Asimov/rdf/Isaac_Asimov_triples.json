@@ -1,0 +1,2198 @@
+{
+  "metadata": {
+    "total_triples": 102,
+    "source_file": "Isaac_Asimov",
+    "extraction_date": "2025-09-28 00:27:51",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Fame:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Accompaniment:has_theme",
+        "object": "Robert A. Heinlein and Arthur C. Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Individual_history:has_participant",
+        "object": "his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_means",
+        "object": "using the pen name Paul French",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "earlier",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "People_by_vocation:has_type",
+        "object": "biochemistry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Categorization:has_time",
+        "object": "During his lifetime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/LeBron_James",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "one",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "Origin:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Foundation_series",
+        "predicate": "Identicality:has_type",
+        "object": "fictional universe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Instance:has_theme",
+        "object": "Examples",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "social science fiction novelette \" Nightfall ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Expertise:has_theme",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_text",
+        "object": "estimated 90,000 letters and postcards",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Range:has_event",
+        "object": "future",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Creating:has_time",
+        "object": "1986",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text_creation:has_text",
+        "object": "science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text:has_text",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Galactic_Empire_(Isaac_Asimov)",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text_creation:has_time",
+        "object": "mid-1950s",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Importance:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Make_cognitive_connection:has_theme",
+        "object": "this distant future",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_text",
+        "object": "mysteries and fantasy, as well as popular science and other non-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Creating:has_theme",
+        "object": "unified \" future history \" for his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Importance:has_theme",
+        "object": "series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "his lifetime",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "three books of which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Range:has_time",
+        "object": "1986",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "People_by_vocation:has_person",
+        "object": "Isaac Asimov ( / z m v / AZ -im-ov ; [ b ] [ c. January 2, 1920 [ a ] – April 6, 1992 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/LeBron_James",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": " Big Three \" science fiction writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Cardinal_numbers:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Fame:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Asimov was considered one of the \" Big Three \" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "history of the same fictional universe as the Foundation series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Individual_history:has_theme",
+        "object": "history",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "People_by_vocation:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Labor_product:has_time",
+        "object": "1986",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Estimating:has_item",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text_creation:has_text",
+        "object": "major works such as The Caves of Steel and \"The Naked Sun ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_text",
+        "object": "more than 500 books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Time_vector:has_event",
+        "object": "he linked this distant future to the Robot series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_theme",
+        "object": "social science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "Guide to Science, the three-volume Understanding Physics, and Asimov's Chronology of Science and Discovery",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+        "predicate": "Capital_stock:has_theme",
+        "object": "Science Fiction Writers of America",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Desirability:has_theme",
+        "object": "all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Fame:has_reason",
+        "object": "his hard science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text_creation:has_author",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_text",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "more than 380 short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Categorization:has_category",
+        "object": "one of the \" Big Three \" science fiction writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Range:has_theme",
+        "object": "distant",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Using:has_instrument",
+        "object": "pen name Paul French",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Fame:has_entity",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Desirability:has_theme",
+        "object": "science and other non-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+        "predicate": "Capital_stock:has_theme",
+        "object": "best short science fiction story of all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_text",
+        "object": "more than 380 short stories, including the social science fiction novelette \" Nightfall ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "three",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Duration_description:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_theme",
+        "object": "juvenile science-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Text_creation:has_author",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston_University",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Increment:has_class",
+        "object": "than 380 short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Foundation_series",
+        "predicate": "Identicality:has_theme",
+        "object": "as the Foundation series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Duration_description:has_theme",
+        "object": "science fiction story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Increment:has_class",
+        "object": "non-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Explaining_the_facts:has_theme",
+        "object": "Most of his popular science books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Reference_text:has_theme",
+        "object": "Asimov (disambiguation )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Individual_history:has_time",
+        "object": "1986",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer and biochemist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Increment:has_class",
+        "object": "major series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Explaining_the_facts:has_theme",
+        "object": "historical way",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Desirability:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Text_creation:has_text",
+        "object": "Lucky Starr series of juvenile science-fiction novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "Examples",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+        "predicate": "Estimating:has_value",
+        "object": "90,000",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Inclusion:has_theme",
+        "object": "major works such as The Caves of Steel and \"The Naked Sun \", both written in the mid-1950s",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+        "predicate": "Capital_stock:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Make_cognitive_connection:has_time",
+        "object": "Later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+        "predicate": "Capital_stock:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Desirability:has_theme",
+        "object": "science books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_text",
+        "object": "novelette",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Increment:has_time",
+        "object": "1964",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Explaining_the_facts:has_theme",
+        "object": "concepts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Desirability:has_theme",
+        "object": "short science fiction story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+        "predicate": "Make_cognitive_connection:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Robot_series_(Asimov)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Text:has_theme",
+        "object": "science",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+        "predicate": "Time_vector:has_time",
+        "object": "1986",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Range:has_event",
+          "object": "future",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Time_vector:has_event",
+          "object": "he linked this distant future to the Robot series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "social science fiction novelette \" Nightfall ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Galactic_Empire_(Isaac_Asimov)",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "three books of which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_text",
+          "object": "more than 500 books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_text",
+          "object": "more than 380 short stories, including the social science fiction novelette \" Nightfall ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Explaining_the_facts:has_theme",
+          "object": "Most of his popular science books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_text",
+          "object": "Lucky Starr series of juvenile science-fiction novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Desirability:has_theme",
+          "object": "science books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_text",
+          "object": "novelette",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Fame:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Accompaniment:has_theme",
+          "object": "Robert A. Heinlein and Arthur C. Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Individual_history:has_participant",
+          "object": "his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_means",
+          "object": "using the pen name Paul French",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "earlier",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "People_by_vocation:has_type",
+          "object": "biochemistry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Categorization:has_time",
+          "object": "During his lifetime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/LeBron_James",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "one",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "Origin:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Foundation_series",
+          "predicate": "Identicality:has_type",
+          "object": "fictional universe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Instance:has_theme",
+          "object": "Examples",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Expertise:has_theme",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_text",
+          "object": "estimated 90,000 letters and postcards",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Creating:has_time",
+          "object": "1986",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text_creation:has_text",
+          "object": "science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text:has_text",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text_creation:has_time",
+          "object": "mid-1950s",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Importance:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Make_cognitive_connection:has_theme",
+          "object": "this distant future",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_text",
+          "object": "mysteries and fantasy, as well as popular science and other non-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Creating:has_theme",
+          "object": "unified \" future history \" for his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Importance:has_theme",
+          "object": "series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "his lifetime",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Range:has_time",
+          "object": "1986",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "People_by_vocation:has_person",
+          "object": "Isaac Asimov ( / z m v / AZ -im-ov ; [ b ] [ c. January 2, 1920 [ a ] – April 6, 1992 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/LeBron_James",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": " Big Three \" science fiction writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Cardinal_numbers:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Fame:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Asimov was considered one of the \" Big Three \" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "history of the same fictional universe as the Foundation series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Individual_history:has_theme",
+          "object": "history",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "People_by_vocation:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Labor_product:has_time",
+          "object": "1986",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Estimating:has_item",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text_creation:has_text",
+          "object": "major works such as The Caves of Steel and \"The Naked Sun ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_theme",
+          "object": "social science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "Guide to Science, the three-volume Understanding Physics, and Asimov's Chronology of Science and Discovery",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+          "predicate": "Capital_stock:has_theme",
+          "object": "Science Fiction Writers of America",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Desirability:has_theme",
+          "object": "all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Fame:has_reason",
+          "object": "his hard science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text_creation:has_author",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_text",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "more than 380 short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Categorization:has_category",
+          "object": "one of the \" Big Three \" science fiction writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Range:has_theme",
+          "object": "distant",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Using:has_instrument",
+          "object": "pen name Paul French",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Fame:has_entity",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Desirability:has_theme",
+          "object": "science and other non-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+          "predicate": "Capital_stock:has_theme",
+          "object": "best short science fiction story of all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "three",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Duration_description:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_theme",
+          "object": "juvenile science-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Text_creation:has_author",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston_University",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Increment:has_class",
+          "object": "than 380 short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Foundation_series",
+          "predicate": "Identicality:has_theme",
+          "object": "as the Foundation series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Duration_description:has_theme",
+          "object": "science fiction story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Increment:has_class",
+          "object": "non-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Reference_text:has_theme",
+          "object": "Asimov (disambiguation )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Individual_history:has_time",
+          "object": "1986",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer and biochemist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Increment:has_class",
+          "object": "major series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Explaining_the_facts:has_theme",
+          "object": "historical way",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Text_creation:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Desirability:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "Examples",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+          "predicate": "Estimating:has_value",
+          "object": "90,000",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Inclusion:has_theme",
+          "object": "major works such as The Caves of Steel and \"The Naked Sun \", both written in the mid-1950s",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+          "predicate": "Capital_stock:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Make_cognitive_connection:has_time",
+          "object": "Later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+          "predicate": "Capital_stock:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Increment:has_time",
+          "object": "1964",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Explaining_the_facts:has_theme",
+          "object": "concepts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Desirability:has_theme",
+          "object": "short science fiction story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isaac_Asimov",
+          "predicate": "Make_cognitive_connection:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Robot_series_(Asimov)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Text:has_theme",
+          "object": "science",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award",
+          "predicate": "Time_vector:has_time",
+          "object": "1986",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/LeBron_James",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Foundation_series",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Galactic_Empire_(Isaac_Asimov)",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/LeBron_James",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Foundation_series",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "http://en.wikipedia.org/wiki/Hugo_Award"
+    ],
+    "objects": [
+      "most",
+      "Robert A. Heinlein and Arthur C. Clarke",
+      "his works",
+      "using the pen name Paul French",
+      "earlier",
+      "biochemistry",
+      "During his lifetime",
+      "one",
+      "1920",
+      "fictional universe",
+      "Examples",
+      "social science fiction novelette \" Nightfall ",
+      "stories",
+      "writer",
+      "estimated 90,000 letters and postcards",
+      "1964",
+      "future",
+      "1986",
+      "science fiction",
+      "letters",
+      "novels",
+      "mid-1950s",
+      "works",
+      "this distant future",
+      "mysteries and fantasy, as well as popular science and other non-fiction",
+      "unified \" future history \" for his works",
+      "series",
+      "writer",
+      "his lifetime",
+      "books",
+      "uses",
+      "three books of which",
+      "1986",
+      "Isaac Asimov ( / z m v / AZ -im-ov ; [ b ] [ c. January 2, 1920 [ a ] – April 6, 1992 )",
+      "which",
+      "1920",
+      " Big Three \" science fiction writers",
+      "1966",
+      "1966",
+      "Asimov was considered one of the \" Big Three \" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke",
+      "1964",
+      "history of the same fictional universe as the Foundation series",
+      "history",
+      "1920",
+      "1986",
+      "letters",
+      "major works such as The Caves of Steel and \"The Naked Sun ",
+      "more than 500 books",
+      "he linked this distant future to the Robot series",
+      "social science fiction",
+      "Guide to Science, the three-volume Understanding Physics, and Asimov's Chronology of Science and Discovery",
+      "Science Fiction Writers of America",
+      "all time",
+      "his hard science fiction",
+      "writer",
+      "stories",
+      "more than 380 short stories",
+      "one of the \" Big Three \" science fiction writers",
+      "distant",
+      "pen name Paul French",
+      "1966",
+      "works",
+      "work",
+      "science and other non-fiction",
+      "books",
+      "1966",
+      "best short science fiction story of all time",
+      "more than 380 short stories, including the social science fiction novelette \" Nightfall ",
+      "three",
+      "1964",
+      "juvenile science-fiction",
+      "writers",
+      "http://en.wikipedia.org/wiki/United_States",
+      "than 380 short stories",
+      "novels",
+      "books",
+      "as the Foundation series",
+      "science fiction story",
+      "non-fiction",
+      "Most of his popular science books",
+      "Asimov (disambiguation )",
+      "1986",
+      "writer and biochemist",
+      "major series",
+      "historical way",
+      "1964",
+      "1964",
+      "Lucky Starr series of juvenile science-fiction novels",
+      "Examples",
+      "90,000",
+      "major works such as The Caves of Steel and \"The Naked Sun \", both written in the mid-1950s",
+      "1964",
+      "Later",
+      "which",
+      "science books",
+      "novelette",
+      "1964",
+      "concepts",
+      "short science fiction story",
+      "http://en.wikipedia.org/wiki/Robot_series_(Asimov)",
+      "science",
+      "1986"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Hugo_Award",
+      "three books of which",
+      "During his lifetime",
+      "works",
+      "which",
+      "90,000",
+      "Guide to Science, the three-volume Understanding Physics, and Asimov's Chronology of Science and Discovery",
+      "science fiction",
+      "major works such as The Caves of Steel and \"The Naked Sun ",
+      "work",
+      "mid-1950s",
+      "more than 500 books",
+      "he linked this distant future to the Robot series",
+      "mysteries and fantasy, as well as popular science and other non-fiction",
+      "stories",
+      " Big Three \" science fiction writers",
+      "Isaac Asimov ( / z m v / AZ -im-ov ; [ b ] [ c. January 2, 1920 [ a ] – April 6, 1992 )",
+      "Most of his popular science books",
+      "science",
+      "history of the same fictional universe as the Foundation series",
+      "Lucky Starr series of juvenile science-fiction novels",
+      "biochemistry",
+      "http://en.wikipedia.org/wiki/Isaac_Asimov",
+      "novels",
+      "fictional universe",
+      "most",
+      "Asimov (disambiguation )",
+      "his hard science fiction",
+      "http://en.wikipedia.org/wiki/Galactic_Empire_(Isaac_Asimov)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "his works",
+      "all time",
+      "more than 380 short stories",
+      "one",
+      "science fiction story",
+      "historical way",
+      "one of the \" Big Three \" science fiction writers",
+      "best short science fiction story of all time",
+      "1920",
+      "uses",
+      "non-fiction",
+      "writer and biochemist",
+      "short science fiction story",
+      "as the Foundation series",
+      "writers",
+      "history",
+      "social science fiction",
+      "http://en.wikipedia.org/wiki/Science_Fiction_and_Fantasy_Writers_of_America",
+      "Later",
+      "http://en.wikipedia.org/wiki/Boston_University",
+      "than 380 short stories",
+      "Examples",
+      "series",
+      "science and other non-fiction",
+      "juvenile science-fiction",
+      "writer",
+      "more than 380 short stories, including the social science fiction novelette \" Nightfall ",
+      "1986",
+      "pen name Paul French",
+      "http://en.wikipedia.org/wiki/LeBron_James",
+      "http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "Science Fiction Writers of America",
+      "1966",
+      "novelette",
+      "this distant future",
+      "unified \" future history \" for his works",
+      "concepts",
+      "using the pen name Paul French",
+      "http://en.wikipedia.org/wiki/Foundation_series",
+      "three",
+      "major works such as The Caves of Steel and \"The Naked Sun \", both written in the mid-1950s",
+      "his lifetime",
+      "1964",
+      "Asimov was considered one of the \" Big Three \" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke",
+      "social science fiction novelette \" Nightfall ",
+      "earlier",
+      "books",
+      "future",
+      "science books",
+      "distant",
+      "major series",
+      "estimated 90,000 letters and postcards",
+      "Robert A. Heinlein and Arthur C. Clarke",
+      "letters",
+      "http://en.wikipedia.org/wiki/Robot_series_(Asimov)"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Fame:has_degree",
+      "Accompaniment:has_theme",
+      "Individual_history:has_participant",
+      "Text_creation:has_means",
+      "Temporal_subregion:has_theme",
+      "People_by_vocation:has_type",
+      "Categorization:has_time",
+      "Cardinal_numbers:has_theme",
+      "Origin:has_time",
+      "Identicality:has_type",
+      "Instance:has_theme",
+      "Inclusion:has_theme",
+      "Duration_description:has_theme",
+      "Expertise:has_theme",
+      "Text_creation:has_text",
+      "Text:has_time",
+      "Range:has_event",
+      "Creating:has_time",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Text:has_text",
+      "Text_creation:has_time",
+      "Importance:has_theme",
+      "Make_cognitive_connection:has_theme",
+      "Text_creation:has_text",
+      "Creating:has_theme",
+      "Importance:has_theme",
+      "Origin:has_entity",
+      "Temporal_collocation:has_theme",
+      "Text:has_text",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Range:has_time",
+      "People_by_vocation:has_person",
+      "Inclusion:has_theme",
+      "Origin:has_time",
+      "Cardinal_numbers:has_entity",
+      "Cardinal_numbers:has_time",
+      "Fame:has_time",
+      "Temporal_collocation:has_theme",
+      "Inclusion:has_time",
+      "Temporal_subregion:has_theme",
+      "Individual_history:has_theme",
+      "People_by_vocation:has_time",
+      "Labor_product:has_time",
+      "Estimating:has_item",
+      "Text_creation:has_text",
+      "Text_creation:has_text",
+      "Time_vector:has_event",
+      "Text:has_theme",
+      "Inclusion:has_theme",
+      "Capital_stock:has_theme",
+      "Desirability:has_theme",
+      "Fame:has_reason",
+      "Text_creation:has_author",
+      "Text:has_text",
+      "Inclusion:has_theme",
+      "Categorization:has_category",
+      "Range:has_theme",
+      "Using:has_instrument",
+      "Ordinal_numbers:has_time",
+      "Labor_product:has_theme",
+      "Fame:has_entity",
+      "Desirability:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Text:has_time",
+      "Capital_stock:has_theme",
+      "Text_creation:has_text",
+      "Cardinal_numbers:has_theme",
+      "Duration_description:has_time",
+      "Text:has_theme",
+      "Text_creation:has_author",
+      "Origin:has_theme",
+      "Increment:has_class",
+      "Text:has_text",
+      "Text:has_text",
+      "Identicality:has_theme",
+      "Duration_description:has_theme",
+      "Increment:has_class",
+      "Explaining_the_facts:has_theme",
+      "Reference_text:has_theme",
+      "Individual_history:has_time",
+      "Origin:has_entity",
+      "Increment:has_class",
+      "Explaining_the_facts:has_theme",
+      "Text_creation:has_time",
+      "Desirability:has_time",
+      "Text_creation:has_text",
+      "Inclusion:has_theme",
+      "Estimating:has_value",
+      "Inclusion:has_theme",
+      "Capital_stock:has_time",
+      "Make_cognitive_connection:has_time",
+      "Capital_stock:has_theme",
+      "Desirability:has_theme",
+      "Text:has_text",
+      "Increment:has_time",
+      "Explaining_the_facts:has_theme",
+      "Desirability:has_theme",
+      "Make_cognitive_connection:has_theme",
+      "Text:has_theme",
+      "Time_vector:has_time"
+    ],
+    "unique_predicates": [
+      "Estimating:has_value",
+      "Fame:has_degree",
+      "People_by_vocation:has_type",
+      "Individual_history:has_theme",
+      "Cardinal_numbers:has_theme",
+      "Range:has_theme",
+      "Text_creation:has_means",
+      "People_by_vocation:has_person",
+      "Temporal_collocation:has_theme",
+      "Desirability:has_time",
+      "Make_cognitive_connection:has_time",
+      "Instance:has_theme",
+      "Origin:has_theme",
+      "Range:has_time",
+      "Inclusion:has_time",
+      "Text_creation:has_time",
+      "Labor_product:has_time",
+      "Expertise:has_theme",
+      "Capital_stock:has_theme",
+      "Explaining_the_facts:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Using:has_instrument",
+      "Time_vector:has_time",
+      "Accompaniment:has_theme",
+      "Duration_description:has_theme",
+      "Text:has_text",
+      "Desirability:has_theme",
+      "People_by_vocation:has_time",
+      "Ordinal_numbers:has_time",
+      "Reference_text:has_theme",
+      "Text_creation:has_author",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Identicality:has_theme",
+      "Categorization:has_category",
+      "Temporal_subregion:has_theme",
+      "Estimating:has_item",
+      "Individual_history:has_time",
+      "Creating:has_time",
+      "Creating:has_theme",
+      "Range:has_event",
+      "Text_creation:has_text",
+      "Cardinal_numbers:has_time",
+      "Increment:has_time",
+      "Individual_history:has_participant",
+      "Make_cognitive_connection:has_theme",
+      "Inclusion:has_theme",
+      "Fame:has_time",
+      "Importance:has_theme",
+      "Text:has_theme",
+      "Identicality:has_type",
+      "Origin:has_entity",
+      "Fame:has_entity",
+      "Categorization:has_time",
+      "Origin:has_time",
+      "Capital_stock:has_time",
+      "Labor_product:has_theme",
+      "Duration_description:has_time",
+      "Fame:has_reason",
+      "Text:has_time",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Fame:has_degree": 1,
+      "Accompaniment:has_theme": 1,
+      "Individual_history:has_participant": 1,
+      "Text_creation:has_means": 1,
+      "Temporal_subregion:has_theme": 2,
+      "People_by_vocation:has_type": 1,
+      "Categorization:has_time": 1,
+      "Cardinal_numbers:has_theme": 2,
+      "Origin:has_time": 2,
+      "Identicality:has_type": 1,
+      "Instance:has_theme": 1,
+      "Inclusion:has_theme": 6,
+      "Duration_description:has_theme": 2,
+      "Expertise:has_theme": 1,
+      "Text_creation:has_text": 7,
+      "Text:has_time": 2,
+      "Range:has_event": 1,
+      "Creating:has_time": 1,
+      "Text:has_text": 7,
+      "Text_creation:has_time": 2,
+      "Importance:has_theme": 2,
+      "Make_cognitive_connection:has_theme": 2,
+      "Creating:has_theme": 1,
+      "Origin:has_entity": 2,
+      "Temporal_collocation:has_theme": 2,
+      "Increment:has_class": 4,
+      "Ordinal_numbers:has_type": 1,
+      "Range:has_time": 1,
+      "People_by_vocation:has_person": 1,
+      "Cardinal_numbers:has_entity": 2,
+      "Cardinal_numbers:has_time": 1,
+      "Fame:has_time": 1,
+      "Inclusion:has_time": 1,
+      "Individual_history:has_theme": 1,
+      "People_by_vocation:has_time": 1,
+      "Labor_product:has_time": 1,
+      "Estimating:has_item": 1,
+      "Time_vector:has_event": 1,
+      "Text:has_theme": 3,
+      "Capital_stock:has_theme": 3,
+      "Desirability:has_theme": 4,
+      "Fame:has_reason": 1,
+      "Text_creation:has_author": 2,
+      "Categorization:has_category": 1,
+      "Range:has_theme": 1,
+      "Using:has_instrument": 1,
+      "Ordinal_numbers:has_time": 1,
+      "Labor_product:has_theme": 1,
+      "Fame:has_entity": 1,
+      "Duration_description:has_time": 1,
+      "Origin:has_theme": 1,
+      "Identicality:has_theme": 1,
+      "Explaining_the_facts:has_theme": 3,
+      "Reference_text:has_theme": 1,
+      "Individual_history:has_time": 1,
+      "Desirability:has_time": 1,
+      "Estimating:has_value": 1,
+      "Capital_stock:has_time": 1,
+      "Make_cognitive_connection:has_time": 1,
+      "Increment:has_time": 1,
+      "Time_vector:has_time": 1
+    }
+  }
+}

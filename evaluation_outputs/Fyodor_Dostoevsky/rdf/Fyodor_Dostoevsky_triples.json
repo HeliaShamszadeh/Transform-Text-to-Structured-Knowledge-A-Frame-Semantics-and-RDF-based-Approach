@@ -1,0 +1,1715 @@
+{
+  "metadata": {
+    "total_triples": 78,
+    "source_file": "Fyodor_Dostoevsky",
+    "extraction_date": "2025-09-27 23:03:10",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Moscow",
+        "predicate": "Foreign_or_domestic_country:has_theme",
+        "object": "foreign",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Text:has_theme",
+        "object": "critical of Tsarist Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Moscow",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "age",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+        "predicate": "Death:has_theme",
+        "object": "tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Departing:has_time",
+        "object": "around the same time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the greatest novelists in both Russian and world literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_text",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+        "predicate": "Categorization:has_item",
+        "object": "His Notes from Underground, a novella published in 1864",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Measure_duration:has_process",
+        "object": "compulsory military service in exile",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text_creation:has_time",
+        "object": "mid-1840s",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Inclusion:has_theme",
+        "object": "His most acclaimed novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Aggregate:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Categorization:has_category",
+        "object": "highly influential masterpieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Arrest:has_theme",
+        "object": "belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Departing:has_theme",
+        "object": "school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Military_Engineering-Technical_University",
+        "predicate": "Name_conferral:has_time",
+        "object": "later",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Measure_duration:has_theme",
+        "object": "six",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text_creation:has_location",
+        "object": "http://en.wikipedia.org/wiki/Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Aggregate:has_theme",
+        "object": "circles",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Inclusion:has_theme",
+        "object": "Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Becoming_a_member:has_group",
+        "object": "Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Being_employed:has_position",
+        "object": "as an engineer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Subjective_influence:has_degree",
+        "object": "highly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Publishing:has_work",
+        "object": "His Notes from Underground, a novella",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Aggregate:has_theme",
+        "object": "group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Time_vector:has_theme",
+        "object": "graduating",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Publishing:has_time",
+        "object": "1864",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+        "predicate": "Categorization:has_category",
+        "object": "one of the first works of existentialist literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russian_language",
+        "predicate": "Origin:has_entity",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "Tsarist Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Discussion:has_theme",
+        "object": "banned books critical of Tsarist Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Aggregate:has_theme",
+        "object": "variety",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+        "predicate": "Text:has_author",
+        "object": "Russian and foreign authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Military:has_theme",
+        "object": "military",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Labor_product:has_theme",
+        "object": "first",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+        "predicate": "Death:has_theme",
+        "object": "His mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Time_vector:has_event",
+        "object": "he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Fields:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Departing:has_purpose",
+        "object": "enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Identicality:has_theme",
+        "object": "time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Membership:has_group",
+        "object": "literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Poor_Folk",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Arrest:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Sentencing:has_theme",
+        "object": "death,",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Reference_text:has_theme",
+        "object": "Dostoevsky (surname )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russian_language",
+        "predicate": "Origin:has_location",
+        "object": "http://en.wikipedia.org/wiki/Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "banned books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text_creation:has_text",
+        "object": "his first novel, Poor Folk",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "masterpieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Labor_product:has_theme",
+        "object": "existentialist literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Earnings_and_losses:has_theme",
+        "object": "extra money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Time_vector:has_theme",
+        "object": "After",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Scrutiny:has_theme",
+        "object": "human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Increment:has_class",
+        "object": "money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Aggregate:has_theme",
+        "object": "philosophical and religious themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "works of existentialist literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_theme",
+        "object": "existentialist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Measure_duration:has_theme",
+        "object": "four",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Being_employed:has_time",
+        "object": "After graduating",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Money:has_theme",
+        "object": "money",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+        "predicate": "Death:has_time",
+        "object": "27 February 1837, when he was 15",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Arrest:has_time",
+        "object": "1849",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+        "predicate": "Discussion:has_theme",
+        "object": "that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Being_born:has_time",
+        "object": "1821",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Scrutiny:has_theme",
+        "object": "Dostoevsky's literary works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Categorization:has_item",
+        "object": "many of his works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "predicate": "Text:has_text",
+        "object": "novella",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russian_language",
+          "predicate": "Origin:has_entity",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "predicate": "Text:has_author",
+          "object": "Russian and foreign authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+          "predicate": "Death:has_theme",
+          "object": "tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+          "predicate": "Death:has_theme",
+          "object": "His mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Time_vector:has_event",
+          "object": "he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Sentencing:has_theme",
+          "object": "death,",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+          "predicate": "Death:has_time",
+          "object": "27 February 1837, when he was 15",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Being_born:has_time",
+          "object": "1821",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the greatest novelists in both Russian and world literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+          "predicate": "Categorization:has_item",
+          "object": "His Notes from Underground, a novella published in 1864",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Inclusion:has_theme",
+          "object": "His most acclaimed novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Arrest:has_theme",
+          "object": "belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Publishing:has_work",
+          "object": "His Notes from Underground, a novella",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Discussion:has_theme",
+          "object": "banned books critical of Tsarist Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Membership:has_group",
+          "object": "literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "banned books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text_creation:has_text",
+          "object": "his first novel, Poor Folk",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_text",
+          "object": "novella",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Moscow",
+          "predicate": "Foreign_or_domestic_country:has_theme",
+          "object": "foreign",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Text:has_theme",
+          "object": "critical of Tsarist Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Moscow",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "age",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Departing:has_time",
+          "object": "around the same time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_text",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Measure_duration:has_process",
+          "object": "compulsory military service in exile",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text_creation:has_time",
+          "object": "mid-1840s",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Aggregate:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Categorization:has_category",
+          "object": "highly influential masterpieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Departing:has_theme",
+          "object": "school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Military_Engineering-Technical_University",
+          "predicate": "Name_conferral:has_time",
+          "object": "later",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Measure_duration:has_theme",
+          "object": "six",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text_creation:has_location",
+          "object": "http://en.wikipedia.org/wiki/Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Aggregate:has_theme",
+          "object": "circles",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Inclusion:has_theme",
+          "object": "Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Becoming_a_member:has_group",
+          "object": "Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Being_employed:has_position",
+          "object": "as an engineer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Subjective_influence:has_degree",
+          "object": "highly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Aggregate:has_theme",
+          "object": "group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Time_vector:has_theme",
+          "object": "graduating",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Publishing:has_time",
+          "object": "1864",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Raw_Youth",
+          "predicate": "Categorization:has_category",
+          "object": "one of the first works of existentialist literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "Tsarist Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Aggregate:has_theme",
+          "object": "variety",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Military:has_theme",
+          "object": "military",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Labor_product:has_theme",
+          "object": "first",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Fields:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Departing:has_purpose",
+          "object": "enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Identicality:has_theme",
+          "object": "time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Poor_Folk",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Arrest:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Reference_text:has_theme",
+          "object": "Dostoevsky (surname )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russian_language",
+          "predicate": "Origin:has_location",
+          "object": "http://en.wikipedia.org/wiki/Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "masterpieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Labor_product:has_theme",
+          "object": "existentialist literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Earnings_and_losses:has_theme",
+          "object": "extra money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Time_vector:has_theme",
+          "object": "After",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Scrutiny:has_theme",
+          "object": "human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Increment:has_class",
+          "object": "money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Aggregate:has_theme",
+          "object": "philosophical and religious themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "works of existentialist literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Text:has_theme",
+          "object": "existentialist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Measure_duration:has_theme",
+          "object": "four",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Being_employed:has_time",
+          "object": "After graduating",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Money:has_theme",
+          "object": "money",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Arrest:has_time",
+          "object": "1849",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Saint_Petersburg",
+          "predicate": "Discussion:has_theme",
+          "object": "that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Scrutiny:has_theme",
+          "object": "Dostoevsky's literary works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "predicate": "Categorization:has_item",
+          "object": "many of his works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Moscow",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Military_Engineering-Technical_University",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+    ],
+    "objects": [
+      "foreign",
+      "critical of Tsarist Russia",
+      "age",
+      "tuberculosis",
+      "around the same time",
+      "as one of the greatest novelists in both Russian and world literature",
+      "literature",
+      "His Notes from Underground, a novella published in 1864",
+      "compulsory military service in exile",
+      "books",
+      "mid-1840s",
+      "His most acclaimed novels",
+      "literary",
+      "highly influential masterpieces",
+      "belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "novel",
+      "school",
+      "later",
+      "six",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "authors",
+      "circles",
+      "Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880",
+      "Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "as an engineer",
+      "books",
+      "highly",
+      "His Notes from Underground, a novella",
+      "group",
+      "graduating",
+      "1864",
+      "one of the first works of existentialist literature",
+      "authors",
+      "Tsarist Russia",
+      "banned books critical of Tsarist Russia",
+      "variety",
+      "Russian and foreign authors",
+      "military",
+      "first",
+      "His mother",
+      "he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money",
+      "works",
+      "enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "time",
+      "literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "http://en.wikipedia.org/wiki/Poor_Folk",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "years",
+      "death,",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "Dostoevsky (surname )",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "banned books",
+      "novels",
+      "his first novel, Poor Folk",
+      "masterpieces",
+      "existentialist literature",
+      "extra money",
+      "After",
+      "human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia",
+      "money",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "philosophical and religious themes",
+      "works",
+      "works of existentialist literature",
+      "existentialist",
+      "four",
+      "After graduating",
+      "mother",
+      "money",
+      "27 February 1837, when he was 15",
+      "1849",
+      "books",
+      "that",
+      "1821",
+      "Dostoevsky's literary works",
+      "many of his works",
+      "novella"
+    ],
+    "all_unique": [
+      "His Notes from Underground, a novella",
+      "literature",
+      "that",
+      "he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money",
+      "foreign",
+      "works",
+      "extra money",
+      "mother",
+      "one of the first works of existentialist literature",
+      "death,",
+      "http://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "military",
+      "six",
+      "Dostoevsky (surname )",
+      "human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia",
+      "group",
+      "Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880",
+      "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "novels",
+      "His most acclaimed novels",
+      "critical of Tsarist Russia",
+      "philosophical and religious themes",
+      "around the same time",
+      "works of existentialist literature",
+      "existentialist",
+      "27 February 1837, when he was 15",
+      "Dostoevsky's literary works",
+      "authors",
+      "highly",
+      "circles",
+      "Russian and foreign authors",
+      "1849",
+      "literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "four",
+      "compulsory military service in exile",
+      "novella",
+      "school",
+      "literary",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "1864",
+      "1821",
+      "His mother",
+      "time",
+      "http://en.wikipedia.org/wiki/The_Raw_Youth",
+      "Tsarist Russia",
+      "books",
+      "belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "as an engineer",
+      "banned books",
+      "masterpieces",
+      "age",
+      "years",
+      "many of his works",
+      "mid-1840s",
+      "Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "After",
+      "highly influential masterpieces",
+      "money",
+      "first",
+      "graduating",
+      "as one of the greatest novelists in both Russian and world literature",
+      "later",
+      "After graduating",
+      "novel",
+      "banned books critical of Tsarist Russia",
+      "http://en.wikipedia.org/wiki/Moscow",
+      "existentialist literature",
+      "his first novel, Poor Folk",
+      "http://en.wikipedia.org/wiki/Military_Engineering-Technical_University",
+      "http://en.wikipedia.org/wiki/Poor_Folk",
+      "http://en.wikipedia.org/wiki/Saint_Petersburg",
+      "variety",
+      "tuberculosis",
+      "His Notes from Underground, a novella published in 1864"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Foreign_or_domestic_country:has_theme",
+      "Text:has_theme",
+      "Temporal_collocation:has_theme",
+      "Death:has_theme",
+      "Departing:has_time",
+      "Categorization:has_category",
+      "Text:has_text",
+      "Categorization:has_item",
+      "Measure_duration:has_process",
+      "Text:has_text",
+      "Text_creation:has_time",
+      "Inclusion:has_theme",
+      "Aggregate:has_theme",
+      "Categorization:has_category",
+      "Arrest:has_theme",
+      "Ordinal_numbers:has_type",
+      "Departing:has_theme",
+      "Name_conferral:has_time",
+      "Measure_duration:has_theme",
+      "Text_creation:has_location",
+      "Text_creation:has_author",
+      "Aggregate:has_theme",
+      "Inclusion:has_theme",
+      "Becoming_a_member:has_group",
+      "Being_employed:has_position",
+      "Text:has_text",
+      "Subjective_influence:has_degree",
+      "Publishing:has_work",
+      "Aggregate:has_theme",
+      "Time_vector:has_theme",
+      "Publishing:has_time",
+      "Categorization:has_category",
+      "Origin:has_entity",
+      "Judgment_communication:has_theme",
+      "Discussion:has_theme",
+      "Aggregate:has_theme",
+      "Text:has_author",
+      "Military:has_theme",
+      "Labor_product:has_theme",
+      "Death:has_theme",
+      "Time_vector:has_event",
+      "Fields:has_theme",
+      "Departing:has_purpose",
+      "Identicality:has_theme",
+      "Membership:has_group",
+      "Text:has_text",
+      "Arrest:has_theme",
+      "Measure_duration:has_theme",
+      "Sentencing:has_theme",
+      "Being_born:has_location",
+      "Reference_text:has_theme",
+      "Origin:has_location",
+      "Judgment_communication:has_theme",
+      "Text:has_text",
+      "Text_creation:has_text",
+      "Subjective_influence:has_entity",
+      "Labor_product:has_theme",
+      "Earnings_and_losses:has_theme",
+      "Time_vector:has_theme",
+      "Scrutiny:has_theme",
+      "Increment:has_class",
+      "Text:has_location",
+      "Aggregate:has_theme",
+      "Labor_product:has_theme",
+      "Ordinal_numbers:has_type",
+      "Text:has_theme",
+      "Measure_duration:has_theme",
+      "Being_employed:has_time",
+      "Kinship:has_theme",
+      "Money:has_theme",
+      "Death:has_time",
+      "Arrest:has_time",
+      "Text:has_text",
+      "Discussion:has_theme",
+      "Being_born:has_time",
+      "Scrutiny:has_theme",
+      "Categorization:has_item",
+      "Text:has_text"
+    ],
+    "unique_predicates": [
+      "Departing:has_purpose",
+      "Aggregate:has_theme",
+      "Arrest:has_theme",
+      "Measure_duration:has_theme",
+      "Publishing:has_work",
+      "Money:has_theme",
+      "Text:has_location",
+      "Temporal_collocation:has_theme",
+      "Origin:has_location",
+      "Fields:has_theme",
+      "Being_employed:has_time",
+      "Discussion:has_theme",
+      "Labor_product:has_theme",
+      "Text_creation:has_time",
+      "Death:has_theme",
+      "Subjective_influence:has_degree",
+      "Scrutiny:has_theme",
+      "Publishing:has_time",
+      "Text:has_text",
+      "Text_creation:has_location",
+      "Membership:has_group",
+      "Reference_text:has_theme",
+      "Kinship:has_theme",
+      "Being_born:has_location",
+      "Text_creation:has_author",
+      "Text:has_author",
+      "Ordinal_numbers:has_type",
+      "Identicality:has_theme",
+      "Judgment_communication:has_theme",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Sentencing:has_theme",
+      "Military:has_theme",
+      "Text_creation:has_text",
+      "Measure_duration:has_process",
+      "Becoming_a_member:has_group",
+      "Categorization:has_item",
+      "Name_conferral:has_time",
+      "Time_vector:has_theme",
+      "Being_born:has_time",
+      "Text:has_theme",
+      "Departing:has_time",
+      "Inclusion:has_theme",
+      "Origin:has_entity",
+      "Earnings_and_losses:has_theme",
+      "Arrest:has_time",
+      "Subjective_influence:has_entity",
+      "Death:has_time",
+      "Being_employed:has_position",
+      "Foreign_or_domestic_country:has_theme",
+      "Departing:has_theme",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Foreign_or_domestic_country:has_theme": 1,
+      "Text:has_theme": 2,
+      "Temporal_collocation:has_theme": 1,
+      "Death:has_theme": 2,
+      "Departing:has_time": 1,
+      "Categorization:has_category": 3,
+      "Text:has_text": 7,
+      "Categorization:has_item": 2,
+      "Measure_duration:has_process": 1,
+      "Text_creation:has_time": 1,
+      "Inclusion:has_theme": 2,
+      "Aggregate:has_theme": 5,
+      "Arrest:has_theme": 2,
+      "Ordinal_numbers:has_type": 2,
+      "Departing:has_theme": 1,
+      "Name_conferral:has_time": 1,
+      "Measure_duration:has_theme": 3,
+      "Text_creation:has_location": 1,
+      "Text_creation:has_author": 1,
+      "Becoming_a_member:has_group": 1,
+      "Being_employed:has_position": 1,
+      "Subjective_influence:has_degree": 1,
+      "Publishing:has_work": 1,
+      "Time_vector:has_theme": 2,
+      "Publishing:has_time": 1,
+      "Origin:has_entity": 1,
+      "Judgment_communication:has_theme": 2,
+      "Discussion:has_theme": 2,
+      "Text:has_author": 1,
+      "Military:has_theme": 1,
+      "Labor_product:has_theme": 3,
+      "Time_vector:has_event": 1,
+      "Fields:has_theme": 1,
+      "Departing:has_purpose": 1,
+      "Identicality:has_theme": 1,
+      "Membership:has_group": 1,
+      "Sentencing:has_theme": 1,
+      "Being_born:has_location": 1,
+      "Reference_text:has_theme": 1,
+      "Origin:has_location": 1,
+      "Text_creation:has_text": 1,
+      "Subjective_influence:has_entity": 1,
+      "Earnings_and_losses:has_theme": 1,
+      "Scrutiny:has_theme": 2,
+      "Increment:has_class": 1,
+      "Text:has_location": 1,
+      "Being_employed:has_time": 1,
+      "Kinship:has_theme": 1,
+      "Money:has_theme": 1,
+      "Death:has_time": 1,
+      "Arrest:has_time": 1,
+      "Being_born:has_time": 1
+    }
+  }
+}

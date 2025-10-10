@@ -1,0 +1,345 @@
+digraph Emily_Dickinson {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "her writing" [label="her writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "aware of her writing" [label="aware of her writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her work" [label="her work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "themes of death and immorta..." [label="themes of death and immorta...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "her family's home in Amherst" [label="her family's home in Amherst", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her era" [label="her era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Wentworth Higginson" [label="Thomas Wentworth Higginson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her poems" [label="Her poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her friendships" [label="her friendships", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "often" [label="often", fillcolor=lightgray, color=gray, shape=hexagon];
+    "bedroom" [label="bedroom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholar Thomas H. Johnson" [label="scholar Thomas H. Johnson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "locals" [label="locals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dickinson's acquaintances" [label="Dickinson's acquaintances", fillcolor=lightgray, color=gray, shape=hexagon];
+    "topics" [label="topics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "community" [label="community", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poems" [label="her poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "white clothing" [label="white clothing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Dickinson" [label="Emily Dickinson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends" [label="friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Amherst College" [label="Amherst College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a prominent family wit..." [label="into a prominent family wit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "guests" [label="guests", fillcolor=lightgray, color=gray, shape=hexagon];
+    "available" [label="available", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her reluctance to greet gue..." [label="her reluctance to greet gue...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "complete collection of her ..." [label="complete collection of her ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poetry" [label="her poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "content" [label="content", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figures" [label="figures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most importan..." [label="as one of the most importan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lines" [label="lines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Evidence" [label="Evidence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publications during her lif..." [label="publications during her lif...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lavinia, Dickinson's younge..." [label="Lavinia, Dickinson's younge...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her nearly 1,800 poems" [label="her nearly 1,800 poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "correspondence" [label="correspondence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "greet guests or, later in l..." [label="greet guests or, later in l...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leave her bedroom" [label="leave her bedroom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "complete" [label="complete", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published collection of poetry" [label="published collection of poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "clothing" [label="clothing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strong" [label="strong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Elizabeth Dickinson D..." [label="Emily Elizabeth Dickinson D...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "titles" [label="titles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "briefly" [label="briefly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prominent family" [label="prominent family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published" [label="published", fillcolor=lightgray, color=gray, shape=hexagon];
+    "much of her life in isolation" [label="much of her life in isolation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Dickinson lived much o..." [label="that Dickinson lived much o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mount Holyoke College" [label="Mount Holyoke College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "became available in 1955 wh..." [label="became available in 1955 wh...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Wentworth Higginson ..." [label="Thomas Wentworth Higginson ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her friends" [label="her friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many" [label="Many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas H. Johnson" [label="Thomas H. Johnson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven" [label="seven", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letter" [label="letter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publications" [label="publications", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ties" [label="ties", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poems of Emily Dickinson" [label="Poems of Emily Dickinson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "white" [label="white", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "use slant rhyme as well as ..." [label="use slant rhyme as well as ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "capitalization and punctuation" [label="capitalization and punctuation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its community" [label="its community", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when scholar Thomas H. John..." [label="when scholar Thomas H. John...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her cache of poems" [label="her cache of poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her bedroom" [label="her bedroom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before returning to her fam..." [label="before returning to her fam...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many of her poems" [label="Many of her poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "10" [label="10", fillcolor=lightgray, color=gray, shape=hexagon];
+    "significantly" [label="significantly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection of her poetry" [label="collection of her poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems published then" [label="poems published then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Considered an eccentric by ..." [label="Considered an eccentric by ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eccentric" [label="eccentric", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slant rhyme as well as unco..." [label="slant rhyme as well as unco...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Amherst, Massachusetts" [label="Amherst, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fit conventional poetic rules" [label="fit conventional poetic rules", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Emily Dickinson" -> "her family's home in Amherst" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "American poetry" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Thomas Wentworth Higginson" -> "Thomas H. Johnson" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "American poetry" -> "complete" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Emily Dickinson" -> "1955" [label="has time [Text]", color=purple, penwidth=2];
+    "American poetry" -> "publications during her lif..." [label="has type [Sole_instance]", color=lightcyan, penwidth=1];
+    "American poetry" -> "often" [label="has theme [Using]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "writer" [label="has theme [Expertise]", color=lightgray, penwidth=1];
+    "Emily Dickinson" -> "Lavinia, Dickinson's younge..." [label="has theme [Becoming_aware]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "guests" [label="has theme [Guest_and_host]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "her poetry" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "American poetry" -> "Many of her poems" [label="has cause [Resolve_problem]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "most" [label="has theme [Partitive]", color=lightgoldenrod, penwidth=1];
+    "American poetry" -> "poems" [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "Emily Dickinson" -> "locals" [label="has theme [Categorization]", color=lightsteelblue, penwidth=1];
+    "Emily Dickinson" -> "poems" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Amherst, Massachusetts" -> "ties" [label="has theme [Social_connection]", color=lightcoral, penwidth=1];
+    "American poetry" -> "clothing" [label="has theme [Clothing]", color=lightblue, penwidth=1];
+    "Amherst, Massachusetts" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Emily Dickinson" -> "briefly" [label="has theme [Attending]", color=lightcoral, penwidth=1];
+    "Emily Dickinson" -> "Amherst, Massachusetts" [label="has location [Attending]", color=green, penwidth=2];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Amherst, Massachusetts" -> "its community" [label="has theme [Social_connection]", color=lightcoral, penwidth=1];
+    "American poetry" -> "collection of her poetry" [label="has theme [Completeness]", color=lightyellow, penwidth=1];
+    "United States" -> "Emily Dickinson" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "1955" [label="has time [Completeness]", color=purple, penwidth=2];
+    "Thomas Wentworth Higginson" -> "Thomas Wentworth Higginson ..." [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "Emily Dickinson" -> "Dickinson's acquaintances" [label="has theme [Awareness]", color=lightcyan, penwidth=1];
+    "American poetry" -> "letter" [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "clothing" [label="has entity [Color]", color=lightgray, penwidth=1];
+    "Thomas Wentworth Higginson" -> "1955" [label="has time [Text]", color=purple, penwidth=2];
+    "Emily Dickinson" -> "her reluctance to greet gue..." [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Dickinson" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Thomas Wentworth Higginson" -> "1955" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Emily Dickinson" -> "her cache of poems" [label="has theme [Becoming_aware]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Dickinson" -> "before returning to her fam..." [label="has time [Attending]", color=purple, penwidth=2];
+    "Emily Dickinson" -> "United States" [label="has theme [People_by_vocation]", color=lightgreen, penwidth=1];
+    "American poetry" -> "her friendships" [label="has group [Partitive]", color=lightgoldenrod, penwidth=1];
+    "Amherst, Massachusetts" -> "seven" [label="has theme [Measure_duration]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "her poems" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Emily Dickinson" -> "became available in 1955 wh..." [label="has theme [First_experience]", color=lightgoldenrod, penwidth=1];
+    "American poetry" -> "Amherst, Massachusetts" [label="has location [Kinship]", color=green, penwidth=2];
+    "Thomas Wentworth Higginson" -> "Poems of Emily Dickinson" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Emily Dickinson" -> "Amherst, Massachusetts" [label="has location [Arriving]", color=green, penwidth=2];
+    "American poetry" -> "poems" [label="has agent [Using]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "Her poems" [label="has theme [Idiosyncrasy]", color=lightpink, penwidth=1];
+    "American poetry" -> "letters" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "then" [label="has time [Publishing]", color=purple, penwidth=2];
+    "American poetry" -> "poetry" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "American poetry" -> "poems" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "her friends" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Amherst, Massachusetts" -> "strong" [label="has degree [Social_connection]", color=lightcoral, penwidth=1];
+    "American poetry" -> "friends" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "American poetry" -> "United States" [label="has location [Origin]", color=green, penwidth=2];
+    "American poetry" -> "poems published then" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "American poetry" -> "bedroom" [label="has theme [Building_subparts]", color=lightcoral, penwidth=1];
+    "American poetry" -> "letter" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "her work" [label="has entity [Becoming]", color=lightblue, penwidth=1];
+    "American poetry" -> "Emily Dickinson" [label="has item [Categorization]", color=lightsteelblue, penwidth=1];
+    "Emily Dickinson" -> "poems" [label="has owner [Possession]", color=lightcoral, penwidth=1];
+    "American poetry" -> "1955" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Amherst, Massachusetts" -> "community" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Emily Dickinson" -> "publications" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "lines" [label="has theme [Boundary]", color=lightgreen, penwidth=1];
+    "American poetry" -> "available" [label="has theme [Becoming]", color=lightblue, penwidth=1];
+    "American poetry" -> "when scholar Thomas H. John..." [label="has time [Becoming]", color=purple, penwidth=2];
+    "American poetry" -> "titles" [label="has document [Documents]", color=lightyellow, penwidth=1];
+    "Emily Dickinson" -> "greet guests or, later in l..." [label="has activity [Willingness]", color=lightpink, penwidth=1];
+    "American poetry" -> "fit conventional poetic rules" [label="has purpose [Text_creation]", color=lightpink, penwidth=1];
+    "Emily Dickinson" -> "Emily Elizabeth Dickinson D..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Emily Dickinson" -> "Considered an eccentric by ..." [label="has theme [Coming_to_be]", color=lightcyan, penwidth=1];
+    "Emily Dickinson" -> "Thomas Wentworth Higginson ..." [label="has entity [Familiarity]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "Amherst, Massachusetts" [label="has location [Prominence]", color=green, penwidth=2];
+    "American poetry" -> "poetry" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "American poetry" -> "published" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "American poetry" -> "Evidence" [label="has theme [Evidence]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "American poetry" -> "use slant rhyme as well as ..." [label="has event [Frequency]", color=lightseagreen, penwidth=1];
+    "Emily Dickinson" -> "her writing" [label="has theme [Awareness]", color=lightcyan, penwidth=1];
+    "Amherst, Massachusetts" -> "years" [label="has theme [Measure_duration]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "locals" [label="has entity [Indigenous_origin]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "leave her bedroom" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "American poetry" -> "as one of the most importan..." [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "10" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Thomas Wentworth Higginson" -> "content" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "American poetry" -> "Emily Dickinson" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Amherst, Massachusetts" -> "Amherst College" [label="has institution [Studying]", color=lightpink, penwidth=1];
+    "Amherst, Massachusetts" -> "prominent family" [label="has theme [Social_connection]", color=lightcoral, penwidth=1];
+    "Amherst, Massachusetts" -> "home" [label="has theme [Buildings]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "Many" [label="has quantity [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "Emily Dickinson" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "American poetry" -> "significantly" [label="has theme [Text_creation]", color=lightpink, penwidth=1];
+    "American poetry" -> "her nearly 1,800 poems" [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "slant rhyme as well as unco..." [label="has instrument [Using]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "era" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Amherst, Massachusetts" -> "Emily Dickinson" [label="has student [Studying]", color=lightpink, penwidth=1];
+    "Emily Dickinson" -> "titles" [label="has theme [Possession]", color=lightcoral, penwidth=1];
+    "American poetry" -> "capitalization and punctuation" [label="has behavior [Custom]", color=lightblue, penwidth=1];
+    "American poetry" -> "complete collection of her ..." [label="has entity [Becoming]", color=lightblue, penwidth=1];
+    "American poetry" -> "lines" [label="has theme [Duration_description]", color=lightcoral, penwidth=1];
+    "Emily Dickinson" -> "Amherst, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "Emily Dickinson" -> "much of her life in isolation" [label="has location [Residence]", color=green, penwidth=2];
+    "American poetry" -> "correspondence" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "American poetry" -> "white" [label="has theme [Clothing]", color=lightblue, penwidth=1];
+    "American poetry" -> "themes of death and immorta..." [label="has problem [Resolve_problem]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "one" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "that Dickinson lived much o..." [label="has theme [Evidence]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "her era" [label="has entity [Idiosyncrasy]", color=lightpink, penwidth=1];
+    "United States" -> "figures" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "American poetry" -> "United States" [label="has location [Categorization]", color=green, penwidth=2];
+    "American poetry" -> "collection" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Emily Dickinson" -> "white clothing" [label="has behavior [Inclination]", color=lightcyan, penwidth=1];
+    "American poetry" -> "topics" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Emily Dickinson" -> "Mount Holyoke College" [label="has event [Attending]", color=lightcoral, penwidth=1];
+    "United States" -> "American poetry" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "American poetry" -> "white" [label="has color [Color]", color=lightgray, penwidth=1];
+    "American poetry" -> "United States" [label="has theme [Origin]", color=lightgreen, penwidth=1];
+    "American poetry" -> "public" [label="has theme [Becoming]", color=lightblue, penwidth=1];
+    "Emily Dickinson" -> "into a prominent family wit..." [label="has theme [Being_born]", color=lightgreen, penwidth=1];
+    "Emily Dickinson" -> "1955" [label="has time [First_experience]", color=purple, penwidth=2];
+    "Emily Dickinson" -> "eccentric" [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "published collection of poetry" [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "American poetry" -> "family" [label="has entity [Prominence]", color=lightgray, penwidth=1];
+    "Emily Dickinson" -> "her bedroom" [label="has theme [Departing]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "aware of her writing" [label="has theme [Likelihood]", color=lightseagreen, penwidth=1];
+    "Thomas Wentworth Higginson" -> "scholar Thomas H. Johnson" [label="has author [Text]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Arriving_legend" [label="Arriving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Sole_instance_legend" [label="Sole_instance", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Guest_and_host_legend" [label="Guest_and_host", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Resolve_problem_legend" [label="Resolve_problem", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Partitive_legend" [label="Partitive", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Social_connection_legend" [label="Social_connection", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Clothing_legend" [label="Clothing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Completeness_legend" [label="Completeness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Color_legend" [label="Color", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Idiosyncrasy_legend" [label="Idiosyncrasy", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Building_subparts_legend" [label="Building_subparts", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Boundary_legend" [label="Boundary", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Documents_legend" [label="Documents", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Willingness_legend" [label="Willingness", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Coming_to_be_legend" [label="Coming_to_be", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Familiarity_legend" [label="Familiarity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Prominence_legend" [label="Prominence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Indigenous_origin_legend" [label="Indigenous_origin", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Custom_legend" [label="Custom", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclination_legend" [label="Inclination", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

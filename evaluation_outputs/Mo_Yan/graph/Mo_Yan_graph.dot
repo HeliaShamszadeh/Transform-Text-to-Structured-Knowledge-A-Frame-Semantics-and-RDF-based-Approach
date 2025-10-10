@@ -1,0 +1,300 @@
+digraph Mo_Yan {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "his work as a writer " who ..." [label="his work as a writer " who ...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work at the cotton oil proc..." [label="work at the cotton oil proc...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing" [label="writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work as a farmer" [label="work as a farmer", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his 1986 novel Red Sorghum,..." [label="his 1986 novel Red Sorghum,...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "hallucinatory realism" [label="hallucinatory realism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the Golden Bear -winni..." [label="into the Golden Bear -winni...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2005" [label="2005", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Donald Morrison of TIME" [label="Donald Morrison of TIME", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "while he was still a soldier" [label="while he was still a soldier", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "youngest" [label="youngest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "autumn of 1973" [label="autumn of 1973", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " one of the most famous..." [label="as " one of the most famous...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "factory" [label="factory", fillcolor=lightgray, color=gray, shape=hexagon];
+    "socialist realist style und..." [label="socialist realist style und...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "period" [label="period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pen name Mo Yan" [label="pen name Mo Yan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "peasant" [label="peasant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parts" [label="parts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mo" [label="Mo", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Italy" [label="Italy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "February" [label="February", fillcolor=lightgray, color=gray, shape=hexagon];
+    "5 March 1955" [label="5 March 1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "older" [label="older", fillcolor=lightgray, color=gray, shape=hexagon];
+    "February 1955" [label="February 1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chinese answer to Franz Kaf..." [label="Chinese answer to Franz Kaf...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1973" [label="1973", fillcolor=lightgray, color=gray, shape=hexagon];
+    "folk" [label="folk", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mao Zedong" [label="Mao Zedong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2005 International Nonino P..." [label="2005 International Nonino P...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cotton oil" [label="cotton oil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "11" [label="11", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Oklahoma's Ne..." [label="University of Oklahoma's Ne...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "11 years" [label="11 years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "soldier" [label="soldier", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2012" [label="2012", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a farmer" [label="as a farmer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2009" [label="2009", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Donald Morrison politician" [label="Donald Morrison politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mo enlisted in the People's..." [label="Mo enlisted in the People's...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which time" [label="which time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "folk tales, history and the..." [label="folk tales, history and the...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Franz Kafka" [label="Franz Kafka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "People's Liberation Army PLA" [label="People's Liberation Army PLA", fillcolor=lightgray, color=gray, shape=hexagon];
+    "still" [label="still", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cultural Revolution" [label="Cultural Revolution", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1986" [label="1986", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Guan Moye" [label="Guan Moye", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Golden Bear -winning" [label="Golden Bear -winning", fillcolor=lightgray, color=gray, shape=hexagon];
+    "close of the Cultural Revol..." [label="close of the Cultural Revol...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "readers" [label="readers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brothers" [label="brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cotton oil processing" [label="cotton oil processing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Red Sorghum, the first two ..." [label="Red Sorghum, the first two ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "recipient of the University..." [label="recipient of the University...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mo Yan" [label="Mo Yan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cotton oil processing factory" [label="cotton oil processing factory", fillcolor=lightgray, color=gray, shape=hexagon];
+    "class" [label="class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Western world" [label="Western world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jim Leach" [label="Jim Leach", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four children" [label="four children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a peasant family in Pi..." [label="into a peasant family in Pi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chinese language" [label="Chinese language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parts of which" [label="parts of which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1976" [label="1976", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Mo Yan" -> "pen name Mo Yan" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "his work as a writer " who ..." [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "1973" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Mo" [label="has recipient [Receiving]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "2009" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Jim Leach" -> "Chinese answer to Franz Kaf..." [label="has theme [Simple_naming]", color=lightpink, penwidth=1];
+    "Mo Yan" -> "Mo" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Mo Yan" -> "Guan Moye" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Western world" -> "1986" [label="has time [Reading_perception]", color=purple, penwidth=2];
+    "Cultural Revolution" -> "close of the Cultural Revol..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Mao Zedong" -> "novels" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Chinese language" -> "1955" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Franz Kafka" -> "class" [label="has theme [Hostile_encounter]", color=lightseagreen, penwidth=1];
+    "Franz Kafka" -> "1976" [label="has time [Continued_state_of_affairs]", color=purple, penwidth=2];
+    "Mo Yan" -> "Red Sorghum, the first two ..." [label="has entity [Cause_change]", color=lightgoldenrod, penwidth=1];
+    "Franz Kafka" -> "still" [label="has theme [Continued_state_of_affairs]", color=lightsalmon, penwidth=1];
+    "Cultural Revolution" -> "Mo enlisted in the People's..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Mo Yan" -> "1986" [label="has time [Fame]", color=purple, penwidth=2];
+    "Franz Kafka" -> "which" [label="has theme [Part_whole]", color=lightsteelblue, penwidth=1];
+    "Mo Yan" -> "Italy" [label="has location [Win_prize]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "folk" [label="has person [People]", color=red, penwidth=2];
+    "Franz Kafka" -> "Mo Yan" [label="has employee [Being_employed]", color=lightgreen, penwidth=1];
+    "Franz Kafka" -> "recipient of the University..." [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Mo Yan" -> "into a peasant family in Pi..." [label="has theme [Being_born]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "work as a farmer" [label="has purpose [Quitting]", color=lightgreen, penwidth=1];
+    "Chinese language" -> "1955" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Franz Kafka" -> "February" [label="has location [Kinship]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "writer" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "Cultural Revolution" -> "1976" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Donald Morrison politician" -> "Donald Morrison of TIME" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Mo Yan" -> "youngest" [label="has degree [Age]", color=lightcyan, penwidth=1];
+    "Mo Yan" -> "Golden Bear -winning" [label="has theme [Behind_the_scenes]", color=lightsteelblue, penwidth=1];
+    "Mo Yan" -> "while he was still a soldier" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Mo Yan" -> "February" [label="has location [Being_born]", color=green, penwidth=2];
+    "Mo Yan" -> "11 years" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "Nobel Prize in Literature" -> "Nobel Prize in Literature" [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "Mo Yan" -> "1976" [label="has time [Member_of_military]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Mo Yan" -> "best" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Franz Kafka" -> "as a farmer" [label="has position [Being_employed]", color=lightgreen, penwidth=1];
+    "Mo Yan" -> "Mo" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "Mo Yan" -> "1986" [label="has time [Cause_change]", color=purple, penwidth=2];
+    "Mo Yan" -> "2012" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "folk tales, history and the..." [label="has theme [Amalgamation]", color=lightsalmon, penwidth=1];
+    "Franz Kafka" -> "1986" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "Donald Morrison politician" -> "as " one of the most famous..." [label="has status [Topic]", color=blue, penwidth=2];
+    "Franz Kafka" -> "cotton oil" [label="has theme [Processing_materials]", color=lightgoldenrod, penwidth=1];
+    "Nobel Prize in Literature" -> "2009" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Franz Kafka" -> "period" [label="has theme [Frequency]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "2012" [label="has time [People]", color=purple, penwidth=2];
+    "Mo Yan" -> "four children" [label="has theme [Age]", color=lightcyan, penwidth=1];
+    "Nobel Prize in Literature" -> "hallucinatory realism" [label="has theme [Amalgamation]", color=lightsalmon, penwidth=1];
+    "Franz Kafka" -> "1986" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Mo Yan" -> "work" [label="has theme [Labor_product]", color=lightseagreen, penwidth=1];
+    "Mo Yan" -> "5 March 1955" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Franz Kafka" -> "family" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Cultural Revolution" -> "People's Liberation Army PLA" [label="has group [Becoming_a_member]", color=lightsteelblue, penwidth=1];
+    "Mo Yan" -> "sister" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "University of Oklahoma's Ne..." [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "Jim Leach" -> "Mo Yan" [label="has entity [Simple_naming]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "Mo Yan" [label="has recipient [Receiving]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "cotton oil processing factory" [label="has theme [Being_employed]", color=lightgreen, penwidth=1];
+    "Franz Kafka" -> "cotton oil processing" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Mo Yan" -> "Literature" [label="has location [Labor_product]", color=green, penwidth=2];
+    "Cultural Revolution" -> "close of the Cultural Revol..." [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Franz Kafka" -> "1973" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Mo Yan" -> "family" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Chinese language" -> "writers" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Franz Kafka" -> "11" [label="has theme [Measure_duration]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "2012" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Franz Kafka" -> "parts" [label="has theme [Part_whole]", color=lightsteelblue, penwidth=1];
+    "Mo Yan" -> "2005 International Nonino P..." [label="has prize [Win_prize]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [People]", color=green, penwidth=2];
+    "Franz Kafka" -> "school" [label="has theme [Quitting]", color=lightgreen, penwidth=1];
+    "Mo Yan" -> "work at the cotton oil proc..." [label="has activity [Activity_start]", color=lightgray, penwidth=1];
+    "Mo Yan" -> "into the Golden Bear -winni..." [label="has theme [Cause_change]", color=lightgoldenrod, penwidth=1];
+    "Mo Yan" -> "1986" [label="has time [Text]", color=purple, penwidth=2];
+    "Franz Kafka" -> "factory" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Mo Yan" -> "1955" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Franz Kafka" -> "two" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Mo Yan" -> "Guan Moye" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Franz Kafka" -> "sister" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Mo Yan" -> "Mo" [label="has competitor [Win_prize]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "2012" [label="has time [Amalgamation]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Amalgamation]", color=green, penwidth=2];
+    "Franz Kafka" -> "parts" [label="has entity [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "2012" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Mo Yan" -> "1986" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Franz Kafka" -> "1986" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "who" [label="has agent [Amalgamation]", color=lightsalmon, penwidth=1];
+    "Mo Yan" -> "2005" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Mo Yan" -> "Guan Moye" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Mo Yan" -> "autumn of 1973" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Mo Yan" -> "writing" [label="has activity [Activity_start]", color=lightgray, penwidth=1];
+    "Franz Kafka" -> "which time" [label="has time [Quitting]", color=purple, penwidth=2];
+    "Chinese language" -> "1955" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Franz Kafka" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Chinese language" -> "name" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Franz Kafka" -> "peasant" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Mo Yan" -> "Mo" [label="has agent [Activity_start]", color=lightgray, penwidth=1];
+    "Franz Kafka" -> "parts of which" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Mo Yan" -> "1986" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Franz Kafka" -> "Mo Yan" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Franz Kafka" -> "1955" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Mo Yan" -> "February 1955" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Franz Kafka" -> "older" [label="has degree [Age]", color=lightcyan, penwidth=1];
+    "Western world" -> "readers" [label="has reader [Reading_perception]", color=lightsteelblue, penwidth=1];
+    "Franz Kafka" -> "soldier" [label="has theme [Continued_state_of_affairs]", color=lightsalmon, penwidth=1];
+    "Franz Kafka" -> "brothers" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Mao Zedong" -> "socialist realist style und..." [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Chinese language" -> "Mo Yan" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Mo Yan" -> "his 1986 novel Red Sorghum,..." [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "Franz Kafka" -> "Mo Yan" [label="has employee [Quitting]", color=lightgreen, penwidth=1];
+    "Mo Yan" -> "brothers" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Cultural Revolution" -> "Mo" [label="has theme [Becoming_a_member]", color=lightsteelblue, penwidth=1];
+    "Donald Morrison politician" -> "Mo Yan" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Franz Kafka" -> "1973" [label="has time [Processing_materials]", color=purple, penwidth=2];
+    "Mo Yan" -> "1976" [label="has time [Text_creation]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Simple_naming_legend" [label="Simple_naming", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reading_perception_legend" [label="Reading_perception", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Continued_state_of_affairs_legend" [label="Continued_state_of_affairs", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quitting_legend" [label="Quitting", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Member_of_military_legend" [label="Member_of_military", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Amalgamation_legend" [label="Amalgamation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Processing_materials_legend" [label="Processing_materials", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

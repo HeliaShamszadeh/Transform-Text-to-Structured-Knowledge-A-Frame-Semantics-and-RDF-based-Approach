@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_language Natural_features:has_theme island",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions a 'Spanish island' (Lanzarote), creating a weak semantic link between the Spanish language/culture and an island."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Being_named:has_time 1922",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Saramago was Portuguese and was born in 1922, creating an indirect link between Portugal and the time 1922 through the author's nationality and birth year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Temporal_collocation:has_theme most gifted novelist alive in the world",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a Nobel Prize in Literature and the phrase 'most gifted novelist alive', but the triple specifies the Nobel Memorial Prize in Economic Sciences, which is a completely different and unrelated award."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Being_named:has_entity paternal",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'the second or paternal family name is Saramago', directly linking José Saramago to the concept of a paternal name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jesus Attributed_information:has_time 1992",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the year 1992 in the context of the controversy surrounding Saramago's book 'The Gospel According to Jesus Christ', creating a reasonable semantic connection between Jesus and the time 1992."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Expressing_publicly:has_theme http://en.wikipedia.org/wiki/José_Saramago",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. The subject and prize are completely different."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_of_Portugal Statement:has_speaker Government of Portugal under Prime Minister Anbal Cavaco Silva",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the Government of Portugal under Prime Minister Aníbal Cavaco Silva ordered the removal...', clearly connecting the government with this specific administration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Duplication:has_theme Saramago's books",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that 'more than two million copies of Saramago's books have been sold in Portugal alone', creating a semantic connection between Portugal and Saramago's books through commercial success and readership."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Distinctiveness:has_feature tone",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'tone' in relation to James Wood's praise of Saramago's fiction, but this is completely unrelated to the Nobel Memorial Prize in Economic Sciences which is not mentioned at all."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Wood_(critic) Causation:has_cause he narrates his novels as if he were someone both wise and ignorant",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'James Wood praises \"the distinctive tone to his fiction because he narrates his novels as if he were someone both wise and ignorant\"', directly connecting James Wood's praise to Saramago's narrative style as a causal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Grasp:has_category as allegories",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. The connection to 'allegories' is about Saramago's works, not the prize's category. The subject and predicate are unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harold_Bloom Communicate_categorization:has_category as \" the most gifted novelist alive in the world today \"",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Harold Bloom is directly quoted describing Saramago as 'the most gifted novelist alive in the world today' in 2003. The semantic meaning of the categorization is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harold_Bloom Statement:has_time 2010",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'in 2010 [Harold Bloom] said he considers Saramago to be...'. This directly associates Harold Bloom with the time '2010' in the context of making a statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Cardinal_numbers:has_entity languages",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Portugal and states Saramago's work 'has been translated into 25 languages'. There is a weak but valid semantic connection between Portugal and languages via the author's nationality and the translation of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Preventing_or_letting:has_location Literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "José Saramago is the subject of the paragraph and is identified as a writer who won the Nobel Prize in Literature. There is a reasonable semantic connection between the person and the domain/location of 'Literature'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Dead_or_alive:has_theme most gifted novelist",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. The theme 'most gifted novelist' is attributed to Harold Bloom's description of Saramago, but it is not connected to the Economic Sciences prize in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Cardinal_numbers:has_theme 25",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Saramago's work has been translated into 25 languages. As Saramago is a Portuguese writer and the context involves his success, there is a weak but reasonable semantic connection between Portugal and the number 25 via his literary translations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Defending:has_theme http://en.wikipedia.org/wiki/José_Saramago",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Saramago criticized the Catholic Church. The predicate 'Defending:has_theme' is ambiguous, but if interpreted as 'being a theme/topic of defense', the connection is very weak and inverted (it's criticism, not defense). However, being lenient, there is a semantic connection between the Church and Saramago as a subject of discussion."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harold_Bloom Statement:has_message he considers Saramago to be \" a permanent part of the Western canon \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This statement is directly and verbatim quoted in the paragraph: 'in 2010 said he considers Saramago to be \"a permanent part of the Western canon\"'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Ordinal_numbers:has_time 1922",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "1922 is the birth year of José Saramago, who is a Portuguese writer. There is a reasonable semantic connection between Portugal and the year 1922 through the birth of one of its notable citizens."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Membership:has_theme founding",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Saramago was a 'founding member' of the National Front for the Defense of Culture. The triple's theme of 'founding' is semantically connected to this membership event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Receiving:has_time 1998",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Saramago receiving the 'Nobel Prize in Literature' in 1998, not the 'Nobel Memorial Prize in Economic Sciences'. These are distinct awards, making the information contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jesus Attributed_information:has_theme one of his works, The Gospel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions the title of Saramago's work 'The Gospel According to Jesus Christ'. This creates a direct semantic link between the entity 'Jesus' and the theme of the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Wood_(critic) Causation:has_time 2003",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions James Wood praising Saramago, but it does not associate this event with the year 2003. The year 2003 is explicitly linked to a statement by Harold Bloom. There is no semantic connection between James Wood and the year 2003 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Part_whole:has_time 2003",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the year 2003 is mentioned in the paragraph in relation to an event involving Saramago (Harold Bloom's description), the 'Part_whole:has_time' relationship is vague. There is a weak semantic connection as the subject is associated with the time period, even if the relationship type is not precise."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Event:has_event events",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. These are distinct awards."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Cardinal_numbers:has_theme one",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Catholic Church as an institution Saramago criticized, but there is no semantic connection to the theme of 'one' or cardinal numbers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Categorization:has_category as political censorship of his work",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Saramago criticized the Catholic Church, and the paragraph discusses political censorship of his work. While not directly stated, there is a thematic link as the censorship was related to a religious work, and the Church is a major religious institution."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Residence:has_theme alongside his Spanish wife Pilar del Ro",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The information about his residence with his wife is present, but it is completely unrelated to the Catholic Church. No semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Feeling:has_theme disheartened by what he perceived as political censorship of his work",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Saramago criticized the Catholic Church, and the political censorship (related to a religious book) made him feel disheartened. There is a reasonable thematic and causal link between the Church and his feelings about censorship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Cardinal_numbers:has_theme million",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'more than two million copies of Saramago's books have been sold', which loosely connects the theme of 'million' (as a large quantity) to Saramago's work, though the predicate 'has_theme' is a stretch."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Gizmo:has_theme instrument",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Saramago criticized the Catholic Church and defended love as an 'instrument' to improve the human condition. There is a very weak, indirect semantic link between the Church and the concept of an instrument via the broader context of his beliefs."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Aníbal_Cavaco_Silva Leadership:has_leader Anbal Cavaco Silva",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is a tautology (the subject and object are the same entity). The paragraph states Aníbal Cavaco Silva was the Prime Minister, but the triple does not express a meaningful relationship extractable from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jesus Removing:has_theme Aristeion Prize's shortlist",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Saramago's work 'The Gospel According to Jesus Christ' was removed from the Aristeion Prize's shortlist. There is a clear, though indirect, connection between Jesus (the subject of the book) and the removal from the shortlist."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Receiving:has_theme his \" parables sustained by imagination, compassion and irony [with which he] continually enables us once again to apprehend an elusory reality",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Saramago won the Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. The description of his work is correct, but it is attributed to the wrong award, making the core fact of the triple incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Text:has_time 2003",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 2003 is explicitly mentioned in the paragraph in relation to Harold Bloom's description of Saramago."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Being_named:has_entity second or paternal family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'the second or paternal family name is Saramago', which semantically connects to the concept of having a second or paternal family name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Cardinal_numbers:has_location http://en.wikipedia.org/wiki/Portugal",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Saramago is repeatedly identified as Portuguese, and Portugal is mentioned multiple times in the context of his nationality, book sales, and government actions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Cause_to_make_progress:has_project human condition",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While weak, there is a semantic connection: Saramago criticized the Catholic Church and separately defended love as an instrument to improve the human condition, creating an indirect thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Distinctiveness:has_entity his fiction",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Nobel Prize in Literature, not the Nobel Memorial Prize in Economic Sciences. While 'his fiction' is mentioned, the subject entity is completely wrong and unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Intentionally_create:has_location Lisbon",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Catholic Church is mentioned as being criticized by Saramago, and Lisbon is mentioned as the location of the National Front for the Defense of Culture. However, there is no direct or indirect semantic link in the paragraph stating or implying that the Catholic Church has its location in Lisbon. The two entities are mentioned in entirely separate contexts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Receiving:has_theme 1998 Nobel Prize in Literature",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The 'Nobel Memorial Prize in Economic Sciences' is a completely different award and is not mentioned in the paragraph. The paragraph only discusses the 'Nobel Prize in Literature'. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Membership:has_location Lisbon",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Saramago is described as a 'founding member of the National Front for the Defense of Culture in Lisbon'. This strongly implies a membership located in Lisbon, even if the predicate 'Membership:has_location' is not a perfect match for the phrase 'founding member in Lisbon'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences Political_locales:has_theme world",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The 'Nobel Memorial Prize in Economic Sciences' is not mentioned. The word 'world' appears in a quote about Saramago being 'the most gifted novelist alive in the world today', which is unrelated to any prize. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Frequency:has_theme languages",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Portugal is mentioned in the context that 'More than two million copies of Saramago's books have been sold in Portugal alone and his work has been translated into 25 languages.' While the connection is indirect, one can reasonably infer a relationship between the country (Portugal) and the theme of languages (via the translation statistic)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago Preventing_or_letting:has_theme once again",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'once again' appears in the Nobel Prize description about enabling us to 'apprehend an elusory reality' again, which is thematically related to Saramago's work, but the connection to the predicate 'Preventing_or_letting:has_theme' is very weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Categorization:has_theme http://en.wikipedia.org/wiki/José_Saramago",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Saramago criticized the Catholic Church, and his work 'The Gospel According to Jesus Christ' was deemed religiously offensive, creating a thematic connection between the Church and his work/persona, though the predicate direction is ambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portugal Ordinal_numbers:has_type family name",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Portugal is mentioned as a country and its government is discussed, but there is no information connecting Portugal to a 'family name' or the concept of 'Ordinal_numbers:has_type'. The connection is nonsensical based on the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jesus Removing:has_theme one of his works, The Gospel According to Jesus Christ",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The work 'The Gospel According to Jesus Christ' is explicitly mentioned and its removal from a prize shortlist is described. This creates a clear thematic link between Jesus (as the subject of the work) and the act of removal, though the predicate phrasing is unconventional."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/José_Saramago People:has_time 2003",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 2003 is explicitly mentioned in the context of Harold Bloom describing Saramago, directly associating a specific time with José Saramago."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.47200000000000003,
+    "high_confidence_50": 27,
+    "high_confidence_80": 13,
+    "percent_50": 54.0,
+    "percent_80": 26.0,
+    "max_triples_limit": 50
+  }
+}

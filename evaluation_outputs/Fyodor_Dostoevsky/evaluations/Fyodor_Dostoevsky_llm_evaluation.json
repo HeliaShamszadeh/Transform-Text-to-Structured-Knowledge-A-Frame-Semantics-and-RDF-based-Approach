@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow Foreign_or_domestic_country:has_theme foreign",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Moscow is mentioned as Dostoevsky's birthplace, and the paragraph mentions he read books by 'foreign authors', creating a weak semantic link between Moscow and foreign themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Text:has_theme critical of Tsarist Russia",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Saint Petersburg is mentioned in the context of Dostoevsky's literary circles, and he was arrested for discussing books 'critical of Tsarist Russia', creating a reasonable thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow Temporal_collocation:has_theme age",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Moscow is mentioned as the place where Dostoevsky was born in 1821, and the paragraph discusses his early life and age, creating a semantic link between the location and the concept of age/time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Raw_Youth Death:has_theme tuberculosis",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While tuberculosis is mentioned as the cause of his mother's death, there is no mention of 'The Raw Youth' (which is an alternative title for 'The Adolescent') in connection with death or tuberculosis in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Departing:has_time around the same time",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'around the same time' is used in the paragraph to describe when Dostoevsky left school after his mother's death, which is a clear instance of a departure event with a temporal marker."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Categorization:has_category as one of the greatest novelists in both Russian and world literature",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He is regarded as one of the greatest novelists in both Russian and world literature'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Text:has_text literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph mentions literature multiple times in relation to Dostoevsky's work and reputation"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Raw_Youth Categorization:has_item His Notes from Underground, a novella published in 1864",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly attributes 'Notes from Underground' to 'The Raw Youth' (The Adolescent) when they are separate works mentioned in the paragraph"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Measure_duration:has_process compulsory military service in exile",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "While compulsory military service in exile is mentioned, it's not connected to Saint Petersburg in the paragraph - Saint Petersburg is mentioned in a different context about literary circles"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Text:has_text books",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Saint Petersburg is mentioned in the context of literary circles, and books are discussed throughout the paragraph, creating a weak but reasonable semantic connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Text_creation:has_time mid-1840s",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In the mid-1840s, he wrote his first novel, Poor Folk', directly linking Dostoevsky's text creation to the mid-1840s."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Inclusion:has_theme His most acclaimed novels",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'His most acclaimed novels include...' which semantically connects the subject to the theme of 'his most acclaimed novels', though the relationship is more about listing than a direct 'has_theme' property."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Aggregate:has_theme literary",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states that his first novel 'gained him entry into Saint Petersburg's literary circles', creating a weak but valid semantic connection between Saint Petersburg and a literary theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Categorization:has_category highly influential masterpieces",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'many of his works are considered highly influential masterpieces', which semantically categorizes his works (and by extension, him as their creator) with this description."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Arrest:has_theme belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The arrest is mentioned in the paragraph, and while Saint Petersburg is mentioned earlier as the location of his literary circles, the connection to the arrest's theme is very indirect and implied rather than stated, but a weak semantic link exists through the narrative context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Ordinal_numbers:has_type novel",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Saint Petersburg in the context of literary circles, and mentions novels, but there is no semantic connection suggesting Saint Petersburg 'has type novel'. The relationship is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Departing:has_theme school",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'he left school to enter the Nikolayev Military Engineering Institute'. The concept of 'departing' from 'school' is semantically present, even if the specific predicate 'has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Military_Engineering-Technical_University Name_conferral:has_time later",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text explicitly states the institute was 'later renamed the Military Engineering-Technical University'. This directly connects the entity to the concept of a name change happening at a later time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Measure_duration:has_theme six",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 'six' appears in the context of 'six years of compulsory military service in exile'. There is no semantic link between the duration 'six' and the entity 'Saint Petersburg'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Text_creation:has_location http://en.wikipedia.org/wiki/Moscow",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Born in Moscow in 1821, Dostoevsky was introduced to literature at an early age...'. While it doesn't explicitly state he *wrote* there, the strong connection between his birthplace, early introduction to literature, and his identity as a writer creates a reasonable, though indirect, semantic link for text creation being associated with Moscow."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Text_creation:has_author authors",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Dostoevsky was an author who wrote novels, short stories, essays, and translated books, making the author relationship clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Aggregate:has_theme circles",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Saint Petersburg is mentioned in relation to literary circles, the triple structure suggests Saint Petersburg 'has_theme circles', which is semantically incorrect. The relationship is about location, not theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Inclusion:has_theme Crime and Punishment (1866 ), The Idiot (1869, Demons (1872 ), The Adolescent (1875) and The Brothers Karamazov (1880",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph lists these as Dostoevsky's 'most acclaimed novels'. While 'has_theme' might not be the perfect relationship (they are his works, not themes of him), there is a clear semantic connection between Dostoevsky and these literary works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Becoming_a_member:has_group Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states he 'left school to enter the Nikolayev Military Engineering Institute'. 'Entering' an institute implies a form of membership or enrollment, making the connection semantically reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Being_employed:has_position as an engineer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'After graduating, he worked as an engineer', which directly supports the employment relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crime_and_Punishment Text:has_text books",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Crime and Punishment (1866)' as one of Dostoevsky's acclaimed novels. While it doesn't explicitly state the book 'has text books', the semantic connection that a novel contains text is a reasonable, though indirect, inference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Subjective_influence:has_degree highly",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'many of his works are considered highly influential masterpieces', which clearly connects the subject (Dostoevsky) to a high degree of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Publishing:has_work His Notes from Underground, a novella",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'His Notes from Underground, a novella published in 1864...', providing a direct and clear connection between Dostoevsky and this specific work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Aggregate:has_theme group",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Saint Petersburg in the context of Dostoevsky gaining entry into its literary circles. It also mentions he was arrested for belonging to a literary 'group' (the Petrashevsky Circle). However, there is no semantic link suggesting Saint Petersburg itself 'has a theme' of 'group'; the concepts are mentioned separately and not in a subject-predicate-object relationship as stated in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Time_vector:has_theme graduating",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'After graduating...', placing the event of graduation on a timeline for Dostoevsky. The connection to a 'Time_vector:has_theme' is a very weak and abstract semantic link, as 'graduating' is an event, not typically a 'theme', but it is loosely related to a temporal aspect of his life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Publishing:has_time 1864",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that 'Notes from Underground, a novella published in 1864' is one of Dostoevsky's works, directly linking him to a publication year of 1864."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Raw_Youth Categorization:has_category one of the first works of existentialist literature",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph attributes the description 'one of the first works of existentialist literature' to 'Notes from Underground' (1864), not to 'The Raw Youth' (which is listed as 'The Adolescent' from 1875). The subject of the triple is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russian_language Origin:has_entity authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Russian and foreign authors' in the context of books Dostoevsky read, but it does not establish any relationship between the 'Russian language' and 'authors' as an entity of origin. The subject and predicate are not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Judgment_communication:has_theme Tsarist Russia",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dostoevsky was arrested in Saint Petersburg for belonging to a group that discussed books critical of Tsarist Russia. This indirectly links the location (Saint Petersburg) to the theme (Tsarist Russia) through the context of political criticism and arrest."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Discussion:has_theme banned books critical of Tsarist Russia",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that Dostoevsky was arrested in Saint Petersburg for belonging to the Petrashevsky Circle, a literary group that 'discussed banned books critical of Tsarist Russia'. This directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Aggregate:has_theme variety",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states his works 'engage with a variety of philosophical and religious themes', which semantically connects to 'variety' as a theme of his aggregate work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Crime_and_Punishment Text:has_author Russian and foreign authors",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Crime and Punishment is mentioned as Dostoevsky's work, and he was introduced to 'books by Russian and foreign authors', the triple incorrectly attributes authorship to 'Russian and foreign authors' rather than Dostoevsky himself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Military:has_theme military",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Saint Petersburg is mentioned in context of literary circles, but military themes are weakly connected through mention of 'Nikolayev Military Engineering Institute' and 'compulsory military service', creating a tangential semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Labor_product:has_theme first",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph mentions 'he wrote his first novel, Poor Folk', which semantically connects Dostoevsky's labor product (writing) with the theme of 'first'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Raw_Youth Death:has_theme His mother",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "'The Raw Youth' is another title for 'The Adolescent' mentioned in the paragraph, and 'His mother died of tuberculosis' creates a semantic connection between death theme and his mother, though the connection to the specific novel is weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Time_vector:has_event he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he worked as an engineer and briefly enjoyed a lavish lifestyle, translating books to earn extra money' which directly matches the event described in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Fields:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph extensively discusses Dostoevsky's literary works, their themes, and their exploration of the human condition. While 'works' is a broad term, it has a clear semantic connection to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Departing:has_purpose enter the Nikolayev Military Engineering Institute (later renamed the Military Engineering-Technical University)",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'he left school to enter the Nikolayev Military Engineering Institute'. The phrase 'to enter' implies a purpose, providing a reasonable semantic connection to the triple's predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Identicality:has_theme time",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains multiple specific dates and time periods (e.g., 1821–1881, 19th-century, 1866). While the connection to the abstract concept of 'time' is weak, it is semantically present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Membership:has_group literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he was arrested in 1849 for belonging to a literary group, the Petrashevsky Circle, that discussed banned books critical of Tsarist Russia', which directly matches the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Text:has_text http://en.wikipedia.org/wiki/Poor_Folk",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Dostoevsky wrote his first novel, Poor Folk, establishing a direct 'has_text' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Arrest:has_theme http://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dostoevsky was arrested for belonging to a literary group after gaining entry into Saint Petersburg's literary circles. This creates a weak but reasonable semantic link between Saint Petersburg, the arrest, and Dostoevsky."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Saint_Petersburg Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions durations of time (e.g., four years, six years) in the context of Dostoevsky's imprisonment and exile, but there is no semantic connection between Saint Petersburg and a duration measured in years."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Sentencing:has_theme death,",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Dostoevsky was sentenced to death', providing a clear semantic connection between the subject and the theme of a death sentence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fyodor_Dostoevsky Being_born:has_location http://en.wikipedia.org/wiki/Moscow",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Born in Moscow in 1821', providing a clear semantic connection for the 'Being_born' event having the location Moscow."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 34,
+    "accuracy": 0.68,
+    "avg_confidence": 0.5820000000000001,
+    "high_confidence_50": 34,
+    "high_confidence_80": 20,
+    "percent_50": 68.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

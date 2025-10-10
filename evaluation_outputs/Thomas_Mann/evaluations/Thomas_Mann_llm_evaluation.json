@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adolf_Hitler Arriving:has_time 1933",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'When Adolf Hitler came to power in 1933', which directly connects the entity to the year 1933 in an 'arriving to power' context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Fame:has_entity His highly symbolic and ironic epic novels and novellas",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Thomas Mann won the Nobel Prize, and the paragraph describes his novels as being 'noted for their insight'. There is a weak semantic link that his famous novels are related to his Nobel Prize fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize People:has_time 1955",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Mann died in 1955 and won the Nobel Prize in 1929. There is no direct or indirect connection between the Nobel Prize itself and the year 1955."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Fleeing:has_time When Adolf Hitler came to power in 1933",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'When Adolf Hitler came to power in 1933, Mann fled to Switzerland' provides a clear temporal connection between the fleeing event and the year 1933."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Killing:has_theme his trading firm",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Arthur Schopenhauer is mentioned as an intellectual influence on Mann's writing. The liquidation of his father's trading firm is a separate, unrelated event. There is no semantic connection between Schopenhauer and the trading firm, especially not a 'killing' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Kinship:has_theme brother",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Erika Mann as a child of Thomas Mann, and also mentions his older brother Heinrich. While the triple's specific relationship 'has_theme brother' is vague and not directly stated between Erika and a brother, there is a weak semantic connection through the family structure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize People:has_person people",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Thomas Mann was a 'Nobel Prize laureate'. The triple's relationship 'People:has_person people' is very generic, but it can be loosely interpreted as the Nobel Prize being associated with a person (Thomas Mann). The connection is weak due to the vagueness of the predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Type:has_theme modernized",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Mann used 'modernized versions of... the ideas of... Arthur Schopenhauer'. This provides a semantic link between Schopenhauer and the concept of being 'modernized', even if the triple's structure is awkward."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hanseatic_League Kinship:has_theme hanseatic Mann",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'hanseatic Mann family' and that Mann 'was born to a hanseatic family'. This creates a clear, though indirect, connection between the Hanseatic League (as the referent for 'hanseatic') and the Mann family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Origin:has_entity writers",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Schopenhauer is mentioned as one of the thinkers whose ideas Mann used. The paragraph also mentions 'writers' multiple times in relation to Mann and his family. The triple's intended meaning is unclear, but a very weak semantic connection exists through the shared context of intellectual figures and writers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Create_physical_artwork:has_creator artist",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The predicate 'has_creator' and object 'artist' do not align with the relationship described. The paragraph states Thomas Mann *received* the Nobel Prize; it does not suggest the prize 'has' him as a creator. The semantic connection is extremely weak and conceptually inverted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adolf_Hitler Leadership:has_time 1933",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'When Adolf Hitler came to power in 1933', which directly connects the entity Adolf Hitler to the year 1933 in the context of a leadership event ('came to power'). The semantic connection is strong."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Businesses:has_theme http://en.wikipedia.org/wiki/Thomas_Mann",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The relationship is inverted. The paragraph states Mann used 'the ideas of... Arthur Schopenhauer', meaning Mann's work has Schopenhauer as a theme/influence, not the other way around. However, a lenient interpretation acknowledges a semantic connection between the two entities, albeit with an incorrect predicate direction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Cardinal_numbers:has_entity Mann's six children",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Erika Mann is explicitly named as one of 'Mann's six children'. This establishes a clear 'part-of' or 'member-of' relationship between the individual (Erika Mann) and the group (Mann's six children), which can be leniently mapped to the 'has_entity' predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Text_creation:has_author writers",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incoherent. The object 'writers' is a general class, not a specific entity. The paragraph states Schopenhauer was a source of ideas *for* the writer Thomas Mann, not that Schopenhauer himself 'has_author writers'. The semantic connection is invalid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Reference_text:has_theme Thomas Mann (disambiguation",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Thomas Mann (disambiguation)' as a reference for other people with the same name, but it does not state or imply that the Nobel Prize has this disambiguation page as a theme. The connection is extremely weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Being_named:has_time 1955",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph begins by identifying Thomas Mann with the dates '(1875–1955)', and his death year (1955) is mentioned again later. While 'Being_named' is a vague frame, the temporal association of the person with the year 1955 is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Fame:has_reason their insight into the psychology of the artist and the intellectual",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Mann won the Nobel Prize and, in the next sentence, mentions that his novels 'are noted for their insight into the psychology of the artist and the intellectual.' While not explicitly causal, a lenient reading allows for a connection between the prize and the noted qualities of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Arriving:has_goal http://en.wikipedia.org/wiki/Switzerland",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'Mann fled to Switzerland.' While this refers to Thomas Mann, not Erika Mann, Erika is mentioned as his child. A very lenient, indirect interpretation could be that the family's move involved Erika. The connection is weak but semantically related to the theme of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Motion:has_theme http://en.wikipedia.org/wiki/Thomas_Mann",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Erika Mann is explicitly mentioned as a child of Thomas Mann. The entire paragraph is about Thomas Mann, so any mention of Erika is inherently connected to him. The 'Motion:has_theme' relationship, while vague, is reasonably supported by this familial and contextual link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Businesses:has_business firm",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No connection between Arthur Schopenhauer and a business firm is made in the paragraph. The only mention of a firm is Mann's father's trading firm, which is unrelated to Schopenhauer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Erika Mann is mentioned as a child of Thomas Mann. While her mother is not explicitly named, the paragraph discusses Mann's family and children, creating a weak but reasonable semantic connection to the theme of kinship and motherhood."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Being_named:has_entity other people",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph begins by referencing 'other people named Thomas Mann' via a disambiguation, creating a direct semantic link between the entity Thomas Mann and the concept of other people sharing his name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Relative_time:has_theme that",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The connection is extremely weak and indirect. Schopenhauer is mentioned as one of the thinkers whose ideas Mann used. The word 'that' is a common pronoun, and its thematic link to Schopenhauer is tenuous at best, but a lenient interpretation allows for a minimal semantic connection to the theme of ideas referenced in the past."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Increment:has_time 1955",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Thomas Mann is stated to be the 1929 Nobel Prize laureate, and his death year is 1955. While the prize was awarded in 1929, the year 1955 is a significant date associated with his life and, by extension, his status as a Nobel laureate. A lenient, thematic interpretation supports a connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Reference_text:has_time 1955",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Thomas Mann was a Nobel laureate and that he died in 1955. The connection between the prize and the year 1955 is very indirect and weak, but the concepts are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Erika Mann is explicitly mentioned as one of Thomas Mann's children, establishing a clear father-child relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adolf_Hitler Text_creation:has_theme exile",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Mann fled into exile when Hitler came to power, and that he is known for 'Exilliteratur' (exile literature) written in opposition to the Hitler regime. This creates a strong thematic link between Hitler and exile."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Using:has_theme so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'Mann is one of the best-known exponents of the so-called Exilliteratur, German literature written in exile by those who opposed the Hitler regime.' This is an exact semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Friedrich_Nietzsche Personal_relationship:has_theme Jlia da Silva Bruhns",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Nietzsche is mentioned as one of the thinkers Mann used in his work, and Júlia da Silva Bruhns is mentioned as Mann's mother. There is no stated or implied relationship or thematic connection between these two individuals in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Taking_sides:has_theme Hitler regime",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Hitler regime' and 'Arthur Schopenhauer' as an influence on Mann, who opposed the Hitler regime. This creates a very weak, indirect thematic link through the context of Mann's work and exile."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Arriving:has_time 1952",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Thomas Mann returned to Switzerland in 1952, but there is no mention of Erika Mann's arrival or any specific time associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Cardinal_numbers:has_entity children",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Mann's children, but there is no connection whatsoever between Arthur Schopenhauer and the concept of children in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses Thomas Mann's father, his death, and his profession, making 'father' a clear and central theme related to Mann."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Age:has_degree older",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'older' is used only in relation to Mann's brother Heinrich. There is no information about Arthur Schopenhauer's age or any age-related degree associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Origin:has_theme http://en.wikipedia.org/wiki/Germany",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Mann used ideas from Schopenhauer in his analysis of the 'European and German soul', creating a weak but reasonable semantic link between Schopenhauer and the theme of Germany."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Relative_time:has_theme his trading firm was liquidated",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "There is no semantic connection between Arthur Schopenhauer and the liquidation of Thomas Mann's father's trading firm mentioned in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Arriving:has_theme http://en.wikipedia.org/wiki/Thomas_Mann",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Erika Mann is explicitly identified as a child of Thomas Mann, establishing a clear familial relationship which can be interpreted as a 'theme' of arrival or connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Motion:has_goal http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Thomas Mann (Erika's father) moved to the United States. While Erika's movement isn't explicitly stated, a lenient interpretation based on family context allows for a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adolf_Hitler Arriving:has_goal power",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'When Adolf Hitler came to power' directly implies that achieving power was a goal that Hitler arrived at or achieved."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Cardinal_numbers:has_theme six",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Arthur Schopenhauer and the number six (in the context of Mann's six children), but there is no semantic connection between Schopenhauer and the number six."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Schopenhauer Taking_sides:has_theme who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'who' appears in the paragraph, but it is used as a relative pronoun, not as a theme connected to Arthur Schopenhauer. There is no semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Nobel Prize and the word 'people' appears in the disambiguation note, but there is no semantic relationship suggesting the Nobel Prize has a class of 'people'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Text:has_text http://en.wikipedia.org/wiki/Buddenbrooks",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Mann portrayed his family in his first novel, 'Buddenbrooks'. This is a strong semantic connection between Thomas Mann and the text Buddenbrooks."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Becoming:has_theme significant German writers",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that three of Mann's six children 'became significant German writers'. This directly relates Thomas Mann to the theme of 'significant German writers' through his children's achievements."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Cardinal_numbers:has_theme three",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'three of Mann's six children... also became significant German writers,' and Erika Mann is one of those children. The triple connects Erika Mann to the number three, which is semantically related to this statement, though the property 'has_theme' is a weak match for the relationship described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adolf_Hitler Text_creation:has_text German literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions that Mann's exile literature was written in opposition to the 'Hitler regime.' This creates a very indirect semantic link between Adolf Hitler and German literature (Exilliteratur), but the property 'has_text' is a very weak and imprecise fit for this contextual relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Mann Rite:has_organization into his father's Lutheran religion",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Mann was baptised into his father's Lutheran religion.' The subject and object of the triple are directly mentioned. The property 'has_organization' is a reasonable, though not perfect, semantic match for the concept of a baptismal rite into a religious organization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Erika_Mann Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Erika Mann is explicitly identified as one of Thomas Mann's children in the paragraph ('three of Mann's six children – Erika Mann...'). The property 'Kinship:has_theme' is a good semantic match for the relationship of being a child."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Europe Using:has_instrument modernized versions of German and Biblical stories, as well as the ideas of Johann Wolfgang von Goethe, Friedrich Nietzsche, and Arthur Schopenhauer",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Mann's analysis was of the 'European and German soul' and that he 'used modernized versions...'. This creates a very weak and indirect link between Europe and the instrument of analysis. The connection is highly contextual and the property 'has_instrument' is a stretch, but a semantic connection exists."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.4860000000000001,
+    "high_confidence_50": 27,
+    "high_confidence_80": 16,
+    "percent_50": 54.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

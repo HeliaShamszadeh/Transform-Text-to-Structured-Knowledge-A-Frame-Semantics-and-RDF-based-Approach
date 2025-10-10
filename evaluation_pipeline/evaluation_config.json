@@ -1,0 +1,42 @@
+{
+  "deepseek_api_key": "sk-3dbf2f6094d744eea9f335e5e504b87d",
+  "deepinfra_api_key": "WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li",
+  "deepseek_model": "deepseek-chat",
+  "deepinfra_model": "meta-llama/Llama-2-70b-chat-hf",
+  "authors_limit": 2,
+  "confidence_threshold": 0.5,
+  "batch_size": 5,
+  "timeout_seconds": 300,
+  "rate_limit_delay": 0.5,
+  "output_directories": {
+    "authors_data": "inputs/authors",
+    "evaluation_outputs": "evaluation_outputs/evaluations",
+    "srl_outputs": "evaluation_outputs/srl",
+    "rel_outputs": "evaluation_outputs/rel",
+    "rdf_outputs": "evaluation_outputs/rdf",
+    "graph_outputs": "evaluation_outputs/graphs"
+  },
+  "api_settings": {
+    "deepseek": {
+      "base_url": "https://api.deepseek.com/v1/chat/completions",
+      "max_tokens": 500,
+      "temperature": 0.1,
+      "timeout": 30
+    },
+    "deepinfra": {
+      "base_url": "https://api.deepinfra.com/v1/openai/chat/completions",
+      "max_tokens": 50,
+      "temperature": 0.1,
+      "timeout": 30
+    }
+  },
+  "evaluation_settings": {
+    "confidence_categories": {
+      "high": 0.8,
+      "medium": 0.5,
+      "low": 0.35
+    },
+    "extraction_threshold": 0.5,
+    "max_triples_per_author": 1000
+  }
+}

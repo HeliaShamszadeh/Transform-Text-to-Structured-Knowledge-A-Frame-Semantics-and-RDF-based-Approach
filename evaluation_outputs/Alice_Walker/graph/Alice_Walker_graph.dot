@@ -1,0 +1,340 @@
+digraph Alice_Walker {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author and activist" [label="author and activist", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "American author and activist" [label="American author and activist", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her best-known work, The Co..." [label="her best-known work, The Co...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book of poetry" [label="book of poetry", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her novel The Color Purple" [label="her novel The Color Purple", fillcolor=lightblue, color=blue, shape=ellipse];
+    "wrote novels, including her..." [label="wrote novels, including her...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her own writings" [label="her own writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her mother also worked as a..." [label="her mother also worked as a...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her writing career" [label="her writing career", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her first book of poetry" [label="her first book of poetry", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "seventeen novels and short ..." [label="seventeen novels and short ...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Sarah Lawrence College" [label="Sarah Lawrence College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "extra money" [label="extra money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "enrolled in school when she..." [label="enrolled in school when she...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rural Georgia" [label="rural Georgia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British conspiracy theorist..." [label="British conspiracy theorist...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "youngest" [label="youngest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alice Malsenior Tallulah-Ka..." [label="Alice Malsenior Tallulah-Ka...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Walker film" [label="Walker film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alice Walker disambiguation" [label="Alice Walker disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Civil Rights Movement" [label="Civil Rights Movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of her brothers" [label="one of her brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eatonton, Georgia, a rural ..." [label="Eatonton, Georgia, a rural ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "farming" [label="farming", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1944" [label="1944", fillcolor=lightgray, color=gray, shape=hexagon];
+    "money" [label="money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "multiple accusations of ant..." [label="multiple accusations of ant...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "East Putnam Consolidated" [label="East Putnam Consolidated", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays and poetry" [label="essays and poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "become high school valedict..." [label="become high school valedict...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1982" [label="1982", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Both of Walker's parents we..." [label="Both of Walker's parents we...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "challenges" [label="challenges", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BB" [label="BB", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she was just four year..." [label="when she was just four year...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sarah Lawrence" [label="Sarah Lawrence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize for Fiction,..." [label="Pulitzer Prize for Fiction,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she was just four years old" [label="she was just four years old", fillcolor=lightgray, color=gray, shape=hexagon];
+    "College" [label="College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parents" [label="parents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Walker's" [label="Walker's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother" [label="her mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first African-American woman" [label="first African-American woman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "earn extra money" [label="earn extra money", fillcolor=lightgray, color=gray, shape=hexagon];
+    "non-fiction" [label="non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first African-American woma..." [label="first African-American woma...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alice Walker" [label="Alice Walker", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after one of her brothers f..." [label="after one of her brothers f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eatonton, Georgia" [label="Eatonton, Georgia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BB gun" [label="BB gun", fillcolor=lightgray, color=gray, shape=hexagon];
+    "antisemitism" [label="antisemitism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "African-American woman" [label="African-American woman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gun" [label="gun", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Color Purple" [label="The Color Purple", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her right eye" [label="her right eye", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brothers" [label="brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "injury to her right eye" [label="injury to her right eye", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high" [label="high", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stance" [label="stance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "win the Pulitzer Prize for ..." [label="win the Pulitzer Prize for ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "challenges such as childhoo..." [label="challenges such as childhoo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "antisemitic conspiracy theo..." [label="antisemitic conspiracy theo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "woman" [label="woman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "right" [label="right", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Willie Lee Walker and Minni..." [label="Willie Lee Walker and Minni...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "David Icke" [label="David Icke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "February 9, 1944" [label="February 9, 1944", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eight children" [label="eight children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Walker, the youngest of eig..." [label="Walker, the youngest of eig...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a seamstress" [label="as a seamstress", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rural" [label="rural", fillcolor=lightgray, color=gray, shape=hexagon];
+    "high school valedictorian" [label="high school valedictorian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "just four years" [label="just four years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "town" [label="town", fillcolor=lightgray, color=gray, shape=hexagon];
+    "animal advocacy and pacifism" [label="animal advocacy and pacifism", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "David Icke" -> "British conspiracy theorist..." [label="has reason [Judgment_communication]", color=lightblue, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Measure_duration]", color=green, penwidth=2];
+    "Alice Walker" -> "1982" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Alice Walker" -> "1982" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Walker film" -> "multiple accusations of ant..." [label="has issue [Confronting_problem]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "College" [label="has theme [Locale_by_use]", color=lightcyan, penwidth=1];
+    "United States" -> "author and activist" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "1944" [label="has time [Increment]", color=purple, penwidth=2];
+    "Alice Walker" -> "just four years" [label="has age [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "David Icke" -> "money" [label="has class [Increment]", color=lightgray, penwidth=1];
+    "David Icke" -> "her right eye" [label="has theme [Experience_bodily_harm]", color=lightseagreen, penwidth=1];
+    "Alice Walker" -> "1944" [label="has time [Being_named]", color=purple, penwidth=2];
+    "David Icke" -> "eight children" [label="has entity [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Alice Walker" -> "1944" [label="has time [People]", color=purple, penwidth=2];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Age]", color=green, penwidth=2];
+    "United States" -> "novelist" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "win the Pulitzer Prize for ..." [label="has theme [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "novels" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Walker film" -> "become high school valedict..." [label="has purpose [Conquering]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "Alice Malsenior Tallulah-Ka..." [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "David Icke" -> "Alice Walker" [label="has theme [Judgment_communication]", color=lightblue, penwidth=1];
+    "United States" -> "American author and activist" [label="has person [Being_born]", color=red, penwidth=2];
+    "Alice Walker" -> "1944" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "David Icke" -> "her own writings" [label="has theme [Judgment_communication]", color=lightblue, penwidth=1];
+    "Eatonton, Georgia" -> "rural" [label="has theme [Locale_by_use]", color=lightcyan, penwidth=1];
+    "Walker film" -> "Walker's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "David Icke" -> "earn extra money" [label="has purpose [Being_employed]", color=lightgreen, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Locale_by_use]", color=green, penwidth=2];
+    "Alice Walker" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "The Color Purple" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "high" [label="has level [Education_teaching]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "stance" [label="has action [Level_of_force_exertion]", color=lightcyan, penwidth=1];
+    "David Icke" -> "youngest" [label="has degree [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "David Icke" -> "her mother also worked as a..." [label="has theme [Concessive]", color=lightsteelblue, penwidth=1];
+    "David Icke" -> "after one of her brothers f..." [label="has time [Duration_description]", color=purple, penwidth=2];
+    "The Color Purple" -> "one of her brothers" [label="has agent [Shoot_projectiles]", color=lightgoldenrodyellow, penwidth=1];
+    "David Icke" -> "gun" [label="has theme [Weapon]", color=lightseagreen, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Locative_relation]", color=green, penwidth=2];
+    "David Icke" -> "after one of her brothers f..." [label="has theme [Experience_bodily_harm]", color=lightseagreen, penwidth=1];
+    "Alice Walker" -> "rural" [label="has theme [Locale_by_use]", color=lightcyan, penwidth=1];
+    "Alice Walker" -> "her first book of poetry" [label="has means [Activity_start]", color=lightgoldenrod, penwidth=1];
+    "Alice Walker" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "David Icke" -> "extra money" [label="has theme [Earnings_and_losses]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "non-fiction" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "David Icke" -> "four" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "Alice Malsenior Tallulah-Ka..." [label="has person [Being_born]", color=red, penwidth=2];
+    "Alice Walker" -> "her writing career" [label="has activity [Activity_start]", color=lightgoldenrod, penwidth=1];
+    "Alice Walker" -> "works" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "Alice Walker disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Alice Walker" -> "essays and poetry" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "David Icke" -> "Walker, the youngest of eig..." [label="has theme [Becoming_a_member]", color=lightgreen, penwidth=1];
+    "David Icke" -> "right" [label="has theme [Body_parts]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "challenges" [label="has activity [Difficulty]", color=lightpink, penwidth=1];
+    "Walker film" -> "Civil Rights Movement" [label="has institution [Participation]", color=lightcyan, penwidth=1];
+    "Alice Walker" -> "poetry" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "collections" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "The Color Purple" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "1982" [label="has time [Text]", color=purple, penwidth=2];
+    "David Icke" -> "school" [label="has theme [Locale_by_use]", color=lightcyan, penwidth=1];
+    "David Icke" -> "four" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "February 9, 1944" [label="has time [Being_born]", color=purple, penwidth=2];
+    "David Icke" -> "years" [label="has theme [Cardinal_numbers]", color=lightcoral, penwidth=1];
+    "David Icke" -> "Alice Walker" [label="has possessor [Body_parts]", color=lightyellow, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [First_experience]", color=green, penwidth=2];
+    "Alice Walker" -> "poetry" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Walker film" -> "rural Georgia" [label="has location [Being_born]", color=green, penwidth=2];
+    "Alice Walker" -> "story" [label="has theme [Duration_description]", color=lightgray, penwidth=1];
+    "David Icke" -> "when she was just four year..." [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "David Icke" -> "which" [label="has theme [Containing]", color=lightgray, penwidth=1];
+    "Alice Walker" -> "African-American woman" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Alice Walker" -> "book of poetry" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "David Icke" -> "antisemitic conspiracy theo..." [label="has theme [Containing]", color=lightgray, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [People_by_age]", color=green, penwidth=2];
+    "David Icke" -> "works" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "which" [label="has theme [Sentencing]", color=lightseagreen, penwidth=1];
+    "Walker film" -> "antisemitism" [label="has reason [Judgment_communication]", color=lightblue, penwidth=1];
+    "Alice Walker" -> "novels" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "David Icke" -> "school" [label="has group [Becoming_a_member]", color=lightgreen, penwidth=1];
+    "David Icke" -> "years" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "her best-known work, The Co..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "1982" [label="has time [Sentencing]", color=purple, penwidth=2];
+    "Walker film" -> "animal advocacy and pacifism" [label="has event [Participation]", color=lightcyan, penwidth=1];
+    "Alice Walker" -> "Eatonton, Georgia, a rural ..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Alice Walker" -> "short story" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "1944" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "David Icke" -> "as a seamstress" [label="has position [Being_employed]", color=lightgreen, penwidth=1];
+    "David Icke" -> "BB" [label="has type [Weapon]", color=lightseagreen, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Becoming_a_member]", color=green, penwidth=2];
+    "United States" -> "Pulitzer Prize for Fiction,..." [label="has prize [Win_prize]", color=lightsalmon, penwidth=1];
+    "David Icke" -> "Both of Walker's parents we..." [label="has theme [Concessive]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "brothers" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "childhood" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Walker film" -> "parents" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "first African-American woma..." [label="has theme [Becoming]", color=lightgreen, penwidth=1];
+    "Alice Walker" -> "work" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "The Color Purple" -> "BB gun" [label="has theme [Shoot_projectiles]", color=lightgoldenrodyellow, penwidth=1];
+    "David Icke" -> "injury to her right eye" [label="has theme [Duration_description]", color=lightgray, penwidth=1];
+    "Alice Walker" -> "book" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "David Icke" -> "her mother" [label="has theme [Earnings_and_losses]", color=lightpink, penwidth=1];
+    "United States" -> "1982" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Eatonton, Georgia" -> "town" [label="has theme [Political_locales]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "1944" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Eatonton, Georgia" -> "farming" [label="has theme [Political_locales]", color=lightgoldenrod, penwidth=1];
+    "Walker film" -> "challenges such as childhoo..." [label="has theme [Conquering]", color=lightsteelblue, penwidth=1];
+    "Walker film" -> "seventeen novels and short ..." [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "Willie Lee Walker and Minni..." [label="has theme [Being_born]", color=lightblue, penwidth=1];
+    "David Icke" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Alice Walker" -> "author" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has location [Cardinal_numbers]", color=green, penwidth=2];
+    "United States" -> "1944" [label="has time [Text]", color=purple, penwidth=2];
+    "Alice Walker" -> "Sarah Lawrence" [label="has theme [Locale_by_use]", color=lightcyan, penwidth=1];
+    "United States" -> "first African-American woman" [label="has competitor [Win_prize]", color=lightsalmon, penwidth=1];
+    "Alice Walker" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "David Icke" -> "she was just four years old" [label="has theme [Locative_relation]", color=lightsalmon, penwidth=1];
+    "David Icke" -> "her mother" [label="has employee [Being_employed]", color=lightgreen, penwidth=1];
+    "David Icke" -> "money" [label="has theme [Money]", color=lightsteelblue, penwidth=1];
+    "Alice Walker" -> "wrote novels, including her..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "United States" -> "1982" [label="has time [People]", color=purple, penwidth=2];
+    "Alice Walker" -> "people" [label="has class [Increment]", color=lightgray, penwidth=1];
+    "Alice Walker" -> "short story" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Alice Walker" -> "East Putnam Consolidated" [label="has location [Age]", color=green, penwidth=2];
+    "Alice Walker" -> "essays" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Walker film" -> "high school valedictorian" [label="has theme [Becoming]", color=lightgreen, penwidth=1];
+    "United States" -> "1944" [label="has time [Origin]", color=purple, penwidth=2];
+    "Alice Walker" -> "other people" [label="has entity [Being_named]", color=lightsalmon, penwidth=1];
+    "David Icke" -> "enrolled in school when she..." [label="has theme [First_experience]", color=lightsteelblue, penwidth=1];
+    "David Icke" -> "East Putnam Consolidated" [label="has theme [Locative_relation]", color=lightsalmon, penwidth=1];
+    "United States" -> "woman" [label="has person [People]", color=red, penwidth=2];
+    "Walker film" -> "Sarah Lawrence College" [label="has institution [Education_teaching]", color=lightpink, penwidth=1];
+    "Alice Walker" -> "her novel The Color Purple" [label="has theme [Sentencing]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Confronting_problem_legend" [label="Confronting_problem", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Experience_bodily_harm_legend" [label="Experience_bodily_harm", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Conquering_legend" [label="Conquering", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Level_of_force_exertion_legend" [label="Level_of_force_exertion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Concessive_legend" [label="Concessive", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Shoot_projectiles_legend" [label="Shoot_projectiles", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Weapon_legend" [label="Weapon", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Body_parts_legend" [label="Body_parts", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Difficulty_legend" [label="Difficulty", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Participation_legend" [label="Participation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Containing_legend" [label="Containing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Sentencing_legend" [label="Sentencing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Money_legend" [label="Money", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

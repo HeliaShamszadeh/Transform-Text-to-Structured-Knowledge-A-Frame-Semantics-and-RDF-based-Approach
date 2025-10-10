@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_text Nineteen Eighty-Four",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that George Orwell wrote the dystopian novel Nineteen Eighty-Four."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text_creation:has_time 1903",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "1903 is explicitly stated as Orwell's birth year, not the creation time of a text. The triple predicate suggests a creation time, which is unrelated to the birth year mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The concepts 'Increment', 'has_class', and 'uses' have no discernible semantic connection to any information in the paragraph about England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text_creation:has_author author",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically and semantically incoherent. It states that England 'has_author author', which does not form a meaningful statement, and no such relationship is described in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Judgment:has_evaluee His non-fiction works, including The Road to Wigan Pier (1937 ), documenting his experience of working-class life in industrial Northern England, and Homage to Catalonia (1938 ), an account of his experiences soldiering for the Republican faction of the Spanish Civil War (1936–1939 )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The entire object of the triple is a direct, verbatim excerpt from the paragraph that describes Orwell's non-fiction works. The subject is Orwell, and the paragraph presents this information about him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text_creation:has_theme under the pen name of George Orwell",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'under the pen name of George Orwell' is present, but it describes the author's pseudonym, not a 'theme' of his work. The connection is very weak and semantically strained, but the exact words exist in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text_creation:has_time 1903",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple suggests a creation event in England in 1903. The paragraph states Orwell was an English author born in 1903, but it does not link the country 'England' to the time '1903' in the context of creation. The subject 'England' itself is not the entity creating anything at that time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Orwell's works 'encompass literary criticism, poetry, fiction and polemical journalism,' directly indicating that his textual output includes poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Being_born:has_location Motihari, Bengal Presidency (now Bihar ), British India",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Eric Arthur Blair was born on 25 June 1903 in Motihari, Bengal Presidency (now Bihar), British India,' which is a perfect match for the triple's information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_Civil_War Perception_experience:has_time 1937",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Homage to Catalonia (1938), an account of his experiences soldiering for the Republican faction of the Spanish Civil War (1936–1939)'. The war is associated with the years 1936-1939, but the specific year 1937 is not mentioned in relation to the war or the experience. The date 1937 is mentioned for 'The Road to Wigan Pier', which is unrelated to the Spanish Civil War."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Motihari Kinship:has_theme lower-upper-middle class",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Motihari as Orwell's birthplace and separately describes his family as 'lower-upper-middle class'. The connection is very weak and indirect, as the theme is attributed to the family, not the place, but a semantic link exists through the biographical context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Part_whole:has_theme part",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is too vague and abstract. The concept of 'part' is not mentioned or implied in the paragraph in a way that can be thematically linked to George Orwell."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Similarity:has_theme adjective \" Orwellian \"—describing totalitarian and authoritarian social practices",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that the adjective 'Orwellian' is derived from his name and describes totalitarian and authoritarian practices, which are central themes of his work discussed in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Inclusion:has_theme Road to Wigan Pier (1937 )",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly lists 'The Road to Wigan Pier (1937)' as one of Orwell's non-fiction works, making the connection to him clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Reference_text:has_theme Orwell (disambiguation)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph contains a direct reference to 'Orwell (disambiguation)' in its second sentence, indicating a semantic connection, though the nature of the 'has_theme' relationship is weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text_creation:has_author who",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Eric Arthur Blair wrote under the pen name George Orwell, establishing a clear author relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_text account",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Homage to Catalonia (1938), an account of his experiences...' which is one of Orwell's texts, making this a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Practice:has_agent totalitarian and authoritarian",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Orwell's opposition to totalitarianism and mentions the term 'Orwellian' describing totalitarian/authoritarian practices, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_text essays",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions Orwell wrote essays and that his essays are critically respected, providing clear support for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_theme his experiences soldiering for the Republican faction of the Spanish Civil War (1936-1939)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that 'Homage to Catalonia' is an account of his experiences soldiering for the Republican faction of the Spanish Civil War, clearly supporting this theme relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Judgment:has_degree as his essays on politics, literature, language and culture",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'as critically respected as his essays on politics, literature, language and culture' implies a degree of respect/quality for his essays, which is weakly related to the concept of 'has_degree'. The connection is very indirect and the predicate is unclear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Motihari Communicate_categorization:has_item what",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. 'what' is not a valid object, and the predicate 'Communicate_categorization:has_item' doesn't correspond to any clear relationship mentioned about Motihari (which is only stated as Orwell's birthplace)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_Civil_War Perception_experience:has_theme http://en.wikipedia.org/wiki/George_Orwell",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Orwell wrote 'Homage to Catalonia', an account of his experiences soldiering in the Spanish Civil War. This creates a clear thematic connection between Orwell and the war, even if the specific predicate 'Perception_experience:has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_time 1937",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1937 is explicitly mentioned in relation to Orwell's non-fiction work 'The Road to Wigan Pier'. This directly supports a temporal relationship between Orwell and that date in the context of his texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell State_continue:has_entity Orwell's work",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph extensively discusses 'Orwell's work' in relation to Orwell himself. The relationship 'has_entity' can be reasonably interpreted as Orwell being associated with his body of work, which is a central theme of the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Times Appointing:has_theme Times",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically and semantically incoherent. 'Appointing:has_theme Times' does not form a meaningful statement, and the phrase 'Times' in the paragraph refers to the newspaper 'The Times', not a theme named 'Times'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Being_named:has_time 1903",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1903 is explicitly stated as George Orwell's (Eric Arthur Blair's) birth year. The relationship 'has_time' can be leniently interpreted as associating the person with this significant date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Locative_relation:has_theme \"Eric Blair \" redirects",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'Eric Blair' redirects here' is present in the paragraph and is semantically connected to George Orwell, as Eric Blair is his real name. The connection is very weak and the predicate 'Locative_relation:has_theme' is a poor fit, but a lenient interpretation allows for a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Objective_influence:has_location popular culture and in political culture",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Orwell's work remains influential in popular culture and in political culture'. While 'has_location' is an unusual predicate for this concept, a lenient interpretation can connect 'influence' (Objective_influence) to the 'locations' or domains where it is felt (popular/political culture)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Times Appointing:has_role second-greatest British writer since 1945",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'The Times named Orwell the second-greatest British writer since 1945'. The predicate 'Appointing:has_role' can be leniently interpreted as The Times assigning/granting this title or role to Orwell."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Manufacturing:has_location Northern England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Orwell documented 'working-class life in industrial Northern England' in 'The Road to Wigan Pier'. While the predicate 'has_location' is broad, there is a semantic connection to Northern England through his work and experiences."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Manufacturing:has_time 1937",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1937 is explicitly mentioned as the publication date for 'The Road to Wigan Pier'. The predicate 'has_time' can be reasonably associated with this event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Motihari Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Motihari is mentioned as Orwell's birthplace, and the text mentions he was born 'into a family'. However, the triple suggests Motihari itself has the theme of 'family', which is not supported. The connection is about an event (birth) that happened *in* Motihari to a person from a family, not that the location's theme is family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_theme politics, literature, language and culture",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'his essays on politics, literature, language and culture'. This is a very direct semantic match for the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_text novella Animal Farm (1945)",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'his allegorical novella Animal Farm (1945)'. This is a direct and exact match for the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Fame:has_reason his allegorical novella Animal Farm (1945) and the dystopian novel Nineteen Eighty-Four (1949 )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Orwell is best known for his allegorical novella Animal Farm (1945) and the dystopian novel Nineteen Eighty-Four (1949)', which directly supports the semantic meaning of being famous for these works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Perception_experience:has_theme working-class life in industrial Northern England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'The Road to Wigan Pier (1937), documenting his experience of working-class life in industrial Northern England', establishing a clear thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Taking_sides:has_issue all totalitarianism (both authoritarian communism and fascism )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states his 'opposition to all totalitarianism (both authoritarian communism and fascism)', which directly matches the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Practice:has_theme social",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'social criticism' as a characteristic of his work, providing a weak but valid semantic connection to a social theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Locative_relation:has_theme here",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'here' in the paragraph is used for disambiguation redirects ('Orwell redirects here'), not as a thematic element related to George Orwell's work or life. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Objective_influence:has_theme Orwell's work",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Orwell's work is characterized by social criticism, opposition to totalitarianism, and support of democratic socialism, which are themes. The term 'has_theme' is semantically related to these characteristics."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Similarity:has_theme many of his neologisms, such as \" Big Brother \", \" Thought Police \", \" Room 101 \", \" Newspeak \", \" memory hole \", \" doublethink \", and \" thoughtcrime \"",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph lists these neologisms as being part of the English language and associated with the concept of 'Orwellian,' which describes social practices. While not explicitly stated as 'themes,' they are central concepts from his work that are thematically linked to his critique of totalitarianism."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Times Appointing:has_time 2008",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 2008, The Times named Orwell...'. The predicate 'Appointing:has_time' is a reasonable semantic match for an event (naming/appointing) happening at a specific time (2008)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Fame:has_time 1945",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text mentions Orwell is best known for works including 'Animal Farm (1945)' and that The Times named him the greatest British writer 'since 1945'. This implies a connection between his fame/recognition and the time period starting in 1945."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Inclusion:has_time 1937",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states his non-fiction work 'The Road to Wigan Pier (1937)' was published in 1937. The predicate 'Inclusion:has_time' can be reasonably interpreted as the work being included/published in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ontario People_by_vocation:has_person politician",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Eric Blair (Ontario politician)' in a redirect note, creating a very weak semantic link between Ontario and a politician."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell Text:has_theme dystopian",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Orwell wrote 'the dystopian novel Nineteen Eighty-Four', providing a clear and direct connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Orwell State_continue:has_state influential in popular culture and in political culture",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text directly states 'Orwell's work remains influential in popular culture and in political culture', which semantically matches the triple's intent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Spanish_Civil_War Perception_experience:has_theme soldiering for the Republican faction of the Spanish Civil War",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'soldiering for the Republican faction of the Spanish Civil War' in the context of Orwell's experiences, linking the theme to the war."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Motihari Communicate_categorization:has_category as a \" lower-upper-middle class",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Motihari is mentioned as Orwell's birthplace, and his family is described as 'lower-upper-middle class'. The connection is indirect but semantically related."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 35,
+    "accuracy": 0.7,
+    "avg_confidence": 0.5980000000000001,
+    "high_confidence_50": 35,
+    "high_confidence_80": 23,
+    "percent_50": 70.0,
+    "percent_80": 46.0,
+    "max_triples_limit": 50
+  }
+}

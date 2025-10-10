@@ -1,0 +1,307 @@
+digraph Allen_Ginsberg {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "William MacDonald Christian author" [label="William MacDonald Christian author", fillcolor=lightcoral, color=red, shape=circle];
+    "poet and writer" [label="poet and writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "apartments in New York City..." [label="apartments in New York City...", fillcolor=lightgreen, color=green, shape=box];
+    "New York City's East Village" [label="New York City's East Village", fillcolor=lightgreen, color=green, shape=box];
+    "widespread publicity" [label="widespread publicity", fillcolor=lightgreen, color=green, shape=box];
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Other nodes
+    "Columbia" [label="Columbia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Buddhist who" [label="Buddhist who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1974" [label="1974", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Americans" [label="Americans", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Allen Ginsberg" [label="Allen Ginsberg", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alan Ginsburg" [label="Alan Ginsburg", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Waldman" [label="Anne Waldman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1926" [label="1926", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William MacDonald serial ki..." [label="William MacDonald serial ki...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "male homosexual acts" [label="male homosexual acts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States Customs Service" [label="United States Customs Service", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Buddhism" [label="Buddhism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "extensively" [label="extensively", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sodomy" [label="sodomy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ginsberg and poet Anne Waldman" [label="Ginsberg and poet Anne Waldman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "core of the Beat Generation" [label="core of the Beat Generation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Columbia University" [label="Columbia University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what" [label="what", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boulder, Colorado" [label="Boulder, Colorado", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sodomy laws" [label="sodomy laws", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "businessman" [label="businessman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "laws" [label="laws", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modestly" [label="modestly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "descriptions" [label="descriptions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "apartments" [label="apartments", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Naropa Institute in Boulder..." [label="Naropa Institute in Boulder...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "vigorously" [label="vigorously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "subsequent obscenity trial ..." [label="subsequent obscenity trial ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "drugs" [label="drugs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "disciplines" [label="disciplines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Clayton, Missouri" [label="Clayton, Missouri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eastern religious disciplines" [label="Eastern religious disciplines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies of " Howl " [label="copies of " Howl ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what he saw as the destruct..." [label="what he saw as the destruct...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "One" [label="One", fillcolor=lightgray, color=gray, shape=hexagon];
+    "forces of capitalism and co..." [label="forces of capitalism and co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Howl" [label="Howl", fillcolor=lightgray, color=gray, shape=hexagon];
+    "founder" [label="founder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "obscenity trial" [label="obscenity trial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crime in every state" [label="crime in every state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Peter Orlovsky, his lifelon..." [label="Peter Orlovsky, his lifelon...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies" [label="copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "state" [label="state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "men" [label="men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "heterosexual and homosexual..." [label="heterosexual and homosexual...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Judge Clayton W. Horn" [label="Judge Clayton W. Horn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jack Kerouac School of Dise..." [label="Jack Kerouac School of Dise...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Would there be any freedom ..." [label="Would there be any freedom ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "militarism, economic materi..." [label="militarism, economic materi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the destructive forces o..." [label="as the destructive forces o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Peter Orlovsky" [label="Peter Orlovsky", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his clothing" [label="his clothing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "teachers" [label="teachers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "trial" [label="trial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his most influential teachers" [label="his most influential teachers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second-hand stores" [label="second-hand stores", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acts" [label="acts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "San Francisco" [label="San Francisco", fillcolor=lightgray, color=gray, shape=hexagon];
+    "student" [label="student", fillcolor=lightgray, color=gray, shape=hexagon];
+    "student at Columbia University" [label="student at Columbia University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number of men, including Pe..." [label="number of men, including Pe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "San Francisco police and US..." [label="San Francisco police and US...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "every state" [label="every state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "religious" [label="religious", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that " Howl " was not obscene" [label="that " Howl " was not obscene", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his vocabulary" [label="his vocabulary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "male homosexual" [label="male homosexual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940s" [label="1940s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friendships with Lucien Car..." [label="friendships with Lucien Car...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poem " Howl " [label="his poem " Howl ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "vapid innocuous euphemisms" [label="vapid innocuous euphemisms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "killer" [label="killer", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "United States Customs Service" -> "founder" [label="has creator [Intentionally_create]", color=lightblue, penwidth=1];
+    "Boulder, Colorado" -> "teachers" [label="has teacher [Education_teaching]", color=lightcoral, penwidth=1];
+    "Allen Ginsberg" -> "friendships with Lucien Car..." [label="has activity [Activity_start]", color=lightgreen, penwidth=1];
+    "Columbia University" -> "Columbia University" [label="has institution [Education_teaching]", color=lightcoral, penwidth=1];
+    "New York City" -> "modestly" [label="has theme [Residence]", color=lightyellow, penwidth=1];
+    "United States Customs Service" -> "acts" [label="has theme [Offenses]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Trial]", color=purple, penwidth=2];
+    "United States" -> "as the destructive forces o..." [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "religious" [label="has type [Artifact]", color=lightgray, penwidth=1];
+    "United States" -> "Allen Ginsberg" [label="has theme [Categorization]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "crime in every state" [label="has effect [Causation]", color=lightgoldenrodyellow, penwidth=1];
+    "Columbia University" -> "Columbia University" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "United States Customs Service" -> "One" [label="has theme [Cardinal_numbers]", color=lightseagreen, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Offenses]", color=purple, penwidth=2];
+    "Columbia University" -> "Columbia University" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Allen Ginsberg" -> "militarism, economic materi..." [label="has issue [Taking_sides]", color=lightgoldenrod, penwidth=1];
+    "United States Customs Service" -> "vapid innocuous euphemisms" [label="has theme [Cause_change_of_position_on_a_scale]", color=lightpink, penwidth=1];
+    "Anne Waldman" -> "there" [label="has location [Activity_start]", color=green, penwidth=2];
+    "United States Customs Service" -> "Judge Clayton W. Horn" [label="has theme [Legal_rulings]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "Naropa Institute in Boulder..." [label="has theme [Intentionally_create]", color=lightblue, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Cause_motion]", color=purple, penwidth=2];
+    "United States" -> "what" [label="has item [Categorization]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "widespread publicity" [label="has theme [Cause_motion]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "New York City" -> "Allen Ginsberg" [label="has theme [Residence]", color=lightyellow, penwidth=1];
+    "Columbia University" -> "Columbia" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "William MacDonald Christian author" -> "William MacDonald serial ki..." [label="has theme [Grasp]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "that " Howl " was not obscene" [label="has theme [Legal_rulings]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "one" [label="has agent [Cause_change_of_position_on_a_scale]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "his vocabulary" [label="has attribute [Cause_change_of_position_on_a_scale]", color=lightpink, penwidth=1];
+    "New York City" -> "his clothing" [label="has goods [Commerce_buy]", color=lightgreen, penwidth=1];
+    "Allen Ginsberg" -> "Buddhism" [label="has religion [People_by_religion]", color=lightyellow, penwidth=1];
+    "Americans" -> "1926" [label="has time [Text]", color=purple, penwidth=2];
+    "Allen Ginsberg" -> "vigorously" [label="has degree [Taking_sides]", color=lightgoldenrod, penwidth=1];
+    "New York City" -> "apartments in New York City..." [label="has location [Residence]", color=green, penwidth=2];
+    "United States Customs Service" -> "number" [label="has quantity [Quantified_mass]", color=lightcyan, penwidth=1];
+    "Peter Orlovsky" -> "Allen Ginsberg" [label="has type [Medical_professionals]", color=lightsteelblue, penwidth=1];
+    "Anne Waldman" -> "Jack Kerouac School of Dise..." [label="has activity [Activity_start]", color=lightgreen, penwidth=1];
+    "Allen Ginsberg" -> "core of the Beat Generation" [label="has theme [Creating]", color=lightgray, penwidth=1];
+    "Columbia University" -> "1940s" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States Customs Service" -> "laws" [label="has law [Law]", color=lightseagreen, penwidth=1];
+    "William MacDonald Christian author" -> "poet and writer" [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "United States Customs Service" -> "men" [label="has theme [Quantified_mass]", color=lightcyan, penwidth=1];
+    "United States" -> "forces of capitalism and co..." [label="has cause [Destroying]", color=lightgoldenrod, penwidth=1];
+    "Allen Ginsberg" -> "1926" [label="has time [Text]", color=purple, penwidth=2];
+    "United States Customs Service" -> "heterosexual and homosexual..." [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Buddhism" -> "extensively" [label="has degree [Scrutiny]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "Boulder, Colorado" [label="has location [Subjective_influence]", color=green, penwidth=2];
+    "William MacDonald Christian author" -> "Americans" [label="has theme [Origin]", color=lightsalmon, penwidth=1];
+    "Anne Waldman" -> "Ginsberg and poet Anne Waldman" [label="has agent [Activity_start]", color=lightgreen, penwidth=1];
+    "Americans" -> "businessman" [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "United States Customs Service" -> "sodomy" [label="has type [Law]", color=lightseagreen, penwidth=1];
+    "United States Customs Service" -> "Howl" [label="has theme [Duplication]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "disciplines" [label="has theme [Artifact]", color=lightgray, penwidth=1];
+    "Allen Ginsberg" -> "his poem " Howl " [label="has reason [Fame]", color=lightblue, penwidth=1];
+    "New York City" -> "New York City's East Village" [label="has location [Building_subparts]", color=green, penwidth=2];
+    "Allen Ginsberg" -> "drugs" [label="has theme [Opinion]", color=lightgreen, penwidth=1];
+    "United States Customs Service" -> "obscenity trial" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "United States Customs Service" -> "male homosexual" [label="has theme [Offenses]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "men" [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Americans" -> "poet and writer" [label="has entity [Origin]", color=lightsalmon, penwidth=1];
+    "New York City" -> "Allen Ginsberg" [label="has buyer [Commerce_buy]", color=lightgreen, penwidth=1];
+    "United States Customs Service" -> "Allen Ginsberg" [label="has theme [Relation]", color=lightpink, penwidth=1];
+    "Americans" -> "1926" [label="has time [Origin]", color=purple, penwidth=2];
+    "New York City" -> "apartments" [label="has theme [Building_subparts]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "his most influential teachers" [label="has entity [Cardinal_numbers]", color=lightseagreen, penwidth=1];
+    "San Francisco" -> "copies of " Howl " [label="has theme [Taking]", color=lightcyan, penwidth=1];
+    "United States Customs Service" -> "male homosexual acts" [label="has theme [Committing_crime]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Duplication]", color=purple, penwidth=2];
+    "Buddhism" -> "Buddhist who" [label="has theme [Scrutiny]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "Boulder, Colorado" [label="has location [Cardinal_numbers]", color=green, penwidth=2];
+    "United States Customs Service" -> "state" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "Columbia University" -> "University" [label="has theme [Political_locales]", color=lightsalmon, penwidth=1];
+    "Anne Waldman" -> "1974" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "United States Customs Service" -> "poem" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Law]", color=purple, penwidth=2];
+    "United States Customs Service" -> "men" [label="has person [People]", color=red, penwidth=2];
+    "United States Customs Service" -> "teachers" [label="has entity [Subjective_influence]", color=lightsteelblue, penwidth=1];
+    "United States Customs Service" -> "every state" [label="has location [Committing_crime]", color=green, penwidth=2];
+    "Columbia University" -> "student at Columbia University" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Clayton, Missouri" -> "Would there be any freedom ..." [label="has message [Questioning]", color=lightgoldenrodyellow, penwidth=1];
+    "Clayton, Missouri" -> "Judge Clayton W. Horn" [label="has speaker [Questioning]", color=lightgoldenrodyellow, penwidth=1];
+    "Columbia University" -> "Columbia University" [label="has location [Temporal_collocation]", color=green, penwidth=2];
+    "New York City" -> "second-hand stores" [label="has theme [Commerce_buy]", color=lightgreen, penwidth=1];
+    "Allen Ginsberg" -> "Americans" [label="has location [Text]", color=green, penwidth=2];
+    "Americans" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "subsequent obscenity trial ..." [label="has cause [Cause_motion]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Committing_crime]", color=purple, penwidth=2];
+    "Columbia University" -> "student" [label="has student [Education_teaching]", color=lightcoral, penwidth=1];
+    "United States Customs Service" -> "number of men, including Pe..." [label="has theme [Relation]", color=lightpink, penwidth=1];
+    "Allen Ginsberg" -> "Howl" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Causation]", color=purple, penwidth=2];
+    "William MacDonald Christian author" -> "killer" [label="has theme [Killing]", color=lightseagreen, penwidth=1];
+    "San Francisco" -> "1956" [label="has time [Taking]", color=purple, penwidth=2];
+    "Allen Ginsberg" -> "Columbia University" [label="has location [Activity_start]", color=green, penwidth=2];
+    "Allen Ginsberg" -> "Columbia University" [label="has location [Creating]", color=green, penwidth=2];
+    "Allen Ginsberg" -> "what he saw as the destruct..." [label="has theme [Judgment_communication]", color=lightsalmon, penwidth=1];
+    "United States Customs Service" -> "trial" [label="has theme [Trial]", color=lightcyan, penwidth=1];
+    "San Francisco" -> "San Francisco police and US..." [label="has agent [Taking]", color=lightcyan, penwidth=1];
+    "William MacDonald Christian author" -> "1926" [label="has time [Origin]", color=purple, penwidth=2];
+    "Buddhism" -> "Eastern religious disciplines" [label="has theme [Scrutiny]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "Boulder, Colorado" [label="has location [Intentionally_create]", color=green, penwidth=2];
+    "Allen Ginsberg" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Text]", color=purple, penwidth=2];
+    "United States Customs Service" -> "descriptions" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States Customs Service" -> "1956" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "United States Customs Service" -> "sodomy laws" [label="has cause [Causation]", color=lightgoldenrodyellow, penwidth=1];
+    "United States Customs Service" -> "male homosexual acts" [label="has theme [Causation]", color=lightgoldenrodyellow, penwidth=1];
+    "United States Customs Service" -> "Peter Orlovsky, his lifelon..." [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Allen Ginsberg" -> "Alan Ginsburg" [label="has theme [Reference_text]", color=lightgoldenrod, penwidth=1];
+    "United States Customs Service" -> "copies" [label="has theme [Duplication]", color=lightcoral, penwidth=1];
+    "Allen Ginsberg" -> "1926" [label="has time [Reference_text]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Offenses_legend" [label="Offenses", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Trial_legend" [label="Trial", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Artifact_legend" [label="Artifact", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Taking_sides_legend" [label="Taking_sides", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cause_change_of_position_on_a_scale_legend" [label="Cause_change_of_position_on_a_scale", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Legal_rulings_legend" [label="Legal_rulings", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cause_motion_legend" [label="Cause_motion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Commerce_buy_legend" [label="Commerce_buy", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_by_religion_legend" [label="People_by_religion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Medical_professionals_legend" [label="Medical_professionals", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Creating_legend" [label="Creating", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Law_legend" [label="Law", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Destroying_legend" [label="Destroying", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duplication_legend" [label="Duplication", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Building_subparts_legend" [label="Building_subparts", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Taking_legend" [label="Taking", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Committing_crime_legend" [label="Committing_crime", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Questioning_legend" [label="Questioning", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Killing_legend" [label="Killing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

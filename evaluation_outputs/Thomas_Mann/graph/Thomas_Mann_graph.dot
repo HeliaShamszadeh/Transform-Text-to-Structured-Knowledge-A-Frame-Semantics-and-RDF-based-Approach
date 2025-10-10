@@ -1,0 +1,221 @@
+digraph Thomas_Mann {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "significant German writers" [label="significant German writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "German literature" [label="German literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Friedrich Nietzsche" [label="Friedrich Nietzsche", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his trading firm was liquid..." [label="his trading firm was liquid...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "power" [label="power", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hanseatic Mann" [label="hanseatic Mann", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mann's six children" [label="Mann's six children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "When World War II broke out..." [label="When World War II broke out...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His analysis and critique o..." [label="His analysis and critique o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three of Mann's six childre..." [label="three of Mann's six childre...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Europe" [label="Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Switzerland" [label="Switzerland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "six" [label="six", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his trading firm" [label="his trading firm", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hanseatic League" [label="Hanseatic League", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Buddenbrooks" [label="Buddenbrooks", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Erika Mann" [label="Erika Mann", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "so-called Exilliteratur, Ge..." [label="so-called Exilliteratur, Ge...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "trading" [label="trading", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after that" [label="after that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into his father's Lutheran ..." [label="into his father's Lutheran ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1952" [label="1952", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His highly symbolic and iro..." [label="His highly symbolic and iro...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artist" [label="artist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "those who opposed the Hitle..." [label="those who opposed the Hitle...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur Schopenhauer" [label="Arthur Schopenhauer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "European and German soul" [label="European and German soul", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernized versions of Germ..." [label="modernized versions of Germ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Mann disambiguation" [label="Thomas Mann disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their insight into the psyc..." [label="their insight into the psyc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "When Adolf Hitler came to p..." [label="When Adolf Hitler came to p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mann's" [label="Mann's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Adolf Hitler" [label="Adolf Hitler", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nobel Prize" [label="Nobel Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1933" [label="1933", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernized" [label="modernized", fillcolor=lightgray, color=gray, shape=hexagon];
+    "firm" [label="firm", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hitler regime" [label="Hitler regime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hanseatic Mann family" [label="hanseatic Mann family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germany" [label="Germany", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jlia da Silva Bruhns" [label="Jlia da Silva Bruhns", fillcolor=lightgray, color=gray, shape=hexagon];
+    "exile" [label="exile", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Mann" [label="Thomas Mann", fillcolor=lightgray, color=gray, shape=hexagon];
+    "older" [label="older", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "German and Biblical stories" [label="German and Biblical stories", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Adolf Hitler" -> "1933" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Nobel Prize" -> "His highly symbolic and iro..." [label="has entity [Fame]", color=lightcoral, penwidth=1];
+    "Nobel Prize" -> "1955" [label="has time [People]", color=purple, penwidth=2];
+    "Thomas Mann" -> "When Adolf Hitler came to p..." [label="has time [Fleeing]", color=purple, penwidth=2];
+    "Arthur Schopenhauer" -> "his trading firm" [label="has theme [Killing]", color=lightpink, penwidth=1];
+    "Erika Mann" -> "brother" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Nobel Prize" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Arthur Schopenhauer" -> "modernized" [label="has theme [Type]", color=lightsteelblue, penwidth=1];
+    "Hanseatic League" -> "hanseatic Mann" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Arthur Schopenhauer" -> "writers" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Nobel Prize" -> "artist" [label="has creator [Create_physical_artwork]", color=lightgoldenrodyellow, penwidth=1];
+    "Adolf Hitler" -> "1933" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Arthur Schopenhauer" -> "Thomas Mann" [label="has theme [Businesses]", color=lightsalmon, penwidth=1];
+    "Erika Mann" -> "Mann's six children" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Arthur Schopenhauer" -> "writers" [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "Nobel Prize" -> "Thomas Mann disambiguation" [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Thomas Mann" -> "1955" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Nobel Prize" -> "their insight into the psyc..." [label="has reason [Fame]", color=lightcoral, penwidth=1];
+    "Erika Mann" -> "Switzerland" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Erika Mann" -> "Thomas Mann" [label="has theme [Motion]", color=lightblue, penwidth=1];
+    "Arthur Schopenhauer" -> "firm" [label="has business [Businesses]", color=lightsalmon, penwidth=1];
+    "Erika Mann" -> "mother" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Thomas Mann" -> "other people" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "Arthur Schopenhauer" -> "that" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nobel Prize" -> "1955" [label="has time [Increment]", color=purple, penwidth=2];
+    "Nobel Prize" -> "1955" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Erika Mann" -> "father" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Adolf Hitler" -> "exile" [label="has theme [Text_creation]", color=lightpink, penwidth=1];
+    "Thomas Mann" -> "so-called Exilliteratur, Ge..." [label="has theme [Using]", color=lightyellow, penwidth=1];
+    "Friedrich Nietzsche" -> "Jlia da Silva Bruhns" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Arthur Schopenhauer" -> "Hitler regime" [label="has theme [Taking_sides]", color=lightcyan, penwidth=1];
+    "Erika Mann" -> "1952" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Arthur Schopenhauer" -> "children" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Thomas Mann" -> "father" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Arthur Schopenhauer" -> "older" [label="has degree [Age]", color=lightsteelblue, penwidth=1];
+    "Arthur Schopenhauer" -> "Germany" [label="has theme [Origin]", color=lightgray, penwidth=1];
+    "Arthur Schopenhauer" -> "his trading firm was liquid..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Erika Mann" -> "Thomas Mann" [label="has theme [Arriving]", color=lightblue, penwidth=1];
+    "Erika Mann" -> "United States" [label="has goal [Motion]", color=lightblue, penwidth=1];
+    "Adolf Hitler" -> "power" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Arthur Schopenhauer" -> "six" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Arthur Schopenhauer" -> "who" [label="has theme [Taking_sides]", color=lightcyan, penwidth=1];
+    "Nobel Prize" -> "people" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "Thomas Mann" -> "Buddenbrooks" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Thomas Mann" -> "significant German writers" [label="has theme [Becoming]", color=lightgoldenrodyellow, penwidth=1];
+    "Erika Mann" -> "three" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Adolf Hitler" -> "German literature" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Thomas Mann" -> "into his father's Lutheran ..." [label="has organization [Rite]", color=lightseagreen, penwidth=1];
+    "Erika Mann" -> "children" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Europe" -> "modernized versions of Germ..." [label="has instrument [Using]", color=lightyellow, penwidth=1];
+    "Erika Mann" -> "Thomas Mann" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Arthur Schopenhauer" -> "novel" [label="has type [Ordinal_numbers]", color=lightsalmon, penwidth=1];
+    "Thomas Mann" -> "family" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Adolf Hitler" -> "those who opposed the Hitle..." [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "Erika Mann" -> "When World War II broke out..." [label="has time [Motion]", color=purple, penwidth=2];
+    "Arthur Schopenhauer" -> "German and Biblical stories" [label="has category [Type]", color=lightsteelblue, penwidth=1];
+    "Arthur Schopenhauer" -> "trading" [label="has theme [Businesses]", color=lightsalmon, penwidth=1];
+    "Thomas Mann" -> "novels" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Europe" -> "His analysis and critique o..." [label="has agent [Using]", color=lightyellow, penwidth=1];
+    "Thomas Mann" -> "Switzerland" [label="has goal [Fleeing]", color=lightyellow, penwidth=1];
+    "Arthur Schopenhauer" -> "after that" [label="has time [Killing]", color=purple, penwidth=2];
+    "Arthur Schopenhauer" -> "brother" [label="has entity [Age]", color=lightsteelblue, penwidth=1];
+    "Thomas Mann" -> "three of Mann's six childre..." [label="has entity [Becoming]", color=lightgoldenrodyellow, penwidth=1];
+    "Thomas Mann" -> "Mann's" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Friedrich Nietzsche" -> "European and German soul" [label="has theme [Scrutiny]", color=lightgoldenrod, penwidth=1];
+    "Thomas Mann" -> "hanseatic Mann family" [label="has group [Membership]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Arriving_legend" [label="Arriving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Fleeing_legend" [label="Fleeing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Killing_legend" [label="Killing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Create_physical_artwork_legend" [label="Create_physical_artwork", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Taking_sides_legend" [label="Taking_sides", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,330 @@
+digraph James_Joyce {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His other writings" [label="His other writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "well-known works" [label="well-known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Ulysses novel" [label="Ulysses novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writings" [label="writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "three books of poetry, a pl..." [label="three books of poetry, a pl...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his book of poems Chamber M..." [label="his book of poems Chamber M...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "middle-class" [label="middle-class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "residence" [label="residence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as an English instructor" [label="as an English instructor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1904" [label="1904", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Homer's Odyssey" [label="Homer's Odyssey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "School" [label="School", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pula" [label="Pula", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paris, which was his primar..." [label="Paris, which was his primar...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "finances" [label="finances", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist movement" [label="modernist movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eight-month" [label="eight-month", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pola now in Croatia" [label="Pola now in Croatia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trieste" [label="Trieste", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "serially publishing A Portr..." [label="serially publishing A Portr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "among the most influential ..." [label="among the most influential ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a middle-class family" [label="into a middle-class family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trieste in Austria-Hungary" [label="Trieste in Austria-Hungary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Joyce disambiguation " [label="James Joyce disambiguation ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1902" [label="1902", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazine" [label="magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nora Barnacle" [label="Nora Barnacle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joyce lived in Zurich, Swit..." [label="Joyce lived in Zurich, Swit...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1995 in music" [label="1995 in music", fillcolor=lightgray, color=gray, shape=hexagon];
+    "war" [label="war", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Artist" [label="Artist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jesuit Clongowes Wood Colle..." [label="Jesuit Clongowes Wood Colle...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Irish poetry" [label="Irish poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "O'Connell" [label="O'Connell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "During most of World War I" [label="During most of World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until" [label="until", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "briefly" [label="briefly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Young" [label="Young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After the war" [label="After the war", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Zürich" [label="Zürich", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dublin" [label="Dublin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wife" [label="wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mainland Europe" [label="mainland Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father's" [label="his father's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short-story" [label="short-story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jesuit Belvedere College" [label="Jesuit Belvedere College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joyce lived there" [label="Joyce lived there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "variety" [label="variety", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joyce's" [label="Joyce's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he met his future wife, Nor..." [label="he met his future wife, Nor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Man" [label="Man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Zurich, Switzerland" [label="Zurich, Switzerland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he briefly returned to Trie..." [label="he briefly returned to Trie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "then" [label="then", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most of World War I" [label="most of World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Joyce" [label="James Joyce", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Europe" [label="Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rome" [label="Rome", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1941" [label="1941", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his future wife, Nora Barna..." [label="his future wife, Nora Barna...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary styles" [label="literary styles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World" [label="World", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Augusta Joyce  a " [label="James Augusta Joyce  a ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "styles" [label="styles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1915" [label="1915", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until 1915" [label="until 1915", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a correspondence clerk" [label="as a correspondence clerk", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same name" [label="same name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "James Joyce" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "James Joyce" -> "1904" [label="has time [Make_acquaintance]", color=purple, penwidth=2];
+    "James Joyce" -> "1922" [label="has time [Text]", color=purple, penwidth=2];
+    "James Joyce" -> "1922" [label="has time [Fields]", color=purple, penwidth=2];
+    "James Joyce" -> "1920" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "James Joyce" -> "1922" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "James Joyce" -> "war" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Rome" -> "1915" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Zürich" -> "James Joyce" [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "short-story" [label="has theme [Aggregate]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "Dublin" [label="has location [Being_born]", color=green, penwidth=2];
+    "James Joyce" -> "1902" [label="has time [Expertise]", color=purple, penwidth=2];
+    "Dublin" -> "O'Connell" [label="has theme [Locale_by_use]", color=lightseagreen, penwidth=1];
+    "James Joyce" -> "20th century" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "1995 in music" -> "Man" [label="has entity [Age]", color=lightgoldenrod, penwidth=1];
+    "James Joyce" -> "Trieste in Austria-Hungary" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "James Joyce" -> "poems" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "1920" [label="has time [Motion]", color=purple, penwidth=2];
+    "James Joyce" -> "1904" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "James Joyce" -> "Paris, which was his primar..." [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "James Joyce" -> "which" [label="has location [Residence]", color=green, penwidth=2];
+    "Zürich" -> "During most of World War I" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "James Joyce" -> "Dublin" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Nora Barnacle" -> "1904" [label="has time [Motion]", color=purple, penwidth=2];
+    "James Joyce" -> "1914" [label="has time [Text]", color=purple, penwidth=2];
+    "James Joyce" -> "wife" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "James Joyce" -> "until 1915" [label="has time [Residence]", color=purple, penwidth=2];
+    "James Joyce" -> "1914" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "James Joyce" -> "his book of poems Chamber M..." [label="has work [Publishing]", color=lightcoral, penwidth=1];
+    "James Joyce" -> "collection" [label="has theme [Aggregate]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "1920" [label="has time [First_rank]", color=purple, penwidth=2];
+    "Rome" -> "James Joyce" [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "His other writings" [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "James Joyce" -> "modernist movement" [label="has recipient [Giving]", color=lightpink, penwidth=1];
+    "James Joyce" -> "three" [label="has theme [Cardinal_numbers]", color=lightcyan, penwidth=1];
+    "Nora Barnacle" -> "mainland Europe" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "James Joyce" -> "1915" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Dublin" -> "middle-class" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "Rome" -> "Joyce lived there" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "James Joyce" -> "variety" [label="has theme [Aggregate]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "his father's" [label="has theme [Expectation]", color=lightgray, penwidth=1];
+    "James Joyce" -> "1904" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "James Joyce" -> "literary styles" [label="has theme [Aggregate]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "Dublin" [label="has location [Attending]", color=green, penwidth=2];
+    "James Joyce" -> "styles" [label="has theme [Trendiness]", color=lightsalmon, penwidth=1];
+    "1995 in music" -> "Man" [label="has person [People]", color=red, penwidth=2];
+    "James Joyce" -> "letters" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Rome" -> "1915" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "James Joyce" -> "poetry" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "Zurich, Switzerland" [label="has location [Residence]", color=green, penwidth=2];
+    "James Joyce" -> "Homer's Odyssey" [label="has event [Event]", color=lightgoldenrod, penwidth=1];
+    "Pula" -> "as an English instructor" [label="has position [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "1902" [label="has time [Expectation]", color=purple, penwidth=2];
+    "James Joyce" -> "1922" [label="has time [Event]", color=purple, penwidth=2];
+    "James Joyce" -> "among the most influential ..." [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "James Joyce" -> "father" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "Nora Barnacle" -> "Nora Barnacle" [label="has theme [Locative_relation]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "Artist" [label="has creator [Create_physical_artwork]", color=lightcoral, penwidth=1];
+    "Dublin" -> "School" [label="has theme [Locale_by_use]", color=lightseagreen, penwidth=1];
+    "James Joyce" -> "then" [label="has time [Motion]", color=purple, penwidth=2];
+    "James Joyce" -> "writers" [label="has theme [Importance]", color=lightblue, penwidth=1];
+    "James Joyce" -> "Trieste" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Zürich" -> "Ulysses novel" [label="has task [Being_employed]", color=lightsteelblue, penwidth=1];
+    "1995 in music" -> "Young" [label="has age [Age]", color=lightgoldenrod, penwidth=1];
+    "James Joyce" -> "1920" [label="has time [Residence]", color=purple, penwidth=2];
+    "James Joyce" -> "Jesuit Clongowes Wood Colle..." [label="has event [Attending]", color=lightseagreen, penwidth=1];
+    "Pula" -> "briefly" [label="has theme [Being_employed]", color=lightsteelblue, penwidth=1];
+    "Zürich" -> "Joyce lived in Zurich, Swit..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "James Joyce" -> "there" [label="has location [Residence]", color=green, penwidth=2];
+    "1995 in music" -> "Young" [label="has age [People]", color=lightblue, penwidth=1];
+    "James Joyce" -> "same name" [label="has theme [People]", color=lightblue, penwidth=1];
+    "James Joyce" -> "writers" [label="has entity [Subjective_influence]", color=lightsalmon, penwidth=1];
+    "James Joyce" -> "1922" [label="has time [Trendiness]", color=purple, penwidth=2];
+    "James Joyce" -> "his future wife, Nora Barna..." [label="has theme [Make_acquaintance]", color=lightcoral, penwidth=1];
+    "Pula" -> "Pola now in Croatia" [label="has theme [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "20th" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Rome" -> "1915" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "Rome" -> "as a correspondence clerk" [label="has position [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "book" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Zürich" -> "most of World War I" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "James Joyce" -> "residence" [label="has item [First_rank]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "into a middle-class family" [label="has theme [Being_born]", color=lightgray, penwidth=1];
+    "James Joyce" -> "he met his future wife, Nor..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "James Joyce" -> "he briefly returned to Trie..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "James Joyce" -> "Joyce's" [label="has author [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "well-known works" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "Dublin" -> "family" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "serially publishing A Portr..." [label="has activity [Activity_start]", color=lightyellow, penwidth=1];
+    "James Joyce" -> "books" [label="has entity [Cardinal_numbers]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "briefly" [label="has degree [Arriving]", color=lightblue, penwidth=1];
+    "James Joyce" -> "books" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "James Augusta Joyce  a " [label="has person [Being_born]", color=red, penwidth=2];
+    "Rome" -> "until" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "James Joyce" -> "century" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Zürich" -> "World" [label="has theme [Hostile_encounter]", color=lightpink, penwidth=1];
+    "James Joyce" -> "Jesuit Belvedere College" [label="has skill [Expertise]", color=lightgoldenrodyellow, penwidth=1];
+    "Nora Barnacle" -> "Nora Barnacle" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "James Joyce" -> "novels" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "poetry" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Pula" -> "James Joyce" [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "styles" [label="has theme [Fields]", color=lightyellow, penwidth=1];
+    "James Joyce" -> "1904" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Nora Barnacle" -> "Europe" [label="has theme [Locative_relation]", color=lightsteelblue, penwidth=1];
+    "Nora Barnacle" -> "1904" [label="has time [Locative_relation]", color=purple, penwidth=2];
+    "Rome" -> "1915" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "James Joyce" -> "name" [label="has type [Identicality]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "poems" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "three books of poetry, a pl..." [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "England" -> "magazine" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "family" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "James Joyce" -> "20th century" [label="has theme [Importance]", color=lightblue, penwidth=1];
+    "James Joyce" -> "other people" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "James Joyce" -> "writings" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "Pula" [label="has location [Motion]", color=green, penwidth=2];
+    "James Joyce" -> "James Joyce disambiguation " [label="has theme [Reference_text]", color=lightgoldenrodyellow, penwidth=1];
+    "Irish poetry" -> "article" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "1902" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Rome" -> "eight-month" [label="has theme [Duration_description]", color=lightcyan, penwidth=1];
+    "James Joyce" -> "1941" [label="has time [Being_born]", color=purple, penwidth=2];
+    "James Joyce" -> "Rome" [label="has location [Arriving]", color=green, penwidth=2];
+    "James Joyce" -> "writings" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "After the war" [label="has time [Arriving]", color=purple, penwidth=2];
+    "James Joyce" -> "people" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "writers" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "20th century" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "Irish poetry" -> "1941" [label="has time [Text]", color=purple, penwidth=2];
+    "James Joyce" -> "Ulysses novel" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "James Joyce" -> "1914" [label="has time [Increment]", color=purple, penwidth=2];
+    "James Joyce" -> "finances" [label="has theme [Expectation]", color=lightgray, penwidth=1];
+    "James Joyce" -> "name" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "People_legend" [label="People", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Expectation_legend" [label="Expectation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Trendiness_legend" [label="Trendiness", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Create_physical_artwork_legend" [label="Create_physical_artwork", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

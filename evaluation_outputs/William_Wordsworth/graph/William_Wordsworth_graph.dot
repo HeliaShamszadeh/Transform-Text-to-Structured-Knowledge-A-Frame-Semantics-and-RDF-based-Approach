@@ -1,0 +1,329 @@
+digraph William_Wordsworth {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "coast of England" [label="coast of England", fillcolor=lightgreen, color=green, shape=box];
+    "northwestern England" [label="northwestern England", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "region in northwestern England" [label="region in northwestern England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Events nodes
+    "five children born to John ..." [label="five children born to John ...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "his death" [label="his death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "year of his death, before w..." [label="year of his death, before w...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "small" [label="small", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Wordsworth" [label="William Wordsworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " The Poem to Coleridge" [label="as " The Poem to Coleridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trinity" [label="Trinity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Wordsworth  composer" [label="William Wordsworth  composer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "life of William Wordsworth" [label="life of William Wordsworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Wordsworth and Ann Coo..." [label="John Wordsworth and Ann Coo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romantic" [label="Romantic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wordsworth's magnum opus" [label="Wordsworth's magnum opus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "now" [label="now", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Prelude" [label="The Prelude", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cumbria" [label="Cumbria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "youngest" [label="youngest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wordsworth House" [label="Wordsworth House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "launch the Romantic Age in ..." [label="launch the Romantic Age in ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after Dorothy" [label="after Dorothy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scenic region in northweste..." [label="scenic region in northweste...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which he was captain, the E..." [label="which he was captain, the E...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be The Prelude" [label="be The Prelude", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most recognizable names" [label="most recognizable names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ship" [label="ship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Samuel Taylor Coleridge" [label="Samuel Taylor Coleridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what" [label="what", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following" [label="following", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number of times" [label="number of times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "7 April 1770" [label="7 April 1770", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romantic poets" [label="Romantic poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following year" [label="following year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lyrical Ballads" [label="Lyrical Ballads", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cockermouth" [label="Cockermouth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William's sister, the poet ..." [label="William's sister, the poet ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "region" [label="region", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "what is now named Wordswort..." [label="what is now named Wordswort...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "College" [label="College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be Master of Trinity Colleg..." [label="be Master of Trinity Colleg...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lawyer" [label="lawyer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "23 April 1850" [label="23 April 1850", fillcolor=lightgray, color=gray, shape=hexagon];
+    "together" [label="together", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when the ship of which he w..." [label="when the ship of which he w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his wife" [label="his wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Masterpiece" [label="Masterpiece", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second of five children" [label="second of five children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most recognizabl..." [label="one of the most recognizabl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Early" [label="Early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scenic" [label="scenic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wordsworth's" [label="Wordsworth's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "opus" [label="opus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William's" [label="William's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Wordsworth" [label="John Wordsworth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wife" [label="wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Church" [label="Church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sea" [label="sea", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eldest" [label="eldest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "siblings" [label="siblings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trinity College, Cambridge" [label="Trinity College, Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the Lake District" [label="as the Lake District", fillcolor=lightgray, color=gray, shape=hexagon];
+    "semi-autobiographical poem ..." [label="semi-autobiographical poem ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his early years" [label="his early years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romanticism" [label="Romanticism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prelude" [label="Prelude", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wordsworth disambiguation" [label="Wordsworth disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "times" [label="times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pleurisy" [label="pleurisy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "generally" [label="generally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Richard" [label="Richard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their joint publication Lyr..." [label="their joint publication Lyr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "large mansion in the small ..." [label="large mansion in the small ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "House" [label="House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "coast" [label="coast", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Christopher" [label="Christopher", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wordsworth's father" [label="Wordsworth's father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he revised and expanded" [label="he revised and expanded", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mansion" [label="mansion", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure" [label="figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "town" [label="town", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "England" -> "as the Lake District" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "William Wordsworth" -> "English language" [label="has location [Being_named]", color=green, penwidth=2];
+    "Masterpiece" -> "English language" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "years" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Masterpiece" -> "ship" [label="has theme [Vehicle]", color=lightyellow, penwidth=1];
+    "Masterpiece" -> "poetry" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "7 April 1770" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Romanticism" -> "English language" [label="has location [Text]", color=green, penwidth=2];
+    "Masterpiece" -> "English language" [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Masterpiece" -> "his wife" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "William Wordsworth" -> "English language" [label="has location [State_continue]", color=green, penwidth=2];
+    "Cumbria" -> "now" [label="has time [Interior_profile_relation]", color=purple, penwidth=2];
+    "Masterpiece" -> "times" [label="has theme [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "English language" -> "poets" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "The Prelude" -> "Prelude" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Masterpiece" -> "who" [label="has theme [Becoming_a_member]", color=lightsalmon, penwidth=1];
+    "English language" -> "Romantic poets" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "The Prelude" -> "as " The Poem to Coleridge" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Masterpiece" -> "which he was captain, the E..." [label="has theme [Vehicle]", color=lightyellow, penwidth=1];
+    "Cockermouth" -> "William Wordsworth" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "John Wordsworth" -> "William's sister, the poet ..." [label="has person [Being_born]", color=red, penwidth=2];
+    "English language" -> "launch the Romantic Age in ..." [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "William Wordsworth" -> "number of times" [label="has theme [Reveal_secret]", color=lightcoral, penwidth=1];
+    "Cockermouth" -> "region in northwestern England" [label="has theme [Sensation]", color=lightblue, penwidth=1];
+    "Masterpiece" -> "Trinity" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "town" [label="has theme [Political_locales]", color=lightgreen, penwidth=1];
+    "The Prelude" -> "John Wordsworth and Ann Coo..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "one of the most recognizabl..." [label="has state [State_continue]", color=lightgray, penwidth=1];
+    "Cockermouth" -> "five children born to John ..." [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "William Wordsworth" -> "sister" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "English language" -> "who" [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "Cockermouth" -> "northwestern England" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "Masterpiece" -> "mansion" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "semi-autobiographical poem ..." [label="has item [Cause_expansion]", color=lightsteelblue, penwidth=1];
+    "Masterpiece" -> "number of times" [label="has theme [Event_instance]", color=lightgray, penwidth=1];
+    "Masterpiece" -> "who" [label="has entity [Becoming]", color=lightgoldenrodyellow, penwidth=1];
+    "William Wordsworth" -> "siblings" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Masterpiece" -> "youngest" [label="has age [Age]", color=lightseagreen, penwidth=1];
+    "Masterpiece" -> "mansion" [label="has entity [Size]", color=lightsalmon, penwidth=1];
+    "Richard" -> "eldest" [label="has age [People_by_age]", color=lightgoldenrod, penwidth=1];
+    "English language" -> "poetry" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "William Wordsworth" -> "Wordsworth disambiguation" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Cockermouth" -> "region" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "Masterpiece" -> "years" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Samuel Taylor Coleridge" -> "pleurisy" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "Church" [label="has group [Becoming_a_member]", color=lightsalmon, penwidth=1];
+    "Romanticism" -> "Lyrical Ballads" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Masterpiece" -> "England" [label="has theme [Relational_natural_features]", color=lightblue, penwidth=1];
+    "Masterpiece" -> "his death" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Cockermouth" -> "House" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Masterpiece" -> "following" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Masterpiece" -> "early" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Masterpiece" -> "Christopher" [label="has theme [Subordinates_and_superiors]", color=lightcoral, penwidth=1];
+    "Cockermouth" -> "part" [label="has theme [Part_whole]", color=lightgreen, penwidth=1];
+    "William Wordsworth" -> "William's" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "England" -> "Cockermouth" [label="has location [Being_named]", color=green, penwidth=2];
+    "English language" -> "their joint publication Lyr..." [label="has means [Assistance]", color=lightsteelblue, penwidth=1];
+    "William Wordsworth" -> "William Wordsworth  composer" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Masterpiece" -> "Wordsworth's magnum opus" [label="has item [Categorization]", color=lightyellow, penwidth=1];
+    "Masterpiece" -> "who" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "William Wordsworth" -> "father" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Masterpiece" -> "posthumously" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "The Prelude" -> "Cockermouth" [label="has location [Being_born]", color=green, penwidth=2];
+    "The Prelude" -> "who" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "coast of England" [label="has theme [Part_orientational]", color=lightcyan, penwidth=1];
+    "Masterpiece" -> "College" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "The Prelude" -> "one" [label="has theme [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Wordsworth House" -> "Cockermouth" [label="has location [Being_named]", color=green, penwidth=2];
+    "Masterpiece" -> "large mansion in the small ..." [label="has location [Residence]", color=green, penwidth=2];
+    "Masterpiece" -> "coast" [label="has theme [Relational_natural_features]", color=lightblue, penwidth=1];
+    "Cockermouth" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Masterpiece" -> "sea" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "Cumbria" -> "Cockermouth" [label="has location [Interior_profile_relation]", color=green, penwidth=2];
+    "Masterpiece" -> "Wordsworth's father" [label="has theme [Residence]", color=lightgray, penwidth=1];
+    "Masterpiece" -> "poem" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Samuel Taylor Coleridge" -> "23 April 1850" [label="has time [Death]", color=purple, penwidth=2];
+    "Masterpiece" -> "year" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "The Prelude" -> "second of five children" [label="has person [Being_born]", color=red, penwidth=2];
+    "Wordsworth House" -> "what" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "England" -> "Cockermouth" [label="has location [Part_orientational]", color=green, penwidth=2];
+    "Masterpiece" -> "his early years" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "Masterpiece" -> "number" [label="has quantity [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "The Prelude" -> "English language" [label="has location [Cardinal_numbers]", color=green, penwidth=2];
+    "England" -> "northwestern England" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Cockermouth" -> "scenic" [label="has theme [Locale]", color=lightcyan, penwidth=1];
+    "William Wordsworth" -> "Wordsworth's" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Cockermouth" -> "life of William Wordsworth" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "The Prelude" -> "most recognizable names" [label="has entity [Cardinal_numbers]", color=lightsteelblue, penwidth=1];
+    "English language" -> "uses" [label="has class [Increment]", color=lightgoldenrodyellow, penwidth=1];
+    "Masterpiece" -> "sea" [label="has theme [Natural_features]", color=lightseagreen, penwidth=1];
+    "Masterpiece" -> "English language" [label="has location [Origin]", color=green, penwidth=2];
+    "Masterpiece" -> "who" [label="has theme [Change_of_leadership]", color=lightsalmon, penwidth=1];
+    "Cockermouth" -> "scenic region in northweste..." [label="has theme [Part_whole]", color=lightgreen, penwidth=1];
+    "Masterpiece" -> "early" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Samuel Taylor Coleridge" -> "William Wordsworth" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "William Wordsworth" -> "what is now named Wordswort..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Masterpiece" -> "generally" [label="has theme [Categorization]", color=lightyellow, penwidth=1];
+    "The Prelude" -> "when the ship of which he w..." [label="has time [Death]", color=purple, penwidth=2];
+    "Masterpiece" -> "town" [label="has entity [Size]", color=lightsalmon, penwidth=1];
+    "William Wordsworth" -> "that" [label="has information [Reveal_secret]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "he revised and expanded" [label="has event [Event_instance]", color=lightgray, penwidth=1];
+    "Masterpiece" -> "Trinity College, Cambridge" [label="has theme [Subordinates_and_superiors]", color=lightcoral, penwidth=1];
+    "Masterpiece" -> "together" [label="has theme [Rite]", color=lightgoldenrod, penwidth=1];
+    "Masterpiece" -> "lawyer" [label="has theme [Becoming]", color=lightgoldenrodyellow, penwidth=1];
+    "Masterpiece" -> "two" [label="has theme [Rite]", color=lightgoldenrod, penwidth=1];
+    "Masterpiece" -> "small" [label="has theme [Political_locales]", color=lightgreen, penwidth=1];
+    "William Wordsworth" -> "wife" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "English language" -> "figure" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "Masterpiece" -> "be Master of Trinity Colleg..." [label="has role [Change_of_leadership]", color=lightsalmon, penwidth=1];
+    "Cockermouth" -> "Early" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Masterpiece" -> "be The Prelude" [label="has category [Categorization]", color=lightyellow, penwidth=1];
+    "John Wordsworth" -> "after Dorothy" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Masterpiece" -> "opus" [label="has theme [Desirability]", color=lightsteelblue, penwidth=1];
+    "English language" -> "year of his death, before w..." [label="has time [Publishing]", color=purple, penwidth=2];
+    "English language" -> "his wife" [label="has theme [Publishing]", color=lightcoral, penwidth=1];
+    "English language" -> "Romantic" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "John Wordsworth" -> "following year" [label="has time [Being_born]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Vehicle_legend" [label="Vehicle", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reveal_secret_legend" [label="Reveal_secret", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Sensation_legend" [label="Sensation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Cause_expansion_legend" [label="Cause_expansion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Event_instance_legend" [label="Event_instance", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Size_legend" [label="Size", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relational_natural_features_legend" [label="Relational_natural_features", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Subordinates_and_superiors_legend" [label="Subordinates_and_superiors", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Part_orientational_legend" [label="Part_orientational", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Change_of_leadership_legend" [label="Change_of_leadership", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

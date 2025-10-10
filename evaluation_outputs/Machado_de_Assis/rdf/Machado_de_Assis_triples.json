@@ -1,0 +1,1633 @@
+{
+  "metadata": {
+    "total_triples": 74,
+    "source_file": "Machado_de_Assis",
+    "extraction_date": "2025-09-28 03:12:50",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Connectors:has_type",
+        "object": "interlanguage",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Change_of_leadership:has_degree",
+        "object": "fully",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Being_named:has_time",
+        "object": "1908",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Attending:has_theme",
+        "object": "never",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Education_teaching:has_theme",
+        "object": "French, English, German and Greek",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Usefulness:has_entity",
+        "object": "starting point",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Being_born:has_theme",
+        "object": "poor family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Source_of_getting:has_theme",
+        "object": "your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Assis",
+        "predicate": "Being_named:has_entity",
+        "object": "paternal family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Contacting:has_time",
+        "object": "2024",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Translating:has_theme",
+        "object": "corresponding article in Portuguese",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Supply:has_location",
+        "object": "foreign-language article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Reference_text:has_theme",
+        "object": "Wikipedia:Translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Increment:has_class",
+        "object": "guidance",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Being_born:has_location",
+        "object": "Morro do Livramento [ pt ]",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Translating:has_means",
+        "object": "Machine",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Supply:has_location",
+        "object": "edit summary accompanying your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Supply:has_theme",
+        "object": "interlanguage link to the source of your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Becoming:has_time",
+        "object": "1897",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Contacting:has_purpose",
+        "object": "important translation instructions",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Being_named:has_time",
+        "object": "1908",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Assistance:has_goal",
+        "object": "expand this article with text translated from the corresponding article in Portuguese",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Kinship:has_theme",
+        "object": "poor",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he founded and became the first President of the Brazilian Academy of Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Leadership:has_theme",
+        "object": "Brazilian Academy of Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Supply:has_theme",
+        "object": "copyright attribution",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "schools",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Intentionally_create:has_time",
+        "object": "1897",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Assis",
+        "predicate": "Being_named:has_time",
+        "object": "1908",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Possibility:has_theme",
+        "object": "also add the template Translated",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Education_teaching:has_student",
+        "object": "himself",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Required_event:has_theme",
+        "object": "provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Being_named:has_entity",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "university",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Supply:has_means",
+        "object": "providing an interlanguage link to the source of your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1908",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "family name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Education_teaching:has_time",
+        "object": "later in life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Cotheme:has_theme",
+        "object": "edit summary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Change_of_leadership:has_theme",
+        "object": "slavery",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Translating:has_theme",
+        "object": "text",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Importance:has_theme",
+        "object": "translation instructions",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Being_named:has_type",
+        "object": "maternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Correctness:has_information",
+        "object": "translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Education_teaching:has_location",
+        "object": "public schools",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "errors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Give_impression:has_theme",
+        "object": "text",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Translating:has_text",
+        "object": "translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Connectors:has_theme",
+        "object": "link",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "President of the Brazilian Academy of Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Text:has_text",
+        "object": "text",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Source_of_getting:has_theme",
+        "object": "source",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Cotheme:has_theme",
+        "object": "your translation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Attending:has_event",
+        "object": "university",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Required_event:has_theme",
+        "object": "revise errors as necessary and confirm that the translation is accurate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Education_teaching:has_degree",
+        "object": "barely",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+        "predicate": "Capability:has_event",
+        "object": "help expand this article with text translated from the corresponding article in Portuguese",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Intentionally_create:has_theme",
+        "object": "Brazilian Academy of Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Text:has_language",
+        "object": "foreign-language",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Supply:has_theme",
+        "object": "references",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Becoming:has_theme",
+        "object": "first President of the Brazilian Academy of Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Verification:has_theme",
+        "object": "text with references provided in the foreign-language article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1897",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Political_locales:has_theme",
+        "object": "country",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "public",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Give_impression:has_theme",
+        "object": "unreliable or low-quality",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Assis",
+        "predicate": "Being_named:has_type",
+        "object": "paternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Havana",
+        "predicate": "Wealthiness:has_person",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Being_necessary:has_theme",
+        "object": "errors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Machado",
+        "predicate": "Importance:has_time",
+        "object": "2024",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Being_born:has_theme",
+          "object": "poor family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Being_born:has_location",
+          "object": "Morro do Livramento [ pt ]",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Required_event:has_theme",
+          "object": "provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Attending:has_event",
+          "object": "university",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Required_event:has_theme",
+          "object": "revise errors as necessary and confirm that the translation is accurate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Capability:has_event",
+          "object": "help expand this article with text translated from the corresponding article in Portuguese",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Connectors:has_type",
+          "object": "interlanguage",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Change_of_leadership:has_degree",
+          "object": "fully",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Being_named:has_time",
+          "object": "1908",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Attending:has_theme",
+          "object": "never",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Education_teaching:has_theme",
+          "object": "French, English, German and Greek",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Usefulness:has_entity",
+          "object": "starting point",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Source_of_getting:has_theme",
+          "object": "your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Assis",
+          "predicate": "Being_named:has_entity",
+          "object": "paternal family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Contacting:has_time",
+          "object": "2024",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Translating:has_theme",
+          "object": "corresponding article in Portuguese",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Supply:has_location",
+          "object": "foreign-language article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Reference_text:has_theme",
+          "object": "Wikipedia:Translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Increment:has_class",
+          "object": "guidance",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Translating:has_means",
+          "object": "Machine",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Supply:has_location",
+          "object": "edit summary accompanying your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Supply:has_theme",
+          "object": "interlanguage link to the source of your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Becoming:has_time",
+          "object": "1897",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Contacting:has_purpose",
+          "object": "important translation instructions",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Being_named:has_time",
+          "object": "1908",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Assistance:has_goal",
+          "object": "expand this article with text translated from the corresponding article in Portuguese",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Kinship:has_theme",
+          "object": "poor",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he founded and became the first President of the Brazilian Academy of Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Leadership:has_theme",
+          "object": "Brazilian Academy of Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Supply:has_theme",
+          "object": "copyright attribution",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "schools",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Intentionally_create:has_time",
+          "object": "1897",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Assis",
+          "predicate": "Being_named:has_time",
+          "object": "1908",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Possibility:has_theme",
+          "object": "also add the template Translated",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Education_teaching:has_student",
+          "object": "himself",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Being_named:has_entity",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "university",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Supply:has_means",
+          "object": "providing an interlanguage link to the source of your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1908",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "family name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Education_teaching:has_time",
+          "object": "later in life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Cotheme:has_theme",
+          "object": "edit summary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Change_of_leadership:has_theme",
+          "object": "slavery",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Translating:has_theme",
+          "object": "text",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Importance:has_theme",
+          "object": "translation instructions",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Being_named:has_type",
+          "object": "maternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Correctness:has_information",
+          "object": "translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Education_teaching:has_location",
+          "object": "public schools",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "errors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Give_impression:has_theme",
+          "object": "text",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Portuguese_language",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Translating:has_text",
+          "object": "translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Connectors:has_theme",
+          "object": "link",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "President of the Brazilian Academy of Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Text:has_text",
+          "object": "text",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Source_of_getting:has_theme",
+          "object": "source",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Cotheme:has_theme",
+          "object": "your translation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Education_teaching:has_degree",
+          "object": "barely",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Intentionally_create:has_theme",
+          "object": "Brazilian Academy of Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Text:has_language",
+          "object": "foreign-language",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Supply:has_theme",
+          "object": "references",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Becoming:has_theme",
+          "object": "first President of the Brazilian Academy of Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Verification:has_theme",
+          "object": "text with references provided in the foreign-language article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1897",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Political_locales:has_theme",
+          "object": "country",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado_de_Assis",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "public",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Give_impression:has_theme",
+          "object": "unreliable or low-quality",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Assis",
+          "predicate": "Being_named:has_type",
+          "object": "paternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Havana",
+          "predicate": "Wealthiness:has_person",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Being_necessary:has_theme",
+          "object": "errors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Machado",
+          "predicate": "Importance:has_time",
+          "object": "2024",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Assis",
+      "http://en.wikipedia.org/wiki/Havana",
+      "http://en.wikipedia.org/wiki/Machado",
+      "http://en.wikipedia.org/wiki/Machado"
+    ],
+    "objects": [
+      "family",
+      "interlanguage",
+      "fully",
+      "1908",
+      "never",
+      "French, English, German and Greek",
+      "starting point",
+      "poor family",
+      "your translation",
+      "paternal family",
+      "2024",
+      "corresponding article in Portuguese",
+      "foreign-language article",
+      "Wikipedia:Translation",
+      "guidance",
+      "Morro do Livramento [ pt ]",
+      "Machine",
+      "edit summary accompanying your translation",
+      "interlanguage link to the source of your translation",
+      "1897",
+      "important translation instructions",
+      "1908",
+      "expand this article with text translated from the corresponding article in Portuguese",
+      "poor",
+      "he founded and became the first President of the Brazilian Academy of Letters",
+      "Brazilian Academy of Letters",
+      "copyright attribution",
+      "schools",
+      "1897",
+      "1908",
+      "also add the template Translated",
+      "himself",
+      "provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation",
+      "family",
+      "university",
+      "name",
+      "providing an interlanguage link to the source of your translation",
+      "1908",
+      "family name",
+      "later in life",
+      "edit summary",
+      "slavery",
+      "text",
+      "translation instructions",
+      "maternal",
+      "translation",
+      "article",
+      "public schools",
+      "errors",
+      "text",
+      "article",
+      "translation",
+      "link",
+      "President of the Brazilian Academy of Letters",
+      "text",
+      "source",
+      "your translation",
+      "university",
+      "revise errors as necessary and confirm that the translation is accurate",
+      "barely",
+      "help expand this article with text translated from the corresponding article in Portuguese",
+      "Brazilian Academy of Letters",
+      "foreign-language",
+      "references",
+      "first President of the Brazilian Academy of Letters",
+      "text with references provided in the foreign-language article",
+      "1897",
+      "country",
+      "public",
+      "unreliable or low-quality",
+      "paternal",
+      "family",
+      "errors",
+      "2024"
+    ],
+    "all_unique": [
+      "himself",
+      "paternal",
+      "interlanguage link to the source of your translation",
+      "country",
+      "interlanguage",
+      "family name",
+      "barely",
+      "President of the Brazilian Academy of Letters",
+      "family",
+      "help expand this article with text translated from the corresponding article in Portuguese",
+      "fully",
+      "never",
+      "university",
+      "guidance",
+      "public schools",
+      "revise errors as necessary and confirm that the translation is accurate",
+      "later in life",
+      "foreign-language",
+      "copyright attribution",
+      "2024",
+      "translation",
+      "providing an interlanguage link to the source of your translation",
+      "paternal family",
+      "text",
+      "http://en.wikipedia.org/wiki/Portuguese_language",
+      "slavery",
+      "http://en.wikipedia.org/wiki/Machado_de_Assis",
+      "article",
+      "references",
+      "source",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "1908",
+      "provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation",
+      "http://en.wikipedia.org/wiki/Assis",
+      "Morro do Livramento [ pt ]",
+      "1897",
+      "Wikipedia:Translation",
+      "expand this article with text translated from the corresponding article in Portuguese",
+      "Brazilian Academy of Letters",
+      "public",
+      "http://en.wikipedia.org/wiki/Havana",
+      "errors",
+      "text with references provided in the foreign-language article",
+      "unreliable or low-quality",
+      "edit summary accompanying your translation",
+      "first President of the Brazilian Academy of Letters",
+      "starting point",
+      "your translation",
+      "translation instructions",
+      "foreign-language article",
+      "http://en.wikipedia.org/wiki/Machado",
+      "French, English, German and Greek",
+      "maternal",
+      "poor",
+      "link",
+      "poor family",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "schools",
+      "corresponding article in Portuguese",
+      "he founded and became the first President of the Brazilian Academy of Letters",
+      "edit summary",
+      "also add the template Translated",
+      "Machine",
+      "important translation instructions",
+      "name"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Kinship:has_theme",
+      "Connectors:has_type",
+      "Change_of_leadership:has_degree",
+      "Being_named:has_time",
+      "Attending:has_theme",
+      "Education_teaching:has_theme",
+      "Usefulness:has_entity",
+      "Being_born:has_theme",
+      "Source_of_getting:has_theme",
+      "Being_named:has_entity",
+      "Contacting:has_time",
+      "Translating:has_theme",
+      "Supply:has_location",
+      "Reference_text:has_theme",
+      "Increment:has_class",
+      "Being_born:has_location",
+      "Translating:has_means",
+      "Supply:has_location",
+      "Supply:has_theme",
+      "Becoming:has_time",
+      "Contacting:has_purpose",
+      "Being_named:has_time",
+      "Assistance:has_goal",
+      "Kinship:has_theme",
+      "Temporal_collocation:has_theme",
+      "Leadership:has_theme",
+      "Supply:has_theme",
+      "Locale_by_use:has_theme",
+      "Intentionally_create:has_time",
+      "Being_named:has_time",
+      "Possibility:has_theme",
+      "Education_teaching:has_student",
+      "Required_event:has_theme",
+      "Being_named:has_entity",
+      "Locale_by_use:has_theme",
+      "Being_named:has_theme",
+      "Supply:has_means",
+      "Ordinal_numbers:has_time",
+      "Ordinal_numbers:has_type",
+      "Education_teaching:has_time",
+      "Cotheme:has_theme",
+      "Change_of_leadership:has_theme",
+      "Translating:has_theme",
+      "Importance:has_theme",
+      "Being_named:has_type",
+      "Correctness:has_information",
+      "Text:has_text",
+      "Education_teaching:has_location",
+      "Calendric_unit:has_theme",
+      "Give_impression:has_theme",
+      "Text:has_text",
+      "Translating:has_text",
+      "Connectors:has_theme",
+      "Ordinal_numbers:has_type",
+      "Text:has_text",
+      "Source_of_getting:has_theme",
+      "Cotheme:has_theme",
+      "Attending:has_event",
+      "Required_event:has_theme",
+      "Education_teaching:has_degree",
+      "Capability:has_event",
+      "Intentionally_create:has_theme",
+      "Text:has_language",
+      "Supply:has_theme",
+      "Becoming:has_theme",
+      "Verification:has_theme",
+      "Temporal_collocation:has_theme",
+      "Political_locales:has_theme",
+      "Locale_by_use:has_theme",
+      "Give_impression:has_theme",
+      "Being_named:has_type",
+      "Wealthiness:has_person",
+      "Being_necessary:has_theme",
+      "Importance:has_time"
+    ],
+    "unique_predicates": [
+      "Text:has_language",
+      "Calendric_unit:has_theme",
+      "Connectors:has_theme",
+      "Correctness:has_information",
+      "Attending:has_theme",
+      "Temporal_collocation:has_theme",
+      "Being_born:has_theme",
+      "Attending:has_event",
+      "Give_impression:has_theme",
+      "Being_named:has_theme",
+      "Translating:has_theme",
+      "Being_named:has_entity",
+      "Assistance:has_goal",
+      "Education_teaching:has_time",
+      "Leadership:has_theme",
+      "Importance:has_time",
+      "Required_event:has_theme",
+      "Source_of_getting:has_theme",
+      "Change_of_leadership:has_theme",
+      "Being_necessary:has_theme",
+      "Being_named:has_type",
+      "Capability:has_event",
+      "Wealthiness:has_person",
+      "Kinship:has_theme",
+      "Reference_text:has_theme",
+      "Ordinal_numbers:has_time",
+      "Text:has_text",
+      "Being_born:has_location",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Contacting:has_time",
+      "Translating:has_means",
+      "Education_teaching:has_theme",
+      "Cotheme:has_theme",
+      "Contacting:has_purpose",
+      "Supply:has_location",
+      "Political_locales:has_theme",
+      "Change_of_leadership:has_degree",
+      "Possibility:has_theme",
+      "Importance:has_theme",
+      "Supply:has_means",
+      "Intentionally_create:has_time",
+      "Supply:has_theme",
+      "Connectors:has_type",
+      "Education_teaching:has_student",
+      "Becoming:has_time",
+      "Education_teaching:has_degree",
+      "Locale_by_use:has_theme",
+      "Intentionally_create:has_theme",
+      "Being_named:has_time",
+      "Becoming:has_theme",
+      "Verification:has_theme",
+      "Translating:has_text",
+      "Usefulness:has_entity",
+      "Education_teaching:has_location"
+    ],
+    "predicate_counts": {
+      "Kinship:has_theme": 2,
+      "Connectors:has_type": 1,
+      "Change_of_leadership:has_degree": 1,
+      "Being_named:has_time": 3,
+      "Attending:has_theme": 1,
+      "Education_teaching:has_theme": 1,
+      "Usefulness:has_entity": 1,
+      "Being_born:has_theme": 1,
+      "Source_of_getting:has_theme": 2,
+      "Being_named:has_entity": 2,
+      "Contacting:has_time": 1,
+      "Translating:has_theme": 2,
+      "Supply:has_location": 2,
+      "Reference_text:has_theme": 1,
+      "Increment:has_class": 1,
+      "Being_born:has_location": 1,
+      "Translating:has_means": 1,
+      "Supply:has_theme": 3,
+      "Becoming:has_time": 1,
+      "Contacting:has_purpose": 1,
+      "Assistance:has_goal": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Leadership:has_theme": 1,
+      "Locale_by_use:has_theme": 3,
+      "Intentionally_create:has_time": 1,
+      "Possibility:has_theme": 1,
+      "Education_teaching:has_student": 1,
+      "Required_event:has_theme": 2,
+      "Being_named:has_theme": 1,
+      "Supply:has_means": 1,
+      "Ordinal_numbers:has_time": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Education_teaching:has_time": 1,
+      "Cotheme:has_theme": 2,
+      "Change_of_leadership:has_theme": 1,
+      "Importance:has_theme": 1,
+      "Being_named:has_type": 2,
+      "Correctness:has_information": 1,
+      "Text:has_text": 3,
+      "Education_teaching:has_location": 1,
+      "Calendric_unit:has_theme": 1,
+      "Give_impression:has_theme": 2,
+      "Translating:has_text": 1,
+      "Connectors:has_theme": 1,
+      "Attending:has_event": 1,
+      "Education_teaching:has_degree": 1,
+      "Capability:has_event": 1,
+      "Intentionally_create:has_theme": 1,
+      "Text:has_language": 1,
+      "Becoming:has_theme": 1,
+      "Verification:has_theme": 1,
+      "Political_locales:has_theme": 1,
+      "Wealthiness:has_person": 1,
+      "Being_necessary:has_theme": 1,
+      "Importance:has_time": 1
+    }
+  }
+}

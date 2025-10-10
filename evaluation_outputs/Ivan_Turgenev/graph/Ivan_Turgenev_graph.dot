@@ -1,0 +1,254 @@
+digraph Ivan_Turgenev {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authoritarian" [label="authoritarian", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works of 19th-century fiction" [label="works of 19th-century fiction", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Fathers and Sons novel" [label="Fathers and Sons novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as one of the major works o..." [label="as one of the major works o...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His novel Fathers and Sons ..." [label="His novel Fathers and Sons ...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "after her mother's death" [label="after her mother's death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "her mother's death" [label="her mother's death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "his house" [label="his house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Turgenev surname " [label="Turgenev surname ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story collection" [label="short story collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "26" [label="26", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19th-century" [label="19th-century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan's" [label="Ivan's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russia" [label="Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fiction" [label="fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "old" [label="old", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she married Turgenev" [label="she married Turgenev", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Governorate" [label="Governorate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her uncle" [label="her uncle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oryol, Russia" [label="Oryol, Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Vasily II of Moscow" [label="Vasily II of Moscow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan Turgenev" [label="Ivan Turgenev", fillcolor=lightgray, color=gray, shape=hexagon];
+    "woman" [label="woman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother's" [label="her mother's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Varvara Petrovna Turgeneva" [label="Varvara Petrovna Turgeneva", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parents" [label="parents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19th-century fiction" [label="19th-century fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history" [label="history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1862" [label="1862", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lutovinova" [label="Lutovinova", fillcolor=lightgray, color=gray, shape=hexagon];
+    "serve Vasily II of Moscow" [label="serve Vasily II of Moscow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan Ivanovich Lutovinov" [label="Ivan Ivanovich Lutovinov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1816" [label="1816", fillcolor=lightgray, color=gray, shape=hexagon];
+    "noble Russian parents Serge..." [label="noble Russian parents Serge...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sportsman's Sketches" [label="Sportsman's Sketches", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stepfather" [label="stepfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "realism" [label="realism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oryol Oblast" [label="Oryol Oblast", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication" [label="publication", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan's mother" [label="Ivan's mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major publication" [label="major publication", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fathers and Sons" [label="Fathers and Sons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "huge" [label="huge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their mother, an educated, ..." [label="their mother, an educated, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan Sergeyevich Turgenev" [label="Ivan Sergeyevich Turgenev", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "left his house" [label="left his house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wealthy noble Lutovinov hou..." [label="wealthy noble Lutovinov hou...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fortune" [label="fortune", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house" [label="house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Golden Horde" [label="Golden Horde", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lev Turgen Ivan Turgenev af..." [label="Lev Turgen Ivan Turgenev af...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ancestor" [label="ancestor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Turgenev family" [label="Turgenev family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "live with her uncle" [label="live with her uncle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "East Slavic languages" [label="East Slavic languages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tatar mirza Lev Turgen Ivan..." [label="Tatar mirza Lev Turgen Ivan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brothers" [label="brothers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oryol" [label="Oryol", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivan and his brothers Nikol..." [label="Ivan and his brothers Nikol...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Golden Horde" -> "serve Vasily II of Moscow" [label="has purpose [Quitting]", color=lightblue, penwidth=1];
+    "Ivan Turgenev" -> "Ivan Ivanovich Lutovinov" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Ivan Turgenev" -> "Turgenev family" [label="has entity [Age]", color=lightgreen, penwidth=1];
+    "East Slavic languages" -> "Sportsman's Sketches" [label="has theme [Documents]", color=lightyellow, penwidth=1];
+    "East Slavic languages" -> "Ivan Turgenev" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Russia" -> "Oryol" [label="has location [Kinship]", color=green, penwidth=2];
+    "East Slavic languages" -> "literature" [label="has theme [Fields]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "childhood" [label="has activity [Difficulty]", color=lightsteelblue, penwidth=1];
+    "Ivan Turgenev" -> "wealthy noble Lutovinov hou..." [label="has theme [Origin]", color=lightgray, penwidth=1];
+    "East Slavic languages" -> "story" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ivan Turgenev" -> "1816" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "East Slavic languages" -> "short story" [label="has theme [Aggregate]", color=lightsalmon, penwidth=1];
+    "East Slavic languages" -> "fiction" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ivan Turgenev" -> "old" [label="has attribute [Age]", color=lightgreen, penwidth=1];
+    "East Slavic languages" -> "house" [label="has theme [Buildings]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "Lev Turgen Ivan Turgenev af..." [label="has theme [Assistance]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "19th-century" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavic languages" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "huge" [label="has theme [Luck]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "major" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Ivan Turgenev" -> "Fathers and Sons" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Fathers and Sons novel" -> "His novel Fathers and Sons ..." [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "East Slavic languages" -> "left his house" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Ivan Turgenev" -> "ancestor" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "live with her uncle" [label="has purpose [Departing]", color=lightgreen, penwidth=1];
+    "East Slavic languages" -> "she married Turgenev" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Fathers and Sons novel" -> "Ivan and his brothers Nikol..." [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Russia" -> "Turgenev surname " [label="has information [Reference_text]", color=lightpink, penwidth=1];
+    "Oryol Oblast" -> "Oryol" [label="has theme [Leadership]", color=lightcyan, penwidth=1];
+    "Russia" -> "realism" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "East Slavic languages" -> "woman" [label="has agent [Strictness]", color=lightsteelblue, penwidth=1];
+    "East Slavic languages" -> "Ivan and his brothers Nikol..." [label="has theme [Growing_food]", color=lightgray, penwidth=1];
+    "Fathers and Sons novel" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Russia" -> "novelist" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ivan Turgenev" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "Turgenev family" [label="has participant [Individual_history]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavic languages" -> "stepfather" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "after her mother's death" [label="has time [Departing]", color=purple, penwidth=2];
+    "East Slavic languages" -> "works of 19th-century fiction" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "East Slavic languages" -> "works" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Golden Horde" -> "Tatar mirza Lev Turgen Ivan..." [label="has employee [Quitting]", color=lightblue, penwidth=1];
+    "East Slavic languages" -> "collection" [label="has theme [Aggregate]", color=lightsalmon, penwidth=1];
+    "East Slavic languages" -> "woman" [label="has person [People]", color=red, penwidth=2];
+    "East Slavic languages" -> "woman" [label="has student [Education_teaching]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "their mother, an educated, ..." [label="has theme [Growing_food]", color=lightgray, penwidth=1];
+    "East Slavic languages" -> "fortune" [label="has theme [Luck]", color=lightsteelblue, penwidth=1];
+    "Ivan Turgenev" -> "brothers" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Russia" -> "poet" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ivan Turgenev" -> "Ivan's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "authoritarian" [label="has theme [People]", color=lightsalmon, penwidth=1];
+    "East Slavic languages" -> "major publication" [label="has type [Ordinal_numbers]", color=lightpink, penwidth=1];
+    "Fathers and Sons novel" -> "as one of the major works o..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "East Slavic languages" -> "her mother's death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Ivan Turgenev" -> "Oryol" [label="has location [Being_named]", color=green, penwidth=2];
+    "Ivan Turgenev" -> "publication" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavic languages" -> "history" [label="has theme [Individual_history]", color=lightgoldenrodyellow, penwidth=1];
+    "Oryol Oblast" -> "Governorate" [label="has leader [Leadership]", color=lightcyan, penwidth=1];
+    "East Slavic languages" -> "short story collection" [label="has document [Documents]", color=lightyellow, penwidth=1];
+    "Oryol Oblast" -> "house" [label="has theme [Buildings]", color=lightgoldenrod, penwidth=1];
+    "East Slavic languages" -> "26" [label="has age [Age]", color=lightgreen, penwidth=1];
+    "Russia" -> "literature" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Ivan Turgenev" -> "noble Russian parents Serge..." [label="has theme [Being_born]", color=lightsteelblue, penwidth=1];
+    "Ivan Turgenev" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Ivan Turgenev" -> "Ivan's mother" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Ivan Turgenev" -> "1862" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Ivan Turgenev" -> "Ivan Sergeyevich Turgenev" [label="has person [Being_born]", color=red, penwidth=2];
+    "Ivan Turgenev" -> "Lutovinova" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "name" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "19th-century fiction" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "story" [label="has theme [Duration_description]", color=lightcoral, penwidth=1];
+    "Russia" -> "short story" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Ivan Turgenev" -> "Oryol, Russia" [label="has location [Being_born]", color=green, penwidth=2];
+    "East Slavic languages" -> "1816" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Ivan Turgenev" -> "Varvara Petrovna Turgeneva" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "her mother's" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "Russia" -> "parents" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "East Slavic languages" -> "family" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "Vasily II of Moscow" [label="has theme [Assistance]", color=lightpink, penwidth=1];
+    "East Slavic languages" -> "his house" [label="has theme [Departing]", color=lightgreen, penwidth=1];
+    "East Slavic languages" -> "her uncle" [label="has theme [Residence]", color=lightgreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Quitting_legend" [label="Quitting", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Documents_legend" [label="Documents", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Difficulty_legend" [label="Difficulty", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Luck_legend" [label="Luck", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Strictness_legend" [label="Strictness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Individual_history_legend" [label="Individual_history", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

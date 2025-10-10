@@ -1,0 +1,1746 @@
+{
+  "metadata": {
+    "total_triples": 80,
+    "source_file": "Ivan_Turgenev",
+    "extraction_date": "2025-09-28 00:45:24",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Golden_Horde",
+        "predicate": "Quitting:has_purpose",
+        "object": "serve Vasily II of Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "Ivan Ivanovich Lutovinov",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Age:has_entity",
+        "object": "Turgenev family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Documents:has_theme",
+        "object": "Sportsman's Sketches",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Being_named:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Oryol",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Difficulty:has_activity",
+        "object": "childhood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Origin:has_theme",
+        "object": "wealthy noble Lutovinov house of the Oryol Governorate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Text:has_text",
+        "object": "story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1816",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Aggregate:has_theme",
+        "object": "short story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Text:has_text",
+        "object": "fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Age:has_attribute",
+        "object": "old",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Buildings:has_theme",
+        "object": "house",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Assistance:has_theme",
+        "object": "Lev Turgen (Ivan Turgenev after his baptism)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Text:has_theme",
+        "object": "19th-century",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Luck:has_theme",
+        "object": "huge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Labor_product:has_theme",
+        "object": "major",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Text:has_text",
+        "object": "Fathers and Sons",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+        "predicate": "Categorization:has_item",
+        "object": "His novel Fathers and Sons (1862)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Relative_time:has_theme",
+        "object": "left his house",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "ancestor",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Departing:has_purpose",
+        "object": "live with her uncle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she married Turgenev",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+        "predicate": "Kinship:has_theme",
+        "object": "Ivan and his brothers Nikolai and Sergei",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Reference_text:has_information",
+        "object": "Turgenev (surname )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+        "predicate": "Leadership:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Oryol",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Origin:has_entity",
+        "object": "realism",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Strictness:has_agent",
+        "object": "woman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Growing_food:has_theme",
+        "object": "Ivan and his brothers Nikolai and Sergei",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_text",
+        "object": "novelist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Individual_history:has_participant",
+        "object": "Turgenev family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Kinship:has_theme",
+        "object": "stepfather",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Departing:has_time",
+        "object": "after her mother's death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Importance:has_theme",
+        "object": "works of 19th-century fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Golden_Horde",
+        "predicate": "Quitting:has_employee",
+        "object": "Tatar mirza Lev Turgen (Ivan Turgenev after his baptism)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Aggregate:has_theme",
+        "object": "collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "People:has_person",
+        "object": "woman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Education_teaching:has_student",
+        "object": "woman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Growing_food:has_theme",
+        "object": "their mother, an educated, authoritarian woman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Luck:has_theme",
+        "object": "fortune",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "brothers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "Ivan's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "People:has_theme",
+        "object": "authoritarian",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "major publication",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the major works of 19th-century fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Relative_time:has_theme",
+        "object": "her mother's death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_named:has_location",
+        "object": "http://en.wikipedia.org/wiki/Oryol",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Text:has_text",
+        "object": "publication",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Individual_history:has_theme",
+        "object": "history",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+        "predicate": "Leadership:has_leader",
+        "object": "Governorate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Documents:has_document",
+        "object": "short story collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+        "predicate": "Buildings:has_theme",
+        "object": "house",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Age:has_age",
+        "object": "26",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Origin:has_entity",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_born:has_theme",
+        "object": "noble Russian parents Sergei Nikolaevich Turgenev (1793–1834), a colonel in the Russian cavalry who took part in the Patriotic War of 1812, and Varvara Petrovna Turgeneva ( née Lutovinova ; 1787–1850)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Origin:has_entity",
+        "object": "Ivan's mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Text:has_theme",
+        "object": "(1862",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_born:has_person",
+        "object": "Ivan Sergeyevich Turgenev",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_named:has_theme",
+        "object": "Lutovinova",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Labor_product:has_theme",
+        "object": "19th-century fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Duration_description:has_theme",
+        "object": "story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text_creation:has_text",
+        "object": "short story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_born:has_location",
+        "object": "Oryol, Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1816",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+        "predicate": "Being_named:has_entity",
+        "object": "Varvara Petrovna Turgeneva",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Death:has_theme",
+        "object": "her mother's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Kinship:has_theme",
+        "object": "parents",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Being_named:has_entity",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Assistance:has_theme",
+        "object": "Vasily II of Moscow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Departing:has_theme",
+        "object": "his house",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+        "predicate": "Residence:has_theme",
+        "object": "her uncle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Growing_food:has_theme",
+          "object": "their mother, an educated, authoritarian woman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "People:has_theme",
+          "object": "authoritarian",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Departing:has_time",
+          "object": "after her mother's death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Relative_time:has_theme",
+          "object": "her mother's death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_born:has_theme",
+          "object": "noble Russian parents Sergei Nikolaevich Turgenev (1793–1834), a colonel in the Russian cavalry who took part in the Patriotic War of 1812, and Varvara Petrovna Turgeneva ( née Lutovinova ; 1787–1850)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_born:has_person",
+          "object": "Ivan Sergeyevich Turgenev",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_born:has_location",
+          "object": "Oryol, Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Death:has_theme",
+          "object": "her mother's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+          "predicate": "Categorization:has_item",
+          "object": "His novel Fathers and Sons (1862)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+          "predicate": "Kinship:has_theme",
+          "object": "Ivan and his brothers Nikolai and Sergei",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_text",
+          "object": "novelist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the major works of 19th-century fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Golden_Horde",
+          "predicate": "Quitting:has_purpose",
+          "object": "serve Vasily II of Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "Ivan Ivanovich Lutovinov",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Age:has_entity",
+          "object": "Turgenev family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Documents:has_theme",
+          "object": "Sportsman's Sketches",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Being_named:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Oryol",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Difficulty:has_activity",
+          "object": "childhood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Origin:has_theme",
+          "object": "wealthy noble Lutovinov house of the Oryol Governorate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Text:has_text",
+          "object": "story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1816",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Aggregate:has_theme",
+          "object": "short story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Text:has_text",
+          "object": "fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Age:has_attribute",
+          "object": "old",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Buildings:has_theme",
+          "object": "house",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Assistance:has_theme",
+          "object": "Lev Turgen (Ivan Turgenev after his baptism)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Text:has_theme",
+          "object": "19th-century",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Luck:has_theme",
+          "object": "huge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Labor_product:has_theme",
+          "object": "major",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Text:has_text",
+          "object": "Fathers and Sons",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Relative_time:has_theme",
+          "object": "left his house",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "ancestor",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Departing:has_purpose",
+          "object": "live with her uncle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she married Turgenev",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Reference_text:has_information",
+          "object": "Turgenev (surname )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+          "predicate": "Leadership:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Oryol",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Origin:has_entity",
+          "object": "realism",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Strictness:has_agent",
+          "object": "woman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Growing_food:has_theme",
+          "object": "Ivan and his brothers Nikolai and Sergei",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Individual_history:has_participant",
+          "object": "Turgenev family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Kinship:has_theme",
+          "object": "stepfather",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Importance:has_theme",
+          "object": "works of 19th-century fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Golden_Horde",
+          "predicate": "Quitting:has_employee",
+          "object": "Tatar mirza Lev Turgen (Ivan Turgenev after his baptism)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Aggregate:has_theme",
+          "object": "collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "People:has_person",
+          "object": "woman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Education_teaching:has_student",
+          "object": "woman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Luck:has_theme",
+          "object": "fortune",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "brothers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "Ivan's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "major publication",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_named:has_location",
+          "object": "http://en.wikipedia.org/wiki/Oryol",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Text:has_text",
+          "object": "publication",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Individual_history:has_theme",
+          "object": "history",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+          "predicate": "Leadership:has_leader",
+          "object": "Governorate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Documents:has_document",
+          "object": "short story collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Oryol_Oblast",
+          "predicate": "Buildings:has_theme",
+          "object": "house",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Age:has_age",
+          "object": "26",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Origin:has_entity",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Origin:has_entity",
+          "object": "Ivan's mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Text:has_theme",
+          "object": "(1862",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_named:has_theme",
+          "object": "Lutovinova",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Labor_product:has_theme",
+          "object": "19th-century fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Duration_description:has_theme",
+          "object": "story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text_creation:has_text",
+          "object": "short story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1816",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+          "predicate": "Being_named:has_entity",
+          "object": "Varvara Petrovna Turgeneva",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Kinship:has_theme",
+          "object": "parents",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Being_named:has_entity",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Assistance:has_theme",
+          "object": "Vasily II of Moscow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Departing:has_theme",
+          "object": "his house",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavic_languages",
+          "predicate": "Residence:has_theme",
+          "object": "her uncle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Golden_Horde",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Oryol_Oblast",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Golden_Horde",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Oryol_Oblast",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Oryol_Oblast",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages"
+    ],
+    "objects": [
+      "serve Vasily II of Moscow",
+      "Ivan Ivanovich Lutovinov",
+      "Turgenev family",
+      "Sportsman's Sketches",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Oryol",
+      "literature",
+      "childhood",
+      "wealthy noble Lutovinov house of the Oryol Governorate",
+      "story",
+      "1816",
+      "short story",
+      "fiction",
+      "old",
+      "house",
+      "Lev Turgen (Ivan Turgenev after his baptism)",
+      "19th-century",
+      "mother",
+      "huge",
+      "major",
+      "Fathers and Sons",
+      "His novel Fathers and Sons (1862)",
+      "left his house",
+      "ancestor",
+      "live with her uncle",
+      "she married Turgenev",
+      "Ivan and his brothers Nikolai and Sergei",
+      "Turgenev (surname )",
+      "http://en.wikipedia.org/wiki/Oryol",
+      "realism",
+      "woman",
+      "Ivan and his brothers Nikolai and Sergei",
+      "mother",
+      "novelist",
+      "mother",
+      "Turgenev family",
+      "stepfather",
+      "after her mother's death",
+      "works of 19th-century fiction",
+      "works",
+      "Tatar mirza Lev Turgen (Ivan Turgenev after his baptism)",
+      "collection",
+      "woman",
+      "woman",
+      "their mother, an educated, authoritarian woman",
+      "fortune",
+      "brothers",
+      "poet",
+      "Ivan's",
+      "authoritarian",
+      "major publication",
+      "as one of the major works of 19th-century fiction",
+      "her mother's death",
+      "http://en.wikipedia.org/wiki/Oryol",
+      "publication",
+      "history",
+      "Governorate",
+      "short story collection",
+      "house",
+      "26",
+      "literature",
+      "noble Russian parents Sergei Nikolaevich Turgenev (1793–1834), a colonel in the Russian cavalry who took part in the Patriotic War of 1812, and Varvara Petrovna Turgeneva ( née Lutovinova ; 1787–1850)",
+      "father",
+      "Ivan's mother",
+      "(1862",
+      "Ivan Sergeyevich Turgenev",
+      "Lutovinova",
+      "name",
+      "19th-century fiction",
+      "story",
+      "short story",
+      "Oryol, Russia",
+      "1816",
+      "Varvara Petrovna Turgeneva",
+      "her mother's",
+      "parents",
+      "family",
+      "Vasily II of Moscow",
+      "his house",
+      "her uncle"
+    ],
+    "all_unique": [
+      "his house",
+      "literature",
+      "short story collection",
+      "(1862",
+      "26",
+      "19th-century",
+      "Ivan's",
+      "http://en.wikipedia.org/wiki/Ivan_Turgenev",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Oryol",
+      "story",
+      "works",
+      "family",
+      "Ivan and his brothers Nikolai and Sergei",
+      "fiction",
+      "old",
+      "mother",
+      "she married Turgenev",
+      "Governorate",
+      "her uncle",
+      "childhood",
+      "Oryol, Russia",
+      "Vasily II of Moscow",
+      "after her mother's death",
+      "woman",
+      "father",
+      "her mother's",
+      "Varvara Petrovna Turgeneva",
+      "parents",
+      "19th-century fiction",
+      "novelist",
+      "history",
+      "His novel Fathers and Sons (1862)",
+      "as one of the major works of 19th-century fiction",
+      "works of 19th-century fiction",
+      "authoritarian",
+      "Lutovinova",
+      "serve Vasily II of Moscow",
+      "Ivan Ivanovich Lutovinov",
+      "1816",
+      "Sportsman's Sketches",
+      "Turgenev (surname )",
+      "stepfather",
+      "realism",
+      "publication",
+      "Ivan's mother",
+      "major publication",
+      "Fathers and Sons",
+      "huge",
+      "major",
+      "Ivan Sergeyevich Turgenev",
+      "Lev Turgen (Ivan Turgenev after his baptism)",
+      "short story",
+      "left his house",
+      "fortune",
+      "house",
+      "ancestor",
+      "http://en.wikipedia.org/wiki/Golden_Horde",
+      "http://en.wikipedia.org/wiki/Oryol_Oblast",
+      "Turgenev family",
+      "Tatar mirza Lev Turgen (Ivan Turgenev after his baptism)",
+      "http://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)",
+      "poet",
+      "live with her uncle",
+      "collection",
+      "their mother, an educated, authoritarian woman",
+      "her mother's death",
+      "wealthy noble Lutovinov house of the Oryol Governorate",
+      "noble Russian parents Sergei Nikolaevich Turgenev (1793–1834), a colonel in the Russian cavalry who took part in the Patriotic War of 1812, and Varvara Petrovna Turgeneva ( née Lutovinova ; 1787–1850)",
+      "brothers",
+      "http://en.wikipedia.org/wiki/East_Slavic_languages",
+      "name"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Quitting:has_purpose",
+      "Kinship:has_theme",
+      "Age:has_entity",
+      "Documents:has_theme",
+      "Being_named:has_theme",
+      "Kinship:has_location",
+      "Fields:has_theme",
+      "Difficulty:has_activity",
+      "Origin:has_theme",
+      "Text:has_text",
+      "Personal_relationship:has_time",
+      "Aggregate:has_theme",
+      "Text:has_text",
+      "Age:has_attribute",
+      "Buildings:has_theme",
+      "Assistance:has_theme",
+      "Text:has_theme",
+      "Kinship:has_theme",
+      "Luck:has_theme",
+      "Labor_product:has_theme",
+      "Text:has_text",
+      "Categorization:has_item",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Departing:has_purpose",
+      "Temporal_collocation:has_theme",
+      "Kinship:has_theme",
+      "Reference_text:has_information",
+      "Leadership:has_theme",
+      "Origin:has_entity",
+      "Strictness:has_agent",
+      "Growing_food:has_theme",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Individual_history:has_participant",
+      "Kinship:has_theme",
+      "Departing:has_time",
+      "Importance:has_theme",
+      "Labor_product:has_theme",
+      "Quitting:has_employee",
+      "Aggregate:has_theme",
+      "People:has_person",
+      "Education_teaching:has_student",
+      "Growing_food:has_theme",
+      "Luck:has_theme",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "People:has_theme",
+      "Ordinal_numbers:has_type",
+      "Categorization:has_category",
+      "Relative_time:has_theme",
+      "Being_named:has_location",
+      "Text:has_text",
+      "Individual_history:has_theme",
+      "Leadership:has_leader",
+      "Documents:has_document",
+      "Buildings:has_theme",
+      "Age:has_age",
+      "Origin:has_entity",
+      "Being_born:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_entity",
+      "Text:has_theme",
+      "Being_born:has_person",
+      "Being_named:has_theme",
+      "Being_named:has_theme",
+      "Labor_product:has_theme",
+      "Duration_description:has_theme",
+      "Text_creation:has_text",
+      "Being_born:has_location",
+      "Temporal_collocation:has_theme",
+      "Being_named:has_entity",
+      "Death:has_theme",
+      "Kinship:has_theme",
+      "Being_named:has_entity",
+      "Assistance:has_theme",
+      "Departing:has_theme",
+      "Residence:has_theme"
+    ],
+    "unique_predicates": [
+      "Growing_food:has_theme",
+      "Residence:has_theme",
+      "Documents:has_document",
+      "Departing:has_purpose",
+      "Aggregate:has_theme",
+      "Individual_history:has_theme",
+      "People:has_theme",
+      "Age:has_attribute",
+      "Age:has_entity",
+      "Age:has_age",
+      "Personal_relationship:has_time",
+      "Temporal_collocation:has_theme",
+      "Being_born:has_theme",
+      "People:has_person",
+      "Fields:has_theme",
+      "Luck:has_theme",
+      "Origin:has_theme",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Being_born:has_person",
+      "Reference_text:has_information",
+      "Assistance:has_theme",
+      "Leadership:has_theme",
+      "Quitting:has_employee",
+      "Difficulty:has_activity",
+      "Death:has_theme",
+      "Leadership:has_leader",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Buildings:has_theme",
+      "Being_born:has_location",
+      "Documents:has_theme",
+      "Ordinal_numbers:has_type",
+      "Categorization:has_category",
+      "Kinship:has_location",
+      "Quitting:has_purpose",
+      "Text_creation:has_text",
+      "Categorization:has_item",
+      "Individual_history:has_participant",
+      "Text:has_theme",
+      "Departing:has_time",
+      "Importance:has_theme",
+      "Origin:has_entity",
+      "Education_teaching:has_student",
+      "Being_named:has_location",
+      "Labor_product:has_theme",
+      "Departing:has_theme",
+      "Strictness:has_agent"
+    ],
+    "predicate_counts": {
+      "Quitting:has_purpose": 1,
+      "Kinship:has_theme": 11,
+      "Age:has_entity": 1,
+      "Documents:has_theme": 1,
+      "Being_named:has_theme": 3,
+      "Kinship:has_location": 1,
+      "Fields:has_theme": 1,
+      "Difficulty:has_activity": 1,
+      "Origin:has_theme": 1,
+      "Text:has_text": 6,
+      "Personal_relationship:has_time": 1,
+      "Aggregate:has_theme": 2,
+      "Age:has_attribute": 1,
+      "Buildings:has_theme": 2,
+      "Assistance:has_theme": 2,
+      "Text:has_theme": 2,
+      "Luck:has_theme": 2,
+      "Labor_product:has_theme": 3,
+      "Categorization:has_item": 1,
+      "Relative_time:has_theme": 2,
+      "Departing:has_purpose": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Reference_text:has_information": 1,
+      "Leadership:has_theme": 1,
+      "Origin:has_entity": 3,
+      "Strictness:has_agent": 1,
+      "Growing_food:has_theme": 2,
+      "Individual_history:has_participant": 1,
+      "Departing:has_time": 1,
+      "Importance:has_theme": 1,
+      "Quitting:has_employee": 1,
+      "People:has_person": 1,
+      "Education_teaching:has_student": 1,
+      "People:has_theme": 1,
+      "Ordinal_numbers:has_type": 1,
+      "Categorization:has_category": 1,
+      "Being_named:has_location": 1,
+      "Individual_history:has_theme": 1,
+      "Leadership:has_leader": 1,
+      "Documents:has_document": 1,
+      "Age:has_age": 1,
+      "Being_born:has_theme": 1,
+      "Being_born:has_person": 1,
+      "Duration_description:has_theme": 1,
+      "Text_creation:has_text": 1,
+      "Being_born:has_location": 1,
+      "Being_named:has_entity": 2,
+      "Death:has_theme": 1,
+      "Departing:has_theme": 1,
+      "Residence:has_theme": 1
+    }
+  }
+}

@@ -1,0 +1,298 @@
+digraph Langston_Hughes {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "prolific writer" [label="prolific writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writer and social activist" [label="writer and social activist", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "eventually" [label="eventually", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Oberlin College" [label="Oberlin College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joplin, Missouri" [label="Joplin, Missouri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be a relative of statesman ..." [label="be a relative of statesman ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story collections, no..." [label="short story collections, no...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1926" [label="1926", fillcolor=lightgray, color=gray, shape=hexagon];
+    "black" [label="black", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Growing up in the Midwest" [label="Growing up in the Midwest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harlem Renaissance" [label="Harlem Renaissance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "man" [label="man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Midwestern United States" [label="Midwestern United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Civil rights movement" [label="Civil rights movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oberlin" [label="Oberlin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be Jewish" [label="be Jewish", fillcolor=lightgray, color=gray, shape=hexagon];
+    "innovator of jazz poetry" [label="innovator of jazz poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hughes's" [label="Hughes's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "statesman Henry Clay" [label="statesman Henry Clay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Henry Clay" [label="Henry Clay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slave" [label="slave", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York publishers" [label="New York publishers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Langston Hughes disambiguation" [label="Langston Hughes disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "in-depth weekly opinion col..." [label="in-depth weekly opinion col...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "attend Oberlin College" [label="attend Oberlin College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a young man" [label="as a young man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Demographics of Africa" [label="Demographics of Africa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "newspaper" [label="newspaper", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mixed" [label="mixed", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Silas Cushenberry" [label="Silas Cushenberry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other putative paternal anc..." [label="other putative paternal anc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Crisis" [label="Crisis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age" [label="age", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she married Lewis Sheridan ..." [label="she married Lewis Sheridan ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "graduated from Lincoln Univ..." [label="graduated from Lincoln Univ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lewis Sheridan Leary, also ..." [label="Lewis Sheridan Leary, also ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before her studies" [label="before her studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "College" [label="College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Langston Hughes" [label="Langston Hughes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "women" [label="women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "men" [label="men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leader" [label="leader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "One of the first women" [label="One of the first women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "jazz" [label="jazz", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kentucky" [label="Kentucky", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nonfiction" [label="nonfiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1942" [label="1942", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Both of Hughes's paternal g..." [label="Both of Hughes's paternal g...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lincoln University Pennsylvania" [label="Lincoln University Pennsylvania", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "weekly" [label="weekly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "relative" [label="relative", fillcolor=lightgray, color=gray, shape=hexagon];
+    "owners" [label="owners", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His first poetry collection..." [label="His first poetry collection...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "traction" [label="traction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "opinion column" [label="opinion column", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Mercer Langston Hughe..." [label="James Mercer Langston Hughe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a leader of the Harlem R..." [label="as a leader of the Harlem R...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandmother" [label="grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry collection" [label="poetry collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Columbia University in New ..." [label="Columbia University in New ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her studies" [label="her studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1901" [label="1901", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lincoln" [label="Lincoln", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Weary Blues" [label="The Weary Blues", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1942 to 1962, as the civil ..." [label="1942 to 1962, as the civil ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Growing up" [label="Growing up", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of these men was Sam Cl..." [label="one of these men was Sam Cl...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Langston Hughes" -> "Crisis" [label="has location [Judgment]", color=green, penwidth=2];
+    "Demographics of Africa" -> "Both of Hughes's paternal g..." [label="has student [Education_teaching]", color=lightcoral, penwidth=1];
+    "Lincoln University Pennsylvania" -> "eventually" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "1926" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "nonfiction" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "owners" [label="has owner [Possession]", color=lightpink, penwidth=1];
+    "Harlem Renaissance" -> "1926" [label="has time [Text]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "His first poetry collection..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Harlem Renaissance" -> "age" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Langston Hughes" -> "be Jewish" [label="has message [Statement]", color=lightsteelblue, penwidth=1];
+    "Harlem Renaissance" -> "College" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Henry Clay" -> "statesman Henry Clay" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Harlem Renaissance" -> "before her studies" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Langston Hughes" -> "Hughes's" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Harlem Renaissance" -> "leader" [label="has leader [Leadership]", color=lightsalmon, penwidth=1];
+    "Harlem Renaissance" -> "black" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "United States" -> "1901" [label="has time [Increment]", color=purple, penwidth=2];
+    "New York City" -> "Langston Hughes" [label="has student [Studying]", color=lightpink, penwidth=1];
+    "United States" -> "1901" [label="has time [Text]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "novels" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "Midwestern United States" [label="has theme [Interior_profile_relation]", color=lightsteelblue, penwidth=1];
+    "Harlem Renaissance" -> "Growing up" [label="has theme [Interior_profile_relation]", color=lightsteelblue, penwidth=1];
+    "Harlem Renaissance" -> "University" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Lincoln University Pennsylvania" -> "Langston Hughes" [label="has student [Education_teaching]", color=lightcoral, penwidth=1];
+    "Harlem Renaissance" -> "story" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "her studies" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Langston Hughes" -> "Growing up in the Midwest" [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "The Weary Blues" -> "other putative paternal anc..." [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Harlem Renaissance" -> "man" [label="has person [People]", color=red, penwidth=2];
+    "Harlem Renaissance" -> "jazz" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "poetry" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Oberlin College" -> "attend Oberlin College" [label="has theme [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Harlem Renaissance" -> "story" [label="has theme [Duration_description]", color=lightsteelblue, penwidth=1];
+    "Langston Hughes" -> "as a leader of the Harlem R..." [label="has role [Fame]", color=lightgray, penwidth=1];
+    "Langston Hughes" -> "1901" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Langston Hughes" -> "Midwestern United States" [label="has location [Living_conditions]", color=green, penwidth=2];
+    "Harlem Renaissance" -> "several" [label="has quantity [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Harlem Renaissance" -> "short story" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Langston Hughes" -> "mixed" [label="has theme [Origin]", color=lightgoldenrod, penwidth=1];
+    "Langston Hughes" -> "New York City" [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "Langston Hughes" -> "as a young man" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "Harlem Renaissance" -> "works" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "1926" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "collections" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Civil rights movement" -> "1942" [label="has time [Getting]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "1926" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Civil rights movement" -> "traction" [label="has theme [Getting]", color=lightsteelblue, penwidth=1];
+    "Henry Clay" -> "relative" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Harlem Renaissance" -> "newspaper" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "poetry" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "poetry collection" [label="has type [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Harlem Renaissance" -> "opinion column" [label="has event [Frequency]", color=lightcoral, penwidth=1];
+    "Langston Hughes" -> "one of these men was Sam Cl..." [label="has theme [Attributed_information]", color=lightblue, penwidth=1];
+    "Langston Hughes" -> "James Mercer Langston Hughe..." [label="has entity [Origin]", color=lightgoldenrod, penwidth=1];
+    "Harlem Renaissance" -> "be a relative of statesman ..." [label="has message [Statement]", color=lightsteelblue, penwidth=1];
+    "The Weary Blues" -> "One of the first women" [label="has agent [Attending]", color=lightcoral, penwidth=1];
+    "Harlem Renaissance" -> "innovator of jazz poetry" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "first" [label="has theme [People]", color=lightyellow, penwidth=1];
+    "New York City" -> "Columbia University in New ..." [label="has institution [Studying]", color=lightpink, penwidth=1];
+    "Harlem Renaissance" -> "women" [label="has person [People]", color=red, penwidth=2];
+    "United States" -> "writer and social activist" [label="has entity [Origin]", color=lightgoldenrod, penwidth=1];
+    "Langston Hughes" -> "1942 to 1962, as the civil ..." [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "1942" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "works" [label="has theme [Quantified_mass]", color=lightsalmon, penwidth=1];
+    "Harlem Renaissance" -> "1942" [label="has time [Text]", color=purple, penwidth=2];
+    "United States" -> "1901" [label="has time [Origin]", color=purple, penwidth=2];
+    "United States" -> "poet" [label="has entity [Origin]", color=lightgoldenrod, penwidth=1];
+    "The Weary Blues" -> "Silas Cushenberry" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Harlem Renaissance" -> "Kentucky" [label="has location [Possession]", color=green, penwidth=2];
+    "Harlem Renaissance" -> "Lewis Sheridan Leary, also ..." [label="has theme [Becoming_a_member]", color=lightseagreen, penwidth=1];
+    "Harlem Renaissance" -> "Lincoln" [label="has theme [Locale_by_use]", color=lightcoral, penwidth=1];
+    "Langston Hughes" -> "best" [label="has degree [Fame]", color=lightgray, penwidth=1];
+    "Langston Hughes" -> "prolific writer" [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "Harlem Renaissance" -> "young" [label="has age [People]", color=lightyellow, penwidth=1];
+    "Harlem Renaissance" -> "she married Lewis Sheridan ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "slave" [label="has theme [Possession]", color=lightpink, penwidth=1];
+    "United States" -> "uses" [label="has class [Increment]", color=lightgoldenrod, penwidth=1];
+    "Langston Hughes" -> "1901" [label="has time [Origin]", color=purple, penwidth=2];
+    "Harlem Renaissance" -> "weekly" [label="has theme [Frequency]", color=lightcoral, penwidth=1];
+    "Harlem Renaissance" -> "early" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Harlem Renaissance" -> "Langston Hughes" [label="has theme [Desiring]", color=lightcyan, penwidth=1];
+    "Harlem Renaissance" -> "Oberlin" [label="has theme [Political_locales]", color=lightgray, penwidth=1];
+    "Demographics of Africa" -> "Kentucky" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Civil rights movement" -> "men" [label="has person [People]", color=red, penwidth=2];
+    "Lincoln University Pennsylvania" -> "graduated from Lincoln Univ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Langston Hughes" -> "plays" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Langston Hughes" -> "short story collections, no..." [label="has work [Publishing]", color=lightgreen, penwidth=1];
+    "Harlem Renaissance" -> "man" [label="has entity [Age]", color=lightsteelblue, penwidth=1];
+    "Langston Hughes" -> "Joplin, Missouri" [label="has theme [Origin]", color=lightgoldenrod, penwidth=1];
+    "Harlem Renaissance" -> "writer" [label="has theme [Expertise]", color=lightgray, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Langston Hughes" -> "New York publishers" [label="has theme [Judgment]", color=lightblue, penwidth=1];
+    "Harlem Renaissance" -> "young" [label="has age [Age]", color=lightsteelblue, penwidth=1];
+    "Harlem Renaissance" -> "childhood" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Oberlin College" -> "women" [label="has type [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Langston Hughes" -> "in-depth weekly opinion col..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Langston Hughes" -> "Langston Hughes disambiguation" [label="has theme [Reference_text]", color=lightgoldenrodyellow, penwidth=1];
+    "Langston Hughes" -> "Midwestern United States" [label="has location [Growing_food]", color=green, penwidth=2];
+    "The Weary Blues" -> "Oberlin College" [label="has event [Attending]", color=lightcoral, penwidth=1];
+    "Harlem Renaissance" -> "collection" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Langston Hughes" -> "grandmother" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Judgment_legend" [label="Judgment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Living_conditions_legend" [label="Living_conditions", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+    }
+}

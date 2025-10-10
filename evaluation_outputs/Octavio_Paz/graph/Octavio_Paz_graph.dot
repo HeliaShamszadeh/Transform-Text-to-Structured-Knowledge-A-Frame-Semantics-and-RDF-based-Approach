@@ -1,0 +1,222 @@
+digraph Octavio_Paz {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Other nodes
+    "improve this article by add..." [label="improve this article by add...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced material" [label="Unsourced material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "corresponding article in Sp..." [label="corresponding article in Sp...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edit summary accompanying y..." [label="edit summary accompanying y...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interlanguage" [label="interlanguage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This article" [label="This article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second or maternal family" [label="second or maternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove this..." [label="how and when to remove this...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "guidance" [label="guidance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "also add the template Trans..." [label="also add the template Trans...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign-language" [label="foreign-language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verification" [label="verification", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interlanguage link to the s..." [label="interlanguage link to the s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "material" [label="material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copyright attribution" [label="copyright attribution", fillcolor=lightgray, color=gray, shape=hexagon];
+    "translation" [label="translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "text" [label="text", fillcolor=lightgray, color=gray, shape=hexagon];
+    "revise errors as necessary ..." [label="revise errors as necessary ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "references" [label="references", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish language" [label="Spanish language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "source" [label="source", fillcolor=lightgray, color=gray, shape=hexagon];
+    "August" [label="August", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wikipedia:Translation" [label="Wikipedia:Translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this message" [label="this message", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2023" [label="2023", fillcolor=lightgray, color=gray, shape=hexagon];
+    "errors" [label="errors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove thes..." [label="how and when to remove thes...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unreliable or low-quality" [label="unreliable or low-quality", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2018" [label="2018", fillcolor=lightgray, color=gray, shape=hexagon];
+    "starting point" [label="starting point", fillcolor=lightgray, color=gray, shape=hexagon];
+    "surname" [label="surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "your translation" [label="your translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sources" [label="sources", fillcolor=lightgray, color=gray, shape=hexagon];
+    "providing an interlanguage ..." [label="providing an interlanguage ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "translation instructions" [label="translation instructions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign-language article" [label="foreign-language article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "important translation instr..." [label="important translation instr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reliable" [label="reliable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "these messages" [label="these messages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "talk page" [label="talk page", fillcolor=lightgray, color=gray, shape=hexagon];
+    "provide copyright attributi..." [label="provide copyright attributi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "link" [label="link", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citations" [label="citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "expand this article with te..." [label="expand this article with te...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mexico" [label="Mexico", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edit summary" [label="edit summary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "improve it or discuss these..." [label="improve it or discuss these...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced" [label="Unsourced", fillcolor=lightgray, color=gray, shape=hexagon];
+    "text with references provid..." [label="text with references provid...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "additional citations" [label="additional citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Machine" [label="Machine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "help expand this article wi..." [label="help expand this article wi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "these issues" [label="these issues", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jaime Lozano" [label="Jaime Lozano", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Spanish language" -> "name" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Spanish language" -> "expand this article with te..." [label="has goal [Assistance]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "additional citations" [label="has theme [Have_as_requirement]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "2018" [label="has time [Removing]", color=purple, penwidth=2];
+    "Spanish language" -> "translation instructions" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "Spanish language" -> "text" [label="has theme [Give_impression]", color=lightcyan, penwidth=1];
+    "Jaime Lozano" -> "1914" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Spanish language" -> "edit summary" [label="has theme [Cotheme]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "corresponding article in Sp..." [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "Mexico" -> "edit summary accompanying y..." [label="has location [Supply]", color=green, penwidth=2];
+    "Spanish language" -> "verification" [label="has theme [Have_as_requirement]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "this message" [label="has theme [Removing]", color=lightyellow, penwidth=1];
+    "Spanish language" -> "Unsourced" [label="has theme [Substance]", color=lightseagreen, penwidth=1];
+    "Spanish language" -> "these issues" [label="has theme [Discussion]", color=lightsalmon, penwidth=1];
+    "Spanish language" -> "references" [label="has theme [Supply]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "sources" [label="has theme [Locating]", color=lightgoldenrod, penwidth=1];
+    "Spanish language" -> "how and when to remove thes..." [label="has theme [Coming_to_believe]", color=lightpink, penwidth=1];
+    "Spanish language" -> "translation" [label="has information [Correctness]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "family name" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "citations" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Spanish language" -> "how and when to remove this..." [label="has skill [Education_teaching]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "August" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "2018" [label="has time [Locating]", color=purple, penwidth=2];
+    "Jaime Lozano" -> "second or maternal family" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Spanish language" -> "these messages" [label="has theme [Removing]", color=lightyellow, penwidth=1];
+    "Spanish language" -> "Wikipedia:Translation" [label="has theme [Reference_text]", color=lightyellow, penwidth=1];
+    "Spanish language" -> "important translation instr..." [label="has purpose [Contacting]", color=lightpink, penwidth=1];
+    "Spanish language" -> "guidance" [label="has class [Increment]", color=lightblue, penwidth=1];
+    "Spanish language" -> "improve this article by add..." [label="has goal [Assistance]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "This article" [label="has theme [Verification]", color=lightcyan, penwidth=1];
+    "Spanish language" -> "2018" [label="has time [Source_of_getting]", color=purple, penwidth=2];
+    "Spanish language" -> "also add the template Trans..." [label="has theme [Possibility]", color=lightgray, penwidth=1];
+    "Spanish language" -> "your translation" [label="has theme [Cotheme]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "source" [label="has theme [Source_of_getting]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "1914" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Spanish language" -> "starting point" [label="has entity [Usefulness]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "This article" [label="has theme [Have_as_requirement]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "improve it or discuss these..." [label="has goal [Assistance]", color=lightcoral, penwidth=1];
+    "Mexico" -> "interlanguage link to the s..." [label="has theme [Supply]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "your translation" [label="has theme [Source_of_getting]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "1914" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Spanish language" -> "text with references provid..." [label="has theme [Verification]", color=lightcyan, penwidth=1];
+    "Spanish language" -> "surname" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "material" [label="has theme [Substance]", color=lightseagreen, penwidth=1];
+    "Spanish language" -> "2018" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Spanish language" -> "talk page" [label="has location [Discussion]", color=green, penwidth=2];
+    "Mexico" -> "copyright attribution" [label="has theme [Supply]", color=lightgoldenrodyellow, penwidth=1];
+    "Spanish language" -> "revise errors as necessary ..." [label="has theme [Required_event]", color=lightseagreen, penwidth=1];
+    "Spanish language" -> "text" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Spanish language" -> "2018" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "link" [label="has theme [Connectors]", color=lightgoldenrod, penwidth=1];
+    "Spanish language" -> "sources" [label="has information [Trust]", color=lightpink, penwidth=1];
+    "Spanish language" -> "provide copyright attributi..." [label="has theme [Required_event]", color=lightseagreen, penwidth=1];
+    "Spanish language" -> "foreign-language article" [label="has location [Supply]", color=green, penwidth=2];
+    "Spanish language" -> "article" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Spanish language" -> "interlanguage" [label="has type [Connectors]", color=lightgoldenrod, penwidth=1];
+    "Spanish language" -> "unreliable or low-quality" [label="has theme [Give_impression]", color=lightcyan, penwidth=1];
+    "Spanish language" -> "foreign-language" [label="has language [Text]", color=lightsalmon, penwidth=1];
+    "Spanish language" -> "reliable" [label="has theme [Source_of_getting]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "errors" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "help expand this article wi..." [label="has event [Capability]", color=lightsteelblue, penwidth=1];
+    "Mexico" -> "providing an interlanguage ..." [label="has means [Supply]", color=lightgoldenrodyellow, penwidth=1];
+    "Mexico" -> "translation" [label="has text [Translating]", color=lightgray, penwidth=1];
+    "Spanish language" -> "text" [label="has theme [Translating]", color=lightgray, penwidth=1];
+    "Spanish language" -> "errors" [label="has theme [Being_necessary]", color=lightcoral, penwidth=1];
+    "Spanish language" -> "2023" [label="has time [Importance]", color=purple, penwidth=2];
+    "Spanish language" -> "Machine" [label="has means [Translating]", color=lightgray, penwidth=1];
+    "Spanish language" -> "Unsourced material" [label="has theme [Removing]", color=lightyellow, penwidth=1];
+    "Spanish language" -> "sources" [label="has theme [Source_of_getting]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "2018" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Spanish language" -> "2023" [label="has time [Contacting]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Have_as_requirement_legend" [label="Have_as_requirement", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Cotheme_legend" [label="Cotheme", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Coming_to_believe_legend" [label="Coming_to_believe", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Correctness_legend" [label="Correctness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Contacting_legend" [label="Contacting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Verification_legend" [label="Verification", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possibility_legend" [label="Possibility", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Usefulness_legend" [label="Usefulness", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Required_event_legend" [label="Required_event", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Connectors_legend" [label="Connectors", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Trust_legend" [label="Trust", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

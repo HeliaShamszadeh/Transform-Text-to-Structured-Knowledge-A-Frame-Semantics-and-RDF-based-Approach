@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paris Growing_food:has_theme http://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Sartre was born in Paris, but there is no mention of Paris having a theme related to Sartre, nor any connection to 'Growing_food'. The semantic connection is extremely weak and the predicate is unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Compliance:has_location Literature",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Beijing is mentioned as the location of a photo of Sartre and de Beauvoir. The connection to 'Literature' is very indirect (Sartre was a writer) and the predicate 'Compliance:has_location' does not clearly match the described relationship. The connection is weak and the predicate is a poor fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Statement:has_location Literature",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Beijing is mentioned as the location of a photo of Sartre and de Beauvoir. The connection to 'Literature' is very indirect (Sartre was a writer) and the predicate 'Statement:has_location' does not clearly match the described relationship. The connection is weak and the predicate is a poor fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Desirable_event:has_location Literature",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Beijing is mentioned as the location of a photo of Sartre and de Beauvoir. The connection to 'Literature' is very indirect (Sartre was a writer) and the predicate 'Desirable_event:has_location' does not clearly match the described relationship. The connection is weak and the predicate is a poor fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Categorization:has_item leading figure in 20th-century French philosophy and Marxism",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'considered a leading figure in 20th-century French philosophy and Marxism'. The predicate 'Categorization:has_item' is a reasonable semantic match for this descriptive categorization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Forming_relationships:has_theme his father",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Sartre's father ('Sartre lost his father at age two'), which is a weak semantic connection to the theme of 'his father' in a relationships context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing First_rank:has_theme 20th-century French philosophy and Marxism",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location in a photo caption ('Simone de Beauvoir and Jean-Paul Sartre in Beijing, 1955'). There is no semantic connection between Beijing and the philosophical themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Being_born:has_location http://en.wikipedia.org/wiki/Paris",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Born in Paris', providing a clear and direct match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/France Reference_text:has_theme Sartre (disambiguation)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Sartre (disambiguation)' in a navigational note, but there is no semantic link connecting this concept to France as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_theme 1964 Nobel Prize in Literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'He was awarded the 1964 Nobel Prize in Literature', which is a strong semantic match for the theme of receiving the prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Subjective_influence:has_theme thinkers like Henri Bergson, Edmund Husserl, and Martin Heidegger",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Sartre was 'influenced by thinkers like Henri Bergson, Edmund Husserl, and Martin Heidegger.' The triple's predicate 'Subjective_influence:has_theme' is semantically related to the concept of influence, even if not a perfect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Temporal_subregion:has_theme early",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location ('Sartre in Beijing, 1955'). There is no information connecting it to a temporal theme like 'early'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Dominate_situation:has_theme theme",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location. The concept of a 'theme' is discussed in relation to Sartre's work, not Beijing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Preventing_or_letting:has_agent writer",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location. While Sartre is identified as a writer, there is no action or situation described linking Beijing to a writer as an agent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he 'was raised primarily by his mother.' The kinship relationship is directly stated, making the semantic connection to the triple's theme very strong."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Desirable_event:has_theme not allow himself to be turned into an institution",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'not allow himself to be turned into an institution' is in the paragraph, but it is part of Sartre's reason for refusing the Nobel Prize. The connection to Beijing is extremely weak; the only link is that Sartre and de Beauvoir were in Beijing in 1955, but the theme is not associated with that event. A very lenient, indirect thematic connection is that Sartre's philosophy challenged institutionalization, and he was in Beijing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Dominate_situation:has_time 1943",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1943 is mentioned as the publication date of 'Being and Nothingness'. There is no information connecting this year to Beijing. The only mention of Beijing is the year 1955. These are completely separate events with no stated connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_time 1964",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He was awarded the 1964 Nobel Prize in Literature'. This is a clear and direct match for the triple's subject, predicate, and object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Preventing_or_letting:has_location Literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very indirect. Sartre, a man of literature (novelist, Nobel Prize winner), was in Beijing. A lenient interpretation could see his presence in Beijing as a location related to his literary life, though the specific frame 'Preventing_or_letting' does not clearly align with any event described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Paris Growing_food:has_theme his mother and grandfather, who introduced him to literature",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Sartre was born in Paris and raised by his mother and grandfather, who introduced him to literature. The connection to 'Growing_food' is highly tenuous, but a very lenient, metaphorical interpretation could view his upbringing ('raised') in Paris as a form of 'growing' him, with the 'theme' being the influence of his family. This is a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_theme despite attempting to refuse it",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'despite attempting to refuse it' describes the circumstances of Sartre receiving the Nobel Prize, not a theme of the prize itself. There is no semantic connection between the Nobel Prize and having 'attempting to refuse it' as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Means:has_time 1943",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is mentioned in the caption 'Simone de Beauvoir and Jean-Paul Sartre in Beijing, 1955'. The year 1943 is mentioned separately as the publication date of 'Being and Nothingness'. There is no semantic connection between Beijing and the year 1943 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bad_faith_(existentialism) Becoming:has_theme dominant theme of Sartre's early work, a theme embodied in his principal philosophical work Being and Nothingness",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'The conflict between oppressive, spiritually destructive conformity (mauvaise foi, literally, 'bad faith')... became the dominant theme of Sartre's early work, a theme embodied in his principal philosophical work Being and Nothingness'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Attempt:has_goal refuse it",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location in a photo caption. The phrase 'refuse it' refers to Sartre's attempt to refuse the Nobel Prize. There is no semantic connection between Beijing and the goal of refusing something."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_recipient http://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He was awarded the 1964 Nobel Prize in Literature', clearly identifying Jean-Paul Sartre as the recipient."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Relation:has_theme open",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Sartre had an open relationship', which directly relates to the theme of 'open' in the context of his relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Simone_de_Beauvoir Kinship:has_theme Sartre and de Beauvoir",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph discusses the relationship and shared philosophical challenges between Sartre and de Beauvoir, making 'Sartre and de Beauvoir' a clear theme of their connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Objective_influence:has_theme His work",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as a location in a photo caption ('Simone de Beauvoir and Jean-Paul Sartre in Beijing, 1955'). There is no semantic connection between Beijing and the theme of 'His work' in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Martin_Heidegger Emotion_directed:has_theme philosophy",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Heidegger is mentioned as an influence on Sartre's philosophical development. While the connection is indirect, the theme of 'philosophy' is central to the discussion of this influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Forming_relationships:has_location http://en.wikipedia.org/wiki/Paris",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Born in Paris', providing a clear location connection for Sartre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Compliance:has_time 1964",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Beijing in 1955 and the Nobel Prize in 1964, but there is no semantic connection between Beijing and the year 1964. The events are unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Relation:has_theme prominent feminist and fellow existentialist philosopher Simone de Beauvoir",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states Sartre had an open relationship with Simone de Beauvoir, who is described as a 'prominent feminist and fellow existentialist philosopher'. The 'has_theme' relation can be loosely interpreted as a significant connection or association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Objective_influence:has_theme sociology, critical theory, post-colonial theory, and literary studies",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Beijing is only mentioned as the location of a 1955 photo. The themes of sociology, critical theory, etc., are mentioned as areas influenced by Sartre's work, with no connection to Beijing stated or implied."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Categorization:has_item which",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Sartre was awarded the Nobel Prize in Literature. The triple is vague, but 'has_item which' could be loosely interpreted as the prize having a recipient (Sartre). The connection is weak due to the ambiguity of the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Preventing_or_letting:has_event be turned into an institution",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'be turned into an institution' is part of a quote from Sartre about refusing the Nobel Prize. There is no semantic link between this concept and the city of Beijing mentioned elsewhere in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Preventing_or_letting:has_time 1964",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Beijing in 1955, not 1964. The year 1964 is associated with the Nobel Prize, not Beijing. There is no semantic connection between Beijing and 1964 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Martin_Heidegger Emotion_directed:has_degree deep",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Sartre developed a 'deep interest in philosophy' influenced by thinkers including Heidegger. While the 'deep' degree is attributed to Sartre's interest and not directly to Heidegger, there is a reasonable semantic connection through influence and association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Categorization:has_category bourgeois",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The term 'bourgeois' is used to describe the upbringings of Sartre and de Beauvoir, which they challenged. It is not used as a category for the Nobel Prize. The connection is extremely weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Sartre lost his father at age two.' This directly provides information about the theme of his father in his life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bad_faith_(existentialism) Becoming:has_entity conflict between oppressive, spiritually destructive conformity ( mauvaise foi, literally,'bad faith') and an 'authentic' way of 'being'",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The triple's object is a near-verbatim quote from the paragraph: 'The conflict between oppressive, spiritually destructive conformity (mauvaise foi, literally, 'bad faith') and an \"authentic\" way of \"being\"...' This is a direct and clear extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/France Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. The relationship 'Increment:has_class uses' is unclear, and the subject 'France' is only mentioned as Sartre's nationality, not in a context related to 'class' or 'uses'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Frequency:has_event declined official honors",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Beijing is mentioned as a location Sartre visited. The event of 'declining official honors' is a key action performed by Sartre. While the event is not explicitly stated to have occurred in Beijing, there is a weak semantic connection by association as both are facts about Sartre's life mentioned in the same paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Frequency:has_location Literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Beijing is a location mentioned. Literature is a major theme of the paragraph (Sartre won the Nobel Prize in Literature, was a writer). The connection is very indirect, as the paragraph does not state that literature is a characteristic or event located in Beijing, but both concepts are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Frequency:has_time 1964",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Beijing is mentioned (Sartre was there in 1955). The year 1964 is mentioned (when he won the Nobel Prize). There is no direct link between Beijing and 1964 in the text, but both are temporal/spatial facts about the subject, creating a very weak, associative connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Compliance:has_theme honors",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Beijing is a location mentioned. The theme of 'honors' is present (Sartre declined official honors). The connection is extremely weak and indirect, as the theme of honors is not related to Beijing in the text, but both concepts are discussed in the context of Sartre's life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Means:has_purpose \" being",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'being' appears in the paragraph in the context of Sartre's philosophy ('way of \"being\"'), but it is semantically unrelated to the city of Beijing or any purpose it might have. The connection is purely coincidental based on a single word."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jean-Paul_Sartre Categorization:has_time 1955",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1955 is explicitly mentioned in the caption 'Simone de Beauvoir and Jean-Paul Sartre in Beijing, 1955', directly associating Sartre with that time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Attempt:has_time 1964",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1964 is mentioned in the context of Sartre winning the Nobel Prize. There is no information connecting this event, an 'attempt', or the year 1964 to the city of Beijing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing Statement:has_time 1964",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1964 is mentioned in the context of Sartre winning the Nobel Prize. There is no information connecting a 'statement' or the year 1964 to the city of Beijing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Beijing First_rank:has_item figure",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Sartre was a 'key figure' and was in Beijing in 1955. This is a very weak semantic link, as 'figure' is associated with Sartre, not directly with Beijing, but a lenient interpretation could connect the concepts through the event."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 18,
+    "accuracy": 0.36,
+    "avg_confidence": 0.40800000000000003,
+    "high_confidence_50": 18,
+    "high_confidence_80": 15,
+    "percent_50": 36.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,1884 @@
+{
+  "metadata": {
+    "total_triples": 86,
+    "source_file": "John_Steinbeck",
+    "extraction_date": "2025-09-28 01:55:06",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Labor_product:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Commerce_sell:has_time",
+        "object": "75th anniversary of its publishing date",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Fame:has_time",
+        "object": "1935",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Killing:has_time",
+        "object": "1913",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Increment:has_class",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Aggregate:has_theme",
+        "object": "short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Reference_text:has_theme",
+        "object": "Steinbeck (surname )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Part_whole:has_theme",
+        "object": "American literary canon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_author",
+        "object": "Steinbeck's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_theme",
+        "object": "comic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "his brother's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Win_prize:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Commerce_sell:has_goods",
+        "object": "14 million copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Text:has_theme",
+        "object": "non-fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Win_prize:has_prize",
+        "object": "1962 Nobel Prize in Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+        "predicate": "Being_named:has_entity",
+        "object": "family farm in Heiligenhaus, Mettmann, Germany",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Origin:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Fame:has_degree",
+        "object": "widely",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Win_prize:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Being_born:has_location",
+        "object": "Salinas, California",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Fame:has_reason",
+        "object": "comic novels Tortilla Flat (1935) and Cannery Row (1945 ), the multigeneration epic East of Eden (1952 ), and the novellas The Red Pony (1933) and Of Mice and Men (1937",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Using:has_agent",
+        "object": "Much of Steinbeck's work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Categorization:has_category",
+        "object": "Steinbeck's masterpiece",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_text",
+        "object": "canon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_text",
+        "object": "East of Eden",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1913",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Fields:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+        "predicate": "Locale:has_theme",
+        "object": "region",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Being_born:has_time",
+        "object": "February 27, 1902",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_text",
+        "object": "writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Origin:has_entity",
+        "object": "literary canon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Kinship:has_time",
+        "object": "1935",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Win_prize:has_theme",
+        "object": "his realistic and imaginative writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Labor_product:has_agent",
+        "object": "Steinbeck's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Labeling:has_theme",
+        "object": " a giant of American letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Buildings:has_theme",
+        "object": "farm",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Explaining_the_facts:has_theme",
+        "object": "themes of fate and injustice, especially as applied to downtrodden or everyman protagonists",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Part_whole:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Buildings:has_location",
+        "object": "Heiligenhaus, Mettmann, Germany",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Using:has_instrument",
+        "object": "settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Salinas,_California",
+        "predicate": "Natural_features:has_theme",
+        "object": "Valley",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Categorization:has_item",
+        "object": "Pulitzer Prize –winning The Grapes of Wrath (1939)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ed_Ricketts",
+        "predicate": "Inclusion:has_theme",
+        "object": "16 novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text_creation:has_text",
+        "object": "33 books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_time",
+        "object": "1935",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Fields:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Win_prize:has_means",
+        "object": "combining as they do sympathetic humor and keen social perception",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+        "predicate": "Locale:has_theme",
+        "object": "California Coast Ranges",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Being_named:has_theme",
+        "object": "family name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Western_canon",
+        "predicate": "Part_whole:has_theme",
+        "object": "part",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Killing:has_theme",
+        "object": "his brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Explaining_the_facts:has_theme",
+        "object": "His works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Being_named:has_entity",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_location",
+        "object": "Literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Aggregate:has_theme",
+        "object": "collections",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text:has_text",
+        "object": "masterpiece",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "wife",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "People:has_person",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+        "predicate": "Being_named:has_theme",
+        "object": "Großsteinbeck",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Text_creation:has_time",
+        "object": "During his writing career",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "People:has_theme",
+        "object": "this surname",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Commemorative:has_theme",
+        "object": "its publishing date",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baig",
+        "predicate": "Text:has_text",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+        "predicate": "Arriving:has_time",
+        "object": "1858",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+        "predicate": "Categorization:has_time",
+        "object": "1939",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+        "predicate": "Killing:has_theme",
+        "object": "Arab attackers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1902",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ed_Ricketts",
+        "predicate": "Inclusion:has_theme",
+        "object": "one book coauthored alongside Edward Ricketts",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+        "predicate": "Continued_state_of_affairs:has_theme",
+        "object": "named \" Großsteinbeck",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+        "predicate": "Continued_state_of_affairs:has_theme",
+        "object": "still",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+        "predicate": "Text:has_text",
+        "object": "novellas",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ed_Ricketts",
+          "predicate": "Inclusion:has_theme",
+          "object": "one book coauthored alongside Edward Ricketts",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Being_born:has_location",
+          "object": "Salinas, California",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Being_born:has_time",
+          "object": "February 27, 1902",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_theme",
+          "object": "comic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Fame:has_reason",
+          "object": "comic novels Tortilla Flat (1935) and Cannery Row (1945 ), the multigeneration epic East of Eden (1952 ), and the novellas The Red Pony (1933) and Of Mice and Men (1937",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_text",
+          "object": "canon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_text",
+          "object": "East of Eden",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Fields:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_text",
+          "object": "writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Win_prize:has_theme",
+          "object": "his realistic and imaginative writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Buildings:has_theme",
+          "object": "farm",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Explaining_the_facts:has_theme",
+          "object": "themes of fate and injustice, especially as applied to downtrodden or everyman protagonists",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Buildings:has_location",
+          "object": "Heiligenhaus, Mettmann, Germany",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ed_Ricketts",
+          "predicate": "Inclusion:has_theme",
+          "object": "16 novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text_creation:has_text",
+          "object": "33 books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_time",
+          "object": "1935",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Fields:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Being_named:has_theme",
+          "object": "family name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Explaining_the_facts:has_theme",
+          "object": "His works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Being_named:has_entity",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text_creation:has_time",
+          "object": "During his writing career",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Commemorative:has_theme",
+          "object": "its publishing date",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Text:has_text",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+          "predicate": "Text:has_text",
+          "object": "novellas",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Labor_product:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Commerce_sell:has_time",
+          "object": "75th anniversary of its publishing date",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Fame:has_time",
+          "object": "1935",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Killing:has_time",
+          "object": "1913",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Increment:has_class",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Aggregate:has_theme",
+          "object": "short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Reference_text:has_theme",
+          "object": "Steinbeck (surname )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Part_whole:has_theme",
+          "object": "American literary canon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_author",
+          "object": "Steinbeck's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "his brother's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Win_prize:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Commerce_sell:has_goods",
+          "object": "14 million copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Text:has_theme",
+          "object": "non-fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Win_prize:has_prize",
+          "object": "1962 Nobel Prize in Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+          "predicate": "Being_named:has_entity",
+          "object": "family farm in Heiligenhaus, Mettmann, Germany",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Origin:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Fame:has_degree",
+          "object": "widely",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Win_prize:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Using:has_agent",
+          "object": "Much of Steinbeck's work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Categorization:has_category",
+          "object": "Steinbeck's masterpiece",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1913",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+          "predicate": "Locale:has_theme",
+          "object": "region",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Origin:has_entity",
+          "object": "literary canon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Kinship:has_time",
+          "object": "1935",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Labor_product:has_agent",
+          "object": "Steinbeck's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Labeling:has_theme",
+          "object": " a giant of American letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Part_whole:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Using:has_instrument",
+          "object": "settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Salinas,_California",
+          "predicate": "Natural_features:has_theme",
+          "object": "Valley",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Categorization:has_item",
+          "object": "Pulitzer Prize –winning The Grapes of Wrath (1939)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Win_prize:has_means",
+          "object": "combining as they do sympathetic humor and keen social perception",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+          "predicate": "Locale:has_theme",
+          "object": "California Coast Ranges",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Western_canon",
+          "predicate": "Part_whole:has_theme",
+          "object": "part",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Killing:has_theme",
+          "object": "his brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_location",
+          "object": "Literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baig",
+          "predicate": "Aggregate:has_theme",
+          "object": "collections",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Text:has_text",
+          "object": "masterpiece",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "wife",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "People:has_person",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+          "predicate": "Being_named:has_theme",
+          "object": "Großsteinbeck",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "People:has_theme",
+          "object": "this surname",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Steinbeck",
+          "predicate": "Arriving:has_time",
+          "object": "1858",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+          "predicate": "Categorization:has_time",
+          "object": "1939",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Palestine_(region)",
+          "predicate": "Killing:has_theme",
+          "object": "Arab attackers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1902",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+          "predicate": "Continued_state_of_affairs:has_theme",
+          "object": "named \" Großsteinbeck",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Heiligenhaus",
+          "predicate": "Continued_state_of_affairs:has_theme",
+          "object": "still",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Salinas,_California",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Ed_Ricketts",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "http://en.wikipedia.org/wiki/Baig",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "http://en.wikipedia.org/wiki/Ed_Ricketts",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)"
+    ],
+    "objects": [
+      "novels",
+      "works",
+      "75th anniversary of its publishing date",
+      "literary",
+      "1935",
+      "1913",
+      "name",
+      "http://en.wikipedia.org/wiki/United_States",
+      "people",
+      "short stories",
+      "Steinbeck (surname )",
+      "American literary canon",
+      "Steinbeck's",
+      "comic",
+      "his brother's",
+      "1962",
+      "14 million copies",
+      "non-fiction",
+      "1962 Nobel Prize in Literature",
+      "family farm in Heiligenhaus, Mettmann, Germany",
+      "1939",
+      "widely",
+      "Literature",
+      "Salinas, California",
+      "comic novels Tortilla Flat (1935) and Cannery Row (1945 ), the multigeneration epic East of Eden (1952 ), and the novellas The Red Pony (1933) and Of Mice and Men (1937",
+      "Much of Steinbeck's work",
+      "Steinbeck's masterpiece",
+      "1962",
+      "canon",
+      "East of Eden",
+      "1913",
+      "1939",
+      "region",
+      "February 27, 1902",
+      "writings",
+      "stories",
+      "literary canon",
+      "http://en.wikipedia.org/wiki/United_States",
+      "1935",
+      "his realistic and imaginative writings",
+      "Steinbeck's",
+      " a giant of American letters",
+      "letters",
+      "farm",
+      "themes of fate and injustice, especially as applied to downtrodden or everyman protagonists",
+      "1939",
+      "Heiligenhaus, Mettmann, Germany",
+      "settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region",
+      "Valley",
+      "Pulitzer Prize –winning The Grapes of Wrath (1939)",
+      "16 novels",
+      "33 books",
+      "father",
+      "1935",
+      "1939",
+      "novels",
+      "literary",
+      "combining as they do sympathetic humor and keen social perception",
+      "California Coast Ranges",
+      "family name",
+      "part",
+      "books",
+      "his brother",
+      "His works",
+      "family",
+      "Literature",
+      "collections",
+      "masterpiece",
+      "wife",
+      "people",
+      "Großsteinbeck",
+      "During his writing career",
+      "this surname",
+      "its publishing date",
+      "writer",
+      "1939",
+      "book",
+      "1858",
+      "1939",
+      "Arab attackers",
+      "1902",
+      "family",
+      "one book coauthored alongside Edward Ricketts",
+      "named \" Großsteinbeck",
+      "still",
+      "novellas"
+    ],
+    "all_unique": [
+      "Pulitzer Prize –winning The Grapes of Wrath (1939)",
+      "Valley",
+      "works",
+      " a giant of American letters",
+      "16 novels",
+      "33 books",
+      "1939",
+      "widely",
+      "75th anniversary of its publishing date",
+      "February 27, 1902",
+      "named \" Großsteinbeck",
+      "part",
+      "collections",
+      "stories",
+      "novellas",
+      "one book coauthored alongside Edward Ricketts",
+      "California Coast Ranges",
+      "combining as they do sympathetic humor and keen social perception",
+      "http://en.wikipedia.org/wiki/Cannery_Row_(novel)",
+      "literary canon",
+      "novels",
+      "http://en.wikipedia.org/wiki/Baig",
+      "father",
+      "1902",
+      "settings in his native central California, particularly in the Salinas Valley and the California Coast Ranges region",
+      "Großsteinbeck",
+      "comic",
+      "literary",
+      "http://en.wikipedia.org/wiki/Heiligenhaus",
+      "his brother",
+      "Much of Steinbeck's work",
+      "http://en.wikipedia.org/wiki/United_States",
+      "region",
+      "1913",
+      "14 million copies",
+      "short stories",
+      "http://en.wikipedia.org/wiki/John_Steinbeck",
+      "http://en.wikipedia.org/wiki/California_Coast_Ranges",
+      "themes of fate and injustice, especially as applied to downtrodden or everyman protagonists",
+      "American literary canon",
+      "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature",
+      "family farm in Heiligenhaus, Mettmann, Germany",
+      "name",
+      "farm",
+      "Steinbeck's",
+      "non-fiction",
+      "his realistic and imaginative writings",
+      "His works",
+      "masterpiece",
+      "Arab attackers",
+      "comic novels Tortilla Flat (1935) and Cannery Row (1945 ), the multigeneration epic East of Eden (1952 ), and the novellas The Red Pony (1933) and Of Mice and Men (1937",
+      "During his writing career",
+      "http://en.wikipedia.org/wiki/Ed_Ricketts",
+      "his brother's",
+      "http://en.wikipedia.org/wiki/Palestine_(region)",
+      "Steinbeck's masterpiece",
+      "still",
+      "Literature",
+      "East of Eden",
+      "wife",
+      "writer",
+      "writings",
+      "1962 Nobel Prize in Literature",
+      "family name",
+      "family",
+      "http://en.wikipedia.org/wiki/Salinas,_California",
+      "its publishing date",
+      "people",
+      "Heiligenhaus, Mettmann, Germany",
+      "Steinbeck (surname )",
+      "1858",
+      "books",
+      "1962",
+      "canon",
+      "1935",
+      "http://en.wikipedia.org/wiki/Western_canon",
+      "Salinas, California",
+      "book",
+      "letters",
+      "this surname"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text:has_text",
+      "Labor_product:has_theme",
+      "Commerce_sell:has_time",
+      "Text:has_theme",
+      "Fame:has_time",
+      "Killing:has_time",
+      "Being_named:has_theme",
+      "Origin:has_theme",
+      "Increment:has_class",
+      "Aggregate:has_theme",
+      "Reference_text:has_theme",
+      "Part_whole:has_theme",
+      "Text:has_author",
+      "Text:has_theme",
+      "Personal_relationship:has_theme",
+      "Win_prize:has_time",
+      "Commerce_sell:has_goods",
+      "Text:has_theme",
+      "Win_prize:has_prize",
+      "Being_named:has_entity",
+      "Origin:has_time",
+      "Fame:has_degree",
+      "Win_prize:has_location",
+      "Being_born:has_location",
+      "Fame:has_reason",
+      "Using:has_agent",
+      "Categorization:has_category",
+      "Text:has_time",
+      "Text:has_text",
+      "Text:has_text",
+      "Personal_relationship:has_time",
+      "Fields:has_time",
+      "Locale:has_theme",
+      "Being_born:has_time",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Origin:has_entity",
+      "Arriving:has_goal",
+      "Kinship:has_time",
+      "Win_prize:has_theme",
+      "Labor_product:has_agent",
+      "Labeling:has_theme",
+      "Origin:has_entity",
+      "Buildings:has_theme",
+      "Explaining_the_facts:has_theme",
+      "Part_whole:has_time",
+      "Buildings:has_location",
+      "Using:has_instrument",
+      "Natural_features:has_theme",
+      "Categorization:has_item",
+      "Inclusion:has_theme",
+      "Text_creation:has_text",
+      "Kinship:has_theme",
+      "Text:has_time",
+      "Text:has_time",
+      "Text:has_text",
+      "Fields:has_theme",
+      "Win_prize:has_means",
+      "Locale:has_theme",
+      "Being_named:has_theme",
+      "Part_whole:has_theme",
+      "Text:has_text",
+      "Killing:has_theme",
+      "Explaining_the_facts:has_theme",
+      "Being_named:has_entity",
+      "Text:has_location",
+      "Aggregate:has_theme",
+      "Text:has_text",
+      "Personal_relationship:has_theme",
+      "People:has_person",
+      "Being_named:has_theme",
+      "Text_creation:has_time",
+      "People:has_theme",
+      "Commemorative:has_theme",
+      "Origin:has_entity",
+      "Text:has_time",
+      "Text:has_text",
+      "Arriving:has_time",
+      "Categorization:has_time",
+      "Killing:has_theme",
+      "Origin:has_time",
+      "Kinship:has_theme",
+      "Inclusion:has_theme",
+      "Continued_state_of_affairs:has_theme",
+      "Continued_state_of_affairs:has_theme",
+      "Text:has_text"
+    ],
+    "unique_predicates": [
+      "Labor_product:has_agent",
+      "Win_prize:has_means",
+      "Personal_relationship:has_theme",
+      "Commemorative:has_theme",
+      "Fame:has_degree",
+      "Aggregate:has_theme",
+      "Arriving:has_goal",
+      "Kinship:has_time",
+      "People:has_theme",
+      "Win_prize:has_location",
+      "Text:has_location",
+      "Win_prize:has_prize",
+      "Personal_relationship:has_time",
+      "Natural_features:has_theme",
+      "People:has_person",
+      "Win_prize:has_theme",
+      "Fields:has_theme",
+      "Fields:has_time",
+      "Continued_state_of_affairs:has_theme",
+      "Origin:has_theme",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Text_creation:has_time",
+      "Explaining_the_facts:has_theme",
+      "Using:has_instrument",
+      "Locale:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Part_whole:has_theme",
+      "Duration_description:has_theme",
+      "Buildings:has_theme",
+      "Being_born:has_location",
+      "Kinship:has_theme",
+      "Killing:has_theme",
+      "Text:has_author",
+      "Increment:has_class",
+      "Categorization:has_category",
+      "Using:has_agent",
+      "Killing:has_time",
+      "Text_creation:has_text",
+      "Arriving:has_time",
+      "Categorization:has_item",
+      "Win_prize:has_time",
+      "Part_whole:has_time",
+      "Being_born:has_time",
+      "Labeling:has_theme",
+      "Fame:has_time",
+      "Text:has_theme",
+      "Commerce_sell:has_goods",
+      "Buildings:has_location",
+      "Inclusion:has_theme",
+      "Origin:has_entity",
+      "Categorization:has_time",
+      "Origin:has_time",
+      "Commerce_sell:has_time",
+      "Labor_product:has_theme",
+      "Fame:has_reason",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Text:has_text": 9,
+      "Labor_product:has_theme": 1,
+      "Commerce_sell:has_time": 1,
+      "Text:has_theme": 3,
+      "Fame:has_time": 1,
+      "Killing:has_time": 1,
+      "Being_named:has_theme": 3,
+      "Origin:has_theme": 1,
+      "Increment:has_class": 1,
+      "Aggregate:has_theme": 2,
+      "Reference_text:has_theme": 1,
+      "Part_whole:has_theme": 2,
+      "Text:has_author": 1,
+      "Personal_relationship:has_theme": 2,
+      "Win_prize:has_time": 1,
+      "Commerce_sell:has_goods": 1,
+      "Win_prize:has_prize": 1,
+      "Being_named:has_entity": 2,
+      "Origin:has_time": 2,
+      "Fame:has_degree": 1,
+      "Win_prize:has_location": 1,
+      "Being_born:has_location": 1,
+      "Fame:has_reason": 1,
+      "Using:has_agent": 1,
+      "Categorization:has_category": 1,
+      "Text:has_time": 4,
+      "Personal_relationship:has_time": 1,
+      "Fields:has_time": 1,
+      "Locale:has_theme": 2,
+      "Being_born:has_time": 1,
+      "Duration_description:has_theme": 1,
+      "Origin:has_entity": 3,
+      "Arriving:has_goal": 1,
+      "Kinship:has_time": 1,
+      "Win_prize:has_theme": 1,
+      "Labor_product:has_agent": 1,
+      "Labeling:has_theme": 1,
+      "Buildings:has_theme": 1,
+      "Explaining_the_facts:has_theme": 2,
+      "Part_whole:has_time": 1,
+      "Buildings:has_location": 1,
+      "Using:has_instrument": 1,
+      "Natural_features:has_theme": 1,
+      "Categorization:has_item": 1,
+      "Inclusion:has_theme": 2,
+      "Text_creation:has_text": 1,
+      "Kinship:has_theme": 2,
+      "Fields:has_theme": 1,
+      "Win_prize:has_means": 1,
+      "Killing:has_theme": 2,
+      "Text:has_location": 1,
+      "People:has_person": 1,
+      "Text_creation:has_time": 1,
+      "People:has_theme": 1,
+      "Commemorative:has_theme": 1,
+      "Arriving:has_time": 1,
+      "Categorization:has_time": 1,
+      "Continued_state_of_affairs:has_theme": 2
+    }
+  }
+}

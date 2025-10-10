@@ -1,0 +1,302 @@
+digraph Toni_Morrison {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "as an author" [label="as an author", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "Morrison's works" [label="Morrison's works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her first novel, The Bluest..." [label="Her first novel, The Bluest...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "National Book Critics Circle Award" [label="National Book Critics Circle Award", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her novel Beloved" [label="Her novel Beloved", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "four children from a workin..." [label="four children from a workin...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "National Book Foundation's ..." [label="National Book Foundation's ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist and editor" [label="novelist and editor", fillcolor=lightblue, color=blue, shape=ellipse];
+    "National Book Foundation" [label="National Book Foundation", fillcolor=lightblue, color=blue, shape=ellipse];
+    "working-class, Black family" [label="working-class, Black family", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1993" [label="1993", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jefferson Lecture, the U.S...." [label="Jefferson Lecture, the U.S....", fillcolor=lightgray, color=gray, shape=hexagon];
+    "national" [label="national", fillcolor=lightgray, color=gray, shape=hexagon];
+    "African Americans" [label="African Americans", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2020" [label="2020", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chloe Ardelia Wofford, the ..." [label="Chloe Ardelia Wofford, the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critically" [label="critically", fillcolor=lightgray, color=gray, shape=hexagon];
+    "attention" [label="attention", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Howard University" [label="Howard University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1931" [label="1931", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "U.S" [label="U.S", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1970" [label="1970", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her own reputation as an au..." [label="her own reputation as an au...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Song of Solomon" [label="Song of Solomon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her own" [label="her own", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the National Women's H..." [label="into the National Women's H...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Barack Obama" [label="Barack Obama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black" [label="Black", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1977" [label="1977", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Early years" [label="Early years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Toni Morrison" [label="Toni Morrison", fillcolor=lightgray, color=gray, shape=hexagon];
+    "politician" [label="politician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Presidential Medal of Freedom" [label="Presidential Medal of Freedom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1953" [label="1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1996" [label="1996", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American Fiction" [label="American Fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "government" [label="government", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Morrison's" [label="Morrison's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2012" [label="2012", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fiction" [label="Fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chloe Ardelia Wofford" [label="Chloe Ardelia Wofford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1957" [label="1957", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Early" [label="Early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1970s and'80s" [label="1970s and'80s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize" [label="Pulitzer Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bluest Eye" [label="Bluest Eye", fillcolor=lightgray, color=gray, shape=hexagon];
+    "President Barack Obama" [label="President Barack Obama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1988" [label="1988", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first Black female editor f..." [label="first Black female editor f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Achievement in American Fic..." [label="Achievement in American Fic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black female editor for fic..." [label="Black female editor for fic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "film" [label="film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "PEN/Saul Bellow Award for A..." [label="PEN/Saul Bellow Award for A...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a film" [label="into a film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "addressing the harsh conseq..." [label="addressing the harsh conseq...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1998" [label="1998", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1964" [label="1964", fillcolor=lightgray, color=gray, shape=hexagon];
+    "highest" [label="highest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "achievement in the humanities" [label="achievement in the humanities", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2016" [label="2016", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1960s" [label="1960s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "harsh consequences of racis..." [label="harsh consequences of racis...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National Endowment for the Humanities" [label="National Endowment for the Humanities", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same" [label="same", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beloved" [label="Beloved", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critically acclaimed Song o..." [label="critically acclaimed Song o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "PEN/Saul Bellow" [label="PEN/Saul Bellow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "master's degree in American..." [label="master's degree in American...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "May 29, 2012" [label="May 29, 2012", fillcolor=lightgray, color=gray, shape=hexagon];
+    "federal" [label="federal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late" [label="late", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National Endowment for the ..." [label="National Endowment for the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lorain, Ohio" [label="Lorain, Ohio", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cornell University" [label="Cornell University", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "National Book Critics Circle Award" -> "1977" [label="has time [Attention]", color=purple, penwidth=2];
+    "Toni Morrison" -> "first Black female editor f..." [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "National Book Critics Circle Award" -> "into a film" [label="has role [Intentionally_create]", color=lightgreen, penwidth=1];
+    "National Book Critics Circle Award" -> "1998" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "African Americans" -> "American Fiction" [label="has location [Grasp]", color=green, penwidth=2];
+    "Toni Morrison" -> "Howard University" [label="has goal [Arriving]", color=lightcyan, penwidth=1];
+    "African Americans" -> "addressing the harsh conseq..." [label="has reason [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Toni Morrison" -> "1970s and'80s" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Toni Morrison" -> "1957" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Toni Morrison" -> "1953" [label="has time [Growing_food]", color=purple, penwidth=2];
+    "New York City" -> "Black female editor for fic..." [label="has type [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "National Book Foundation" -> "2020" [label="has time [Causation]", color=purple, penwidth=2];
+    "National Endowment for the Humanities" -> "1996" [label="has time [Choosing]", color=purple, penwidth=2];
+    "Toni Morrison" -> "Lorain, Ohio" [label="has location [Being_born]", color=green, penwidth=2];
+    "Lorain, Ohio" -> "Chloe Ardelia Wofford" [label="has item [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Toni Morrison" -> "1964" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Toni Morrison" -> "National Book Foundation's ..." [label="has theme [Compliance]", color=lightsteelblue, penwidth=1];
+    "African Americans" -> "Toni Morrison" [label="has recipient [Receiving]", color=lightcoral, penwidth=1];
+    "United States" -> "politician" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Giving]", color=green, penwidth=2];
+    "Toni Morrison" -> "children" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "Toni Morrison" -> "1970" [label="has time [Text]", color=purple, penwidth=2];
+    "National Book Foundation" -> "Toni Morrison" [label="has theme [Causation]", color=lightseagreen, penwidth=1];
+    "Toni Morrison" -> "Morrison's" [label="has agent [Labor_product]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "1993" [label="has time [Giving]", color=purple, penwidth=2];
+    "African Americans" -> "federal" [label="has theme [Leadership]", color=lightcyan, penwidth=1];
+    "Barack Obama" -> "2012" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Nobel Prize in Literature" [label="has theme [Giving]", color=lightcoral, penwidth=1];
+    "New York City" -> "late" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Toni Morrison" -> "1931" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "National Book Critics Circle Award" -> "1977" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "Toni Morrison" -> "Lorain, Ohio" [label="has location [Being_born]", color=green, penwidth=2];
+    "Toni Morrison" -> "New York City" [label="has location [Becoming]", color=green, penwidth=2];
+    "National Book Critics Circle Award" -> "critically acclaimed Song o..." [label="has competitor [Win_prize]", color=lightgoldenrodyellow, penwidth=1];
+    "National Book Critics Circle Award" -> "her own" [label="has entity [Fame]", color=lightseagreen, penwidth=1];
+    "Lorain, Ohio" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "African Americans" -> "Morrison's works" [label="has text [Topic]", color=blue, penwidth=2];
+    "National Book Critics Circle Award" -> "attention" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "Lorain, Ohio" -> "Early" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "1970" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Cornell University" -> "master's degree in American..." [label="has theme [Earnings_and_losses]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Her first novel, The Bluest..." [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "Toni Morrison" -> "her own reputation as an au..." [label="has theme [Intentionally_create]", color=lightgreen, penwidth=1];
+    "Lorain, Ohio" -> "years" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Toni Morrison" -> "1957" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Lorain, Ohio" -> "working-class, Black family" [label="has theme [People_by_age]", color=lightsalmon, penwidth=1];
+    "National Book Critics Circle Award" -> "1977" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Lorain, Ohio" -> "Black" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "African Americans" -> "year" [label="has type [Identicality]", color=lightblue, penwidth=1];
+    "National Book Critics Circle Award" -> "Her novel Beloved" [label="has theme [Intentionally_create]", color=lightgreen, penwidth=1];
+    "National Endowment for the Humanities" -> "Toni Morrison" [label="has theme [Choosing]", color=lightsalmon, penwidth=1];
+    "African Americans" -> "same" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "novel" [label="has type [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Toni Morrison" -> "Chloe Ardelia Wofford" [label="has person [Being_born]", color=red, penwidth=2];
+    "Nobel Prize in Literature" -> "1970" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "African Americans" -> "Morrison's works" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "African Americans" -> "PEN/Saul Bellow" [label="has theme [Grasp]", color=lightpink, penwidth=1];
+    "Toni Morrison" -> "1988" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "African Americans" -> "harsh consequences of racis..." [label="has theme [Topic]", color=blue, penwidth=2];
+    "Lorain, Ohio" -> "years" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "African Americans" -> "government" [label="has leader [Leadership]", color=lightcyan, penwidth=1];
+    "Barack Obama" -> "May 29, 2012" [label="has time [Cause_to_perceive]", color=purple, penwidth=2];
+    "African Americans" -> "PEN/Saul Bellow Award for A..." [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "African Americans" -> "1996" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Lorain, Ohio" -> "family" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "Toni Morrison" -> "Bluest Eye" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "American Fiction" -> "American Fiction" [label="has location [Origin]", color=green, penwidth=2];
+    "Toni Morrison" -> "Beloved" [label="has theme [Win_prize]", color=lightgoldenrodyellow, penwidth=1];
+    "Cornell University" -> "Toni Morrison" [label="has theme [Earnings_and_losses]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Toni Morrison" [label="has recipient [Giving]", color=lightcoral, penwidth=1];
+    "National Book Foundation" -> "into the National Women's H..." [label="has effect [Causation]", color=lightseagreen, penwidth=1];
+    "Barack Obama" -> "Presidential Medal of Freedom" [label="has theme [Cause_to_perceive]", color=lightcoral, penwidth=1];
+    "Toni Morrison" -> "Early years" [label="has time [Being_born]", color=purple, penwidth=2];
+    "National Book Critics Circle Award" -> "author" [label="has author [Text_creation]", color=lightgreen, penwidth=1];
+    "Toni Morrison" -> "works" [label="has theme [Labor_product]", color=lightpink, penwidth=1];
+    "African Americans" -> "2016" [label="has time [Receiving]", color=purple, penwidth=2];
+    "United States" -> "1931" [label="has time [Origin]", color=purple, penwidth=2];
+    "National Endowment for the Humanities" -> "Jefferson Lecture, the U.S...." [label="has theme [Choosing]", color=lightsalmon, penwidth=1];
+    "Barack Obama" -> "President Barack Obama" [label="has agent [Cause_to_perceive]", color=lightcoral, penwidth=1];
+    "National Book Critics Circle Award" -> "national" [label="has degree [Attention]", color=lightblue, penwidth=1];
+    "African Americans" -> "achievement in the humanities" [label="has theme [Commemorative]", color=lightyellow, penwidth=1];
+    "National Book Critics Circle Award" -> "critically" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "National Book Critics Circle Award" -> "Song of Solomon" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Toni Morrison" -> "Pulitzer Prize" [label="has prize [Win_prize]", color=lightgoldenrodyellow, penwidth=1];
+    "Toni Morrison" -> "Lorain, Ohio" [label="has location [Growing_food]", color=green, penwidth=2];
+    "United States" -> "novelist and editor" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "National Book Critics Circle Award" -> "national" [label="has theme [Origin]", color=lightblue, penwidth=1];
+    "Toni Morrison" -> "1931" [label="has time [Being_born]", color=purple, penwidth=2];
+    "National Book Critics Circle Award" -> "as an author" [label="has reason [Fame]", color=lightseagreen, penwidth=1];
+    "Toni Morrison" -> "Chloe Ardelia Wofford, the ..." [label="has theme [Being_born]", color=lightgoldenrod, penwidth=1];
+    "African Americans" -> "highest" [label="has theme [Commemorative]", color=lightyellow, penwidth=1];
+    "African Americans" -> "Achievement in American Fic..." [label="has theme [Grasp]", color=lightpink, penwidth=1];
+    "New York City" -> "1960s" [label="has theme [Temporal_subregion]", color=lightsteelblue, penwidth=1];
+    "National Endowment for the Humanities" -> "National Endowment for the ..." [label="has theme [Choosing]", color=lightsalmon, penwidth=1];
+    "Toni Morrison" -> "1957" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "American Fiction" -> "2016" [label="has time [Origin]", color=purple, penwidth=2];
+    "African Americans" -> "2016" [label="has time [Grasp]", color=purple, penwidth=2];
+    "National Book Critics Circle Award" -> "film" [label="has theme [Behind_the_scenes]", color=lightyellow, penwidth=1];
+    "National Book Critics Circle Award" -> "1998" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "National Book Critics Circle Award" -> "Toni Morrison" [label="has theme [Attention]", color=lightblue, penwidth=1];
+    "Lorain, Ohio" -> "four children from a workin..." [label="has theme [Ordinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Toni Morrison" -> "1953" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Toni Morrison" -> "1998" [label="has time [Text]", color=purple, penwidth=2];
+    "African Americans" -> "1996" [label="has time [Commemorative]", color=purple, penwidth=2];
+    "Barack Obama" -> "Toni Morrison" [label="has theme [Cause_to_perceive]", color=lightcoral, penwidth=1];
+    "Cornell University" -> "1955" [label="has time [Earnings_and_losses]", color=purple, penwidth=2];
+    "African Americans" -> "American Fiction" [label="has location [Receiving]", color=green, penwidth=2];
+    "Toni Morrison" -> "Beloved" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "National Book Critics Circle Award" -> "1977" [label="has time [Origin]", color=purple, penwidth=2];
+    "American Fiction" -> "Fiction" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "African Americans" -> "U.S" [label="has theme [Leadership]", color=lightcyan, penwidth=1];
+    "American Fiction" -> "United States" [label="has theme [Origin]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Attention_legend" [label="Attention", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Choosing_legend" [label="Choosing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Compliance_legend" [label="Compliance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cause_to_perceive_legend" [label="Cause_to_perceive", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Commemorative_legend" [label="Commemorative", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

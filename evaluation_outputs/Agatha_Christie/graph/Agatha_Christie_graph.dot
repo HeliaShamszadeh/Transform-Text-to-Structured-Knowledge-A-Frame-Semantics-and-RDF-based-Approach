@@ -1,0 +1,283 @@
+digraph Agatha_Christie {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "English author" [label="English author", fillcolor=lightcoral, color=red, shape=circle];
+    "Archie Christie" [label="Archie Christie", fillcolor=lightcoral, color=red, shape=circle];
+    "Agatha Christie disambiguation" [label="Agatha Christie disambiguation", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "Dame Agatha Mary Clarissa C..." [label="Dame Agatha Mary Clarissa C...", fillcolor=lightcoral, color=red, shape=circle];
+    "Agatha Christie" [label="Agatha Christie", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "Christie" [label="Christie", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "Torquay" [label="Torquay", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "her 66 detective novels and..." [label="her 66 detective novels and...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her novels" [label="her novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "six novels" [label="six novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "she was made a Dame DBE by ..." [label="she was made a Dame DBE by ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Upper-middle-class" [label="Upper-middle-class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother" [label="her mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a wealthy upper-middle..." [label="into a wealthy upper-middle...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Styles" [label="Styles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her contributions to litera..." [label="her contributions to litera...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fiction" [label="fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920 when The Mysterious Af..." [label="1920 when The Mysterious Af...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copies" [label="copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poisons that featured in ma..." [label="poisons that featured in ma...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "breakdown of her marriage a..." [label="breakdown of her marriage a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "days" [label="days", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective" [label="detective", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world's longest-running pla..." [label="world's longest-running pla...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "husband" [label="husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more than two billion copies" [label="more than two billion copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1926" [label="1926", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poisons" [label="poisons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Mousetrap" [label="The Mousetrap", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the greatest writ..." [label="as one of the greatest writ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "thorough knowledge of the p..." [label="thorough knowledge of the p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this" [label="this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1928" [label="1928", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1952" [label="1952", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Queen of Crime" [label="Queen of Crime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mysterious Affair at Styles" [label="Mysterious Affair at Styles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth II" [label="Elizabeth II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dame DBE" [label="Dame DBE", fillcolor=lightgray, color=gray, shape=hexagon];
+    "thorough" [label="thorough", fillcolor=lightgray, color=gray, shape=hexagon];
+    "under the pseudonym Mary We..." [label="under the pseudonym Mary We...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her marriage" [label="her marriage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective Hercule Poirot" [label="detective Hercule Poirot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mysterious Affair at Styles..." [label="Mysterious Affair at Styles...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she made international head..." [label="she made international head...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "billion" [label="billion", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Miller" [label="Miller", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1976" [label="1976", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1971" [label="1971", fillcolor=lightgray, color=gray, shape=hexagon];
+    "West End of London" [label="West End of London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Queen Elizabeth II" [label="Queen Elizabeth II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "since 1952" [label="since 1952", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eleven" [label="eleven", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hospital" [label="hospital", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Elizabeth II" -> "Agatha Christie" [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "Styles" [label="has location [Success_or_failure]", color=green, penwidth=2];
+    "Agatha Christie" -> "poisons that featured in ma..." [label="has theme [Awareness]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "literature" [label="has recipient [Giving]", color=lightyellow, penwidth=1];
+    "Agatha Christie" -> "West End of London" [label="has location [Intentionally_act]", color=green, penwidth=2];
+    "Agatha Christie" -> "days" [label="has theme [Measure_duration]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "Christie" [label="has person [Being_born]", color=red, penwidth=2];
+    "England" -> "English author" [label="has entity [Fame]", color=lightgray, penwidth=1];
+    "Agatha Christie" -> "Mysterious Affair at Styles..." [label="has work [Publishing]", color=lightgoldenrodyellow, penwidth=1];
+    "Agatha Christie" -> "story" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Agatha Christie" -> "husband" [label="has type [Ordinal_numbers]", color=lightsalmon, penwidth=1];
+    "Agatha Christie" -> "1926" [label="has time [Transition_to_state]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1976" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Agatha Christie" -> "Styles" [label="has location [Undergo_change]", color=green, penwidth=2];
+    "Agatha Christie" -> "world" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Agatha Christie" -> "short story" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "1976" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1926" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1920" [label="has time [Compatibility]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1976" [label="has time [Text]", color=purple, penwidth=2];
+    "Agatha Christie" -> "mother" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Agatha Christie" -> "more than two billion copies" [label="has theme [Commerce_sell]", color=lightpink, penwidth=1];
+    "England" -> "article" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "fiction" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "Styles" [label="has location [Text_creation]", color=green, penwidth=2];
+    "England" -> "her 66 detective novels and..." [label="has reason [Fame]", color=lightgray, penwidth=1];
+    "Elizabeth II" -> "Dame DBE" [label="has effect [Causation]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "hospital" [label="has theme [Buildings]", color=lightsteelblue, penwidth=1];
+    "Agatha Christie" -> "two" [label="has theme [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Agatha Christie" -> "1914" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Agatha Christie" -> "Agatha Christie disambiguation" [label="has theme [Reference_text]", color=lightgoldenrodyellow, penwidth=1];
+    "Agatha Christie" -> "her novels" [label="has theme [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "Agatha Christie" -> "since 1952" [label="has theme [Intentionally_act]", color=lightpink, penwidth=1];
+    "Agatha Christie" -> "world" [label="has theme [Hostile_encounter]", color=lightsalmon, penwidth=1];
+    "Archie Christie" -> "child" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "England" -> "1976" [label="has time [Text]", color=purple, penwidth=2];
+    "Agatha Christie" -> "six novels" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "detective" [label="has theme [Text]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "1952" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1920 when The Mysterious Af..." [label="has time [Undergo_change]", color=purple, penwidth=2];
+    "Agatha Christie" -> "novels" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Elizabeth II" -> "Queen Elizabeth II" [label="has cause [Causation]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "poisons" [label="has theme [Toxic_substance]", color=lightgoldenrod, penwidth=1];
+    "Agatha Christie" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Agatha Christie" -> "Miller" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Agatha Christie" -> "stories" [label="has theme [Duration_description]", color=lightseagreen, penwidth=1];
+    "Agatha Christie" -> "1952" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Agatha Christie" -> "her novels" [label="has goods [Commerce_sell]", color=lightpink, penwidth=1];
+    "England" -> "author" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "1926" [label="has time [Kinship]", color=purple, penwidth=2];
+    "England" -> "1976" [label="has time [Fame]", color=purple, penwidth=2];
+    "Agatha Christie" -> "her marriage" [label="has theme [Transition_to_state]", color=lightgoldenrod, penwidth=1];
+    "The Mousetrap" -> "Agatha Christie" [label="has recipient [Getting]", color=lightsteelblue, penwidth=1];
+    "Archie Christie" -> "1928" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1976" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Agatha Christie" -> "copies" [label="has entity [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Agatha Christie" -> "Styles" [label="has location [Compatibility]", color=green, penwidth=2];
+    "Agatha Christie" -> "1920" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "Agatha Christie" -> "many" [label="has quantity [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "Agatha Christie" -> "1952" [label="has time [Intentionally_act]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1920" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Agatha Christie" -> "husband" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Agatha Christie" -> "Queen of Crime" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "Elizabeth II" -> "her contributions to litera..." [label="has theme [Causation]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "Torquay" [label="has location [Being_born]", color=green, penwidth=2];
+    "Agatha Christie" -> "Queen of Crime" [label="has theme [Simple_naming]", color=lightcoral, penwidth=1];
+    "Agatha Christie" -> "under the pseudonym Mary We..." [label="has theme [Text_creation]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "England" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Agatha Christie" -> "as one of the greatest writ..." [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "Christie" [label="has entity [Simple_naming]", color=lightcoral, penwidth=1];
+    "Archie Christie" -> "1914" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Archie Christie" -> "1914" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Agatha Christie" -> "billion" [label="has theme [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Agatha Christie" -> "1926" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Agatha Christie" -> "fiction" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "world's longest-running pla..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Elizabeth II" -> "1971" [label="has time [Causation]", color=purple, penwidth=2];
+    "Agatha Christie" -> "which" [label="has act [Intentionally_act]", color=lightpink, penwidth=1];
+    "Agatha Christie" -> "breakdown of her marriage a..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Torquay" -> "Upper-middle-class" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Agatha Christie" -> "thorough" [label="has degree [Awareness]", color=lightgreen, penwidth=1];
+    "Agatha Christie" -> "Dame Agatha Mary Clarissa C..." [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Elizabeth II" -> "1971" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Agatha Christie" -> "writers" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "detective Hercule Poirot" [label="has theme [Compatibility]", color=lightcoral, penwidth=1];
+    "Agatha Christie" -> "1971" [label="has time [Giving]", color=purple, penwidth=2];
+    "The Mousetrap" -> "thorough knowledge of the p..." [label="has theme [Getting]", color=lightsteelblue, penwidth=1];
+    "Agatha Christie" -> "collections" [label="has theme [Aggregate]", color=lightblue, penwidth=1];
+    "Agatha Christie" -> "Styles" [label="has location [Publishing]", color=green, penwidth=2];
+    "Agatha Christie" -> "into a wealthy upper-middle..." [label="has theme [Being_born]", color=lightsteelblue, penwidth=1];
+    "Elizabeth II" -> "1971" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Agatha Christie" -> "1920" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1926" [label="has time [Death]", color=purple, penwidth=2];
+    "Agatha Christie" -> "eleven" [label="has theme [Measure_duration]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "Mysterious Affair at Styles" [label="has theme [Compatibility]", color=lightcoral, penwidth=1];
+    "Agatha Christie" -> "1914" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Agatha Christie" -> "1926" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Agatha Christie" -> "this" [label="has entity [Undergo_change]", color=lightsteelblue, penwidth=1];
+    "Elizabeth II" -> "she was made a Dame DBE by ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Agatha Christie" -> "she made international head..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Agatha Christie" -> "1976" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "Agatha Christie" -> "her mother" [label="has theme [Death]", color=lightcyan, penwidth=1];
+    "Agatha Christie" -> "copies" [label="has theme [Duplication]", color=lightsteelblue, penwidth=1];
+    "Agatha Christie" -> "writer" [label="has agent [Success_or_failure]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Causation_legend" [label="Causation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Transition_to_state_legend" [label="Transition_to_state", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Undergo_change_legend" [label="Undergo_change", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Compatibility_legend" [label="Compatibility", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Toxic_substance_legend" [label="Toxic_substance", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Simple_naming_legend" [label="Simple_naming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Duplication_legend" [label="Duplication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

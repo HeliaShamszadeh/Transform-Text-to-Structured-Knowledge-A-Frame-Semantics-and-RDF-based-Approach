@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Time_vector:has_theme just hours",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Neruda died at his home in Isla Negra 'just hours after leaving the hospital'. While 'just hours' is a time-related concept, the connection to 'has_theme' is extremely weak and indirect, but semantically related to the event's timing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Buildings:has_time 1973",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Neruda died at his home in Isla Negra on 23 September 1973, establishing a clear temporal connection between the location and the year 1973."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Cardinal_numbers:has_theme years",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Neruda 'would not return to Chile for more than three years' after his escape, which is related to his involvement with the Communist Party. While the connection is weak, 'years' as a temporal theme is present in the context of his political exile."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pablo_Neruda Institutionalization:has_time September 1973, at the time of the coup d'état led by Augusto Pinochet that overthrew Allende's government",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'Neruda was hospitalized with cancer in September 1973, at the time of the coup d'état led by Augusto Pinochet that overthrew Allende's government', directly connecting the subject to the specified time and event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Escaping:has_time 1949",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Neruda escaped in 1949 after being targeted due to the outlawing of communism, which is directly related to his involvement with the Chilean Communist Party. The escape event and its timing are clearly connected to the party's political context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Inclusion:has_theme surrealist poems, historical epics, political manifestos, a prose autobiography, and passionate love poems such as the ones in his collection Twenty Love Poems and a Song of Despair (1924)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Neruda wrote these works, but there is no direct or indirect connection suggesting Chile as a country has these as themes. The relationship is between the author and his works, not the country and the works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Measure_duration:has_theme 13",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The number 13 refers to Neruda's age when he became known as a poet. There is no semantic connection between the number 13 and Chile having it as a theme or measure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Inclusion:has_time 1924",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1924 is mentioned as the publication date of a poetry collection. There is no information linking this specific year to Chile in a way that supports an 'Inclusion:has_time' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Suspicion:has_theme injecting him with an unknown substance for the purpose of murdering him on Pinochet's orders",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The suspicion described is directed *at* Pinochet's regime, which overthrew the government Neruda supported. The Chilean Communist Party is mentioned as a party Neruda served as a senator for, making it an ally, not the source of the suspicion. The triple misattributes the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Death:has_theme http://en.wikipedia.org/wiki/Pablo_Neruda",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Neruda died at his home in Isla Negra'. This provides a very clear and direct semantic connection between the location (Isla Negra) and the event of Neruda's death, making the 'Death:has_theme' relationship reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Being_named:has_entity maternal",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'maternal family name' in relation to Pablo Neruda, who is Chilean. The connection to Chile is indirect and the concept of 'maternal' is present, but the relationship is very weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Time_vector:has_time 1973",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Neruda died at his home in Isla Negra on 23 September 1973', creating a clear temporal connection between the location and the year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Text:has_text epics",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Pablo Neruda, a Chilean poet, wrote 'historical epics'. This creates an indirect semantic link between Chile and the concept of epics through his work, though the relationship is weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gabriel_González_Videla Leadership:has_location http://en.wikipedia.org/wiki/Chile",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'When President Gabriel González Videla outlawed communism in Chile...', which strongly implies his leadership was located in Chile."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Neruda 'served a term as a senator for the Chilean Communist Party' and the text mentions durations of time ('years') in other contexts (e.g., 'more than three years'). The connection is very weak but semantically related to the theme of time periods."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Reading_activity:has_reader http://en.wikipedia.org/wiki/Pablo_Neruda",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Neruda 'served a term as a senator for the Chilean Communist Party,' which implies a strong connection and likely engagement with party materials, making the reading relationship reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Being_born:has_time 1904",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly links the Nobel Prize to the year 1904 (a birth year). The paragraph states Neruda won the prize in 1971. The connection is contradictory, not just weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Product_line:has_time 1924",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 1924 is mentioned in the paragraph as the publication date of Neruda's collection 'Twenty Love Poems and a Song of Despair'. As Neruda was a Chilean poet, there is a very weak, indirect semantic link between Chile and the time 1924 through his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pablo_Neruda Motion:has_time after accepting his Nobel Prize in Stockholm",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'when he went back to Chile after accepting his Nobel Prize in Stockholm,' which directly describes a motion (returning) occurring at a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Departing:has_theme hospital",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Neruda 'died at his home in Isla Negra on 23 September 1973, just hours after leaving the hospital.' This directly links the location (Isla Negra) to the theme of departing from a hospital."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Filling:has_theme unknown substance",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Communist Party and an 'unknown substance' separately, but there is no semantic connection suggesting the party has the theme of an unknown substance. The substance is related to a suspected murder attempt on Pinochet's orders."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Salvador_Allende Leadership:has_location http://en.wikipedia.org/wiki/Stockholm",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "While Salvador Allende and Stockholm are both mentioned, the connection is weak. Allende invited Neruda to read after he returned from Stockholm; there is no direct statement that Allende's leadership was located in Stockholm."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Temporal_collocation:has_time 1924",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1924 is mentioned in the context of Neruda's poetry collection. While not directly stating an event in Chile for that year, the paragraph is about a Chilean figure, creating a weak temporal collocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pablo_Neruda Residence:has_location many diplomatic positions in various countries",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Neruda 'occupied many diplomatic positions in various countries.' This can be reasonably interpreted as him having residences or locations associated with those positions, even if not explicitly stated as 'residence'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_recipient http://en.wikipedia.org/wiki/Pablo_Neruda",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Pablo Neruda... won the 1971 Nobel Prize in Literature,' which is a clear and direct match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pablo_Neruda Arriving:has_goal http://en.wikipedia.org/wiki/Chile",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Neruda returning to Chile after accepting his Nobel Prize, which implies a goal of arriving in Chile, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Being_born:has_person Ricardo Eliécer Neftal Reyes Basoalto",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Pablo Neruda (born Ricardo Eliécer Neftalí Reyes Basoalto) won the Nobel Prize in Literature, creating a semantic connection between the prize and his birth name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Measure_duration:has_time 1924",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1924 is mentioned in connection with Neruda's work published in Chile, creating a weak but valid temporal association with the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile First_experience:has_theme surname",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Spanish naming conventions and surnames in the context of Chilean poet Pablo Neruda, creating a very weak but semantically connected relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Filling:has_agent doctor",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Neruda's involvement with the Chilean Communist Party and a doctor who allegedly tried to harm him, creating an indirect connection between the party and a medical agent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Filling:has_location September",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple suggests the Communist Party has a location in September, but the paragraph only mentions that Neruda was hospitalized in September 1973 and that communism was outlawed in 1948. There is no semantic connection between the party and the month of September as a location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Killing:has_theme http://en.wikipedia.org/wiki/Pablo_Neruda",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Neruda's association with the Communist Party and his death, but it does not state or imply that the party was involved in his death. The text suggests he suspected Pinochet's orders, not the Communist Party."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Departing:has_time 1973",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Neruda died at his home in Isla Negra in September 1973. The concept of 'departing' can be loosely associated with death, and the year 1973 is explicitly mentioned in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Temporal_collocation:has_theme Neruda became known as a poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Neruda was a Chilean poet, and the event of him becoming known as a poet at age 13 is directly stated. The triple semantically connects Chile to this thematic event about Neruda."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Personal_relationship:has_time 1949",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Neruda served as a senator for the Chilean Communist Party, and the year 1949 is mentioned in the context of his escape from Chile. This creates a reasonable, though indirect, temporal link between the party and that year via Neruda's personal story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Personal_relationship:has_theme Friends",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Neruda's 'Friends' who hid him, and he was a senator for the Chilean Communist Party. There is a weak but reasonable semantic link between the Party and the theme of friendship/relationships in the context of his political persecution."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Text:has_time 1924",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1924 is mentioned in the paragraph in relation to Neruda's work 'Twenty Love Poems and a Song of Despair (1924)'. While the connection to 'Chile' as a subject is indirect (Neruda was Chilean), the temporal information is present and associated with his Chilean identity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Death:has_location his home in Isla Negra",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Neruda died at his home in Isla Negra', which is a direct match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Departing:has_location Isla Negra",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Neruda 'returned home' to Isla Negra after leaving the hospital, and he died there 'just hours after leaving the hospital'. This strongly implies a departure (from the hospital) with the destination/location being Isla Negra."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Time_vector:has_theme after",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The final sentence describes events happening 'after' leaving the hospital, culminating at his home in Isla Negra. The temporal theme of 'after' is present in the narrative connected to Isla Negra."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_location http://en.wikipedia.org/wiki/Stockholm",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states Neruda went back to Chile after accepting his Nobel Prize in Stockholm, clearly connecting the Nobel Prize in Literature to Stockholm as the location of acceptance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communist_Party_of_Chile Escaping:has_theme http://en.wikipedia.org/wiki/Pablo_Neruda",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Neruda was a senator for the Chilean Communist Party and had to escape arrest when communism was outlawed. While 'theme' is abstract, there's a clear semantic connection between the party, Neruda, and escaping."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Augusto_Pinochet Leadership:has_location September",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Pinochet led a coup in September 1973. 'September' is a time, not a location, but there's a weak semantic connection through the event happening in that month."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Arrest:has_time 1948",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states that in 1948, President González Videla outlawed communism in Chile and a warrant was issued for Neruda's arrest, connecting Chile and arrest to the year 1948."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Neruda was a Chilean poet who wrote poems. While the connection is indirect (Chile -> Chilean poet -> poems), there's a weak semantic link between Chile and poems through Neruda's nationality and work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile People_by_vocation:has_person poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Pablo Neruda was a Chilean poet, directly linking Chile to a person with the vocation of poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pablo_Neruda Arriving:has_location September",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The triple is semantically weak and the connection is indirect. The paragraph mentions several September events (birth, death, hospitalization) related to Neruda, but 'Arriving:has_location' is not a clear concept in the text. Being lenient, 'September' is a significant time for Neruda, so a weak connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chile Ordinal_numbers:has_type family name",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'family name' in the context of explaining Spanish naming conventions for Pablo Neruda, but this is not semantically connected to the concept of 'Chile' having a type of 'family name'. The information is completely unrelated to the subject (Chile)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Augusto_Pinochet Leadership:has_time 1973",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Pinochet led a coup d'état in September 1973, which strongly implies a leadership role during that time. The connection is clear, even if the exact phrase 'Leadership:has_time' is not used."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isla_Negra Buildings:has_theme hospital",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Neruda died at his home in Isla Negra just after leaving the hospital. This creates a semantic link between the location (Isla Negra) and the theme of hospitals/medical care, albeit indirectly through the narrative of his death."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 29,
+    "accuracy": 0.58,
+    "avg_confidence": 0.5519999999999999,
+    "high_confidence_50": 29,
+    "high_confidence_80": 19,
+    "percent_50": 57.99999999999999,
+    "percent_80": 38.0,
+    "max_triples_limit": 50
+  }
+}

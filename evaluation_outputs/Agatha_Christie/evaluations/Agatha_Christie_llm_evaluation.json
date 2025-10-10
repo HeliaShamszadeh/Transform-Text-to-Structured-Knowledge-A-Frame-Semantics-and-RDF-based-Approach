@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_II Causation:has_theme http://en.wikipedia.org/wiki/Agatha_Christie",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Queen Elizabeth II made Christie a Dame, which is a relationship of honor/conferral, not that the Queen 'has_theme' of Agatha Christie. The semantic connection is very weak and the relationship type is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Success_or_failure:has_location Styles",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'The Mysterious Affair at Styles' as the title of her first published novel. 'Styles' is a location within the context of that story. The connection to 'Success_or_failure' is weak but plausible as the publication was a turning point in her career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Awareness:has_theme poisons that featured in many of her novels, short stories, and plays",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she acquired knowledge of poisons that featured in her works. This is a direct semantic match for the concept of 'has_theme' related to 'Awareness'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Giving:has_recipient literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states she was made a Dame for her contributions to literature. This can be loosely interpreted as 'Giving' contributions 'to' literature. The connection is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Intentionally_act:has_location West End of London",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states her play 'The Mousetrap' has been performed in the West End of London since 1952. As the author of the play, this constitutes an intentional act (writing/performing a play) associated with that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Measure_duration:has_theme days",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions she was missing for 'eleven days', which is a duration measured in days. The connection to 'has_theme' is very weak but semantically related to time duration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Being_born:has_person Christie",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'Christie was born into a wealthy upper-middle-class family', establishing a direct connection between the person Christie and the event of being born."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Fame:has_entity English author",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Agatha Christie is repeatedly described as an 'English author' throughout the paragraph, creating a strong semantic connection between England and this English author entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Publishing:has_work Mysterious Affair at Styles, featuring detective Hercule Poirot",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'The Mysterious Affair at Styles, featuring detective Hercule Poirot, was published' in 1920, directly matching the triple's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Duration_description:has_theme story",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions she wrote '66 detective novels and 14 short story collections', and stories are a central theme of her work. While 'duration_description' is vague, stories are clearly a thematic element of her career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Ordinal_numbers:has_type husband",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Her first husband was Archibald Christie'. While 'first' is an ordinal number and 'husband' is the type, the specific predicate 'Ordinal_numbers:has_type' is an indirect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Transition_to_state:has_time 1926",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that in 1926, following the breakdown of her marriage and the death of her mother, she went missing. This describes a significant transition or change of state (a personal crisis) happening in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Being_named:has_time 1976",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph begins by identifying Agatha Christie as '(1890–1976)', which is the year of her death. This can be interpreted as the time associated with her 'being named' or identified with those lifespan dates."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Undergo_change:has_location Styles",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the novel 'The Mysterious Affair at Styles'. The connection is very weak, but one could loosely interpret the publication of this novel as a change in her career, and 'Styles' is a location in the title. This is a highly lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Political_locales:has_theme world",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions she served 'During both world wars' and that her disappearance made 'international headlines'. The concept of 'world' is thematically present in relation to wars and international fame, though the connection to 'Political_locales' is tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Aggregate:has_theme short story",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she wrote '14 short story collections' and that poisons featured in her 'short stories', clearly establishing a strong semantic connection to the theme of short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Aggregate:has_time 1976",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1976 is mentioned as her death date ('12 January 1976'), which is a significant time associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Measure_duration:has_time 1926",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1926 is mentioned as the time of her marriage breakdown and her mother's death, which are key events associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Compatibility:has_time 1920",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1920 is mentioned as the publication year of 'The Mysterious Affair at Styles', a pivotal event in her career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text:has_time 1976",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1976 is mentioned as her death date ('12 January 1976'), which is a significant time associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'the death of her mother in 1926', establishing a kinship relationship between Agatha Christie and her mother."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Commerce_sell:has_theme more than two billion copies",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'her novels having sold more than two billion copies', which directly relates to the commercial success and sales theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text article",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple's subject is 'England', but the paragraph is about Agatha Christie. While the article mentions she is English, there is no connection between England and having an article in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text:has_text fiction",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Agatha Christie is described as a 'fiction writer' and her works (detective novels) are fictional, establishing a clear connection between her and the theme of fiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text_creation:has_location Styles",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'The Mysterious Affair at Styles', which is a text she created. 'Styles' can be reasonably interpreted as a location related to that text's creation or setting."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Fame:has_reason her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple suggests England is the reason for her novels, but the paragraph states she is an English author known for these works; the relationship is one of nationality/identity, not causation or reasoning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_II Causation:has_effect Dame (DBE)",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'she was made a Dame (DBE) by Queen Elizabeth II', establishing a clear causal relationship where the Queen's action had the effect of bestowing the title."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Buildings:has_theme hospital",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions she 'served in hospital dispensaries', which thematically connects her to hospitals, even if the predicate 'has_theme' is an indirect interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Cardinal_numbers:has_theme two",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The number 'two' appears in 'sold more than two billion copies'. The connection to the theme of 'Cardinal_numbers' is very weak and indirect, but the number is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Ordinal_numbers:has_time 1914",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1914 is mentioned ('they married in 1914'), which is a point in time. The predicate 'has_time' is a reasonable, though slightly abstract, interpretation of this date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Reference_text:has_theme Agatha Christie (disambiguation)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'Agatha Christie (disambiguation)' as a reference point for other uses of the name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Quantified_mass:has_theme her novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses her novels extensively, mentioning their quantity, sales, and content, making 'her novels' a central theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Intentionally_act:has_theme since 1952",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1952 is mentioned as the start of her play's run. While the connection to 'Intentionally_act' is weak, the date is semantically related to her career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Hostile_encounter:has_theme world",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'both world wars,' which are hostile encounters. The connection is very indirect and the predicate is a poor fit, but a weak semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Archie_Christie Kinship:has_theme child",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Agatha and her first husband Archibald Christie 'had one child,' establishing a clear kinship theme related to him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_time 1976",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1976 as Agatha Christie's death year, but there is no semantic connection established between 'England' and the time '1976' in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text_creation:has_text six novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'She also wrote six novels under the pseudonym Mary Westmacott,' which directly connects Agatha Christie to the creation of six novels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text:has_theme detective",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph repeatedly mentions she is a 'detective writer,' wrote 'detective novels,' and created fictional detectives. The theme of 'detective' is central to her work as described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text_creation:has_time 1952",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states her play 'The Mousetrap' has been performed since 1952. This implies the play was created by that time, establishing a connection between her text creation and the year 1952."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Undergo_change:has_time 1920 when The Mysterious Affair at Styles, featuring detective Hercule Poirot, was published",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph describes a change in her career from 'unsuccessful writer' to success, specifically pinpointing 1920 as the time this change occurred with the publication of her first novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she was an author known for her 66 detective novels and is the best-selling fiction writer, directly linking her to novels as a form of text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_II Causation:has_cause Queen Elizabeth II",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is nonsensical as phrased. It suggests Queen Elizabeth II is a 'cause' of herself. The paragraph only mentions the Queen as the bestower of a title (Dame), not as a cause of anything."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Toxic_substance:has_theme poisons",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she 'acquired a thorough knowledge of the poisons that featured in many of her novels, short stories, and plays,' establishing a clear thematic connection between her work and poisons."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically unclear. The frame 'Increment:has_class' and the generic object 'uses' do not correspond to any specific, extractable relationship described in the paragraph. The connection is too vague to be reasonably extracted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Being_named:has_theme Miller",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Her maiden name 'Miller' is provided in parentheses (née Miller), which is a form of naming. While 'has_theme' is an imperfect fit, there is a semantic connection to the concept of being named."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph extensively discusses her detective novels, short story collections, and mystery stories, establishing 'stories' as a central theme of her work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Political_locales:has_time 1952",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'The Mousetrap' has been performed in London's West End 'since 1952', directly associating Agatha Christie with that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Commerce_sell:has_goods her novels",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions her novels 'having sold more than two billion copies', implying a commercial transaction involving her novels as goods."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text author",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the connection is weak, Agatha Christie is described as an 'English author' and England is mentioned, creating a tenuous semantic link between England and an author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Agatha_Christie Kinship:has_time 1926",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 1926 as the year of her mother's death and her marriage breakdown, both being kinship-related events."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 39,
+    "accuracy": 0.78,
+    "avg_confidence": 0.6559999999999999,
+    "high_confidence_50": 39,
+    "high_confidence_80": 26,
+    "percent_50": 78.0,
+    "percent_80": 52.0,
+    "max_triples_limit": 50
+  }
+}

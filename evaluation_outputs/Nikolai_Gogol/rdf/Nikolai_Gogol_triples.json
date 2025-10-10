@@ -1,0 +1,1374 @@
+{
+  "metadata": {
+    "total_triples": 62,
+    "source_file": "Nikolai_Gogol",
+    "extraction_date": "2025-09-28 04:28:12",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "predicate": "Text:has_text",
+        "object": "writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Grasp:has_theme",
+        "object": "reader",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Text_creation:has_text",
+        "object": "short-story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russian_language",
+        "predicate": "Text:has_text",
+        "object": "novelist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "writers and critics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Text:has_text",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Experiencer_focus:has_theme",
+        "object": "Tsar Nicholas I, who",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Political_locales:has_theme",
+        "object": "Ukrainian Cossack",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Objective_influence:has_theme",
+        "object": "his Ukrainian upbringing, Ukrainian culture and folklore",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Viktor_Shklovsky",
+        "predicate": "Attributed_information:has_theme",
+        "object": "Gogol used the technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Cause_to_perceive:has_agent",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "Many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Grasp:has_theme",
+        "object": "differently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "predicate": "Labor_product:has_theme",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Becoming_aware:has_theme",
+        "object": "Many writers and critics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Be_subset_of:has_theme",
+        "object": "his best-known works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Arriving:has_theme",
+        "object": "We all",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Cause_to_perceive:has_theme",
+        "object": "unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Be_subset_of:has_theme",
+        "object": "novel Taras Bulba (1835 ), the play Marriage (1842 ), and the short stories \" The Tale of How Ivan Ivanovich Quarreled with Ivan Nikiforovich \", \" The Portrait \", and \" The Carriage ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Political_locales:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Velyki_Sorochyntsi",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Familiarity:has_entity",
+        "object": "way",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+        "predicate": "Statement:has_speaker",
+        "object": "Fyodor Dostoevsky, Mikhail Saltykov-Shchedrin, Rynosuke Akutagawa, Franz Kafka, Mikhail Bulgakov, Vladimir Nabokov, Flannery O'Connor and others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Being_named:has_entity",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Cause_to_perceive:has_theme",
+        "object": "common things",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+        "predicate": "Reference_text:has_theme",
+        "object": "Gogol (disambiguation)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "predicate": "Using:has_instrument",
+        "object": "technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russian_language",
+        "predicate": "Political_locales:has_theme",
+        "object": "Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Capability:has_entity",
+        "object": "reader",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Russian, Ukrainian and world literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Text:has_text",
+        "object": "Taras Bulba",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Getting:has_theme",
+        "object": "new perspectives",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Political_locales:has_theme",
+        "object": "town",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Origin:has_theme",
+        "object": "origin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Reading_perception:has_reader",
+        "object": "reader",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Political_locales:has_theme",
+        "object": "Poltava Governorate of the Russian Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "predicate": "Being_born:has_location",
+        "object": "Ukrainian Cossack town of Sorochyntsi, in the Poltava Governorate of the Russian Empire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "predicate": "Using:has_instrument",
+        "object": "grotesque in his writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Judgment:has_reason",
+        "object": "their proto-surrealist qualities",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+        "predicate": "Statement:has_message",
+        "object": "Gogol's influence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Judgment:has_evaluee",
+        "object": "These stories, and others such as \" Diary of a Madman ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Being_named:has_theme",
+        "object": "name",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Political_locales:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Experiencer_focus:has_theme",
+        "object": "his work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Melchior_de_Vogüé",
+        "predicate": "Statement:has_message",
+        "object": "We all came out from under Gogol's Overcoat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Text_creation:has_author",
+        "object": "21 February] 1852",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Gogol's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Gogol's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Being_named:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Objective_influence:has_theme",
+        "object": "His early works, such as Evenings on a Farm Near Dikanka",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Becoming_aware:has_theme",
+        "object": "Gogol's deep influence on Russian, Ukrainian and world literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Topic:has_theme",
+        "object": "political corruption in contemporary Russia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Capability:has_event",
+        "object": "gain new perspectives and see the world differently",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+        "predicate": "Grasp:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Getting:has_recipient",
+        "object": "reader",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Familiarity:has_entity",
+        "object": "perspectives",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Objective_influence:has_degree",
+        "object": "deep",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+        "predicate": "Topic:has_text",
+        "object": "His later writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "predicate": "Arriving:has_theme",
+        "object": "out from under Gogol's Overcoat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "predicate": "Being_born:has_location",
+          "object": "Ukrainian Cossack town of Sorochyntsi, in the Poltava Governorate of the Russian Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Capability:has_event",
+          "object": "gain new perspectives and see the world differently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "predicate": "Text:has_text",
+          "object": "writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russian_language",
+          "predicate": "Text:has_text",
+          "object": "novelist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Be_subset_of:has_theme",
+          "object": "novel Taras Bulba (1835 ), the play Marriage (1842 ), and the short stories \" The Tale of How Ivan Ivanovich Quarreled with Ivan Nikiforovich \", \" The Portrait \", and \" The Carriage ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "predicate": "Using:has_instrument",
+          "object": "grotesque in his writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Topic:has_text",
+          "object": "His later writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Grasp:has_theme",
+          "object": "reader",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Text_creation:has_text",
+          "object": "short-story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "writers and critics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Text:has_text",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Experiencer_focus:has_theme",
+          "object": "Tsar Nicholas I, who",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Political_locales:has_theme",
+          "object": "Ukrainian Cossack",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Objective_influence:has_theme",
+          "object": "his Ukrainian upbringing, Ukrainian culture and folklore",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Viktor_Shklovsky",
+          "predicate": "Attributed_information:has_theme",
+          "object": "Gogol used the technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Cause_to_perceive:has_agent",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "Many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Grasp:has_theme",
+          "object": "differently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "predicate": "Labor_product:has_theme",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Becoming_aware:has_theme",
+          "object": "Many writers and critics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Be_subset_of:has_theme",
+          "object": "his best-known works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Arriving:has_theme",
+          "object": "We all",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Cause_to_perceive:has_theme",
+          "object": "unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Political_locales:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Velyki_Sorochyntsi",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Familiarity:has_entity",
+          "object": "way",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+          "predicate": "Statement:has_speaker",
+          "object": "Fyodor Dostoevsky, Mikhail Saltykov-Shchedrin, Rynosuke Akutagawa, Franz Kafka, Mikhail Bulgakov, Vladimir Nabokov, Flannery O'Connor and others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Being_named:has_entity",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Cause_to_perceive:has_theme",
+          "object": "common things",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+          "predicate": "Reference_text:has_theme",
+          "object": "Gogol (disambiguation)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "predicate": "Using:has_instrument",
+          "object": "technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russian_language",
+          "predicate": "Political_locales:has_theme",
+          "object": "Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Capability:has_entity",
+          "object": "reader",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Russian, Ukrainian and world literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Text:has_text",
+          "object": "Taras Bulba",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Getting:has_theme",
+          "object": "new perspectives",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Political_locales:has_theme",
+          "object": "town",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Origin:has_theme",
+          "object": "origin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Reading_perception:has_reader",
+          "object": "reader",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Political_locales:has_theme",
+          "object": "Poltava Governorate of the Russian Empire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Judgment:has_reason",
+          "object": "their proto-surrealist qualities",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+          "predicate": "Statement:has_message",
+          "object": "Gogol's influence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Judgment:has_evaluee",
+          "object": "These stories, and others such as \" Diary of a Madman ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Being_named:has_theme",
+          "object": "name",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Political_locales:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Experiencer_focus:has_theme",
+          "object": "his work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Melchior_de_Vogüé",
+          "predicate": "Statement:has_message",
+          "object": "We all came out from under Gogol's Overcoat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Text_creation:has_author",
+          "object": "21 February] 1852",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Gogol's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Gogol's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Being_named:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Objective_influence:has_theme",
+          "object": "His early works, such as Evenings on a Farm Near Dikanka",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Becoming_aware:has_theme",
+          "object": "Gogol's deep influence on Russian, Ukrainian and world literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Topic:has_theme",
+          "object": "political corruption in contemporary Russia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+          "predicate": "Grasp:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Getting:has_recipient",
+          "object": "reader",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Familiarity:has_entity",
+          "object": "perspectives",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/East_Slavs",
+          "predicate": "Objective_influence:has_degree",
+          "object": "deep",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+          "predicate": "Arriving:has_theme",
+          "object": "out from under Gogol's Overcoat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Viktor_Shklovsky",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+      "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Melchior_de_Vogüé",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov"
+    ],
+    "objects": [
+      "writing",
+      "works",
+      "reader",
+      "short-story",
+      "novelist",
+      "writers and critics",
+      "writers",
+      "Tsar Nicholas I, who",
+      "Ukrainian Cossack",
+      "his Ukrainian upbringing, Ukrainian culture and folklore",
+      "Gogol used the technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "writer",
+      "Many",
+      "differently",
+      "work",
+      "Many writers and critics",
+      "his best-known works",
+      "We all",
+      "unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "novel Taras Bulba (1835 ), the play Marriage (1842 ), and the short stories \" The Tale of How Ivan Ivanovich Quarreled with Ivan Nikiforovich \", \" The Portrait \", and \" The Carriage ",
+      "http://en.wikipedia.org/wiki/Velyki_Sorochyntsi",
+      "way",
+      "Fyodor Dostoevsky, Mikhail Saltykov-Shchedrin, Rynosuke Akutagawa, Franz Kafka, Mikhail Bulgakov, Vladimir Nabokov, Flannery O'Connor and others",
+      "family",
+      "common things",
+      "Gogol (disambiguation)",
+      "uses",
+      "technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "stories",
+      "Empire",
+      "reader",
+      "Russian, Ukrainian and world literature",
+      "Taras Bulba",
+      "new perspectives",
+      "town",
+      "origin",
+      "reader",
+      "Poltava Governorate of the Russian Empire",
+      "Ukrainian Cossack town of Sorochyntsi, in the Poltava Governorate of the Russian Empire",
+      "grotesque in his writings",
+      "their proto-surrealist qualities",
+      "Gogol's influence",
+      "These stories, and others such as \" Diary of a Madman ",
+      "name",
+      "world",
+      "his work",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "We all came out from under Gogol's Overcoat",
+      "21 February] 1852",
+      "Gogol's",
+      "Gogol's",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "His early works, such as Evenings on a Farm Near Dikanka",
+      "Gogol's deep influence on Russian, Ukrainian and world literature",
+      "political corruption in contemporary Russia",
+      "gain new perspectives and see the world differently",
+      "world",
+      "reader",
+      "perspectives",
+      "deep",
+      "His later writing",
+      "out from under Gogol's Overcoat"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/East_Slavs",
+      "way",
+      "uses",
+      "reader",
+      "writers and critics",
+      "unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "common things",
+      "We all came out from under Gogol's Overcoat",
+      "http://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+      "political corruption in contemporary Russia",
+      "world",
+      "family",
+      "technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "works",
+      "origin",
+      "his Ukrainian upbringing, Ukrainian culture and folklore",
+      "Gogol's",
+      "Poltava Governorate of the Russian Empire",
+      "His early works, such as Evenings on a Farm Near Dikanka",
+      "out from under Gogol's Overcoat",
+      "writers",
+      "new perspectives",
+      "his work",
+      "writing",
+      "These stories, and others such as \" Diary of a Madman ",
+      "We all",
+      "http://en.wikipedia.org/wiki/Nikolai_Gogol",
+      "Empire",
+      "novelist",
+      "his best-known works",
+      "http://en.wikipedia.org/wiki/Viktor_Shklovsky",
+      "Many",
+      "Fyodor Dostoevsky, Mikhail Saltykov-Shchedrin, Rynosuke Akutagawa, Franz Kafka, Mikhail Bulgakov, Vladimir Nabokov, Flannery O'Connor and others",
+      "http://en.wikipedia.org/wiki/Vladimir_Nabokov",
+      "His later writing",
+      "http://en.wikipedia.org/wiki/Velyki_Sorochyntsi",
+      "http://en.wikipedia.org/wiki/Russian_language",
+      "work",
+      "Ukrainian Cossack town of Sorochyntsi, in the Poltava Governorate of the Russian Empire",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "Gogol's influence",
+      "deep",
+      "Gogol used the technique of defamiliarization, whereby a writer presents common things in an unfamiliar or strange way so that the reader can gain new perspectives and see the world differently",
+      "differently",
+      "Many writers and critics",
+      "writer",
+      "gain new perspectives and see the world differently",
+      "grotesque in his writings",
+      "http://en.wikipedia.org/wiki/The_Nose_(opera)",
+      "short-story",
+      "Tsar Nicholas I, who",
+      "stories",
+      "http://en.wikipedia.org/wiki/The_Portrait_(short_story)",
+      "21 February] 1852",
+      "http://en.wikipedia.org/wiki/Melchior_de_Vogüé",
+      "Gogol (disambiguation)",
+      "Ukrainian Cossack",
+      "Taras Bulba",
+      "town",
+      "Russian, Ukrainian and world literature",
+      "their proto-surrealist qualities",
+      "novel Taras Bulba (1835 ), the play Marriage (1842 ), and the short stories \" The Tale of How Ivan Ivanovich Quarreled with Ivan Nikiforovich \", \" The Portrait \", and \" The Carriage ",
+      "perspectives",
+      "name",
+      "Gogol's deep influence on Russian, Ukrainian and world literature"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Text:has_text",
+      "Temporal_collocation:has_theme",
+      "Grasp:has_theme",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Quantified_mass:has_theme",
+      "Text:has_text",
+      "Experiencer_focus:has_theme",
+      "Political_locales:has_theme",
+      "Objective_influence:has_theme",
+      "Attributed_information:has_theme",
+      "Cause_to_perceive:has_agent",
+      "Quantified_mass:has_quantity",
+      "Grasp:has_theme",
+      "Labor_product:has_theme",
+      "Becoming_aware:has_theme",
+      "Be_subset_of:has_theme",
+      "Arriving:has_theme",
+      "Cause_to_perceive:has_theme",
+      "Be_subset_of:has_theme",
+      "Political_locales:has_theme",
+      "Familiarity:has_entity",
+      "Statement:has_speaker",
+      "Being_named:has_entity",
+      "Cause_to_perceive:has_theme",
+      "Reference_text:has_theme",
+      "Increment:has_class",
+      "Using:has_instrument",
+      "Duration_description:has_theme",
+      "Political_locales:has_theme",
+      "Capability:has_entity",
+      "Objective_influence:has_theme",
+      "Text:has_text",
+      "Getting:has_theme",
+      "Political_locales:has_theme",
+      "Origin:has_theme",
+      "Reading_perception:has_reader",
+      "Political_locales:has_theme",
+      "Being_born:has_location",
+      "Using:has_instrument",
+      "Judgment:has_reason",
+      "Statement:has_message",
+      "Judgment:has_evaluee",
+      "Being_named:has_theme",
+      "Political_locales:has_theme",
+      "Experiencer_focus:has_theme",
+      "Kinship:has_theme",
+      "Statement:has_message",
+      "Text_creation:has_author",
+      "Objective_influence:has_theme",
+      "Objective_influence:has_theme",
+      "Being_named:has_theme",
+      "Objective_influence:has_theme",
+      "Becoming_aware:has_theme",
+      "Topic:has_theme",
+      "Capability:has_event",
+      "Grasp:has_theme",
+      "Getting:has_recipient",
+      "Familiarity:has_entity",
+      "Objective_influence:has_degree",
+      "Topic:has_text",
+      "Arriving:has_theme"
+    ],
+    "unique_predicates": [
+      "Topic:has_text",
+      "Objective_influence:has_theme",
+      "Attributed_information:has_theme",
+      "Temporal_collocation:has_theme",
+      "Judgment:has_evaluee",
+      "Judgment:has_reason",
+      "Experiencer_focus:has_theme",
+      "Statement:has_speaker",
+      "Cause_to_perceive:has_theme",
+      "Origin:has_theme",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Objective_influence:has_degree",
+      "Becoming_aware:has_theme",
+      "Using:has_instrument",
+      "Capability:has_event",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Duration_description:has_theme",
+      "Getting:has_theme",
+      "Kinship:has_theme",
+      "Being_born:has_location",
+      "Text_creation:has_author",
+      "Quantified_mass:has_theme",
+      "Increment:has_class",
+      "Cause_to_perceive:has_agent",
+      "Capability:has_entity",
+      "Quantified_mass:has_quantity",
+      "Grasp:has_theme",
+      "Text_creation:has_text",
+      "Political_locales:has_theme",
+      "Familiarity:has_entity",
+      "Statement:has_message",
+      "Topic:has_theme",
+      "Reading_perception:has_reader",
+      "Arriving:has_theme",
+      "Labor_product:has_theme",
+      "Be_subset_of:has_theme",
+      "Getting:has_recipient"
+    ],
+    "predicate_counts": {
+      "Text:has_text": 4,
+      "Temporal_collocation:has_theme": 1,
+      "Grasp:has_theme": 3,
+      "Text_creation:has_text": 1,
+      "Quantified_mass:has_theme": 1,
+      "Experiencer_focus:has_theme": 2,
+      "Political_locales:has_theme": 6,
+      "Objective_influence:has_theme": 5,
+      "Attributed_information:has_theme": 1,
+      "Cause_to_perceive:has_agent": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Labor_product:has_theme": 1,
+      "Becoming_aware:has_theme": 2,
+      "Be_subset_of:has_theme": 2,
+      "Arriving:has_theme": 2,
+      "Cause_to_perceive:has_theme": 2,
+      "Familiarity:has_entity": 2,
+      "Statement:has_speaker": 1,
+      "Being_named:has_entity": 1,
+      "Reference_text:has_theme": 1,
+      "Increment:has_class": 1,
+      "Using:has_instrument": 2,
+      "Duration_description:has_theme": 1,
+      "Capability:has_entity": 1,
+      "Getting:has_theme": 1,
+      "Origin:has_theme": 1,
+      "Reading_perception:has_reader": 1,
+      "Being_born:has_location": 1,
+      "Judgment:has_reason": 1,
+      "Statement:has_message": 2,
+      "Judgment:has_evaluee": 1,
+      "Being_named:has_theme": 2,
+      "Kinship:has_theme": 1,
+      "Text_creation:has_author": 1,
+      "Topic:has_theme": 1,
+      "Capability:has_event": 1,
+      "Getting:has_recipient": 1,
+      "Objective_influence:has_degree": 1,
+      "Topic:has_text": 1
+    }
+  }
+}

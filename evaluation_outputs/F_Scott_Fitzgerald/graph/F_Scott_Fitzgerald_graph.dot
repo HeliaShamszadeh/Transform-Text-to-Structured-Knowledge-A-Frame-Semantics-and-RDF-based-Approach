@@ -1,0 +1,292 @@
+digraph F_Scott_Fitzgerald {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "His second novel The Beauti..." [label="His second novel The Beauti...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "four novels, four story col..." [label="four novels, four story col...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels depicting the fl..." [label="his novels depicting the fl...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "his death" [label="his death", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "middle-class" [label="middle-class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a middle-class family ..." [label="into a middle-class family ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jazz" [label="Jazz", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1917" [label="1917", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Zelda Sayre, a Southern deb..." [label="Zelda Sayre, a Southern deb...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "now" [label="now", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maintain his affluent lifes..." [label="maintain his affluent lifes...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the eminent write..." [label="as one of the eminent write...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during World War I" [label="during World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saint Paul, Minnesota" [label="Saint Paul, Minnesota", fillcolor=lightgray, color=gray, shape=hexagon];
+    "success" [label="success", fillcolor=lightgray, color=gray, shape=hexagon];
+    "While stationed in Alabama" [label="While stationed in Alabama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stationed in Alabama" [label="stationed in Alabama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "commercially" [label="commercially", fillcolor=lightgray, color=gray, shape=hexagon];
+    "future literary critic Edmu..." [label="future literary critic Edmu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "romantic relationship" [label="romantic relationship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chicago socialite Ginevra King" [label="Chicago socialite Ginevra King", fillcolor=lightgray, color=gray, shape=hexagon];
+    "financial" [label="financial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Zelda Fitzgerald" [label="Zelda Fitzgerald", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Princeton University where ..." [label="Princeton University where ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Montgomery's exclusive coun..." [label="Montgomery's exclusive coun...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "financial prospects" [label="financial prospects", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "further into the cultural e..." [label="further into the cultural e...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Age" [label="Age", fillcolor=lightgray, color=gray, shape=hexagon];
+    "decade" [label="decade", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Scott Fitzgerald disambigua..." [label="Scott Fitzgerald disambigua...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he did not receive critical..." [label="he did not receive critical...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "romantic" [label="romantic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1940" [label="1940", fillcolor=lightgray, color=gray, shape=hexagon];
+    "daughter" [label="daughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Zelda Sayre" [label="Zelda Sayre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he met Zelda Sayre, a South..." [label="he met Zelda Sayre, a South...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This Side of Paradise" [label="This Side of Paradise", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Francis Scott Key Fitzgeral..." [label="Francis Scott Key Fitzgeral...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "numerous stories for popula..." [label="numerous stories for popula...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this name" [label="this name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "F. Scott Fitzgerald" [label="F. Scott Fitzgerald", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beautiful and Damned" [label="Beautiful and Damned", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alabama" [label="Alabama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "temporary" [label="temporary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "marriage" [label="marriage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "met Zelda Sayre, a Southern..." [label="met Zelda Sayre, a Southern...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fitzgerald's marriage proposal" [label="Fitzgerald's marriage proposal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short story" [label="short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lifestyle" [label="lifestyle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "initially" [label="initially", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazines" [label="magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after he published the comm..." [label="after he published the comm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cultural sensation" [label="cultural sensation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his affluent lifestyle" [label="his affluent lifestyle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York state" [label="New York state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "due to his lack of financia..." [label="due to his lack of financia...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920s" [label="1920s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this" [label="this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the greatest Amer..." [label="as one of the greatest Amer...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "simply as Scott Fitzgerald" [label="simply as Scott Fitzgerald", fillcolor=lightgray, color=gray, shape=hexagon];
+    "commercially successful Thi..." [label="commercially successful Thi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "numerous" [label="numerous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critical" [label="critical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States Army" [label="United States Army", fillcolor=lightgray, color=gray, shape=hexagon];
+    "marry him" [label="marry him", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "F. Scott Fitzgerald's" [label="F. Scott Fitzgerald's", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "This Side of Paradise" -> "marry him" [label="has theme [Make_agreement_on_action]", color=lightblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "1922" [label="has time [Text]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "Age" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "1920" [label="has time [Successful_action]", color=purple, penwidth=2];
+    "This Side of Paradise" -> "lifestyle" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "United States" -> "20th century" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Alabama" -> "Zelda Sayre, a Southern deb..." [label="has theme [Make_acquaintance]", color=lightcyan, penwidth=1];
+    "This Side of Paradise" -> "1922" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "1917" [label="has time [Relation]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "F. Scott Fitzgerald's" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "during World War I" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "his death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "further into the cultural e..." [label="has goal [Cause_motion]", color=lightgoldenrod, penwidth=1];
+    "Alabama" -> "he met Zelda Sayre, a South..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Alabama" -> "Montgomery's exclusive coun..." [label="has group [Membership]", color=lightsteelblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "Beautiful and Damned" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "financial prospects" [label="has theme [Possession]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "His second novel The Beauti..." [label="has cause [Cause_motion]", color=lightgoldenrod, penwidth=1];
+    "F. Scott Fitzgerald" -> "as one of the greatest Amer..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "financial" [label="has theme [Possession]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "people" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "this name" [label="has theme [People]", color=lightgreen, penwidth=1];
+    "Alabama" -> "F. Scott Fitzgerald" [label="has theme [Make_acquaintance]", color=lightcyan, penwidth=1];
+    "This Side of Paradise" -> "after he published the comm..." [label="has time [Make_agreement_on_action]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "as one of the eminent write..." [label="has reason [Fame]", color=lightyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "century" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Saint Paul, Minnesota" -> "middle-class" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "This Side of Paradise" -> "decade" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "Princeton University where ..." [label="has event [Attending]", color=lightcyan, penwidth=1];
+    "This Side of Paradise" -> "Zelda Fitzgerald" [label="has theme [Make_agreement_on_action]", color=lightblue, penwidth=1];
+    "This Side of Paradise" -> "cultural sensation" [label="has theme [Becoming]", color=lightsteelblue, penwidth=1];
+    "Saint Paul, Minnesota" -> "family" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "initially" [label="has time [Respond_to_proposal]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "now" [label="has time [Categorization]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "name" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "1917" [label="has time [Successful_action]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "this" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Zelda Fitzgerald" -> "Zelda Sayre" [label="has theme [Forming_relationships]", color=lightseagreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "he did not receive critical..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "story" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "his novels depicting the fl..." [label="has reason [Fame]", color=lightyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "temporary" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "Alabama" -> "who" [label="has member [Membership]", color=lightsteelblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "1920" [label="has time [Possession]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "collection" [label="has theme [Aggregate]", color=lightgoldenrod, penwidth=1];
+    "This Side of Paradise" -> "magazines" [label="has theme [Desirability]", color=lightpink, penwidth=1];
+    "F. Scott Fitzgerald" -> "four novels, four story col..." [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "This Side of Paradise" -> "novel" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "United States" -> "novelist" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "short story" [label="has theme [Aggregate]", color=lightgoldenrod, penwidth=1];
+    "This Side of Paradise" -> "stories" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "This Side of Paradise" -> "novel" [label="has entity [Becoming]", color=lightsteelblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "commercially successful Thi..." [label="has text [Text]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "Chicago socialite Ginevra King" [label="has theme [Relation]", color=lightgray, penwidth=1];
+    "F. Scott Fitzgerald" -> "Saint Paul, Minnesota" [label="has location [Being_born]", color=green, penwidth=2];
+    "F. Scott Fitzgerald" -> "United States Army" [label="has group [Becoming_a_member]", color=lightseagreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "This Side of Paradise" [label="has means [Successful_action]", color=lightyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "1922" [label="has time [Cause_motion]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "1920s" [label="has theme [Simple_name]", color=lightgreen, penwidth=1];
+    "This Side of Paradise" -> "numerous" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "Francis Scott Key Fitzgeral..." [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "1940" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Alabama" -> "met Zelda Sayre, a Southern..." [label="has theme [Interior_profile_relation]", color=lightyellow, penwidth=1];
+    "Zelda Fitzgerald" -> "after he published the comm..." [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "New York state" [label="has location [Growing_food]", color=green, penwidth=2];
+    "United States" -> "1940" [label="has time [Origin]", color=purple, penwidth=2];
+    "This Side of Paradise" -> "1920" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "F. Scott Fitzgerald" -> "commercially" [label="has degree [Successful_action]", color=lightyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "Scott Fitzgerald disambigua..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "maintain his affluent lifes..." [label="has purpose [Text_creation]", color=lightpink, penwidth=1];
+    "F. Scott Fitzgerald" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Zelda Fitzgerald" -> "F. Scott Fitzgerald" [label="has theme [Forming_relationships]", color=lightseagreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "daughter" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Alabama" -> "While stationed in Alabama" [label="has time [Make_acquaintance]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "future literary critic Edmu..." [label="has theme [Forming_relationships]", color=lightseagreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "1920" [label="has time [Text]", color=purple, penwidth=2];
+    "F. Scott Fitzgerald" -> "simply as Scott Fitzgerald" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "numerous stories for popula..." [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "This Side of Paradise" -> "novel" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "F. Scott Fitzgerald" -> "success" [label="has theme [Desirability]", color=lightpink, penwidth=1];
+    "United States" -> "writers" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "This Side of Paradise" -> "marriage" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "F. Scott Fitzgerald" -> "stories" [label="has theme [Duration_description]", color=lightgray, penwidth=1];
+    "F. Scott Fitzgerald" -> "critical" [label="has theme [Judgment_communication]", color=lightgoldenrodyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "Zelda Fitzgerald" [label="has speaker [Respond_to_proposal]", color=lightgray, penwidth=1];
+    "F. Scott Fitzgerald" -> "Jazz" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "United States" -> "writers" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "his affluent lifestyle" [label="has activity [Activity_ongoing]", color=lightseagreen, penwidth=1];
+    "This Side of Paradise" -> "writers" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "F. Scott Fitzgerald" -> "20th" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "F. Scott Fitzgerald" -> "romantic relationship" [label="has means [Successful_action]", color=lightyellow, penwidth=1];
+    "F. Scott Fitzgerald" -> "into a middle-class family ..." [label="has theme [Being_born]", color=lightcoral, penwidth=1];
+    "F. Scott Fitzgerald" -> "romantic" [label="has theme [Relation]", color=lightgray, penwidth=1];
+    "Alabama" -> "stationed in Alabama" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "F. Scott Fitzgerald" -> "story" [label="has theme [Duration_description]", color=lightgray, penwidth=1];
+    "F. Scott Fitzgerald" -> "Fitzgerald's marriage proposal" [label="has theme [Respond_to_proposal]", color=lightgray, penwidth=1];
+    "F. Scott Fitzgerald" -> "due to his lack of financia..." [label="has theme [Respond_to_proposal]", color=lightgray, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Make_agreement_on_action_legend" [label="Make_agreement_on_action", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Successful_action_legend" [label="Successful_action", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cause_motion_legend" [label="Cause_motion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Respond_to_proposal_legend" [label="Respond_to_proposal", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Simple_name_legend" [label="Simple_name", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

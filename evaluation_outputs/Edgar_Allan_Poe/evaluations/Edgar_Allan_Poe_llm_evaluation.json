@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Categorization:has_category be the inventor of the detective fiction genre",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'he is generally considered to be the inventor of the detective fiction genre'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Becoming_a_member:has_theme http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Poe attended the University of Virginia, establishing a connection between the university and Poe, though the relationship is 'attended' rather than 'has_theme'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Death:has_time 1829",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'the death of Allan's wife, Frances, in 1829' - while this refers to Frances Allan's death, it strongly implies John Allan was alive at that time and experienced his wife's death"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Being_born:has_location http://en.wikipedia.org/wiki/Boston",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Poe was born in Boston'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Text_creation:has_author Edgar Allan Poe ( né Edgar Poe ; January 19, 1809 – October 7, 1849)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph mentions Poe published his first collection 'Tamerlane and Other Poems' and was a writer, establishing him as an author of texts"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Type:has_category detective fiction",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Poe is considered the inventor of detective fiction and that he is a central figure in early American literature, creating a semantic link between the United States and the genre."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Commitment:has_theme gambling",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Poe quarreled with John Allan over his gambling debts, linking John Allan to the theme of gambling."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Publishing:has_work his first collection, Tamerlane and Other Poems, which was credited only to 'a Bostonian'",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Poe attended the University of Virginia but left after a year, and later published his first collection while in the Army. There is no direct or indirect link suggesting the university published the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Fame:has_entity who",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple 'has_entity who' is semantically incomplete and does not represent a coherent piece of information that can be extracted from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Praiseworthiness:has_behavior contributing significantly to the emergence of science fiction",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph credits Poe (an American writer) with contributing to the emergence of science fiction. This creates a weak but valid semantic link between the United States and the behavior of contributing to sci-fi through one of its notable figures."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Death:has_theme http://en.wikipedia.org/wiki/ELIZA",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Eliza' as Poe's mother's name, but there is no semantic connection between the United States and death having a theme of ELIZA. The name appears in a biographical context, not as a thematic element of the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States_Military_Academy Education_teaching:has_teacher officer",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Poe failed as an 'officer cadet' at West Point (the United States Military Academy). While 'officer' is not explicitly a teacher, the role of an officer cadet implies a training/educational context. The connection is weak but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Ordinal_numbers:has_theme earn a living exclusively through writing",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Poe is described as 'the first well-known American writer to earn a living exclusively through writing.' This connects the concept of the United States to the theme of being the first (an ordinal number) to achieve this specific type of livelihood."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Calendric_unit:has_theme following",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'following' is used in a calendric/temporal context ('the following year'). While the connection to the United States as a theme for this word is extremely tenuous, the paragraph is about an American figure, creating a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Possession:has_theme money",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Money is a theme in Poe's life story (lack of money at university, quarrels over funds). As Poe's story is intrinsically linked to the United States, a weak semantic connection can be made between the country and the theme of possession/money."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Measure_duration:has_theme year",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Poe attended the University of Virginia for 'only a year', connecting the university to the concept of a year's duration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Being_necessary:has_theme funds",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Poe left the university due to a 'lack of money' and quarreled with John Allan over 'funds', connecting the university to the theme of necessary funds."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Poe is described as a writer and poet 'best known for his poetry', and he later declared his intention to become a writer 'primarily of poems', directly linking him to poetry as his text/body of work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Becoming:has_theme writer, primarily of poems",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "While the paragraph states 'Poe later failed as an officer cadet... declared his intention to become a writer, primarily of poems', this is Poe's becoming, not John Allan's. However, the event is part of the narrative involving John Allan, providing a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Arriving:has_goal temporary rapprochement",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Poe and Allan reached a temporary rapprochement', which describes an event of arriving at a state of reconciliation, a goal they achieved."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Age:has_entity adulthood",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'young adulthood' in the context of Poe living in the United States (Richmond, Virginia). The connection is very weak and indirect, but the concepts of 'United States' and 'adulthood' are both present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Poe's family (father, mother, foster parents) and their interactions, all of which took place in the United States. While the relationship is not explicitly stated, the themes of 'family' and the location 'United States' are semantically connected in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Reference_text:has_theme Edgar Allan Poe (disambiguation) and Poe (disambiguation )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states that 'Edgar Poe' and 'Poe' redirect to the article and references the disambiguation pages, directly linking the subject to the disambiguation themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Education_teaching:has_student http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph clearly states 'Poe attended the University of Virginia', which strongly implies a student relationship, even if the exact predicate 'has_student' is not used."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Purpose:has_location http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Poe failing as an officer cadet at West Point (the United States Military Academy) and his quarrels with John Allan, but it does not state or imply that John Allan himself had a purpose or location at the Academy. The connection is too indirect and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Praiseworthiness:has_theme which",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is incomplete and semantically incoherent ('has_theme which'). No meaningful information can be extracted from the paragraph to support this triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Statement:has_location http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Poe later failed as an officer cadet at West Point', which is the United States Military Academy. This is a clear, direct connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Frequency:has_event quarreled with John Allan over the funds needed to continue his education as well as his gambling debts",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'Poe attended the University of Virginia but left after only a year... He frequently quarreled with John Allan over the funds needed to continue his education as well as his gambling debts.' This is a direct and explicit connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Becoming:has_entity http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph describes a relationship where John Allan took Poe in ('Poe was taken in by John and Frances Allan'). While the predicate 'Becoming:has_entity' is vague, a semantic connection of guardianship/existence exists, supporting a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Political_locales:has_theme country",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the United States multiple times (e.g., 'American writer', 'Gothic fiction in the United States'). While the triple is very generic ('has_theme country'), there is a weak semantic connection as the US is the primary country context for the biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Death:has_theme Allan's wife, Frances",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'the death of Allan's wife, Frances, in 1829', which directly connects the theme of death to Frances, the wife of John Allan."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Adopt_selection:has_theme formally",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions the United States and the concept of formal adoption ('They never formally adopted him'). While the connection is weak and indirect, the theme of 'formal' action is present in the context of adoption within the US."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Adopt_selection:has_value http://en.wikipedia.org/wiki/Edgar_Allan_Poe",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Poe's life in the United States and the fact that he was not formally adopted. There is a very weak semantic link between the US, the selection process of adoption, and Poe as the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity writer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Poe is explicitly described as an 'American writer' and a central figure in 'early American literature', establishing a clear connection between the United States and the entity 'writer'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Becoming_a_member:has_group United States Army",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Poe attended the University of Virginia and later enlisted in the United States Army. While the triple's relationship is not explicitly stated, there is a sequential and thematic connection between the university and the army in the narrative of Poe's life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Success_or_failure:has_goal as an officer cadet at West Point",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Poe 'failed as an officer cadet at West Point', which implies he had the goal of becoming an officer cadet. The connection to the 'Success_or_failure' theme is semantically related, though the exact predicate 'has_goal' is not explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Age:has_age young",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the United States in the context of Poe being an American writer and his enlistment in the US Army, but there is no information whatsoever about the age of the United States as a country. The concept of 'young' is completely unrelated to the provided information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Personal_relationship:has_theme Allan's",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Poe's relationship with John Allan, including being taken in by him, quarreling over funds and gambling debts, and a temporary rapprochement. 'Allan's' is a direct reference to this central personal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Money:has_theme funds",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Poe left the University of Virginia due to a lack of money and quarreled with John Allan 'over the funds needed to continue his education'. This directly links the university to the theme of money/funds."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Publishing:has_time 1827",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year 1827 is mentioned in the paragraph for Poe's enlistment and publication of his first collection. However, this event is not connected to the University of Virginia; Poe had already left the university by this time. The connection is weak and based on temporal proximity rather than a direct relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Relative_time:has_theme temporary",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Poe's attendance at the University of Virginia was temporary (he left after a year), creating a weak semantic link between the university and a temporary state."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Becoming:has_location http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Poe failed as a cadet at West Point (the United States Military Academy), but there is no information connecting John Allan to that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Ordinal_numbers:has_type child",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Poe is described as a child in the context of the United States (he was a child when his parents died and he was taken in). This is a very weak and indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States_Military_Academy Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The sentence about Poe failing at West Point is immediately followed by him declaring his intention to become a writer 'primarily of poems'. This creates a weak contextual link between the Academy and poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States_Military_Academy Time_vector:has_event failed as an officer cadet at West Point",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The event 'Poe later failed as an officer cadet at West Point' is explicitly stated. West Point is the United States Military Academy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/University_of_Virginia Relative_time:has_theme death of Allan's wife, Frances, in 1829",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the death of Allan's wife, Frances, in 1829, but it is not thematically linked to the University of Virginia. The events are separate; the death occurred after Poe left the university."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Means:has_location http://en.wikipedia.org/wiki/United_States_Military_Academy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Poe later failed as an officer cadet at West Point,' which is the common name for the United States Military Academy. This is a clear, direct connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Allan_(colonel) Arriving:has_theme Poe and Allan",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses the relationship between Poe and John Allan extensively, including their quarrels and a 'temporary rapprochement.' While the predicate 'Arriving:has_theme' is vague, the theme of 'Poe and Allan' is central to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Relative_time:has_theme year",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions specific years (e.g., 1829) and the United States, but there is no semantic connection between the country and the abstract concept of a 'year' as a theme. The relationship is too vague and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Edgar_Allan_Poe Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His father abandoned the family in 1810,' providing a clear and direct kinship relationship for Edgar Allan Poe."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.5320000000000001,
+    "high_confidence_50": 30,
+    "high_confidence_80": 16,
+    "percent_50": 60.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

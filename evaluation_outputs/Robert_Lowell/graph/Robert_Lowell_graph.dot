@@ -1,0 +1,308 @@
+digraph Robert_Lowell {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "personal" [label="personal", fillcolor=lightcoral, color=red, shape=circle];
+    "personal, family, and psych..." [label="personal, family, and psych...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New England" [label="New England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "much of Lowell's work, whic..." [label="much of Lowell's work, whic...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Book" [label="Book", fillcolor=lightblue, color=blue, shape=ellipse];
+    "particularly in his early work" [label="particularly in his early work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "National Book Award for Poetry" [label="National Book Award for Poetry", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his 1959 book Life Studies,..." [label="his 1959 book Life Studies,...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Life Studies and Notebook" [label="Life Studies and Notebook", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "typical "confessional poetr..." [label="typical "confessional poetr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1917" [label="1917", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Carlos Williams" [label="William Carlos Williams", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number of distinctive styli..." [label="number of distinctive styli...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lowell's" [label="Lowell's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "see that Bishop is a sort o..." [label="see that Bishop is a sort o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "informal" [label="informal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Post-war" [label="Post-war", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verse" [label="verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poet" [label="American poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Life Studies" [label="Life Studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part of the confessional po..." [label="part of the confessional po...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was considered an import..." [label="he was considered an import...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1947" [label="1947", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a Boston Brahmin famil..." [label="into a Boston Brahmin famil...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Bishop is a sort of br..." [label="that Bishop is a sort of br...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Traill Spence Lowell..." [label="Robert Traill Spence Lowell...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most important A..." [label="one of the most important A...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "intense, uninhibited discus..." [label="intense, uninhibited discus...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "subjects" [label="subjects", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston Brahmin" [label="Boston Brahmin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most directly" [label="most directly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "region" [label="region", fillcolor=lightgray, color=gray, shape=hexagon];
+    "origins" [label="origins", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After the publication of hi..." [label="After the publication of hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "forms" [label="forms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National Institute of Arts ..." [label="National Institute of Arts ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets who most directly inf..." [label="poets who most directly inf...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both formal, metered verse ..." [label="both formal, metered verse ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Library of Congress" [label="Library of Congress", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sixth Consultant in Poetry ..." [label="sixth Consultant in Poetry ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Bishop" [label="Elizabeth Bishop", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poets" [label="American poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publication of his 1959 boo..." [label="publication of his 1959 boo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confessional poetry " model" [label="confessional poetry " model", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Traill Irish clergyman" [label="Robert Traill Irish clergyman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stylistic" [label="stylistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Traill Spence Lowell IV" [label="Robert Traill Spence Lowell IV", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston" [label="Boston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some poems from Life Studies" [label="some poems from Life Studies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over the course of his career" [label="over the course of his career", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poetry" [label="Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "emphasis" [label="emphasis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paula Hayes" [label="Paula Hayes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1959" [label="1959", fillcolor=lightgray, color=gray, shape=hexagon];
+    "past" [label="past", fillcolor=lightgray, color=gray, shape=hexagon];
+    "important part of the confe..." [label="important part of the confe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "distinctive stylistic modes..." [label="distinctive stylistic modes...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "combination" [label="combination", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poetry" [label="his poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1947 until 1948" [label="1947 until 1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new" [label="new", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "postwar" [label="postwar", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary scholar Paula Hayes" [label="literary scholar Paula Hayes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Lowell mythologized Ne..." [label="that Lowell mythologized Ne...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lowell" [label="Lowell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Allen Tate" [label="Allen Tate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confessional poetry movement" [label="confessional poetry movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "intense, uninhibited" [label="intense, uninhibited", fillcolor=lightgray, color=gray, shape=hexagon];
+    "National" [label="National", fillcolor=lightgray, color=gray, shape=hexagon];
+    "formal" [label="formal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "New England" -> "Lowell" [label="has speaker [Statement]", color=lightblue, penwidth=1];
+    "New England" -> "which" [label="has theme [Emphasizing]", color=lightcoral, penwidth=1];
+    "New England" -> "number" [label="has quantity [Quantified_mass]", color=lightgreen, penwidth=1];
+    "William Carlos Williams" -> "where" [label="has location [Serving_in_capacity]", color=green, penwidth=2];
+    "American poetry" -> "poets" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Life Studies" -> "1959" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "American poetry" -> "American poet" [label="has participant [Individual_history]", color=lightsteelblue, penwidth=1];
+    "Allen Tate" -> "who" [label="has entity [Subjective_influence]", color=lightgray, penwidth=1];
+    "New England" -> "work" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "New England" -> "1959" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "New England" -> "verse" [label="has goods [Expensiveness]", color=lightsalmon, penwidth=1];
+    "New England" -> "some" [label="has theme [Proportional_quantity]", color=lightgoldenrod, penwidth=1];
+    "New England" -> "National" [label="has theme [Political_locales]", color=lightseagreen, penwidth=1];
+    "National Book Award for Poetry" -> "National Institute of Arts ..." [label="has prize [Win_prize]", color=lightpink, penwidth=1];
+    "New England" -> "Lowell" [label="has agent [Labor_product]", color=lightsteelblue, penwidth=1];
+    "New England" -> "over the course of his career" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "New England" -> "Lowell" [label="has theme [Categorization]", color=lightblue, penwidth=1];
+    "New England" -> "region" [label="has theme [Locale]", color=lightcoral, penwidth=1];
+    "New England" -> "personal" [label="has theme [Cause_to_amalgamate]", color=lightgreen, penwidth=1];
+    "American poetry" -> "important part of the confe..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "American poetry" -> "family" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "New England" -> "combination" [label="has theme [Likelihood]", color=lightpink, penwidth=1];
+    "American poetry" -> "one of the most important A..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "New England" -> "emphasis" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Library of Congress" -> "Poetry" [label="has location [Appointing]", color=green, penwidth=2];
+    "New England" -> "1959" [label="has time [Age]", color=purple, penwidth=2];
+    "New England" -> "work" [label="has theme [Labor_product]", color=lightsteelblue, penwidth=1];
+    "New England" -> "particularly in his early work" [label="has theme [Categorization]", color=lightblue, penwidth=1];
+    "New England" -> "1959" [label="has time [Discussion]", color=purple, penwidth=2];
+    "American poetry" -> "American poet" [label="has theme [Desiring]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "public" [label="has theme [Cause_to_amalgamate]", color=lightgreen, penwidth=1];
+    "American poetry" -> "After the publication of hi..." [label="has time [Categorization]", color=purple, penwidth=2];
+    "Robert Traill Irish clergyman" -> "1917" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "American poetry" -> "past" [label="has theme [Individual_history]", color=lightsteelblue, penwidth=1];
+    "National Book Award for Poetry" -> "1947" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "New England" -> "distinctive stylistic modes..." [label="has theme [Quantified_mass]", color=lightgreen, penwidth=1];
+    "New England" -> "stylistic" [label="has theme [Type]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "1917" [label="has time [Origin]", color=purple, penwidth=2];
+    "Boston" -> "origins" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "American poetry" -> "his poetry" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "Boston" -> "Boston Brahmin" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "New England" -> "intense, uninhibited discus..." [label="has theme [Emphasizing]", color=lightcoral, penwidth=1];
+    "New England" -> "1959" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "American poetry" -> "United States" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "Paula Hayes" -> "that Lowell mythologized Ne..." [label="has opinion [Opinion]", color=lightsteelblue, penwidth=1];
+    "New England" -> "confessional poetry " model" [label="has theme [Typicality]", color=lightcoral, penwidth=1];
+    "Library of Congress" -> "Allen Tate" [label="has theme [Appointing]", color=lightsteelblue, penwidth=1];
+    "New England" -> "Lowell" [label="has author [Text]", color=lightblue, penwidth=1];
+    "American poetry" -> "American poet" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "New England" -> "forms" [label="has theme [Type]", color=lightsalmon, penwidth=1];
+    "Paula Hayes" -> "literary scholar Paula Hayes" [label="has theme [Opinion]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "poetry" [label="has text [Text]", color=lightblue, penwidth=1];
+    "New England" -> "typical "confessional poetr..." [label="has theme [Compliance]", color=lightcoral, penwidth=1];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "New England" -> "poems" [label="has theme [Proportional_quantity]", color=lightgoldenrod, penwidth=1];
+    "American poetry" -> "American poet" [label="has author [Text]", color=lightblue, penwidth=1];
+    "New England" -> "verse" [label="has theme [Measure_linear_extent]", color=lightgreen, penwidth=1];
+    "United States" -> "1917" [label="has time [Text]", color=purple, penwidth=2];
+    "New England" -> "1959" [label="has time [Publishing]", color=purple, penwidth=2];
+    "New England" -> "1959" [label="has time [Kinship]", color=purple, penwidth=2];
+    "New England" -> "much of Lowell's work, whic..." [label="has theme [Compliance]", color=lightcoral, penwidth=1];
+    "Boston" -> "into a Boston Brahmin famil..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "New England" -> "new" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "American poetry" -> "Life Studies" [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "New England" -> "1959" [label="has time [Emphasizing]", color=purple, penwidth=2];
+    "Library of Congress" -> "era" [label="has theme [Calendric_unit]", color=lightcyan, penwidth=1];
+    "New England" -> "1959" [label="has time [Importance]", color=purple, penwidth=2];
+    "New England" -> "verse" [label="has text [Text]", color=lightblue, penwidth=1];
+    "New England" -> "he was considered an import..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Library of Congress" -> "postwar" [label="has theme [Calendric_unit]", color=lightcyan, penwidth=1];
+    "New England" -> "number of distinctive styli..." [label="has task [Being_employed]", color=lightcoral, penwidth=1];
+    "New England" -> "some poems from Life Studies" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "New England" -> "intense, uninhibited" [label="has theme [Discussion]", color=lightgray, penwidth=1];
+    "Robert Traill Irish clergyman" -> "Robert Traill Spence Lowell..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "New England" -> "1959" [label="has time [Text]", color=purple, penwidth=2];
+    "New England" -> "Lowell" [label="has employee [Being_employed]", color=lightcoral, penwidth=1];
+    "Elizabeth Bishop" -> "that Bishop is a sort of br..." [label="has theme [Grasp]", color=lightsteelblue, penwidth=1];
+    "William Carlos Williams" -> "1947" [label="has time [Serving_in_capacity]", color=purple, penwidth=2];
+    "Robert Traill Irish clergyman" -> "Life Studies" [label="has text [Text]", color=lightblue, penwidth=1];
+    "New England" -> "poets who most directly inf..." [label="has message [Statement]", color=lightblue, penwidth=1];
+    "American poetry" -> "most" [label="has degree [Importance]", color=lightgoldenrod, penwidth=1];
+    "Life Studies" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Life Studies" -> "confessional poetry movement" [label="has theme [Part_whole]", color=lightcyan, penwidth=1];
+    "American poetry" -> "American poets" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "New England" -> "Lowell's" [label="has agent [Labor_product]", color=lightsteelblue, penwidth=1];
+    "New England" -> "publication of his 1959 boo..." [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "New England" -> "see that Bishop is a sort o..." [label="has theme [Possibility]", color=lightgray, penwidth=1];
+    "American poetry" -> "Post-war" [label="has time [Importance]", color=purple, penwidth=2];
+    "New England" -> "formal" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "New England" -> "Boston" [label="has location [Locale]", color=green, penwidth=2];
+    "William Carlos Williams" -> "informal" [label="has theme [Craft]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "which" [label="has agent [Cause_to_amalgamate]", color=lightgreen, penwidth=1];
+    "Life Studies" -> "Life Studies and Notebook" [label="has author [Text]", color=lightblue, penwidth=1];
+    "American poetry" -> "Robert Traill Irish clergyman" [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "Robert Traill Irish clergyman" -> "1959" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "William Carlos Williams" -> "art" [label="has activity [Craft]", color=lightgoldenrodyellow, penwidth=1];
+    "New England" -> "Lowell" [label="has author [Text_creation]", color=lightseagreen, penwidth=1];
+    "United States" -> "Robert Traill Spence Lowell IV" [label="has text [Text]", color=lightblue, penwidth=1];
+    "New England" -> "both formal, metered verse ..." [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "Boston" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "New England" -> "personal, family, and psych..." [label="has theme [Discussion]", color=lightgray, penwidth=1];
+    "New England" -> "his 1959 book Life Studies,..." [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "New England" -> "Book" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Robert Traill Irish clergyman" -> "1959" [label="has time [Text]", color=purple, penwidth=2];
+    "Allen Tate" -> "most directly" [label="has theme [Subjective_influence]", color=lightgray, penwidth=1];
+    "New England" -> "family" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Robert Traill Irish clergyman" -> "United States" [label="has theme [People_by_vocation]", color=lightseagreen, penwidth=1];
+    "New England" -> "part of the confessional po..." [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "Library of Congress" -> "1947" [label="has time [Appointing]", color=purple, penwidth=2];
+    "American poetry" -> "subjects" [label="has theme [Importance]", color=lightgoldenrod, penwidth=1];
+    "William Carlos Williams" -> "1947 until 1948" [label="has theme [Serving_in_capacity]", color=lightyellow, penwidth=1];
+    "Library of Congress" -> "sixth Consultant in Poetry ..." [label="has role [Appointing]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Statement_legend" [label="Statement", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Serving_in_capacity_legend" [label="Serving_in_capacity", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Individual_history_legend" [label="Individual_history", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Expensiveness_legend" [label="Expensiveness", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cause_to_amalgamate_legend" [label="Cause_to_amalgamate", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Typicality_legend" [label="Typicality", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Compliance_legend" [label="Compliance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Measure_linear_extent_legend" [label="Measure_linear_extent", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possibility_legend" [label="Possibility", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Craft_legend" [label="Craft", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

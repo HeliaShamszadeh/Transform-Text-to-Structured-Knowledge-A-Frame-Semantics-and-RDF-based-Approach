@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico Residence:has_theme Santa Fe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He is a longtime resident of Santa Fe, New Mexico', establishing a clear residence relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Calendric_unit:has_theme day",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Great Depression is mentioned as a historical event that affected Martin's family, but there is no connection to a calendric unit or day in the paragraph. The mention of 'George R. R. Martin Day' is unrelated to the Great Depression."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Text_creation:has_time 2011",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Richard is Martin's confirmation name. The year 2011 is mentioned in the context of the Game of Thrones TV series adaptation and Martin being on the Time 100 list. There is a weak semantic link through the author's timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Text_creation:has_author writer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Richard is part of George R.R. Martin's name, and he is explicitly identified as a writer and author multiple times in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Possession:has_theme Jean Cocteau Cinema",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Lev Grossman is mentioned as the Time writer who called Martin 'the American Tolkien'. The Jean Cocteau Cinema is mentioned as being owned by Martin. There is a weak, indirect connection through the paragraph's context about Martin's career and possessions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Appointing:has_time 13 years old",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple connects Bayonne, New Jersey to the age '13 years old', but the paragraph states Martin adopted the name Richard at age 13; there is no semantic connection between the city and that age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Inclusion:has_time 2011",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'in 2011, he was included on the annual Time 100 list'. While Lev Grossman is mentioned in the 2005 context, the 'inclusion' event is directly tied to the year 2011."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico Assistance:has_theme Santa Fe",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Santa Fe, New Mexico as Martin's longtime residence. The triple's theme is the city itself, which is semantically connected to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Evidence:has_theme be 53.6% \"British and Irish, 22.4% Ashkenazi Jewish, and 15.6% \"Broadly Northwestern European",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Great Depression is mentioned as the cause of Martin's family losing their wealth. The DNA percentages are from a completely separate genealogical test; there is no semantic link between these two pieces of information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Locative_relation:has_theme Bayonne docks",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Martin was reminded of his family's loss in the Great Depression when he passed what used to be their dock. This creates a weak but valid locative and thematic connection between the Great Depression and the Bayonne docks area."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Being_named:has_theme as the author of the series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present)",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states George R.R. Martin is the author of A Song of Ice and Fire, which was adapted into Game of Thrones and House of the Dragon. The triple's subject 'Richard' is weakly connected as it's part of Martin's full name (George Raymond Richard Martin). The predicate 'has_theme' is a very abstract relation that could tenuously link the subject to the object's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Examination:has_theme series Finding Your Roots",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Both the Great Depression and the series Finding Your Roots are mentioned in the paragraph. The Great Depression is mentioned in the context of Martin's family history, and Finding Your Roots is mentioned as the show where his DNA was tested. The predicate 'Examination:has_theme' is abstract enough that a weak semantic connection exists, as both are topics examined in the context of Martin's life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Removing:has_theme which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically incomplete and semantically incoherent. The object 'which' is a relative pronoun with no clear referent in the context of the subject 'Richard'. The paragraph contains no information about 'Richard' removing anything or having a theme of 'which'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Age:has_age 13 years",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Bayonne, New Jersey is mentioned as Martin's birthplace. The age '13 years' is mentioned in the context of Martin adopting the confirmation name 'Richard'. While the triple directly attributes the age to the city, a lenient interpretation allows for a weak connection as both pieces of information are present in the paragraph and related to Martin's life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories Assistance:has_goal create the Wild Cards anthology series",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Martin helped create the Wild Cards anthology series. The subject is a Wikipedia page presumably related to the Wild Cards series. The predicate 'Assistance:has_goal' is a reasonable abstract representation of 'helped create'. There is a clear semantic connection between the concept of the Wild Cards series and the action of creating it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Labeling:has_entity http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Lev Grossman is mentioned as calling Martin 'the American Tolkien', but there is no connection to a 'Martin (TV series)' entity in the paragraph. The mentioned TV series are Game of Thrones and House of the Dragon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Fame:has_entity fantasy novels",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Martin is the author of 'epic fantasy novels'. 'Richard' is part of his name (George Raymond Richard Martin), creating a weak semantic link between the entity 'Richard' and the concept of 'fantasy novels' through his authorship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories Intentionally_create:has_time 2022",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Martin 'helped create the Wild Cards anthology series'. The year 2022 is mentioned in the context of his other works (House of the Dragon, Elden Ring). There is a weak, indirect connection between the creation of Wild Cards and a time context (2022) present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Martin_(TV_series) Kinship:has_theme mother",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Martin's mother, but there is no reference to a 'Martin (TV series)' entity. The kinship theme of 'mother' is connected to the person George R.R. Martin, not to a TV series named after him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Buildings:has_time 1953",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The Great Depression is mentioned as the time when Martin's mother's family lost their wealth. The year 1953 is stated as when Martin's family moved. There is a reasonable semantic connection between the event (Great Depression) and a subsequent time period (1953) mentioned in the same context of family history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Roadways:has_time 1953",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bayonne, New Jersey is mentioned as Martin's birthplace and 1953 is mentioned as the year his family moved. While 'Roadways' is not explicitly mentioned, the movement implies a connection between the location and time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Text_creation:has_text series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Richard is part of Martin's name (he adopted Richard as confirmation name) and the text describes him as author of 'A Song of Ice and Fire' which was adapted into the mentioned TV series. The connection between the person (via name) and the creative work is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman People:has_time 2005",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 2005, Lev Grossman of Time called Martin...' providing a clear connection between Lev Grossman and the year 2005."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Subjective_influence:has_entity people",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Lev Grossman's inclusion of Martin in the 'Time 100 list of the most influential people in the world' implies a relationship between Grossman and the concept of 'people' (specifically influential people). While weak, there is a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Kinship:has_location http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Lev Grossman and Bayonne, New Jersey separately, but there is no stated connection between them. Bayonne is Martin's birthplace, not Grossman's location. This relationship is not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Kinship:has_theme http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions George R.R. Martin and the Great Depression, but there is no connection between the Great Depression and a 'Martin (TV series)' theme. The TV series mentioned are Game of Thrones and House of the Dragon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Labeling:has_speaker Lev Grossman of Time",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Lev Grossman of Time called Martin...', which directly supports the relationship that Lev Grossman is a speaker (someone who made a statement)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Buildings:has_theme housing",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The Great Depression is mentioned in the context of Martin's family losing their wealth, including their house. The paragraph also mentions the family moving to a 'federal housing project' in 1953, which is thematically linked to economic hardship, a consequence of eras like the Depression. The connection is indirect but semantically reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Political_locales:has_time 1953",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1953 is mentioned in the paragraph, and the Great Depression is also mentioned. While the text does not state the Great Depression lasted until 1953, it describes the family moving to a housing project in that year as a consequence of the financial ruin caused by the Depression. This is a very weak and indirect temporal link, but a lenient interpretation allows for a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Age:has_degree younger",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Martin has 'two younger sisters'. The Great Depression is the event that caused his family's financial decline. A very lenient, thematic reading could connect an economic depression to a state of being 'lesser' or 'reduced', which is semantically related to 'younger' as a degree of age/development. This is a very weak and abstract connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Being_named:has_entity American writer and television producer",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. The subject is 'Richard' (presumably the name), but the paragraph states that 'George Raymond Martin' is the American writer and television producer. There is no direct or indirect connection between the entity 'Richard' and the profession 'American writer and television producer' as stated in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Possession:has_theme house on Broadway",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph links the Great Depression to the loss of the family's wealth and property. While it doesn't state the Great Depression 'possessed' the house, it thematically connects the economic event to the family's circumstances, including their residence. The house on Broadway is mentioned as the family's first home, and the context implies their financial situation was a result of the Depression."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression First_experience:has_theme lived in a house on Broadway belonging to Martin's great-grandmother",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the family lived in the house on Broadway and that Martin was reminded daily of the wealth lost in the Great Depression when he passed what used to be his family's dock and house. This creates a strong thematic link between the experience of living in the great-grandmother's house and the context of the Great Depression's impact."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Project:has_location near the Bayonne docks",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions a 'federal housing project near the Bayonne docks' that the family moved to in 1953. The Great Depression is mentioned earlier as the cause of the family's financial ruin. The connection between the 'project' and the 'Great Depression' is extremely weak and indirect; the project itself is not attributed to the Depression era in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman People:has_theme most influential",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Lev Grossman is mentioned as the person who called Martin 'the American Tolkien' and the paragraph states that Martin was included on the Time 100 list of the 'most influential people in the world'. This directly connects Lev Grossman to the theme of influence, as he was the one who contributed to Martin's recognition in a major publication."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Appointing:has_theme http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Bayonne is mentioned as Martin's birthplace, but there is no connection to a TV series named 'Martin' in the paragraph. The mentioned TV series are Game of Thrones and House of the Dragon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Text:has_theme most influential people in the world",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lev Grossman called Martin influential, and Martin was included on the Time 100 list of the most influential people. There is a semantic link between Grossman and the theme of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Project:has_activity housing",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The Great Depression is mentioned in the context of Martin's family losing their wealth. The paragraph also mentions the family moving to a 'federal housing project' in 1953, which is a post-Depression event weakly linked to the economic context of the Depression."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Measure_duration:has_theme 13",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Bayonne is Martin's birthplace, and the number 13 appears in the text as the age he adopted his confirmation name. This is a very weak and indirect semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Examination:has_knowledge DNA",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The Great Depression and DNA are both mentioned in the paragraph, though in completely unrelated contexts (family history vs. ancestry test). A lenient interpretation allows for a weak connection based on both being topics of information revealed about Martin's past."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey Age:has_time 1948",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Bayonne, New Jersey is mentioned as Martin's birthplace and 1948 is his birth year, creating a semantic connection between the location and time"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories Assistance:has_time 2022",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Wild Cards anthology series is mentioned and 2022 appears in the context of House of Dragon and Elden Ring, creating a weak temporal connection"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Possession:has_owner Martin's great-grandmother",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Great Depression is mentioned in relation to Martin's family losing wealth, and his great-grandmother owned property, creating a weak semantic link through family possessions"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman Text:has_text list",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Lev Grossman is mentioned and he included Martin on Time's 'list' of most influential people, creating a clear connection between Grossman and a list"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Martin_(TV_series) Being_born:has_location Bayonne, New Jersey",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Martin (the person) was born in Bayonne, New Jersey, creating a semantic connection between the Martin entity and the birthplace location"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Project:has_agent federal",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'federal housing project' and 'Great Depression' in separate contexts. While there's no direct connection stated, the federal government is historically associated with responses to the Great Depression, creating a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard Origin:has_theme American",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Richard is mentioned as Martin's confirmation name, and Martin is repeatedly described as 'American'. There's a weak thematic connection through the person's nationality."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Great_Depression Buildings:has_location http://en.wikipedia.org/wiki/Broadway_(Manhattan)",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions both 'Great Depression' and 'Broadway' (the street where Martin's family lived), though not in direct relation to each other. There's an extremely weak connection through shared context in Martin's life story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Martin_(TV_series) Being_born:has_time 1948",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While 'Martin (TV series)' is not mentioned, the paragraph does discuss George R.R. Martin (born 1948) and his television work. There's a weak semantic connection through the shared name 'Martin' and the birth year 1948."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lev_Grossman People:has_person people",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lev Grossman is mentioned in the paragraph as a person from Time magazine. The triple is vague but can be interpreted as 'Lev Grossman is a person', which is reasonably extractable from the context."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 25,
+    "accuracy": 0.5,
+    "avg_confidence": 0.45199999999999996,
+    "high_confidence_50": 25,
+    "high_confidence_80": 7,
+    "percent_50": 50.0,
+    "percent_80": 14.000000000000002,
+    "max_triples_limit": 50
+  }
+}

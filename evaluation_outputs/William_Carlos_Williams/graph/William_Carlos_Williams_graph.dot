@@ -1,0 +1,266 @@
+digraph William_Carlos_Williams {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "as " my'case'to work up" [label="as " my'case'to work up", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1923" [label="1923", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Williams College" [label="Williams College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hospital" [label="Hospital", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between men" [label="between men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "real original emphasis func..." [label="real original emphasis func...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "closely" [label="closely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "chief" [label="chief", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his best known poems, " Thi..." [label="his best known poems, " Thi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1924" [label="1924", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Some" [label="Some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charles Demuth" [label="Charles Demuth", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Americans" [label="Americans", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poet and physician" [label="American poet and physician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "men" [label="men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Liberia national football team" [label="Liberia national football team", fillcolor=lightgray, color=gray, shape=hexagon];
+    "differences between men" [label="differences between men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Carlos Williams footballer " [label="Carlos Williams footballer ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New Jersey" [label="New Jersey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as breaking through the ali..." [label="as breaking through the ali...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "We walk the wards that Will..." [label="We walk the wards that Will...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hospital's" [label="hospital's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Randall Jarrell" [label="Randall Jarrell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His Spring and All 1923" [label="His Spring and All 1923", fillcolor=lightgray, color=gray, shape=hexagon];
+    "painting" [label="painting", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Williams "sought to ex..." [label="that Williams "sought to ex...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Carlos Williams" [label="William Carlos Williams", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both pediatrics and general..." [label="both pediatrics and general...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his democracy" [label="his democracy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gold" [label="Gold", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry such as I did not know" [label="poetry such as I did not know", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Carlos Williams Sep..." [label="William Carlos Williams Sep...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poem " The Great Figure " [label="his poem " The Great Figure ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    " The Great Figure" [label=" The Great Figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This Is Just" [label="This Is Just", fillcolor=lightgray, color=gray, shape=hexagon];
+    "expressing his point of view" [label="expressing his point of view", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pediatrics" [label="pediatrics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hospital" [label="hospital", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Figure 5 in Gold by Charles..." [label="Figure 5 in Gold by Charles...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "known as St. Mary's General..." [label="known as St. Mary's General...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "visual arts" [label="visual arts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernism and imagism" [label="modernism and imagism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "such a context" [label="such a context", fillcolor=lightgray, color=gray, shape=hexagon];
+    "painting I Saw the Figure 5..." [label="painting I Saw the Figure 5...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paterson, New Jersey" [label="Paterson, New Jersey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Waste Land" [label="The Waste Land", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spring" [label="Spring", fillcolor=lightgray, color=gray, shape=hexagon];
+    "arts" [label="arts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his point of view" [label="his point of view", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. Mary's" [label="St. Mary's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as St. Mary's General Hospital" [label="as St. Mary's General Hospital", fillcolor=lightgray, color=gray, shape=hexagon];
+    "equal level with the reader" [label="equal level with the reader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumous Pulitzer Prize f..." [label="posthumous Pulitzer Prize f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wake of T. S. Eliot's The W..." [label="wake of T. S. Eliot's The W...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "than their similarities" [label="than their similarities", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language and thought materi..." [label="language and thought materi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that Williams " feels, not ..." [label="that Williams " feels, not ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet and physician" [label="poet and physician", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poems" [label="Poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Little Men" [label="Little Men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as" [label="as", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1946" [label="1946", fillcolor=lightgray, color=gray, shape=hexagon];
+    "through his way of speaking" [label="through his way of speaking", fillcolor=lightgray, color=gray, shape=hexagon];
+    "visual" [label="visual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "General" [label="General", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Marc Hofstadter" [label="Marc Hofstadter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the differences betwee..." [label="that the differences betwee...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1963" [label="1963", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "New Jersey" -> "chief" [label="has leader [Leadership]", color=lightblue, penwidth=1];
+    "American poetry" -> "1963" [label="has time [Cognitive_connection]", color=purple, penwidth=2];
+    "New Jersey" -> "which" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "New Jersey" -> "Some" [label="has theme [Proportional_quantity]", color=lightyellow, penwidth=1];
+    "The Waste Land" -> "as breaking through the ali..." [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "William Carlos Williams" -> " The Great Figure" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "The Waste Land" -> "real original emphasis func..." [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "New Jersey" -> "poems" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "New Jersey" -> "St. Mary's" [label="has theme [Buildings]", color=lightgray, penwidth=1];
+    "New Jersey" -> "his best known poems, " Thi..." [label="has theme [Proportional_quantity]", color=lightyellow, penwidth=1];
+    "Little Men" -> "his point of view" [label="has theme [Expressing_publicly]", color=lightgoldenrodyellow, penwidth=1];
+    "New Jersey" -> "Hospital" [label="has theme [Buildings]", color=lightgray, penwidth=1];
+    "New Jersey" -> "arts" [label="has activity [Craft]", color=lightseagreen, penwidth=1];
+    "Williams College" -> "his democracy" [label="has theme [Expressing_publicly]", color=lightgoldenrodyellow, penwidth=1];
+    "Williams College" -> "that the differences betwee..." [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "Williams College" -> "through his way of speaking" [label="has means [Expressing_publicly]", color=lightgoldenrodyellow, penwidth=1];
+    "New Jersey" -> "Paterson, New Jersey" [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Liberia national football team" -> "poetry such as I did not know" [label="has message [Request]", color=lightgoldenrod, penwidth=1];
+    "The Waste Land" -> "his poem " The Great Figure " [label="has entity [Subjective_influence]", color=lightpink, penwidth=1];
+    "Liberia national football team" -> "as" [label="has theme [Awareness]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "poet and physician" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Charles Demuth" -> "Gold" [label="has location [Perception_experience]", color=green, penwidth=2];
+    "American poetry" -> "closely" [label="has degree [Cognitive_connection]", color=lightcoral, penwidth=1];
+    "New Jersey" -> "Poems" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Little Men" -> "men" [label="has person [People]", color=red, penwidth=2];
+    "The Waste Land" -> "wake of T. S. Eliot's The W..." [label="has time [Text_creation]", color=purple, penwidth=2];
+    "The Waste Land" -> "His Spring and All 1923" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "New Jersey" -> "pediatrics" [label="has theme [Leadership]", color=lightblue, penwidth=1];
+    "New Jersey" -> "William Carlos Williams" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "New Jersey" -> "1924" [label="has time [Buildings]", color=purple, penwidth=2];
+    "New Jersey" -> "poems" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "New Jersey" -> "William Carlos Williams" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "New Jersey" -> "visual" [label="has culture [Craft]", color=lightseagreen, penwidth=1];
+    "Little Men" -> "between men" [label="has theme [Similarity]", color=lightsteelblue, penwidth=1];
+    "Randall Jarrell" -> "that Williams " feels, not ..." [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "Americans" [label="has theme [Origin]", color=lightcoral, penwidth=1];
+    "New Jersey" -> "hospital" [label="has theme [Buildings]", color=lightgray, penwidth=1];
+    "New Jersey" -> "1924" [label="has time [Death]", color=purple, penwidth=2];
+    "New Jersey" -> "that" [label="has theme [Statement]", color=lightsalmon, penwidth=1];
+    "Charles Demuth" -> "Figure 5 in Gold by Charles..." [label="has theme [Perception_experience]", color=lightblue, penwidth=1];
+    "New Jersey" -> "as St. Mary's General Hospital" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "William Carlos Williams" -> "1963" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "William Carlos Williams" -> "Americans" [label="has theme [People_by_vocation]", color=lightgray, penwidth=1];
+    "American poetry" -> "Spring" [label="has theme [Calendric_unit]", color=lightcyan, penwidth=1];
+    "New Jersey" -> "We walk the wards that Will..." [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "Williams College" -> "that" [label="has theme [Self_motion]", color=lightgoldenrodyellow, penwidth=1];
+    "American poetry" -> "1963" [label="has time [Origin]", color=purple, penwidth=2];
+    "New Jersey" -> "hospital's" [label="has theme [Leadership]", color=lightblue, penwidth=1];
+    "New Jersey" -> "best" [label="has degree [Fame]", color=lightseagreen, penwidth=1];
+    "New Jersey" -> "General" [label="has type [Buildings]", color=lightgray, penwidth=1];
+    "New Jersey" -> "as " my'case'to work up" [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "New Jersey" -> "painting" [label="has theme [Physical_artworks]", color=lightsalmon, penwidth=1];
+    "Williams College" -> "both pediatrics and general..." [label="has theme [Practice]", color=lightgoldenrod, penwidth=1];
+    "Little Men" -> "than their similarities" [label="has degree [Importance]", color=lightpink, penwidth=1];
+    "William Carlos Williams" -> "1946" [label="has time [Text]", color=purple, penwidth=2];
+    "New Jersey" -> "Gold" [label="has location [Objective_influence]", color=green, penwidth=2];
+    "New Jersey" -> "known as St. Mary's General..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Little Men" -> "Marc Hofstadter" [label="has speaker [Statement]", color=lightsalmon, penwidth=1];
+    "Little Men" -> "equal level with the reader" [label="has theme [Statement]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "The Waste Land" -> "Gold" [label="has location [Subjective_influence]", color=green, penwidth=2];
+    "American poetry" -> "American poet and physician" [label="has theme [Cognitive_connection]", color=lightcoral, penwidth=1];
+    "New Jersey" -> "poetry" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "Williams College" [label="has recipient [Receiving]", color=lightcoral, penwidth=1];
+    "American poetry" -> "posthumous Pulitzer Prize f..." [label="has theme [Receiving]", color=lightcoral, penwidth=1];
+    "William Carlos Williams" -> "Paterson, New Jersey" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "New Jersey" -> "1962" [label="has time [Text]", color=purple, penwidth=2];
+    "The Waste Land" -> "Williams College" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "New Jersey" -> "1946" [label="has time [Categorization]", color=purple, penwidth=2];
+    "New Jersey" -> "such a context" [label="has theme [Becoming_aware]", color=lightblue, penwidth=1];
+    "Little Men" -> "differences between men" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "William Carlos Williams" -> "Carlos Williams footballer " [label="has information [Reference_text]", color=lightcoral, penwidth=1];
+    "William Carlos Williams" -> "1963" [label="has time [Text]", color=purple, penwidth=2];
+    "Little Men" -> "language and thought materi..." [label="has instrument [Using]", color=lightgreen, penwidth=1];
+    "American poetry" -> "1962" [label="has time [Receiving]", color=purple, penwidth=2];
+    "New Jersey" -> "William Carlos Williams" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "New Jersey" -> "poems" [label="has entity [Fame]", color=lightseagreen, penwidth=1];
+    "New Jersey" -> "This Is Just" [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "New Jersey" -> "Gold" [label="has location [Craft]", color=green, penwidth=2];
+    "American poetry" -> "modernism and imagism" [label="has theme [Cognitive_connection]", color=lightcoral, penwidth=1];
+    "William Carlos Williams" -> "Americans" [label="has location [Text]", color=green, penwidth=2];
+    "William Carlos Williams" -> "Gold" [label="has location [Text]", color=green, penwidth=2];
+    "New Jersey" -> "Gold" [label="has location [Physical_artworks]", color=green, penwidth=2];
+    "Little Men" -> "that Williams "sought to ex..." [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "William Carlos Williams" -> "poet" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Little Men" -> "expressing his point of view" [label="has role [Using]", color=lightgreen, penwidth=1];
+    "New Jersey" -> "visual arts" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "The Waste Land" -> "painting I Saw the Figure 5..." [label="has product [Subjective_influence]", color=lightpink, penwidth=1];
+    "William Carlos Williams" -> "poems" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "William Carlos Williams" -> "William Carlos Williams Sep..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "New Jersey" -> "1924" [label="has time [Leadership]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Leadership_legend" [label="Leadership", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Cognitive_connection_legend" [label="Cognitive_connection", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Expressing_publicly_legend" [label="Expressing_publicly", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Craft_legend" [label="Craft", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Request_legend" [label="Request", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Self_motion_legend" [label="Self_motion", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Physical_artworks_legend" [label="Physical_artworks", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Practice_legend" [label="Practice", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

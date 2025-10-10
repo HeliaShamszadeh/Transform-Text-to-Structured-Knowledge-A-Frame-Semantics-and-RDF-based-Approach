@@ -1,0 +1,2695 @@
+{
+  "metadata": {
+    "total_triples": 125,
+    "source_file": "Wallace_Stevens",
+    "extraction_date": "2025-09-28 07:15:42",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Being_born:has_theme",
+        "object": "into a Lutheran family of Dutch and German descent",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Inclusion:has_theme",
+        "object": "Transport to Summer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Subjective_influence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Attending:has_agent",
+        "object": "son of a prosperous lawyer, Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Businesses:has_location",
+        "object": "Hartford, Connecticut",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_York_University",
+        "predicate": "Kinship:has_theme",
+        "object": "son",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_York_University",
+        "predicate": "Kinship:has_time",
+        "object": "1900",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Leadership:has_role",
+        "object": "president",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_time",
+        "object": "1950",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Relative_time:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Frequency:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Colonization:has_time",
+        "object": "1709",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+        "predicate": "Win_prize:has_prize",
+        "object": "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Leadership:has_theme",
+        "object": "Harvard Advocate",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Education_teaching:has_skill",
+        "object": "non-degree",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Attending:has_event",
+        "object": "http://en.wikipedia.org/wiki/Harvard_University",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Duration_description:has_time",
+        "object": "1977",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Text:has_text",
+        "object": "edition",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_author",
+        "object": "her father's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Frequency:has_theme",
+        "object": "period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Kinship:has_time",
+        "object": "1977",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Frequency:has_theme",
+        "object": "period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Means:has_purpose",
+        "object": "Looking at a Blackbird",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/John_Zeller",
+        "predicate": "Kinship:has_theme",
+        "object": "maternal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_entity",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Education_teaching:has_student",
+        "object": "student",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Process_start:has_theme",
+        "object": "Ideas of Order (1933 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_York_University",
+        "predicate": "People_by_vocation:has_time",
+        "object": "1900",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+        "predicate": "Memory:has_time",
+        "object": "when she posthumously reprinted her father's collected letters in 1977 for Knopf",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Relative_time:has_time",
+        "object": "1950",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Process_start:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lutheranism",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lutheranism",
+        "predicate": "Kinship:has_theme",
+        "object": "Dutch and German descent",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Publishing:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Attributed_information:has_theme",
+        "object": "Stevens was personally introduced to the philosopher George Santayana while living in Boston and was strongly influenced by Santayana's book Interpretations of Poetry and Religion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Fields:has_location",
+        "object": "Key West",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_York_University",
+        "predicate": "People_by_vocation:has_person",
+        "object": "lawyer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Process_start:has_event",
+        "object": "His second period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Subjective_influence:has_degree",
+        "object": "strongly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+        "predicate": "Memory:has_theme",
+        "object": "her father's long dedication to Santayana",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "predicate": "Being_employed:has_position",
+        "object": "as an executive",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Craft:has_activity",
+        "object": "making art and poetry in particular",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "edition",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Being_born:has_location",
+        "object": "Reading, Pennsylvania",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Being_born:has_time",
+        "object": "1879",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Means:has_means",
+        "object": "Ways",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Removing:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Alfred_A._Knopf",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/New_York_University",
+        "predicate": "Kinship:has_theme",
+        "object": "prosperous lawyer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+        "predicate": "Win_prize:has_competitor",
+        "object": "His Collected Poems (1954)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Attending:has_theme",
+        "object": "1897 to 1900",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Removing:has_time",
+        "object": "1977",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Colonization:has_purpose",
+        "object": "as a religious refugee",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Process_start:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "predicate": "Education_teaching:has_student",
+        "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Subjective_influence:has_location",
+        "object": "http://en.wikipedia.org/wiki/Boston",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+        "predicate": "Publishing:has_time",
+        "object": "1950",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Process_start:has_event",
+        "object": "Stevens's first period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Process_start:has_theme",
+        "object": "publication of Harmonium (1923 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Relative_time:has_theme",
+        "object": "slightly revised and amended second edition in 1930",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Relative_time:has_theme",
+        "object": "publication of The Auroras of Autumn (1950)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+        "predicate": "Text:has_text",
+        "object": "Interpretations of Poetry and Religion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "Santayana's book Interpretations of Poetry and Religion",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Frequency:has_location",
+        "object": "Transport",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "Many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Attending:has_theme",
+        "object": "as a non-degree three-year special student",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Removing:has_theme",
+        "object": "her father's collected letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Inclusion:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Text:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Publishing:has_work",
+        "object": "http://en.wikipedia.org/wiki/Harmonium_(poetry_collection)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Text:has_author",
+        "object": "Stevens's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Boston",
+        "predicate": "Attributed_information:has_speaker",
+        "object": "his biographer Milton Bates",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Ordinal_numbers:has_time",
+        "object": "1950",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Attending:has_time",
+        "object": "1900",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Ordinal_numbers:has_location",
+        "object": "Transport",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Relative_time:has_theme",
+        "object": "Necessary Angel : Essays On Reality and the Imagination (1951",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Process_start:has_time",
+        "object": "1950",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "predicate": "Education_teaching:has_institution",
+        "object": "Harvard and then New York Law School",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Process_start:has_theme",
+        "object": "publication of The Auroras of Autumn (1950 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+        "predicate": "Quantified_mass:has_location",
+        "object": "Key West",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Fields:has_theme",
+        "object": "art",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+        "predicate": "Memory:has_theme",
+        "object": "Holly Stevens, his daughter",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+        "predicate": "Text:has_author",
+        "object": "Santayana's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Frequency:has_time",
+        "object": "1933",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+        "predicate": "Win_prize:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Duration_description:has_theme",
+        "object": "dedication to Santayana",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Businesses:has_business",
+        "object": "company",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_entity",
+        "object": "modernist poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_theme",
+        "object": "Reality and the Imagination",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Process_start:has_location",
+        "object": "Transport",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Relative_time:has_theme",
+        "object": "publication of Harmonium (1923)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Removing:has_agent",
+        "object": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Process_start:has_event",
+        "object": "His third and final period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Residence:has_location",
+        "object": "http://en.wikipedia.org/wiki/Boston",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_time",
+        "object": "1977",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Colonization:has_theme",
+        "object": "Susquehanna Valley",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Education_teaching:has_level",
+        "object": "special",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_text",
+        "object": "Essays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Leadership:has_time",
+        "object": "1901",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+        "predicate": "Publishing:has_work",
+        "object": "Auroras of Autumn (1950)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Reparation:has_time",
+        "object": "1923",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Education_teaching:has_theme",
+        "object": "three-year",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "period",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Colonization:has_theme",
+        "object": "John Zeller, his maternal great-grandfather",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Businesses:has_product",
+        "object": "insurance",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+        "predicate": "Inclusion:has_location",
+        "object": "Transport",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Text:has_text",
+        "object": "letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+        "predicate": "Text:has_location",
+        "object": "Key West",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/American_poetry",
+        "predicate": "Reparation:has_theme",
+        "object": "second edition",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+        "predicate": "Craft:has_location",
+        "object": "Key West",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "Stevens's poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+        "predicate": "Education_teaching:has_time",
+        "object": "1900",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/Boston",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+        "predicate": "Being_employed:has_theme",
+        "object": "insurance company in Hartford, Connecticut",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Attributed_information:has_theme",
+          "object": "Stevens was personally introduced to the philosopher George Santayana while living in Boston and was strongly influenced by Santayana's book Interpretations of Poetry and Religion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Being_born:has_theme",
+          "object": "into a Lutheran family of Dutch and German descent",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Attending:has_event",
+          "object": "http://en.wikipedia.org/wiki/Harvard_University",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Process_start:has_event",
+          "object": "His second period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Being_born:has_location",
+          "object": "Reading, Pennsylvania",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Being_born:has_time",
+          "object": "1879",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Process_start:has_event",
+          "object": "Stevens's first period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Process_start:has_event",
+          "object": "His third and final period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "Santayana's book Interpretations of Poetry and Religion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Inclusion:has_theme",
+          "object": "Transport to Summer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Subjective_influence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Attending:has_agent",
+          "object": "son of a prosperous lawyer, Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Businesses:has_location",
+          "object": "Hartford, Connecticut",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_York_University",
+          "predicate": "Kinship:has_theme",
+          "object": "son",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_York_University",
+          "predicate": "Kinship:has_time",
+          "object": "1900",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Leadership:has_role",
+          "object": "president",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_time",
+          "object": "1950",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Relative_time:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Frequency:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Colonization:has_time",
+          "object": "1709",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+          "predicate": "Win_prize:has_prize",
+          "object": "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Leadership:has_theme",
+          "object": "Harvard Advocate",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Education_teaching:has_skill",
+          "object": "non-degree",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Duration_description:has_time",
+          "object": "1977",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Text:has_text",
+          "object": "edition",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_author",
+          "object": "her father's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Frequency:has_theme",
+          "object": "period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Kinship:has_time",
+          "object": "1977",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Frequency:has_theme",
+          "object": "period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Means:has_purpose",
+          "object": "Looking at a Blackbird",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/John_Zeller",
+          "predicate": "Kinship:has_theme",
+          "object": "maternal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_entity",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Education_teaching:has_student",
+          "object": "student",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Process_start:has_theme",
+          "object": "Ideas of Order (1933 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_York_University",
+          "predicate": "People_by_vocation:has_time",
+          "object": "1900",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+          "predicate": "Memory:has_time",
+          "object": "when she posthumously reprinted her father's collected letters in 1977 for Knopf",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Relative_time:has_time",
+          "object": "1950",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Process_start:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lutheranism",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lutheranism",
+          "predicate": "Kinship:has_theme",
+          "object": "Dutch and German descent",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Publishing:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Fields:has_location",
+          "object": "Key West",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_York_University",
+          "predicate": "People_by_vocation:has_person",
+          "object": "lawyer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Subjective_influence:has_degree",
+          "object": "strongly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+          "predicate": "Memory:has_theme",
+          "object": "her father's long dedication to Santayana",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "predicate": "Being_employed:has_position",
+          "object": "as an executive",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Craft:has_activity",
+          "object": "making art and poetry in particular",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "edition",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Means:has_means",
+          "object": "Ways",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Removing:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Alfred_A._Knopf",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/New_York_University",
+          "predicate": "Kinship:has_theme",
+          "object": "prosperous lawyer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+          "predicate": "Win_prize:has_competitor",
+          "object": "His Collected Poems (1954)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Attending:has_theme",
+          "object": "1897 to 1900",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Removing:has_time",
+          "object": "1977",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Colonization:has_purpose",
+          "object": "as a religious refugee",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Process_start:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "predicate": "Education_teaching:has_student",
+          "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Subjective_influence:has_location",
+          "object": "http://en.wikipedia.org/wiki/Boston",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+          "predicate": "Publishing:has_time",
+          "object": "1950",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Process_start:has_theme",
+          "object": "publication of Harmonium (1923 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Relative_time:has_theme",
+          "object": "slightly revised and amended second edition in 1930",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Relative_time:has_theme",
+          "object": "publication of The Auroras of Autumn (1950)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+          "predicate": "Text:has_text",
+          "object": "Interpretations of Poetry and Religion",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Frequency:has_location",
+          "object": "Transport",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "Many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Attending:has_theme",
+          "object": "as a non-degree three-year special student",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Removing:has_theme",
+          "object": "her father's collected letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Inclusion:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Text:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Publishing:has_work",
+          "object": "http://en.wikipedia.org/wiki/Harmonium_(poetry_collection)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Text:has_author",
+          "object": "Stevens's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Boston",
+          "predicate": "Attributed_information:has_speaker",
+          "object": "his biographer Milton Bates",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Ordinal_numbers:has_time",
+          "object": "1950",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Attending:has_time",
+          "object": "1900",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Ordinal_numbers:has_location",
+          "object": "Transport",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Relative_time:has_theme",
+          "object": "Necessary Angel : Essays On Reality and the Imagination (1951",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Process_start:has_time",
+          "object": "1950",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "predicate": "Education_teaching:has_institution",
+          "object": "Harvard and then New York Law School",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Process_start:has_theme",
+          "object": "publication of The Auroras of Autumn (1950 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "predicate": "Quantified_mass:has_location",
+          "object": "Key West",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Fields:has_theme",
+          "object": "art",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+          "predicate": "Memory:has_theme",
+          "object": "Holly Stevens, his daughter",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+          "predicate": "Text:has_author",
+          "object": "Santayana's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Frequency:has_time",
+          "object": "1933",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+          "predicate": "Win_prize:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Duration_description:has_theme",
+          "object": "dedication to Santayana",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Businesses:has_business",
+          "object": "company",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_entity",
+          "object": "modernist poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_theme",
+          "object": "Reality and the Imagination",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Process_start:has_location",
+          "object": "Transport",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Relative_time:has_theme",
+          "object": "publication of Harmonium (1923)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Removing:has_agent",
+          "object": "http://en.wikipedia.org/wiki/Hollie_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Residence:has_location",
+          "object": "http://en.wikipedia.org/wiki/Boston",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_time",
+          "object": "1977",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Colonization:has_theme",
+          "object": "Susquehanna Valley",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Education_teaching:has_level",
+          "object": "special",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_text",
+          "object": "Essays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Leadership:has_time",
+          "object": "1901",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+          "predicate": "Publishing:has_work",
+          "object": "Auroras of Autumn (1950)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Reparation:has_time",
+          "object": "1923",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Education_teaching:has_theme",
+          "object": "three-year",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "period",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Colonization:has_theme",
+          "object": "John Zeller, his maternal great-grandfather",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Businesses:has_product",
+          "object": "insurance",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+          "predicate": "Inclusion:has_location",
+          "object": "Transport",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Text:has_text",
+          "object": "letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wallace_Stevens",
+          "predicate": "Text:has_location",
+          "object": "Key West",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/American_poetry",
+          "predicate": "Reparation:has_theme",
+          "object": "second edition",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+          "predicate": "Craft:has_location",
+          "object": "Key West",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "Stevens's poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Susquehanna_River",
+          "predicate": "Education_teaching:has_time",
+          "object": "1900",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/George_Santayana",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/Boston",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+          "predicate": "Being_employed:has_theme",
+          "object": "insurance company in Hartford, Connecticut",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/John_Zeller",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/Lutheranism",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Lutheranism",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/George_Santayana",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/Boston",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "http://en.wikipedia.org/wiki/George_Santayana",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "http://en.wikipedia.org/wiki/George_Santayana",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire"
+    ],
+    "objects": [
+      "into a Lutheran family of Dutch and German descent",
+      "Transport to Summer",
+      "poems",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "son of a prosperous lawyer, Stevens",
+      "Hartford, Connecticut",
+      "son",
+      "1900",
+      "president",
+      "1950",
+      "1923",
+      "1923",
+      "1709",
+      "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Poetry",
+      "Harvard Advocate",
+      "non-degree",
+      "http://en.wikipedia.org/wiki/Harvard_University",
+      "1977",
+      "edition",
+      "her father's",
+      "period",
+      "1923",
+      "1977",
+      "period",
+      "Looking at a Blackbird",
+      "maternal",
+      "poems",
+      "poet",
+      "student",
+      "Ideas of Order (1933 )",
+      "1900",
+      "when she posthumously reprinted her father's collected letters in 1977 for Knopf",
+      "1950",
+      "1933",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "1955",
+      "Dutch and German descent",
+      "1923",
+      "Stevens was personally introduced to the philosopher George Santayana while living in Boston and was strongly influenced by Santayana's book Interpretations of Poetry and Religion",
+      "Key West",
+      "lawyer",
+      "1933",
+      "His second period",
+      "strongly",
+      "her father's long dedication to Santayana",
+      "as an executive",
+      "making art and poetry in particular",
+      "edition",
+      "Reading, Pennsylvania",
+      "1879",
+      "Ways",
+      "http://en.wikipedia.org/wiki/Alfred_A._Knopf",
+      "prosperous lawyer",
+      "His Collected Poems (1954)",
+      "1897 to 1900",
+      "1977",
+      "as a religious refugee",
+      "1923",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/Boston",
+      "1950",
+      "Stevens's first period",
+      "publication of Harmonium (1923 )",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "slightly revised and amended second edition in 1930",
+      "publication of The Auroras of Autumn (1950)",
+      "Interpretations of Poetry and Religion",
+      "Santayana's book Interpretations of Poetry and Religion",
+      "Transport",
+      "Many",
+      "as a non-degree three-year special student",
+      "her father's collected letters",
+      "1933",
+      "father",
+      "1923",
+      "http://en.wikipedia.org/wiki/Harmonium_(poetry_collection)",
+      "Stevens's",
+      "his biographer Milton Bates",
+      "1950",
+      "1900",
+      "Transport",
+      "Necessary Angel : Essays On Reality and the Imagination (1951",
+      "1950",
+      "Harvard and then New York Law School",
+      "publication of The Auroras of Autumn (1950 )",
+      "Key West",
+      "art",
+      "Holly Stevens, his daughter",
+      "Santayana's",
+      "1933",
+      "1955",
+      "dedication to Santayana",
+      "company",
+      "modernist poet",
+      "Reality and the Imagination",
+      "Transport",
+      "publication of Harmonium (1923)",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "His third and final period",
+      "http://en.wikipedia.org/wiki/Boston",
+      "1977",
+      "Susquehanna Valley",
+      "special",
+      "Essays",
+      "1901",
+      "1955",
+      "period",
+      "Auroras of Autumn (1950)",
+      "1923",
+      "three-year",
+      "period",
+      "John Zeller, his maternal great-grandfather",
+      "insurance",
+      "Transport",
+      "letters",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "http://en.wikipedia.org/wiki/United_States",
+      "Key West",
+      "second edition",
+      "Key West",
+      "Stevens's poems",
+      "1900",
+      "http://en.wikipedia.org/wiki/Boston",
+      "insurance company in Hartford, Connecticut"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Boston",
+      "three-year",
+      "His Collected Poems (1954)",
+      "1900",
+      "letters",
+      "as a non-degree three-year special student",
+      "slightly revised and amended second edition in 1930",
+      "1955",
+      "Auroras of Autumn (1950)",
+      "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream",
+      "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West",
+      "when she posthumously reprinted her father's collected letters in 1977 for Knopf",
+      "http://en.wikipedia.org/wiki/American_poetry",
+      "Looking at a Blackbird",
+      "John Zeller, his maternal great-grandfather",
+      "making art and poetry in particular",
+      "Santayana's",
+      "Susquehanna Valley",
+      "http://en.wikipedia.org/wiki/John_Zeller",
+      "Stevens's",
+      "Harvard and then New York Law School",
+      "http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "Ideas of Order (1933 )",
+      "period",
+      "1933",
+      "His second period",
+      "Reality and the Imagination",
+      "as an executive",
+      "Transport to Summer",
+      "son of a prosperous lawyer, Stevens",
+      "1977",
+      "1923",
+      "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems",
+      "Ways",
+      "art",
+      "publication of The Auroras of Autumn (1950)",
+      "http://en.wikipedia.org/wiki/Lutheranism",
+      "father",
+      "dedication to Santayana",
+      "her father's long dedication to Santayana",
+      "publication of Harmonium (1923)",
+      "http://en.wikipedia.org/wiki/The_Auroras_of_Autumn",
+      "http://en.wikipedia.org/wiki/United_States",
+      "prosperous lawyer",
+      "maternal",
+      "as a religious refugee",
+      "publication of Harmonium (1923 )",
+      "http://en.wikipedia.org/wiki/New_York_University",
+      "lawyer",
+      "http://en.wikipedia.org/wiki/Alfred_A._Knopf",
+      "Stevens's poems",
+      "Stevens was personally introduced to the philosopher George Santayana while living in Boston and was strongly influenced by Santayana's book Interpretations of Poetry and Religion",
+      "her father's",
+      "insurance",
+      "into a Lutheran family of Dutch and German descent",
+      "publication of The Auroras of Autumn (1950 )",
+      "http://en.wikipedia.org/wiki/Susquehanna_River",
+      "Many",
+      "edition",
+      "http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "son",
+      "http://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+      "his biographer Milton Bates",
+      "1950",
+      "Necessary Angel : Essays On Reality and the Imagination (1951",
+      "president",
+      "Stevens's first period",
+      "poet",
+      "Hartford, Connecticut",
+      "http://en.wikipedia.org/wiki/Hollie_Stevens",
+      "His third and final period",
+      "Reading, Pennsylvania",
+      "insurance company in Hartford, Connecticut",
+      "strongly",
+      "student",
+      "1897 to 1900",
+      "her father's collected letters",
+      "non-degree",
+      "Key West",
+      "Essays",
+      "company",
+      "http://en.wikipedia.org/wiki/Harmonium_(poetry_collection)",
+      "1709",
+      "1901",
+      "http://en.wikipedia.org/wiki/Harvard_University",
+      "special",
+      "Dutch and German descent",
+      "1879",
+      "modernist poet",
+      "http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Poetry",
+      "second edition",
+      "Santayana's book Interpretations of Poetry and Religion",
+      "Harvard Advocate",
+      "http://en.wikipedia.org/wiki/George_Santayana",
+      "Holly Stevens, his daughter",
+      "Transport",
+      "Interpretations of Poetry and Religion",
+      "poems"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Being_born:has_theme",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Subjective_influence:has_theme",
+      "Attending:has_agent",
+      "Businesses:has_location",
+      "Kinship:has_theme",
+      "Kinship:has_time",
+      "Leadership:has_role",
+      "Text:has_time",
+      "Relative_time:has_time",
+      "Frequency:has_time",
+      "Colonization:has_time",
+      "Win_prize:has_prize",
+      "Leadership:has_theme",
+      "Education_teaching:has_skill",
+      "Attending:has_event",
+      "Duration_description:has_time",
+      "Text:has_text",
+      "Text:has_author",
+      "Frequency:has_theme",
+      "Ordinal_numbers:has_time",
+      "Kinship:has_time",
+      "Frequency:has_theme",
+      "Means:has_purpose",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Origin:has_entity",
+      "Education_teaching:has_student",
+      "Process_start:has_theme",
+      "People_by_vocation:has_time",
+      "Memory:has_time",
+      "Relative_time:has_time",
+      "Process_start:has_time",
+      "Kinship:has_location",
+      "Origin:has_time",
+      "Kinship:has_theme",
+      "Publishing:has_time",
+      "Attributed_information:has_theme",
+      "Fields:has_location",
+      "People_by_vocation:has_person",
+      "Ordinal_numbers:has_time",
+      "Process_start:has_event",
+      "Subjective_influence:has_degree",
+      "Memory:has_theme",
+      "Being_employed:has_position",
+      "Craft:has_activity",
+      "Ordinal_numbers:has_type",
+      "Being_born:has_location",
+      "Being_born:has_time",
+      "Means:has_means",
+      "Removing:has_goal",
+      "Kinship:has_theme",
+      "Win_prize:has_competitor",
+      "Attending:has_theme",
+      "Removing:has_time",
+      "Colonization:has_purpose",
+      "Process_start:has_time",
+      "Education_teaching:has_student",
+      "Subjective_influence:has_location",
+      "Publishing:has_time",
+      "Process_start:has_event",
+      "Process_start:has_theme",
+      "Kinship:has_theme",
+      "Relative_time:has_theme",
+      "Relative_time:has_theme",
+      "Text:has_text",
+      "Subjective_influence:has_entity",
+      "Frequency:has_location",
+      "Quantified_mass:has_quantity",
+      "Attending:has_theme",
+      "Removing:has_theme",
+      "Inclusion:has_time",
+      "Kinship:has_theme",
+      "Text:has_time",
+      "Publishing:has_work",
+      "Text:has_author",
+      "Attributed_information:has_speaker",
+      "Ordinal_numbers:has_time",
+      "Attending:has_time",
+      "Ordinal_numbers:has_location",
+      "Relative_time:has_theme",
+      "Process_start:has_time",
+      "Education_teaching:has_institution",
+      "Process_start:has_theme",
+      "Quantified_mass:has_location",
+      "Fields:has_theme",
+      "Memory:has_theme",
+      "Text:has_author",
+      "Frequency:has_time",
+      "Win_prize:has_time",
+      "Duration_description:has_theme",
+      "Businesses:has_business",
+      "Origin:has_entity",
+      "Text:has_theme",
+      "Process_start:has_location",
+      "Relative_time:has_theme",
+      "Removing:has_agent",
+      "Process_start:has_event",
+      "Residence:has_location",
+      "Text:has_time",
+      "Colonization:has_theme",
+      "Education_teaching:has_level",
+      "Text:has_text",
+      "Leadership:has_time",
+      "Text:has_time",
+      "Ordinal_numbers:has_type",
+      "Publishing:has_work",
+      "Reparation:has_time",
+      "Education_teaching:has_theme",
+      "Ordinal_numbers:has_type",
+      "Colonization:has_theme",
+      "Businesses:has_product",
+      "Inclusion:has_location",
+      "Text:has_text",
+      "Text:has_text",
+      "Being_employed:has_employee",
+      "Origin:has_theme",
+      "Text:has_location",
+      "Reparation:has_theme",
+      "Craft:has_location",
+      "Quantified_mass:has_theme",
+      "Education_teaching:has_time",
+      "Text:has_location",
+      "Being_employed:has_theme"
+    ],
+    "unique_predicates": [
+      "Quantified_mass:has_location",
+      "Process_start:has_theme",
+      "Attending:has_event",
+      "Education_teaching:has_institution",
+      "Frequency:has_location",
+      "Subjective_influence:has_location",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Ordinal_numbers:has_time",
+      "Education_teaching:has_theme",
+      "Win_prize:has_competitor",
+      "Win_prize:has_time",
+      "Text:has_theme",
+      "Origin:has_entity",
+      "Process_start:has_location",
+      "Attributed_information:has_theme",
+      "Reparation:has_time",
+      "People_by_vocation:has_person",
+      "Businesses:has_location",
+      "Origin:has_theme",
+      "Businesses:has_business",
+      "Inclusion:has_time",
+      "Colonization:has_theme",
+      "Means:has_purpose",
+      "Being_employed:has_employee",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Leadership:has_time",
+      "Removing:has_time",
+      "Ordinal_numbers:has_type",
+      "Means:has_means",
+      "Quantified_mass:has_quantity",
+      "Education_teaching:has_level",
+      "Subjective_influence:has_theme",
+      "Education_teaching:has_student",
+      "Being_employed:has_theme",
+      "Being_employed:has_position",
+      "Attending:has_agent",
+      "Publishing:has_work",
+      "Duration_description:has_time",
+      "Reparation:has_theme",
+      "Removing:has_goal",
+      "Kinship:has_time",
+      "Removing:has_theme",
+      "Frequency:has_theme",
+      "Fields:has_theme",
+      "Craft:has_location",
+      "Residence:has_location",
+      "Leadership:has_theme",
+      "Colonization:has_time",
+      "Subjective_influence:has_degree",
+      "Publishing:has_time",
+      "Memory:has_theme",
+      "Being_born:has_location",
+      "Fields:has_location",
+      "Removing:has_agent",
+      "Being_born:has_time",
+      "Frequency:has_time",
+      "Origin:has_time",
+      "Education_teaching:has_skill",
+      "Inclusion:has_location",
+      "Attributed_information:has_speaker",
+      "Process_start:has_time",
+      "Ordinal_numbers:has_location",
+      "Attending:has_theme",
+      "Text:has_location",
+      "Win_prize:has_prize",
+      "Being_born:has_theme",
+      "Relative_time:has_time",
+      "Education_teaching:has_time",
+      "Colonization:has_purpose",
+      "People_by_vocation:has_time",
+      "Attending:has_time",
+      "Text:has_author",
+      "Quantified_mass:has_theme",
+      "Process_start:has_event",
+      "Craft:has_activity",
+      "Kinship:has_location",
+      "Leadership:has_role",
+      "Businesses:has_product",
+      "Inclusion:has_theme",
+      "Memory:has_time",
+      "Subjective_influence:has_entity",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Being_born:has_theme": 1,
+      "Inclusion:has_theme": 1,
+      "Text:has_text": 7,
+      "Subjective_influence:has_theme": 1,
+      "Attending:has_agent": 1,
+      "Businesses:has_location": 1,
+      "Kinship:has_theme": 6,
+      "Kinship:has_time": 2,
+      "Leadership:has_role": 1,
+      "Text:has_time": 4,
+      "Relative_time:has_time": 2,
+      "Frequency:has_time": 2,
+      "Colonization:has_time": 1,
+      "Win_prize:has_prize": 1,
+      "Leadership:has_theme": 1,
+      "Education_teaching:has_skill": 1,
+      "Attending:has_event": 1,
+      "Duration_description:has_time": 1,
+      "Text:has_author": 3,
+      "Frequency:has_theme": 2,
+      "Ordinal_numbers:has_time": 3,
+      "Means:has_purpose": 1,
+      "Origin:has_entity": 2,
+      "Education_teaching:has_student": 2,
+      "Process_start:has_theme": 3,
+      "People_by_vocation:has_time": 1,
+      "Memory:has_time": 1,
+      "Process_start:has_time": 3,
+      "Kinship:has_location": 1,
+      "Origin:has_time": 1,
+      "Publishing:has_time": 2,
+      "Attributed_information:has_theme": 1,
+      "Fields:has_location": 1,
+      "People_by_vocation:has_person": 1,
+      "Process_start:has_event": 3,
+      "Subjective_influence:has_degree": 1,
+      "Memory:has_theme": 2,
+      "Being_employed:has_position": 1,
+      "Craft:has_activity": 1,
+      "Ordinal_numbers:has_type": 3,
+      "Being_born:has_location": 1,
+      "Being_born:has_time": 1,
+      "Means:has_means": 1,
+      "Removing:has_goal": 1,
+      "Win_prize:has_competitor": 1,
+      "Attending:has_theme": 2,
+      "Removing:has_time": 1,
+      "Colonization:has_purpose": 1,
+      "Subjective_influence:has_location": 1,
+      "Relative_time:has_theme": 4,
+      "Subjective_influence:has_entity": 1,
+      "Frequency:has_location": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Removing:has_theme": 1,
+      "Inclusion:has_time": 1,
+      "Publishing:has_work": 2,
+      "Attributed_information:has_speaker": 1,
+      "Attending:has_time": 1,
+      "Ordinal_numbers:has_location": 1,
+      "Education_teaching:has_institution": 1,
+      "Quantified_mass:has_location": 1,
+      "Fields:has_theme": 1,
+      "Win_prize:has_time": 1,
+      "Duration_description:has_theme": 1,
+      "Businesses:has_business": 1,
+      "Text:has_theme": 1,
+      "Process_start:has_location": 1,
+      "Removing:has_agent": 1,
+      "Residence:has_location": 1,
+      "Colonization:has_theme": 2,
+      "Education_teaching:has_level": 1,
+      "Leadership:has_time": 1,
+      "Reparation:has_time": 1,
+      "Education_teaching:has_theme": 1,
+      "Businesses:has_product": 1,
+      "Inclusion:has_location": 1,
+      "Being_employed:has_employee": 1,
+      "Origin:has_theme": 1,
+      "Text:has_location": 2,
+      "Reparation:has_theme": 1,
+      "Craft:has_location": 1,
+      "Quantified_mass:has_theme": 1,
+      "Education_teaching:has_time": 1,
+      "Being_employed:has_theme": 1
+    }
+  }
+}

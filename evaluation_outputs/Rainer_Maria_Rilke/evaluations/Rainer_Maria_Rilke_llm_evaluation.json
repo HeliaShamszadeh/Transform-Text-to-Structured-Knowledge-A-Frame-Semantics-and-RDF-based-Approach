@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_text novellas",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His writings include... a few early novellas', directly linking Rilke to novellas as a form of text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Origin:has_entity His mother, Sophie (\"Phia\") Entz (1851–1931 )",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states his mother was 'from a well-to-do family in Prague', establishing a clear origin relationship between Prague and his mother."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Cardinal_numbers:has_theme one",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'one novel' among his writings. While 'one' is used as a quantifier rather than a theme, there is a semantic connection to the concept of a cardinal number."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Judgment_communication:has_reason as an idiosyncratic and expressive poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text states 'Acclaimed as an idiosyncratic and expressive poet, he is widely recognized...', directly providing a reason (his poetic qualities) for his acclaim and recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Temporal_subregion:has_theme early",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Rilke spent 'many of his early years' at a location in Prague. This weakly connects Prague to the temporal theme of 'early' life stages."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Statement:has_location television shows, books and motion pictures",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states his work is frequently quoted in 'television shows, books and motion pictures'. While 'has_location' is a weak semantic fit for 'appears in/featured in', there is a clear connection between Rilke and these media."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kingdom_of_Bohemia Being_employed:has_employee His father, Josef Rilke (1838–1906,",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Josef Rilke was a railway official and that Prague was the capital of the Kingdom of Bohemia. It is reasonable to infer that a railway official in the capital was employed by the kingdom, though not explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kingdom_of_Bohemia Residence:has_location Herrengasse (Panská) 8",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states the Entz-Kinzelbergers (Rilke's mother's family) lived at Herrengasse 8 in Prague, which was the capital of the Kingdom of Bohemia. The connection is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Kinship:has_time 1931",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year 1931 is mentioned as the death year of his mother, Sophie Entz. The 'Kinship:has_time' predicate is a very weak semantic match for a relative's death date, but a connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_text books",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph explicitly mentions 'books' multiple times in relation to his work being quoted and his own writings. The predicate 'Text:has_text' is a reasonable, though broad, semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Czech_Republic Leadership:has_theme railway",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a railway official (Rilke's father) and the Czech Republic (as the modern name for Prague's location), but there is no semantic connection suggesting the Czech Republic itself has a theme of 'railway'. The concepts are mentioned in entirely different contexts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austria-Hungary Leadership:has_time then",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'then' is used as a temporal adverb referring to the time when Bohemia was ruled by Austria-Hungary. It does not represent a property or theme that Austria-Hungary 'has'. The triple is semantically incoherent in relation to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_text writings",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'His writings include...', directly linking Rainer Maria Rilke to the concept of 'writings' which can be semantically related to 'has_text'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text_creation:has_author authors",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'self-help authors' citing his work. While this is an indirect relationship (they are authors who cite him, not authors he possesses), a lenient interpretation could see a semantic connection to the concept of 'authors' in the context of his literary influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Origin:has_time 1931",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1931 is mentioned as the potential death year of Rilke's mother, Sophie Entz. There is no information connecting the year 1931 to Prague as a place of origin having a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/German_language Frequency:has_theme German language",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Rilke is 'a significant writer in the German language' and that his best-known works are in German literature, making the German language a clear theme of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kingdom_of_Bohemia Military:has_theme military",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Rilke's father had an 'unsuccessful military career,' which is semantically connected to the Kingdom of Bohemia where Rilke was born, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_theme correspondence",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly lists 'several volumes of correspondence' among Rilke's writings, making correspondence a clear theme of his textual output."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Switzerland Subjective_influence:has_theme which",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'which' in the triple is a relative pronoun without clear semantic meaning. The paragraph states Switzerland provided inspiration for his poems, but 'which' as a theme is not extractable information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Rilke was born in Prague and describes his mother's family ('the Entz-Kinzelbergers') who lived there, establishing a semantic connection between Prague and family themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Temporal_subregion:has_theme later",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'In the later 20th century, his work found new audiences', which weakly connects the concept of 'later' time periods to Rilke's themes/reception."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Quantified_mass:has_theme early novellas",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text states 'His writings include... a few early novellas', directly connecting Rilke to early novellas, though the predicate 'has_theme' is a semantic stretch from 'writings include'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_text Poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Rilke is repeatedly described as a 'poet' throughout the paragraph, making this a clear and direct connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kingdom_of_Bohemia Being_employed:has_position as a railway official",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The position 'railway official' is attributed to Rilke's father Josef, not to the Kingdom of Bohemia. The connection is incorrect and contradictory to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Fame:has_degree best",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'best-known works' and describes Rilke as 'widely recognized' and 'acclaimed', which semantically connects to the concept of having a high degree of fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/W._B._Yeats_bibliography Age:has_age Young",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Rainer Maria Rilke, not W.B. Yeats. There is no mention of Yeats, his bibliography, or his age. The information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Quantified_mass:has_quantity few",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Rilke wrote 'a few early novellas'. While the triple's predicate is generic ('has_quantity'), the concept of a small quantity ('few') is directly attributed to an aspect of his work, providing a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Notebooks_of_Malte_Laurids_Brigge Inclusion:has_theme two poetry collections : Duino Elegies ( Duineser Elegien ) and Sonnets to Orpheus ( Die Sonette an Orpheus ), a semi-autobiographical novel The Notebooks of Malte Laurids Brigge ( Die Aufzeichnungen des Malte Laurids Brigge ), and a collection of ten letters published posthumously Letters to a Young Poet ( Briefe an einen jungen Dichter )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly lists these specific works as being among Rilke's best-known works for English-language readers. The triple's object is a direct quote from the text, strongly supporting the 'has_theme' relationship with the novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Fame:has_location http://en.wikipedia.org/wiki/France",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'he also wrote in French'. While this does not explicitly state he was in France, writing in a language is semantically connected to the associated country/culture. This is an indirect and weak, but reasonable, connection under lenient rules."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Czech_Republic Leadership:has_time 1906",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Prague is 'now capital of the Czech Republic' and that Rilke's father died in 1906. The triple connects the country to a specific year mentioned in the text. This is a very weak and indirect semantic connection (the year is related to a person, not the country's leadership), but it is not completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_theme idiosyncratic and expressive",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he is 'Acclaimed as an idiosyncratic and expressive poet', which directly connects the subject to these themes, though the predicate 'Text:has_theme' is an abstract interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Switzerland Subjective_influence:has_product many of his poems",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Switzerland 'provided the inspiration for many of his poems'. This is a semantic match for 'influence' leading to a 'product' (poems), even if the predicate wording is different."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Switzerland Colonization:has_time finally",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'finally' is used in the context of Rilke's travels ('finally settling in Switzerland'), but it has no semantic connection to the concept of 'Colonization' or a 'time' property for Switzerland itself. The relationship is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Temporal_subregion:has_theme 20th century",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'In the later 20th century, his work found new audiences'. This weakly connects the subject (Rilke) to a temporal context (20th century) and a theme (finding new audiences), making a lenient semantic connection possible."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Switzerland Quantified_mass:has_quantity many",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Switzerland inspired 'many of his poems'. This provides a weak but valid semantic link where Switzerland is associated with the quantity 'many' in the context of the poems it inspired."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Quantified_mass:has_theme collections of poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states his writings include 'several collections of poetry', establishing a clear semantic connection between Rilke and poetry collections as a theme of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Travel:has_theme extensively throughout Europe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text directly states 'Rilke travelled extensively throughout Europe', providing a strong semantic match for the travel theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Quantified_mass:has_quantity several",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The word 'several' is used multiple times in the paragraph to quantify his writings ('several collections of poetry', 'several volumes of correspondence'), creating a reasonable semantic connection to Rilke."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Being_born:has_location Prague, capital of Kingdom of Bohemia (then ruled by Austria-Hungary, now capital of the Czech Republic",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He was born René Karl Wilhelm Johann Josef Maria Rilke in Prague, capital of Kingdom of Bohemia (then ruled by Austria-Hungary, now capital of the Czech Republic)' - this is a direct and exact match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Kinship:has_location http://en.wikipedia.org/wiki/Prague",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the paragraph mentions Prague as his birthplace and where his mother's family lived, the 'Kinship:has_location' relationship is only weakly supported as the connection to Prague is primarily through birth rather than family location. However, there is a semantic connection through his mother's family living there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austria Reference_text:has_theme Rilke (disambiguation)",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Rilke (disambiguation)' in the context of the Austrian poet Rilke, creating a very weak semantic link between Austria and the disambiguation page."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Rilke's mother, Sophie ('Phia') Entz, providing a clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austria-Hungary Leadership:has_theme http://en.wikipedia.org/wiki/Kingdom_of_Bohemia",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that the Kingdom of Bohemia was 'ruled by Austria-Hungary,' establishing a clear leadership/governance relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_theme semi-autobiographical",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly describes Rilke's novel 'The Notebooks of Malte Laurids Brigge' as 'semi-autobiographical'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/W._B._Yeats_bibliography Publishing:has_location Letters to a Young Poet ( Briefe an einen jungen Dichter )",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple's subject (W.B. Yeats bibliography) is completely unrelated to the paragraph's content, which is exclusively about Rainer Maria Rilke. No semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Quantified_mass:has_theme volumes",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph mentions 'several volumes of correspondence' among his writings, and volumes could be reasonably connected to this"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Adducing:has_speaker self-help authors",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph states 'his work found new audiences in citations by self-help authors', which implies self-help authors referenced/speaker about his work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/W._B._Yeats_bibliography Cardinal_numbers:has_entity poetry collections",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "W.B. Yeats is not mentioned in the paragraph at all, making this triple completely unrelated to the content"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rainer_Maria_Rilke Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly mentions Rilke wrote poetry collections and is known as a poet, clearly connecting him to poetry text"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Quantified_mass:has_quantity many",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states 'where René spent many of his early years' in Prague, connecting Prague to the quantity 'many'"
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 35,
+    "accuracy": 0.7,
+    "avg_confidence": 0.57,
+    "high_confidence_50": 35,
+    "high_confidence_80": 17,
+    "percent_50": 70.0,
+    "percent_80": 34.0,
+    "max_triples_limit": 50
+  }
+}

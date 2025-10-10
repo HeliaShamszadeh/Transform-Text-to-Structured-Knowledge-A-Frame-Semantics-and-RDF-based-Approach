@@ -1,0 +1,300 @@
+digraph Ezra_Pound {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "His works" [label="His works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "discover and shape the work..." [label="discover and shape the work...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work of contemporaries such..." [label="work of contemporaries such...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "that, for poets born in the..." [label="that, for poets born in the...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "poets born in the late 19th..." [label="poets born in the late 19th...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "as social credit" [label="as social credit", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fascist" [label="fascist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "carnage of World War I" [label="carnage of World War I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cold" [label="cold", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ernest Hemingway" [label="Ernest Hemingway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Blish" [label="James Blish", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1932" [label="1932", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Italy" [label="Italy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Germany" [label="Germany", fillcolor=lightgray, color=gray, shape=hexagon];
+    "puppet" [label="puppet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American literary magazines" [label="American literary magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "movement" [label="movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "passing through a great bli..." [label="passing through a great bli...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "T. S. Eliot" [label="T. S. Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1924" [label="1924", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary magazines" [label="literary magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "through a great blizzard" [label="through a great blizzard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "economic theory" [label="economic theory", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American literary" [label="American literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "finance capitalism, which h..." [label="finance capitalism, which h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1912" [label="1912", fillcolor=lightgray, color=gray, shape=hexagon];
+    "incarnation as a German pup..." [label="incarnation as a German pup...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British fascist Oswald Mosley" [label="British fascist Oswald Mosley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "London" [label="London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1913" [label="1913", fillcolor=lightgray, color=gray, shape=hexagon];
+    "war" [label="war", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Imagism, a movement stressi..." [label="Imagism, a movement stressi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "government" [label="government", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publications owned by the B..." [label="publications owned by the B...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914 serialization of Joyce..." [label="1914 serialization of Joyce...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "economy" [label="economy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States government, F..." [label="United States government, F...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ezra Pound" [label="Ezra Pound", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early 20th century" [label="early 20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late 19th or early 20th cen..." [label="late 19th or early 20th cen...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign" [label="foreign", fillcolor=lightgray, color=gray, shape=hexagon];
+    "state" [label="state", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Young" [label="Young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pound's contribution to poetry" [label="Pound's contribution to poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as foreign editor of severa..." [label="as foreign editor of severa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early modernist poetry move..." [label="early modernist poetry move...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "under the pen name William ..." [label="under the pen name William ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eliot's " The Love Song of ..." [label="Eliot's " The Love Song of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "not to be influenced by Pound" [label="not to be influenced by Pound", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publications" [label="publications", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oswald Mosley" [label="Oswald Mosley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "usury" [label="usury", fillcolor=lightgray, color=gray, shape=hexagon];
+    "precision and economy of la..." [label="precision and economy of la...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Man" [label="Man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fascist Italy" [label="Fascist Italy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazines" [label="magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its cold" [label="its cold", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1972" [label="1972", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Cantos" [label="The Cantos", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19th" [label="19th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his role in developing Imag..." [label="his role in developing Imag...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet and critic" [label="poet and critic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ripostes 1912 , Hugh Selwyn..." [label="Ripostes 1912 , Hugh Selwyn...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language" [label="language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure" [label="figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1915" [label="1915", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late" [label="late", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernist poetry movement" [label="modernist poetry movement", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "James Blish" -> "early 20th century" [label="has time [Process_start]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "20th century" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "T. S. Eliot" -> "late" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "London" -> "discover and shape the work..." [label="has goal [Assistance]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "Young" [label="has age [People]", color=lightyellow, penwidth=1];
+    "T. S. Eliot" -> "1915" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Ezra Pound" -> "carnage of World War I" [label="has theme [Experiencer_obj]", color=lightcyan, penwidth=1];
+    "London" -> "Ezra Pound" [label="has theme [Assistance]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "early" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "United States" -> "Fascist Italy" [label="has location [Text]", color=green, penwidth=2];
+    "T. S. Eliot" -> "incarnation as a German pup..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "1924" [label="has time [Text]", color=purple, penwidth=2];
+    "James Blish" -> "who" [label="has author [Text_creation]", color=lightgray, penwidth=1];
+    "James Blish" -> "economy" [label="has theme [Economy]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "Ezra Pound" [label="has theme [Judgment]", color=lightseagreen, penwidth=1];
+    "James Blish" -> "1914" [label="has time [Responsibility]", color=purple, penwidth=2];
+    "The Cantos" -> "1924" [label="has time [Being_named]", color=purple, penwidth=2];
+    "James Blish" -> "Ezra Pound" [label="has agent [Cause_to_make_progress]", color=lightpink, penwidth=1];
+    "James Blish" -> "1913" [label="has time [Temporal_subregion]", color=purple, penwidth=2];
+    "Ernest Hemingway" -> "that, for poets born in the..." [label="has message [Statement]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "Man" [label="has entity [Age]", color=lightcoral, penwidth=1];
+    "James Blish" -> "modernist poetry movement" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "Ernest Hemingway" -> "1932" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "1932" [label="has time [Traversing]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "1932" [label="has time [Perception_experience]", color=purple, penwidth=2];
+    "James Blish" -> "early modernist poetry move..." [label="has theme [Importance]", color=lightgreen, penwidth=1];
+    "James Blish" -> "Imagism, a movement stressi..." [label="has project [Cause_to_make_progress]", color=lightpink, penwidth=1];
+    "James Blish" -> "Fascist Italy" [label="has location [Origin]", color=green, penwidth=2];
+    "The Cantos" -> "1932" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "James Blish" -> "United States" [label="has theme [Origin]", color=lightyellow, penwidth=1];
+    "The Cantos" -> "as social credit" [label="has theme [Being_named]", color=lightgoldenrod, penwidth=1];
+    "The Cantos" -> "poets" [label="has person [Being_born]", color=red, penwidth=2];
+    "T. S. Eliot" -> "war" [label="has reason [Judgment]", color=lightseagreen, penwidth=1];
+    "Oswald Mosley" -> "1924" [label="has time [Contacting]", color=purple, penwidth=2];
+    "Oswald Mosley" -> "publications owned by the B..." [label="has purpose [Contacting]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "British fascist Oswald Mosley" [label="has owner [Possession]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "government" [label="has leader [Leadership]", color=lightgoldenrodyellow, penwidth=1];
+    "James Blish" -> "work of contemporaries such..." [label="has theme [Becoming_aware]", color=lightseagreen, penwidth=1];
+    "United States" -> "poet and critic" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "The Cantos" -> "late 19th or early 20th cen..." [label="has time [Being_born]", color=purple, penwidth=2];
+    "James Blish" -> "London" [label="has location [Origin]", color=green, penwidth=2];
+    "T. S. Eliot" -> "poets" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "T. S. Eliot" -> "1924" [label="has time [Possession]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "not to be influenced by Pound" [label="has theme [Similarity]", color=lightgoldenrod, penwidth=1];
+    "James Blish" -> "movement" [label="has theme [Convey_importance]", color=lightpink, penwidth=1];
+    "James Blish" -> "poet and critic" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "T. S. Eliot" -> "Young" [label="has age [Age]", color=lightcoral, penwidth=1];
+    "James Blish" -> "Ezra Pound" [label="has theme [Becoming_aware]", color=lightseagreen, penwidth=1];
+    "London" -> "American literary" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "1932" [label="has time [Ambient_temperature]", color=purple, penwidth=2];
+    "James Blish" -> "figure" [label="has theme [Importance]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "1932" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "Man" [label="has person [People]", color=red, penwidth=2];
+    "T. S. Eliot" -> "1932" [label="has time [Temporal_subregion]", color=purple, penwidth=2];
+    "London" -> "foreign" [label="has theme [Foreign_or_domestic_country]", color=lightcoral, penwidth=1];
+    "T. S. Eliot" -> "passing through a great bli..." [label="has theme [Similarity]", color=lightgoldenrod, penwidth=1];
+    "T. S. Eliot" -> "1932" [label="has time [Similarity]", color=purple, penwidth=2];
+    "James Blish" -> "Ripostes 1912 , Hugh Selwyn..." [label="has theme [Inclusion]", color=lightblue, penwidth=1];
+    "James Blish" -> "literary magazines" [label="has entity [Origin]", color=lightyellow, penwidth=1];
+    "James Blish" -> "language" [label="has theme [Economy]", color=lightgoldenrodyellow, penwidth=1];
+    "James Blish" -> "Fascist Italy" [label="has location [Importance]", color=green, penwidth=2];
+    "Germany" -> "state" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "James Blish" -> "1912" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "finance capitalism, which h..." [label="has evaluee [Judgment]", color=lightseagreen, penwidth=1];
+    "Ernest Hemingway" -> "1932" [label="has time [Statement]", color=purple, penwidth=2];
+    "United States" -> "1972" [label="has time [Origin]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "Ezra Pound" [label="has theme [Motion]", color=lightgreen, penwidth=1];
+    "Ezra Pound" -> "poetry" [label="has recipient [Giving]", color=lightyellow, penwidth=1];
+    "T. S. Eliot" -> "1914" [label="has time [People]", color=purple, penwidth=2];
+    "The Cantos" -> "economic theory" [label="has entity [Being_named]", color=lightgoldenrod, penwidth=1];
+    "Germany" -> "puppet" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "London" -> "Ezra Pound" [label="has employee [Being_employed]", color=lightpink, penwidth=1];
+    "Oswald Mosley" -> "Ezra Pound" [label="has theme [Contacting]", color=lightsteelblue, penwidth=1];
+    "London" -> "several" [label="has quantity [Quantified_mass]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "Italy" [label="has theme [Leadership]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "United States" [label="has theme [Leadership]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "1914" [label="has time [Text]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "Ezra Pound" [label="has speaker [Labeling]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "United States government, F..." [label="has theme [Attack]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "which" [label="has entity [Labeling]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "1924" [label="has time [Motion]", color=purple, penwidth=2];
+    "James Blish" -> "early" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "T. S. Eliot" -> "usury" [label="has theme [Labeling]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "its cold" [label="has theme [Perception_experience]", color=lightcoral, penwidth=1];
+    "Ernest Hemingway" -> "that, for poets born in the..." [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "through a great blizzard" [label="has theme [Traversing]", color=lightblue, penwidth=1];
+    "James Blish" -> "precision and economy of la..." [label="has message [Convey_importance]", color=lightpink, penwidth=1];
+    "James Blish" -> "His works" [label="has theme [Inclusion]", color=lightblue, penwidth=1];
+    "T. S. Eliot" -> "publications" [label="has text [Text]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "19th" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "James Blish" -> "Pound's contribution to poetry" [label="has event [Process_start]", color=lightblue, penwidth=1];
+    "James Blish" -> "author" [label="has author [Text_creation]", color=lightgray, penwidth=1];
+    "James Blish" -> "1913" [label="has time [Importance]", color=purple, penwidth=2];
+    "James Blish" -> "Fascist Italy" [label="has location [Temporal_subregion]", color=green, penwidth=2];
+    "James Blish" -> "his role in developing Imag..." [label="has theme [Process_start]", color=lightblue, penwidth=1];
+    "T. S. Eliot" -> "Italy" [label="has goal [Motion]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "fascist" [label="has theme [Leadership]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "publications" [label="has theme [Possession]", color=lightgray, penwidth=1];
+    "James Blish" -> "under the pen name William ..." [label="has theme [Text_creation]", color=lightgray, penwidth=1];
+    "James Blish" -> "London" [label="has location [Becoming_aware]", color=green, penwidth=2];
+    "United States" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "London" -> "American literary magazines" [label="has theme [Quantified_mass]", color=lightcyan, penwidth=1];
+    "The Cantos" -> "Ezra Pound" [label="has entity [Subjective_influence]", color=lightpink, penwidth=1];
+    "London" -> "as foreign editor of severa..." [label="has position [Being_employed]", color=lightpink, penwidth=1];
+    "James Blish" -> "1913" [label="has time [Origin]", color=purple, penwidth=2];
+    "James Blish" -> "20th century" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "T. S. Eliot" -> "Eliot's " The Love Song of ..." [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States" -> "1913" [label="has time [Text]", color=purple, penwidth=2];
+    "London" -> "magazines" [label="has text [Text]", color=lightpink, penwidth=1];
+    "The Cantos" -> "poets born in the late 19th..." [label="has theme [Subjective_influence]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "cold" [label="has attribute [Ambient_temperature]", color=lightsteelblue, penwidth=1];
+    "James Blish" -> "1914 serialization of Joyce..." [label="has act [Responsibility]", color=lightsalmon, penwidth=1];
+    "T. S. Eliot" -> "Ezra Pound" [label="has theme [Attack]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "1914" [label="has time [Age]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Process_start_legend" [label="Process_start", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Experiencer_obj_legend" [label="Experiencer_obj", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Economy_legend" [label="Economy", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Responsibility_legend" [label="Responsibility", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cause_to_make_progress_legend" [label="Cause_to_make_progress", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Traversing_legend" [label="Traversing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Contacting_legend" [label="Contacting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Similarity_legend" [label="Similarity", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Convey_importance_legend" [label="Convey_importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Ambient_temperature_legend" [label="Ambient_temperature", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Attack_legend" [label="Attack", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+    }
+}

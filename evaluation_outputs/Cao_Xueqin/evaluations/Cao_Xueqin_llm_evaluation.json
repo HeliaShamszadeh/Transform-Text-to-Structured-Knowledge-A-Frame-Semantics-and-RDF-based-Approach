@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Causation:has_cause which",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically incomplete and semantically incoherent ('has_cause which'). The paragraph mentions Cao Xueqin was born to a Han Chinese clan, but no causation related to 'Han Chinese' is discussed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Kinship:has_theme Cao Yin's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph explicitly states a kinship relationship: 'Cao grandfather, Cao Yin'. The predicate 'Kinship:has_theme' is vague, but a family theme connecting the subjects is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_theme as the author of Dream of the Red Chamber",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'He is best known as the author of Dream of the Red Chamber'. This is a clear and explicit statement about Cao Xueqin being named/associated as the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Qing_dynasty Evidence:has_theme His birth date can be confined to between 1715 and 1724",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Cao Xueqin lived 'during the Qing dynasty' and discusses the debate around his birth date. The birth date information is a key theme of his biography within the context of the Qing dynasty."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin People:has_person Cao Yin",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Cao Yin as Cao Xueqin's grandfather. The predicate 'People:has_person' is very general, and a clear person-to-person relationship is described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Activity_start:has_time After the Plain White Banner was put under the direct jurisdiction of the Qing emperor",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that after the Plain White Banner was put under the emperor's jurisdiction, Cao's family began to serve in civil positions. This implies a change in activity for the family, which is semantically connected to Cao Xueqin's lineage and context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Personal_relationship:has_theme friends",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'elegiac poems by his friends – Duncheng and Zhang Yiquan', providing a clear semantic connection to the theme of friendship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Calendric_unit:has_theme era",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While 'Han Chinese' and 'era' are both mentioned in the paragraph, they are not connected in a way that supports this triple. 'Han Chinese' describes Cao Xueqin's clan, and 'era' appears in the phrase 'one of the era's most prominent men'. There is no semantic link between the two concepts as stated in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_entity Cao Zhan",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'His given name was Cao Zhan', providing a clear and explicit semantic connection for the naming relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Jiankang' is not mentioned in the paragraph. The text mentions 'Jiangning (present-day Nanjing)', but 'Jiankang' is a different historical name for Nanjing. Even with a lenient interpretation, the connection is too tenuous as the triple specifies 'Jiankang' and the theme 'family' is not directly associated with the place in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_theme Cao Zhan ( )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His given name was Cao Zhan', which is a direct naming relationship for Cao Xueqin."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lady_Sun Medical_professionals:has_theme Cao Yin's mother, Lady Sun ( )",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lady Sun is mentioned as Cao Yin's mother and Kangxi's wet nurse, which has a weak but valid connection to medical/childcare themes. The predicate is unusual but the entities are related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Cao Xueqin's family, ancestors, and clan relationships throughout the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Text:has_text book",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While weak, Han Chinese is mentioned and 'book collector' appears in the text. There's a very indirect semantic connection through literature themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Time_vector:has_theme his ascension",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Jiankang is not mentioned in the paragraph. The ascension refers to Kangxi's ascension, but Jiankang (historical name for Nanjing) appears unrelated despite Jiangning (modern Nanjing) being mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Appointing:has_theme http://en.wikipedia.org/wiki/Kangxi_Emperor",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Kangxi Emperor and the city of Jiangning (present-day Nanjing), but the specific entity 'Jiankang' is not mentioned, and there is no direct or indirect statement about an appointment with Kangxi as its theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_theme Mengruan",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His given name was Cao Zhan ( 曹霑 ) and his courtesy name was Mengruan.' This is a direct statement about Cao Xueqin being named Mengruan."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Temporal_collocation:has_theme Cao grandfather, Cao Yin ( ), was a childhood playmate to Kangxi",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao Xueqin 'was born to a Han Chinese clan' and later mentions 'Cao grandfather, Cao Yin ( 曹寅 ), was a childhood playmate to Kangxi'. There is a semantic link between the Han Chinese clan and the event involving Cao Yin and Kangxi, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Death:has_theme http://en.wikipedia.org/wiki/Cao_Zhen",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Han Chinese' and the death of Cao Xi, but the specific entity 'Cao Zhen' is not mentioned anywhere in the text. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Qing_dynasty Statement:has_message Cao was forty and nearly fifty respectively when he died",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Cao Xueqin lived during the Qing dynasty and contains the message 'Cao was forty and nearly fifty respectively when he died'. The statement is made within the context of the Qing dynasty, providing a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Leadership:has_leader emperor",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the 'Qing emperor' and the 'Kangxi Emperor' in the context of the Han Chinese Cao family serving them, establishing a leadership relationship, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Time_vector:has_event Cao's family began to serve in civil positions of the Imperial Household Department",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Cao's family began to serve in civil positions of the Imperial Household Department' and identifies the family as Han Chinese, making this a direct and clear extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Qing_dynasty Origin:has_entity novelist and poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Cao Xueqin 'was a Chinese novelist and poet during the Qing dynasty,' directly linking the entity 'novelist and poet' (Cao Xueqin) to the Qing dynasty."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Leadership:has_theme http://en.wikipedia.org/wiki/Qing_dynasty",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The Han Chinese Cao clan served the Manchu Qing dynasty royalty, establishing a strong thematic connection of service and relationship between the two entities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Differentiation:has_theme His ancestors",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He was born to a Han Chinese clan' and then discusses 'His ancestors,' creating a direct semantic link between the Han Chinese entity and the theme of his ancestors."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jonathan_Spence Statement:has_speaker Jonathan Spence",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Jonathan Spence is explicitly mentioned as the source of a statement ('Jonathan Spence notes...'), directly supporting the 'has_speaker' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Temporal_subregion:has_theme late",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao's clan was brought into service 'in the late 1610s'. While 'late' is a temporal qualifier for the event, its direct thematic link to 'Han_Chinese' is indirect, as it describes the time of an action involving the clan."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Qing_dynasty Text:has_author his friends – Duncheng ( ) and Zhang Yiquan ( )",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The text authored by Duncheng and Zhang Yiquan are elegiac poems about Cao Xueqin, not about the Qing dynasty. The relationship is misattributed; the triple's subject and object are semantically disconnected in the context provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Assigned_location:has_theme as officials",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Cao's Han Chinese ancestors 'held posts as officials'. This directly links the concept of being Han Chinese with the theme of holding official positions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kangxi_Emperor Certainty:has_theme Kangxi's",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The word 'Kangxi's' appears multiple times in the paragraph (e.g., 'Kangxi's reign', 'Kangxi's wet nurse', 'Kangxi's personal confidant'), making 'Kangxi' a central theme of the text discussing the emperor's relationships and era."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Assistance:has_goal civil positions of the Imperial Household Department",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao's Han Chinese clan began to serve in civil positions of the Imperial Household Department. While not explicitly stating a 'goal', the semantic connection between the Han Chinese clan and serving in these positions is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Moving_in_place:has_location there",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'there' refers to Jiangning (Nanjing), where Cao Xi's family relocated. The Han Chinese clan is the family's origin, creating a weak but valid semantic chain connecting the subject to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Temporal_subregion:has_theme 1610s",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the Han Chinese clan was brought into service 'in the late 1610s'. This is a direct temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Moving_in_place:has_theme family",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses Cao's family, which is explicitly identified as belonging to a Han Chinese clan. The relationship between the clan (Han Chinese) and the family is clearly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Appointing:has_theme Cao Xueqin's great-grandfather, Cao Xi ( )",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Jiankang is an old name for the Nanjing region. The paragraph states Kangxi appointed Cao Xi as Commissioner in Jiangning (present-day Nanjing). There is a reasonable semantic connection between the location (Jiankang/Nanjing) and the appointment event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_entity Chinese novelist and poet (1710–1765)",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly identifies Cao Xueqin as a 'Chinese novelist and poet (1710–1765)' in the very first sentence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Activity_start:has_activity serve in civil positions of the Imperial Household Department",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Cao's family began to serve in civil positions of the Imperial Household Department.' While it refers to his family, the activity is directly associated with the context of Cao Xueqin's life and lineage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Intentional_traversing:has_theme http://en.wikipedia.org/wiki/Kangxi_Emperor",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Jiankang' is not mentioned in the paragraph. The text mentions 'Jiangning' (present-day Nanjing) and the 'Kangxi Emperor', but there is no semantic connection to 'Jiankang'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Rite:has_type military",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao Xueqin 'was born to a Han Chinese clan' and that 'His ancestors distinguished themselves through military service'. This creates a weak but valid semantic link between Han Chinese and a military context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Being_named:has_type courtesy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'his courtesy name was Mengruan', directly associating Cao Xueqin with a 'courtesy' name type."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Authority:has_agent Qing emperor",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao's Han Chinese clan served the Manchu royalty, and the Qing emperor had direct jurisdiction over their banner. There is a semantic connection of authority/service between the Han Chinese clan and the Qing emperor."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Leadership:has_leader clan's",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'clan's prestige and power' refers to the clan possessing these attributes, not that the Han Chinese people have the clan as a leader. The relationship is possessive, not leadership-based."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin People:has_theme letters",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Cao Yin, Cao Xueqin's grandfather, is described as 'one of the era's most prominent men of letters'. This creates a strong thematic connection between the Cao family (including Cao Xueqin) and the theme of letters/literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Qing_dynasty Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The Qing dynasty is the time period discussed, and 'elegiac poems by his friends' are mentioned. There is a weak but valid semantic connection between the dynasty and the existence of poems/texts within that era."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese Temporal_collocation:has_theme Cao Yin's mother, Lady Sun ( ), was Kangxi's wet nurse",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Cao's family was Han Chinese and provides the specific detail about Cao Yin's mother being Kangxi's wet nurse. This event is thematically and temporally associated with the Han Chinese clan's history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Han_Chinese People_by_vocation:has_person servants",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Cao Xueqin was born to a Han Chinese clan that served as bondservants to Manchu royalty. There is a semantic connection between Han Chinese people and servants, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Time_vector:has_event Kangxi appointed Cao Xueqin's great-grandfather, Cao Xi ( ), as the Commissioner of Imperial Textiles ( ) in Jiangning (present-day Nanjing )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Kangxi appointed Cao Xi as Commissioner of Imperial Textiles in Jiangning (present-day Nanjing). The mention of Jiankang (an old name for Nanjing) is a reasonable semantic connection to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Death:has_theme Cao Xueqin's",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses the dates of Cao Xueqin's birth and death, mentioning that his friends wrote elegiac poems about his death. Death is clearly a theme related to him in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cao_Xueqin Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Cao Yin's mother, Lady Sun, who was Kangxi's wet nurse. While not Cao Xueqin's direct mother, the theme of motherhood and kinship is present in relation to his family lineage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jiankang Appointing:has_role as the Commissioner of Imperial Textiles ( ) in Jiangning (present-day Nanjing )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly describes the appointment of Cao Xi to the role of Commissioner of Imperial Textiles in Jiangning (Nanjing). The connection to Jiankang (historical name for Nanjing) is semantically valid."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 39,
+    "accuracy": 0.78,
+    "avg_confidence": 0.6120000000000001,
+    "high_confidence_50": 39,
+    "high_confidence_80": 20,
+    "percent_50": 78.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

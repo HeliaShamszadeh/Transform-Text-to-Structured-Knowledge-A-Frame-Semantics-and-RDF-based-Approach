@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Kinship:has_location http://en.wikipedia.org/wiki/Lancashire",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Charlotte was sent to the Clergy Daughters' School at Cowan Bridge in Lancashire, directly linking her to that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Measure_duration:has_theme few",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph describes conditions and events at Cowan Bridge, but 'few' as a theme is not mentioned or reasonably implied. The predicate 'Measure_duration:has_theme' also seems mismatched."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mirfield Interior_profile_relation:has_theme teach her sisters, Emily and Anne",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Charlotte left Roe Head School in Mirfield 'in order to teach her sisters, Emily and Anne, at home.' While the predicate is unusual, the theme of teaching her sisters is semantically connected to Mirfield as the location of the school she left for that purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Operating_a_system:has_location http://en.wikipedia.org/wiki/Brussels",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject refers to Charlotte, North Carolina, which is a city and is not mentioned or related to the paragraph about Charlotte Brontë. The information about Brussels is about the author, not the city."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Behind_the_scenes:has_theme school's",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states that Charlotte used her experience at Cowan Bridge as the model for Lowood School in Jane Eyre. Therefore, the theme of a 'school' is strongly connected to the novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Locale_by_use:has_theme School",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Charlotte used her experience at the Clergy Daughters' School as the model for Lowood School in Jane Eyre, establishing a strong thematic connection between the novel and the concept of a school."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Desiring:has_event acquiring the skills required to open a school of her own",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Charlotte went to Brussels 'in the hope of acquiring the skills required to open a school of her own', directly linking the location (Brussels) to the event/desire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Temporal_collocation:has_theme Charlotte joined the Heger Pensionnat, a girls' boarding school in Brussels, as a student teacher, in the hope of acquiring the skills required to open a school of her own",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This triple's object is a verbatim excerpt from the paragraph, making it directly and unambiguously extractable. The event is explicitly associated with Brussels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Becoming:has_time since",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'has since become known as a classic', linking the novel's status to a passage of time ('since'). The connection is semantically valid but very weak and indirect for the specific predicate 'Becoming:has_time'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Departing:has_time following year",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Charlotte Brontë, the author. The subject 'Charlotte,_North_Carolina' (a city) is completely unrelated to the content of the paragraph and is not mentioned or implied in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Publishing:has_work which",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Charlotte Brontë is a novelist and poet, and specifically mentions her novel 'Jane Eyre' and her first novel 'The Professor'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Measure_duration:has_theme months",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Charlotte was sent to the Clergy Daughters' School at Cowan Bridge, but no duration in months is specified. The theme 'months' is not connected to Cowan Bridge in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Successful_action:has_theme Charlotte, Emily and Anne",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Charlotte, Emily, and Anne are mentioned together in the context of attempting to open a school. While the action (opening a school) is stated to have failed, the triple's theme of the three sisters acting together is present, albeit not necessarily as a 'successful action'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Text:has_location http://en.wikipedia.org/wiki/Jane_Eyre",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject refers to the city of Charlotte, North Carolina, which is completely unrelated to the paragraph about the author Charlotte Brontë. The location of the novel 'Jane Eyre' is not discussed in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Being_named:has_theme as a classic of English literature",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Jane Eyre was a success on publication, and has since become known as a classic of English literature', which directly matches the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lancashire Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Lancashire as the location of the Clergy Daughters' School, and the context involves events measured in years (e.g., 'three years later'). The connection is weak and indirect, but the theme of time/years is present in the narrative related to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mirfield Temporal_collocation:has_theme Charlotte became a pupil at Roe Head School in Mirfield",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The sentence 'In 1831, Charlotte became a pupil at Roe Head School in Mirfield' is directly stated in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mirfield Relative_time:has_theme year",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The events related to Mirfield (becoming a pupil, leaving the following year) are explicitly tied to the theme of years and relative time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mirfield Purpose:has_goal teach her sisters, Emily and Anne, at home",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Charlotte left Roe Head School in Mirfield 'in order to teach her sisters, Emily and Anne, at home,' directly linking the location to this purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Using:has_role as the model for Lowood School in Jane Eyre",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The entity 'Charlotte, North Carolina' is completely unrelated to the paragraph, which is about the author Charlotte Brontë. The role described ('model for Lowood School') is attributed to the Cowan Bridge school, not a place named Charlotte."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Publishing:has_theme under the pseudonym Currer Bell",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states Charlotte Brontë published 'Jane Eyre' under the pseudonym Currer Bell. The relationship 'Publishing:has_theme' is a reasonable, though slightly abstract, interpretation of this fact."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Kinship:has_theme Charlotte Brontë -> http://en.wikipedia.org/wiki/Charlotte_Brontë",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is logically incoherent; it states a person has a kinship theme pointing to themselves. The paragraph contains no information that could support this specific, nonsensical relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Fame:has_reason her novel Jane Eyre, which was published under the pseudonym Currer Bell",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'She is best known for her novel Jane Eyre...'. This is a clear semantic match for 'Fame:has_reason'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Jane Eyre' is 'a classic of English literature'. While the connection between Charlotte Brontë and the field of literature is indirect (via her work), it is a reasonable and semantically connected inference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Conquering:has_theme love with the school's director, Constantin Heger, a married man, who inspired both the character of Rochester in Jane Eyre, and Charlotte's first novel, The Professor",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Charlotte falling in love with Constantin Heger in the context of her time in Brussels, not Cowan Bridge. The connection to Cowan Bridge is incorrect, but the theme of 'love' and its consequences for her writing is present in the text. This is a very weak and contextually misplaced, but semantically related, connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Locale_by_use:has_theme Lowood",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Charlotte used her experience at Cowan Bridge as the model for Lowood School in Jane Eyre, establishing a strong thematic connection between the novel and Lowood."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Being_employed:has_position as governess to a local family",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Cowan Bridge is mentioned as a school Charlotte attended, not a place where she was employed as a governess. The governess position is a separate event mentioned later in the paragraph with no connection to Cowan Bridge."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Education_teaching:has_location home",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Charlotte Brontë, the author, not the city of Charlotte, North Carolina. There is no mention of Charlotte, North Carolina in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Age:has_entity sisters",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While the novel Jane Eyre itself does not explicitly mention Charlotte's sisters, the paragraph discusses Charlotte's life and her sisters in the context of her writing Jane Eyre. This is a very weak but semantically connected link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Locale_by_use:has_theme school",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Charlotte, Emily, and Anne attempted to open a school in Haworth, establishing a clear connection between the location (Haworth) and the theme/use (school)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lancashire Time_vector:has_theme three years",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Lancashire' and 'three years later' in close proximity, creating a very weak semantic link between the location and the time period, though the relationship is not explicit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Getting:has_location http://en.wikipedia.org/wiki/Brussels",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Cowan Bridge is explicitly located in Lancashire, while Brussels is mentioned as the location of a different school (Heger Pensionnat). The two locations are distinct and unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Conquering:has_theme http://en.wikipedia.org/wiki/Charlotte_Brontë",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly describes Charlotte Brontë's experiences at Cowan Bridge school, establishing a strong thematic connection between the location and the person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Personal_relationship:has_location http://en.wikipedia.org/wiki/Jane_Eyre",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While Charlotte Brontë is the author of Jane Eyre, the relationship is creative/authorial rather than a personal relationship of 'being located at'. However, the novel is so central to her story that a lenient interpretation finds a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Sending:has_recipient along with her three sisters, Maria, Elizabeth and Emily",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Charlotte Brontë, not Charlotte, North Carolina. This is a clear case of entity confusion with no semantic connection to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Death:has_theme http://en.wikipedia.org/wiki/Maria_Branwell",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Maria Branwell died when Charlotte was five, creating a weak semantic link between Charlotte Brontë, death, and Maria Branwell, though 'has_theme' is a very abstract and imprecise relationship for this factual statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Operating_a_system:has_system school of her own",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Charlotte, North Carolina' is completely unrelated to the paragraph, which is about Charlotte Brontë. The predicate and object are also mismatched and do not form a coherent triple with the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Departing:has_location http://en.wikipedia.org/wiki/Jane_Eyre",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Charlotte Brontë's life events (e.g., leaving schools, Brussels) are described, and Jane Eyre is her novel which was inspired by these events. The connection is very indirect and the predicate 'Departing:has_location' is a poor fit, but a weak semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Attempt:has_agent Charlotte, Emily and Anne",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Charlotte, Emily and Anne then attempted to open a school in Haworth'. This directly supports the triple's meaning, with 'Attempt:has_agent' being a reasonable abstraction of their role in the attempt."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Ordinal_numbers:has_type novel",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'She is best known for her novel Jane Eyre', clearly identifying Jane Eyre as a novel. The predicate 'has_type' is a direct match for this classification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Age:has_age only five years",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject refers to Charlotte, North Carolina, which is completely unrelated to the paragraph about Charlotte Brontë. The age 'five years' is mentioned for Charlotte Brontë, but the subject mismatch makes the triple unextractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte_Brontë Fields:has_theme English",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Charlotte Brontë is described as an 'English novelist and poet' and her work 'Jane Eyre' is called 'a classic of English literature'. This provides a strong semantic connection to the theme of English."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Education_teaching:has_student pupils",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Charlotte attempted to open a school in Haworth but 'failed to attract pupils'. This implies a relationship between Haworth and the concept of students/pupils, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Departing:has_location http://en.wikipedia.org/wiki/Mirfield",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject refers to Charlotte, North Carolina, which is unrelated to the paragraph. While Mirfield is mentioned as the location of Roe Head School, the subject mismatch makes the triple unextractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Expertise:has_skill skills",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Charlotte went to Brussels 'in the hope of acquiring the skills required to open a school'. This creates a semantic connection between Brussels and the concept of skills/acquiring skills."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Using:has_instrument Cowan Bridge",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Charlotte Brontë, not Charlotte, North Carolina. The entity 'Cowan Bridge' is mentioned as a school location, but there is no semantic connection to the city."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Locale_by_use:has_theme school",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Brussels is mentioned as the location of the 'Heger Pensionnat, a girls' boarding school'. This establishes a clear connection between Brussels and the theme of a school."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jane_Eyre Medical_conditions:has_patient http://en.wikipedia.org/wiki/Charlotte_Brontë",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak and indirect. The paragraph states Charlotte attributed her 'lifelong ill-health' to her time at Cowan Bridge, and she later used that experience as the model for Lowood School in 'Jane Eyre'. This creates a tenuous thematic link between the novel, illness, and the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cowan_Bridge Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Cowan Bridge is the school Charlotte attended 'along with her three sisters'. The mention of siblings creates a reasonable, though indirect, association with the theme of family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cornish_people Kinship:has_theme daughter",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Maria Branwell, Charlotte's mother, is described as 'the daughter of a Cornish merchant'. This directly links the concept of 'Cornish people' with the kinship role of 'daughter'."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 27,
+    "accuracy": 0.54,
+    "avg_confidence": 0.49400000000000005,
+    "high_confidence_50": 27,
+    "high_confidence_80": 18,
+    "percent_50": 54.0,
+    "percent_80": 36.0,
+    "max_triples_limit": 50
+  }
+}

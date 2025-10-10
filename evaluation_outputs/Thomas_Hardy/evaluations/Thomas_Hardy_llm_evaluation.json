@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jude_the_Obscure Scrutiny:has_theme best-loved novels",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that two of Hardy's novels, including Tess of the d'Urbervilles, were in a survey of 'best-loved novels'. While Jude the Obscure is not explicitly named in that specific list, it is mentioned as one of his famous novels. There is a weak but reasonable semantic connection that his works, as a category, are associated with being 'best-loved'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_West_England Change_position_on_a_scale:has_location Victorian",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hardy was critical of the 'declining status of rural people in Britain such as those from his native South West England' within the context of 'Victorian society'. This creates a semantic link between South West England and the Victorian era, as it was a location affected by conditions during that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Relative_time:has_theme his death",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states that Wordsworth's poetry was an influence on Hardy's work (a theme of 'Romanticism'). The phrase 'his death' refers to Thomas Hardy's death, not Wordsworth's, and there is no connection made between Wordsworth and the theme or event of Hardy's death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Locale_by_use:has_location Victorian",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states that Hardy, a Victorian realist, was influenced by Romanticism, 'including the poetry of William Wordsworth'. This creates an indirect semantic connection, placing Wordsworth's influence within the Victorian era context, though it does not state Wordsworth was personally located in the Victorian period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jude_the_Obscure Motion_directional:has_theme tree",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The novel 'Jude the Obscure' is mentioned, and a 'tree' (the Hardy Tree) is mentioned in a separate sentence about Hardy's life and career. There is no semantic connection between the specific novel and the theme of a tree; the two pieces of information are completely unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_West_England Change_position_on_a_scale:has_theme status of rural people in Britain such as those from his native South West England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hardy was critical of the declining status of rural people, specifically mentioning those from his native South West England. The triple connects the region to the theme of rural status, which is a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Topic:has_status primarily as a poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Hardy wrote poetry throughout his life and regarded himself primarily as a poet.' This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Categorization:has_category as a mentor",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that 'younger poets (particularly the Georgians) who viewed him as a mentor.' This establishes a semantic connection where Hardy is categorized in a mentor-like role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Perception_active:has_theme Two of his novels, Tess of the d'Urbervilles and Far from the Madding Crowd",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions William Wordsworth as an influence on Hardy's poetry, but it does not connect Wordsworth to the specific novels mentioned in the triple. The information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Publishing:has_time until 1898",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1898 is mentioned in the paragraph as the publication date of Hardy's first poetry collection. There is no connection made between this date and William Wordsworth, making the triple unextractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Reference_text:has_theme Thomas Hardy (disambiguation",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'Thomas Hardy (disambiguation)' appears in the first sentence, but the relationship 'has_theme' is a very weak semantic connection. The disambiguation is mentioned as a reference point, not as a theme of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Age:has_entity poets",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incoherent. The subject is William Wordsworth, but the predicate 'Age:has_entity' and object 'poets' do not form a meaningful statement that can be extracted from the paragraph. The paragraph mentions poets in general, but not in a way that connects to Wordsworth's age or as an entity of his."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Cardinal_numbers:has_entity his novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is incoherent. The predicate 'Cardinal_numbers:has_entity' and object 'his novels' (presumably referring to Hardy's novels) do not form a meaningful statement about the subject, William Wordsworth. The paragraph states Hardy was influenced by Wordsworth's poetry, not that Wordsworth has a numerical relationship to Hardy's novels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Reference_text:has_time 1928",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1928 (the year of Hardy's death) is explicitly mentioned in the first line. The relationship 'has_time' is a reasonable, though slightly abstract, way to represent this date being associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Inclusion:has_theme Romanticism",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Hardy 'was influenced... by Romanticism, including the poetry of William Wordsworth.' This creates a strong semantic link between Wordsworth and the theme of Romanticism, supporting the idea that Romanticism is a theme associated with Wordsworth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Temporal_collocation:has_theme his lifetime",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. The phrase 'his lifetime' refers to Thomas Hardy's lifetime, not Wordsworth's, and the relationship 'has_theme' with 'his lifetime' is not a concept that can be reasonably extracted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_West_England Judgment:has_theme http://en.wikipedia.org/wiki/Thomas_Hardy",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hardy was critical of the declining status of rural people from his native South West England. This implies a thematic connection (Judgment) between the region and Hardy's work/critique, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Getting:has_recipient http://en.wikipedia.org/wiki/Thomas_Hardy",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Hardy 'was influenced... by Romanticism, including the poetry of William Wordsworth.' The 'Getting:has_recipient' frame can be leniently interpreted as Hardy receiving influence from Wordsworth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/St_Pancras_Old_Church Motion:has_goal gravestones",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'gravestones moved while Hardy was working' in the churchyard of Old St Pancras Church. The relationship 'Motion:has_goal gravestones' is not supported; the gravestones were the objects being moved, not the goal of the motion. The connection is very weak and the intended meaning is unclear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Purpose:has_goal uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. The word 'uses' appears in the disambiguation link 'see Thomas Hardy (disambiguation)', but it does not form a meaningful relationship where Thomas Hardy has a goal of 'uses'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states Hardy was influenced 'by Romanticism, including the poetry of William Wordsworth', directly connecting Wordsworth to poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text:has_text poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Paragraph explicitly states Hardy was a poet, wrote poetry throughout his life, and published a poetry collection, directly connecting him to poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/St_Pancras_Old_Church Being_employed:has_theme there",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'The Hardy Tree' in Old St Pancras churchyard and that gravestones were moved 'while Hardy was working there'. This weakly implies the churchyard was a place of employment or work, which can be semantically connected to the 'has_theme' of 'Being_employed'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Locale:has_theme region",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Wordsworth only in the context of his poetry influencing Hardy. There is no mention of Wordsworth in relation to any specific region or locale, making this connection unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/St_Pancras_Old_Church Motion:has_time while Hardy was working there",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that gravestones were moved 'while Hardy was working there' (at Old St Pancras churchyard). This directly connects the location to a specific time period defined by Hardy's work, which can be semantically linked to the 'has_time' property of a 'Motion' event (the moving of gravestones)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Hardy wrote poetry and that his poems were lauded after his death, establishing a clear connection between Thomas Hardy and poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Subjective_influence:has_entity both in his novels and in his poetry by Romanticism, including the poetry of William Wordsworth",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph directly states Hardy 'was influenced both in his novels and in his poetry by Romanticism, including the poetry of William Wordsworth', which semantically matches the triple's meaning of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ezra_Pound Judgment_communication:has_theme his poems",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'After his death his poems were lauded by Ezra Pound', which implies a communicative act (judgment/lauding) by Pound with Hardy's poems as the theme, even if the predicate is not a perfect lexical match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth People:has_theme rural",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'rural people' in the context of Hardy's criticism of Victorian society, but there is no direct or indirect semantic link connecting the theme of 'rural' specifically to William Wordsworth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_West_England Judgment:has_degree highly",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'highly' modifies Hardy's criticism ('highly critical'), but this judgment is not attributed to the region 'South West England' itself. The connection is too indirect and semantically invalid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Locale:has_theme semi-fictional",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hardy's novels are set in a semi-fictional region, but there is no connection made between this concept and William Wordsworth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Text:has_theme Romanticism",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Hardy was influenced by Romanticism, including the poetry of William Wordsworth. This implies Wordsworth's work is associated with the theme of Romanticism."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Topic:has_theme tragic characters struggling against their passions and social circumstances",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Hardy's novels concern such tragic characters, but there is no mention of this theme being associated with William Wordsworth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Judgment_communication:has_theme Hardy's poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Hardy's poetry being acclaimed, but it does not state that Hardy's poetry is a theme of William Wordsworth's work; the influence is in the opposite direction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth People:has_location Victorian",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Victorian society and Hardy as a Victorian realist. Wordsworth (1770-1850) was a Romantic poet whose lifetime overlapped with the early Victorian era, creating a weak, indirect contextual link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Perception_active:has_state top 50 on the BBC's survey of best-loved novels, The Big Read",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that two of Thomas Hardy's novels were in the top 50 of the BBC survey. There is no mention of William Wordsworth's connection to this survey; the entities are incorrectly linked."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions William Wordsworth in the context of Romanticism influencing Hardy's novels and poetry. While the connection is indirect and 'has_text novels' is a vague property, there is a weak semantic link through the theme of literary influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text_creation:has_text novels such as Far from the Madding Crowd (1874 ), The Mayor of Casterbridge (1886 ), Tess of the d'Urbervilles (1891) and Jude the Obscure (1895",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This information is directly and explicitly stated in the paragraph: 'he gained fame as the author of novels such as Far from the Madding Crowd (1874), The Mayor of Casterbridge (1886), Tess of the d'Urbervilles (1891) and Jude the Obscure (1895).'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jude_the_Obscure Motion_directional:has_time December 2022",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions December 2022 as the date the 'Hardy Tree' fell. There is no semantic connection between this event and the novel 'Jude the Obscure'; the entities are incorrectly linked."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text_creation:has_time throughout his life",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Hardy wrote poetry throughout his life'. While the property 'Text_creation:has_text' in the triple is about 'novels' and the quote is about 'poetry', the semantic concept of creating literature 'throughout his life' is clearly present for the subject Thomas Hardy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/South_West_England Judgment:has_location Victorian",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Hardy was 'highly critical of much in Victorian society' and references 'his native South West England', creating a semantic link between the Victorian era and the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Temporal_collocation:has_theme Hardy's poetry was acclaimed by younger poets (particularly the Georgians ) who viewed him as a mentor",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Wordsworth is mentioned as an influence on Hardy's poetry, and the paragraph separately discusses Hardy's poetry being acclaimed. The connection is indirect and thematic, but a weak semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Inclusion:has_theme poetry of William Wordsworth",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'including the poetry of William Wordsworth' is directly stated in the paragraph, providing a clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anglo-Saxons Political_locales:has_theme kingdom",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions 'the medieval Anglo-Saxon kingdom' as the basis for Hardy's Wessex, creating a direct semantic link between Anglo-Saxons and a kingdom."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Temporal_subregion:has_theme he gained fame as the author of novels such as Far from the Madding Crowd (1874 ), The Mayor of Casterbridge (1886 ), Tess of the d'Urbervilles (1891) and Jude the Obscure (1895",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The connection is extremely weak. Wordsworth is mentioned as a Romantic influence, and Hardy's novel-writing fame is discussed separately. A very lenient interpretation might link the 'Romanticism' theme to the novels, but this is a highly indirect semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text:has_author Hardy's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'Hardy's' appears in the text, but the relationship 'has_author' is reversed and the triple structure is semantically unclear. Weak connection based on presence of possessive form."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jude_the_Obscure Scrutiny:has_theme BBC's",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No connection between Jude the Obscure and BBC's theme/scrutiny mentioned in paragraph. BBC survey mentions Tess and Far from the Madding Crowd, but not Jude."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text_creation:has_text poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Hardy wrote poetry throughout his life and regarded himself primarily as a poet. Clear connection between Hardy and poetry creation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Relative_time:has_theme his poems were lauded by Ezra Pound, W. H. Auden and Philip Larkin",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "William Wordsworth is mentioned as an influence on Hardy, but the praise from Pound, Auden, and Larkin was for Hardy's poems, not Wordsworth's. No connection between Wordsworth and that specific praise."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ezra_Pound Judgment_communication:has_time After his death",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Ezra Pound is mentioned as one who lauded Hardy's poems 'after his death', establishing a temporal connection between Pound's judgment and Hardy's death."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 24,
+    "accuracy": 0.48,
+    "avg_confidence": 0.45,
+    "high_confidence_50": 24,
+    "high_confidence_80": 12,
+    "percent_50": 48.0,
+    "percent_80": 24.0,
+    "max_triples_limit": 50
+  }
+}

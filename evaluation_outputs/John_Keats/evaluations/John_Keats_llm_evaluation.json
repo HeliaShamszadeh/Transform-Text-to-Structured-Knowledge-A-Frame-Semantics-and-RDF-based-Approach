@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Quantified_mass:has_theme writers",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions that Keats influenced 'many writers' and specifically names writers like Algernon Charles Swinburne, Dante Gabriel Rossetti, and William Morris, establishing a strong thematic connection to writers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Temporal_subregion:has_theme later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses events in a 'later' period, specifically 'the later Victorian era', which is a temporal subregion related to Keats's influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Communicate_categorization:has_item his \" Ode to a Nightingale \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The poem 'Ode to a Nightingale' is explicitly mentioned twice as one of Keats's works, making this a direct and clear extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Event_instance:has_theme time",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph is rich with temporal references (e.g., 'less than four years', 'all his life', 'first time reading', 'Today'), providing a weak but valid semantic connection to the theme of time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Be_subset_of:has_time Today",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Today' in the context of Keats's popularity in English literature, but there is no semantic connection stating that England, as a subject, has a time of 'Today'. The triple's structure and meaning are unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Text:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "John Keats is explicitly described as an 'English poet' and 'English Romantic poet', which strongly implies a location in England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Temporal_subregion:has_theme century",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'By the end of the century', linking Keats to the concept of a century, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text On First Looking into Chapman's Homer",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The poem 'On First Looking into Chapman's Homer' is mentioned in the context of Keats's English literature. The connection to England is weak but semantically valid through the context of English literary canon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Give_impression:has_theme Keats and his family",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The phrase 'Keats and his family' appears directly in the text, discussing his birthday, creating a clear thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Perception_active:has_theme into Chapman's Homer",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Extremely weak but valid connection: the poem is part of English literature, and England is the context for Keats's work. The specific predicate is vague enough to allow this lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Be_subset_of:has_theme his poems and letters",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Keats was an 'English poet' and that his poems and letters are among the most popular in 'English literature'. There is a semantic connection between England and his work, though the relationship 'Be_subset_of:has_theme' is abstract and not directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Origin:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph explicitly states Keats was an 'English Romantic poet' born in London. It mentions an American writer named John Keats only to distinguish him from the poet. There is no information connecting the poet John Keats's origin to the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Death:has_theme tuberculosis",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states he 'died of tuberculosis'. The connection between his death and the theme of tuberculosis is direct and unambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The entire paragraph is about John Keats as a poet and his place in English literature. His field is unequivocally literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sleep_and_Poetry State_continue:has_state among the most popular and analysed in English literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The poem 'Sleep and Poetry' is mentioned in the sentence stating that his poems 'remain among the most popular and analysed in English literature'. The triple's meaning, that the poem has the state of being popular/analysed, is directly extractable from this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions durations in years (e.g., 'less than four years', 'by the end of the century'), providing a weak semantic connection to the theme of years as a measure of duration."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Being_born:has_location Moorgate, London",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'John Keats was born in Moorgate, London', providing a direct and clear match for the location of birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Placing:has_time end of the century",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'By the end of the century, he was placed in the canon of English literature' indicates a placement event occurring at a specific time, which is a reasonable semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Calendric_unit:has_theme later",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph uses the word 'later' in 'In the later Victorian era', which is a calendric reference. The connection to Keats is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Age:has_age 25",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text clearly states 'he died of tuberculosis at the age of 25', providing a direct and unambiguous statement about his age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Subjective_influence:has_theme many writers of the Pre-Raphaelite Brotherhood",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Keats 'strongly influencing many writers of the Pre-Raphaelite Brotherhood'. While 'has_theme' is not a perfect match for 'influencing', the semantic connection between a poet's work (which has themes) and his influence on other writers is reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Containers:has_theme Urn",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Ode on a Grecian Urn' as a poem by Keats. There is no semantic connection established between the country of England and the theme of an urn. The subject of the triple is incorrect and the relationship is unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Measure_duration:has_theme four",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions his poems were in publication for 'less than four years'. This is a weak connection, as 'four' is a duration measure related to his career, but the predicate 'has_theme' is a very poor semantic fit for a unit of time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Calendric_unit:has_theme century",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states 'By the end of the century, he was placed in the canon...'. 'Century' is a calendric unit mentioned in the context of his posthumous fame. The connection is weak because 'has_theme' is not an appropriate predicate for a point in time, but the concept of a 'century' is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Text:has_text poems",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly states that John Keats was a poet and discusses his 'poems' extensively. The relationship 'Text:has_text poems' is a direct and clear semantic match for the information provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ode_on_a_Grecian_Urn Subjective_influence:has_theme poets such as Algernon Charles Swinburne, Dante Gabriel Rossetti, and William Morris",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Keats's medievalist poems influenced these poets, but it does not attribute this specific influence to 'Ode on a Grecian Urn'. The connection is incorrect and not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Text:has_theme medievalist",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions 'Keats' medievalist poems', directly associating the theme of medievalism with his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Scrutiny:has_theme his poems and letters",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Keats's place in 'English literature', but it does not state that the country of England itself has the theme of his poems and letters. The subject of the triple is misaligned with the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Being_born:has_time 31 October 1795",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'John Keats was born... on 31 October 1795', providing a clear and direct match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Temporal_subregion:has_theme Victorian era",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'In the later Victorian era, Keats' medievalist poems... were a major influence'. This creates a semantic connection between Keats and the Victorian era, though the predicate 'has_theme' is a slightly abstract interpretation of his influence during that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Subjective_influence:has_theme strongly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Keats's strong influence on other writers and movements (e.g., Pre-Raphaelite Brotherhood), which semantically connects to the concept of 'strongly' having a theme or influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Reference_text:has_theme Keats (disambiguation)",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'Keats (disambiguation)' appears in the paragraph as a reference point. While the connection to 'has_theme' is very weak, the text is semantically related to disambiguation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Quantified_mass:has_quantity many",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states he influenced 'many writers,' which provides a semantic connection to a quantified mass ('many')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Ordinal_numbers:has_type time reading",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'first time reading Keats' appears, which weakly relates to 'time reading' as a type of ordinal event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats People_by_vocation:has_person John Keats (31 October 1795 – 23 February 1821)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The exact name and lifespan 'John Keats (31 October 1795 – 23 February 1821)' is directly stated in the paragraph, clearly relating to the person."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Eve_of_St._Agnes Giving:has_theme baptism records",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The poem 'The Eve of St. Agnes' is mentioned, and 'baptism records' are mentioned, but there is no semantic connection between them in the paragraph. The baptism records refer to Keats's birth date, not the theme of the poem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Importance:has_theme Pre-Raphaelite movement",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Keats's poems were 'a major influence on the Pre-Raphaelite movement.' While 'has_theme' is not a perfect predicate, there is a strong semantic connection between Keats and the movement through his influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Death:has_time age of 25",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Keats 'died of tuberculosis at the age of 25,' providing a clear and direct connection between his death and the time/age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Communicate_categorization:has_speaker Encyclopdia Britannica of 1888",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'the Encyclopædia Britannica of 1888 described his Ode...' This implies the encyclopedia is a 'speaker' or source of a categorization/description, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Origin:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Keats is explicitly described as an 'English Romantic poet' and 'English poet,' which strongly implies his origin is England, even if the specific country URI is not mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Perception_experience:has_theme he felt all his life",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Jorge Luis Borges named his first time reading Keats an experience he felt all his life.' While the triple's subject is John Keats and the object is 'he felt all his life', the semantic connection is indirect; the experience of reading Keats is the theme felt by Borges, not Keats himself. However, Keats is the central theme of that experience."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Give_impression:has_theme have marked his birthday on 29 October",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'Although Keats and his family seem to have marked his birthday on 29 October...'. This is a clear and direct semantic match for the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats People_by_vocation:has_theme second generation of Romantic poets",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'John Keats ... was an English poet of the second generation of Romantic poets'. This is a direct and clear semantic match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Objective_influence:has_theme Pre-Raphaelite movement",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Keats' medievalist poems... were a major influence on the Pre-Raphaelite movement'. This establishes a strong semantic link between John Keats and the theme of the Pre-Raphaelite movement in the context of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Accompaniment:has_participant John Keats (31 October 1795 – 23 February 1821)",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The triple is semantically odd as it states John Keats is a participant of himself. However, the string 'John Keats (31 October 1795 – 23 February 1821)' appears verbatim in the paragraph. While the relationship 'has_participant' is not a good fit, the information is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Origin:has_entity writer and biographer",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph begins by distinguishing the poet from 'the American writer and biographer' John Keats, establishing a semantic connection between the subject and the entity 'writer and biographer'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Keats Objective_influence:has_degree major",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states that Keats' poems were 'a major influence on the Pre-Raphaelite movement', directly supporting the concept of a 'major' degree of influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sleep_and_Poetry State_continue:has_time Today",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Today his poems and letters remain among the most popular', and 'Sleep and Poetry' is listed as one of his poems. This creates a reasonable, though indirect, link between the poem and the temporal context of 'Today'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text writer",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions an 'American writer'. While the connection to the entity 'United States' is weak and the predicate 'has_text writer' is vague, the semantic link between America and a writer is present, warranting a low-confidence true."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Desirability:has_theme most",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Keats is described as an 'English poet' and his works are cited as being among the 'most popular' in English literature. This provides a weak but valid semantic connection between England and a theme of 'most' (popular)."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 33,
+    "accuracy": 0.66,
+    "avg_confidence": 0.61,
+    "high_confidence_50": 33,
+    "high_confidence_80": 21,
+    "percent_50": 66.0,
+    "percent_80": 42.0,
+    "max_triples_limit": 50
+  }
+}

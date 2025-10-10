@@ -1,0 +1,218 @@
+digraph John_Milton {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "modern writer" [label="modern writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "first modern writer" [label="first modern writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "place" [label="place", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "12 books" [label="12 books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "12 books, written in a time..." [label="12 books, written in a time...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "as one of the preeminent wr..." [label="as one of the preeminent wr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets such as William Blake..." [label="poets such as William Blake...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "freedom of speech and freed..." [label="freedom of speech and freed...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Garden of Eden" [label="Garden of Eden", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Milton's" [label="Milton's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during his lifetime" [label="during his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His 1667 epic poem Paradise..." [label="His 1667 epic poem Paradise...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fame and recognition" [label="fame and recognition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unrhymed verse" [label="unrhymed verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Milton" [label="John Milton", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his introduction of new wor..." [label="his introduction of new wor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new" [label="new", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His celebrated Areopagitica..." [label="His celebrated Areopagitica...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "freedom" [label="freedom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time of immense religious f..." [label="time of immense religious f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "God" [label="God", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "temptation of Adam and Eve ..." [label="temptation of Adam and Eve ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "outside of the theatre or t..." [label="outside of the theatre or t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " a poem which... with r..." [label="as " a poem which... with r...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "defences of freedom of spee..." [label="defences of freedom of spee...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Milton's politics" [label="Milton's politics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "words" [label="words", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paradise Lost" [label="Paradise Lost", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fall of man" [label="fall of man", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as those of an " acrimoniou..." [label="as those of an " acrimoniou...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "impassioned" [label="impassioned", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pre-publication censorship" [label="pre-publication censorship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the " greatest English a..." [label="as the " greatest English a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verse" [label="verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Milton's reputation as one ..." [label="Milton's reputation as one ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "among the productions of th..." [label="among the productions of th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "blank verse" [label="blank verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "employ unrhymed verse outsi..." [label="employ unrhymed verse outsi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theatre" [label="theatre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history's" [label="history's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of history's greates..." [label="as one of history's greates...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his biographer William Hayley" [label="his biographer William Hayley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "generally regarded " as one..." [label="generally regarded " as one...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "centuries" [label="centuries", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Samuel Johnson" [label="Samuel Johnson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fall of man, including the ..." [label="fall of man, including the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern verse" [label="modern verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history's most influential ..." [label="history's most influential ...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "John Milton" -> "author" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "John Milton" -> "England" [label="has theme [Origin]", color=lightblue, penwidth=1];
+    "England" -> "freedom" [label="has theme [Desiring]", color=lightcoral, penwidth=1];
+    "John Milton" -> "as one of history's greates..." [label="has reason [Fame]", color=lightgreen, penwidth=1];
+    "John Milton" -> "12 books" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "John Milton" -> "fall of man" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "John Milton" -> "fame and recognition" [label="has goal [Accomplishment]", color=lightcyan, penwidth=1];
+    "John Milton" -> "unrhymed verse" [label="has instrument [Using]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "employ unrhymed verse outsi..." [label="has theme [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "John Milton" -> "books" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Paradise Lost" -> "fall of man, including the ..." [label="has theme [Topic]", color=blue, penwidth=2];
+    "John Milton" -> "defences of freedom of spee..." [label="has entity [Subjective_influence]", color=lightsalmon, penwidth=1];
+    "John Milton" -> "history's most influential ..." [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "John Milton" -> "theatre" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "John Milton" -> "modern writer" [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "Paradise Lost" -> "Milton's reputation as one ..." [label="has theme [Connecting_architecture]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "place" [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "John Milton" -> "first modern writer" [label="has agent [Using]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "words" [label="has theme [Simple_name]", color=lightcoral, penwidth=1];
+    "Paradise Lost" -> "His 1667 epic poem Paradise..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "John Milton" -> "words" [label="has entity [Age]", color=lightblue, penwidth=1];
+    "John Milton" -> "outside of the theatre or t..." [label="has location [Using]", color=green, penwidth=2];
+    "John Milton" -> "other people" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "Paradise Lost" -> "His 1667 epic poem Paradise..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "John Milton" -> "poets such as William Blake..." [label="has theme [Judgment]", color=lightgreen, penwidth=1];
+    "John Milton" -> "as one of the preeminent wr..." [label="has category [Categorization]", color=lightyellow, penwidth=1];
+    "God" -> "God" [label="has theme [Removing]", color=lightpink, penwidth=1];
+    "Paradise Lost" -> "Milton's politics" [label="has item [Communicate_categorization]", color=lightcyan, penwidth=1];
+    "John Milton" -> "England" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "John Milton" -> "freedom of speech and freed..." [label="has theme [Defending]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "writers" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Paradise Lost" -> "as " a poem which... with r..." [label="has reason [Judgment_communication]", color=lightgray, penwidth=1];
+    "John Milton" -> "generally regarded " as one..." [label="has state [State_continue]", color=lightgoldenrodyellow, penwidth=1];
+    "John Milton" -> "new" [label="has age [Age]", color=lightblue, penwidth=1];
+    "Paradise Lost" -> "12 books, written in a time..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Paradise Lost" -> "Samuel Johnson" [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "John Milton" -> "history's" [label="has theme [Defending]", color=lightsteelblue, penwidth=1];
+    "Paradise Lost" -> "as those of an " acrimoniou..." [label="has category [Communicate_categorization]", color=lightcyan, penwidth=1];
+    "John Milton" -> "impassioned" [label="has theme [Defending]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "modern verse" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "John Milton" -> "English language" [label="has theme [Text_creation]", color=lightyellow, penwidth=1];
+    "John Milton" -> "His celebrated Areopagitica..." [label="has theme [Be_subset_of]", color=lightgoldenrod, penwidth=1];
+    "John Milton" -> "poem" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Paradise Lost" -> "blank verse" [label="has theme [Text_creation]", color=lightyellow, penwidth=1];
+    "God" -> "Garden of Eden" [label="has theme [Removing]", color=lightpink, penwidth=1];
+    "John Milton" -> "pre-publication censorship" [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "John Milton" -> "his biographer William Hayley" [label="has theme [Categorization]", color=lightyellow, penwidth=1];
+    "John Milton" -> "people" [label="has class [Increment]", color=lightseagreen, penwidth=1];
+    "John Milton" -> "place" [label="has theme [Locale]", color=lightsalmon, penwidth=1];
+    "John Milton" -> "Milton's" [label="has entity [Fame]", color=lightgreen, penwidth=1];
+    "John Milton" -> "among the productions of th..." [label="has theme [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "John Milton" -> "as the " greatest English a..." [label="has category [Categorization]", color=lightyellow, penwidth=1];
+    "John Milton" -> "centuries" [label="has theme [Measure_duration]", color=lightgoldenrod, penwidth=1];
+    "John Milton" -> "poets" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "John Milton" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "John Milton" -> "temptation of Adam and Eve ..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "John Milton" -> "which" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "John Milton" -> "verse" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "John Milton" -> "time of immense religious f..." [label="has time [Text_creation]", color=purple, penwidth=2];
+    "John Milton" -> "during his lifetime" [label="has time [Accomplishment]", color=purple, penwidth=2];
+    "John Milton" -> "His celebrated Areopagitica..." [label="has theme [Judgment_communication]", color=lightgray, penwidth=1];
+    "John Milton" -> "his introduction of new wor..." [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Accomplishment_legend" [label="Accomplishment", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Connecting_architecture_legend" [label="Connecting_architecture", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Simple_name_legend" [label="Simple_name", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Defending_legend" [label="Defending", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

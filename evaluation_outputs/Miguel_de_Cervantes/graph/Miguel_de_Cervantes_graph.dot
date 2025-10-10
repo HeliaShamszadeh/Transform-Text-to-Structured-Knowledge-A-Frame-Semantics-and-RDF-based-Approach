@@ -1,0 +1,261 @@
+digraph Miguel_de_Cervantes {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "Spanish writer" [label="Spanish writer", fillcolor=lightcoral, color=red, shape=circle];
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "many well-known authors" [label="many well-known authors", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "as the greatest writer in t..." [label="as the greatest writer in t...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "12 Novelas ejemplares  Exem..." [label="12 Novelas ejemplares  Exem...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novel Don Quixote, a wo..." [label="his novel Don Quixote, a wo...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work as a purchasing agent,..." [label="work as a purchasing agent,...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His first significant novel" [label="His first significant novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work in world literature" [label="work in world literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Rome, where he worked in th..." [label="Rome, where he worked in th...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "many of his early works bei..." [label="many of his early works bei...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his early works" [label="his early works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His first significant novel..." [label="His first significant novel...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "as the " best book of all t..." [label="as the " best book of all t...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "modern novel" [label="modern novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Other works" [label="Other works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+    "significant novel" [label="significant novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "story of Don Quixote 1870 " [label="story of Don Quixote 1870 ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern" [label="modern", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Don Quixote" [label="Don Quixote", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1570" [label="1570", fillcolor=lightgray, color=gray, shape=hexagon];
+    "all time" [label="all time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a purchasing agent, and ..." [label="as a purchasing agent, and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "La Galatea" [label="La Galatea", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Alexander Hillingford" [label="Robert Alexander Hillingford", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after five years in captivity" [label="after five years in captivity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "five" [label="five", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish language" [label="Spanish language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "singer" [label="singer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cervantes disambiguation" [label="Cervantes disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "use of his left arm and hand" [label="use of his left arm and hand", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his left arm and hand" [label="his left arm and hand", fillcolor=lightgray, color=gray, shape=hexagon];
+    "October 1571" [label="October 1571", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1605" [label="1605", fillcolor=lightgray, color=gray, shape=hexagon];
+    "referred to as " the langua..." [label="referred to as " the langua...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish Navy infantry regiment" [label="Spanish Navy infantry regiment", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "left" [label="left", fillcolor=lightgray, color=gray, shape=hexagon];
+    "October" [label="October", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Barbary pirates" [label="Barbary pirates", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "government" [label="government", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spain" [label="Spain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "captivity" [label="captivity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "actor" [label="actor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hand" [label="hand", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Madrid" [label="Madrid", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Miguel de Cervantes" [label="Miguel de Cervantes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leave Spain and move to Rom..." [label="leave Spain and move to Rom...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "household of a cardinal" [label="household of a cardinal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " the language of Cervantes" [label="as " the language of Cervantes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1585" [label="1585", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Battle of Lepanto" [label="Battle of Lepanto", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Part One of Don Quixote" [label="Part One of Don Quixote", fillcolor=lightgray, color=gray, shape=hexagon];
+    "actor and singer" [label="actor and singer", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Don Quixote" -> "poem" [label="has theme [Duration_description]", color=lightblue, penwidth=1];
+    "Miguel de Cervantes" -> "after five years in captivity" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Spanish language" -> "as " the language of Cervantes" [label="has theme [Referring_by_name]", color=lightgreen, penwidth=1];
+    "Miguel de Cervantes" -> "Cervantes disambiguation" [label="has theme [Reference_text]", color=lightyellow, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Becoming_a_member]", color=lightpink, penwidth=1];
+    "Miguel de Cervantes" -> "his novel Don Quixote, a wo..." [label="has reason [Fame]", color=lightcyan, penwidth=1];
+    "Don Quixote" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "works" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Don Quixote" -> "government" [label="has organization [Organization]", color=lightgoldenrodyellow, penwidth=1];
+    "Don Quixote" -> "as a purchasing agent, and ..." [label="has position [Being_employed]", color=lightseagreen, penwidth=1];
+    "Don Quixote" -> "1605" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Don Quixote" -> "works" [label="has class [Increment]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "literature" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "his early works" [label="has theme [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "Miguel de Cervantes" -> "Barbary pirates" [label="has theme [Conquering]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Earnings_and_losses]", color=lightblue, penwidth=1];
+    "Don Quixote" -> "after five years in captivity" [label="has time [Kidnapping]", color=purple, penwidth=2];
+    "Don Quixote" -> "early" [label="has theme [Temporal_subregion]", color=lightgray, penwidth=1];
+    "Miguel de Cervantes" -> "work as a purchasing agent,..." [label="has activity [Activity_ongoing]", color=lightgreen, penwidth=1];
+    "Don Quixote" -> "novel" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Don Quixote" -> "book" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "La Galatea" -> "La Galatea" [label="has document [Documents]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "literary" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "household of a cardinal" [label="has position [Being_employed]", color=lightseagreen, penwidth=1];
+    "Spanish language" -> "uses" [label="has class [Increment]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "Robert Alexander Hillingford" [label="has event [Event]", color=lightcyan, penwidth=1];
+    "Miguel de Cervantes" -> "Spain" [label="has theme [Departing]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "1585" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Miguel de Cervantes" -> "Rome, where he worked in th..." [label="has goal [Motion]", color=lightgray, penwidth=1];
+    "Don Quixote" -> "October" [label="has location [Earnings_and_losses]", color=green, penwidth=2];
+    "Miguel de Cervantes" -> "Don Quixote" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "use of his left arm and hand" [label="has theme [Earnings_and_losses]", color=lightblue, penwidth=1];
+    "Don Quixote" -> "authors" [label="has author [Text_creation]", color=lightgoldenrodyellow, penwidth=1];
+    "Don Quixote" -> "story of Don Quixote 1870 " [label="has location [Event]", color=green, penwidth=2];
+    "Don Quixote" -> "significant novel" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Miguel de Cervantes" -> "novel" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "Part One of Don Quixote" [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Cause_harm]", color=lightsalmon, penwidth=1];
+    "Don Quixote" -> "many well-known authors" [label="has speaker [Labeling]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "world" [label="has theme [Political_locales]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "work in world literature" [label="has theme [Desirability]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "October 1571" [label="has time [Cause_harm]", color=purple, penwidth=2];
+    "Don Quixote" -> "years" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "United States" -> "singer" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "United States" -> "actor and singer" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "Battle of Lepanto" [label="has location [Cause_harm]", color=green, penwidth=2];
+    "Don Quixote" -> "12 Novelas ejemplares  Exem..." [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Spanish language" -> "writer" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "book" [label="has entity [Usefulness]", color=lightyellow, penwidth=1];
+    "Don Quixote" -> "left" [label="has theme [Body_parts]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "poem" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has employee [Being_employed]", color=lightseagreen, penwidth=1];
+    "Don Quixote" -> "Spanish Navy infantry regiment" [label="has group [Becoming_a_member]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "many of his early works bei..." [label="has effect [Causation]", color=lightcyan, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Objective_influence]", color=lightsteelblue, penwidth=1];
+    "Miguel de Cervantes" -> "leave Spain and move to Rom..." [label="has effect [Causation]", color=lightcyan, penwidth=1];
+    "Don Quixote" -> "October" [label="has location [Body_parts]", color=green, penwidth=2];
+    "Don Quixote" -> "October" [label="has location [Becoming_a_member]", color=green, penwidth=2];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has possessor [Body_parts]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "referred to as " the langua..." [label="has event [Frequency]", color=lightgray, penwidth=1];
+    "Don Quixote" -> "His first significant novel..." [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "United States" -> "actor" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Don Quixote" -> "as the " best book of all t..." [label="has theme [Labeling]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "Other works" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "La Galatea" -> "His first significant novel" [label="has theme [Documents]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "his left arm and hand" [label="has instrument [Using]", color=lightgoldenrodyellow, penwidth=1];
+    "Don Quixote" -> "novel" [label="has entity [Labeling]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "where" [label="has theme [Being_employed]", color=lightseagreen, penwidth=1];
+    "Miguel de Cervantes" -> "Madrid" [label="has goal [Arriving]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "five" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "modern novel" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Don Quixote" -> "modern" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "Spanish language" -> "Spanish writer" [label="has item [Categorization]", color=lightseagreen, penwidth=1];
+    "Don Quixote" -> "captivity" [label="has process [Measure_duration]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "novel" [label="has theme [Importance]", color=lightsalmon, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Taking_captive]", color=lightgoldenrod, penwidth=1];
+    "Don Quixote" -> "October" [label="has location [Using]", color=green, penwidth=2];
+    "Don Quixote" -> "many" [label="has quantity [Quantified_mass]", color=lightsteelblue, penwidth=1];
+    "Don Quixote" -> "which" [label="has cause [Causation]", color=lightcyan, penwidth=1];
+    "Don Quixote" -> "Miguel de Cervantes" [label="has theme [Kidnapping]", color=lightcoral, penwidth=1];
+    "Don Quixote" -> "all time" [label="has time [Usefulness]", color=purple, penwidth=2];
+    "Don Quixote" -> "hand" [label="has theme [Body_parts]", color=lightpink, penwidth=1];
+    "Don Quixote" -> "1570" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Spanish language" -> "as the greatest writer in t..." [label="has category [Categorization]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Referring_by_name_legend" [label="Referring_by_name", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Organization_legend" [label="Organization", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Conquering_legend" [label="Conquering", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kidnapping_legend" [label="Kidnapping", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Documents_legend" [label="Documents", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Cause_harm_legend" [label="Cause_harm", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Usefulness_legend" [label="Usefulness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Body_parts_legend" [label="Body_parts", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Taking_captive_legend" [label="Taking_captive", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

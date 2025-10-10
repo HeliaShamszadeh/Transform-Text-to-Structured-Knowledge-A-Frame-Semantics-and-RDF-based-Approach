@@ -1,0 +1,223 @@
+digraph Nikolai_Gogol {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writers and critics" [label="writers and critics", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "Many writers and critics" [label="Many writers and critics", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel Taras Bulba 1835 , th..." [label="novel Taras Bulba 1835 , th...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his work" [label="his work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing" [label="writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his best-known works" [label="his best-known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His early works, such as Ev..." [label="His early works, such as Ev...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His later writing" [label="His later writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "grotesque in his writings" [label="grotesque in his writings", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "way" [label="way", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Viktor Shklovsky" [label="Viktor Shklovsky", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reader" [label="reader", fillcolor=lightgray, color=gray, shape=hexagon];
+    "common things" [label="common things", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "political corruption in con..." [label="political corruption in con...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "out from under Gogol's Over..." [label="out from under Gogol's Over...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Portrait short story" [label="The Portrait short story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Nose opera" [label="The Nose opera", fillcolor=lightgray, color=gray, shape=hexagon];
+    "origin" [label="origin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Melchior de Vogüé" [label="Melchior de Vogüé", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poltava Governorate of the ..." [label="Poltava Governorate of the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gogol's" [label="Gogol's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gogol disambiguation" [label="Gogol disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Velyki Sorochyntsi" [label="Velyki Sorochyntsi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new perspectives" [label="new perspectives", fillcolor=lightgray, color=gray, shape=hexagon];
+    "East Slavs" [label="East Slavs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Vladimir Nabokov" [label="Vladimir Nabokov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian, Ukrainian and worl..." [label="Russian, Ukrainian and worl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "21 February 1852" [label="21 February 1852", fillcolor=lightgray, color=gray, shape=hexagon];
+    "We all" [label="We all", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gogol used the technique of..." [label="Gogol used the technique of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "technique of defamiliarizat..." [label="technique of defamiliarizat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Empire" [label="Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Many" [label="Many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gogol's deep influence on R..." [label="Gogol's deep influence on R...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ukrainians in Russia" [label="Ukrainians in Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their proto-surrealist qual..." [label="their proto-surrealist qual...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gogol's influence" [label="Gogol's influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "deep" [label="deep", fillcolor=lightgray, color=gray, shape=hexagon];
+    "differently" [label="differently", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ukrainian Cossack town of S..." [label="Ukrainian Cossack town of S...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ukraine" [label="Ukraine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unfamiliar or strange way s..." [label="unfamiliar or strange way s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his Ukrainian upbringing, U..." [label="his Ukrainian upbringing, U...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short-story" [label="short-story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fyodor Dostoevsky, Mikhail ..." [label="Fyodor Dostoevsky, Mikhail ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tsar Nicholas I, who" [label="Tsar Nicholas I, who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "These stories, and others s..." [label="These stories, and others s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "We all came out from under ..." [label="We all came out from under ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gain new perspectives and s..." [label="gain new perspectives and s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ukrainian Cossack" [label="Ukrainian Cossack", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nikolai Gogol" [label="Nikolai Gogol", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Taras Bulba" [label="Taras Bulba", fillcolor=lightgray, color=gray, shape=hexagon];
+    "town" [label="town", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian language" [label="Russian language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "perspectives" [label="perspectives", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Nikolai Gogol" -> "writing" [label="has text [Text]", color=lightblue, penwidth=1];
+    "East Slavs" -> "works" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "The Nose opera" -> "reader" [label="has theme [Grasp]", color=lightgreen, penwidth=1];
+    "East Slavs" -> "short-story" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Russian language" -> "novelist" [label="has text [Text]", color=lightblue, penwidth=1];
+    "East Slavs" -> "writers and critics" [label="has theme [Quantified_mass]", color=lightpink, penwidth=1];
+    "East Slavs" -> "writers" [label="has text [Text]", color=lightblue, penwidth=1];
+    "East Slavs" -> "Tsar Nicholas I, who" [label="has theme [Experiencer_focus]", color=lightcyan, penwidth=1];
+    "Vladimir Nabokov" -> "Ukrainian Cossack" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "East Slavs" -> "his Ukrainian upbringing, U..." [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "Viktor Shklovsky" -> "Gogol used the technique of..." [label="has theme [Attributed_information]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavs" -> "writer" [label="has agent [Cause_to_perceive]", color=lightseagreen, penwidth=1];
+    "East Slavs" -> "Many" [label="has quantity [Quantified_mass]", color=lightpink, penwidth=1];
+    "The Nose opera" -> "differently" [label="has theme [Grasp]", color=lightgreen, penwidth=1];
+    "Nikolai Gogol" -> "work" [label="has theme [Labor_product]", color=lightsalmon, penwidth=1];
+    "East Slavs" -> "Many writers and critics" [label="has theme [Becoming_aware]", color=lightgoldenrod, penwidth=1];
+    "East Slavs" -> "his best-known works" [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "Vladimir Nabokov" -> "We all" [label="has theme [Arriving]", color=lightsteelblue, penwidth=1];
+    "East Slavs" -> "unfamiliar or strange way s..." [label="has theme [Cause_to_perceive]", color=lightseagreen, penwidth=1];
+    "East Slavs" -> "novel Taras Bulba 1835 , th..." [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "Vladimir Nabokov" -> "Velyki Sorochyntsi" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "East Slavs" -> "way" [label="has entity [Familiarity]", color=lightcoral, penwidth=1];
+    "The Portrait short story" -> "Fyodor Dostoevsky, Mikhail ..." [label="has speaker [Statement]", color=lightblue, penwidth=1];
+    "East Slavs" -> "family" [label="has entity [Being_named]", color=lightcoral, penwidth=1];
+    "East Slavs" -> "common things" [label="has theme [Cause_to_perceive]", color=lightseagreen, penwidth=1];
+    "Ukrainians in Russia" -> "Gogol disambiguation" [label="has theme [Reference_text]", color=lightgreen, penwidth=1];
+    "Ukrainians in Russia" -> "uses" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Nikolai Gogol" -> "technique of defamiliarizat..." [label="has instrument [Using]", color=lightpink, penwidth=1];
+    "East Slavs" -> "stories" [label="has theme [Duration_description]", color=lightcyan, penwidth=1];
+    "Russian language" -> "Empire" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "The Nose opera" -> "reader" [label="has entity [Capability]", color=lightsteelblue, penwidth=1];
+    "East Slavs" -> "Russian, Ukrainian and worl..." [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "East Slavs" -> "Taras Bulba" [label="has text [Text]", color=lightblue, penwidth=1];
+    "East Slavs" -> "new perspectives" [label="has theme [Getting]", color=lightgray, penwidth=1];
+    "Vladimir Nabokov" -> "town" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Ukraine" -> "origin" [label="has theme [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "East Slavs" -> "reader" [label="has reader [Reading_perception]", color=lightseagreen, penwidth=1];
+    "Vladimir Nabokov" -> "Poltava Governorate of the ..." [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Nikolai Gogol" -> "Ukrainian Cossack town of S..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Nikolai Gogol" -> "grotesque in his writings" [label="has instrument [Using]", color=lightpink, penwidth=1];
+    "The Nose opera" -> "their proto-surrealist qual..." [label="has reason [Judgment]", color=lightgoldenrod, penwidth=1];
+    "The Portrait short story" -> "Gogol's influence" [label="has message [Statement]", color=lightblue, penwidth=1];
+    "The Nose opera" -> "These stories, and others s..." [label="has evaluee [Judgment]", color=lightgoldenrod, penwidth=1];
+    "East Slavs" -> "name" [label="has theme [Being_named]", color=lightcoral, penwidth=1];
+    "East Slavs" -> "world" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "East Slavs" -> "his work" [label="has theme [Experiencer_focus]", color=lightcyan, penwidth=1];
+    "Ukraine" -> "Nikolai Gogol" [label="has theme [Kinship]", color=lightpink, penwidth=1];
+    "Melchior de Vogüé" -> "We all came out from under ..." [label="has message [Statement]", color=lightblue, penwidth=1];
+    "East Slavs" -> "21 February 1852" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "East Slavs" -> "Gogol's" [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "Vladimir Nabokov" -> "Gogol's" [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "East Slavs" -> "Nikolai Gogol" [label="has theme [Being_named]", color=lightcoral, penwidth=1];
+    "East Slavs" -> "His early works, such as Ev..." [label="has theme [Objective_influence]", color=lightgray, penwidth=1];
+    "East Slavs" -> "Gogol's deep influence on R..." [label="has theme [Becoming_aware]", color=lightgoldenrod, penwidth=1];
+    "East Slavs" -> "political corruption in con..." [label="has theme [Topic]", color=blue, penwidth=2];
+    "The Nose opera" -> "gain new perspectives and s..." [label="has event [Capability]", color=lightsteelblue, penwidth=1];
+    "The Nose opera" -> "world" [label="has theme [Grasp]", color=lightgreen, penwidth=1];
+    "East Slavs" -> "reader" [label="has recipient [Getting]", color=lightgray, penwidth=1];
+    "East Slavs" -> "perspectives" [label="has entity [Familiarity]", color=lightcoral, penwidth=1];
+    "East Slavs" -> "deep" [label="has degree [Objective_influence]", color=lightgray, penwidth=1];
+    "East Slavs" -> "His later writing" [label="has text [Topic]", color=blue, penwidth=2];
+    "Vladimir Nabokov" -> "out from under Gogol's Over..." [label="has theme [Arriving]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Experiencer_focus_legend" [label="Experiencer_focus", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Cause_to_perceive_legend" [label="Cause_to_perceive", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Familiarity_legend" [label="Familiarity", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Reading_perception_legend" [label="Reading_perception", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Attention:has_time 1977",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award.' This directly links the award to the year 1977."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Becoming:has_theme first Black female editor for fiction at Random House in New York City, in the late 1960s",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states: 'Morrison became the first Black female editor for fiction at Random House in New York City in the late 1960s.' This is a direct match for the triple's object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Intentionally_create:has_role into a film",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that 'Her novel Beloved was made into a film in 1998.' There is no semantic connection between the National Book Critics Circle Award and being made into a film; the award is associated with a different novel (Song of Solomon)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Behind_the_scenes:has_time 1998",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1998 is mentioned in relation to the film adaptation of 'Beloved'. The National Book Critics Circle Award is associated with the year 1977 for 'Song of Solomon'. There is no connection between the award and 1998."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Grasp:has_location American Fiction",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses the 'Black American experience' and mentions that Morrison earned a master's degree in 'American Literature'. While the connection is indirect, the themes of African Americans and American fiction/literature are semantically related in the context of the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Arriving:has_goal http://en.wikipedia.org/wiki/Howard_University",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Morrison returned to Howard University in 1957, implying she had a goal/purpose for going there (to work/teach). The 'Arriving' frame is semantically related to the act of returning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Judgment_communication:has_reason addressing the harsh consequences of racism in the United States and the Black American experience",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Morrison's works are praised for addressing these themes. While the subject is generalized to 'African Americans' instead of Morrison's specific focus, the core concept of 'addressing the harsh consequences of racism' is directly present and can be linked thematically."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Intentionally_create:has_time 1970s and'80s",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'She developed her own reputation as an author in the 1970s and '80s.' 'Intentionally_create' is a reasonable semantic match for developing a reputation as an author, which inherently involves creating works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Arriving:has_time 1957",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1957 she returned to Howard University.' 'Returning' is a specific type of 'Arriving,' making this a direct and clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Growing_food:has_time 1953",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1953 as the year Morrison graduated, but there is no mention of 'Growing_food' or any semantically related concept like agriculture, farming, or cultivation. The connection is entirely absent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Ordinal_numbers:has_type Black female editor for fiction at Random House in New York City",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Morrison became the first Black female editor for fiction at Random House in New York City. The triple connects New York City to this role, which is semantically related though the relationship type 'has_type' is an approximate match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Foundation Causation:has_time 2020",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The National Book Foundation is mentioned in relation to an award given in the same year as the Jefferson Lecture (1996), but there is no mention of any activity or event related to the National Book Foundation occurring in 2020."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Endowment_for_the_Humanities Choosing:has_time 1996",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The National Endowment for the Humanities selected Morrison for the Jefferson Lecture... in 1996.' The concept of 'selecting' is semantically related to 'Choosing', and the year 1996 is explicitly mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Being_born:has_location Lorain, Ohio",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states multiple times that Toni Morrison was born in Lorain, Ohio, making this a clear and direct extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio Ordinal_numbers:has_item Chloe Ardelia Wofford",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Morrison was born in Lorain, Ohio, and that her birth name was Chloe Ardelia Wofford. This creates a semantic connection between the location and the person, though the relationship 'has_item' is an approximate match for 'is the birthplace of'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Forming_relationships:has_time 1964",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she was married and had children before divorcing in 1964, which is a 'forming relationships' event with a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Compliance:has_theme National Book Foundation's Medal of Distinguished Contribution to American Letters",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she was honored with the National Book Foundation's Medal of Distinguished Contribution to American Letters."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Receiving:has_recipient http://en.wikipedia.org/wiki/Toni_Morrison",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Toni Morrison is described as a 'Black American' and is the recipient of many awards; the triple semantically connects the category 'African Americans' to her as a recipient, which is a lenient but reasonable interpretation of the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity politician",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions 'American politician' in a 'see also' reference for a different person, the triple's subject is the United States and the predicate suggests the US is the origin of the entity 'politician'. This is too vague and indirect; the paragraph does not support this specific relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Giving:has_location Literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states she was awarded the Nobel Prize in Literature. The predicate 'has_location Literature' is a very weak and abstract connection, but 'Literature' is the domain of the prize. This is a highly lenient interpretation based on semantic relatedness."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Morrison 'had two children'. While 'Kinship:has_theme' is an abstract relation, the concept of having children is directly stated, providing a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Text:has_time 1970",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Her first novel, The Bluest Eye, was published in 1970.' This directly associates Toni Morrison with the year 1970 in the context of her textual work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Foundation Causation:has_theme http://en.wikipedia.org/wiki/Toni_Morrison",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'She was honored with the National Book Foundation's Medal...' This establishes a clear relationship where the National Book Foundation's actions (honoring) have Toni Morrison as their theme or recipient."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Labor_product:has_agent Morrison's",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'Morrison's' is a possessive form referring to the author, not a distinct agent. The triple structure is semantically incoherent and does not represent a relationship that can be extracted from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Giving:has_time 1993",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'She was awarded the Nobel Prize in Literature in 1993.' This directly connects the Nobel Prize in Literature to the year 1993 in the context of a giving event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Leadership:has_theme federal",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'the U.S. federal government's highest honor' in relation to Morrison's achievements. While 'African Americans' is not explicitly linked to 'federal' in a direct statement, the text discusses the Black American experience and federal honors, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Barack_Obama Leadership:has_time 2012",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'President Barack Obama presented her with the Presidential Medal of Freedom on May 29, 2012.' This directly connects Barack Obama to the year 2012 in a leadership context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Giving:has_theme Nobel Prize in Literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'She was awarded the Nobel Prize in Literature in 1993.' This directly associates the Nobel Prize in Literature with the theme of being awarded (a form of giving)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_City Temporal_subregion:has_theme late",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Morrison became the first Black female editor for fiction at Random House in New York City in the late 1960s.' This connects New York City to the temporal concept 'late' (1960s)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Reference_text:has_time 1931",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Toni Morrison's birth year as 1931 multiple times ('1931–2019', 'February 18, 1931'). This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Win_prize:has_time 1977",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that 'Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award,' directly linking the award to the year 1977."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Being_born:has_location http://en.wikipedia.org/wiki/Lorain,_Ohio",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Born and raised in Lorain, Ohio' and 'Toni Morrison was born... in Lorain, Ohio,' providing a clear and direct connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Becoming:has_location http://en.wikipedia.org/wiki/New_York_City",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Morrison became the first Black female editor for fiction at Random House in New York City.' The 'Becoming' event (becoming an editor) is semantically linked to the location New York City."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Win_prize:has_competitor critically acclaimed Song of Solomon (1977)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'competitor' is a weak semantic fit, but the paragraph states that 'Song of Solomon (1977)' won the award. There is a clear relationship between the award and the novel, even if 'competitor' is not the ideal predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Fame:has_entity her own",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The connection is very weak and indirect. The paragraph mentions that winning the award 'brought her national attention,' and later states 'She developed her own reputation.' There is a very loose semantic chain linking the award to the concept of 'her own' reputation/fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio People_by_age:has_person children",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lorain, Ohio is mentioned as Morrison's birthplace and she is stated to have had two children. The triple loosely connects the location to the concept of a person having children, which is semantically present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Topic:has_text Morrison's works",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Morrison's works are praised for addressing... the Black American experience.' This creates a strong semantic link between African American topics and the content of her works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Origin:has_entity attention",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The award is mentioned in the context of 'Song of Solomon' bringing Morrison 'national attention'. There is a weak but valid semantic connection between the award and the concept of attention being generated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio Temporal_subregion:has_theme Early",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Lorain, Ohio is mentioned in the section titled 'Early years' as the place where Morrison was 'born and raised'. This creates a reasonable semantic connection between the location and the early period of her life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Publishing:has_time 1970",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Nobel Prize was awarded in 1993, while 1970 is the publication date of her first novel. There is no direct or indirect semantic connection between the prize and the year 1970 in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cornell_University Earnings_and_losses:has_theme master's degree in American Literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'Morrison earned a master's degree in American Literature from Cornell University', creating a direct semantic link between the university and the degree theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Publishing:has_work Her first novel, The Bluest Eye",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions both the Nobel Prize and 'The Bluest Eye', but there is no semantic connection between them. The Nobel Prize was awarded in 1993, while the novel was published in 1970, and the text does not link them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Intentionally_create:has_theme her own reputation as an author",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph states 'She developed her own reputation as an author in the 1970s and '80s', which semantically connects Toni Morrison to the theme of building her reputation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio Calendric_unit:has_theme years",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak but valid connection - Lorain, Ohio is mentioned as her birthplace and where she was raised, which implies a period of years spent there, even though 'years' is not explicitly linked to the location in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Toni_Morrison Kinship:has_time 1957",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'In 1957 she returned to Howard University, was married, and had two children', directly associating Toni Morrison with the specific time period of 1957."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio People_by_age:has_theme working-class, Black family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Morrison was born in Lorain, Ohio to a 'working-class, Black family', establishing a strong semantic connection between the location and the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Judgment_communication:has_time 1977",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award', linking the award to the year 1977, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lorain,_Ohio Kinship:has_theme Black",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Morrison was born in Lorain, Ohio to a 'Black family', creating a clear semantic link between the location and the theme of 'Black'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/African_Americans Identicality:has_type year",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not correspond to any clear information or relationship described in the paragraph. The subject 'African Americans' is only thematically related to the text, but the predicate and object form a nonsensical statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/National_Book_Critics_Circle_Award Intentionally_create:has_theme Her novel Beloved",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While the paragraph mentions both the National Book Critics Circle Award and the novel Beloved, it attributes the award to 'Song of Solomon', not Beloved. The connection is incorrect based on the text, though both entities are mentioned."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 36,
+    "accuracy": 0.72,
+    "avg_confidence": 0.6140000000000001,
+    "high_confidence_50": 36,
+    "high_confidence_80": 22,
+    "percent_50": 72.0,
+    "percent_80": 44.0,
+    "max_triples_limit": 50
+  }
+}

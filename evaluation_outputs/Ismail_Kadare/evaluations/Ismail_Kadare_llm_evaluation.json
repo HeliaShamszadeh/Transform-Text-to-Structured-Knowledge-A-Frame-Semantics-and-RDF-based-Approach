@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature Receiving:has_theme Park Kyong-ni Prize in 2019, and the Neustadt International Prize for Literature in 2020",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Kadare won both prizes, but the triple structure is semantically confused (has_theme doesn't fit the relationship). There is a weak connection via the concept of receiving awards."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Peace_Prize Leadership:has_type totalitarian",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Nobel Peace Prize is not mentioned in the paragraph. While 'totalitarianism' is discussed, it's not connected to the Nobel Peace Prize or any leadership type in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Avoiding:has_time 1990",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Kadare defected to Paris in 1990 to escape the Communist regime, which semantically relates to 'avoiding' the regime. The time '1990' is explicitly mentioned in this context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prix_mondial_Cino_Del_Duca Receiving:has_recipient http://en.wikipedia.org/wiki/Ismail_Kadare",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'he was awarded the Prix mondial Cino Del Duca' in 1992, establishing Kadare as the recipient of this prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communism Quitting_a_place:has_time 1990",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Kadare defected to Paris in 1990 to escape the Communist regime, which semantically relates to 'quitting' a place under Communism. The time '1990' is explicitly mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Text:has_text writing",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Kadare's writing, including his novels, poetry, essays, and the themes and devices he used."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Coming_up_with:has_location http://en.wikipedia.org/wiki/Albania",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The predicate 'Coming_up_with:has_location' is abstract, but the paragraph states Kadare lived in Albania and devised stratagems there, which is a form of 'coming up with' ideas. The connection is weak but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Leadership:has_type consensual",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states he was asked to become a 'consensual President' by both major parties. This directly relates to a type of leadership role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Scrutiny:has_theme into the infernal mechanism of totalitarian power and its impact on the human soul",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The quote about Kadare being Kafka's successor states that Kadare (and by extension, the comparison suggests Kafka) delved into this theme. The connection is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Peace_Prize Statement:has_message Kadare is the successor of Franz Kafka",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The 'Nobel Peace Prize' is not mentioned; the paragraph only refers to the 'Nobel Prize in Literature'. The quoted statement is attributed to the Neustadt Prize juror, not any Nobel Prize. This is a factual contradiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Objective_influence:has_theme human soul",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Kadare's work, compared to Kafka's, delves into 'the infernal mechanism of totalitarian power and its impact on the human soul.' This creates a semantic link between Kafka and the theme of the human soul, though the relationship is attributed via comparison rather than a direct statement about Kafka's own work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Leadership:has_leader President",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that Kadare 'was asked by both major political parties in Albania to become a consensual President of the country.' This semantically connects Kadare to the leadership role of President, even though he declined the offer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Causation:has_theme http://en.wikipedia.org/wiki/Ismail_Kadare",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple's relationship is nonsensical. A novel cannot have a theme which is a person. The paragraph states the novel made Kadare famous, which is the inverse of the relationship expressed in the triple. The intended relationship is not extractable in this form."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Change_position_on_a_scale:has_time 1990s",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions events related to Albania in the 1990s (e.g., Kadare being asked to be President). There is a weak semantic connection that Albania 'has a time' of the 1990s in the context of these events, though the relationship is vague and the predicate is not clearly defined."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Categorization:has_category as one of the greatest writers and intellectuals of the 20th and 21st centuries",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states: 'Kadare is regarded by some as one of the greatest writers and intellectuals of the 20th and 21st centuries.' This is a clear and exact match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communism Quitting_a_place:has_purpose escape the Communist regime and its Sigurimi secret police",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Kadare defected to Paris 'to escape the Communist regime and its Sigurimi secret police', which directly matches the triple's purpose."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Text:has_location http://en.wikipedia.org/wiki/Albania",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Kadare was an Albanian writer and that he lived in Albania during the Communist era, establishing a strong location connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communism Quitting_a_place:has_theme http://en.wikipedia.org/wiki/Paris",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the paragraph mentions defecting to Paris to escape Communism, the connection between Communism and Paris as a theme is indirect - Paris is the destination of escape from Communism, not inherently a theme of Communism itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Aggregate:has_theme parties",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'both major political parties in Albania' asking Kadare to become president. While the connection is weak and the triple is vague, there is a semantic link between Albania and political parties."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Becoming:has_theme consensual President of the country",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Kadare was asked by political parties to become 'a consensual President of the country' but declined, directly supporting this triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/France Causation:has_theme http://en.wikipedia.org/wiki/Ismail_Kadare",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "France is mentioned in relation to Kadare (he defected to Paris, received French honors), suggesting a thematic connection, though 'has_theme' is an indirect interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Text:has_text poetry",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Kadare focused on poetry UNTIL publishing the novel, which was his first novel, implying the novel's text is not poetry. The connection is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Political_locales:has_theme internationally",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The novel is stated to have made Kadare 'famous internationally,' implying an international theme or reach, which is a reasonable, though indirect, semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Leadership:has_theme country",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kadare was asked to become President of Albania (a country) but declined. This is a weak but valid connection to a leadership theme related to a country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nikolai_Gogol Evaluative_comparison:has_theme that of Nikolai Gogol, George Orwell, Gabriel Garca Márquez, Milan Kundera, and Balzac",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Kadare's writing is explicitly compared to that of Nikolai Gogol and others, providing a direct semantic connection for the evaluative comparison theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Académie_des_Sciences_Morales_et_Politiques Membership:has_member associate",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'France made him a foreign associate of the Académie des Sciences Morales et Politiques'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communism People_by_vocation:has_location http://en.wikipedia.org/wiki/Albania",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph mentions Kadare lived in Albania during Communist regime and had to deal with Communist censors, establishing a semantic connection between communism and Albania"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Ordinal_numbers:has_type novel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly refers to 'The General of the Dead Army' as 'his first novel'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Emphasizing:has_time until the publication of his first novel, The General of the Dead Army, which made him famous internationally",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states Kadare focused on poetry 'until the publication of his first novel, The General of the Dead Army, which made him famous internationally'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prix_mondial_Cino_Del_Duca Receiving:has_time 1992",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'In 1992, he was awarded the Prix mondial Cino Del Duca'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Political_locales:has_theme country",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Albania is explicitly mentioned multiple times as the country where Kadare lived and was politically active, establishing a clear semantic connection to the theme of 'country'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Coming_up_with:has_theme stratagems to outwit Communist censors who had banned three of his books, using devices such as parable, myth, fable, folk-tale, allegory, and legend, sprinkled with double-entendre, allusion, insinuation, satire, and coded messages",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states that Kadare 'devised stratagems to outwit Communist censors' and lists the exact devices mentioned in the triple, making this a direct and explicit extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Publishing:has_work his first novel, The General of the Dead Army",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'The General of the Dead Army' is his first novel, and the context of it making him famous internationally strongly implies its publication."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Académie_des_Sciences_Morales_et_Politiques Membership:has_time 1996",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1996, France made him a foreign associate of the Académie des Sciences Morales et Politiques,' which directly links the membership to the year 1996."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Residence:has_time during a time of strict censorship",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Living in Albania during a time of strict censorship,' which directly connects the residence in Albania to the specified time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Request:has_message become a consensual President of the country",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that in the 1990s, Kadare was asked by political parties in Albania to become a consensual President. The triple's concept of a 'message' or 'request' from Albania is semantically related to this event, though the phrasing is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Fields:has_theme literary",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The novel is mentioned as the work that made Kadare famous. The term 'literary' is a direct and overarching theme of the entire paragraph, which discusses his literary career, works, and prizes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Time_vector:has_theme 1990s",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Albania is mentioned in the context of the 1990s, specifically regarding Kadare being asked to become President and his defection. The triple suggests a thematic connection between Albania and the 1990s, which is supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Categorization:has_theme some",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The triple is very vague ('has_theme some'), but the paragraph is entirely about Kadare and contains many themes (e.g., totalitarianism, censorship, literature). A weak semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Neustadt_International_Prize_for_Literature Receiving:has_time 2019",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Kadare won the Neustadt Prize in 2020, not 2019. The information is directly contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Aggregate:has_theme political",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Kadare's life in Albania under a 'Communist regime' and mentions he was asked by 'both major political parties' to become President, implying a political theme for the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Change_position_on_a_scale:has_item http://en.wikipedia.org/wiki/Ismail_Kadare",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship 'Change_position_on_a_scale:has_item' is too vague. The paragraph describes Kadare's association with Albania (living there, defecting from it) but does not describe Albania itself as having a scale or position that contains Kadare as an item."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Causation:has_effect famous internationally",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states that the publication of his first novel, 'The General of the Dead Army', 'made him famous internationally', which is a clear causal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Text:has_text General of the Dead Army",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The novel 'The General of the Dead Army' is explicitly mentioned as being written by Kadare. The relationship 'Text:has_text' can be loosely interpreted as the author being associated with the text of their work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ismail_Kadare Emphasizing:has_theme poetry",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states he was 'focusing on poetry until the publication of his first novel', indicating that poetry was a significant theme or focus of his early work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nikolai_Gogol Evaluative_comparison:has_theme His writing",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His writing has also been compared to that of Nikolai Gogol', establishing a direct thematic/comparative link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Prohibiting_or_licensing:has_theme three of his books",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Communist censors... had banned three of his books'. As this censorship occurred in Albania, there is a reasonable semantic link between Albania and the prohibition of his books."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Albania Using:has_instrument devices such as parable, myth, fable, folk-tale, allegory, and legend, sprinkled with double-entendre, allusion, insinuation, satire, and coded messages",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states he used these literary devices 'to outwit Communist censors' while 'Living in Albania'. The context strongly implies the use of these instruments was a strategy employed within/against the Albanian regime."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_General_of_the_Dead_Army_(novel) Political_locales:has_theme international",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the novel 'made him famous internationally'. While 'international' describes his fame rather than being a direct theme of the novel's content, there is a weak but valid semantic connection between the novel and the international sphere."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Communism Quitting_a_place:has_theme http://en.wikipedia.org/wiki/Ismail_Kadare",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'to escape the Communist regime... he defected to Paris', which directly describes Kadare quitting a place (Albania) due to Communism."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.6599999999999998,
+    "high_confidence_50": 40,
+    "high_confidence_80": 24,
+    "percent_50": 80.0,
+    "percent_80": 48.0,
+    "max_triples_limit": 50
+  }
+}

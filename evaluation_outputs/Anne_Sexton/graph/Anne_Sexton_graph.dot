@@ -1,0 +1,330 @@
+digraph Anne_Sexton {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "her highly personal, confes..." [label="her highly personal, confes...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "her book Live or Die" [label="her book Live or Die", fillcolor=lightblue, color=blue, shape=ellipse];
+    "poetry workshop she attended" [label="poetry workshop she attended", fillcolor=lightblue, color=blue, shape=ellipse];
+    "first poetry workshop she a..." [label="first poetry workshop she a...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "studied with Robert Lowell ..." [label="studied with Robert Lowell ...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "Anne Sexton born Anne Gray ..." [label="Anne Sexton born Anne Gray ...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "she married Alfred Muller S..." [label="she married Alfred Muller S...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mary Gray Staples  Harvey 1..." [label="Mary Gray Staples  Harvey 1...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she met Dr. Martin Orne, wh..." [label="she met Dr. Martin Orne, wh...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "registering for the class" [label="registering for the class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Gray Harvey" [label="Anne Gray Harvey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "husband" [label="husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "manic episode" [label="manic episode", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1967" [label="1967", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her first manic episode tak..." [label="her first manic episode tak...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "phone" [label="phone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poems" [label="her poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After" [label="After", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poet" [label="American poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Lowell" [label="Robert Lowell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "alongside poets Sylvia Plat..." [label="alongside poets Sylvia Plat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "older" [label="older", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sisters" [label="sisters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1923" [label="1923", fillcolor=lightgray, color=gray, shape=hexagon];
+    "make the phone call and acc..." [label="make the phone call and acc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1953" [label="1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1945" [label="1945", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "severe bipolar disorder" [label="severe bipolar disorder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American poetry" [label="American poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until 1973" [label="until 1973", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Sexton" [label="Anne Sexton", fillcolor=lightgray, color=gray, shape=hexagon];
+    "great trepidation about reg..." [label="great trepidation about reg...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Magazine" [label="Magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friend" [label="friend", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New Yorker, Harper's Magazi..." [label="New Yorker, Harper's Magazi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her long-term therapist" [label="her long-term therapist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "together" [label="together", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "write poetry" [label="write poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Newton, Massachusetts" [label="Newton, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first session" [label="first session", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston University" [label="Boston University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "August 16, 1948" [label="August 16, 1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poetry Sexton" [label="Poetry Sexton", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After a second episode in 1955" [label="After a second episode in 1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1928" [label="1928", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two years later" [label="two years later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston" [label="Boston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "long" [label="long", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her private life" [label="her private life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Glenside" [label="Glenside", fillcolor=lightgray, color=gray, shape=hexagon];
+    "relationships with her husb..." [label="relationships with her husb...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her first manic episode" [label="her first manic episode", fillcolor=lightgray, color=gray, shape=hexagon];
+    "great" [label="great", fillcolor=lightgray, color=gray, shape=hexagon];
+    "episode" [label="episode", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her second child, Joyce Lad..." [label="Her second child, Joyce Lad...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hospital" [label="Hospital", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "bipolar disorder" [label="bipolar disorder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Glenside, Bristol" [label="Glenside, Bristol", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Live or Die" [label="Live or Die", fillcolor=lightgray, color=gray, shape=hexagon];
+    "class" [label="class", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two years" [label="two years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Holmes" [label="John Holmes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "physically and sexually" [label="physically and sexually", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dr. Martin Orne, who became..." [label="Dr. Martin Orne, who became...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The New Yorker" [label="The New Yorker", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alfred Muller Sexton II and..." [label="Alfred Muller Sexton II and...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "singer" [label="singer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second episode in 1955" [label="second episode in 1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lowell" [label="Lowell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1901" [label="1901", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize for poetry" [label="Pulitzer Prize for poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1954" [label="1954", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1948" [label="1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Linda Gray Sexton" [label="Linda Gray Sexton", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alfred Muller Sexton II" [label="Alfred Muller Sexton II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acclaim" [label="acclaim", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whom" [label="whom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harper's" [label="Harper's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Glenside, Bristol" -> "Harper's" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "registering for the class" [label="has theme [Emotion_directed]", color=lightcoral, penwidth=1];
+    "United States" -> "her private life" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Anne Sexton" -> "Alfred Muller Sexton II" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Anne Sexton" -> "husband" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Anne Sexton" -> "1901" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Anne Sexton" -> "together" [label="has state [State_continue]", color=lightcyan, penwidth=1];
+    "United States" -> "1953" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "United States" -> "manic episode" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Glenside, Bristol" -> "1955" [label="has time [Medical_professionals]", color=purple, penwidth=2];
+    "Anne Sexton" -> "1928" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Linda Gray Sexton" -> "Poetry Sexton" [label="has entity [Eventive_affecting]", color=lightseagreen, penwidth=1];
+    "United States" -> "whom" [label="has theme [Rape]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "1923" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Linda Gray Sexton" -> "severe bipolar disorder" [label="has event [Eventive_affecting]", color=lightseagreen, penwidth=1];
+    "Glenside, Bristol" -> "Linda Gray Sexton" [label="has theme [Cotheme]", color=lightpink, penwidth=1];
+    "American poetry" -> "United States" [label="has theme [Origin]", color=lightsteelblue, penwidth=1];
+    "Glenside, Bristol" -> "friend" [label="has addressee [Request]", color=lightcoral, penwidth=1];
+    "Glenside, Bristol" -> "friend" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Anne Sexton" -> "until 1973" [label="has theme [State_continue]", color=lightcyan, penwidth=1];
+    "Boston University" -> "later" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "1955" [label="has time [Becoming]", color=purple, penwidth=2];
+    "United States" -> "her first manic episode" [label="has event [Event]", color=lightgreen, penwidth=1];
+    "Anne Sexton" -> "children" [label="has theme [Kinship]", color=lightgoldenrod, penwidth=1];
+    "Anne Sexton" -> "United States" [label="has location [Text]", color=green, penwidth=2];
+    "Anne Sexton" -> "August 16, 1948" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Glenside, Bristol" -> "first session" [label="has goal [Cotheme]", color=lightpink, penwidth=1];
+    "United States" -> "bipolar disorder" [label="has theme [Hostile_encounter]", color=lightyellow, penwidth=1];
+    "United States" -> "1954" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "Her second child, Joyce Lad..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "Anne Sexton" [label="has theme [Make_acquaintance]", color=lightsteelblue, penwidth=1];
+    "United States" -> "1954" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "United States" -> "Anne Sexton" [label="has theme [Hostile_encounter]", color=lightyellow, penwidth=1];
+    "United States" -> "singer" [label="has speaker [Communication_manner]", color=lightgray, penwidth=1];
+    "Anne Sexton" -> "1948" [label="has time [State_continue]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "Glenside" [label="has theme [Buildings]", color=lightgoldenrodyellow, penwidth=1];
+    "Linda Gray Sexton" -> "great trepidation about reg..." [label="has evaluation [Feeling]", color=lightseagreen, penwidth=1];
+    "American poetry" -> "1928" [label="has time [Fame]", color=purple, penwidth=2];
+    "Anne Sexton" -> "1928" [label="has time [Text]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "make the phone call and acc..." [label="has message [Request]", color=lightcoral, penwidth=1];
+    "Glenside, Bristol" -> "second episode in 1955" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "she met Dr. Martin Orne, wh..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "episode" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Anne Sexton" -> "write poetry" [label="has behavior [Subjective_influence]", color=lightgoldenrod, penwidth=1];
+    "Glenside, Bristol" -> "1955" [label="has time [Buildings]", color=purple, penwidth=2];
+    "United States" -> "1948" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Anne Sexton" -> "Mary Gray Staples  Harvey 1..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "United States" -> "1954" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Anne Sexton" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "American poetry" -> "American poet" [label="has entity [Fame]", color=lightsalmon, penwidth=1];
+    "United States" -> "Anne Sexton" [label="has theme [Rape]", color=lightsalmon, penwidth=1];
+    "United States" -> "long" [label="has theme [Hostile_encounter]", color=lightyellow, penwidth=1];
+    "Glenside, Bristol" -> "friend" [label="has agent [Visiting]", color=lightpink, penwidth=1];
+    "Anne Sexton" -> "1953" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "Anne Sexton" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Boston University" -> "Robert Lowell" [label="has teacher [Education_teaching]", color=lightblue, penwidth=1];
+    "Anne Sexton" -> "Anne Sexton born Anne Gray ..." [label="has author [Text]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "After a second episode in 1955" [label="has time [Make_acquaintance]", color=purple, penwidth=2];
+    "Anne Sexton" -> "poetry" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "United States" -> "years" [label="has theme [Measure_duration]", color=lightblue, penwidth=1];
+    "United States" -> "older" [label="has degree [Age]", color=lightcoral, penwidth=1];
+    "Anne Sexton" -> "who" [label="has agent [Subjective_influence]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "two years" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "acclaim" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "United States" -> "sisters" [label="has entity [Age]", color=lightcoral, penwidth=1];
+    "Glenside, Bristol" -> "her poems" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Anne Sexton" -> "child" [label="has theme [Kinship]", color=lightgoldenrod, penwidth=1];
+    "Glenside, Bristol" -> "friend" [label="has theme [Cotheme]", color=lightpink, penwidth=1];
+    "Glenside, Bristol" -> "Hospital" [label="has theme [Buildings]", color=lightgoldenrodyellow, penwidth=1];
+    "Anne Sexton" -> "two years later" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Anne Sexton" -> "Pulitzer Prize for poetry" [label="has prize [Win_prize]", color=lightyellow, penwidth=1];
+    "Anne Sexton" -> "Her second child, Joyce Lad..." [label="has person [Being_born]", color=red, penwidth=2];
+    "Glenside, Bristol" -> "who" [label="has entity [Becoming]", color=lightcoral, penwidth=1];
+    "Boston University" -> "Boston" [label="has theme [Locale_by_use]", color=lightpink, penwidth=1];
+    "United States" -> "relationships with her husb..." [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "Glenside, Bristol" -> "poetry workshop she attended" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Anne Sexton" -> "Live or Die" [label="has text [Text]", color=lightblue, penwidth=1];
+    "United States" -> "physically and sexually" [label="has theme [Rape]", color=lightsalmon, penwidth=1];
+    "Glenside, Bristol" -> "Anne Sexton" [label="has type [Medical_professionals]", color=lightgray, penwidth=1];
+    "Anne Sexton" -> "1967" [label="has time [Text]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "1955" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "The New Yorker" -> "New Yorker, Harper's Magazi..." [label="has recipient [Receiving]", color=lightcyan, penwidth=1];
+    "Glenside, Bristol" -> "class" [label="has theme [Type]", color=lightsteelblue, penwidth=1];
+    "American poetry" -> "poet" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "United States" -> "Lowell" [label="has location [Measure_duration]", color=green, penwidth=2];
+    "Glenside, Bristol" -> "great" [label="has degree [Emotion_directed]", color=lightcoral, penwidth=1];
+    "Anne Sexton" -> "1967" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "American poetry" -> "her highly personal, confes..." [label="has reason [Fame]", color=lightsalmon, penwidth=1];
+    "American poetry" -> "sisters" [label="has theme [Kinship]", color=lightgoldenrod, penwidth=1];
+    "Glenside, Bristol" -> "Magazine" [label="has text [Text]", color=lightblue, penwidth=1];
+    "The New Yorker" -> "number" [label="has theme [Receiving]", color=lightcyan, penwidth=1];
+    "United States" -> "she married Alfred Muller S..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anne Sexton" -> "Anne Gray Harvey" [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "United States" -> "August 16, 1948" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "1923" [label="has time [Age]", color=purple, penwidth=2];
+    "United States" -> "two" [label="has theme [Measure_duration]", color=lightblue, penwidth=1];
+    "Boston University" -> "alongside poets Sylvia Plat..." [label="has role [Education_teaching]", color=lightblue, penwidth=1];
+    "United States" -> "1928" [label="has time [Communication_manner]", color=purple, penwidth=2];
+    "Anne Sexton" -> "Alfred Muller Sexton II and..." [label="has entity [State_continue]", color=lightcyan, penwidth=1];
+    "Anne Sexton" -> "1928" [label="has time [Being_born]", color=purple, penwidth=2];
+    "American poetry" -> "American poet" [label="has theme [Kinship]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "child" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "United States" -> "1954" [label="has time [Event]", color=purple, penwidth=2];
+    "United States" -> "1928" [label="has time [Text]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "After" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "first poetry workshop she a..." [label="has theme [Leadership]", color=lightgray, penwidth=1];
+    "Boston University" -> "Linda Gray Sexton" [label="has student [Education_teaching]", color=lightblue, penwidth=1];
+    "United States" -> "her first manic episode tak..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "Anne Sexton" [label="has theme [Kinship]", color=lightgoldenrod, penwidth=1];
+    "American poetry" -> "1928" [label="has time [Origin]", color=purple, penwidth=2];
+    "United States" -> "1945" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "Anne Sexton" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "John Holmes" [label="has leader [Leadership]", color=lightgray, penwidth=1];
+    "Glenside, Bristol" -> "phone" [label="has means [Visiting]", color=lightpink, penwidth=1];
+    "United States" -> "year" [label="has theme [Measure_duration]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "number" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Boston University" -> "University" [label="has theme [Locale_by_use]", color=lightpink, penwidth=1];
+    "Anne Sexton" -> "her book Live or Die" [label="has theme [Win_prize]", color=lightyellow, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "1955" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Glenside, Bristol" -> "Dr. Martin Orne, who became..." [label="has theme [Make_acquaintance]", color=lightsteelblue, penwidth=1];
+    "Linda Gray Sexton" -> "1954" [label="has time [Eventive_affecting]", color=purple, penwidth=2];
+    "Anne Sexton" -> "Newton, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "Glenside, Bristol" -> "her long-term therapist" [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "United States" -> "Boston" [label="has location [Kinship]", color=green, penwidth=2];
+    "Boston University" -> "studied with Robert Lowell ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Linda Gray Sexton" -> "class" [label="has state [Becoming_aware]", color=lightseagreen, penwidth=1];
+    "Glenside, Bristol" -> "poetry" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Glenside, Bristol" -> "who" [label="has theme [Medical_professionals]", color=lightgray, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Medical_professionals_legend" [label="Medical_professionals", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Eventive_affecting_legend" [label="Eventive_affecting", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Rape_legend" [label="Rape", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Cotheme_legend" [label="Cotheme", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Request_legend" [label="Request", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Event_legend" [label="Event", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Communication_manner_legend" [label="Communication_manner", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Feeling_legend" [label="Feeling", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Visiting_legend" [label="Visiting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

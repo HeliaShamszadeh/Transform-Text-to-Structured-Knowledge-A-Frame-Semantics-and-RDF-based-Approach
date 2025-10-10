@@ -1,0 +1,333 @@
+digraph Sylvia_Plath {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "poet and author" [label="poet and author", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "fourth person" [label="fourth person", fillcolor=lightcoral, color=red, shape=circle];
+    "person" [label="person", fillcolor=lightcoral, color=red, shape=circle];
+    "poet and writer" [label="poet and writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book about bumblebees" [label="book about bumblebees", fillcolor=lightblue, color=blue, shape=ellipse];
+    "previously unpublished works" [label="previously unpublished works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "studied with Robert Lowell ..." [label="studied with Robert Lowell ...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "alongside poets Anne Sexton..." [label="alongside poets Anne Sexton...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "advancing the genre of conf..." [label="advancing the genre of conf...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize in Poetry" [label="Pulitzer Prize in Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1932" [label="1932", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1981" [label="1981", fillcolor=lightgray, color=gray, shape=hexagon];
+    "here" [label="here", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victoria Lucas " redirects" [label="Victoria Lucas " redirects", fillcolor=lightgray, color=gray, shape=hexagon];
+    "24 Prince Street in Jamaica..." [label="24 Prince Street in Jamaica...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "October 27, 1932" [label="October 27, 1932", fillcolor=lightgray, color=gray, shape=hexagon];
+    "92 Johnson Avenue, Winthrop..." [label="92 Johnson Avenue, Winthrop...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "song" [label="song", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert Lowell" [label="Robert Lowell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "electroconvulsive" [label="electroconvulsive", fillcolor=lightgray, color=gray, shape=hexagon];
+    "bumblebees" [label="bumblebees", fillcolor=lightgray, color=gray, shape=hexagon];
+    "previously unpublished" [label="previously unpublished", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Plath's" [label="Plath's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ted Hughes" [label="Ted Hughes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1982" [label="1982", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bell Jar, a semi-autobiogra..." [label="Bell Jar, a semi-autobiogra...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "April 27, 1935" [label="April 27, 1935", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States and then in E..." [label="United States and then in E...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "receive this honor posthumo..." [label="receive this honor posthumo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his hands" [label="his hands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austrian immigrants" [label="Austrian immigrants", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Bell Jar" [label="The Bell Jar", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston, Massachusetts" [label="Boston, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Massachusetts" [label="Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Plath's brother Warren" [label="Plath's brother Warren", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Plath surname" [label="Plath surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family moved from 24 Prince..." [label="family moved from 24 Prince...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "shortly before her suicide ..." [label="shortly before her suicide ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "versions of electroconvulsi..." [label="versions of electroconvulsi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Colossus and Other Poems 19..." [label="Colossus and Other Poems 19...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early versions of electroco..." [label="early versions of electroco...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "abuse at his hands" [label="abuse at his hands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Austrians" [label="Austrians", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1936" [label="1936", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fellow poet Ted Hughes" [label="fellow poet Ted Hughes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her letters" [label="her letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston University" [label="Boston University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Plath's father" [label="Plath's father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1906" [label="1906", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confessional" [label="confessional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston" [label="Boston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "biology" [label="biology", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poetry" [label="Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adult" [label="adult", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1934" [label="1934", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1963" [label="1963", fillcolor=lightgray, color=gray, shape=hexagon];
+    "suicide" [label="suicide", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Plath was awarded a Pulitze..." [label="Plath was awarded a Pulitze...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sylvia Plath" [label="Sylvia Plath", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Newnham College, Cambridge" [label="Newnham College, Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "electroconvulsive therapy ECT" [label="electroconvulsive therapy ECT", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1960" [label="1960", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Seamus Heaney Collected Poems" [label="Seamus Heaney Collected Poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "semi-autobiographical" [label="semi-autobiographical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moby" [label="Moby", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this honor" [label="this honor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jamaica Plain" [label="Jamaica Plain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "honor" [label="honor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1935" [label="1935", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her mother, Aurelia Schober..." [label="Her mother, Aurelia Schober...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Sylvia Plath" -> "United States" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1981" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "fellow poet Ted Hughes" [label="has theme [Forming_relationships]", color=lightgreen, penwidth=1];
+    "Jamaica Plain" -> "family moved from 24 Prince..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "people" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Boston University" -> "later" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Boston University" -> "1934" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "England" [label="has location [Forming_relationships]", color=green, penwidth=2];
+    "Jamaica Plain" -> "1936" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Sylvia Plath" -> "April 27, 1935" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Boston University" -> "book about bumblebees" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Boston University" -> "Sylvia Plath" [label="has theme [Killing]", color=lightgray, penwidth=1];
+    "Boston University" -> "versions of electroconvulsi..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "early versions of electroco..." [label="has theme [Medical_intervention]", color=lightseagreen, penwidth=1];
+    "Sylvia Plath" -> "1906" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Boston University" -> "studied with Robert Lowell ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1981" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "best" [label="has degree [Fame]", color=lightsteelblue, penwidth=1];
+    "Sylvia Plath" -> "advancing the genre of conf..." [label="has behavior [Praiseworthiness]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "1960" [label="has time [Praiseworthiness]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "abuse at his hands" [label="has message [Statement]", color=lightblue, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Ted Hughes" -> "United States and then in E..." [label="has location [Residence]", color=green, penwidth=2];
+    "Sylvia Plath" -> "1982" [label="has time [Giving]", color=purple, penwidth=2];
+    "United States" -> "poet and author" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Sylvia Plath" -> "Colossus and Other Poems 19..." [label="has reason [Fame]", color=lightsteelblue, penwidth=1];
+    "United States" -> "Plath surname" [label="has theme [Reference_text]", color=lightcyan, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "previously unpublished" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "mother" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "works" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "person" [label="has person [People]", color=red, penwidth=2];
+    "Boston University" -> "electroconvulsive" [label="has theme [Cure]", color=lightgray, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "fourth person" [label="has recipient [Receiving]", color=lightgoldenrodyellow, penwidth=1];
+    "Sylvia Plath" -> "1935" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Ted Hughes" -> "1962" [label="has time [Kinship]", color=purple, penwidth=2];
+    "United States" -> "poet and writer" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Sylvia Plath" -> "Boston University" [label="has theme [People_by_vocation]", color=lightseagreen, penwidth=1];
+    "Boston University" -> "1963" [label="has time [Killing]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "poetry" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "here" [label="has theme [Locative_relation]", color=lightsalmon, penwidth=1];
+    "Sylvia Plath" -> "1960" [label="has time [Fame]", color=purple, penwidth=2];
+    "Boston University" -> "Ted Hughes" [label="has theme [Relation]", color=lightgoldenrod, penwidth=1];
+    "Massachusetts" -> "24 Prince Street in Jamaica..." [label="has source [Motion]", color=lightpink, penwidth=1];
+    "Massachusetts" -> "92 Johnson Avenue, Winthrop..." [label="has goal [Motion]", color=lightpink, penwidth=1];
+    "Boston" -> "Newnham College, Cambridge" [label="has institution [Education_teaching]", color=lightcyan, penwidth=1];
+    "Austrians" -> "Austrian immigrants" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "1981" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "Boston, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "Moby" -> "song" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "Sylvia Plath" [label="has author [Text]", color=lightcoral, penwidth=1];
+    "Boston University" -> "Sylvia Plath" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "Sylvia Plath" -> "Poetry" [label="has location [Giving]", color=green, penwidth=2];
+    "Boston University" -> "1934" [label="has time [Text]", color=purple, penwidth=2];
+    "Boston" -> "University" [label="has theme [Institutionalization]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "brother" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Jamaica Plain" -> "Jamaica Plain" [label="has location [Kinship]", color=green, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "person" [label="has type [Ordinal_numbers]", color=lightgreen, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [Ordinal_numbers]", color=green, penwidth=2];
+    "Sylvia Plath" -> "1963" [label="has time [Killing]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has time [Commemorative]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "October 27, 1932" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Ted Hughes" -> "1956" [label="has time [Residence]", color=purple, penwidth=2];
+    "Jamaica Plain" -> "1936" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "1934" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "1932" [label="has time [Text]", color=purple, penwidth=2];
+    "United States" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Boston" -> "Sylvia Plath" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "Austrians" -> "Her mother, Aurelia Schober..." [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Sylvia Plath" -> "Plath's" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [People]", color=green, penwidth=2];
+    "Sylvia Plath" -> "biology" [label="has theme [People_by_vocation]", color=lightseagreen, penwidth=1];
+    "Sylvia Plath" -> "novel" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "semi-autobiographical" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Sylvia Plath" -> "1932" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Massachusetts" -> "Jamaica Plain" [label="has location [Motion]", color=green, penwidth=2];
+    "Boston University" -> "his hands" [label="has theme [Abusing]", color=lightpink, penwidth=1];
+    "Sylvia Plath" -> "United States" [label="has location [Text]", color=green, penwidth=2];
+    "Jamaica Plain" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [Commemorative]", color=green, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "posthumously" [label="has time [Receiving]", color=purple, penwidth=2];
+    "United States" -> "1932" [label="has time [Origin]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "this honor" [label="has theme [Receiving]", color=lightgoldenrodyellow, penwidth=1];
+    "Sylvia Plath" -> "author" [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Austrians" -> "1906" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Boston University" -> "who" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "collection" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has time [People]", color=purple, penwidth=2];
+    "Boston University" -> "electroconvulsive therapy ECT" [label="has category [Type]", color=lightcyan, penwidth=1];
+    "Sylvia Plath" -> "Victoria Lucas " redirects" [label="has theme [Locative_relation]", color=lightsalmon, penwidth=1];
+    "Boston University" -> "adult" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [Temporal_collocation]", color=green, penwidth=2];
+    "Boston University" -> "suicide" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "The Bell Jar" -> "shortly before her suicide ..." [label="has time [Publishing]", color=purple, penwidth=2];
+    "Seamus Heaney Collected Poems" -> "receive this honor posthumo..." [label="has theme [Ordinal_numbers]", color=lightgreen, penwidth=1];
+    "Boston University" -> "1963" [label="has time [Death]", color=purple, penwidth=2];
+    "The Bell Jar" -> "Bell Jar, a semi-autobiogra..." [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Sylvia Plath" -> "1956" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "1934" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Boston University" -> "alongside poets Anne Sexton..." [label="has role [Education_teaching]", color=lightcyan, penwidth=1];
+    "Sylvia Plath" -> "father" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Sylvia Plath" -> "Plath's father" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Massachusetts" -> "family" [label="has theme [Motion]", color=lightpink, penwidth=1];
+    "Ted Hughes" -> "children" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "honor" [label="has theme [Commemorative]", color=lightyellow, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Plath was awarded a Pulitze..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Sylvia Plath" -> "letters" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "which" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "1982" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Boston University" -> "book" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Jamaica Plain" -> "Jamaica Plain" [label="has location [Temporal_collocation]", color=green, penwidth=2];
+    "Massachusetts" -> "1936" [label="has time [Motion]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "poet" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [Receiving]", color=green, penwidth=2];
+    "Sylvia Plath" -> "Boston University" [label="has location [Kinship]", color=green, penwidth=2];
+    "Sylvia Plath" -> "Sylvia Plath" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "United States" -> "1932" [label="has time [Text]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "Boston University" [label="has location [People_by_vocation]", color=green, penwidth=2];
+    "Sylvia Plath" -> "Plath's brother Warren" [label="has person [Being_born]", color=red, penwidth=2];
+    "Boston University" -> "Robert Lowell" [label="has teacher [Education_teaching]", color=lightcyan, penwidth=1];
+    "Sylvia Plath" -> "Pulitzer Prize in Poetry" [label="has theme [Giving]", color=lightyellow, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "previously unpublished works" [label="has theme [Inclusion]", color=lightpink, penwidth=1];
+    "Boston University" -> "bumblebees" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Seamus Heaney Collected Poems" -> "Poetry" [label="has location [Aggregate]", color=green, penwidth=2];
+    "Sylvia Plath" -> "1960" [label="has time [Text]", color=purple, penwidth=2];
+    "Jamaica Plain" -> "1936" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Sylvia Plath" -> "her letters" [label="has theme [Statement]", color=lightblue, penwidth=1];
+    "Sylvia Plath" -> "confessional" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Boston University" -> "Sylvia Plath" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Killing_legend" [label="Killing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Medical_intervention_legend" [label="Medical_intervention", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Praiseworthiness_legend" [label="Praiseworthiness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cure_legend" [label="Cure", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Institutionalization_legend" [label="Institutionalization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Commemorative_legend" [label="Commemorative", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Abusing_legend" [label="Abusing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

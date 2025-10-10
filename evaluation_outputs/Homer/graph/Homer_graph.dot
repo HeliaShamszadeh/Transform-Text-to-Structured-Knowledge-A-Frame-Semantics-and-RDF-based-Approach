@@ -1,0 +1,276 @@
+digraph Homer {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "as the author of the Iliad ..." [label="as the author of the Iliad ...", fillcolor=lightcoral, color=red, shape=circle];
+    "his authorship" [label="his authorship", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "ancient Greek literature" [label="ancient Greek literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Greek literature" [label="Greek literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Most researchers" [label="Most researchers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Greece" [label="Greece", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influence" [label="influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "terms" [label="terms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trojan War" [label="Trojan War", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ten-year" [label="ten-year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "comedy and laughter" [label="comedy and laughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "discussion about this" [label="discussion about this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foundational" [label="foundational", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove this..." [label="how and when to remove this...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Homeric Greek" [label="Homeric Greek", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the most influential..." [label="one of the most influential...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "predominantly" [label="predominantly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "predominant" [label="predominant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "instances of comedy and lau..." [label="instances of comedy and lau...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their tragic and serious th..." [label="their tragic and serious th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mixture of features of the ..." [label="mixture of features of the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Iliad" [label="Iliad", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Epic Greek" [label="as Epic Greek", fillcolor=lightgray, color=gray, shape=hexagon];
+    "researchers" [label="researchers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this" [label="this", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Greek poet" [label="Greek poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Iliad and Odyssey" [label="Iliad and Odyssey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history" [label="history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anno Domini" [label="Anno Domini", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this message" [label="this message", fillcolor=lightgray, color=gray, shape=hexagon];
+    "last" [label="last", fillcolor=lightgray, color=gray, shape=hexagon];
+    "c. the 8th century BCE" [label="c. the 8th century BCE", fillcolor=lightgray, color=gray, shape=hexagon];
+    "clarify the article" [label="clarify the article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Iliad and the Odyssey, two ..." [label="Iliad and the Odyssey, two ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language" [label="language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "gods" [label="gods", fillcolor=lightgray, color=gray, shape=hexagon];
+    "here" [label="here", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Odysseus, king of Ithaca" [label="Odysseus, king of Ithaca", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eastern Ionic" [label="Eastern Ionic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ancient Greek" [label="Ancient Greek", fillcolor=lightgray, color=gray, shape=hexagon];
+    "epics" [label="epics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "orally" [label="orally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Homer" [label="Homer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "through the punishment of t..." [label="through the punishment of t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "instances" [label="instances", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2025" [label="2025", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after the fall of Troy" [label="after the fall of Troy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "talk page" [label="talk page", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Homer disambiguation , Home..." [label="Homer disambiguation , Home...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "back to his home" [label="back to his home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "culture and education" [label="culture and education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Homeric poems" [label="Homeric poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "readers" [label="readers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that the poems were origina..." [label="that the poems were origina...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "quarrel between King Agamem..." [label="quarrel between King Agamem...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ancient Greek culture and e..." [label="ancient Greek culture and e...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "centuries" [label="centuries", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Several terms" [label="Several terms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Odysseus" [label="Odysseus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ithaca" [label="Ithaca", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Greek culture and education" [label="Greek culture and education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "originally" [label="originally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be confusing or unclear to ..." [label="be confusing or unclear to ...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Trojan War" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Iliad" -> "article" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Ancient Greek" -> "literature" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Iliad" -> "2025" [label="has time [Quantified_mass]", color=purple, penwidth=2];
+    "Trojan War" -> "year" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Trojan War" -> "originally" [label="has time [Transfer]", color=purple, penwidth=2];
+    "Anno Domini" -> "as the author of the Iliad ..." [label="has behavior [Praiseworthiness]", color=lightpink, penwidth=1];
+    "Ancient Greek" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Trojan War" -> "through the punishment of t..." [label="has problem [Resolve_problem]", color=lightcyan, penwidth=1];
+    "Homeric Greek" -> "language" [label="has theme [Fields]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "Homeric Greek" [label="has location [Cause_to_perceive]", color=green, penwidth=2];
+    "Trojan War" -> "instances" [label="has theme [Instance]", color=lightgoldenrodyellow, penwidth=1];
+    "Trojan War" -> "that" [label="has agent [Cause_to_perceive]", color=lightgray, penwidth=1];
+    "Iliad" -> "quarrel between King Agamem..." [label="has theme [Emphasizing]", color=lightseagreen, penwidth=1];
+    "Ithaca" -> "after the fall of Troy" [label="has time [Travel]", color=purple, penwidth=2];
+    "Anno Domini" -> "his authorship" [label="has theme [Certainty]", color=lightgoldenrod, penwidth=1];
+    "Iliad" -> "talk page" [label="has location [Existence]", color=green, penwidth=2];
+    "Iliad" -> "readers" [label="has reader [Reading_perception]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "last" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Homer" -> "one of the most influential..." [label="has category [Categorization]", color=lightcoral, penwidth=1];
+    "Iliad" -> "discussion about this" [label="has theme [Spatial_contact]", color=lightblue, penwidth=1];
+    "Iliad" -> "here" [label="has goal [Redirecting]", color=lightcoral, penwidth=1];
+    "Homeric Greek" -> "centuries" [label="has type [Identicality]", color=lightgreen, penwidth=1];
+    "Trojan War" -> "that the poems were origina..." [label="has theme [Certainty]", color=lightgoldenrod, penwidth=1];
+    "Ithaca" -> "Odysseus, king of Ithaca" [label="has traveler [Travel]", color=lightsalmon, penwidth=1];
+    "Homeric Greek" -> "influence" [label="has theme [Dominate_situation]", color=lightyellow, penwidth=1];
+    "Trojan War" -> "predominantly" [label="has degree [Fame]", color=lightpink, penwidth=1];
+    "Anno Domini" -> "who" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Trojan War" -> "Ithaca" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "their tragic and serious th..." [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "Trojan War" -> "Trojan War" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Trojan War" -> "culture and education" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Homeric Greek" -> "poems" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Iliad" -> "Several terms" [label="has cause [Redirecting]", color=lightcoral, penwidth=1];
+    "Iliad" -> "be confusing or unclear to ..." [label="has theme [Likelihood]", color=lightseagreen, penwidth=1];
+    "Iliad" -> "author" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Anno Domini" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Anno Domini" -> "foundational" [label="has theme [Labor_product]", color=lightsalmon, penwidth=1];
+    "Greece" -> "who" [label="has teacher [Education_teaching]", color=lightgoldenrod, penwidth=1];
+    "Iliad" -> "terms" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Trojan War" -> "Greek culture and education" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Trojan War" -> "epics" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Anno Domini" -> "Greek literature" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Homeric Greek" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Ithaca" -> "ten-year" [label="has theme [Travel]", color=lightsalmon, penwidth=1];
+    "Iliad" -> "talk page" [label="has theme [Spatial_contact]", color=lightblue, penwidth=1];
+    "Trojan War" -> "comedy and laughter" [label="has type [Instance]", color=lightgoldenrodyellow, penwidth=1];
+    "Trojan War" -> "mixture of features of the ..." [label="has theme [Cause_to_perceive]", color=lightgray, penwidth=1];
+    "Homeric Greek" -> "Eastern Ionic" [label="has theme [Objective_influence]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "researchers" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Iliad" -> "clarify the article" [label="has goal [Assistance]", color=lightblue, penwidth=1];
+    "Trojan War" -> "Odysseus" [label="has agent [Resolve_problem]", color=lightcyan, penwidth=1];
+    "Iliad" -> "talk page" [label="has location [Discussion]", color=green, penwidth=2];
+    "Ancient Greek" -> "poet" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Iliad" -> "this" [label="has theme [Discussion]", color=lightcoral, penwidth=1];
+    "Anno Domini" -> "authors" [label="has entity [Subjective_influence]", color=lightgreen, penwidth=1];
+    "Homer" -> "instances of comedy and lau..." [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Trojan War" -> "home" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Anno Domini" -> "ancient Greek literature" [label="has theme [Labor_product]", color=lightsalmon, penwidth=1];
+    "Iliad" -> "2025" [label="has time [Redirecting]", color=purple, penwidth=2];
+    "Iliad" -> "this message" [label="has theme [Removing]", color=lightcyan, penwidth=1];
+    "Homer" -> "Homer disambiguation , Home..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Iliad" -> "2025" [label="has time [Removing]", color=purple, penwidth=2];
+    "Homer" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Trojan War" -> "gods" [label="has theme [Rewards_and_punishments]", color=lightgray, penwidth=1];
+    "Anno Domini" -> "Homer" [label="has leader [Leadership]", color=lightsteelblue, penwidth=1];
+    "Iliad" -> "discussion about this" [label="has entity [Existence]", color=lightpink, penwidth=1];
+    "Homer" -> "Homeric poems" [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Iliad" -> "how and when to remove this..." [label="has skill [Education_teaching]", color=lightgoldenrod, penwidth=1];
+    "Trojan War" -> "orally" [label="has theme [Transfer]", color=lightyellow, penwidth=1];
+    "Homeric Greek" -> "ancient Greek culture and e..." [label="has entity [Distinctiveness]", color=lightgoldenrodyellow, penwidth=1];
+    "Anno Domini" -> "Greek poet" [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Ancient Greek" -> "literature" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Anno Domini" -> "Iliad and the Odyssey, two ..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Anno Domini" -> "works" [label="has theme [Labor_product]", color=lightsalmon, penwidth=1];
+    "Homeric Greek" -> "predominant" [label="has degree [Objective_influence]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "Most researchers" [label="has theme [Certainty]", color=lightgoldenrod, penwidth=1];
+    "Homeric Greek" -> "as Epic Greek" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Iliad" -> "Iliad and Odyssey" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "Trojan War" -> "Ancient Greek" [label="has theme [Origin]", color=lightgray, penwidth=1];
+    "Trojan War" -> "Odysseus" [label="has leader [Leadership]", color=lightsteelblue, penwidth=1];
+    "Trojan War" -> "poems" [label="has theme [Transfer]", color=lightyellow, penwidth=1];
+    "Ithaca" -> "back to his home" [label="has goal [Travel]", color=lightsalmon, penwidth=1];
+    "Homeric Greek" -> "centuries" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Anno Domini" -> "authors" [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Anno Domini" -> "c. the 8th century BCE" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Iliad" -> "article" [label="has theme [Explaining_the_facts]", color=lightgoldenrod, penwidth=1];
+    "Homer" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Anno Domini" -> "who" [label="has theme [Praiseworthiness]", color=lightpink, penwidth=1];
+    "Iliad" -> "2025" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Anno Domini" -> "history" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Transfer_legend" [label="Transfer", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Praiseworthiness_legend" [label="Praiseworthiness", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Resolve_problem_legend" [label="Resolve_problem", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cause_to_perceive_legend" [label="Cause_to_perceive", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Instance_legend" [label="Instance", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Travel_legend" [label="Travel", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Certainty_legend" [label="Certainty", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reading_perception_legend" [label="Reading_perception", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Spatial_contact_legend" [label="Spatial_contact", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Redirecting_legend" [label="Redirecting", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Dominate_situation_legend" [label="Dominate_situation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Rewards_and_punishments_legend" [label="Rewards_and_punishments", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Distinctiveness_legend" [label="Distinctiveness", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Explaining_the_facts_legend" [label="Explaining_the_facts", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

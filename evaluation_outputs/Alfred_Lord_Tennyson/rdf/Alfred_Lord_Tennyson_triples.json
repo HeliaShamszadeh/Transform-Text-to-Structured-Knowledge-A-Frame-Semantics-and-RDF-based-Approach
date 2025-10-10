@@ -1,0 +1,2062 @@
+{
+  "metadata": {
+    "total_triples": 95,
+    "source_file": "Alfred_Lord_Tennyson",
+    "extraction_date": "2025-09-27 19:41:33",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Desirability:has_theme",
+        "object": "his poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Death:has_theme",
+        "object": "stroke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Calendric_unit:has_time",
+        "object": "2025",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Relative_time:has_theme",
+        "object": "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Publishing:has_work",
+        "object": "his first solo collection of poems, Poems, Chiefly Lyrical",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Proportional_quantity:has_theme",
+        "object": "Tennyson's most celebrated poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Age:has_age",
+        "object": "22",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "solo collection of poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+        "predicate": "Attention:has_theme",
+        "object": "well-known writers of the day, including Samuel Taylor Coleridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Inclusion:has_theme",
+        "object": "notable blank verse",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Judgment_communication:has_time",
+        "object": "1829",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Assistance:has_goal",
+        "object": "improve it by rewriting it in an encyclopedic style",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "one of his first pieces, \"Timbuktu",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Relative_time:has_theme",
+        "object": "he died of a stroke at the age of 22",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Judgment_communication:has_reason",
+        "object": "Chancellor's Gold Medal at Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "People_by_vocation:has_person",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Education_teaching:has_skill",
+        "object": "how and when to remove this message",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Text_creation:has_time",
+        "object": "after he died of a stroke at the age of 22",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Text_creation:has_text",
+        "object": "notable blank verse, including Idylls of the King, \"Ulysses, and \" Tithonus ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1829",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Communicate_categorization:has_speaker",
+        "object": "some critics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Duration_description:has_theme",
+        "object": "lyrics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Text:has_text",
+        "object": "poet",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+        "predicate": "Personal_relationship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Bringing:has_agent",
+        "object": "his poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Experiencer_focus:has_theme",
+        "object": "little success",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text_creation:has_theme",
+        "object": "encyclopedic style",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "State_continue:has_state",
+        "object": "some of Tennyson's most celebrated poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Education_teaching:has_time",
+        "object": "2025",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Text:has_time",
+        "object": "2025",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "predicate": "Leadership:has_leader",
+        "object": "King",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text_creation:has_theme",
+        "object": "like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Locative_relation:has_theme",
+        "object": "here",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Bringing:has_goal",
+        "object": "attention of well-known writers of the day, including Samuel Taylor Coleridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Education_teaching:has_institution",
+        "object": "Trinity College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Text:has_author",
+        "object": "Tennyson's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Importance:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Education_teaching:has_student",
+        "object": "his friend Arthur Hallam",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Reference_text:has_theme",
+        "object": "Tennyson (disambiguation ) and Baron Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Locative_relation:has_theme",
+        "object": "British Poet Laureate (1809–1892) \"Tennyson\" and \"Lord Tennyson \" redirect",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Aggregate:has_theme",
+        "object": "collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "August",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Removing:has_theme",
+        "object": "this message",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Removing:has_time",
+        "object": "2025",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+        "predicate": "Inclusion:has_theme",
+        "object": "well-known writers of the day",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text:has_text",
+        "object": "essay",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Turning_out:has_theme",
+        "object": "popular",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text:has_author",
+        "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Success_or_failure:has_agent",
+        "object": "his plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he was awarded the Chancellor's Gold Medal at Cambridge for one of his first pieces, \"Timbuktu",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text:has_theme",
+        "object": "personal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Experiencer_focus:has_theme",
+        "object": "his plays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Inclusion:has_theme",
+        "object": "Idylls of the King, \"Ulysses \", and \" Tithonus ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Inclusion:has_theme",
+        "object": "this volume",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text:has_text",
+        "object": "article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "pieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Inclusion:has_theme",
+        "object": "Claribel \" and \" Mariana \", which remain some of Tennyson's most celebrated poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_text",
+        "object": "lyrics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Aggregate:has_theme",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "early",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Objective_influence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Text_creation:has_purpose",
+        "object": "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_theme",
+        "object": "day",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_text",
+        "object": "volume",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Part_piece:has_theme",
+        "object": "pieces",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "People:has_person",
+        "object": "fellow",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_text",
+        "object": "Poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "day",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Turning_out:has_time",
+        "object": "ultimately",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Emphasizing:has_theme",
+        "object": "short lyrics, such as \" Break, Break, Break \", \" The Charge of the Light Brigade \", \" Tears, Idle Tears \", and \" Crossing the Bar",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cambridge",
+        "predicate": "Part_piece:has_theme",
+        "object": "first",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Publishing:has_time",
+        "object": "1830",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Desiring:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Death:has_time",
+        "object": "age of 22",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Proportional_quantity:has_theme",
+        "object": "some",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Tennyson's early poetry, with its medievalism and powerful visual imagery",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+        "predicate": "Text_creation:has_text",
+        "object": "This article",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+        "predicate": "Text:has_text",
+        "object": "poetry",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "State_continue:has_entity",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Tennyson attempted drama",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Communicate_categorization:has_item",
+        "object": "his poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "his career",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Communicate_categorization:has_category",
+        "object": "as overly sentimental",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Importance:has_theme",
+        "object": "influence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Objective_influence:has_degree",
+        "object": "major",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+        "predicate": "Text:has_text",
+        "object": "writers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text_creation:has_theme",
+          "object": "like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text:has_theme",
+          "object": "personal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Text:has_text",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Text:has_time",
+          "object": "2025",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Death:has_theme",
+          "object": "stroke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Death:has_time",
+          "object": "age of 22",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Assistance:has_goal",
+          "object": "improve it by rewriting it in an encyclopedic style",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Desirability:has_theme",
+          "object": "his poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Calendric_unit:has_time",
+          "object": "2025",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Relative_time:has_theme",
+          "object": "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Publishing:has_work",
+          "object": "his first solo collection of poems, Poems, Chiefly Lyrical",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Proportional_quantity:has_theme",
+          "object": "Tennyson's most celebrated poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Age:has_age",
+          "object": "22",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "solo collection of poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+          "predicate": "Attention:has_theme",
+          "object": "well-known writers of the day, including Samuel Taylor Coleridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Inclusion:has_theme",
+          "object": "notable blank verse",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Judgment_communication:has_time",
+          "object": "1829",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "one of his first pieces, \"Timbuktu",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Relative_time:has_theme",
+          "object": "he died of a stroke at the age of 22",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Judgment_communication:has_reason",
+          "object": "Chancellor's Gold Medal at Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "People_by_vocation:has_person",
+          "object": "poet",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Education_teaching:has_skill",
+          "object": "how and when to remove this message",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Text_creation:has_time",
+          "object": "after he died of a stroke at the age of 22",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Text_creation:has_text",
+          "object": "notable blank verse, including Idylls of the King, \"Ulysses, and \" Tithonus ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1829",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Communicate_categorization:has_speaker",
+          "object": "some critics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Duration_description:has_theme",
+          "object": "lyrics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Arthur_Hallam",
+          "predicate": "Personal_relationship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Bringing:has_agent",
+          "object": "his poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Experiencer_focus:has_theme",
+          "object": "little success",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text_creation:has_theme",
+          "object": "encyclopedic style",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "State_continue:has_state",
+          "object": "some of Tennyson's most celebrated poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Education_teaching:has_time",
+          "object": "2025",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+          "predicate": "Leadership:has_leader",
+          "object": "King",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Locative_relation:has_theme",
+          "object": "here",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Bringing:has_goal",
+          "object": "attention of well-known writers of the day, including Samuel Taylor Coleridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Education_teaching:has_institution",
+          "object": "Trinity College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Text:has_author",
+          "object": "Tennyson's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Importance:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Education_teaching:has_student",
+          "object": "his friend Arthur Hallam",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Reference_text:has_theme",
+          "object": "Tennyson (disambiguation ) and Baron Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Locative_relation:has_theme",
+          "object": "British Poet Laureate (1809–1892) \"Tennyson\" and \"Lord Tennyson \" redirect",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Aggregate:has_theme",
+          "object": "collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "August",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Removing:has_theme",
+          "object": "this message",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Removing:has_time",
+          "object": "2025",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+          "predicate": "Inclusion:has_theme",
+          "object": "well-known writers of the day",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text:has_text",
+          "object": "essay",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Turning_out:has_theme",
+          "object": "popular",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text:has_author",
+          "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Success_or_failure:has_agent",
+          "object": "his plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he was awarded the Chancellor's Gold Medal at Cambridge for one of his first pieces, \"Timbuktu",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Experiencer_focus:has_theme",
+          "object": "his plays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Inclusion:has_theme",
+          "object": "Idylls of the King, \"Ulysses \", and \" Tithonus ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Inclusion:has_theme",
+          "object": "this volume",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text:has_text",
+          "object": "article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "pieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Inclusion:has_theme",
+          "object": "Claribel \" and \" Mariana \", which remain some of Tennyson's most celebrated poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_text",
+          "object": "lyrics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Aggregate:has_theme",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "early",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Objective_influence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "Text_creation:has_purpose",
+          "object": "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_theme",
+          "object": "day",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_text",
+          "object": "volume",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Part_piece:has_theme",
+          "object": "pieces",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "predicate": "People:has_person",
+          "object": "fellow",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_text",
+          "object": "Poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "day",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Turning_out:has_time",
+          "object": "ultimately",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Emphasizing:has_theme",
+          "object": "short lyrics, such as \" Break, Break, Break \", \" The Charge of the Light Brigade \", \" Tears, Idle Tears \", and \" Crossing the Bar",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cambridge",
+          "predicate": "Part_piece:has_theme",
+          "object": "first",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Publishing:has_time",
+          "object": "1830",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Desiring:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Proportional_quantity:has_theme",
+          "object": "some",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Tennyson's early poetry, with its medievalism and powerful visual imagery",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Baron_Tennyson",
+          "predicate": "Text_creation:has_text",
+          "object": "This article",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+          "predicate": "Text:has_text",
+          "object": "poetry",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "State_continue:has_entity",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Tennyson attempted drama",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Communicate_categorization:has_item",
+          "object": "his poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "his career",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Communicate_categorization:has_category",
+          "object": "as overly sentimental",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Importance:has_theme",
+          "object": "influence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Objective_influence:has_degree",
+          "object": "major",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Queen_Victoria",
+          "predicate": "Text:has_text",
+          "object": "writers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Arthur_Hallam",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Arthur_Hallam",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin"
+    ],
+    "objects": [
+      "his poems",
+      "stroke",
+      "2025",
+      "poems",
+      "uses",
+      "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+      "his first solo collection of poems, Poems, Chiefly Lyrical",
+      "Tennyson's most celebrated poems",
+      "22",
+      "solo collection of poems",
+      "well-known writers of the day, including Samuel Taylor Coleridge",
+      "notable blank verse",
+      "1829",
+      "improve it by rewriting it in an encyclopedic style",
+      "one of his first pieces, \"Timbuktu",
+      "he died of a stroke at the age of 22",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "Chancellor's Gold Medal at Cambridge",
+      "poet",
+      "how and when to remove this message",
+      "after he died of a stroke at the age of 22",
+      "poetry",
+      "notable blank verse, including Idylls of the King, \"Ulysses, and \" Tithonus ",
+      "1829",
+      "some critics",
+      "lyrics",
+      "poet",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "his poems",
+      "little success",
+      "encyclopedic style",
+      "some of Tennyson's most celebrated poems",
+      "2025",
+      "2025",
+      "King",
+      "like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic",
+      "here",
+      "attention of well-known writers of the day, including Samuel Taylor Coleridge",
+      "Trinity College, Cambridge",
+      "Tennyson's",
+      "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+      "his friend Arthur Hallam",
+      "Tennyson (disambiguation ) and Baron Tennyson",
+      "British Poet Laureate (1809–1892) \"Tennyson\" and \"Lord Tennyson \" redirect",
+      "collection",
+      "August",
+      "this message",
+      "2025",
+      "well-known writers of the day",
+      "essay",
+      "popular",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "his plays",
+      "he was awarded the Chancellor's Gold Medal at Cambridge for one of his first pieces, \"Timbuktu",
+      "personal",
+      "his plays",
+      "Idylls of the King, \"Ulysses \", and \" Tithonus ",
+      "this volume",
+      "poems",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "poems",
+      "article",
+      "pieces",
+      "Claribel \" and \" Mariana \", which remain some of Tennyson's most celebrated poems",
+      "lyrics",
+      "poems",
+      "early",
+      "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+      "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+      "day",
+      "volume",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "pieces",
+      "fellow",
+      "Poems",
+      "day",
+      "ultimately",
+      "short lyrics, such as \" Break, Break, Break \", \" The Charge of the Light Brigade \", \" Tears, Idle Tears \", and \" Crossing the Bar",
+      "first",
+      "1830",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "age of 22",
+      "some",
+      "Tennyson's early poetry, with its medievalism and powerful visual imagery",
+      "This article",
+      "poetry",
+      "which",
+      "Tennyson attempted drama",
+      "his poems",
+      "his career",
+      "as overly sentimental",
+      "influence",
+      "major",
+      "writers",
+      "http://en.wikipedia.org/wiki/Arthur_Hallam"
+    ],
+    "all_unique": [
+      "influence",
+      "which",
+      "day",
+      "his poems",
+      "encyclopedic style",
+      "1830",
+      "King",
+      "Tennyson attempted drama",
+      "improve it by rewriting it in an encyclopedic style",
+      "as overly sentimental",
+      "http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+      "here",
+      "he died of a stroke at the age of 22",
+      "volume",
+      "attention of well-known writers of the day, including Samuel Taylor Coleridge",
+      "this volume",
+      "http://en.wikipedia.org/wiki/Baron_Tennyson",
+      "Tennyson's early poetry, with its medievalism and powerful visual imagery",
+      "Chancellor's Gold Medal at Cambridge",
+      "http://en.wikipedia.org/wiki/England",
+      "little success",
+      "solo collection of poems",
+      "notable blank verse",
+      "some of Tennyson's most celebrated poems",
+      "pieces",
+      "his first solo collection of poems, Poems, Chiefly Lyrical",
+      "Poems",
+      "Tennyson (disambiguation ) and Baron Tennyson",
+      "ultimately",
+      "personal",
+      "short lyrics, such as \" Break, Break, Break \", \" The Charge of the Light Brigade \", \" Tears, Idle Tears \", and \" Crossing the Bar",
+      "poetry",
+      "uses",
+      "one of his first pieces, \"Timbuktu",
+      "This article",
+      "Idylls of the King, \"Ulysses \", and \" Tithonus ",
+      "his friend Arthur Hallam",
+      "writers",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "article",
+      "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "after he died of a stroke at the age of 22",
+      "lyrics",
+      "like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic",
+      "http://en.wikipedia.org/wiki/Cambridge",
+      "stroke",
+      "essay",
+      "1829",
+      "22",
+      "2025",
+      "poet",
+      "age of 22",
+      "Trinity College, Cambridge",
+      "Tennyson's most celebrated poems",
+      "some critics",
+      "he was awarded the Chancellor's Gold Medal at Cambridge for one of his first pieces, \"Timbuktu",
+      "British Poet Laureate (1809–1892) \"Tennyson\" and \"Lord Tennyson \" redirect",
+      "his plays",
+      "commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+      "popular",
+      "fellow",
+      "http://en.wikipedia.org/wiki/Queen_Victoria",
+      "how and when to remove this message",
+      "Tennyson's",
+      "well-known writers of the day",
+      "well-known writers of the day, including Samuel Taylor Coleridge",
+      "August",
+      "this message",
+      "some",
+      "Claribel \" and \" Mariana \", which remain some of Tennyson's most celebrated poems",
+      "http://en.wikipedia.org/wiki/Arthur_Hallam",
+      "http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "early",
+      "major",
+      "first",
+      "his career",
+      "collection",
+      "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge",
+      "notable blank verse, including Idylls of the King, \"Ulysses, and \" Tithonus ",
+      "poems"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Desirability:has_theme",
+      "Death:has_theme",
+      "Calendric_unit:has_time",
+      "Text:has_text",
+      "Increment:has_class",
+      "Relative_time:has_theme",
+      "Publishing:has_work",
+      "Proportional_quantity:has_theme",
+      "Age:has_age",
+      "Ordinal_numbers:has_type",
+      "Attention:has_theme",
+      "Inclusion:has_theme",
+      "Judgment_communication:has_time",
+      "Assistance:has_goal",
+      "Judgment_communication:has_theme",
+      "Relative_time:has_theme",
+      "Personal_relationship:has_theme",
+      "Judgment_communication:has_reason",
+      "People_by_vocation:has_person",
+      "Education_teaching:has_skill",
+      "Text_creation:has_time",
+      "Temporal_subregion:has_theme",
+      "Text_creation:has_text",
+      "Temporal_collocation:has_theme",
+      "Communicate_categorization:has_speaker",
+      "Duration_description:has_theme",
+      "Text:has_text",
+      "Personal_relationship:has_location",
+      "Bringing:has_agent",
+      "Experiencer_focus:has_theme",
+      "Text_creation:has_theme",
+      "State_continue:has_state",
+      "Education_teaching:has_time",
+      "Text:has_time",
+      "Leadership:has_leader",
+      "Text_creation:has_theme",
+      "Locative_relation:has_theme",
+      "Bringing:has_goal",
+      "Education_teaching:has_institution",
+      "Text:has_author",
+      "Importance:has_theme",
+      "Education_teaching:has_student",
+      "Reference_text:has_theme",
+      "Locative_relation:has_theme",
+      "Aggregate:has_theme",
+      "Calendric_unit:has_theme",
+      "Removing:has_theme",
+      "Removing:has_time",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Turning_out:has_theme",
+      "Text:has_author",
+      "Success_or_failure:has_agent",
+      "Temporal_collocation:has_theme",
+      "Text:has_theme",
+      "Experiencer_focus:has_theme",
+      "Inclusion:has_theme",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Publishing:has_theme",
+      "Text:has_text",
+      "Text:has_text",
+      "Ordinal_numbers:has_type",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Aggregate:has_theme",
+      "Temporal_subregion:has_theme",
+      "Objective_influence:has_theme",
+      "Text_creation:has_purpose",
+      "Text:has_theme",
+      "Text:has_text",
+      "Judgment_communication:has_theme",
+      "Part_piece:has_theme",
+      "People:has_person",
+      "Text:has_text",
+      "Calendric_unit:has_theme",
+      "Turning_out:has_time",
+      "Emphasizing:has_theme",
+      "Part_piece:has_theme",
+      "Publishing:has_time",
+      "Desiring:has_theme",
+      "Death:has_time",
+      "Proportional_quantity:has_theme",
+      "Objective_influence:has_theme",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "State_continue:has_entity",
+      "Temporal_collocation:has_theme",
+      "Communicate_categorization:has_item",
+      "Temporal_collocation:has_theme",
+      "Communicate_categorization:has_category",
+      "Importance:has_theme",
+      "Objective_influence:has_degree",
+      "Text:has_text",
+      "Death:has_theme"
+    ],
+    "unique_predicates": [
+      "Communicate_categorization:has_speaker",
+      "Calendric_unit:has_time",
+      "Personal_relationship:has_theme",
+      "Objective_influence:has_theme",
+      "Aggregate:has_theme",
+      "Calendric_unit:has_theme",
+      "Attention:has_theme",
+      "Age:has_age",
+      "State_continue:has_entity",
+      "People_by_vocation:has_person",
+      "Temporal_collocation:has_theme",
+      "Bringing:has_agent",
+      "Removing:has_theme",
+      "People:has_person",
+      "Experiencer_focus:has_theme",
+      "Communicate_categorization:has_item",
+      "Text_creation:has_purpose",
+      "Assistance:has_goal",
+      "Judgment_communication:has_reason",
+      "Education_teaching:has_time",
+      "Education_teaching:has_institution",
+      "Text_creation:has_time",
+      "Proportional_quantity:has_theme",
+      "Objective_influence:has_degree",
+      "Success_or_failure:has_agent",
+      "Death:has_theme",
+      "Desiring:has_theme",
+      "Leadership:has_leader",
+      "Relative_time:has_theme",
+      "Desirability:has_theme",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Reference_text:has_theme",
+      "Emphasizing:has_theme",
+      "Publishing:has_time",
+      "Communicate_categorization:has_category",
+      "Removing:has_time",
+      "Text:has_author",
+      "Increment:has_class",
+      "Ordinal_numbers:has_type",
+      "Judgment_communication:has_theme",
+      "Personal_relationship:has_location",
+      "Judgment_communication:has_time",
+      "Locative_relation:has_theme",
+      "Temporal_subregion:has_theme",
+      "Turning_out:has_time",
+      "Text_creation:has_text",
+      "Turning_out:has_theme",
+      "Inclusion:has_theme",
+      "Text:has_theme",
+      "Importance:has_theme",
+      "Part_piece:has_theme",
+      "Education_teaching:has_student",
+      "Bringing:has_goal",
+      "Education_teaching:has_skill",
+      "Death:has_time",
+      "Text_creation:has_theme",
+      "State_continue:has_state",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Desirability:has_theme": 1,
+      "Death:has_theme": 2,
+      "Calendric_unit:has_time": 1,
+      "Text:has_text": 11,
+      "Increment:has_class": 1,
+      "Relative_time:has_theme": 2,
+      "Publishing:has_work": 1,
+      "Proportional_quantity:has_theme": 2,
+      "Age:has_age": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Attention:has_theme": 1,
+      "Inclusion:has_theme": 5,
+      "Judgment_communication:has_time": 1,
+      "Assistance:has_goal": 1,
+      "Judgment_communication:has_theme": 2,
+      "Personal_relationship:has_theme": 1,
+      "Judgment_communication:has_reason": 1,
+      "People_by_vocation:has_person": 1,
+      "Education_teaching:has_skill": 1,
+      "Text_creation:has_time": 1,
+      "Temporal_subregion:has_theme": 2,
+      "Text_creation:has_text": 2,
+      "Temporal_collocation:has_theme": 4,
+      "Communicate_categorization:has_speaker": 1,
+      "Duration_description:has_theme": 1,
+      "Personal_relationship:has_location": 1,
+      "Bringing:has_agent": 1,
+      "Experiencer_focus:has_theme": 2,
+      "Text_creation:has_theme": 2,
+      "State_continue:has_state": 1,
+      "Education_teaching:has_time": 1,
+      "Text:has_time": 1,
+      "Leadership:has_leader": 1,
+      "Locative_relation:has_theme": 2,
+      "Bringing:has_goal": 1,
+      "Education_teaching:has_institution": 1,
+      "Text:has_author": 2,
+      "Importance:has_theme": 2,
+      "Education_teaching:has_student": 1,
+      "Reference_text:has_theme": 1,
+      "Aggregate:has_theme": 2,
+      "Calendric_unit:has_theme": 2,
+      "Removing:has_theme": 1,
+      "Removing:has_time": 1,
+      "Turning_out:has_theme": 1,
+      "Success_or_failure:has_agent": 1,
+      "Text:has_theme": 2,
+      "Publishing:has_theme": 1,
+      "Objective_influence:has_theme": 2,
+      "Text_creation:has_purpose": 1,
+      "Part_piece:has_theme": 2,
+      "People:has_person": 1,
+      "Turning_out:has_time": 1,
+      "Emphasizing:has_theme": 1,
+      "Publishing:has_time": 1,
+      "Desiring:has_theme": 1,
+      "Death:has_time": 1,
+      "State_continue:has_entity": 1,
+      "Communicate_categorization:has_item": 1,
+      "Communicate_categorization:has_category": 1,
+      "Objective_influence:has_degree": 1
+    }
+  }
+}

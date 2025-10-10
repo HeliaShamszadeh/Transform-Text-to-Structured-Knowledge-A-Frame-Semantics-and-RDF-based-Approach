@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Arriving:has_goal her family's home in Amherst",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states she returned to her family's home in Amherst after studying. 'Returning' implies the home was a destination/goal, though the predicate 'has_goal' is an indirect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses themes of Dickinson's poetry (death, immortality, etc.), but 'family' is not listed as a theme. The text mentions her own family, but not as a theme of American poetry itself. The connection is too tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Wentworth_Higginson People_by_vocation:has_person Thomas H. Johnson",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple incorrectly equates Thomas Wentworth Higginson with Thomas H. Johnson. They are explicitly mentioned as two distinct people in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Aggregate:has_theme complete",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states a 'complete collection' of her poetry became available in 1955. While 'complete' describes a collection of her work (which is part of American poetry), the connection to American poetry as a whole having the theme 'complete' is very weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Text:has_time 1955",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1955 is directly mentioned in the paragraph as the publication date for the first complete collection of her poems, which is a significant event related to her textual legacy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Sole_instance:has_type publications during her lifetime",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dickinson was an American poet and mentions her publications during her lifetime. There is a semantic connection between American poetry and her publications, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Using:has_theme often",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not correspond to any information or logical relationship in the paragraph. 'Using:has_theme often' is not a meaningful assertion about American poetry found in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Expertise:has_theme writer",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph establishes Emily Dickinson as a writer/poet who is a key figure in American poetry. There is a reasonable semantic link between American poetry and the writers who contribute to it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Becoming_aware:has_theme Lavinia, Dickinson's younger sister",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Lavinia discovered Dickinson's cache of poems after her death, making her aware of the full extent of the work. This fits a 'Becoming_aware' theme related to Dickinson."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Guest_and_host:has_theme guests",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "While the paragraph mentions Dickinson's 'reluctance to greet guests,' this is a personal characteristic of the poet, not a theme of American poetry itself. The connection is too tenuous and indirect to be reasonably extracted."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Aggregate:has_theme her poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she is 'regarded as one of the most important figures in American poetry,' and her poems are a central theme of the text, creating a strong semantic link between American poetry and her work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Resolve_problem:has_cause Many of her poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The relationship 'Resolve_problem:has_cause' implies a problem-solution dynamic. The paragraph describes themes of her poems but does not suggest American poetry itself is a problem caused by her poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Partitive:has_theme most",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'one of the most important figures in American poetry' implies that 'most' (as in 'most important') is a thematic quality associated with American poetry in the context of discussing her significance."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Publishing:has_work poems",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses the publication of her poems and her status as a key figure in American poetry, creating a reasonable, though indirect, connection between the domain and the works associated with it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Categorization:has_theme locals",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The sentence 'Considered an eccentric by locals' establishes a relationship between Dickinson and locals. While 'locals' are not a 'theme' in the typical sense, they are a category of people associated with her story."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Dickinson was a prolific writer of nearly 1,800 poems, and her work is centered around her poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amherst,_Massachusetts Social_connection:has_theme ties",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Amherst, Massachusetts, and states Dickinson was born into a family with 'strong ties to its community,' which is a social connection theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Clothing:has_theme clothing",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While 'American poetry' is mentioned, the clothing connection is weak but exists; Dickinson's 'penchant for white clothing' is described, and she is a key figure in American poetry, creating a very indirect thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amherst,_Massachusetts Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Dickinson was born in Amherst 'into a prominent family' and mentions her younger sister Lavinia, establishing a clear kinship theme connected to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Attending:has_theme briefly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph describes that Dickinson 'briefly attended the Mount Holyoke Female Seminary,' which directly connects the theme of 'attending' (an educational institution) with the modifier 'briefly'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Attending:has_location http://en.wikipedia.org/wiki/Amherst,_Massachusetts",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph clearly states Dickinson was born in Amherst, Massachusetts, studied at Amherst Academy, and returned to her family's home in Amherst, establishing a strong location connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_entity poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph discusses Dickinson as an American poet and her significance in American poetry, creating a semantic connection between American poetry and the entity 'poet' through her role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amherst,_Massachusetts Social_connection:has_theme its community",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph mentions Dickinson was born into a prominent family with strong ties to its community in Amherst, establishing a social connection theme between the location and its community."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Completeness:has_theme collection of her poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph discusses the publication history of Dickinson's poetry collections in the context of American poetry, including her first published collection and complete collection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text http://en.wikipedia.org/wiki/Emily_Dickinson",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Paragraph identifies Dickinson as an American poet multiple times, creating an indirect semantic connection between United States and Emily Dickinson through nationality context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Completeness:has_time 1955",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that a 'complete collection of her poetry first became available in 1955.' While this is about the completeness of Dickinson's poetry specifically, and not American poetry as a whole, there is a semantic connection between the completeness of a major American poet's work and the broader category of American poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Wentworth_Higginson Text_creation:has_author Thomas Wentworth Higginson and Mabel Loomis Todd",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Her first published collection of poetry was made in 1890 by her personal acquaintances Thomas Wentworth Higginson and Mabel Loomis Todd.' This directly connects the entity to the act of text creation (publishing a collection)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Awareness:has_theme Dickinson's acquaintances",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'Dickinson's acquaintances' in the context of them being aware of her writing. While the relationship is weak (the acquaintances are the ones with awareness, not a 'theme' of the entity 'Emily_Dickinson'), there is a semantic connection between the entity and the concept of acquaintances."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Cardinal_numbers:has_entity letter",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that during her lifetime, Dickinson's publications included 'one letter'. There is a very weak, indirect link between American poetry (via one of its important figures) and a 'letter' as a published entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Color:has_entity clothing",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph states Dickinson 'developed a penchant for white clothing.' This is a very weak and indirect connection, as the color of an important American poet's clothing is tangentially related to the entity of American poetry through its notable figures."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Wentworth_Higginson Text:has_time 1955",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states that Thomas Wentworth Higginson published a collection of Dickinson's poetry in 1890, not 1955. The year 1955 is associated with Thomas H. Johnson's publication, not Higginson's."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Being_named:has_theme her reluctance to greet guests or, later in life, even to leave her bedroom",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly describes Dickinson's reclusive behavior, including her 'reluctance to greet guests or, later in life, even to leave her bedroom.' This is a direct semantic match for the theme described in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Text:has_text poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly and explicitly states that Emily Dickinson was a poet and wrote poems, which are a form of poetry. This is a direct and unambiguous semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Wentworth_Higginson People_by_vocation:has_time 1955",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph associates Thomas Wentworth Higginson with the year 1890, not 1955. The year 1955 is linked to a different person, Thomas H. Johnson. There is no information connecting Higginson to 1955."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Becoming_aware:has_theme her cache of poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that after Dickinson's death in 1886, her younger sister Lavinia 'discovered her cache of poems.' This event directly involves the theme of a 'cache of poems' being found, which is a form of 'becoming aware'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Attending:has_time before returning to her family's home in Amherst",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions she 'briefly attended the Mount Holyoke Female Seminary before returning to her family's home in Amherst,' which semantically connects the concept of attending an institution with the time period before her return."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson People_by_vocation:has_theme http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Dickinson is explicitly described as an 'American poet' and a key figure in 'American poetry,' creating a strong semantic link between her vocation and the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Partitive:has_group her friendships",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple suggests American poetry contains or is a group for her friendships, which is a nonsensical relationship not supported by the text. The paragraph states her friendships were based on correspondence, unrelated to the concept of American poetry as a group."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amherst,_Massachusetts Measure_duration:has_theme seven",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "There is a weak semantic connection: Dickinson studied at the Amherst Academy for seven years, and Amherst, Massachusetts is mentioned as her birthplace. The duration 'seven' is associated with an activity in Amherst."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Quantified_mass:has_theme her poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states Dickinson is a major figure in American poetry and discusses the characteristics and themes of 'her poems,' creating a clear semantic relationship where her poems are a central theme of American poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson First_experience:has_theme became available in 1955 when scholar Thomas H. Johnson published The Poems of Emily Dickinson",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'became available in 1955 when scholar Thomas H. Johnson published The Poems of Emily Dickinson' is directly from the paragraph, but it describes the publication of her complete collection, not a theme. The connection to 'First_experience:has_theme' is very weak, but the entities and event are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Kinship:has_location http://en.wikipedia.org/wiki/Amherst,_Massachusetts",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is extremely indirect. Dickinson, a key figure in American poetry, was born and lived in Amherst. The 'Kinship:has_location' predicate is a stretch, but there is a semantic link between American poetry (via its key figure) and the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Wentworth_Higginson Text:has_text Poems of Emily Dickinson",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Thomas Wentworth Higginson is mentioned as publishing her first collection. While the specific text 'Poems of Emily Dickinson' is attributed to Thomas H. Johnson later, Higginson was directly involved in publishing her poems, creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Dickinson Arriving:has_location http://en.wikipedia.org/wiki/Amherst,_Massachusetts",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Dickinson was born in Amherst, Massachusetts' and she lived there for most of her life. This is a clear and direct match for a location relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Using:has_agent poems",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The connection is very weak. The paragraph discusses American poetry and poems by Dickinson. The relationship 'Using:has_agent poems' is not explicitly stated, but one could loosely interpret that American poetry (as a genre) is manifested through poems. This is a lenient interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Idiosyncrasy:has_theme Her poems",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Emily Dickinson is a key figure in American poetry and describes the themes of her poems. There is a semantic link between American poetry and the themes found in her poems, which are part of that tradition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Text:has_text letters",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions letters in the context of Dickinson's friendships and as a place where she discussed themes found in her poems. While the connection to 'American poetry' as a whole is very weak, the text does contain the word 'letters' in a related context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Publishing:has_time then",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The word 'then' in the paragraph refers to the time when Dickinson's poems were published during her lifetime. This is a very weak and indirect connection to American poetry, but the concept of publishing time is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Aggregate:has_theme poetry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about an American poet and her relationship to American poetry. The subject 'American poetry' inherently has the theme of 'poetry'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph repeatedly mentions 'poems' in the context of Emily Dickinson's work, which is presented as a significant part of American poetry. The connection is clear and direct."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 33,
+    "accuracy": 0.66,
+    "avg_confidence": 0.56,
+    "high_confidence_50": 33,
+    "high_confidence_80": 17,
+    "percent_50": 66.0,
+    "percent_80": 34.0,
+    "max_triples_limit": 50
+  }
+}

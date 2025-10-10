@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Desirability:has_theme his poems",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Tennyson was Poet Laureate during Queen Victoria's reign and discusses themes of his poems (sentimental, medievalism, classical mythology). While the direct link 'Queen Victoria has_theme his poems' is very weak, there is a semantic connection via his role and the described content of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Death:has_theme stroke",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Trinity College, Cambridge' (not Dublin) in the context of Arthur Hallam's death from a stroke. The triple incorrectly links the Dublin college to the theme of stroke, which is completely unrelated and contradictory to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Calendric_unit:has_time 2025",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The date '2025' appears in the paragraph as part of a Wikipedia maintenance notice. While the connection to Baron Tennyson is extremely weak and contextual (the article is about him), the date is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is about Alfred Tennyson, Baron Tennyson, and repeatedly discusses his poems, collections of poems, and specific poem titles. The connection between the subject and the text being about poems is very strong."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'uses' appears in the phrase 'For other uses, see Tennyson (disambiguation)', which is part of the article header for Baron Tennyson. The connection is weak and syntactic rather than deeply semantic, but the term is present in the text related to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Relative_time:has_theme commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'In Memoriam A.H.H.' was written to commemorate his friend Arthur Hallam, a fellow poet and student at Trinity College, Cambridge'. While the subject is the poem and the theme is the commemoration, the triple's structure is semantically related to this information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Publishing:has_work his first solo collection of poems, Poems, Chiefly Lyrical",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Queen Victoria's reign and separately mentions the publication of the poem collection, but there is no semantic connection linking Queen Victoria directly to the work 'Poems, Chiefly Lyrical'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Proportional_quantity:has_theme Tennyson's most celebrated poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Queen Victoria is mentioned in the context of Tennyson being Poet Laureate during her reign, but there is no connection between her and the theme of his celebrated poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Age:has_age 22",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The age of 22 is associated with Arthur Hallam's death, not with Trinity College Dublin. The college is mentioned as the institution where Hallam was a student, but the age is not an attribute of the college."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Ordinal_numbers:has_type solo collection of poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "There is no semantic link in the paragraph between Queen Victoria and the type 'solo collection of poems'. The collection is attributed to Tennyson, not to the Queen."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge Attention:has_theme well-known writers of the day, including Samuel Taylor Coleridge",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Tennyson's work brought him to the attention of well-known writers including Samuel Taylor Coleridge, establishing a connection between Coleridge and the theme of being a 'well-known writer of the day'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Inclusion:has_theme notable blank verse",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Queen Victoria in relation to Tennyson's tenure as Poet Laureate, and separately mentions Tennyson wrote notable blank verse. There is no semantic connection established between Queen Victoria and the theme of blank verse."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cambridge Judgment_communication:has_time 1829",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1829 he was awarded the Chancellor's Gold Medal at Cambridge', directly connecting Cambridge with the time '1829' in the context of an award/judgment."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Assistance:has_goal improve it by rewriting it in an encyclopedic style",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The phrase 'improve it by rewriting it in an encyclopedic style' appears in the article's self-referential note. While the connection to 'Baron Tennyson' is weak and meta-textual, the text is present and relates to the article's subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cambridge Judgment_communication:has_theme one of his first pieces, \"Timbuktu\"",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'In 1829 he was awarded the Chancellor's Gold Medal at Cambridge for one of his first pieces, \"Timbuktu\"', directly connecting Cambridge with the theme of the piece 'Timbuktu' in the context of an award/judgment."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Relative_time:has_theme he died of a stroke at the age of 22",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Arthur Hallam died of a stroke at 22 and was a student at Trinity College, Cambridge. The triple's subject is 'Trinity College Dublin', which is a different institution, but there is a weak semantic connection through the shared concept of a 'Trinity College' and a death theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Hallam Personal_relationship:has_theme http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'In Memoriam A.H.H.' was written by Tennyson to commemorate his friend Arthur Hallam, establishing a clear personal relationship theme between the two individuals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cambridge Judgment_communication:has_reason Chancellor's Gold Medal at Cambridge",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Tennyson was awarded the Chancellor's Gold Medal at Cambridge. The triple suggests Cambridge is the reason for a judgment/communication (the award), which is a reasonable, though slightly abstract, interpretation of the stated event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin People_by_vocation:has_person poet",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Arthur Hallam was a fellow poet and student at Trinity College, Cambridge. The triple's subject is 'Trinity College Dublin', which is a different institution, but there is a weak semantic connection through the shared concept of a 'Trinity College' and the presence of a poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Education_teaching:has_skill how and when to remove this message",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'how and when to remove this message' is part of a Wikipedia template note about the article's style and is completely unrelated to the biographical content about Baron Tennyson. There is no semantic connection to any skill or educational theme related to Tennyson."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Text_creation:has_time after he died of a stroke at the age of 22",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Trinity College, Cambridge, not Trinity College Dublin. The temporal phrase is associated with Arthur Hallam's death, not with the creation of a text by the college."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Temporal_subregion:has_theme poetry",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Queen Victoria's reign is mentioned as the period when Tennyson was Poet Laureate. There is a weak but valid semantic connection between her reign and the theme of poetry through Tennyson's role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Text_creation:has_text notable blank verse, including Idylls of the King, \"Ulysses, and \" Tithonus \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Tennyson also wrote notable blank verse, including Idylls of the King, \"Ulysses\", and \"Tithonus\".' This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cambridge Temporal_collocation:has_theme 1829",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1829 he was awarded the Chancellor's Gold Medal at Cambridge...'. There is a strong semantic connection between Cambridge and the year 1829 in the context of an event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Communicate_categorization:has_speaker some critics",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'some critics' in relation to their description of Tennyson's poetry, but there is no semantic connection linking these critics to Queen Victoria as a speaker."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Duration_description:has_theme lyrics",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Tennyson was Poet Laureate during Queen Victoria's reign and that he focused on short lyrics. There is a very weak, indirect semantic connection linking the Queen's reign (Duration) to the theme of lyrics via Tennyson's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Tennyson is explicitly described as an 'English poet'. This establishes a clear semantic connection between England and the text/role of a poet, though the predicate 'has_text' is an imperfect match for the concept of 'having a poet'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_Hallam Personal_relationship:has_location http://en.wikipedia.org/wiki/Trinity_College_Dublin",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Arthur Hallam was a student at 'Trinity College, Cambridge', not 'Trinity College Dublin'. These are distinct, unrelated institutions. The information is contradictory, not merely a weak connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Bringing:has_agent his poems",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states that Tennyson's poems 'brought Tennyson to the attention' of other writers. This directly describes an action of 'bringing' where the poems are the agent (the thing doing the bringing)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Experiencer_focus:has_theme little success",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "There is a very weak, indirect connection. The paragraph mentions Queen Victoria's reign and separately states Tennyson's plays had 'little success'. A lenient interpretation could link the reign (the Experiencer's period) as the backdrop for this lack of success, though the connection is highly tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Text_creation:has_theme encyclopedic style",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The article mentions it should be rewritten in an 'encyclopedic style'. While this is a meta-comment about the article's quality and not a theme of the subject's work, there is a weak semantic connection to text creation and a theme of style."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria State_continue:has_state some of Tennyson's most celebrated poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Tennyson was Poet Laureate during Queen Victoria's reign and mentions his celebrated poems, but there is no semantic connection suggesting the Queen 'has a state' of 'some of Tennyson's most celebrated poems'. The concepts are entirely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Education_teaching:has_time 2025",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The date '2025' appears in the text as part of a maintenance notice ('Please help improve it... ( August 2025 )'). While this is not related to education/teaching or the subject's life, there is a very weak semantic link between the subject (Baron Tennyson) and the time '2025' via the article itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Text:has_time 2025",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Tennyson is described as an 'English poet', and the date '2025' appears in the article's meta-text. This creates a very weak, indirect connection between England and the time 2025 via the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Leadership:has_leader King",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the 'United Kingdom' and 'Queen Victoria's reign'. While the leader specified is a Queen, not a King, the concepts of UK leadership and monarchy are strongly present. Being lenient, 'King' is semantically related to the monarchy that leads the UK."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Text_creation:has_theme like a personal reflection, personal essay, or argumentative essay that states a Wikipedia editor's personal feelings or presents an original argument about a topic",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph contains a meta-commentary about the article's style ('written like a personal reflection...'), which is semantically related to the theme of the text's creation, though it's a disclaimer rather than a description of the content's theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Locative_relation:has_theme here",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'here' in the paragraph is used for redirection links ('redirect here') and has no semantic connection to a theme in a locative relation sense. The concept is completely unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Bringing:has_goal attention of well-known writers of the day, including Samuel Taylor Coleridge",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that his poems 'brought Tennyson to the attention of well-known writers... including Samuel Taylor Coleridge.' This directly describes the goal/result of his work bringing him attention."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Education_teaching:has_institution Trinity College, Cambridge",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Trinity College Dublin' is not mentioned in the paragraph. The paragraph only mentions 'Trinity College, Cambridge' in relation to Arthur Hallam. This is a case of mistaken identity, not a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Text:has_author Tennyson's",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph repeatedly discusses Tennyson as the author of poems and collections (e.g., 'his poems', 'Tennyson's most celebrated poems', 'Tennyson's early poetry'). The possessive 'Tennyson's' is used throughout to indicate authorship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Importance:has_theme http://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph connects Queen Victoria's reign to Tennyson's poetry, which influenced the Pre-Raphaelite Brotherhood. This creates a weak, indirect thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College_Dublin Education_teaching:has_student his friend Arthur Hallam",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Arthur Hallam was a student at Trinity College, Cambridge, not Trinity College Dublin. This is a contradiction, not a semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Reference_text:has_theme Tennyson (disambiguation ) and Baron Tennyon",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Tennyson' and 'Lord Tennyson' redirect to the article, and mentions 'Baron Tennyson' in the context of a reference or disambiguation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson Locative_relation:has_theme British Poet Laureate (1809–1892) \"Tennyson\" and \"Lord Tennyson \" redirect",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph begins by identifying the subject as the 'British Poet Laureate' and states that the names 'Tennyson' and 'Lord Tennyson' are associated with him, establishing a clear thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Queen_Victoria Aggregate:has_theme collection",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Tennyson published a 'collection of poems' during Queen Victoria's reign. This is a very weak and indirect link, but a semantic connection exists through the context of his work during her rule."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Calendric_unit:has_theme August",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions '6 August 1809' as Tennyson's birth date. While 'August' is a calendric unit and is associated with Tennyson, the predicate 'has_theme' is a very weak semantic connection, as August is not a theme of his life or work, but a date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Removing:has_theme this message",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph contains the phrase 'Learn how and when to remove this message'. The concept of 'removing' and 'this message' are present, but the connection to Baron Tennyson as a 'theme' is extremely tenuous and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Removing:has_time 2025",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The year '2025' appears in the text ('August 2025') in the context of a message to be removed. The connection to 'Removing' and 'has_time' is very weak but semantically present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge Inclusion:has_theme well-known writers of the day",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Samuel Taylor Coleridge is explicitly mentioned as one of the 'well-known writers of the day' who was brought to Tennyson's attention. The triple's idea that Coleridge is included in the theme/category of 'well-known writers of the day' is a reasonable, though slightly rephrased, extraction from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Baron_Tennyson Text:has_text essay",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text states the article was 'written like a personal reflection, personal essay, or argumentative essay'. The word 'essay' is directly in the text and is a descriptor of the text about Baron Tennyson."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 19,
+    "accuracy": 0.38,
+    "avg_confidence": 0.4040000000000001,
+    "high_confidence_50": 19,
+    "high_confidence_80": 9,
+    "percent_50": 38.0,
+    "percent_80": 18.0,
+    "max_triples_limit": 50
+  }
+}

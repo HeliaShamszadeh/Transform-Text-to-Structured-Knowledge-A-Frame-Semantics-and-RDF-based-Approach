@@ -1,0 +1,326 @@
+digraph Maya_Angelou {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "aspects of her personal life" [label="aspects of her personal life", fillcolor=lightcoral, color=red, shape=circle];
+    "poet and writer" [label="poet and writer", fillcolor=lightcoral, color=red, shape=circle];
+    "as a spokesperson for Black..." [label="as a spokesperson for Black...", fillcolor=lightcoral, color=red, shape=circle];
+    "She became a poet and writer" [label="She became a poet and writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her works" [label="her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her works" [label="Her works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her books" [label="her books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "ban her books from some U.S..." [label="ban her books from some U.S...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1993" [label="1993", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poem " On the Pulse of ..." [label="her poem " On the Pulse of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven autobiographies, thre..." [label="seven autobiographies, thre...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she made approximately 80 a..." [label="she made approximately 80 a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Reynolds" [label="Reynolds", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first Reynolds Professor of..." [label="first Reynolds Professor of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her young adulthood" [label="her young adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Civil rights movements" [label="Civil rights movements", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Angelou crater " [label="Angelou crater ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crater" [label="crater", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black" [label="Black", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dozens of awards and more t..." [label="dozens of awards and more t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Marguerite Annie Johnson ; ..." [label="Marguerite Annie Johnson ; ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "schools and universities wo..." [label="schools and universities wo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adulthood" [label="adulthood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publicly" [label="publicly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1982" [label="1982", fillcolor=lightgray, color=gray, shape=hexagon];
+    "17" [label="17", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her international recogniti..." [label="her international recogniti...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "something" [label="something", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lecture circuit" [label="lecture circuit", fillcolor=lightgray, color=gray, shape=hexagon];
+    "culture" [label="culture", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maya Angelou" [label="Maya Angelou", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adult experiences" [label="adult experiences", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "schools" [label="schools", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood and early adult" [label="childhood and early adult", fillcolor=lightgray, color=gray, shape=hexagon];
+    "universities" [label="universities", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first inauguration of Bill ..." [label="first inauguration of Bill ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet to make an inaugural r..." [label="poet to make an inaugural r...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "women" [label="women", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into her eighties" [label="into her eighties", fillcolor=lightgray, color=gray, shape=hexagon];
+    "50" [label="50", fillcolor=lightgray, color=gray, shape=hexagon];
+    "autobiographies" [label="autobiographies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Why" [label="Why", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1928" [label="1928", fillcolor=lightgray, color=gray, shape=hexagon];
+    "I Know Why the Caged Bird S..." [label="I Know Why the Caged Bird S...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "adult" [label="adult", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Winston" [label="Winston", fillcolor=lightgray, color=gray, shape=hexagon];
+    "string of odd jobs during h..." [label="string of odd jobs during h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays, movies, and televisi..." [label="plays, movies, and televisi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Why the Caged Bird Sings" [label="Why the Caged Bird Sings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wake Forest University" [label="Wake Forest University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dozens" [label="dozens", fillcolor=lightgray, color=gray, shape=hexagon];
+    "young" [label="young", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "list" [label="list", fillcolor=lightgray, color=gray, shape=hexagon];
+    "libraries" [label="libraries", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1969" [label="1969", fillcolor=lightgray, color=gray, shape=hexagon];
+    "memoirist" [label="memoirist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1990s" [label="1990s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "I Know Why" [label="I Know Why", fillcolor=lightgray, color=gray, shape=hexagon];
+    "defense of Black culture" [label="defense of Black culture", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wake Forest University in W..." [label="Wake Forest University in W...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin Luther King Jr." [label="Martin Luther King Jr.", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "after a string of odd jobs ..." [label="after a string of odd jobs ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bill Clinton" [label="Bill Clinton", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin Luther King Jr. and ..." [label="Martin Luther King Jr. and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "approximately 80" [label="approximately 80", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "I Know Why the Caged Bird Sings" [label="I Know Why the Caged Bird Sings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "honorary degrees" [label="honorary degrees", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "On the Pulse of Morning" [label="On the Pulse of Morning", fillcolor=lightgray, color=gray, shape=hexagon];
+    "than 50 honorary degrees" [label="than 50 honorary degrees", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some U.S. libraries" [label="some U.S. libraries", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "string of odd jobs" [label="string of odd jobs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first, I Know Why the Caged..." [label="first, I Know Why the Caged...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "awards" [label="awards", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mercury" [label="Mercury", fillcolor=lightgray, color=gray, shape=hexagon];
+    "list of plays, movies, and ..." [label="list of plays, movies, and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Black culture" [label="Black culture", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "United States" -> "1928" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "United States" -> "string of odd jobs during h..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "United States" -> "Maya Angelou" [label="has recipient [Receiving]", color=lightgreen, penwidth=1];
+    "United States" -> "honorary degrees" [label="has entity [Cardinal_numbers]", color=lightyellow, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "Reynolds" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Wake Forest University" -> "Black" [label="has theme [People]", color=lightsteelblue, penwidth=1];
+    "Wake Forest University" -> "I Know Why the Caged Bird S..." [label="has text [Text]", color=lightpink, penwidth=1];
+    "Maya Angelou" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Wake Forest University" -> "her books" [label="has theme [Prohibiting_or_licensing]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "1969" [label="has time [Age]", color=purple, penwidth=2];
+    "Maya Angelou" -> "as a spokesperson for Black..." [label="has role [Judgment]", color=lightsalmon, penwidth=1];
+    "Wake Forest University" -> "libraries" [label="has theme [Buildings]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "adulthood" [label="has entity [Age]", color=lightseagreen, penwidth=1];
+    "United States" -> "author" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "Wake Forest University" -> "defense of Black culture" [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "United States" -> "international" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Wake Forest University" -> "Winston" [label="has location [People_by_vocation]", color=green, penwidth=2];
+    "Wake Forest University" -> "widely" [label="has degree [Using]", color=lightcoral, penwidth=1];
+    "Maya Angelou" -> "young" [label="has age [People_by_age]", color=lightblue, penwidth=1];
+    "I Know Why the Caged Bird Sings" -> "1969" [label="has time [Causation]", color=purple, penwidth=2];
+    "United States" -> "Mercury" [label="has theme [Natural_features]", color=lightgreen, penwidth=1];
+    "United States" -> "list of plays, movies, and ..." [label="has behavior [Praiseworthiness]", color=lightyellow, penwidth=1];
+    "United States" -> "early" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "United States" -> "1969" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Wake Forest University" -> "universities" [label="has theme [Locale_by_use]", color=lightsteelblue, penwidth=1];
+    "Bill Clinton" -> "first inauguration of Bill ..." [label="has time [Reading_activity]", color=purple, penwidth=2];
+    "Wake Forest University" -> "Wake Forest University in W..." [label="has theme [People_by_vocation]", color=lightcyan, penwidth=1];
+    "United States" -> "list" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "some U.S. libraries" [label="has location [Prohibiting_or_licensing]", color=green, penwidth=2];
+    "United States" -> "Maya Angelou" [label="has theme [Praiseworthiness]", color=lightyellow, penwidth=1];
+    "United States" -> "string of odd jobs" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "United States" -> "17" [label="has age [Age]", color=lightseagreen, penwidth=1];
+    "Wake Forest University" -> "1993" [label="has time [Text]", color=purple, penwidth=2];
+    "Wake Forest University" -> "1993" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Wake Forest University" -> "women" [label="has person [People]", color=red, penwidth=2];
+    "United States" -> "essays" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "United States" -> "plays, movies, and televisi..." [label="has theme [Text]", color=lightpink, penwidth=1];
+    "United States" -> "crater" [label="has theme [Natural_features]", color=lightgreen, penwidth=1];
+    "Wake Forest University" -> "1982" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "I Know Why the Caged Bird Sings" -> "first, I Know Why the Caged..." [label="has cause [Causation]", color=lightcoral, penwidth=1];
+    "Bill Clinton" -> "Maya Angelou" [label="has reader [Reading_activity]", color=lightgray, penwidth=1];
+    "Wake Forest University" -> "she made approximately 80 a..." [label="has event [Process_start]", color=lightsalmon, penwidth=1];
+    "I Know Why the Caged Bird Sings" -> "her international recogniti..." [label="has effect [Causation]", color=lightcoral, penwidth=1];
+    "Maya Angelou" -> "Civil rights movements" [label="has activity [Being_active]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "1928" [label="has time [Text]", color=purple, penwidth=2];
+    "Maya Angelou" -> "1928" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Wake Forest University" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "libraries" [label="has theme [Proportional_quantity]", color=lightsteelblue, penwidth=1];
+    "Maya Angelou" -> "publicly" [label="has theme [Discussion]", color=lightcoral, penwidth=1];
+    "United States" -> "poet" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "I Know Why the Caged Bird Sings" -> "Why the Caged Bird Sings" [label="has theme [Awareness]", color=lightcoral, penwidth=1];
+    "United States" -> "than 50 honorary degrees" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "United States" -> "Maya Angelou" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Maya Angelou" -> "books" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "approximately 80" [label="has theme [Make_acquaintance]", color=lightyellow, penwidth=1];
+    "Maya Angelou" -> "Marguerite Annie Johnson ; ..." [label="has theme [Being_born]", color=lightpink, penwidth=1];
+    "Maya Angelou" -> "something" [label="has activity [Activity_ongoing]", color=lightpink, penwidth=1];
+    "United States" -> "adult experiences" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Maya Angelou" -> "into her eighties" [label="has theme [Activity_ongoing]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "1982" [label="has time [Appointing]", color=purple, penwidth=2];
+    "Maya Angelou" -> "On the Pulse of Morning" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Martin Luther King Jr." -> "Martin Luther King Jr. and ..." [label="has theme [Being_employed]", color=lightsteelblue, penwidth=1];
+    "United States" -> "1928" [label="has time [Origin]", color=purple, penwidth=2];
+    "United States" -> "books" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "schools and universities wo..." [label="has location [Using]", color=green, penwidth=2];
+    "United States" -> "years" [label="has theme [Measure_duration]", color=lightgray, penwidth=1];
+    "United States" -> "50" [label="has theme [Cardinal_numbers]", color=lightyellow, penwidth=1];
+    "United States" -> "dozens of awards and more t..." [label="has theme [Receiving]", color=lightgreen, penwidth=1];
+    "Wake Forest University" -> "Her works" [label="has instrument [Using]", color=lightcoral, penwidth=1];
+    "Wake Forest University" -> "Black" [label="has color [Color]", color=lightgoldenrodyellow, penwidth=1];
+    "Wake Forest University" -> "her works" [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "year" [label="has theme [Measure_duration]", color=lightgray, penwidth=1];
+    "Wake Forest University" -> "Winston" [label="has location [Appointing]", color=green, penwidth=2];
+    "Wake Forest University" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "United States" -> "awards" [label="has theme [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "Wake Forest University" -> "I Know Why" [label="has message [Communication_manner]", color=lightsalmon, penwidth=1];
+    "United States" -> "poetry" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Wake Forest University" -> "culture" [label="has entity [Color]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "childhood and early adult" [label="has time [Perception_experience]", color=purple, penwidth=2];
+    "Wake Forest University" -> "Black culture" [label="has theme [Defending]", color=lightpink, penwidth=1];
+    "Bill Clinton" -> "her poem " On the Pulse of ..." [label="has text [Reading_activity]", color=lightgray, penwidth=1];
+    "Wake Forest University" -> "poet to make an inaugural r..." [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Wake Forest University" -> "some" [label="has theme [Proportional_quantity]", color=lightsteelblue, penwidth=1];
+    "Wake Forest University" -> "her works" [label="has instrument [Defending]", color=lightpink, penwidth=1];
+    "Maya Angelou" -> "1969" [label="has time [Judgment]", color=purple, penwidth=2];
+    "Martin Luther King Jr." -> "Maya Angelou" [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "United States" -> "1969" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Wake Forest University" -> "year" [label="has time [Make_acquaintance]", color=purple, penwidth=2];
+    "United States" -> "50" [label="has theme [Measure_duration]", color=lightgray, penwidth=1];
+    "Maya Angelou" -> "seven autobiographies, thre..." [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States" -> "adult" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Maya Angelou" -> "childhood" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "Wake Forest University" -> "first Reynolds Professor of..." [label="has role [Appointing]", color=lightcyan, penwidth=1];
+    "United States" -> "first" [label="has item [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Wake Forest University" -> "ban her books from some U.S..." [label="has goal [Attempt]", color=lightcoral, penwidth=1];
+    "I Know Why the Caged Bird Sings" -> "1969" [label="has time [Awareness]", color=purple, penwidth=2];
+    "United States" -> "her young adulthood" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Maya Angelou" -> "Why" [label="has theme [Awareness]", color=lightcoral, penwidth=1];
+    "Wake Forest University" -> "schools" [label="has theme [Locale_by_use]", color=lightsteelblue, penwidth=1];
+    "Maya Angelou" -> "1993" [label="has time [Text]", color=purple, penwidth=2];
+    "United States" -> "international" [label="has theme [Political_locales]", color=lightcyan, penwidth=1];
+    "United States" -> "dozens" [label="has quantity [Quantified_mass]", color=lightseagreen, penwidth=1];
+    "Maya Angelou" -> "international" [label="has theme [Judgment]", color=lightsalmon, penwidth=1];
+    "Maya Angelou" -> "Maya Angelou" [label="has person [Being_born]", color=red, penwidth=2];
+    "Maya Angelou" -> "poet and writer" [label="has theme [Becoming]", color=lightblue, penwidth=1];
+    "Wake Forest University" -> "Maya Angelou" [label="has theme [Make_acquaintance]", color=lightyellow, penwidth=1];
+    "Maya Angelou" -> "aspects of her personal life" [label="has theme [Discussion]", color=lightcoral, penwidth=1];
+    "United States" -> "1969" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "United States" -> "autobiographies" [label="has text [Text]", color=lightpink, penwidth=1];
+    "United States" -> "memoirist" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "United States" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Maya Angelou" -> "after a string of odd jobs ..." [label="has time [Becoming]", color=purple, penwidth=2];
+    "United States" -> "She became a poet and writer" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "United States" -> "Angelou crater " [label="has theme [Reference_text]", color=lightcoral, penwidth=1];
+    "Wake Forest University" -> "lecture circuit" [label="has location [Make_acquaintance]", color=green, penwidth=2];
+    "Wake Forest University" -> "Maya Angelou" [label="has theme [Appointing]", color=lightcyan, penwidth=1];
+    "United States" -> "young" [label="has age [Age]", color=lightseagreen, penwidth=1];
+    "Wake Forest University" -> "1990s" [label="has time [Process_start]", color=purple, penwidth=2];
+    "United States" -> "Maya Angelou" [label="has theme [Perception_experience]", color=lightgoldenrod, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Prohibiting_or_licensing_legend" [label="Prohibiting_or_licensing", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Praiseworthiness_legend" [label="Praiseworthiness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reading_activity_legend" [label="Reading_activity", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Process_start_legend" [label="Process_start", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_active_legend" [label="Being_active", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Discussion_legend" [label="Discussion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Awareness_legend" [label="Awareness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Activity_ongoing_legend" [label="Activity_ongoing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Color_legend" [label="Color", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Communication_manner_legend" [label="Communication_manner", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Defending_legend" [label="Defending", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

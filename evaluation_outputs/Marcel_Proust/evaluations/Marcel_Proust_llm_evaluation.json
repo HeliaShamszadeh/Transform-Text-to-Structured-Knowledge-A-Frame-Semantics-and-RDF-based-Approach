@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Categorization:has_theme critics and writers",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'He is considered by critics and writers to be one of the most influential authors...' which semantically connects Proust to the theme of critics and writers."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Activity_start:has_time 1908",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1908, Proust began work on À la recherche du temps perdu,' which directly connects Proust to the time 1908 for starting a major activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Scrutiny:has_theme who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'who' appears in the text ('...his father, Adrien Proust, was a prominent pathologist and epidemiologist who studied cholera'), but it is a relative pronoun, not a theme. There is no semantic connection to 'who' as a theme of scrutiny for Proust."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Reference_text:has_theme Proust (disambiguation)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text mentions 'Proust (disambiguation)' in the context of a reference or redirect. While the connection is weak and meta, it is semantically present in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Supply:has_theme his later novel",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'These social connections provided inspiration and material for his later novel,' which semantically connects Proust to the theme of 'his later novel' in the context of being supplied with material."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Memory:has_theme narrator's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the novel 'explores themes of memory... through the narrator's recollections'. While the triple is awkwardly phrased, there is a semantic connection between Proust's work, memory, and a narrator."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Research:has_theme du temps perdu",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Proust's novel 'À la recherche du temps perdu' explores themes. The predicate 'Research:has_theme' is a reasonable, though not exact, match for this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Causation:has_effect have a disrupted education",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Marcel Proust had a disrupted education due to asthma. There is no mention of his father, Adrien Proust, causing this effect; the information is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Subjective_influence:has_product his later novel",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Proust's early life and social connections, stating they 'provided inspiration and material for his later novel'. This implies a relationship where his experiences influenced the product (the novel)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Publishing:has_theme his brother Robert",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states that Robert published the remaining volumes posthumously, which is a publishing action. However, the triple claims Robert is a 'theme' of the publishing, which is a completely different and unsupported relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Attack:has_theme asthma",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Proust 'struggled with severe asthma attacks', which is a significant theme in his life and health, though 'Attack:has_theme' is an unusual predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Remainder:has_theme volumes",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions his novel was published in 'seven volumes' and that the 'remaining volumes' were published posthumously, making 'volumes' a theme related to the publication of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Supply:has_theme inspiration and material",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text explicitly states that his social connections 'provided inspiration and material for his later novel', directly linking the subject to the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Catholic_Church Causation:has_theme http://en.wikipedia.org/wiki/Marcel_Proust",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is inverted and semantically confused. The paragraph states Proust was raised Catholic, but it does not state that the Catholic Church has Proust as a theme. The relationship is not extractable in this form."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Ordinal_numbers:has_type works",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'His first works', which implies his works can be categorized or typed, though the connection to 'Ordinal_numbers' is very weak and the predicate 'has_type' is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Becoming:has_theme atheist",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states that Marcel Proust became an atheist, not his father Adrien Proust. The information is attributed to the wrong subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Les_plaisirs_et_les_jours Publishing:has_work His first works, including the collection of stories Les plaisirs et les jours",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Les plaisirs et les jours' is a collection of stories by Marcel Proust and was one of his first works. The triple's predicate and object are semantically present, even if the subject is the work itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Becoming:has_entity http://en.wikipedia.org/wiki/Marcel_Proust",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'His father, Adrien Proust...', establishing a clear parent-child relationship (a type of entity relationship) between Adrien and Marcel Proust. The predicate 'has_entity' can be interpreted as a generic relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Publishing:has_time posthumously",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that the remaining volumes of Proust's novel were 'published posthumously by his brother'. This connects Marcel Proust to the concept of posthumous publication, even if the triple structure is slightly awkward."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Publishing:has_theme seven volumes",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Proust's novel 'consists of seven volumes'. While 'seven volumes' is a structural property rather than a traditional 'theme', there is a semantic connection between the author, his work, and this key characteristic of the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Adrien Proust is explicitly identified as Marcel Proust's father, which directly implies a kinship relationship with the theme of 'mother' (his wife, Jeanne Clémence Weil)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/In_Search_of_Lost_Time Temporal_collocation:has_theme 1908",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1908, Proust began work on À la recherche du temps perdu' (the French title for 'In Search of Lost Time'), creating a strong temporal association between the novel and the year 1908."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Adrien Proust is described as a 'prominent pathologist and epidemiologist who studied cholera', which implies he produced professional 'works' or labor products, even if they are not detailed. The connection is thematic and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Temporal_collocation:has_theme 1890s",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'His first works... were published in the 1890s', creating a clear temporal link between Marcel Proust and that decade."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Supply:has_theme These social connections",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses how Proust's 'social connections provided inspiration and material for his later novel'. This can be interpreted as the social connections 'supplying' a theme or resource for his work, fitting a lenient interpretation of the 'Supply' relation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Time_vector:has_theme later",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions events happening 'later' in Proust's life (e.g., 'though he later became an atheist'), providing a weak semantic connection to the concept of 'later' as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Medical_conditions:has_theme asthma",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Proust 'struggled with severe asthma attacks', providing a clear and direct connection to the medical condition of asthma."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert Cause_to_resume:has_process remaining volumes",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'the remaining volumes were revised and published posthumously by his brother Robert', establishing a clear connection between Robert and the process of handling the remaining volumes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert Cause_to_resume:has_means based on drafts and proofs",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states the remaining volumes were published by Robert 'based on drafts and proofs', directly connecting Robert to the means of publication."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'His father, Adrien Proust', providing a direct and unambiguous kinship relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Motion:has_location elite Parisian high society salons frequented by aristocrats and the upper bourgeoisie",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Proust moved in elite Parisian high society salons, which semantically connects to the Motion:has_location predicate, indicating his presence and activity in that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Research:has_time 1908",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1908, Proust began work on À la recherche du temps perdu,' which is a clear research/creative activity at a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Text:has_text novel",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Proust is described as a novelist, and his famous work is a novel; the concept of 'novel' is semantically central to the text about him, even if the predicate 'Text:has_text' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Becoming:has_time later",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph uses 'later' only in reference to Marcel Proust becoming an atheist, not his father Adrien. There is no information about Adrien Proust and a time qualifier 'later'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Kinship:has_theme http://en.wikipedia.org/wiki/Marcel_Proust",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His father, Adrien Proust...', establishing a direct kinship relationship between Adrien Proust and Marcel Proust."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Les_plaisirs_et_les_jours Aggregate:has_theme stories Les plaisirs et les jours",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'Les plaisirs et les jours' is a 'collection of stories', establishing a clear semantic connection between the work and the theme of stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Activity_start:has_activity work on la recherche du temps perdu",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'In 1908, Proust began work on À la recherche du temps perdu', which semantically matches the activity of starting work on the novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Concessive:has_theme he later became an atheist",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Proust was raised in his father's Catholic faith, though he later became an atheist.' The 'Concessive:has_theme' relationship is semantically present in the contrast described by the word 'though'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Coming_to_be:has_entity initial sections",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'the initial sections appearing in 1913' in the context of the publication of Proust's novel. While the connection to 'Coming_to_be' is abstract, the 'initial sections' are an entity whose appearance is described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Kinship:has_theme brother",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Proust's 'brother Robert'. While the triple subject is Adrien Proust (the father), the theme of 'brother' is present in the family context described. The relationship is indirect but semantically connected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Text:has_location English",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that his novel was 'translated in English as Remembrance of Things Past'. This is a very weak and indirect connection, as the triple's subject is Proust himself, not his work, but a lenient interpretation could link the author to the English language through the translation of his major work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Labor_product:has_agent http://en.wikipedia.org/wiki/Marcel_Proust",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The relationship is inverted. The paragraph states Adrien Proust is Marcel Proust's father, not that Marcel Proust is the agent or creator of Adrien Proust. The triple suggests Marcel produced Adrien, which is contradictory to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Les_plaisirs_et_les_jours Inclusion:has_theme collection of stories Les plaisirs et les jours",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that 'Les plaisirs et les jours' is a 'collection of stories'. The triple's object is essentially the description of the work, making this a clear and direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Subjective_influence:has_theme These social connections",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that social connections in Parisian salons 'provided inspiration and material for his later novel'. A lenient, thematic interpretation supports that Proust's work was influenced by ('has_theme' of) these social connections."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Adrien_Proust Text:has_text novel",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is extremely weak but semantically possible under a lenient reading. Adrien Proust is mentioned in the context of a paragraph about his son Marcel, a novelist. The word 'novel' appears multiple times. This is a very indirect and associative link, not a direct statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Emotion_directed:has_theme literature and writing",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Proust 'cultivated interests in literature and writing' and his novel explores themes of art, which is semantically related to the triple's theme of 'literature and writing'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Being_born:has_theme wealthy bourgeois family",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Proust was born... to a wealthy bourgeois family', making this a clear and direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Social_connection:has_theme connections",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'social connections' that provided inspiration for his work, making the theme of 'connections' reasonably extractable, though the triple is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert Cause_to_resume:has_agent his brother Robert",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'published posthumously by his brother Robert'. While 'Cause_to_resume' is an abstract frame, the agent 'his brother Robert' is clearly present and involved in a completing action."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Marcel_Proust Subjective_influence:has_time http://en.wikipedia.org/wiki/20th_century_in_literature",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Proust is 'considered... one of the most influential authors of the twentieth century'. The time period '20th century' and the context of literature/influence are clearly present."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 40,
+    "accuracy": 0.8,
+    "avg_confidence": 0.6479999999999998,
+    "high_confidence_50": 40,
+    "high_confidence_80": 24,
+    "percent_50": 80.0,
+    "percent_80": 48.0,
+    "max_triples_limit": 50
+  }
+}

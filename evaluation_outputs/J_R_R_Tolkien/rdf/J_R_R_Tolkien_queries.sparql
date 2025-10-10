@@ -1,0 +1,53 @@
+# SPARQL Query Templates for J_R_R_Tolkien
+# Generated for RAG applications
+
+# PREFIX definitions
+PREFIX : <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Query 1: Find all people mentioned
+SELECT ?person ?predicate ?value WHERE {
+  ?person ?predicate ?value .
+  FILTER(CONTAINS(STR(?person), "christie") || CONTAINS(STR(?person), "agatha"))
+}
+
+# Query 2: Find all locations
+SELECT ?location ?predicate ?value WHERE {
+  ?location ?predicate ?value .
+  FILTER(CONTAINS(STR(?location), "torquay") || CONTAINS(STR(?location), "england"))
+}
+
+# Query 3: Find all events (birth, death, etc.)
+SELECT ?event ?predicate ?value WHERE {
+  ?event ?predicate ?value .
+  FILTER(CONTAINS(STR(?predicate), "born") || CONTAINS(STR(?predicate), "death"))
+}
+
+# Query 4: Find all relationships for a specific entity
+SELECT ?subject ?predicate ?object WHERE {
+  ?subject ?predicate ?object .
+  FILTER(?subject = <http://example.org/entity/Agatha_Christie>)
+}
+
+# Query 5: Find all triples with specific predicate type
+SELECT ?subject ?predicate ?object WHERE {
+  ?subject ?predicate ?object .
+  FILTER(CONTAINS(STR(?predicate), "has_location"))
+}
+
+# Query 6: Count triples by predicate type
+SELECT ?predicate (COUNT(*) as ?count) WHERE {
+  ?subject ?predicate ?object .
+} GROUP BY ?predicate ORDER BY DESC(?count)
+
+# Query 7: Find all unique entities
+SELECT DISTINCT ?entity WHERE {
+  { ?entity ?p ?o } UNION { ?s ?p ?entity }
+}
+
+# Query 8: Find entities connected to a specific concept
+SELECT ?entity ?predicate ?concept WHERE {
+  ?entity ?predicate ?concept .
+  FILTER(CONTAINS(STR(?concept), "mystery") || CONTAINS(STR(?concept), "novel"))
+}

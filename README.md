@@ -51,7 +51,7 @@ A comprehensive pipeline for extracting semantic knowledge from text using Seman
 
 ```bash
 # Clone and navigate to project
-cd srl_to_rdf
+cd Transform-Text-to-Structured-Knowledge-A-Frame-Semantics-and-RDF-based-Approach
 
 # Run simple setup (creates virtual environments)
 python setup_simple.py

@@ -1,0 +1,283 @@
+digraph Isaac_Asimov {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "Science Fiction Writers of ..." [label="Science Fiction Writers of ...", fillcolor=lightcoral, color=red, shape=circle];
+    "writer and biochemist" [label="writer and biochemist", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "Science Fiction and Fantasy Writers of America" [label="Science Fiction and Fantasy Writers of America", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "three books of which" [label="three books of which", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "more than 500 books" [label="more than 500 books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "major works such as The Cav..." [label="major works such as The Cav...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelette" [label="novelette", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "science books" [label="science books", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "During his lifetime" [label="During his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "90,000" [label="90,000", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Isaac Asimov" [label="Isaac Asimov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "science fiction" [label="science fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Guide to Science, the three..." [label="Guide to Science, the three...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mid-1950s" [label="mid-1950s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert A. Heinlein and Arth..." [label="Robert A. Heinlein and Arth...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history of the same fiction..." [label="history of the same fiction...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "science" [label="science", fillcolor=lightgray, color=gray, shape=hexagon];
+    "biochemistry" [label="biochemistry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Isaac Asimov  / z m v / AZ ..." [label="Isaac Asimov  / z m v / AZ ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Asimov was considered one o..." [label="Asimov was considered one o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fictional universe" [label="fictional universe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Asimov disambiguation " [label="Asimov disambiguation ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur C. Clarke" [label="Arthur C. Clarke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his hard science fiction" [label="his hard science fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "all time" [label="all time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robot series Asimov" [label="Robot series Asimov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more than 380 short stories" [label="more than 380 short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "science fiction story" [label="science fiction story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Most of his popular science..." [label="Most of his popular science...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "historical way" [label="historical way", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "non-fiction" [label="non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short science fiction story" [label="short science fiction story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the " Big Three " sc..." [label="one of the " Big Three " sc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lucky Starr series of juven..." [label="Lucky Starr series of juven...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the Foundation series" [label="as the Foundation series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston University" [label="Boston University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unified " future history " ..." [label="unified " future history " ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Galactic Empire Isaac Asimov" [label="Galactic Empire Isaac Asimov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history" [label="history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social science fiction" [label="social science fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Later" [label="Later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "than 380 short stories" [label="than 380 short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mysteries and fantasy, as w..." [label="mysteries and fantasy, as w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Examples" [label="Examples", fillcolor=lightgray, color=gray, shape=hexagon];
+    "series" [label="series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "science and other non-fiction" [label="science and other non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "juvenile science-fiction" [label="juvenile science-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Foundation series" [label="Foundation series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social science fiction nove..." [label="social science fiction nove...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1986" [label="1986", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pen name Paul French" [label="pen name Paul French", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hugo Award" [label="Hugo Award", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more than 380 short stories..." [label="more than 380 short stories...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1966" [label="1966", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he linked this distant futu..." [label="he linked this distant futu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this distant future" [label="this distant future", fillcolor=lightgray, color=gray, shape=hexagon];
+    "concepts" [label="concepts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "using the pen name Paul French" [label="using the pen name Paul French", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three" [label="three", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lifetime" [label="his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1964" [label="1964", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best short science fiction ..." [label="best short science fiction ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "earlier" [label="earlier", fillcolor=lightgray, color=gray, shape=hexagon];
+    "future" [label="future", fillcolor=lightgray, color=gray, shape=hexagon];
+    "estimated 90,000 letters an..." [label="estimated 90,000 letters an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "distant" [label="distant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major series" [label="major series", fillcolor=lightgray, color=gray, shape=hexagon];
+    " Big Three " science fictio..." [label=" Big Three " science fictio...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "LeBron James" [label="LeBron James", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Hugo Award" -> "most" [label="has degree [Fame]", color=lightblue, penwidth=1];
+    "Isaac Asimov" -> "Robert A. Heinlein and Arth..." [label="has theme [Accompaniment]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "his works" [label="has participant [Individual_history]", color=lightgreen, penwidth=1];
+    "Isaac Asimov" -> "using the pen name Paul French" [label="has means [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "earlier" [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Boston University" -> "biochemistry" [label="has type [People_by_vocation]", color=lightcyan, penwidth=1];
+    "Isaac Asimov" -> "During his lifetime" [label="has time [Categorization]", color=purple, penwidth=2];
+    "LeBron James" -> "one" [label="has theme [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Boston University" -> "1920" [label="has time [Origin]", color=purple, penwidth=2];
+    "Foundation series" -> "fictional universe" [label="has type [Identicality]", color=lightseagreen, penwidth=1];
+    "Hugo Award" -> "Examples" [label="has theme [Instance]", color=lightsalmon, penwidth=1];
+    "Hugo Award" -> "social science fiction nove..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Hugo Award" -> "stories" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Arthur C. Clarke" -> "writer" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "Isaac Asimov" -> "estimated 90,000 letters an..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "1964" [label="has time [Text]", color=purple, penwidth=2];
+    "Hugo Award" -> "future" [label="has event [Range]", color=lightblue, penwidth=1];
+    "Isaac Asimov" -> "1986" [label="has time [Creating]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "science fiction" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Arthur C. Clarke" -> "letters" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Galactic Empire Isaac Asimov" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "mid-1950s" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Hugo Award" -> "works" [label="has theme [Importance]", color=lightgreen, penwidth=1];
+    "Isaac Asimov" -> "this distant future" [label="has theme [Make_cognitive_connection]", color=lightyellow, penwidth=1];
+    "Isaac Asimov" -> "mysteries and fantasy, as w..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Isaac Asimov" -> "unified " future history " ..." [label="has theme [Creating]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "series" [label="has theme [Importance]", color=lightgreen, penwidth=1];
+    "Boston University" -> "writer" [label="has entity [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur C. Clarke" -> "his lifetime" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Arthur C. Clarke" -> "books" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "United States" -> "uses" [label="has class [Increment]", color=lightcyan, penwidth=1];
+    "Hugo Award" -> "three books of which" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "Hugo Award" -> "1986" [label="has time [Range]", color=purple, penwidth=2];
+    "Boston University" -> "Isaac Asimov  / z m v / AZ ..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Hugo Award" -> "which" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "United States" -> "1920" [label="has time [Origin]", color=purple, penwidth=2];
+    "LeBron James" -> " Big Three " science fictio..." [label="has entity [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Hugo Award" -> "1966" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "Hugo Award" -> "1966" [label="has time [Fame]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "Asimov was considered one o..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Hugo Award" -> "1964" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Hugo Award" -> "history of the same fiction..." [label="has theme [Temporal_subregion]", color=lightpink, penwidth=1];
+    "Hugo Award" -> "history" [label="has theme [Individual_history]", color=lightgreen, penwidth=1];
+    "Boston University" -> "1920" [label="has time [People_by_vocation]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "1986" [label="has time [Labor_product]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "letters" [label="has item [Estimating]", color=lightgoldenrodyellow, penwidth=1];
+    "Hugo Award" -> "major works such as The Cav..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Isaac Asimov" -> "more than 500 books" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "he linked this distant futu..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Hugo Award" -> "social science fiction" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "Guide to Science, the three..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Science Fiction and Fantasy Writers of America" -> "Science Fiction Writers of ..." [label="has theme [Capital_stock]", color=lightsalmon, penwidth=1];
+    "Hugo Award" -> "all time" [label="has theme [Desirability]", color=lightgoldenrod, penwidth=1];
+    "Isaac Asimov" -> "his hard science fiction" [label="has reason [Fame]", color=lightblue, penwidth=1];
+    "Arthur C. Clarke" -> "writer" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "stories" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "more than 380 short stories" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Isaac Asimov" -> "one of the " Big Three " sc..." [label="has category [Categorization]", color=lightsteelblue, penwidth=1];
+    "Hugo Award" -> "distant" [label="has theme [Range]", color=lightblue, penwidth=1];
+    "Isaac Asimov" -> "pen name Paul French" [label="has instrument [Using]", color=lightpink, penwidth=1];
+    "Hugo Award" -> "1966" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Hugo Award" -> "work" [label="has entity [Fame]", color=lightblue, penwidth=1];
+    "Arthur C. Clarke" -> "science and other non-fiction" [label="has theme [Desirability]", color=lightgoldenrod, penwidth=1];
+    "Hugo Award" -> "books" [label="has entity [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Hugo Award" -> "1966" [label="has time [Text]", color=purple, penwidth=2];
+    "Science Fiction and Fantasy Writers of America" -> "best short science fiction ..." [label="has theme [Capital_stock]", color=lightsalmon, penwidth=1];
+    "Isaac Asimov" -> "more than 380 short stories..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "three" [label="has theme [Cardinal_numbers]", color=lightgray, penwidth=1];
+    "Hugo Award" -> "1964" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "Hugo Award" -> "juvenile science-fiction" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Arthur C. Clarke" -> "writers" [label="has author [Text_creation]", color=lightyellow, penwidth=1];
+    "Boston University" -> "United States" [label="has theme [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "Hugo Award" -> "than 380 short stories" [label="has class [Increment]", color=lightcyan, penwidth=1];
+    "Hugo Award" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "books" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Foundation series" -> "as the Foundation series" [label="has theme [Identicality]", color=lightseagreen, penwidth=1];
+    "Hugo Award" -> "science fiction story" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Arthur C. Clarke" -> "non-fiction" [label="has class [Increment]", color=lightcyan, penwidth=1];
+    "Hugo Award" -> "Most of his popular science..." [label="has theme [Explaining_the_facts]", color=lightsteelblue, penwidth=1];
+    "Isaac Asimov" -> "Asimov disambiguation " [label="has theme [Reference_text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "1986" [label="has time [Individual_history]", color=purple, penwidth=2];
+    "United States" -> "writer and biochemist" [label="has entity [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "Hugo Award" -> "major series" [label="has class [Increment]", color=lightcyan, penwidth=1];
+    "Hugo Award" -> "historical way" [label="has theme [Explaining_the_facts]", color=lightsteelblue, penwidth=1];
+    "Isaac Asimov" -> "1964" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Hugo Award" -> "1964" [label="has time [Desirability]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "Lucky Starr series of juven..." [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "Examples" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Arthur C. Clarke" -> "90,000" [label="has value [Estimating]", color=lightgoldenrodyellow, penwidth=1];
+    "Hugo Award" -> "major works such as The Cav..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Science Fiction and Fantasy Writers of America" -> "1964" [label="has time [Capital_stock]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "Later" [label="has time [Make_cognitive_connection]", color=purple, penwidth=2];
+    "Science Fiction and Fantasy Writers of America" -> "which" [label="has theme [Capital_stock]", color=lightsalmon, penwidth=1];
+    "Hugo Award" -> "science books" [label="has theme [Desirability]", color=lightgoldenrod, penwidth=1];
+    "Hugo Award" -> "novelette" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "1964" [label="has time [Increment]", color=purple, penwidth=2];
+    "Hugo Award" -> "concepts" [label="has theme [Explaining_the_facts]", color=lightsteelblue, penwidth=1];
+    "Hugo Award" -> "short science fiction story" [label="has theme [Desirability]", color=lightgoldenrod, penwidth=1];
+    "Isaac Asimov" -> "Robot series Asimov" [label="has theme [Make_cognitive_connection]", color=lightyellow, penwidth=1];
+    "Hugo Award" -> "science" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Hugo Award" -> "1986" [label="has time [Time_vector]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Fame_legend" [label="Fame", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Accompaniment_legend" [label="Accompaniment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Individual_history_legend" [label="Individual_history", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Instance_legend" [label="Instance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Range_legend" [label="Range", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Creating_legend" [label="Creating", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Make_cognitive_connection_legend" [label="Make_cognitive_connection", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Estimating_legend" [label="Estimating", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Capital_stock_legend" [label="Capital_stock", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Explaining_the_facts_legend" [label="Explaining_the_facts", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

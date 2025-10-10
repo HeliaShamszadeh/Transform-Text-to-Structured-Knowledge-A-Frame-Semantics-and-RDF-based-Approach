@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Being_born:has_location Prague, in the Austro-Hungarian Empire",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'born in Prague, in the Austro-Hungarian Empire'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Being_employed:has_employee http://en.wikipedia.org/wiki/Franz_Kafka",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Kafka was employed in Prague, which was the capital of the Kingdom of Bohemia; while the employment relationship to Bohemia is indirect, there is a semantic connection through geographic location"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Death:has_theme aged 40",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Kafka died at age 40, but there is no connection to 'History of the Jews in Czechoslovakia' as a subject with death as a theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text:has_text Metamorphosis",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'The Metamorphosis' as one of Kafka's works, establishing a clear relationship between Kafka and this text"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Fame:has_degree most",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Kafka is most famous for his novels and short stories', which directly connects Kafka to a high degree of fame"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text:has_text letters",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Kafka 'wrote hundreds of letters to family and close friends', directly connecting the subject to the text type 'letters'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Objective_influence:has_theme artists, philosophers, composers, filmmakers, literary historians, religious scholars, cultural theorists",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Kafka's work influenced these groups, but the subject 'History_of_the_Jews_in_Czechoslovakia' is not mentioned or implied as having this theme. The connection is too indirect and the subject is unrelated to the information provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Relation:has_theme whom",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'whom' appears in the text ('...his father, with whom he had a strained relationship'), but it is not thematically connected to the subject 'Bohemia'. There is no semantic link between Bohemia and the concept of 'whom'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text_creation:has_addressee family and close friends",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'He wrote hundreds of letters to family and close friends', clearly identifying the addressees of his textual creations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Relative_time:has_theme http://en.wikipedia.org/wiki/Franz_Kafka",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that Prague was 'the capital of the Kingdom of Bohemia' and that Kafka was born there. This establishes a thematic connection between Bohemia and Kafka in a relative time context (the time when Kafka lived there)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Education_teaching:has_theme legal",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Kafka 'trained as a lawyer' and was employed in 'various legal and insurance jobs'. While Bohemia is mentioned as his birthplace, the connection to a 'legal' theme is indirectly supported by his profession, which is a key part of his biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Domain:has_theme legal",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Same reasoning as the previous triple. The subject (Bohemia) and the theme (legal) are both present in the text, with the legal theme being associated with Kafka's life, which is tied to Bohemia as his place of birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Objective_influence:has_theme His work",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Kafka was from a 'Czech Jewish family' and that 'His work has widely influenced artists...'. There is a weak but valid semantic link connecting the history of Jews in the region (the subject) to the theme of his influential work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Death:has_time 1924",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Kafka 'died... in 1924'. The subject is related to Jewish history in the region where Kafka, a Jewish writer, lived and died. The connection is very indirect and thematic, but the date is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Age:has_time 1924",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He died... in 1924, aged 40.' This directly connects the subject (Franz Kafka) to the time 1924 in the context of his age at death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Fields:has_theme literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Kafka, a Jewish Czech writer, and his literature. There is a weak semantic connection between the history of Jews in Czechoslovakia and the theme of literature via Kafka's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Text:has_time 1915",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 1915 is mentioned in the paragraph (publication of The Metamorphosis). There is a very weak, indirect connection via a temporal detail related to a Jewish Czech writer."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Education_teaching:has_role as a lawyer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Kafka, born in Prague, the capital of Bohemia, trained as a lawyer. The role 'as a lawyer' is directly associated with the person connected to Bohemia."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Being_employed:has_theme full-time",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka, associated with Prague/Bohemia, was employed full-time in legal and insurance jobs. The theme of full-time employment is connected to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Quantified_mass:has_theme letters",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka, associated with Prague/Bohemia, wrote hundreds of letters. The theme of 'letters' (as a quantified mass) is connected to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text_creation:has_text hundreds of letters",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He wrote hundreds of letters to family and close friends', which directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Fields:has_time 1912",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 1912 in relation to Kafka's publication 'Contemplation', but there is no semantic connection between Bohemia and the year 1912 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Arriving:has_theme term Kafkaesque",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'The term Kafkaesque has entered the lexicon to describe situations like those depicted in his writings', connecting Kafka to the theme of the term Kafkaesque."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Relation:has_theme http://en.wikipedia.org/wiki/Franz_Kafka",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Bohemia as the kingdom where Prague (Kafka's birthplace) was located, creating a weak but valid semantic connection between the theme of Bohemia and Kafka."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Arriving:has_purpose describe situations like those depicted in his writings",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the term Kafkaesque is used 'to describe situations like those depicted in his writings', which semantically connects Kafka's work to the purpose of describing such situations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that Kafka was born in Prague, the capital of the Kingdom of Bohemia, and that he wrote stories. The connection between Bohemia and 'stories' is extremely indirect and thematic, but a lenient interpretation could link the location to the author's literary output."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Attention:has_degree little",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states that Kafka's published works 'received little attention.' While this is an attribute of his work and not directly of Bohemia, a lenient semantic connection can be made as the author was from Bohemia and his work received little attention."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Publishing:has_time 1912",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the story-collection 'Contemplation' was published in 1912, and Kafka was born in Prague, the capital of Bohemia. The connection between the location and the publication date is very weak but exists through the author's biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Labor_product:has_theme work",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Franz Kafka's work, his writings, and their themes. The connection between the subject (Kafka) and the object (work) is direct and clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Publishing:has_time during his life",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'Only a minority of his works were published during his life.' Kafka was born in Prague, capital of Bohemia. A lenient interpretation links the location of his birth to the timeframe of his publications."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austria Reference_text:has_theme Kafka (disambiguation)",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Kafka (disambiguation)' in the context of redirects. While the connection to 'Austria' is extremely weak, the paragraph discusses the Austro-Hungarian Empire, of which Austria was a part, providing a very indirect semantic link to the theme of disambiguation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Inclusion:has_theme his father, with whom he had a strained and formal relationship",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the Kingdom of Bohemia as the location of Prague, and separately mentions Kafka's strained relationship with his father. While the triple directly links these two concepts, the paragraph provides the raw information from which a very weak thematic connection could be inferred."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Leadership:has_type socio- bureaucratic",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Kafka's Jewish background and that his work features 'incomprehensible socio-bureaucratic powers'. The triple connects these two concepts (Jewish history and the socio-bureaucratic type) which are both present in the text, allowing for a thematic link to be constructed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Fame:has_reason his novels and short stories",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Though Kafka is most famous for his novels and short stories...', which is a direct semantic match for the triple's meaning that his fame is due to his novels and short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text:has_time 1912",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that the story-collection 'Contemplation' was published in 1912. This provides a clear temporal association between Kafka (the subject) and the year 1912."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Being_born:has_person Franz Kafka [ b ] (3 July 1883 – 3 June 1924)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Franz Kafka's birth and death dates, making the birth information directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Performers_and_roles:has_role isolated protagonists facing bizarre or surreal predicaments and incomprehensible socio- bureaucratic powers",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject of the triple (History of the Jews in Czechoslovakia) is not mentioned in the paragraph. The description of protagonists is about Kafka's literary work, not a role performed by the subject entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Being_obligated:has_theme http://en.wikipedia.org/wiki/Franz_Kafka",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Kafka was born in Prague, the capital of the Kingdom of Bohemia. There is a semantic connection between Bohemia and Kafka via his birthplace, which can be loosely interpreted as a thematic obligation or association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia People:has_person women",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Kafka was engaged to several women. As Kafka was from Bohemia, there is a very weak, indirect chain of relation (women associated with a person from Bohemia)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Causation:has_effect internal conflict as he felt that his true vocation was writing",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka, who was from Bohemia, experienced internal conflict due to his professional obligations. There is an indirect causal link where his origin (Bohemia) is part of the context for his life story which included this conflict."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Kafka's works, their themes, and their influence, making 'works' a central theme of the text about him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Franz_Kafka Text:has_theme family and close friends",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions he 'wrote hundreds of letters to family and close friends', establishing a clear thematic connection, even if the predicate is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/History_of_the_Jews_in_Czechoslovakia Objective_influence:has_degree widely",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject is about Jewish history in Czechoslovakia, which is not the main topic of the paragraph. While Kafka was Jewish and born in a region that became Czechoslovakia, the specific history of Jews in that country is not discussed. The adverb 'widely' is used in the paragraph to describe his influence on artists and philosophers, not in relation to this subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Political_locales:has_time 1924",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Prague is mentioned as Kafka's birthplace and capital. The year 1924 is mentioned as his death year. There is a weak but valid semantic connection that Prague, as a political locale, existed in the time period of 1924, which is referenced in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Prague Political_locales:has_theme Austro-Hungarian",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states Prague was the capital of the Kingdom of Bohemia, which 'belonged to the Austro-Hungarian Empire'. This creates a clear thematic link between Prague and the Austro-Hungarian Empire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Being_employed:has_theme legal and insurance",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Kafka was employed in legal and insurance jobs. While the paragraph does not explicitly state that Bohemia is the theme of his employment, he was born in Prague, the capital of Bohemia, and his employment is a key part of his biography described in the paragraph. This is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austria Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Austro-Hungarian Empire, but the terms 'Increment', 'has_class', and 'uses' have no discernible semantic connection to any information in the text. This triple appears completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Personal_relationship:has_theme friends",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka wrote letters to 'close friends'. While the connection to Bohemia is indirect (he lived in Prague, the capital of Bohemia), the theme of personal relationships with friends is present. This is a reasonable but weak connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Fields:has_theme magazines",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka's stories were published in 'literary magazines'. The connection to Bohemia is again indirect via his place of birth and life (Prague, capital of Bohemia), but the theme of magazines is present in the context of his publishing activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bohemia Medical_conditions:has_theme tuberculosis",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Kafka died of tuberculosis. The connection to Bohemia is indirect (he died in a sanatorium outside Prague, but the event is part of his life story which is centered on his existence in Prague, Bohemia). The medical condition is clearly stated."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 33,
+    "accuracy": 0.66,
+    "avg_confidence": 0.55,
+    "high_confidence_50": 33,
+    "high_confidence_80": 14,
+    "percent_50": 66.0,
+    "percent_80": 28.000000000000004,
+    "max_triples_limit": 50
+  }
+}

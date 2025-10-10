@@ -1,0 +1,2227 @@
+{
+  "metadata": {
+    "total_triples": 102,
+    "source_file": "C_S_Lewis",
+    "extraction_date": "2025-09-27 21:25:50",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Causation:has_cause",
+        "object": "his wartime radio broadcasts on the subject of Christianity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_incarcerated:has_theme",
+        "object": "English faculty at the University of Oxford",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Time_vector:has_theme",
+        "object": "four years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Text:has_author",
+        "object": "Lewis's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Death:has_time",
+        "object": "age of 45",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Text:has_text",
+        "object": "memoir Surprised by Joy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Objective_influence:has_theme",
+        "object": "his work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Theology",
+        "predicate": "Expertise:has_knowledge",
+        "object": "http://en.wikipedia.org/wiki/Church_of_England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Age:has_age",
+        "object": "45",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Social_event:has_theme",
+        "object": "Oxford literary group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Time_vector:has_event",
+        "object": "she died of cancer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Inclusion:has_theme",
+        "object": "his non-fiction Christian apologetics",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Increment:has_class",
+        "object": "works of fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+        "predicate": "Attributed_information:has_theme",
+        "object": "he was baptized in the Church of Ireland, but fell away from his faith during adolescence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Text:has_theme",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Fame:has_reason",
+        "object": "as the author of The Chronicles of Narnia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Time_vector:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Fame:has_reason",
+        "object": "his other works of fiction, such as The Screwtape Letters and The Space Trilogy, and for his non-fiction Christian apologetics, including Mere Christianity, Miracles and The Problem of Pain",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Translating:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Age:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Anglicanism",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Cecil_Day-Lewis",
+        "predicate": "Reference_text:has_time",
+        "object": "1963",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Text_creation:has_text",
+        "object": "Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Increment:has_class",
+        "object": "friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Oxford",
+        "predicate": "Aggregate:has_theme",
+        "object": "group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Age:has_age",
+        "object": "64",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Age:has_time",
+        "object": "1963",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Causation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Social_connection:has_theme",
+        "object": "friend",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Duplication:has_theme",
+        "object": "copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Cause_expansion:has_item",
+        "object": "acclaim",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Social_connection:has_degree",
+        "object": "close",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "J. R. R. Tolkien, the author of The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_incarcerated:has_theme",
+        "object": "Both men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Age:has_age",
+        "object": "32",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "American writer Joy Davidman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "People:has_person",
+        "object": "men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Medical_conditions:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "30",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Theology",
+        "predicate": "Expertise:has_theme",
+        "object": "layman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Tolkien and other friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "People_by_age:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "predicate": "Text_creation:has_author",
+        "object": "J. R. R. Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Commerce_sell:has_theme",
+        "object": "millions of copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+        "predicate": "Attributed_information:has_text",
+        "object": "Lewis's 1955 memoir Surprised by Joy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Causation:has_effect",
+        "object": "wide acclaim",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Medical_conditions:has_patient",
+        "object": "http://en.wikipedia.org/wiki/Joy_Davidman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "predicate": "Text_creation:has_author",
+        "object": "British writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Labour_Party_(UK)",
+        "predicate": "People_by_vocation:has_person",
+        "object": "politician",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Christianity",
+        "predicate": "Adducing:has_theme",
+        "object": "widely",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Text:has_text",
+        "object": "Letters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Lewis's faith",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+        "predicate": "Commerce_sell:has_theme",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Oxford",
+        "predicate": "Aggregate:has_theme",
+        "object": "literary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Text:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Reference_text:has_theme",
+        "object": "Clive Lewis (politician)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_States",
+        "predicate": "Origin:has_entity",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+        "predicate": "Rite:has_theme",
+        "object": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Fame:has_degree",
+        "object": "best",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Arriving:has_time",
+        "object": "age of 32",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "millions",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+        "predicate": "Rite:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Joy_Davidman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Translating:has_theme",
+        "object": "into more than 30 languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+        "predicate": "Text_creation:has_time",
+        "object": "1963",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Joy_Davidman",
+        "predicate": "Text_creation:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Substance:has_theme",
+        "object": "languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_named:has_theme",
+        "object": "as the Inklings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+        "predicate": "Attributed_information:has_time",
+        "object": "1955",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Christianity",
+        "predicate": "Adducing:has_speaker",
+        "object": "Christian scholars from many denominations",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Inclusion:has_theme",
+        "object": "Mere Christianity, Miracles and The Problem of Pain",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Personal_relationship:has_degree",
+        "object": "close",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Text_creation:has_text",
+        "object": "more than 30 books which have been translated into more than 30 languages and have sold millions of copies",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Becoming:has_theme",
+        "object": "ordinary layman of the Church of England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Measure_duration:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Objective_influence:has_degree",
+        "object": "profoundly",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Personal_relationship:has_theme",
+        "object": "friends",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Personal_relationship:has_time",
+        "object": "1956",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Measure_duration:has_theme",
+        "object": "four",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+        "predicate": "Text_creation:has_text",
+        "object": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_active:has_agent",
+        "object": "Both men",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "his wartime radio broadcasts on the subject of Christianity",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Christianity",
+        "predicate": "Adducing:has_theme",
+        "object": "His philosophical writings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Commerce_sell:has_goods",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_named:has_entity",
+        "object": "informal Oxford literary group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Being_active:has_activity",
+        "object": "informal Oxford literary group known as the Inklings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Death:has_theme",
+        "object": "kidney failure",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "predicate": "Death:has_theme",
+        "object": "cancer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "People_by_age:has_age",
+        "object": "adolescence",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Success_or_failure:has_goal",
+        "object": "kidney",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "languages",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+        "predicate": "Commerce_sell:has_goods",
+        "object": "books that make up The Chronicles of Narnia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Text:has_theme",
+        "object": "Screwtape",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+        "predicate": "Success_or_failure:has_time",
+        "object": "1963",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+        "predicate": "Death:has_time",
+        "object": "22 November 1963",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+        "predicate": "Social_connection:has_theme",
+        "object": "J. R. R. Tolkien, the author of The Lord of the Rings",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Fame:has_reason",
+          "object": "as the author of The Chronicles of Narnia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "J. R. R. Tolkien, the author of The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Social_connection:has_theme",
+          "object": "J. R. R. Tolkien, the author of The Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Theology",
+          "predicate": "Expertise:has_knowledge",
+          "object": "http://en.wikipedia.org/wiki/Church_of_England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Becoming:has_theme",
+          "object": "ordinary layman of the Church of England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Death:has_time",
+          "object": "age of 45",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Social_event:has_theme",
+          "object": "Oxford literary group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Time_vector:has_event",
+          "object": "she died of cancer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Joy_Davidman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Death:has_theme",
+          "object": "kidney failure",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Death:has_theme",
+          "object": "cancer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Death:has_time",
+          "object": "22 November 1963",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Text_creation:has_text",
+          "object": "more than 30 books which have been translated into more than 30 languages and have sold millions of copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Christianity",
+          "predicate": "Adducing:has_theme",
+          "object": "His philosophical writings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+          "predicate": "Commerce_sell:has_goods",
+          "object": "books that make up The Chronicles of Narnia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Causation:has_cause",
+          "object": "his wartime radio broadcasts on the subject of Christianity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_incarcerated:has_theme",
+          "object": "English faculty at the University of Oxford",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Time_vector:has_theme",
+          "object": "four years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Text:has_author",
+          "object": "Lewis's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Text:has_text",
+          "object": "memoir Surprised by Joy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Objective_influence:has_theme",
+          "object": "his work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Age:has_age",
+          "object": "45",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Inclusion:has_theme",
+          "object": "his non-fiction Christian apologetics",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Increment:has_class",
+          "object": "works of fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+          "predicate": "Attributed_information:has_theme",
+          "object": "he was baptized in the Church of Ireland, but fell away from his faith during adolescence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Text:has_theme",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Time_vector:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Fame:has_reason",
+          "object": "his other works of fiction, such as The Screwtape Letters and The Space Trilogy, and for his non-fiction Christian apologetics, including Mere Christianity, Miracles and The Problem of Pain",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Translating:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Age:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Anglicanism",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Cecil_Day-Lewis",
+          "predicate": "Reference_text:has_time",
+          "object": "1963",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Text_creation:has_text",
+          "object": "Lord of the Rings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Increment:has_class",
+          "object": "friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Oxford",
+          "predicate": "Aggregate:has_theme",
+          "object": "group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Age:has_age",
+          "object": "64",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Age:has_time",
+          "object": "1963",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Causation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Social_connection:has_theme",
+          "object": "friend",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Duplication:has_theme",
+          "object": "copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Cause_expansion:has_item",
+          "object": "acclaim",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Social_connection:has_degree",
+          "object": "close",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_incarcerated:has_theme",
+          "object": "Both men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Age:has_age",
+          "object": "32",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "American writer Joy Davidman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "People:has_person",
+          "object": "men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Medical_conditions:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "30",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Theology",
+          "predicate": "Expertise:has_theme",
+          "object": "layman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Tolkien and other friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "People_by_age:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "predicate": "Text_creation:has_author",
+          "object": "J. R. R. Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Commerce_sell:has_theme",
+          "object": "millions of copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+          "predicate": "Attributed_information:has_text",
+          "object": "Lewis's 1955 memoir Surprised by Joy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "predicate": "Causation:has_effect",
+          "object": "wide acclaim",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Medical_conditions:has_patient",
+          "object": "http://en.wikipedia.org/wiki/Joy_Davidman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+          "predicate": "Text_creation:has_author",
+          "object": "British writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Labour_Party_(UK)",
+          "predicate": "People_by_vocation:has_person",
+          "object": "politician",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Christianity",
+          "predicate": "Adducing:has_theme",
+          "object": "widely",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "copies",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Text:has_text",
+          "object": "Letters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Lewis's faith",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+          "predicate": "Commerce_sell:has_theme",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Oxford",
+          "predicate": "Aggregate:has_theme",
+          "object": "literary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Text:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Reference_text:has_theme",
+          "object": "Clive Lewis (politician)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_States",
+          "predicate": "Origin:has_entity",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+          "predicate": "Rite:has_theme",
+          "object": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Fame:has_degree",
+          "object": "best",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Arriving:has_time",
+          "object": "age of 32",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "millions",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+          "predicate": "Rite:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Translating:has_theme",
+          "object": "into more than 30 languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/United_Kingdom",
+          "predicate": "Text_creation:has_time",
+          "object": "1963",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Joy_Davidman",
+          "predicate": "Text_creation:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Substance:has_theme",
+          "object": "languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_named:has_theme",
+          "object": "as the Inklings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+          "predicate": "Attributed_information:has_time",
+          "object": "1955",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Christianity",
+          "predicate": "Adducing:has_speaker",
+          "object": "Christian scholars from many denominations",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Inclusion:has_theme",
+          "object": "Mere Christianity, Miracles and The Problem of Pain",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Personal_relationship:has_degree",
+          "object": "close",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Measure_duration:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Objective_influence:has_degree",
+          "object": "profoundly",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Personal_relationship:has_theme",
+          "object": "friends",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+          "predicate": "Personal_relationship:has_time",
+          "object": "1956",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Measure_duration:has_theme",
+          "object": "four",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/C._S._Lewis",
+          "predicate": "Text_creation:has_text",
+          "object": "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_active:has_agent",
+          "object": "Both men",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "his wartime radio broadcasts on the subject of Christianity",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Commerce_sell:has_goods",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_named:has_entity",
+          "object": "informal Oxford literary group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Being_active:has_activity",
+          "object": "informal Oxford literary group known as the Inklings",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "People_by_age:has_age",
+          "object": "adolescence",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Success_or_failure:has_goal",
+          "object": "kidney",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "languages",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+          "predicate": "Text:has_theme",
+          "object": "Screwtape",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/University_of_Oxford",
+          "predicate": "Success_or_failure:has_time",
+          "object": "1963",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Theology",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/Cecil_Day-Lewis",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Theology",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "http://en.wikipedia.org/wiki/Labour_Party_(UK)",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Christianity",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+      "http://en.wikipedia.org/wiki/Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "http://en.wikipedia.org/wiki/Joy_Davidman",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Christianity",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Christianity",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis"
+    ],
+    "objects": [
+      "his wartime radio broadcasts on the subject of Christianity",
+      "English faculty at the University of Oxford",
+      "four years",
+      "Lewis's",
+      "age of 45",
+      "memoir Surprised by Joy",
+      "his work",
+      "http://en.wikipedia.org/wiki/Church_of_England",
+      "45",
+      "Oxford literary group",
+      "she died of cancer",
+      "his non-fiction Christian apologetics",
+      "works of fiction",
+      "he was baptized in the Church of Ireland, but fell away from his faith during adolescence",
+      "1955",
+      "as the author of The Chronicles of Narnia",
+      "1956",
+      "years",
+      "his other works of fiction, such as The Screwtape Letters and The Space Trilogy, and for his non-fiction Christian apologetics, including Mere Christianity, Miracles and The Problem of Pain",
+      "which",
+      "1956",
+      "http://en.wikipedia.org/wiki/Anglicanism",
+      "1963",
+      "Lord of the Rings",
+      "friends",
+      "group",
+      "64",
+      "1963",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "friend",
+      "copies",
+      "acclaim",
+      "close",
+      "J. R. R. Tolkien, the author of The Lord of the Rings",
+      "Both men",
+      "32",
+      "American writer Joy Davidman",
+      "men",
+      "books",
+      "1956",
+      "30",
+      "layman",
+      "Tolkien and other friends",
+      "1955",
+      "J. R. R. Tolkien",
+      "millions of copies",
+      "Lewis's 1955 memoir Surprised by Joy",
+      "wide acclaim",
+      "http://en.wikipedia.org/wiki/Joy_Davidman",
+      "British writer",
+      "politician",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "widely",
+      "copies",
+      "Letters",
+      "Lewis's faith",
+      "most",
+      "literary",
+      "1955",
+      "Clive Lewis (politician)",
+      "1956",
+      "writer",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "best",
+      "age of 32",
+      "millions",
+      "1955",
+      "http://en.wikipedia.org/wiki/Joy_Davidman",
+      "into more than 30 languages",
+      "1963",
+      "1956",
+      "languages",
+      "as the Inklings",
+      "1955",
+      "books",
+      "Christian scholars from many denominations",
+      "Mere Christianity, Miracles and The Problem of Pain",
+      "close",
+      "more than 30 books which have been translated into more than 30 languages and have sold millions of copies",
+      "ordinary layman of the Church of England",
+      "1956",
+      "profoundly",
+      "friends",
+      "1956",
+      "four",
+      "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+      "Both men",
+      "his wartime radio broadcasts on the subject of Christianity",
+      "His philosophical writings",
+      "which",
+      "informal Oxford literary group",
+      "informal Oxford literary group known as the Inklings",
+      "kidney failure",
+      "cancer",
+      "adolescence",
+      "kidney",
+      "languages",
+      "books that make up The Chronicles of Narnia",
+      "Screwtape",
+      "1963",
+      "22 November 1963",
+      "J. R. R. Tolkien, the author of The Lord of the Rings"
+    ],
+    "all_unique": [
+      "http://en.wikipedia.org/wiki/Joy_Davidman",
+      "Lord of the Rings",
+      "which",
+      "his work",
+      "http://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+      "1955",
+      "age of 32",
+      "languages",
+      "four years",
+      "books that make up The Chronicles of Narnia",
+      "His philosophical writings",
+      "widely",
+      "kidney failure",
+      "http://en.wikipedia.org/wiki/Theology",
+      "http://en.wikipedia.org/wiki/C._S._Lewis",
+      "four",
+      "his non-fiction Christian apologetics",
+      "32",
+      "http://en.wikipedia.org/wiki/Oxford",
+      "millions of copies",
+      "as the Inklings",
+      "English faculty at the University of Oxford",
+      "friends",
+      "she died of cancer",
+      "British writer",
+      "millions",
+      "close",
+      "http://en.wikipedia.org/wiki/Coolock_parish_(Church_of_Ireland)",
+      "more than 30 books which have been translated into more than 30 languages and have sold millions of copies",
+      "works of fiction",
+      "politician",
+      "memoir Surprised by Joy",
+      "http://en.wikipedia.org/wiki/Anglicanism",
+      "profoundly",
+      "as the author of The Chronicles of Narnia",
+      "most",
+      "he was baptized in the Church of Ireland, but fell away from his faith during adolescence",
+      "literary",
+      "Mere Christianity, Miracles and The Problem of Pain",
+      "Clive Lewis (politician)",
+      "http://en.wikipedia.org/wiki/United_States",
+      "friend",
+      "informal Oxford literary group",
+      "http://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+      "http://en.wikipedia.org/wiki/Labour_Party_(UK)",
+      "J. R. R. Tolkien, the author of The Lord of the Rings",
+      "30",
+      "his wartime radio broadcasts on the subject of Christianity",
+      "http://en.wikipedia.org/wiki/Cecil_Day-Lewis",
+      "http://en.wikipedia.org/wiki/Christianity",
+      "copies",
+      "kidney",
+      "Lewis's faith",
+      "men",
+      "age of 45",
+      "group",
+      "64",
+      "http://en.wikipedia.org/wiki/United_Kingdom",
+      "http://en.wikipedia.org/wiki/Magdalen_College,_Oxford",
+      "cancer",
+      "Letters",
+      "22 November 1963",
+      "layman",
+      "American writer Joy Davidman",
+      "Screwtape",
+      "J. R. R. Tolkien",
+      "into more than 30 languages",
+      "Lewis's 1955 memoir Surprised by Joy",
+      "1956",
+      "writer",
+      "http://en.wikipedia.org/wiki/Isle_of_Lewis",
+      "http://en.wikipedia.org/wiki/University_of_Oxford",
+      "http://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "adolescence",
+      "Oxford literary group",
+      "wide acclaim",
+      "informal Oxford literary group known as the Inklings",
+      "ordinary layman of the Church of England",
+      "45",
+      "best",
+      "Both men",
+      "books",
+      "years",
+      "Christian scholars from many denominations",
+      "acclaim",
+      "Lewis's",
+      "http://en.wikipedia.org/wiki/Church_of_England",
+      "his other works of fiction, such as The Screwtape Letters and The Space Trilogy, and for his non-fiction Christian apologetics, including Mere Christianity, Miracles and The Problem of Pain",
+      "1963",
+      "Tolkien and other friends"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Causation:has_cause",
+      "Being_incarcerated:has_theme",
+      "Time_vector:has_theme",
+      "Text:has_author",
+      "Death:has_time",
+      "Text:has_text",
+      "Objective_influence:has_theme",
+      "Expertise:has_knowledge",
+      "Age:has_age",
+      "Social_event:has_theme",
+      "Time_vector:has_event",
+      "Inclusion:has_theme",
+      "Increment:has_class",
+      "Attributed_information:has_theme",
+      "Text:has_theme",
+      "Fame:has_reason",
+      "Time_vector:has_time",
+      "Measure_duration:has_theme",
+      "Fame:has_reason",
+      "Translating:has_theme",
+      "Age:has_time",
+      "Arriving:has_goal",
+      "Reference_text:has_time",
+      "Text_creation:has_text",
+      "Increment:has_class",
+      "Aggregate:has_theme",
+      "Age:has_age",
+      "Age:has_time",
+      "Causation:has_theme",
+      "Social_connection:has_theme",
+      "Duplication:has_theme",
+      "Cause_expansion:has_item",
+      "Social_connection:has_degree",
+      "Personal_relationship:has_theme",
+      "Being_incarcerated:has_theme",
+      "Age:has_age",
+      "Personal_relationship:has_theme",
+      "People:has_person",
+      "Text:has_text",
+      "Medical_conditions:has_time",
+      "Cardinal_numbers:has_theme",
+      "Expertise:has_theme",
+      "Objective_influence:has_theme",
+      "People_by_age:has_time",
+      "Text_creation:has_author",
+      "Commerce_sell:has_theme",
+      "Attributed_information:has_text",
+      "Causation:has_effect",
+      "Medical_conditions:has_patient",
+      "Text_creation:has_author",
+      "People_by_vocation:has_person",
+      "Death:has_theme",
+      "Adducing:has_theme",
+      "Quantified_mass:has_theme",
+      "Text:has_text",
+      "Objective_influence:has_theme",
+      "Commerce_sell:has_theme",
+      "Aggregate:has_theme",
+      "Text:has_time",
+      "Reference_text:has_theme",
+      "Origin:has_time",
+      "Origin:has_entity",
+      "Rite:has_theme",
+      "Fame:has_degree",
+      "Arriving:has_time",
+      "Quantified_mass:has_quantity",
+      "Rite:has_time",
+      "Death:has_theme",
+      "Translating:has_theme",
+      "Text_creation:has_time",
+      "Text_creation:has_time",
+      "Substance:has_theme",
+      "Being_named:has_theme",
+      "Attributed_information:has_time",
+      "Cardinal_numbers:has_entity",
+      "Adducing:has_speaker",
+      "Inclusion:has_theme",
+      "Personal_relationship:has_degree",
+      "Text_creation:has_text",
+      "Becoming:has_theme",
+      "Measure_duration:has_time",
+      "Objective_influence:has_degree",
+      "Personal_relationship:has_theme",
+      "Personal_relationship:has_time",
+      "Measure_duration:has_theme",
+      "Text_creation:has_text",
+      "Being_active:has_agent",
+      "Judgment_communication:has_theme",
+      "Adducing:has_theme",
+      "Commerce_sell:has_goods",
+      "Being_named:has_entity",
+      "Being_active:has_activity",
+      "Death:has_theme",
+      "Death:has_theme",
+      "People_by_age:has_age",
+      "Success_or_failure:has_goal",
+      "Cardinal_numbers:has_entity",
+      "Commerce_sell:has_goods",
+      "Text:has_theme",
+      "Success_or_failure:has_time",
+      "Death:has_time",
+      "Social_connection:has_theme"
+    ],
+    "unique_predicates": [
+      "Personal_relationship:has_theme",
+      "Objective_influence:has_theme",
+      "Attributed_information:has_text",
+      "Social_connection:has_theme",
+      "Attributed_information:has_theme",
+      "Fame:has_degree",
+      "Aggregate:has_theme",
+      "Measure_duration:has_theme",
+      "Arriving:has_goal",
+      "Cardinal_numbers:has_theme",
+      "Medical_conditions:has_patient",
+      "Measure_duration:has_time",
+      "Age:has_age",
+      "Substance:has_theme",
+      "People_by_vocation:has_person",
+      "Adducing:has_theme",
+      "Personal_relationship:has_time",
+      "Being_active:has_agent",
+      "People_by_age:has_age",
+      "People:has_person",
+      "Causation:has_theme",
+      "Being_named:has_theme",
+      "Translating:has_theme",
+      "Being_named:has_entity",
+      "Cause_expansion:has_item",
+      "Causation:has_effect",
+      "Text_creation:has_time",
+      "Expertise:has_theme",
+      "Reference_text:has_time",
+      "Objective_influence:has_degree",
+      "Death:has_theme",
+      "Cardinal_numbers:has_entity",
+      "Time_vector:has_time",
+      "Duplication:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Commerce_sell:has_theme",
+      "Success_or_failure:has_time",
+      "Causation:has_cause",
+      "Social_event:has_theme",
+      "Rite:has_theme",
+      "Text_creation:has_author",
+      "Text:has_author",
+      "Quantified_mass:has_theme",
+      "Increment:has_class",
+      "Being_active:has_activity",
+      "Judgment_communication:has_theme",
+      "Quantified_mass:has_quantity",
+      "People_by_age:has_time",
+      "Rite:has_time",
+      "Text_creation:has_text",
+      "Arriving:has_time",
+      "Medical_conditions:has_time",
+      "Attributed_information:has_time",
+      "Personal_relationship:has_degree",
+      "Expertise:has_knowledge",
+      "Social_connection:has_degree",
+      "Time_vector:has_theme",
+      "Adducing:has_speaker",
+      "Inclusion:has_theme",
+      "Text:has_theme",
+      "Commerce_sell:has_goods",
+      "Origin:has_entity",
+      "Age:has_time",
+      "Origin:has_time",
+      "Success_or_failure:has_goal",
+      "Death:has_time",
+      "Being_incarcerated:has_theme",
+      "Becoming:has_theme",
+      "Fame:has_reason",
+      "Text:has_time",
+      "Time_vector:has_event"
+    ],
+    "predicate_counts": {
+      "Causation:has_cause": 1,
+      "Being_incarcerated:has_theme": 2,
+      "Time_vector:has_theme": 1,
+      "Text:has_author": 1,
+      "Death:has_time": 2,
+      "Text:has_text": 3,
+      "Objective_influence:has_theme": 3,
+      "Expertise:has_knowledge": 1,
+      "Age:has_age": 3,
+      "Social_event:has_theme": 1,
+      "Time_vector:has_event": 1,
+      "Inclusion:has_theme": 2,
+      "Increment:has_class": 2,
+      "Attributed_information:has_theme": 1,
+      "Text:has_theme": 2,
+      "Fame:has_reason": 2,
+      "Time_vector:has_time": 1,
+      "Measure_duration:has_theme": 2,
+      "Translating:has_theme": 2,
+      "Age:has_time": 2,
+      "Arriving:has_goal": 1,
+      "Reference_text:has_time": 1,
+      "Text_creation:has_text": 3,
+      "Aggregate:has_theme": 2,
+      "Causation:has_theme": 1,
+      "Social_connection:has_theme": 2,
+      "Duplication:has_theme": 1,
+      "Cause_expansion:has_item": 1,
+      "Social_connection:has_degree": 1,
+      "Personal_relationship:has_theme": 3,
+      "People:has_person": 1,
+      "Medical_conditions:has_time": 1,
+      "Cardinal_numbers:has_theme": 1,
+      "Expertise:has_theme": 1,
+      "People_by_age:has_time": 1,
+      "Text_creation:has_author": 2,
+      "Commerce_sell:has_theme": 2,
+      "Attributed_information:has_text": 1,
+      "Causation:has_effect": 1,
+      "Medical_conditions:has_patient": 1,
+      "People_by_vocation:has_person": 1,
+      "Death:has_theme": 4,
+      "Adducing:has_theme": 2,
+      "Quantified_mass:has_theme": 1,
+      "Text:has_time": 1,
+      "Reference_text:has_theme": 1,
+      "Origin:has_time": 1,
+      "Origin:has_entity": 1,
+      "Rite:has_theme": 1,
+      "Fame:has_degree": 1,
+      "Arriving:has_time": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Rite:has_time": 1,
+      "Text_creation:has_time": 2,
+      "Substance:has_theme": 1,
+      "Being_named:has_theme": 1,
+      "Attributed_information:has_time": 1,
+      "Cardinal_numbers:has_entity": 2,
+      "Adducing:has_speaker": 1,
+      "Personal_relationship:has_degree": 1,
+      "Becoming:has_theme": 1,
+      "Measure_duration:has_time": 1,
+      "Objective_influence:has_degree": 1,
+      "Personal_relationship:has_time": 1,
+      "Being_active:has_agent": 1,
+      "Judgment_communication:has_theme": 1,
+      "Commerce_sell:has_goods": 2,
+      "Being_named:has_entity": 1,
+      "Being_active:has_activity": 1,
+      "People_by_age:has_age": 1,
+      "Success_or_failure:has_goal": 1,
+      "Success_or_failure:has_time": 1
+    }
+  }
+}

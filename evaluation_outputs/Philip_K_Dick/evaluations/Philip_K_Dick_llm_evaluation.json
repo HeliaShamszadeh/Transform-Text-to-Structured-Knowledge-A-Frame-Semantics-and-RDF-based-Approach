@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Motion:has_theme his family",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Dick moved with his family, establishing a weak semantic connection between the subject and the theme of 'family'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Sequence:has_theme mystical experiences in 1974",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While the paragraph mentions both 'San Francisco Bay Area' and 'mystical experiences in 1974', there is no stated or implied connection between the location and the theme of the experiences."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Success_or_failure:has_degree little",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'He found little commercial success', which directly supports the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chicago Age:has_attribute age",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Chicago as a birthplace but provides no information about the city having an 'age' attribute. The connection is too abstract and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Age:has_age 53",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The age of 53 is associated with Dick's death, not with the San Francisco Bay Area. The information is completely unrelated to the subject of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Pynchon Relative_time:has_theme his death",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that following his death, Dick became 'widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon'. This creates a semantic link between Thomas Pynchon and the theme of Dick's posthumous reputation, which is associated with the event of his death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel Inclusion:has_theme acclaim",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that 'The Man in the High Castle (1962) earned him acclaim, including a Hugo Award for Best Novel'. This directly links the Hugo Award to the theme of acclaim, as the award is presented as an example of the acclaim he received."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions that Dick moved to the San Francisco Bay Area and that he wrote novels, but there is no semantic connection established between the location itself and the text of his novels. The two pieces of information are unrelated in the context provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Becoming:has_theme widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states this phrase as a description of Dick's posthumous reputation. The concept of 'becoming' widely regarded aligns with the posthumous influence described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Success_or_failure:has_goal commercial",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions that 'He found little commercial success until...', which implies that commercial success was a relevant concern or goal in his career, even if not explicitly stated as a personal goal. This is a weak but reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Publishing:has_work science fiction stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Dick's short stories appeared in science fiction magazines, implying a relationship between the genre (Science Fiction) and the works (stories). The predicate is not a perfect match, but the semantic connection is reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Pynchon Subordinates_and_superiors:has_theme http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Dick is regarded in the vein of Pynchon, which is a comparison of style, not that Pynchon's work has Dick as a theme. The relationship described by the triple is reversed and not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Relative_time:has_theme Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Dick moved to the Bay Area and later that his work engaged with specific themes, but it does not state or imply a thematic relationship between the location itself and those themes. The connection is spurious."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Categorization:has_category one of the most important figures in 20th-century science fiction",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'He is considered one of the most important figures in 20th-century science fiction' is a direct statement that can be interpreted as a categorization of the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Becoming:has_time Following his death",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses events that happened 'Following his death,' which establishes a temporal relationship between the subject (Dick) and the time period after his death. The predicate 'has_time' is a reasonable, if abstract, representation of this."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Perception_experience:has_theme Androids",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the novel 'Do Androids Dream of Electric Sheep?' and that Dick moved to the San Francisco Bay Area. The connection between the location and the theme of androids is very indirect and weak, but the concepts are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Perception_experience:has_time 1974",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Dick moved to the San Francisco Bay Area at a young age and that significant events (mystical experiences, novel award) occurred in 1974. While the triple directly links the location to the year, the connection is implied through the author's life timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Pynchon Death:has_theme http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Thomas Pynchon is only mentioned in a posthumous comparison of writing styles ('in the vein of Franz Kafka and Thomas Pynchon'). There is no mention of death or any thematic connection from Pynchon to Dick; the relation is reversed and the predicate is inappropriate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Motion:has_time young age",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Dick moved to the San Francisco Bay Area with his family at a young age.' This directly connects the subject (Dick) with a motion event (moved) at a specific time (young age)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Measure_duration:has_time 1974",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Similar to triple 2, the location and the year 1974 are both mentioned in the context of Dick's life. The connection is weak as the year is not directly linked to a duration of stay or a specific event at that location, but a semantic link exists through the narrative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Importance:has_theme 20th-century science fiction",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Philip K. Dick is considered an important figure in 20th-century science fiction, implying a thematic connection between the genre and that time period, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Relative_time:has_theme years of drug use and a series of mystical experiences in 1974",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Dick moved to the San Francisco Bay Area and later had drug use/mystical experiences in 1974, but there is no semantic connection suggesting the Bay Area itself is the theme of those experiences."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Relative_time:has_theme http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Dick moved to the San Francisco Bay Area, creating a weak thematic connection of 'location' or 'residence' between the area and the person, though the 'has_theme' predicate is a stretch."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Work:has_time 1974",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions events and a novel from 1974 in relation to Dick's work ('Following years of drug use and a series of mystical experiences in 1974, Dick's work engaged more explicitly...' and 'His 1974 novel Flow My Tears...')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Kinship:has_location http://en.wikipedia.org/wiki/Chicago",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Dick was born in Chicago and moved to the San Francisco Bay Area, but this does not imply the Bay Area is located in Chicago; the relationship is contradictory to the text's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Dick moved to the San Francisco Bay Area 'with his family', creating a weak semantic link between the location and the concept of family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Desirability:has_time 1974",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that in 1974, Dick's novel won an award and his work began to engage more explicitly with certain themes. While 'Desirability:has_time' is an abstract relation, the year 1974 is significantly associated with science fiction achievements in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Text_creation:has_text short story",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Dick was a science fiction writer who wrote short stories that appeared in science fiction magazines, creating a strong link between the genre and the text type."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Being_born:has_location http://en.wikipedia.org/wiki/Chicago",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states 'Born in Chicago', providing a direct and clear match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Motion:has_location http://en.wikipedia.org/wiki/Chicago",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Dick was born in Chicago and then moved away. There is no mention of any motion (travel, movement) specifically having Chicago as its location; the location is only associated with his birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Dick wrote science fiction stories and his fiction explored philosophical themes. While the triple is awkwardly phrased, there is a semantic connection between science fiction and stories with themes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Text:has_text Man in the High Castle",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'The Man in the High Castle' as one of Dick's novels, creating a clear connection between the author and this text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel Win_prize:has_competition His 1974 novel Flow My Tears, the Policeman Said",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states 'Flow My Tears, the Policeman Said' won the John W. Campbell Memorial Award, not the Hugo Award. The Hugo Award is mentioned in connection with 'The Man in the High Castle'. This triple contains a factual contradiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Publishing:has_work collection of his speculative nonfiction writing on these themes",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'A collection of his speculative nonfiction writing on these themes was published posthumously as The Exegesis of Philip K. Dick', establishing a clear connection between Dick and this published work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Point_of_dispute:has_theme theology, metaphysics, and the nature of reality",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While the connection is very weak and indirect, the paragraph mentions Dick moved to the San Francisco Bay Area and later his work engaged with theology, metaphysics, and reality. This is a highly lenient interpretation based on temporal sequence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Publishing:has_time 1952",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Dick began publishing science fiction stories in 1952, creating a semantic link between science fiction and the time 1952 through the publishing activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Pynchon Relative_time:has_theme he became \"widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon\"",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly mentions Thomas Pynchon in the context of a theme (being regarded as a master of a certain fiction style), even if the predicate is somewhat abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Work:has_agent Dick's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph is entirely about Philip K. Dick and his work; 'Dick's' is a possessive referring to him, weakly linking him as an agent of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Circumscribed_existence:has_location science fiction magazines",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Dick's short stories 'appeared in science fiction magazines', directly linking the concept of science fiction to the location 'science fiction magazines'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Origin:has_entity science fiction author",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph begins by identifying Philip K. Dick as an 'American science fiction author', creating a clear semantic connection between science fiction and the entity type 'science fiction author'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel Inclusion:has_time 1962",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that 'The Man in the High Castle (1962) earned him acclaim, including a Hugo Award for Best Novel'. This directly connects the Hugo Award for Best Novel to the year 1962."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Aggregate:has_theme his speculative nonfiction writing on these themes",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the San Francisco Bay Area as a place Dick moved to, and separately mentions his speculative nonfiction writing. However, there is no semantic connection established between the location and the theme of his writing; the concepts are unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Text:has_time 2011",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'A collection of his speculative nonfiction writing... was published posthumously as The Exegesis of Philip K. Dick (2011).' This connects Philip K. Dick (via his work) to the year 2011, even though the publication was posthumous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Origin:has_time 1928",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is weak but semantically valid. The paragraph identifies Philip K. Dick as a 'science fiction author' and gives his birth year as 1928. While it does not state that science fiction itself originated in 1928, a lenient interpretation could link the genre to the time period of the author's birth and career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Science_fiction Desirability:has_theme Science Fiction Novel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about a science fiction author and his science fiction novels. It explicitly mentions the phrase 'Science Fiction Novel' in the context of an award. Therefore, the theme of 'Science Fiction Novel' is strongly associated with the concept of science fiction in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Judgment_communication:has_time 1962",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Dick moved to the San Francisco Bay Area at a young age, but 1962 is the year of his novel's acclaim, not directly related to the Bay Area in a judgment/communication context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Text:has_time 1974",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "1974 is mentioned in relation to Dick's novel winning an award and his mystical experiences, but there is no textual or temporal link stated between this year and the San Francisco Bay Area."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area Sequence:has_time 1974",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Similar to the previous triple, 1974 is not sequenced or linked to the San Francisco Bay Area in the paragraph. The move to the Bay Area happened much earlier in his life."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel Win_prize:has_time 1974",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Dick won a Hugo Award for 'The Man in the High Castle' in 1962, not 1974. The year 1974 is associated with a different award (John W. Campbell Memorial Award)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Philip_K._Dick Activity_start:has_time 1952",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He began publishing science fiction stories in 1952, at age 23.' This directly indicates the start of his publishing activity in 1952."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 28,
+    "accuracy": 0.56,
+    "avg_confidence": 0.504,
+    "high_confidence_50": 28,
+    "high_confidence_80": 17,
+    "percent_50": 56.00000000000001,
+    "percent_80": 34.0,
+    "max_triples_limit": 50
+  }
+}

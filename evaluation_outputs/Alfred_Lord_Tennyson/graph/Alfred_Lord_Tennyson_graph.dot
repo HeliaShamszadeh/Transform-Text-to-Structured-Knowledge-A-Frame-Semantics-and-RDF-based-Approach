@@ -1,0 +1,284 @@
+digraph Alfred_Lord_Tennyson {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "personal" [label="personal", fillcolor=lightcoral, color=red, shape=circle];
+    "well-known writers of the d..." [label="well-known writers of the d...", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "well-known writers of the day" [label="well-known writers of the day", fillcolor=lightcoral, color=red, shape=circle];
+    "like a personal reflection,..." [label="like a personal reflection,...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "improve it by rewriting it ..." [label="improve it by rewriting it ...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "after he died of a stroke a..." [label="after he died of a stroke a...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "he died of a stroke at the ..." [label="he died of a stroke at the ...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "influence" [label="influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Idylls of the King, "Ulysse..." [label="Idylls of the King, "Ulysse...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems" [label="his poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Queen Victoria" [label="Queen Victoria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "encyclopedic style" [label="encyclopedic style", fillcolor=lightgray, color=gray, shape=hexagon];
+    "day" [label="day", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1830" [label="1830", fillcolor=lightgray, color=gray, shape=hexagon];
+    "King" [label="King", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British Poet Laureate 1809–..." [label="British Poet Laureate 1809–...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tennyson attempted drama" [label="Tennyson attempted drama", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tennyson disambiguation  an..." [label="Tennyson disambiguation  an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pre-Raphaelite Brotherhood" [label="Pre-Raphaelite Brotherhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as overly sentimental" [label="as overly sentimental", fillcolor=lightgray, color=gray, shape=hexagon];
+    "here" [label="here", fillcolor=lightgray, color=gray, shape=hexagon];
+    "volume" [label="volume", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this volume" [label="this volume", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Samuel Taylor Coleridge" [label="Samuel Taylor Coleridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur Hallam" [label="Arthur Hallam", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alfred, Lord Tennyson" [label="Alfred, Lord Tennyson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was awarded the Chancell..." [label="he was awarded the Chancell...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "little success" [label="little success", fillcolor=lightgray, color=gray, shape=hexagon];
+    "solo collection of poems" [label="solo collection of poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "notable blank verse" [label="notable blank verse", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pieces" [label="pieces", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short lyrics, such as " Bre..." [label="short lyrics, such as " Bre...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Cambridge" [label="Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poems" [label="Poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ultimately" [label="ultimately", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United Kingdom" [label="United Kingdom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Claribel " and " Mariana ",..." [label="Claribel " and " Mariana ",...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This article" [label="This article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove this..." [label="how and when to remove this...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his friend Arthur Hallam" [label="his friend Arthur Hallam", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lyrics" [label="lyrics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stroke" [label="stroke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of his first pieces, "T..." [label="one of his first pieces, "T...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essay" [label="essay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1829" [label="1829", fillcolor=lightgray, color=gray, shape=hexagon];
+    "22" [label="22", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2025" [label="2025", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 22" [label="age of 22", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trinity College, Cambridge" [label="Trinity College, Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chancellor's Gold Medal at ..." [label="Chancellor's Gold Medal at ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some critics" [label="some critics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his plays" [label="his plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "popular" [label="popular", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tennyson's most celebrated ..." [label="Tennyson's most celebrated ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fellow" [label="fellow", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trinity College Dublin" [label="Trinity College Dublin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "notable blank verse, includ..." [label="notable blank verse, includ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tennyson's" [label="Tennyson's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "August" [label="August", fillcolor=lightgray, color=gray, shape=hexagon];
+    "commemorate his friend Arth..." [label="commemorate his friend Arth...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "attention of well-known wri..." [label="attention of well-known wri...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this message" [label="this message", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tennyson's early poetry, wi..." [label="Tennyson's early poetry, wi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some of Tennyson's most cel..." [label="some of Tennyson's most cel...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first solo collection o..." [label="his first solo collection o...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his career" [label="his career", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Baron Tennyson" [label="Baron Tennyson", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Queen Victoria" -> "his poems" [label="has theme [Desirability]", color=lightblue, penwidth=1];
+    "Trinity College Dublin" -> "stroke" [label="has theme [Death]", color=lightcoral, penwidth=1];
+    "Baron Tennyson" -> "2025" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Baron Tennyson" -> "poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Baron Tennyson" -> "uses" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Trinity College Dublin" -> "commemorate his friend Arth..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Queen Victoria" -> "his first solo collection o..." [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Queen Victoria" -> "Tennyson's most celebrated ..." [label="has theme [Proportional_quantity]", color=lightgray, penwidth=1];
+    "Trinity College Dublin" -> "22" [label="has age [Age]", color=lightgoldenrodyellow, penwidth=1];
+    "Queen Victoria" -> "solo collection of poems" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Samuel Taylor Coleridge" -> "well-known writers of the d..." [label="has theme [Attention]", color=lightsalmon, penwidth=1];
+    "Queen Victoria" -> "notable blank verse" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Cambridge" -> "1829" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Baron Tennyson" -> "improve it by rewriting it ..." [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "Cambridge" -> "one of his first pieces, "T..." [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Trinity College Dublin" -> "he died of a stroke at the ..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Arthur Hallam" -> "Alfred, Lord Tennyson" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Cambridge" -> "Chancellor's Gold Medal at ..." [label="has reason [Judgment_communication]", color=lightpink, penwidth=1];
+    "Trinity College Dublin" -> "poet" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Baron Tennyson" -> "how and when to remove this..." [label="has skill [Education_teaching]", color=lightcoral, penwidth=1];
+    "Trinity College Dublin" -> "after he died of a stroke a..." [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Queen Victoria" -> "poetry" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Alfred, Lord Tennyson" -> "notable blank verse, includ..." [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "Cambridge" -> "1829" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Queen Victoria" -> "some critics" [label="has speaker [Communicate_categorization]", color=lightcyan, penwidth=1];
+    "Queen Victoria" -> "lyrics" [label="has theme [Duration_description]", color=lightsteelblue, penwidth=1];
+    "England" -> "poet" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Arthur Hallam" -> "Trinity College Dublin" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "Alfred, Lord Tennyson" -> "his poems" [label="has agent [Bringing]", color=lightgray, penwidth=1];
+    "Queen Victoria" -> "little success" [label="has theme [Experiencer_focus]", color=lightgoldenrodyellow, penwidth=1];
+    "Baron Tennyson" -> "encyclopedic style" [label="has theme [Text_creation]", color=lightgreen, penwidth=1];
+    "Queen Victoria" -> "some of Tennyson's most cel..." [label="has state [State_continue]", color=lightseagreen, penwidth=1];
+    "Baron Tennyson" -> "2025" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "England" -> "2025" [label="has time [Text]", color=purple, penwidth=2];
+    "United Kingdom" -> "King" [label="has leader [Leadership]", color=lightsalmon, penwidth=1];
+    "Baron Tennyson" -> "like a personal reflection,..." [label="has theme [Text_creation]", color=lightgreen, penwidth=1];
+    "Alfred, Lord Tennyson" -> "here" [label="has theme [Locative_relation]", color=lightgoldenrod, penwidth=1];
+    "Alfred, Lord Tennyson" -> "attention of well-known wri..." [label="has goal [Bringing]", color=lightgray, penwidth=1];
+    "Trinity College Dublin" -> "Trinity College, Cambridge" [label="has institution [Education_teaching]", color=lightcoral, penwidth=1];
+    "Alfred, Lord Tennyson" -> "Tennyson's" [label="has author [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "Pre-Raphaelite Brotherhood" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "Trinity College Dublin" -> "his friend Arthur Hallam" [label="has student [Education_teaching]", color=lightcoral, penwidth=1];
+    "Baron Tennyson" -> "Tennyson disambiguation  an..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Alfred, Lord Tennyson" -> "British Poet Laureate 1809–..." [label="has theme [Locative_relation]", color=lightgoldenrod, penwidth=1];
+    "Queen Victoria" -> "collection" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Baron Tennyson" -> "August" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Baron Tennyson" -> "this message" [label="has theme [Removing]", color=lightblue, penwidth=1];
+    "Baron Tennyson" -> "2025" [label="has time [Removing]", color=purple, penwidth=2];
+    "Samuel Taylor Coleridge" -> "well-known writers of the day" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Baron Tennyson" -> "essay" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "popular" [label="has theme [Turning_out]", color=lightcoral, penwidth=1];
+    "Baron Tennyson" -> "Alfred, Lord Tennyson" [label="has author [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "his plays" [label="has agent [Success_or_failure]", color=lightgreen, penwidth=1];
+    "Cambridge" -> "he was awarded the Chancell..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Baron Tennyson" -> "personal" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "his plays" [label="has theme [Experiencer_focus]", color=lightgoldenrodyellow, penwidth=1];
+    "Queen Victoria" -> "Idylls of the King, "Ulysse..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Queen Victoria" -> "this volume" [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Alfred, Lord Tennyson" -> "poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "Alfred, Lord Tennyson" [label="has theme [Publishing]", color=lightsteelblue, penwidth=1];
+    "Queen Victoria" -> "poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Baron Tennyson" -> "article" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Cambridge" -> "pieces" [label="has type [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Queen Victoria" -> "Claribel " and " Mariana ",..." [label="has theme [Inclusion]", color=lightgoldenrod, penwidth=1];
+    "Queen Victoria" -> "lyrics" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "poems" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Queen Victoria" -> "early" [label="has theme [Temporal_subregion]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "Pre-Raphaelite Brotherhood" [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "Trinity College Dublin" -> "commemorate his friend Arth..." [label="has purpose [Text_creation]", color=lightgreen, penwidth=1];
+    "Queen Victoria" -> "day" [label="has theme [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "volume" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Cambridge" -> "Alfred, Lord Tennyson" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Cambridge" -> "pieces" [label="has theme [Part_piece]", color=lightpink, penwidth=1];
+    "Trinity College Dublin" -> "fellow" [label="has person [People]", color=red, penwidth=2];
+    "Queen Victoria" -> "Poems" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "day" [label="has theme [Calendric_unit]", color=lightgreen, penwidth=1];
+    "Queen Victoria" -> "ultimately" [label="has time [Turning_out]", color=purple, penwidth=2];
+    "Alfred, Lord Tennyson" -> "short lyrics, such as " Bre..." [label="has theme [Emphasizing]", color=lightsteelblue, penwidth=1];
+    "Cambridge" -> "first" [label="has theme [Part_piece]", color=lightpink, penwidth=1];
+    "Queen Victoria" -> "1830" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Queen Victoria" -> "Alfred, Lord Tennyson" [label="has theme [Desiring]", color=lightgray, penwidth=1];
+    "Trinity College Dublin" -> "age of 22" [label="has time [Death]", color=purple, penwidth=2];
+    "Queen Victoria" -> "some" [label="has theme [Proportional_quantity]", color=lightgray, penwidth=1];
+    "Queen Victoria" -> "Tennyson's early poetry, wi..." [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "Baron Tennyson" -> "This article" [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "Alfred, Lord Tennyson" -> "poetry" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "which" [label="has entity [State_continue]", color=lightseagreen, penwidth=1];
+    "Queen Victoria" -> "Tennyson attempted drama" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Queen Victoria" -> "his poems" [label="has item [Communicate_categorization]", color=lightcyan, penwidth=1];
+    "Queen Victoria" -> "his career" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Queen Victoria" -> "as overly sentimental" [label="has category [Communicate_categorization]", color=lightcyan, penwidth=1];
+    "Queen Victoria" -> "influence" [label="has theme [Importance]", color=lightpink, penwidth=1];
+    "Queen Victoria" -> "major" [label="has degree [Objective_influence]", color=lightyellow, penwidth=1];
+    "Queen Victoria" -> "writers" [label="has text [Text]", color=lightyellow, penwidth=1];
+    "Trinity College Dublin" -> "Arthur Hallam" [label="has theme [Death]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Desirability_legend" [label="Desirability", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Proportional_quantity_legend" [label="Proportional_quantity", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Attention_legend" [label="Attention", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Bringing_legend" [label="Bringing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Experiencer_focus_legend" [label="Experiencer_focus", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Turning_out_legend" [label="Turning_out", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Part_piece_legend" [label="Part_piece", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+    }
+}

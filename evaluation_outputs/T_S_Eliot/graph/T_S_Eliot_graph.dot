@@ -1,0 +1,328 @@
+digraph T_S_Eliot {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "1948 Nobel Prize in Literature" [label="1948 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "establish a Unitarian Chris..." [label="establish a Unitarian Chris...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven plays" [label="seven plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Eliot disambiguation" [label="Thomas Eliot disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "U.S. Route 52 in Iowa" [label="U.S. Route 52 in Iowa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Waste Land 1922 , " The Hol..." [label="Waste Land 1922 , " The Hol...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "39" [label="39", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eliot's paternal grandfathe..." [label="Eliot's paternal grandfathe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. Louis" [label="St. Louis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "friends" [label="friends", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St" [label="St", fillcolor=lightgray, color=gray, shape=hexagon];
+    "cultural" [label="cultural", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eliot's" [label="Eliot's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "outlandish" [label="outlandish", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house" [label="house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1965" [label="1965", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English-language Modernist" [label="English-language Modernist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "businessman" [label="businessman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "art" [label="art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandfather" [label="grandfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "T. S. Eliot" [label="T. S. Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hydraulic-Press Brick Compa..." [label="Hydraulic-Press Brick Compa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ash Wednesday" [label="Ash Wednesday", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Hollow Men" [label="The Hollow Men", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eliots" [label="Eliots", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "attracted widespread attent..." [label="attracted widespread attent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. Louis, Missouri, United..." [label="St. Louis, Missouri, United...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his life" [label="his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston Brahmin" [label="Boston Brahmin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Greenleaf Eliot" [label="William Greenleaf Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "25" [label="25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his American citizenship" [label="his American citizenship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Tom" [label="as Tom", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time of its publication" [label="time of its publication", fillcolor=lightgray, color=gray, shape=hexagon];
+    "church" [label="church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 39" [label="age of 39", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unitarian Christian church" [label="Unitarian Christian church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas Stearns Eliot OM" [label="Thomas Stearns Eliot OM", fillcolor=lightgray, color=gray, shape=hexagon];
+    "present-day poetry" [label="present-day poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unitarianism" [label="Unitarianism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British subject" [label="British subject", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house on Locust Street wher..." [label="house on Locust Street wher...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 25" [label="age of 25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his maternal grandfather, T..." [label="his maternal grandfather, T...", fillcolor=lightgray, color=gray, shape=hexagon];
+    " The Love Song of J. Alfred..." [label=" The Love Song of J. Alfred...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "six surviving children" [label="six surviving children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saint Petersburg" [label="Saint Petersburg", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1927" [label="1927", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unitarian Christian" [label="Unitarian Christian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Henry Ware Eliot" [label="Henry Ware Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "profession" [label="profession", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread" [label="widespread", fillcolor=lightgray, color=gray, shape=hexagon];
+    "16 years of his life" [label="16 years of his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Locust" [label="Locust", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English" [label="English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Love Song of J. Alfred Prufrock" [label="The Love Song of J. Alfred Prufrock", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his critical essays, which ..." [label="his critical essays, which ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "16" [label="16", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1922" [label="1922", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread attention for " ..." [label="widespread attention for " ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. Louis, Missouri" [label="St. Louis, Missouri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Missouri" [label="Missouri", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Murder in the Cathedral 193..." [label="Murder in the Cathedral 193...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "new" [label="new", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poet" [label="Poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his outstanding, pioneer co..." [label="his outstanding, pioneer co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "language" [label="language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1948" [label="1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure" [label="figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1915" [label="1915", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1935" [label="1935", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "seven plays, including Murd..." [label="seven plays, including Murd...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father, Henry Ware Eliot" [label="His father, Henry Ware Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Street" [label="Street", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father, Henry Ware Eliot," [label="His father, Henry Ware Eliot,", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "The Hollow Men" -> "T. S. Eliot" [label="has recipient [Receiving]", color=lightblue, penwidth=1];
+    "Saint Petersburg" -> "T. S. Eliot" [label="has employee [Being_employed]", color=lightcoral, penwidth=1];
+    "Henry Ware Eliot" -> "Hydraulic-Press Brick Compa..." [label="has theme [Leadership]", color=lightgreen, penwidth=1];
+    "Saint Petersburg" -> "there" [label="has theme [Being_employed]", color=lightcoral, penwidth=1];
+    "Ash Wednesday" -> "children" [label="has theme [Surviving]", color=lightyellow, penwidth=1];
+    "Saint Petersburg" -> "St" [label="has location [Roadways]", color=green, penwidth=2];
+    "Ash Wednesday" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "T. S. Eliot" -> "his critical essays, which ..." [label="has reason [Fame]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "cultural" [label="has theme [Opinion]", color=lightgray, penwidth=1];
+    "Saint Petersburg" -> "1914" [label="has time [Kinship]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "Thomas Eliot disambiguation" [label="has theme [Reference_text]", color=lightseagreen, penwidth=1];
+    "T. S. Eliot" -> "seven plays, including Murd..." [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "William Greenleaf Eliot" -> "Eliot's paternal grandfathe..." [label="has theme [Motion]", color=lightgoldenrod, penwidth=1];
+    "T. S. Eliot" -> "other people" [label="has entity [Being_named]", color=lightpink, penwidth=1];
+    "Ash Wednesday" -> "1935" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "his life" [label="has process [Measure_duration]", color=lightcoral, penwidth=1];
+    "The Love Song of J. Alfred Prufrock" -> " The Love Song of J. Alfred..." [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "T. S. Eliot" -> "poetry" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "U.S. Route 52 in Iowa" -> "St" [label="has location [Locative_relation]", color=green, penwidth=2];
+    "T. S. Eliot" -> "English" [label="has location [First_rank]", color=green, penwidth=2];
+    "The Love Song of J. Alfred Prufrock" -> "1915" [label="has time [Text]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "His father, Henry Ware Eliot," [label="has employee [Employing]", color=lightyellow, penwidth=1];
+    "Ash Wednesday" -> "Literature" [label="has location [Giving]", color=green, penwidth=2];
+    "Saint Petersburg" -> "years" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "The Love Song of J. Alfred Prufrock" -> " The Love Song of J. Alfred..." [label="has theme [Attention]", color=lightcyan, penwidth=1];
+    "Boston Brahmin" -> "England" [label="has location [Kinship]", color=green, penwidth=2];
+    "Saint Petersburg" -> "Waste Land 1922 , " The Hol..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Boston Brahmin" -> "Eliots" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "people" [label="has class [Increment]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "English" [label="has location [Craft]", color=green, penwidth=2];
+    "Unitarianism" -> "Unitarian Christian" [label="has type [Buildings]", color=lightseagreen, penwidth=1];
+    "Saint Petersburg" -> "St" [label="has location [Age]", color=green, penwidth=2];
+    "T. S. Eliot" -> "his American citizenship" [label="has theme [Renunciation]", color=lightgoldenrod, penwidth=1];
+    "The Hollow Men" -> "1948 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightblue, penwidth=1];
+    "Missouri" -> "attracted widespread attent..." [label="has theme [First_experience]", color=lightpink, penwidth=1];
+    "Ash Wednesday" -> "Murder in the Cathedral 193..." [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Saint Petersburg" -> "1914" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "St" [label="has location [Kinship]", color=green, penwidth=2];
+    "T. S. Eliot" -> "house on Locust Street wher..." [label="has theme [Residence]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "English-language Modernist" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "art" [label="has activity [Craft]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Petersburg" -> "St" [label="has location [Employing]", color=green, penwidth=2];
+    "The Hollow Men" -> "his outstanding, pioneer co..." [label="has theme [Receiving]", color=lightblue, penwidth=1];
+    "United States" -> "businessman" [label="has person [Personal_success]", color=red, penwidth=2];
+    "T. S. Eliot" -> "1927" [label="has time [Renunciation]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "age of 25" [label="has time [Motion]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "essays" [label="has theme [Judgment_communication]", color=lightblue, penwidth=1];
+    "Missouri" -> "39" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "The Hollow Men" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "T. S. Eliot" -> "1965" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Ash Wednesday" -> "who" [label="has author [Text_creation]", color=lightsalmon, penwidth=1];
+    "Unitarianism" -> "church" [label="has theme [Buildings]", color=lightseagreen, penwidth=1];
+    "Saint Petersburg" -> "16" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Ash Wednesday" -> "children" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "The Love Song of J. Alfred Prufrock" -> "1915" [label="has time [Attention]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "St" [label="has location [Ordinal_numbers]", color=green, penwidth=2];
+    "U.S. Route 52 in Iowa" -> "T. S. Eliot" [label="has theme [Locative_relation]", color=lightcoral, penwidth=1];
+    "Saint Petersburg" -> "25" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "Saint Petersburg" -> "Boston Brahmin" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "William Greenleaf Eliot" -> "St. Louis, Missouri" [label="has goal [Motion]", color=lightgoldenrod, penwidth=1];
+    "T. S. Eliot" -> "1965" [label="has time [People]", color=purple, penwidth=2];
+    "Missouri" -> "1927" [label="has time [Age]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "St" [label="has location [Measure_duration]", color=green, penwidth=2];
+    "T. S. Eliot" -> "1965" [label="has time [Text]", color=purple, penwidth=2];
+    "Ash Wednesday" -> "1948" [label="has time [Giving]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "figure" [label="has item [First_rank]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "English" [label="has location [Using]", color=green, penwidth=2];
+    "Ash Wednesday" -> "friends" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Ash Wednesday" -> "new" [label="has age [Age]", color=lightsalmon, penwidth=1];
+    "T. S. Eliot" -> "maternal" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "1915" [label="has time [Cause_motion]", color=purple, penwidth=2];
+    "Boston Brahmin" -> "Boston Brahmin" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Petersburg" -> "St" [label="has location [Being_employed]", color=green, penwidth=2];
+    "Ash Wednesday" -> "family" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Petersburg" -> "Street" [label="has theme [Roadways]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "mother" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "1965" [label="has time [Increment]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "as Tom" [label="has theme [Being_named]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "St. Louis, Missouri, United..." [label="has location [Being_born]", color=green, penwidth=2];
+    "T. S. Eliot" -> "St" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "T. S. Eliot" -> "British subject" [label="has theme [Becoming]", color=lightgray, penwidth=1];
+    "T. S. Eliot" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "T. S. Eliot" -> "there" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Ash Wednesday" -> "1948" [label="has time [Text]", color=purple, penwidth=2];
+    "The Hollow Men" -> "1948" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Ash Wednesday" -> "present-day poetry" [label="has recipient [Giving]", color=lightpink, penwidth=1];
+    "T. S. Eliot" -> "English" [label="has location [Text]", color=green, penwidth=2];
+    "T. S. Eliot" -> "1914" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "T. S. Eliot" -> "St" [label="has location [Motion]", color=green, penwidth=2];
+    "T. S. Eliot" -> "language" [label="has instrument [Using]", color=lightyellow, penwidth=1];
+    "Saint Petersburg" -> "Locust" [label="has theme [Roadways]", color=lightpink, penwidth=1];
+    "William Greenleaf Eliot" -> "there" [label="has location [Intentionally_create]", color=green, penwidth=2];
+    "T. S. Eliot" -> "St" [label="has location [Kinship]", color=green, penwidth=2];
+    "T. S. Eliot" -> "essays" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "his maternal grandfather, T..." [label="has entity [Namesake]", color=lightseagreen, penwidth=1];
+    "T. S. Eliot" -> "Eliot's" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "Poet" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "grandfather" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "Saint Petersburg" -> "St" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "father" [label="has theme [Kinship]", color=lightgoldenrodyellow, penwidth=1];
+    "The Love Song of J. Alfred Prufrock" -> "outlandish" [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Saint Petersburg" -> "1914" [label="has time [Age]", color=purple, penwidth=2];
+    "Saint Petersburg" -> "16 years of his life" [label="has item [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Ash Wednesday" -> "poetry" [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "Henry Ware Eliot" -> "St" [label="has location [Leadership]", color=green, penwidth=2];
+    "T. S. Eliot" -> "1914" [label="has time [Being_born]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "England" [label="has goal [Motion]", color=lightgoldenrod, penwidth=1];
+    "The Love Song of J. Alfred Prufrock" -> "time of its publication" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Missouri" -> "1915" [label="has time [First_experience]", color=purple, penwidth=2];
+    "William Greenleaf Eliot" -> "Unitarian Christian church" [label="has theme [Intentionally_create]", color=lightgoldenrodyellow, penwidth=1];
+    "T. S. Eliot" -> "St. Louis" [label="has location [Residence]", color=green, penwidth=2];
+    "Saint Petersburg" -> "1922" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "Henry Ware Eliot" -> "His father, Henry Ware Eliot" [label="has leader [Leadership]", color=lightgreen, penwidth=1];
+    "T. S. Eliot" -> "six surviving children" [label="has theme [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "T. S. Eliot" -> "Thomas Stearns Eliot OM" [label="has author [Text]", color=lightcyan, penwidth=1];
+    "William Greenleaf Eliot" -> "Eliot's paternal grandfathe..." [label="has creator [Intentionally_create]", color=lightgoldenrodyellow, penwidth=1];
+    "William Greenleaf Eliot" -> "establish a Unitarian Chris..." [label="has purpose [Motion]", color=lightgoldenrod, penwidth=1];
+    "T. S. Eliot" -> "where" [label="has location [Being_born]", color=green, penwidth=2];
+    "T. S. Eliot" -> "age of 39" [label="has time [Becoming]", color=purple, penwidth=2];
+    "T. S. Eliot" -> "1935" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "The Love Song of J. Alfred Prufrock" -> "widespread" [label="has degree [Attention]", color=lightcyan, penwidth=1];
+    "Ash Wednesday" -> "poetry" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Ash Wednesday" -> "seven plays" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Ash Wednesday" -> "profession" [label="has entity [Age]", color=lightsalmon, penwidth=1];
+    "U.S. Route 52 in Iowa" -> "house" [label="has theme [Buildings]", color=lightseagreen, penwidth=1];
+    "T. S. Eliot" -> "widespread attention for " ..." [label="has theme [Cause_motion]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "1965" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Ash Wednesday" -> "T. S. Eliot" [label="has theme [Giving]", color=lightpink, penwidth=1];
+    "United States" -> "St" [label="has location [Personal_success]", color=green, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Receiving_legend" [label="Receiving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Surviving_legend" [label="Surviving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Roadways_legend" [label="Roadways", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Employing_legend" [label="Employing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Attention_legend" [label="Attention", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Craft_legend" [label="Craft", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Renunciation_legend" [label="Renunciation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Personal_success_legend" [label="Personal_success", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cause_motion_legend" [label="Cause_motion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Namesake_legend" [label="Namesake", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

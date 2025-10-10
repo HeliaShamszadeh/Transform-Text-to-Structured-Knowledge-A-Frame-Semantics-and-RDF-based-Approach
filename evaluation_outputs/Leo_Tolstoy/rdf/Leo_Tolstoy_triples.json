@@ -1,0 +1,987 @@
+{
+  "metadata": {
+    "total_triples": 43,
+    "source_file": "Leo_Tolstoy",
+    "extraction_date": "2025-09-28 02:48:10",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Duration_description:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Categorization:has_category",
+        "object": "as one of the greatest and most influential authors of all time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Kinship:has_theme",
+        "object": "aristocratic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Causation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+        "predicate": "Expressing_publicly:has_theme",
+        "object": "His ideas on nonviolent resistance",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Inclusion:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Categorization:has_category",
+        "object": "as an equally profound spiritual awakening",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+        "predicate": "Labor_product:has_agent",
+        "object": "Alyosha the Pot",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Referring_by_name:has_theme",
+        "object": "as Leo Tolstoy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Becoming:has_theme",
+        "object": "fervent Christian anarchist and pacifist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+        "predicate": "Labor_product:has_theme",
+        "object": "oeuvre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Referring_by_name:has_entity",
+        "object": "7 November] 1910)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Topic:has_theme",
+        "object": "philosophical, moral and religious themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Categorization:has_item",
+        "object": "what",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Increment:has_class",
+        "object": "uses",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Adducing:has_role",
+        "object": "as pinnacles of realist fiction and three of the greatest novels ever written",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Devil",
+        "predicate": "Categorization:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Jesus",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Judgment_communication:has_time",
+        "object": "his twenties",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Perception_experience:has_time",
+        "object": "Crimean War",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Text_creation:has_text",
+        "object": "greatest novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Text_creation:has_text",
+        "object": "plays and essays concerning philosophical, moral and religious themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_text",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Causation:has_effect",
+        "object": "become a fervent Christian anarchist and pacifist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Reference_text:has_theme",
+        "object": "Tolstoy (disambiguation) and Lev Tolstoy (disambiguation",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Perception_experience:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Adducing:has_theme",
+        "object": "His War and Peace (1869 ), Anna Karenina (1878 ), and Resurrection (1899 ), which is based on his youthful sins,",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+        "predicate": "Expressing_publicly:has_theme",
+        "object": "such works as The Kingdom of God Is Within You (1894",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+        "predicate": "Labor_product:has_time",
+        "object": "1911",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Devil",
+        "predicate": "Categorization:has_item",
+        "object": "ethical teachings of Jesus",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Being_born:has_theme",
+        "object": "aristocratic family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Text_creation:has_author",
+        "object": "authors",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "predicate": "Judgment_communication:has_reason",
+        "object": "his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855 ) based on his experiences in the Crimean War",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Inclusion:has_theme",
+        "object": "His oeuvre",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Devil",
+        "predicate": "Categorization:has_theme",
+        "object": "literal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Referring_by_name:has_time",
+        "object": "1910",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Topic:has_text",
+        "object": "plays and essays",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+        "predicate": "Categorization:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Russia",
+        "predicate": "Text:has_time",
+        "object": "1910",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Causation:has_cause",
+        "object": "His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+        "predicate": "Inclusion:has_theme",
+        "object": "short stories such as \" Alyosha the Pot \" (1911) and \" After the Ball \" (1911) and novellas such as Family Happiness (1859 ), The Death of Ivan Ilyich (1886 ), The Kreutzer Sonata (1889 ), The Devil (1911 ), and Hadji Murat (1912",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Categorization:has_category",
+          "object": "as one of the greatest and most influential authors of all time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Text_creation:has_author",
+          "object": "authors",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Referring_by_name:has_theme",
+          "object": "as Leo Tolstoy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Referring_by_name:has_entity",
+          "object": "7 November] 1910)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Referring_by_name:has_time",
+          "object": "1910",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Being_born:has_theme",
+          "object": "aristocratic family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Inclusion:has_theme",
+          "object": "short stories such as \" Alyosha the Pot \" (1911) and \" After the Ball \" (1911) and novellas such as Family Happiness (1859 ), The Death of Ivan Ilyich (1886 ), The Kreutzer Sonata (1889 ), The Devil (1911 ), and Hadji Murat (1912",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Adducing:has_role",
+          "object": "as pinnacles of realist fiction and three of the greatest novels ever written",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Text_creation:has_text",
+          "object": "greatest novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Duration_description:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Kinship:has_theme",
+          "object": "aristocratic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Causation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+          "predicate": "Expressing_publicly:has_theme",
+          "object": "His ideas on nonviolent resistance",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Inclusion:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Categorization:has_category",
+          "object": "as an equally profound spiritual awakening",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+          "predicate": "Labor_product:has_agent",
+          "object": "Alyosha the Pot",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Becoming:has_theme",
+          "object": "fervent Christian anarchist and pacifist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+          "predicate": "Labor_product:has_theme",
+          "object": "oeuvre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Topic:has_theme",
+          "object": "philosophical, moral and religious themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Categorization:has_item",
+          "object": "what",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Increment:has_class",
+          "object": "uses",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Devil",
+          "predicate": "Categorization:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Jesus",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Judgment_communication:has_time",
+          "object": "his twenties",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Perception_experience:has_time",
+          "object": "Crimean War",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Text_creation:has_text",
+          "object": "plays and essays concerning philosophical, moral and religious themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_text",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Causation:has_effect",
+          "object": "become a fervent Christian anarchist and pacifist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Reference_text:has_theme",
+          "object": "Tolstoy (disambiguation) and Lev Tolstoy (disambiguation",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Perception_experience:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Adducing:has_theme",
+          "object": "His War and Peace (1869 ), Anna Karenina (1878 ), and Resurrection (1899 ), which is based on his youthful sins,",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+          "predicate": "Expressing_publicly:has_theme",
+          "object": "such works as The Kingdom of God Is Within You (1894",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+          "predicate": "Labor_product:has_time",
+          "object": "1911",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Devil",
+          "predicate": "Categorization:has_item",
+          "object": "ethical teachings of Jesus",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "predicate": "Judgment_communication:has_reason",
+          "object": "his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855 ) based on his experiences in the Crimean War",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Inclusion:has_theme",
+          "object": "His oeuvre",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Devil",
+          "predicate": "Categorization:has_theme",
+          "object": "literal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Topic:has_text",
+          "object": "plays and essays",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Crimean_War",
+          "predicate": "Categorization:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Russia",
+          "predicate": "Text:has_time",
+          "object": "1910",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/War_and_Peace",
+          "predicate": "Causation:has_cause",
+          "object": "His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Devil",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+      "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+      "http://en.wikipedia.org/wiki/Devil",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Devil",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "http://en.wikipedia.org/wiki/War_and_Peace"
+    ],
+    "objects": [
+      "1911",
+      "as one of the greatest and most influential authors of all time",
+      "aristocratic",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "His ideas on nonviolent resistance",
+      "1911",
+      "as an equally profound spiritual awakening",
+      "Alyosha the Pot",
+      "as Leo Tolstoy",
+      "fervent Christian anarchist and pacifist",
+      "oeuvre",
+      "7 November] 1910)",
+      "philosophical, moral and religious themes",
+      "stories",
+      "what",
+      "uses",
+      "as pinnacles of realist fiction and three of the greatest novels ever written",
+      "http://en.wikipedia.org/wiki/Jesus",
+      "his twenties",
+      "Crimean War",
+      "greatest novels",
+      "authors",
+      "plays and essays concerning philosophical, moral and religious themes",
+      "writer",
+      "become a fervent Christian anarchist and pacifist",
+      "Tolstoy (disambiguation) and Lev Tolstoy (disambiguation",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "His War and Peace (1869 ), Anna Karenina (1878 ), and Resurrection (1899 ), which is based on his youthful sins,",
+      "such works as The Kingdom of God Is Within You (1894",
+      "1911",
+      "ethical teachings of Jesus",
+      "aristocratic family",
+      "authors",
+      "his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855 ) based on his experiences in the Crimean War",
+      "His oeuvre",
+      "literal",
+      "1910",
+      "plays and essays",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "http://en.wikipedia.org/wiki/England",
+      "1910",
+      "His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount",
+      "short stories such as \" Alyosha the Pot \" (1911) and \" After the Ball \" (1911) and novellas such as Family Happiness (1859 ), The Death of Ivan Ilyich (1886 ), The Kreutzer Sonata (1889 ), The Devil (1911 ), and Hadji Murat (1912"
+    ],
+    "all_unique": [
+      "fervent Christian anarchist and pacifist",
+      "uses",
+      "His oeuvre",
+      "literal",
+      "http://en.wikipedia.org/wiki/Jesus",
+      "http://en.wikipedia.org/wiki/Russia",
+      "http://en.wikipedia.org/wiki/England",
+      "oeuvre",
+      "http://en.wikipedia.org/wiki/Leo_Tolstoy",
+      "philosophical, moral and religious themes",
+      "as one of the greatest and most influential authors of all time",
+      "http://en.wikipedia.org/wiki/Devil",
+      "7 November] 1910)",
+      "http://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+      "his semi-autobiographical trilogy, Childhood, Boyhood and Youth (1852–1856), and with Sevastopol Sketches (1855 ) based on his experiences in the Crimean War",
+      "authors",
+      "plays and essays concerning philosophical, moral and religious themes",
+      "such works as The Kingdom of God Is Within You (1894",
+      "as Leo Tolstoy",
+      "1910",
+      "aristocratic family",
+      "1911",
+      "Alyosha the Pot",
+      "as pinnacles of realist fiction and three of the greatest novels ever written",
+      "his twenties",
+      "aristocratic",
+      "Crimean War",
+      "http://en.wikipedia.org/wiki/Alyosha_the_Pot",
+      "greatest novels",
+      "writer",
+      "His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount",
+      "ethical teachings of Jesus",
+      "plays and essays",
+      "stories",
+      "http://en.wikipedia.org/wiki/War_and_Peace",
+      "short stories such as \" Alyosha the Pot \" (1911) and \" After the Ball \" (1911) and novellas such as Family Happiness (1859 ), The Death of Ivan Ilyich (1886 ), The Kreutzer Sonata (1889 ), The Devil (1911 ), and Hadji Murat (1912",
+      "what",
+      "His War and Peace (1869 ), Anna Karenina (1878 ), and Resurrection (1899 ), which is based on his youthful sins,",
+      "http://en.wikipedia.org/wiki/Crimean_War",
+      "Tolstoy (disambiguation) and Lev Tolstoy (disambiguation",
+      "become a fervent Christian anarchist and pacifist",
+      "as an equally profound spiritual awakening",
+      "His ideas on nonviolent resistance"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Duration_description:has_time",
+      "Categorization:has_category",
+      "Kinship:has_theme",
+      "Causation:has_theme",
+      "Expressing_publicly:has_theme",
+      "Inclusion:has_time",
+      "Categorization:has_category",
+      "Labor_product:has_agent",
+      "Referring_by_name:has_theme",
+      "Becoming:has_theme",
+      "Labor_product:has_theme",
+      "Referring_by_name:has_entity",
+      "Topic:has_theme",
+      "Duration_description:has_theme",
+      "Categorization:has_item",
+      "Increment:has_class",
+      "Adducing:has_role",
+      "Categorization:has_theme",
+      "Judgment_communication:has_time",
+      "Perception_experience:has_time",
+      "Text_creation:has_text",
+      "Subjective_influence:has_entity",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Causation:has_effect",
+      "Reference_text:has_theme",
+      "Perception_experience:has_theme",
+      "Adducing:has_theme",
+      "Expressing_publicly:has_theme",
+      "Labor_product:has_time",
+      "Categorization:has_item",
+      "Being_born:has_theme",
+      "Text_creation:has_author",
+      "Judgment_communication:has_reason",
+      "Inclusion:has_theme",
+      "Categorization:has_theme",
+      "Referring_by_name:has_time",
+      "Topic:has_text",
+      "Categorization:has_theme",
+      "Text:has_location",
+      "Text:has_time",
+      "Causation:has_cause",
+      "Inclusion:has_theme"
+    ],
+    "unique_predicates": [
+      "Labor_product:has_agent",
+      "Topic:has_text",
+      "Text:has_location",
+      "Adducing:has_theme",
+      "Adducing:has_role",
+      "Being_born:has_theme",
+      "Referring_by_name:has_time",
+      "Causation:has_theme",
+      "Referring_by_name:has_theme",
+      "Expressing_publicly:has_theme",
+      "Inclusion:has_time",
+      "Causation:has_effect",
+      "Judgment_communication:has_reason",
+      "Labor_product:has_time",
+      "Perception_experience:has_time",
+      "Kinship:has_theme",
+      "Duration_description:has_theme",
+      "Text:has_text",
+      "Reference_text:has_theme",
+      "Causation:has_cause",
+      "Text_creation:has_author",
+      "Increment:has_class",
+      "Judgment_communication:has_time",
+      "Categorization:has_category",
+      "Text_creation:has_text",
+      "Categorization:has_item",
+      "Topic:has_theme",
+      "Inclusion:has_theme",
+      "Referring_by_name:has_entity",
+      "Categorization:has_theme",
+      "Perception_experience:has_theme",
+      "Subjective_influence:has_entity",
+      "Becoming:has_theme",
+      "Labor_product:has_theme",
+      "Duration_description:has_time",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Duration_description:has_time": 1,
+      "Categorization:has_category": 2,
+      "Kinship:has_theme": 1,
+      "Causation:has_theme": 1,
+      "Expressing_publicly:has_theme": 2,
+      "Inclusion:has_time": 1,
+      "Labor_product:has_agent": 1,
+      "Referring_by_name:has_theme": 1,
+      "Becoming:has_theme": 1,
+      "Labor_product:has_theme": 1,
+      "Referring_by_name:has_entity": 1,
+      "Topic:has_theme": 1,
+      "Duration_description:has_theme": 1,
+      "Categorization:has_item": 2,
+      "Increment:has_class": 1,
+      "Adducing:has_role": 1,
+      "Categorization:has_theme": 3,
+      "Judgment_communication:has_time": 1,
+      "Perception_experience:has_time": 1,
+      "Text_creation:has_text": 2,
+      "Subjective_influence:has_entity": 1,
+      "Text:has_text": 1,
+      "Causation:has_effect": 1,
+      "Reference_text:has_theme": 1,
+      "Perception_experience:has_theme": 1,
+      "Adducing:has_theme": 1,
+      "Labor_product:has_time": 1,
+      "Being_born:has_theme": 1,
+      "Text_creation:has_author": 1,
+      "Judgment_communication:has_reason": 1,
+      "Inclusion:has_theme": 2,
+      "Referring_by_name:has_time": 1,
+      "Topic:has_text": 1,
+      "Text:has_location": 1,
+      "Text:has_time": 1,
+      "Causation:has_cause": 1
+    }
+  }
+}

@@ -1,0 +1,2338 @@
+{
+  "metadata": {
+    "total_triples": 108,
+    "source_file": "Clarice_Lispector",
+    "extraction_date": "2025-09-27 21:17:59",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Being_born:has_time",
+        "object": "1920",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Cause_harm:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Relative_time:has_time",
+        "object": "1944",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Publishing:has_work",
+        "object": "novels and stories, including the celebrated gua Viva",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Frequency:has_event",
+        "object": "pain",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Text:has_theme",
+        "object": "2009",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Law:has_law",
+        "object": "law",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Interior_profile_relation:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Measure_duration:has_theme",
+        "object": "10",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Cause_change:has_entity",
+        "object": "Several of her works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Podolia",
+        "predicate": "Committing_crime:has_theme",
+        "object": "pogroms",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Text:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Origin:has_entity",
+        "object": "writer Benjamin Moser",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Activity_start:has_activity",
+        "object": "publishing her first journalistic work and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Categorization:has_item",
+        "object": "style and language that",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Cause_harm:has_cause",
+        "object": "accident",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Categorization:has_category",
+        "object": "revolutionary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Measure_duration:has_theme",
+        "object": "decade",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Part_whole:has_time",
+        "object": "1944",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Publishing:has_work",
+        "object": "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Labor_product:has_theme",
+        "object": "journalistic",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "last",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Distinctiveness:has_entity",
+        "object": "works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Departing:has_time",
+        "object": "following her marriage to a Brazilian diplomat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Death:has_time",
+        "object": "1977",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Inclusion:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Being_born:has_theme",
+        "object": "Jewish family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Text_creation:has_theme",
+        "object": "as an interior monologue in a style and language that was considered revolutionary in Brazil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Relative_time:has_theme",
+        "object": "her marriage to a Brazilian diplomat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "law school in Rio",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Interior_profile_relation:has_theme",
+        "object": "style and language that was considered revolutionary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Departing:has_location",
+        "object": "http://en.wikipedia.org/wiki/Europe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Age:has_age",
+        "object": "23",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Motion:has_time",
+        "object": "when she was in her teens",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Text_creation:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Origin:has_time",
+        "object": "2009",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Publishing:has_work",
+        "object": "her first journalistic work and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Text:has_text",
+        "object": "Near to the Wild Heart",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Categorization:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Departing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Brazil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Arriving:has_goal",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she began publishing her first journalistic work and short stories, catapulting to fame at the age of 23 with the publication of her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem ), written as an interior monologue in a style and language that was considered revolutionary in Brazil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Cause_change:has_theme",
+        "object": "into films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Recife",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Fame:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Forming_relationships:has_location",
+        "object": "http://en.wikipedia.org/wiki/Europe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Political_locales:has_theme",
+        "object": "international",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Text_creation:has_text",
+        "object": "novels and stories, including the celebrated gua Viva",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Relative_time:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Being_born:has_person",
+        "object": "Clarice Lispector ( [ k l a i s i s p k t o ]",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Artifact:has_theme",
+        "object": "music",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Text:has_author",
+        "object": "American writer Benjamin Moser",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Publishing:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "her works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Measure_duration:has_time",
+        "object": "1944",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Arriving:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "Many",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Frequency:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Inclusion:has_theme",
+        "object": "novels and stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "journalistic work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Text:has_time",
+        "object": "1959",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Podolia",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Part_whole:has_theme",
+        "object": "next",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Text_creation:has_text",
+        "object": "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Text:has_text",
+        "object": "books",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Relative_time:has_theme",
+        "object": "death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Labor_product:has_theme",
+        "object": "work",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "international",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Text:has_text",
+        "object": "Why This World : A Biography of Clarice Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Podolia",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "decade",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Activity_start:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+        "predicate": "Text:has_time",
+        "object": "2009",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "Her distinctive and innovative works",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Publishing:has_work",
+        "object": "stories of Family Ties ( Laços de Famlia ) and the novel The Passion According to G.H",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Part_whole:has_theme",
+        "object": "half",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Being_born:has_location",
+        "object": "Podolia in Western Ukraine",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Text:has_text",
+        "object": "Passion According to G.H",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Europe",
+        "predicate": "Relative_time:has_theme",
+        "object": "Lispector left Brazil in 1944",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Podolia",
+        "predicate": "Committing_crime:has_time",
+        "object": "during the Russian Civil War",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Publishing:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Brazil",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Forming_relationships:has_time",
+        "object": "1944",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Motion:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Interior_profile_relation:has_theme",
+        "object": "law school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Categorization:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Brazil",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Labor_product:has_location",
+        "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Recife",
+        "predicate": "Death:has_time",
+        "object": "when Clarice was nine",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Frequency:has_attribute",
+        "object": "frequent",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Being_born:has_theme",
+        "object": "Chaya Pinkhasivna Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Behind_the_scenes:has_theme",
+        "object": "films",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "predicate": "Forming_relationships:has_theme",
+        "object": "Brazilian diplomat",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Inclusion:has_theme",
+        "object": "celebrated gua Viva",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she began publishing her first journalistic work and short stories, catapulting to fame",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Recife",
+        "predicate": "Death:has_theme",
+        "object": "her mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Cause_harm:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Ukraine",
+        "predicate": "Fame:has_entity",
+        "object": "her first journalistic work and short stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "age of 23",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+        "predicate": "Calendric_unit:has_time",
+        "object": "1966",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Being_born:has_time",
+          "object": "1920",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Frequency:has_event",
+          "object": "pain",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Death:has_time",
+          "object": "1977",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Being_born:has_theme",
+          "object": "Jewish family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Being_born:has_person",
+          "object": "Clarice Lispector ( [ k l a i s i s p k t o ]",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Relative_time:has_theme",
+          "object": "death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Being_born:has_location",
+          "object": "Podolia in Western Ukraine",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Recife",
+          "predicate": "Death:has_time",
+          "object": "when Clarice was nine",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Being_born:has_theme",
+          "object": "Chaya Pinkhasivna Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Recife",
+          "predicate": "Death:has_theme",
+          "object": "her mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Publishing:has_work",
+          "object": "novels and stories, including the celebrated gua Viva",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Publishing:has_work",
+          "object": "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she began publishing her first journalistic work and short stories, catapulting to fame at the age of 23 with the publication of her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem ), written as an interior monologue in a style and language that was considered revolutionary in Brazil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Text_creation:has_text",
+          "object": "novels and stories, including the celebrated gua Viva",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Inclusion:has_theme",
+          "object": "novels and stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Text_creation:has_text",
+          "object": "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Text:has_text",
+          "object": "books",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Publishing:has_work",
+          "object": "stories of Family Ties ( Laços de Famlia ) and the novel The Passion According to G.H",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Cause_harm:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Relative_time:has_time",
+          "object": "1944",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Text:has_theme",
+          "object": "2009",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Law:has_law",
+          "object": "law",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Interior_profile_relation:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Measure_duration:has_theme",
+          "object": "10",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Cause_change:has_entity",
+          "object": "Several of her works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Podolia",
+          "predicate": "Committing_crime:has_theme",
+          "object": "pogroms",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Text:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Origin:has_entity",
+          "object": "writer Benjamin Moser",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Activity_start:has_activity",
+          "object": "publishing her first journalistic work and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Categorization:has_item",
+          "object": "style and language that",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Cause_harm:has_cause",
+          "object": "accident",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Categorization:has_category",
+          "object": "revolutionary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Measure_duration:has_theme",
+          "object": "decade",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Part_whole:has_time",
+          "object": "1944",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Labor_product:has_theme",
+          "object": "journalistic",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "last",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Distinctiveness:has_entity",
+          "object": "works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Departing:has_time",
+          "object": "following her marriage to a Brazilian diplomat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Inclusion:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Text_creation:has_theme",
+          "object": "as an interior monologue in a style and language that was considered revolutionary in Brazil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Relative_time:has_theme",
+          "object": "her marriage to a Brazilian diplomat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "law school in Rio",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Interior_profile_relation:has_theme",
+          "object": "style and language that was considered revolutionary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Departing:has_location",
+          "object": "http://en.wikipedia.org/wiki/Europe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Age:has_age",
+          "object": "23",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Motion:has_time",
+          "object": "when she was in her teens",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Text_creation:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Origin:has_time",
+          "object": "2009",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Publishing:has_work",
+          "object": "her first journalistic work and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Text:has_text",
+          "object": "Near to the Wild Heart",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Categorization:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Departing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Brazil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Arriving:has_goal",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Cause_change:has_theme",
+          "object": "into films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Recife",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Fame:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Forming_relationships:has_location",
+          "object": "http://en.wikipedia.org/wiki/Europe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Political_locales:has_theme",
+          "object": "international",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Relative_time:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Artifact:has_theme",
+          "object": "music",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Text:has_author",
+          "object": "American writer Benjamin Moser",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Publishing:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "her works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Measure_duration:has_time",
+          "object": "1944",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Arriving:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "Many",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Frequency:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "journalistic work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Text:has_time",
+          "object": "1959",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Podolia",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Part_whole:has_theme",
+          "object": "next",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Labor_product:has_theme",
+          "object": "work",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "international",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Text:has_text",
+          "object": "Why This World : A Biography of Clarice Lispector",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Podolia",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "decade",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Activity_start:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Benjamin_Moser",
+          "predicate": "Text:has_time",
+          "object": "2009",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "Her distinctive and innovative works",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Part_whole:has_theme",
+          "object": "half",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Text:has_text",
+          "object": "Passion According to G.H",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Europe",
+          "predicate": "Relative_time:has_theme",
+          "object": "Lispector left Brazil in 1944",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Podolia",
+          "predicate": "Committing_crime:has_time",
+          "object": "during the Russian Civil War",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Publishing:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Brazil",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Forming_relationships:has_time",
+          "object": "1944",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Motion:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Interior_profile_relation:has_theme",
+          "object": "law school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Categorization:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Brazil",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Labor_product:has_location",
+          "object": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Frequency:has_attribute",
+          "object": "frequent",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Behind_the_scenes:has_theme",
+          "object": "films",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Clarice_Lispector",
+          "predicate": "Forming_relationships:has_theme",
+          "object": "Brazilian diplomat",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Inclusion:has_theme",
+          "object": "celebrated gua Viva",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she began publishing her first journalistic work and short stories, catapulting to fame",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Cause_harm:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Ukraine",
+          "predicate": "Fame:has_entity",
+          "object": "her first journalistic work and short stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "age of 23",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Family_Ties",
+          "predicate": "Calendric_unit:has_time",
+          "object": "1966",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Podolia",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Podolia",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Europe",
+      "http://en.wikipedia.org/wiki/Podolia",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Recife",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Recife",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Family_Ties"
+    ],
+    "objects": [
+      "1920",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "1944",
+      "novels and stories, including the celebrated gua Viva",
+      "pain",
+      "2009",
+      "law",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "10",
+      "Several of her works",
+      "pogroms",
+      "novel",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "writer Benjamin Moser",
+      "publishing her first journalistic work and short stories",
+      "style and language that",
+      "accident",
+      "revolutionary",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "decade",
+      "1944",
+      "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+      "journalistic",
+      "last",
+      "works",
+      "following her marriage to a Brazilian diplomat",
+      "1977",
+      "1966",
+      "Jewish family",
+      "as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "her marriage to a Brazilian diplomat",
+      "law school in Rio",
+      "style and language that was considered revolutionary",
+      "http://en.wikipedia.org/wiki/Europe",
+      "23",
+      "family",
+      "mother",
+      "when she was in her teens",
+      "1966",
+      "2009",
+      "her first journalistic work and short stories",
+      "Near to the Wild Heart",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "she began publishing her first journalistic work and short stories, catapulting to fame at the age of 23 with the publication of her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem ), written as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "into films",
+      "http://en.wikipedia.org/wiki/Recife",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "http://en.wikipedia.org/wiki/Europe",
+      "international",
+      "novels and stories, including the celebrated gua Viva",
+      "1966",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "Clarice Lispector ( [ k l a i s i s p k t o ]",
+      "music",
+      "American writer Benjamin Moser",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "1959",
+      "her works",
+      "1944",
+      "1959",
+      "http://en.wikipedia.org/wiki/United_States",
+      "Many",
+      "1966",
+      "novels and stories",
+      "journalistic work",
+      "1959",
+      "http://en.wikipedia.org/wiki/Podolia",
+      "next",
+      "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+      "books",
+      "death",
+      "work",
+      "international",
+      "Why This World : A Biography of Clarice Lispector",
+      "family",
+      "decade",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "stories",
+      "2009",
+      "Her distinctive and innovative works",
+      "stories of Family Ties ( Laços de Famlia ) and the novel The Passion According to G.H",
+      "half",
+      "Podolia in Western Ukraine",
+      "Passion According to G.H",
+      "Lispector left Brazil in 1944",
+      "during the Russian Civil War",
+      "1966",
+      "literature",
+      "1944",
+      "family",
+      "law school",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "when Clarice was nine",
+      "frequent",
+      "Chaya Pinkhasivna Lispector",
+      "films",
+      "Brazilian diplomat",
+      "celebrated gua Viva",
+      "she began publishing her first journalistic work and short stories, catapulting to fame",
+      "her mother",
+      "1966",
+      "her first journalistic work and short stories",
+      "age of 23",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "1966"
+    ],
+    "all_unique": [
+      "journalistic",
+      "literature",
+      "age of 23",
+      "works",
+      "http://en.wikipedia.org/wiki/Europe",
+      "Podolia in Western Ukraine",
+      "http://en.wikipedia.org/wiki/Recife",
+      "American writer Benjamin Moser",
+      "international",
+      "work",
+      "Passion According to G.H",
+      "death",
+      "1944",
+      "stories",
+      "http://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "style and language that was considered revolutionary",
+      "1977",
+      "mother",
+      "celebrated gua Viva",
+      "23",
+      "next",
+      "she began publishing her first journalistic work and short stories, catapulting to fame",
+      "her works",
+      "novels and stories",
+      "pogroms",
+      "decade",
+      "law",
+      "http://en.wikipedia.org/wiki/Ukraine",
+      "http://en.wikipedia.org/wiki/United_States",
+      "films",
+      "http://en.wikipedia.org/wiki/Clarice_Lispector",
+      "as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "Why This World : A Biography of Clarice Lispector",
+      "2009",
+      "her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem )",
+      "her marriage to a Brazilian diplomat",
+      "1920",
+      "journalistic work",
+      "her mother",
+      "writer Benjamin Moser",
+      "Several of her works",
+      "Brazilian diplomat",
+      "Many",
+      "when Clarice was nine",
+      "following her marriage to a Brazilian diplomat",
+      "Jewish family",
+      "when she was in her teens",
+      "1959",
+      "during the Russian Civil War",
+      "frequent",
+      "law school in Rio",
+      "http://en.wikipedia.org/wiki/Benjamin_Moser",
+      "Chaya Pinkhasivna Lispector",
+      "novels and stories, including the celebrated gua Viva",
+      "pain",
+      "into films",
+      "Her distinctive and innovative works",
+      "last",
+      "1966",
+      "http://en.wikipedia.org/wiki/Podolia",
+      "family",
+      "she began publishing her first journalistic work and short stories, catapulting to fame at the age of 23 with the publication of her first novel, Near to the Wild Heart ( Perto do Coraço Selvagem ), written as an interior monologue in a style and language that was considered revolutionary in Brazil",
+      "music",
+      "revolutionary",
+      "Near to the Wild Heart",
+      "http://en.wikipedia.org/wiki/Family_Ties",
+      "http://en.wikipedia.org/wiki/Brazil",
+      "accident",
+      "10",
+      "stories of Family Ties ( Laços de Famlia ) and the novel The Passion According to G.H",
+      "half",
+      "law school",
+      "books",
+      "Clarice Lispector ( [ k l a i s i s p k t o ]",
+      "publishing her first journalistic work and short stories",
+      "her first journalistic work and short stories",
+      "novel",
+      "Lispector left Brazil in 1944",
+      "style and language that"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Being_born:has_time",
+      "Cause_harm:has_theme",
+      "Relative_time:has_time",
+      "Publishing:has_work",
+      "Frequency:has_event",
+      "Text:has_theme",
+      "Law:has_law",
+      "Interior_profile_relation:has_location",
+      "Measure_duration:has_theme",
+      "Cause_change:has_entity",
+      "Committing_crime:has_theme",
+      "Ordinal_numbers:has_type",
+      "Text:has_location",
+      "Origin:has_entity",
+      "Activity_start:has_activity",
+      "Categorization:has_item",
+      "Cause_harm:has_cause",
+      "Categorization:has_category",
+      "Publishing:has_theme",
+      "Measure_duration:has_theme",
+      "Part_whole:has_time",
+      "Publishing:has_work",
+      "Labor_product:has_theme",
+      "Calendric_unit:has_theme",
+      "Distinctiveness:has_entity",
+      "Departing:has_time",
+      "Death:has_time",
+      "Inclusion:has_time",
+      "Being_born:has_theme",
+      "Text_creation:has_theme",
+      "Relative_time:has_theme",
+      "Temporal_collocation:has_theme",
+      "Interior_profile_relation:has_theme",
+      "Departing:has_location",
+      "Age:has_age",
+      "Kinship:has_theme",
+      "Kinship:has_theme",
+      "Motion:has_time",
+      "Text_creation:has_time",
+      "Origin:has_time",
+      "Publishing:has_work",
+      "Text:has_text",
+      "Categorization:has_location",
+      "Departing:has_theme",
+      "Arriving:has_goal",
+      "Temporal_collocation:has_theme",
+      "Cause_change:has_theme",
+      "Kinship:has_location",
+      "Fame:has_location",
+      "Forming_relationships:has_location",
+      "Political_locales:has_theme",
+      "Text_creation:has_text",
+      "Relative_time:has_time",
+      "Publishing:has_theme",
+      "Being_born:has_person",
+      "Artifact:has_theme",
+      "Text:has_author",
+      "Kinship:has_theme",
+      "Publishing:has_time",
+      "Quantified_mass:has_theme",
+      "Measure_duration:has_time",
+      "Arriving:has_time",
+      "Origin:has_theme",
+      "Quantified_mass:has_quantity",
+      "Frequency:has_time",
+      "Inclusion:has_theme",
+      "Ordinal_numbers:has_type",
+      "Text:has_time",
+      "Kinship:has_location",
+      "Part_whole:has_theme",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Relative_time:has_theme",
+      "Labor_product:has_theme",
+      "Judgment_communication:has_theme",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Calendric_unit:has_theme",
+      "Activity_start:has_location",
+      "Duration_description:has_theme",
+      "Text:has_time",
+      "Judgment_communication:has_theme",
+      "Publishing:has_work",
+      "Part_whole:has_theme",
+      "Being_born:has_location",
+      "Text:has_text",
+      "Relative_time:has_theme",
+      "Committing_crime:has_time",
+      "Publishing:has_time",
+      "Fields:has_theme",
+      "Forming_relationships:has_time",
+      "Motion:has_theme",
+      "Interior_profile_relation:has_theme",
+      "Categorization:has_theme",
+      "Labor_product:has_location",
+      "Death:has_time",
+      "Frequency:has_attribute",
+      "Being_born:has_theme",
+      "Behind_the_scenes:has_theme",
+      "Forming_relationships:has_theme",
+      "Inclusion:has_theme",
+      "Temporal_collocation:has_theme",
+      "Death:has_theme",
+      "Cause_harm:has_time",
+      "Fame:has_entity",
+      "Temporal_collocation:has_theme",
+      "Death:has_theme",
+      "Calendric_unit:has_time"
+    ],
+    "unique_predicates": [
+      "Motion:has_time",
+      "Forming_relationships:has_time",
+      "Committing_crime:has_time",
+      "Motion:has_theme",
+      "Distinctiveness:has_entity",
+      "Behind_the_scenes:has_theme",
+      "Committing_crime:has_theme",
+      "Cause_change:has_theme",
+      "Artifact:has_theme",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Cause_harm:has_time",
+      "Categorization:has_item",
+      "Part_whole:has_time",
+      "Text:has_theme",
+      "Origin:has_entity",
+      "Categorization:has_location",
+      "Arriving:has_goal",
+      "Departing:has_location",
+      "Measure_duration:has_time",
+      "Temporal_collocation:has_theme",
+      "Origin:has_theme",
+      "Being_born:has_person",
+      "Inclusion:has_time",
+      "Forming_relationships:has_location",
+      "Text:has_text",
+      "Duration_description:has_theme",
+      "Ordinal_numbers:has_type",
+      "Quantified_mass:has_quantity",
+      "Cause_harm:has_cause",
+      "Interior_profile_relation:has_location",
+      "Text_creation:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Fame:has_location",
+      "Calendric_unit:has_time",
+      "Calendric_unit:has_theme",
+      "Measure_duration:has_theme",
+      "Fields:has_theme",
+      "Frequency:has_event",
+      "Death:has_theme",
+      "Publishing:has_time",
+      "Being_born:has_location",
+      "Judgment_communication:has_theme",
+      "Categorization:has_category",
+      "Text_creation:has_text",
+      "Arriving:has_time",
+      "Being_born:has_time",
+      "Frequency:has_time",
+      "Origin:has_time",
+      "Death:has_time",
+      "Departing:has_theme",
+      "Interior_profile_relation:has_theme",
+      "Age:has_age",
+      "Text:has_location",
+      "Being_born:has_theme",
+      "Forming_relationships:has_theme",
+      "Relative_time:has_time",
+      "Text_creation:has_time",
+      "Law:has_law",
+      "Part_whole:has_theme",
+      "Activity_start:has_location",
+      "Frequency:has_attribute",
+      "Text:has_author",
+      "Quantified_mass:has_theme",
+      "Labor_product:has_location",
+      "Cause_harm:has_theme",
+      "Kinship:has_location",
+      "Cause_change:has_entity",
+      "Activity_start:has_activity",
+      "Political_locales:has_theme",
+      "Departing:has_time",
+      "Inclusion:has_theme",
+      "Categorization:has_theme",
+      "Fame:has_entity",
+      "Labor_product:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Being_born:has_time": 1,
+      "Cause_harm:has_theme": 1,
+      "Relative_time:has_time": 2,
+      "Publishing:has_work": 4,
+      "Frequency:has_event": 1,
+      "Text:has_theme": 1,
+      "Law:has_law": 1,
+      "Interior_profile_relation:has_location": 1,
+      "Measure_duration:has_theme": 2,
+      "Cause_change:has_entity": 1,
+      "Committing_crime:has_theme": 1,
+      "Ordinal_numbers:has_type": 2,
+      "Text:has_location": 1,
+      "Origin:has_entity": 1,
+      "Activity_start:has_activity": 1,
+      "Categorization:has_item": 1,
+      "Cause_harm:has_cause": 1,
+      "Categorization:has_category": 1,
+      "Publishing:has_theme": 2,
+      "Part_whole:has_time": 1,
+      "Labor_product:has_theme": 2,
+      "Calendric_unit:has_theme": 2,
+      "Distinctiveness:has_entity": 1,
+      "Departing:has_time": 1,
+      "Death:has_time": 2,
+      "Inclusion:has_time": 1,
+      "Being_born:has_theme": 2,
+      "Text_creation:has_theme": 1,
+      "Relative_time:has_theme": 3,
+      "Temporal_collocation:has_theme": 4,
+      "Interior_profile_relation:has_theme": 2,
+      "Departing:has_location": 1,
+      "Age:has_age": 1,
+      "Kinship:has_theme": 4,
+      "Motion:has_time": 1,
+      "Text_creation:has_time": 1,
+      "Origin:has_time": 1,
+      "Text:has_text": 4,
+      "Categorization:has_location": 1,
+      "Departing:has_theme": 1,
+      "Arriving:has_goal": 1,
+      "Cause_change:has_theme": 1,
+      "Kinship:has_location": 2,
+      "Fame:has_location": 1,
+      "Forming_relationships:has_location": 1,
+      "Political_locales:has_theme": 1,
+      "Text_creation:has_text": 2,
+      "Being_born:has_person": 1,
+      "Artifact:has_theme": 1,
+      "Text:has_author": 1,
+      "Publishing:has_time": 2,
+      "Quantified_mass:has_theme": 1,
+      "Measure_duration:has_time": 1,
+      "Arriving:has_time": 1,
+      "Origin:has_theme": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Frequency:has_time": 1,
+      "Inclusion:has_theme": 2,
+      "Text:has_time": 2,
+      "Part_whole:has_theme": 2,
+      "Judgment_communication:has_theme": 2,
+      "Activity_start:has_location": 1,
+      "Duration_description:has_theme": 1,
+      "Being_born:has_location": 1,
+      "Committing_crime:has_time": 1,
+      "Fields:has_theme": 1,
+      "Forming_relationships:has_time": 1,
+      "Motion:has_theme": 1,
+      "Categorization:has_theme": 1,
+      "Labor_product:has_location": 1,
+      "Frequency:has_attribute": 1,
+      "Behind_the_scenes:has_theme": 1,
+      "Forming_relationships:has_theme": 1,
+      "Death:has_theme": 2,
+      "Cause_harm:has_time": 1,
+      "Fame:has_entity": 1,
+      "Calendric_unit:has_time": 1
+    }
+  }
+}

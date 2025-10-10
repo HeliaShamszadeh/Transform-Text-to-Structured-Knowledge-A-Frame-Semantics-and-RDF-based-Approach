@@ -1,0 +1,271 @@
+digraph Gabriel_García_Márquez {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "his birthplace, Aracataca" [label="his birthplace, Aracataca", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His works" [label="His works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "non-fiction works and short..." [label="non-fiction works and short...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works and short stories" [label="works and short stories", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Neustadt International Prize for Literature" [label="Neustadt International Prize for Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels and short storie..." [label="his novels and short storie...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his novels, such as No One ..." [label="his novels, such as No One ...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "magical elements and events" [label="magical elements and events", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Garca Márquez" [label="Garca Márquez", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Latin America" [label="Latin America", fillcolor=lightgray, color=gray, shape=hexagon];
+    "paternal" [label="paternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "non-fiction" [label="non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "over fifty million copies" [label="over fifty million copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1961" [label="1961", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1982" [label="1982", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "richly composed world of im..." [label="richly composed world of im...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second or maternal family" [label="second or maternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world of imagination" [label="world of imagination", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1972" [label="1972", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign" [label="foreign", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critical" [label="critical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "career in journalism" [label="career in journalism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "imagination" [label="imagination", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sons" [label="sons", fillcolor=lightgray, color=gray, shape=hexagon];
+    "otherwise ordinary and real..." [label="otherwise ordinary and real...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he married Mercedes Barcha ..." [label="he married Mercedes Barcha ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1972 Neustadt International..." [label="1972 Neustadt International...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as magic realism" [label="as magic realism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spanish language" [label="Spanish language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "self-directed" [label="self-directed", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary style" [label="literary style", fillcolor=lightgray, color=gray, shape=hexagon];
+    "law school" [label="law school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "worldwide" [label="worldwide", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1927" [label="1927", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "surname" [label="surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "village" [label="village", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Gabriel García Márquez" [label="Gabriel García Márquez", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Spain" [label="Spain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "situations" [label="situations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1958" [label="1958", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread" [label="widespread", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mercedes Barcha Pardo" [label="Mercedes Barcha Pardo", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantastic and the realistic" [label="fantastic and the realistic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Colombia" [label="Colombia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Garca" [label="Garca", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Colombian and foreign politics" [label="Colombian and foreign politics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fictional" [label="fictional", fillcolor=lightgray, color=gray, shape=hexagon];
+    "continent's" [label="continent's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "significant" [label="significant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a journalist" [label="as a journalist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Macondo" [label="Macondo", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many acclaimed non-fiction ..." [label="many acclaimed non-fiction ...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Gabriel García Márquez" -> "Mercedes Barcha Pardo" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Latin America" -> "Spanish language" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Gabriel García Márquez" -> "1958" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Latin America" -> "1982" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Latin America" -> "His works" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "1982" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Latin America" -> "authors" [label="has theme [Importance]", color=lightsteelblue, penwidth=1];
+    "Colombia" -> "paternal" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Latin America" -> "sons" [label="has entity [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Latin America" -> "century" [label="has theme [Calendric_unit]", color=lightseagreen, penwidth=1];
+    "Latin America" -> "1958" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Latin America" -> "1982" [label="has time [Hostile_encounter]", color=purple, penwidth=2];
+    "Latin America" -> "Gabriel García Márquez" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Latin America" -> "he married Mercedes Barcha ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Latin America" -> "Literature" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Gabriel García Márquez" -> "sons" [label="has theme [Kinship]", color=lightgreen, penwidth=1];
+    "Gabriel García Márquez" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Latin America" -> "1961" [label="has time [Commerce_sell]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Gabriel García Márquez" -> "1961" [label="has time [Fame]", color=purple, penwidth=2];
+    "Gabriel García Márquez" -> "1961" [label="has time [Text]", color=purple, penwidth=2];
+    "Latin America" -> "Literature" [label="has location [Duration_description]", color=green, penwidth=2];
+    "Latin America" -> "non-fiction works and short..." [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Gabriel García Márquez" -> "as a journalist" [label="has role [Activity_start]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Nobel Prize in Literature" [label="has theme [Receiving]", color=lightcyan, penwidth=1];
+    "Colombia" -> "1927" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Latin America" -> "significant" [label="has degree [Judgment_communication]", color=lightpink, penwidth=1];
+    "Latin America" -> "situations" [label="has theme [Typicality]", color=lightgreen, penwidth=1];
+    "Latin America" -> "works and short stories" [label="has theme [Quantified_mass]", color=lightyellow, penwidth=1];
+    "Latin America" -> "world of imagination" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Colombia" -> "1927" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Latin America" -> "Colombian and foreign politics" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Latin America" -> "literary style" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Latin America" -> "authors" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "Colombia" -> "Garca" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "Gabriel García Márquez" -> "many acclaimed non-fiction ..." [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Colombia" -> "1927" [label="has time [First_experience]", color=purple, penwidth=2];
+    "Latin America" -> "many" [label="has quantity [Quantified_mass]", color=lightyellow, penwidth=1];
+    "Latin America" -> "richly composed world of im..." [label="has theme [Amalgamation]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "non-fiction" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Gabriel García Márquez" -> "second or maternal family" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Neustadt International Prize for Literature" -> "1972" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Latin America" -> "over fifty million copies" [label="has buyer [Commerce_sell]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "magical elements and events" [label="has instrument [Using]", color=lightgoldenrodyellow, penwidth=1];
+    "Latin America" -> "1972" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Spain" -> "1927" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Latin America" -> "fantastic and the realistic" [label="has theme [Amalgamation]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "His works" [label="has agent [Success_or_failure]", color=lightseagreen, penwidth=1];
+    "Gabriel García Márquez" -> "his novels, such as No One ..." [label="has reason [Fame]", color=lightcoral, penwidth=1];
+    "Latin America" -> "which" [label="has agent [Using]", color=lightgoldenrodyellow, penwidth=1];
+    "Latin America" -> "1982" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "Latin America" -> "otherwise ordinary and real..." [label="has theme [Using]", color=lightgoldenrodyellow, penwidth=1];
+    "Gabriel García Márquez" -> "Garca Márquez" [label="has author [Text_creation]", color=lightcoral, penwidth=1];
+    "Latin America" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Latin America" -> "world" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Spain" -> "name" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "Latin America" -> "widespread" [label="has degree [Success_or_failure]", color=lightseagreen, penwidth=1];
+    "Gabriel García Márquez" -> "1927" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Latin America" -> "which" [label="has goods [Commerce_sell]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "1958" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Latin America" -> "Literature" [label="has location [Amalgamation]", color=green, penwidth=2];
+    "Latin America" -> "20th" [label="has theme [Calendric_unit]", color=lightseagreen, penwidth=1];
+    "Latin America" -> "stories" [label="has theme [Duration_description]", color=lightblue, penwidth=1];
+    "Latin America" -> "1982" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Latin America" -> "Literature" [label="has location [Importance]", color=green, penwidth=2];
+    "Latin America" -> "imagination" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Gabriel García Márquez" -> "1982" [label="has time [Text]", color=purple, penwidth=2];
+    "Gabriel García Márquez" -> "maternal" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Nobel Prize in Literature" -> "Gabriel García Márquez" [label="has recipient [Receiving]", color=lightcyan, penwidth=1];
+    "Latin America" -> "1982" [label="has time [Amalgamation]", color=purple, penwidth=2];
+    "Latin America" -> "literary" [label="has theme [Fields]", color=lightsalmon, penwidth=1];
+    "Latin America" -> "Literature" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Macondo" -> "his birthplace, Aracataca" [label="has theme [Subjective_influence]", color=lightgoldenrod, penwidth=1];
+    "Latin America" -> "1972" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Gabriel García Márquez" -> "1958" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Colombia" -> "family name" [label="has type [Ordinal_numbers]", color=lightpink, penwidth=1];
+    "Latin America" -> "career in journalism" [label="has purpose [Departing]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "his novels and short storie..." [label="has theme [Receiving]", color=lightcyan, penwidth=1];
+    "Macondo" -> "fictional" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Gabriel García Márquez" -> "Garca Márquez" [label="has agent [Activity_start]", color=lightcoral, penwidth=1];
+    "Latin America" -> "self-directed" [label="has theme [Education_teaching]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "foreign" [label="has theme [Foreign_or_domestic_country]", color=lightcoral, penwidth=1];
+    "Latin America" -> "20th century" [label="has degree [Importance]", color=lightsteelblue, penwidth=1];
+    "Colombia" -> "surname" [label="has theme [First_experience]", color=lightcyan, penwidth=1];
+    "Latin America" -> "1972" [label="has time [Importance]", color=purple, penwidth=2];
+    "Latin America" -> "two" [label="has theme [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Latin America" -> "law school" [label="has theme [Departing]", color=lightpink, penwidth=1];
+    "Latin America" -> "1958" [label="has time [Cardinal_numbers]", color=purple, penwidth=2];
+    "Neustadt International Prize for Literature" -> "1972 Neustadt International..." [label="has theme [Receiving]", color=lightcyan, penwidth=1];
+    "Latin America" -> "critical" [label="has theme [Judgment_communication]", color=lightpink, penwidth=1];
+    "Latin America" -> "continent's" [label="has location [Hostile_encounter]", color=green, penwidth=2];
+    "Latin America" -> "Gabriel García Márquez" [label="has student [Education_teaching]", color=lightsteelblue, penwidth=1];
+    "Latin America" -> "worldwide" [label="has location [Commerce_sell]", color=green, penwidth=2];
+    "Neustadt International Prize for Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Macondo" -> "village" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Latin America" -> "Literature" [label="has location [Calendric_unit]", color=green, penwidth=2];
+    "Neustadt International Prize for Literature" -> "Gabriel García Márquez" [label="has recipient [Receiving]", color=lightcyan, penwidth=1];
+    "Gabriel García Márquez" -> "Spanish language" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "Gabriel García Márquez" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "Gabriel García Márquez" -> "works" [label="has theme [Labor_product]", color=lightgray, penwidth=1];
+    "Latin America" -> "as magic realism" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Typicality_legend" [label="Typicality", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Amalgamation_legend" [label="Amalgamation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

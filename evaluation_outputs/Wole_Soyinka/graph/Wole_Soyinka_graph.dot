@@ -1,0 +1,356 @@
+digraph Wole_Soyinka {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "full-time author" [label="full-time author", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "Nigerian author" [label="Nigerian author", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "country" [label="country", fillcolor=lightgreen, color=green, shape=box];
+    "country ’s" [label="country ’s", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "two translated works and ma..." [label="two translated works and ma...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "translated works" [label="translated works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "three novels, ten collectio..." [label="three novels, ten collectio...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writing short stories and m..." [label="writing short stories and m...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "1986 Nobel Prize in Literature" [label="1986 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "satirical writings" [label="satirical writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writings" [label="writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "these works" [label="these works", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "Born into an Anglican Yorub..." [label="Born into an Anglican Yorub...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Nigerians" [label="Nigerians", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2022" [label="2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a playwright and poet" [label="as a playwright and poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Ibadan" [label="University of Ibadan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "satirical" [label="satirical", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Oluwole Babatunde Soyinka GCON" [label="Oluwole Babatunde Soyinka GCON", fillcolor=lightgray, color=gray, shape=hexagon];
+    "considerable" [label="considerable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Government College Umuahia" [label="Government College Umuahia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nigeria and the UK" [label="Nigeria and the UK", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university's magazine, The ..." [label="university's magazine, The ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nigeria" [label="Nigeria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world's" [label="world's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University" [label="University", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anglican Yoruba" [label="Anglican Yoruba", fillcolor=lightgray, color=gray, shape=hexagon];
+    "articles" [label="articles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "period" [label="period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his " wide cultural perspec..." [label="his " wide cultural perspec...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wole Soyinka" [label="Wole Soyinka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into an Anglican Yoruba family" [label="into an Anglican Yoruba family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ak" [label="Ak", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Since" [label="Since", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York" [label="New York", fillcolor=lightgray, color=gray, shape=hexagon];
+    "records" [label="records", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "range" [label="range", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wide" [label="wide", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wide range of satirical wri..." [label="wide range of satirical wri...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Folake" [label="Folake", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazine" [label="magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of Africa's greatest..." [label="as one of Africa's greatest...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eagle British comics" [label="Eagle British comics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "University of Leeds" [label="University of Leeds", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soyinka's" [label="Soyinka's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "broad audience" [label="broad audience", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many plays which were perfo..." [label="many plays which were perfo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university's" [label="university's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "UK" [label="UK", fillcolor=lightgray, color=gray, shape=hexagon];
+    "dramatists" [label="dramatists", fillcolor=lightgray, color=gray, shape=hexagon];
+    "newspapers and periodicals" [label="newspapers and periodicals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published" [label="published", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was the editor of the un..." [label="he was the editor of the un...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "preparatory" [label="preparatory", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that period" [label="that period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theatres" [label="theatres", fillcolor=lightgray, color=gray, shape=hexagon];
+    "position of Arts Professor ..." [label="position of Arts Professor ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York University Abu Dhabi" [label="New York University Abu Dhabi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history" [label="history", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Since 1 September 2022" [label="Since 1 September 2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "individual poems" [label="individual poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soyinka has held the positi..." [label="Soyinka has held the positi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "radios and in theatres in N..." [label="radios and in theatres in N...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1934" [label="1934", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wife" [label="wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "study at the University of ..." [label="study at the University of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1986" [label="1986", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Government College, Ibadan" [label="Government College, Ibadan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arts" [label="Arts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1 September 2022" [label="1 September 2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arts Professor of Theatre" [label="Arts Professor of Theatre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BBC Lecture series" [label="BBC Lecture series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his third wife Folake Doherty" [label="his third wife Folake Doherty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Abu Dhabi" [label="Abu Dhabi", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Soyinka surname " [label="Soyinka surname ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "best" [label="best", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published collections" [label="published collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Africa" [label="Africa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "numerous" [label="numerous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1989" [label="1989", fillcolor=lightgray, color=gray, shape=hexagon];
+    "memoirs" [label="memoirs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "audience" [label="audience", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Aké, Abeokuta" [label="Aké, Abeokuta", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he produced a wide range of..." [label="he produced a wide range of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "13 July 1934" [label="13 July 1934", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1950s" [label="1950s", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Wole Soyinka" -> "university's magazine, The ..." [label="has theme [People_by_vocation]", color=lightblue, penwidth=1];
+    "Abu Dhabi" -> "New York University Abu Dhabi" [label="has location [Time_vector]", color=green, penwidth=2];
+    "Government College Umuahia" -> "works" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "Government College Umuahia" -> "Ak" [label="has location [Kinship]", color=green, penwidth=2];
+    "Eagle British comics" -> "magazine" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Nigerians" -> "stories" [label="has theme [Duration_description]", color=lightcyan, penwidth=1];
+    "Government College Umuahia" -> "collections" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Wole Soyinka" -> "name" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "Nigerians" -> "many" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Wole Soyinka" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wole Soyinka" -> "Since 1 September 2022" [label="has time [Defending]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "as one of Africa's greatest..." [label="has category [Categorization]", color=lightsalmon, penwidth=1];
+    "Wole Soyinka" -> "into an Anglican Yoruba family" [label="has theme [Being_born]", color=lightgoldenrod, penwidth=1];
+    "Nigerians" -> "author" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "period" [label="has theme [Frequency]", color=lightsteelblue, penwidth=1];
+    "Nigeria" -> "country ’s" [label="has participant [Individual_history]", color=lightcoral, penwidth=1];
+    "Government College Umuahia" -> "numerous" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Nigerians" -> "Soyinka surname " [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Government College Umuahia" -> "Government College, Ibadan" [label="has institution [Education_teaching]", color=lightcoral, penwidth=1];
+    "Government College Umuahia" -> "Wole Soyinka" [label="has artist [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "Nigerians" -> "works" [label="has theme [Translating]", color=lightyellow, penwidth=1];
+    "Government College Umuahia" -> "Nigeria and the UK" [label="has location [Buildings]", color=green, penwidth=2];
+    "Wole Soyinka" -> "Nigeria" [label="has location [Text]", color=green, penwidth=2];
+    "Nigeria" -> "plays" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Wole Soyinka" -> "short stories" [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "poems" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "range" [label="has object [Dimension]", color=lightcyan, penwidth=1];
+    "Nigerians" -> "1934" [label="has time [Fame]", color=purple, penwidth=2];
+    "Abu Dhabi" -> "Soyinka has held the positi..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "three novels, ten collectio..." [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Wole Soyinka" -> "University of Leeds" [label="has institution [Studying]", color=lightgray, penwidth=1];
+    "Africa" -> "dramatists" [label="has theme [Importance]", color=lightgoldenrodyellow, penwidth=1];
+    "Government College Umuahia" -> "published collections" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Abu Dhabi" -> "2022" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "Arts Professor of Theatre" [label="has position [Being_employed]", color=lightseagreen, penwidth=1];
+    "Eagle British comics" -> "Wole Soyinka" [label="has entity [Becoming]", color=lightsalmon, penwidth=1];
+    "Nigerians" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "BBC Lecture series" [label="has purpose [Cooking_creation]", color=lightgoldenrod, penwidth=1];
+    "Nobel Prize in Literature" -> "Wole Soyinka" [label="has recipient [Receiving]", color=lightpink, penwidth=1];
+    "Wole Soyinka" -> "New York University Abu Dhabi" [label="has theme [Being_employed]", color=lightseagreen, penwidth=1];
+    "Abu Dhabi" -> "New York University Abu Dhabi" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Abu Dhabi" -> "University" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Wole Soyinka" -> "two translated works and ma..." [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "1989" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Government College Umuahia" -> "Wole Soyinka" [label="has student [Education_teaching]", color=lightcoral, penwidth=1];
+    "Wole Soyinka" -> "Nigeria" [label="has theme [Departing]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "1986" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Nigerians" -> "best" [label="has degree [Fame]", color=lightsteelblue, penwidth=1];
+    "Government College Umuahia" -> "theatres" [label="has theme [Buildings]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "published" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Wole Soyinka" -> "2022" [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "Oluwole Babatunde Soyinka GCON" [label="has person [Being_born]", color=red, penwidth=2];
+    "Wole Soyinka" -> "writing short stories and m..." [label="has activity [Activity_start]", color=lightcoral, penwidth=1];
+    "Abu Dhabi" -> "New York" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Africa" -> "writers" [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Government College Umuahia" -> "which" [label="has act [Intentionally_act]", color=lightgreen, penwidth=1];
+    "Abu Dhabi" -> "2022" [label="has time [Time_vector]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "Since 1 September 2022" [label="has theme [Being_employed]", color=lightseagreen, penwidth=1];
+    "Abu Dhabi" -> "2022" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "1986 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightpink, penwidth=1];
+    "Nigerians" -> "1934" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Nigerians" -> "as a playwright and poet" [label="has role [Fame]", color=lightsteelblue, penwidth=1];
+    "Wole Soyinka" -> "Ak" [label="has location [Self_motion]", color=green, penwidth=2];
+    "Eagle British comics" -> "university's" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "stories" [label="has theme [Duration_description]", color=lightcyan, penwidth=1];
+    "Wole Soyinka" -> "many plays which were perfo..." [label="has text [Text_creation]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "that" [label="has theme [Arriving]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "these works" [label="has theme [Adjacency]", color=lightcyan, penwidth=1];
+    "Wole Soyinka" -> "his third wife Folake Doherty" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Nobel Prize in Literature" -> "his " wide cultural perspec..." [label="has theme [Receiving]", color=lightpink, penwidth=1];
+    "Abu Dhabi" -> "Since" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Nigerians" -> "memoirs" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "audience" [label="has group [Diversity]", color=lightgray, penwidth=1];
+    "Government College Umuahia" -> "stories" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Wole Soyinka" -> "UK" [label="has location [Activity_start]", color=green, penwidth=2];
+    "Nigerians" -> "poet" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Nigerians" -> "works" [label="has theme [Labor_product]", color=lightgreen, penwidth=1];
+    "Wole Soyinka" -> "Aké, Abeokuta" [label="has location [Being_born]", color=green, penwidth=2];
+    "Government College Umuahia" -> "Wole Soyinka" [label="has theme [Cooking_creation]", color=lightgoldenrod, penwidth=1];
+    "Government College Umuahia" -> "that" [label="has theme [Desirability]", color=lightgoldenrodyellow, penwidth=1];
+    "Nigerians" -> "plays" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "he produced a wide range of..." [label="has theme [Adjacency]", color=lightcyan, penwidth=1];
+    "Wole Soyinka" -> "Born into an Anglican Yorub..." [label="has theme [Self_motion]", color=lightyellow, penwidth=1];
+    "Nigerians" -> "short stories" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Nigerians" -> "poetry" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Government College Umuahia" -> "radios and in theatres in N..." [label="has location [Intentionally_act]", color=green, penwidth=2];
+    "Government College Umuahia" -> "Anglican Yoruba" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Government College Umuahia" -> "broad audience" [label="has goal [Arriving]", color=lightpink, penwidth=1];
+    "Eagle British comics" -> "1950s" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Nigeria" -> "plays" [label="has theme [Performing_arts]", color=lightseagreen, penwidth=1];
+    "Eagle British comics" -> "full-time author" [label="has theme [Becoming]", color=lightsalmon, penwidth=1];
+    "Wole Soyinka" -> "1989" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Government College Umuahia" -> "records" [label="has theme [Cooking_creation]", color=lightgoldenrod, penwidth=1];
+    "Wole Soyinka" -> "New York University Abu Dhabi" [label="has location [Defending]", color=green, penwidth=2];
+    "Abu Dhabi" -> "Arts" [label="has theme [Education_teaching]", color=lightcoral, penwidth=1];
+    "Government College Umuahia" -> "that period" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Government College Umuahia" -> "individual poems" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Government College Umuahia" -> "wide range of satirical wri..." [label="has theme [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "Government College Umuahia" -> "he was the editor of the un..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Government College Umuahia" -> "wife" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "Abu Dhabi" -> "New York University Abu Dhabi" [label="has location [Political_locales]", color=green, penwidth=2];
+    "Nigerians" -> "articles" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Nigerians" -> "collections" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Folake" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Wole Soyinka" -> "University of Ibadan" [label="has goal [Self_motion]", color=lightyellow, penwidth=1];
+    "Government College Umuahia" -> "wide" [label="has theme [Dimension]", color=lightcyan, penwidth=1];
+    "Wole Soyinka" -> "New York University Abu Dhabi" [label="has location [Being_employed]", color=green, penwidth=2];
+    "Government College Umuahia" -> "Ak" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Wole Soyinka" -> "position of Arts Professor ..." [label="has theme [Defending]", color=lightseagreen, penwidth=1];
+    "Nigerians" -> "newspapers and periodicals" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Wole Soyinka" -> "Nigeria" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Government College Umuahia" -> "satirical" [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "considerable" [label="has degree [Desirability]", color=lightgoldenrodyellow, penwidth=1];
+    "Nigerians" -> "articles" [label="has theme [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Nigeria" -> "many" [label="has quantity [Quantified_mass]", color=lightgoldenrodyellow, penwidth=1];
+    "Wole Soyinka" -> "study at the University of ..." [label="has purpose [Departing]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "1989" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Nigerians" -> "stories" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "satirical writings" [label="has group [Diversity]", color=lightgray, penwidth=1];
+    "Nigerians" -> "two" [label="has theme [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Africa" -> "world's" [label="has theme [Importance]", color=lightgoldenrodyellow, penwidth=1];
+    "Government College Umuahia" -> "poet" [label="has agent [Accomplishment]", color=lightpink, penwidth=1];
+    "Nigerians" -> "translated works" [label="has entity [Cardinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Nigeria" -> "country" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Nigerians" -> "Nigerian author" [label="has entity [Fame]", color=lightsteelblue, penwidth=1];
+    "Abu Dhabi" -> "New York University Abu Dhabi" [label="has institution [Education_teaching]", color=lightcoral, penwidth=1];
+    "Wole Soyinka" -> "13 July 1934" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Nigerians" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Africa" -> "most" [label="has degree [Importance]", color=lightgoldenrodyellow, penwidth=1];
+    "Government College Umuahia" -> "family" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Government College Umuahia" -> "writings" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Nigeria" -> "history" [label="has theme [Individual_history]", color=lightcoral, penwidth=1];
+    "Abu Dhabi" -> "1 September 2022" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Wole Soyinka" -> "Soyinka's" [label="has author [Text]", color=lightpink, penwidth=1];
+    "Government College Umuahia" -> "preparatory" [label="has skill [Education_teaching]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Defending_legend" [label="Defending", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Individual_history_legend" [label="Individual_history", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Dimension_legend" [label="Dimension", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cooking_creation_legend" [label="Cooking_creation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Departing_legend" [label="Departing", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Self_motion_legend" [label="Self_motion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Adjacency_legend" [label="Adjacency", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Diversity_legend" [label="Diversity", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Accomplishment_legend" [label="Accomplishment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

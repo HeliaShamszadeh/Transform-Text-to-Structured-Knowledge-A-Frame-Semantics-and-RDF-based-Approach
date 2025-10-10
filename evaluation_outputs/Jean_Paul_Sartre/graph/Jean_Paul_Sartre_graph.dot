@@ -1,0 +1,225 @@
+digraph Jean_Paul_Sartre {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "1964 Nobel Prize in Literature" [label="1964 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His work" [label="His work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "dominant theme of Sartre's ..." [label="dominant theme of Sartre's ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "way" [label="way", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "France" [label="France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father" [label="his father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin Heidegger" [label="Martin Heidegger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "authentic" [label="authentic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "official" [label="official", fillcolor=lightgray, color=gray, shape=hexagon];
+    " being" [label=" being", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1943" [label="1943", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theme" [label="theme", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Simone de Beauvoir" [label="Simone de Beauvoir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "refuse it" [label="refuse it", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prestigious École Normale S..." [label="prestigious École Normale S...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figures" [label="figures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "open" [label="open", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "leading figure in 20th-cent..." [label="leading figure in 20th-cent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "philosophy" [label="philosophy", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prominent feminist and fell..." [label="prominent feminist and fell...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th-century French philoso..." [label="20th-century French philoso...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1964" [label="1964", fillcolor=lightgray, color=gray, shape=hexagon];
+    "not allow himself to be tur..." [label="not allow himself to be tur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that he always declined off..." [label="that he always declined off...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "despite attempting to refus..." [label="despite attempting to refus...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jean-Paul Sartre" [label="Jean-Paul Sartre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "conflict between oppressive..." [label="conflict between oppressive...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "honors" [label="honors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "thinkers like Henri Bergson..." [label="thinkers like Henri Bergson...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beijing" [label="Beijing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age two" [label="age two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "deep" [label="deep", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bad faith existentialism" [label="Bad faith existentialism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sociology, critical theory,..." [label="sociology, critical theory,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their upbringings" [label="their upbringings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both lifestyles and thought" [label="both lifestyles and thought", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be turned into an institution" [label="be turned into an institution", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his mother and grandfather,..." [label="his mother and grandfather,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sartre and de Beauvoir" [label="Sartre and de Beauvoir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure" [label="figure", fillcolor=lightgray, color=gray, shape=hexagon];
+    "École normale supérieure Paris" [label="École normale supérieure Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sartre disambiguation" [label="Sartre disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "declined official honors" [label="declined official honors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paris" [label="Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between oppressive, spiritu..." [label="between oppressive, spiritu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "bourgeois" [label="bourgeois", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Paris" -> "Jean-Paul Sartre" [label="has theme [Growing_food]", color=lightblue, penwidth=1];
+    "Beijing" -> "Literature" [label="has location [Compliance]", color=green, penwidth=2];
+    "Beijing" -> "Literature" [label="has location [Statement]", color=green, penwidth=2];
+    "Beijing" -> "Literature" [label="has location [Desirable_event]", color=green, penwidth=2];
+    "Jean-Paul Sartre" -> "leading figure in 20th-cent..." [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Jean-Paul Sartre" -> "his father" [label="has theme [Forming_relationships]", color=lightcyan, penwidth=1];
+    "Beijing" -> "20th-century French philoso..." [label="has theme [First_rank]", color=lightsteelblue, penwidth=1];
+    "Jean-Paul Sartre" -> "Paris" [label="has location [Being_born]", color=green, penwidth=2];
+    "France" -> "Sartre disambiguation" [label="has theme [Reference_text]", color=lightgoldenrodyellow, penwidth=1];
+    "Nobel Prize in Literature" -> "1964 Nobel Prize in Literature" [label="has theme [Receiving]", color=lightseagreen, penwidth=1];
+    "Jean-Paul Sartre" -> "thinkers like Henri Bergson..." [label="has theme [Subjective_influence]", color=lightsalmon, penwidth=1];
+    "Beijing" -> "early" [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "Beijing" -> "theme" [label="has theme [Dominate_situation]", color=lightpink, penwidth=1];
+    "Beijing" -> "writer" [label="has agent [Preventing_or_letting]", color=lightsteelblue, penwidth=1];
+    "Jean-Paul Sartre" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Beijing" -> "not allow himself to be tur..." [label="has theme [Desirable_event]", color=lightyellow, penwidth=1];
+    "Beijing" -> "1943" [label="has time [Dominate_situation]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "1964" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Beijing" -> "Literature" [label="has location [Preventing_or_letting]", color=green, penwidth=2];
+    "Paris" -> "his mother and grandfather,..." [label="has theme [Growing_food]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "despite attempting to refus..." [label="has theme [Receiving]", color=lightseagreen, penwidth=1];
+    "Beijing" -> "1943" [label="has time [Means]", color=purple, penwidth=2];
+    "Bad faith existentialism" -> "dominant theme of Sartre's ..." [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "Beijing" -> "refuse it" [label="has goal [Attempt]", color=lightgreen, penwidth=1];
+    "Nobel Prize in Literature" -> "Jean-Paul Sartre" [label="has recipient [Receiving]", color=lightseagreen, penwidth=1];
+    "Jean-Paul Sartre" -> "open" [label="has theme [Relation]", color=lightyellow, penwidth=1];
+    "Simone de Beauvoir" -> "Sartre and de Beauvoir" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Beijing" -> "His work" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "Martin Heidegger" -> "philosophy" [label="has theme [Emotion_directed]", color=lightcyan, penwidth=1];
+    "Jean-Paul Sartre" -> "Paris" [label="has location [Forming_relationships]", color=green, penwidth=2];
+    "Beijing" -> "1964" [label="has time [Compliance]", color=purple, penwidth=2];
+    "Jean-Paul Sartre" -> "prominent feminist and fell..." [label="has theme [Relation]", color=lightyellow, penwidth=1];
+    "Beijing" -> "sociology, critical theory,..." [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "Nobel Prize in Literature" -> "which" [label="has item [Categorization]", color=lightpink, penwidth=1];
+    "Beijing" -> "be turned into an institution" [label="has event [Preventing_or_letting]", color=lightsteelblue, penwidth=1];
+    "Beijing" -> "1964" [label="has time [Preventing_or_letting]", color=purple, penwidth=2];
+    "Martin Heidegger" -> "deep" [label="has degree [Emotion_directed]", color=lightcyan, penwidth=1];
+    "Nobel Prize in Literature" -> "bourgeois" [label="has category [Categorization]", color=lightpink, penwidth=1];
+    "Jean-Paul Sartre" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Bad faith existentialism" -> "conflict between oppressive..." [label="has entity [Becoming]", color=lightcoral, penwidth=1];
+    "France" -> "uses" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+    "Beijing" -> "declined official honors" [label="has event [Frequency]", color=lightgray, penwidth=1];
+    "Beijing" -> "Literature" [label="has location [Frequency]", color=green, penwidth=2];
+    "Beijing" -> "1964" [label="has time [Frequency]", color=purple, penwidth=2];
+    "Beijing" -> "honors" [label="has theme [Compliance]", color=lightcoral, penwidth=1];
+    "Beijing" -> " being" [label="has purpose [Means]", color=lightblue, penwidth=1];
+    "Jean-Paul Sartre" -> "1955" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Beijing" -> "1964" [label="has time [Attempt]", color=purple, penwidth=2];
+    "Beijing" -> "1964" [label="has time [Statement]", color=purple, penwidth=2];
+    "Beijing" -> "figure" [label="has item [First_rank]", color=lightsteelblue, penwidth=1];
+    "École normale supérieure Paris" -> "prestigious École Normale S..." [label="has institution [Studying]", color=lightgoldenrodyellow, penwidth=1];
+    "École normale supérieure Paris" -> "Jean-Paul Sartre" [label="has student [Studying]", color=lightgoldenrodyellow, penwidth=1];
+    "Bad faith existentialism" -> "1943" [label="has time [Hostile_encounter]", color=purple, penwidth=2];
+    "Beijing" -> "figures" [label="has theme [Importance]", color=lightsalmon, penwidth=1];
+    "Beijing" -> "official" [label="has degree [Compliance]", color=lightcoral, penwidth=1];
+    "Beijing" -> "work" [label="has theme [Temporal_subregion]", color=lightgoldenrod, penwidth=1];
+    "Jean-Paul Sartre" -> "Beijing" [label="has location [Categorization]", color=green, penwidth=2];
+    "Nobel Prize in Literature" -> "both lifestyles and thought" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "Bad faith existentialism" -> "between oppressive, spiritu..." [label="has theme [Hostile_encounter]", color=lightseagreen, penwidth=1];
+    "Jean-Paul Sartre" -> "Paris" [label="has location [Kinship]", color=green, penwidth=2];
+    "Paris" -> "two" [label="has age [Age]", color=lightgoldenrod, penwidth=1];
+    "Bad faith existentialism" -> "1943" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Beijing" -> "1943" [label="has time [Temporal_subregion]", color=purple, penwidth=2];
+    "Beijing" -> "authentic" [label="has theme [Means]", color=lightblue, penwidth=1];
+    "Nobel Prize in Literature" -> "Simone de Beauvoir" [label="has theme [Categorization]", color=lightpink, penwidth=1];
+    "Beijing" -> "Literature" [label="has location [Attempt]", color=green, penwidth=2];
+    "Beijing" -> "way" [label="has means [Means]", color=lightblue, penwidth=1];
+    "Jean-Paul Sartre" -> "age two" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Beijing" -> "that he always declined off..." [label="has message [Statement]", color=lightgreen, penwidth=1];
+    "Beijing" -> "1964" [label="has time [Desirable_event]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "Literature" [label="has location [Receiving]", color=green, penwidth=2];
+    "Beijing" -> "1955" [label="has time [First_rank]", color=purple, penwidth=2];
+    "Beijing" -> "their upbringings" [label="has theme [Expectation]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Compliance_legend" [label="Compliance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Desirable_event_legend" [label="Desirable_event", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Dominate_situation_legend" [label="Dominate_situation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Preventing_or_letting_legend" [label="Preventing_or_letting", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Means_legend" [label="Means", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Expectation_legend" [label="Expectation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

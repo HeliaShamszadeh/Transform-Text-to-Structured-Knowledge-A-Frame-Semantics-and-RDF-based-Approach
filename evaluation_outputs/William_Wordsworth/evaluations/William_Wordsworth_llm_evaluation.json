@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Being_named:has_theme as the Lake District",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the Lake District is a scenic region in northwestern England, creating a thematic connection between England and the Lake District."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Being_named:has_location http://en.wikipedia.org/wiki/English_language",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Wordsworth is described as an 'English Romantic poet' and wrote in English, the triple suggests a 'location' relationship to the language itself, which is not supported by the paragraph's semantic meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Origin:has_theme http://en.wikipedia.org/wiki/English_language",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Wordsworth's 'magnum opus' (masterpiece) 'The Prelude' is part of 'English literature,' implying a strong thematic connection to the English language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Calendric_unit:has_theme years",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The masterpiece 'The Prelude' is described as 'a semi-autobiographical poem of his early years,' directly linking the concept of a masterpiece to the theme of years."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Vehicle:has_theme ship",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "A ship is mentioned in the context of Wordsworth's brother John, who 'went to sea' and died when 'the ship of which he was captain' was wrecked. This creates a weak but valid thematic connection to vehicles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Origin:has_entity poetry",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Wordsworth's 'magnum opus' (a masterpiece) 'The Prelude', which is a poem, and he is described as a poet whose work is part of English poetry. There is a semantic link between masterpiece and poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Being_born:has_time 7 April 1770",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The date of birth is explicitly stated in the text: 'William Wordsworth was born on 7 April 1770'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Romanticism Text:has_location http://en.wikipedia.org/wiki/English_language",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses the 'Romantic Age in English literature', which strongly implies that Romanticism (the movement) is associated with texts written in the English language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Text_creation:has_text http://en.wikipedia.org/wiki/English_language",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The masterpiece 'The Prelude' is by an English poet and part of 'English literature', making it reasonable to infer the text is in the English language."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Text_creation:has_author his wife",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The text states the masterpiece 'The Prelude' was 'published by his wife'. While publishing is not the same as authorship, there is a weak semantic connection in the context of the masterpiece's creation and publication history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth State_continue:has_location http://en.wikipedia.org/wiki/English_language",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Wordsworth is described as an 'English Romantic poet' and a key figure in 'English literature' and 'English poetry', creating a semantic connection to the English language as his medium and cultural context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cumbria Interior_profile_relation:has_time now",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Cumbria is mentioned as a historical location (Cumberland, now Cumbria), but the paragraph contains no information about its current state or a temporal relation to 'now'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Quantified_mass:has_theme times",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Wordsworth's 'magnum opus' (masterpiece) was 'revised and expanded a number of times'. This weakly connects the concept of a masterpiece to the theme of 'times' (revisions over time)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Text:has_text poets",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph repeatedly mentions 'poets' (Romantic poet, poet and diarist Dorothy Wordsworth, Romantic poets) in the context of English literature and poetry, creating a semantic link between the English language and poets."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Prelude Being_named:has_entity Prelude",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Wordsworth's magnum opus is generally considered to be The Prelude', directly linking the entity 'The Prelude' to the work itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Becoming_a_member:has_theme who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically incomplete and semantically incoherent. The phrase 'who' does not form a meaningful relationship with 'Masterpiece' in the context of the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Importance:has_theme Romantic poets",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses 'English literature', the 'Romantic Age', and 'Romantic poets'. While 'English language' is not explicitly mentioned, the context of English literature and poetry provides a reasonable, though indirect, semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Prelude Being_named:has_theme as \" The Poem to Coleridge",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Wordsworth's work 'The Prelude' was generally known as 'The Poem to Coleridge' before being published under its final title."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Vehicle:has_theme which he was captain, the Earl of Abergavenny",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions the ship 'Earl of Abergavenny' and that John Wordsworth was its captain. The connection to 'Masterpiece' is extremely weak and indirect, but the ship is a 'vehicle' and is thematically present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Buildings:has_theme http://en.wikipedia.org/wiki/William_Wordsworth",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Wordsworth was born in 'Wordsworth House' in 'Cockermouth'. This establishes a clear thematic connection between the building/location (Cockermouth) and the person (William Wordsworth)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Wordsworth Being_born:has_person William's sister, the poet and diarist Dorothy Wordsworth, to whom he was close all his life,",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is malformed and the relationship is unclear. The paragraph states John Wordsworth is the father, but the object 'William's sister...' is not a valid entity for a 'has_person' property from John Wordsworth. The intended meaning is not extractable in this form."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Assistance:has_theme launch the Romantic Age in English literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions launching 'the Romantic Age in English literature'. While 'English language' is not explicitly named, 'English literature' is a direct and semantically related concept, making the connection to the theme reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Reveal_secret:has_theme number of times",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically valid. The phrase 'revised and expanded a number of times' describes an action (revision) on a poem, which could be loosely interpreted as 'revealing' new versions. The confidence is low due to the indirectness."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Sensation:has_theme region in northwestern England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Cockermouth is explicitly mentioned as being in Cumberland, which is described as 'part of the scenic region in northwestern England known as the Lake District'. This provides a clear semantic connection between the location and the theme of being a region in northwestern England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Locale_by_use:has_theme Trinity",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Master of Trinity College, Cambridge'. While 'Masterpiece' and 'Master' are different concepts, there is a weak semantic link through the word root. The property 'Locale_by_use:has_theme Trinity' finds a connection as 'Trinity College' is a locale. The connection is tenuous but present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Political_locales:has_theme town",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'magnum opus' (masterpiece) and 'small town', but there is no semantic connection suggesting the masterpiece has a theme related to a town. The concepts are entirely separate in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Prelude Being_born:has_theme John Wordsworth and Ann Cookson",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly links the poem 'The Prelude' to the theme of 'Being_born' with the parents. The paragraph states 'The Prelude' is a semi-autobiographical poem of his early years, but the parents are mentioned in the context of his birth, not as a theme of the poem itself. The connection is semantically invalid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth State_continue:has_state one of the most recognizable names in English poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'He remains one of the most recognizable names in English poetry'. This directly supports the semantic meaning of the subject being in a continued state of recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Ordinal_numbers:has_type five children born to John Wordsworth and Ann Cookson",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple links the town 'Cockermouth' to the type 'five children'. The paragraph mentions Cockermouth as Wordsworth's birthplace and separately mentions he was the 'second of five children'. There is no semantic relationship between the town and the number of children; this is a spurious connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Kinship:has_theme sister",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'William's sister, the poet and diarist Dorothy Wordsworth', providing a clear and direct semantic connection for a kinship theme of 'sister'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Assistance:has_theme who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically incomplete and semantically unclear. The paragraph mentions 'English literature' and 'English poetry,' but the predicate 'Assistance:has_theme' and the object 'who' do not form a coherent statement that can be mapped to the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Locale:has_theme northwestern England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Cockermouth is 'part of the scenic region in northwestern England.' This is a direct semantic match for the triple's assertion of a location having a theme of being in northwestern England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Buildings:has_theme mansion",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is very weak but semantically possible. 'Masterpiece' could be loosely associated with 'magnum opus' (The Prelude), and 'mansion' is mentioned as the poet's father's residence. The triple's specific relation is not directly stated, but the concepts are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Cause_expansion:has_item semi-autobiographical poem of his early years that",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that Wordsworth's 'magnum opus is generally considered to be The Prelude, a semi-autobiographical poem of his early years.' The triple's subject and object are clearly present, and the predicate 'has_item' is a reasonable, lenient interpretation of this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Event_instance:has_theme number of times",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'The Prelude' was 'revised and expanded a number of times.' 'Masterpiece' can be associated with 'magnum opus' (The Prelude), and the 'number of times' is thematically linked to the event of revising/expanding it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Becoming:has_entity who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is syntactically and semantically incoherent. The concept of a 'Masterpiece' having an entity 'who' is not present or reasonably inferable from the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Kinship:has_theme siblings",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly lists Wordsworth's siblings (Richard, Dorothy, John, Christopher), establishing a clear kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Age:has_age youngest",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph discusses Wordsworth's 'magnum opus' (The Prelude), but there is no information connecting a masterpiece to an age or a 'youngest' attribute. The term 'youngest' is used only for his sibling Christopher."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Size:has_entity mansion",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "A mansion is mentioned in the paragraph, but it is the house Wordsworth's father lived in. There is no connection between a 'Masterpiece' and a 'mansion' in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard People_by_age:has_age eldest",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Richard, the eldest', providing a clear and direct match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/English_language Text:has_text poetry",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'English poetry' and 'English literature', creating a semantic connection between the English language and poetry, though not a direct 'has_text' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/William_Wordsworth Reference_text:has_theme Wordsworth (disambiguation)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Wordsworth redirects here. For other uses, see Wordsworth (disambiguation)', directly linking William Wordsworth to the disambiguation theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Locale:has_theme region",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Cockermouth is mentioned as being in Cumberland, 'part of the scenic region... known as the Lake District', creating a semantic connection between the locale and a region theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Temporal_subregion:has_theme years",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions Wordsworth's 'magnum opus' (masterpiece) 'The Prelude' being about 'his early years', creating a weak but valid semantic link between masterpiece and years."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge Death:has_theme pleurisy",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While pleurisy is mentioned as Wordsworth's cause of death, and Coleridge is mentioned in the text, the connection is very indirect but exists through their collaborative relationship in the Romantic movement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Becoming_a_member:has_group Church",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak connection: The paragraph mentions Wordsworth's brother Christopher 'entered the Church'. While 'Masterpiece' could be linked to 'The Prelude' and 'Church' is mentioned, the relationship 'has_group' is not directly established between these concepts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Romanticism Text:has_text http://en.wikipedia.org/wiki/Lyrical_Ballads",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Strong connection: The paragraph explicitly states Wordsworth helped launch the Romantic Age with the joint publication 'Lyrical Ballads'. This directly links Romanticism (the movement) to the text Lyrical Ballads."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Relational_natural_features:has_theme http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Reasonable connection: Wordsworth was an English poet, and his works are central to English literature. His masterpiece 'The Prelude' is semi-autobiographical and his life was set in England (Cockermouth, Lake District), implying a thematic connection to the country."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Masterpiece Calendric_unit:has_theme his death",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak connection: The paragraph mentions his masterpiece 'The Prelude' was published posthumously in the year of his death. This creates a calendric/temporal link between the masterpiece and the event of his death, though the relationship 'has_theme' is a stretch."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Cockermouth Buildings:has_theme House",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Clear connection: The paragraph states Wordsworth was born in 'what is now named Wordsworth House in Cockermouth'. This directly associates the place (Cockermouth) with a specific building (Wordsworth House)."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 31,
+    "accuracy": 0.62,
+    "avg_confidence": 0.544,
+    "high_confidence_50": 31,
+    "high_confidence_80": 16,
+    "percent_50": 62.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

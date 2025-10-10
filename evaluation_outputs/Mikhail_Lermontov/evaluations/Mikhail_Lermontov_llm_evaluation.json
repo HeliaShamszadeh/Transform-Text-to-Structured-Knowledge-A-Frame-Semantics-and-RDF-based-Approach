@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Being_born:has_location http://en.wikipedia.org/wiki/Moscow",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Lermontov was born on October 15, 1814 in Moscow'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Motion:has_theme his grandmother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'In 1827, Lermontov moved to Moscow with his grandmother', which implies motion with his grandmother as a theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Zealand Catching_fire:has_time 1986",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions New Zealand and 1986 in the context of a ship sinking (MS Mikhail Lermontov), not catching fire"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text_creation:has_time 15 July] 1841)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lermontov was a Russian writer who died on 27 July [O.S. 15 July] 1841, which is semantically related to text creation timeframe in Russia"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text_creation:has_location Russian Romanticism",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Lermontov is described as 'the greatest figure in Russian Romanticism' and was a Russian writer, connecting Russian location to the Romanticism literary movement"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Origin:has_location Russian Romanticism",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Lermontov was a key figure in Russian Romanticism, which semantically connects the concept of 'Russian Romanticism' to the country Russia, implying its origin location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Death:has_time 1837",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Alexander Pushkin's death in 1837 and states Lermontov became the most important Russian poet after that event. This creates a semantic link between Russia and the significant event of a death occurring in 1837."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Growing_food:has_location http://en.wikipedia.org/wiki/Tarkhany",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The predicate 'Growing_food:has_location' is completely unrelated to the information in the paragraph. While Lermontov's growing up/location in Tarkhany is mentioned, it has no connection to the concept of growing food."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Personal_relationship:has_theme marriage",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses the unhappy marriage of Lermontov's parents in the context of his Russian family life. This provides a weak but valid semantic connection between Russia and the theme of marriage."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Becoming_a_member:has_group Moscow University's boarding school",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Lermontov 'joined the Moscow University's boarding school,' which directly corresponds to the subject becoming a member of that group."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Importance:has_theme Russian poet",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states Lermontov was a 'Russian poet' and a key figure in Russian Romanticism, establishing a strong semantic connection between Russia and the theme of Russian poetry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_theme psychological",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Lermontov's prose 'founded the tradition of the Russian psychological novel'. This creates a reasonable, though indirect, link between Russia and the psychological theme through his literary influence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Objective_influence:has_theme Russian literature",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and discusses Lermontov's 'influence on Russian literature'. This is a weak but valid semantic connection, as East Slavic languages are related to the cultural context of Russian literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Temporal_collocation:has_theme 1827",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and the year '1827'. While the connection is very weak and merely co-occurring, a lenient interpretation allows for a temporal collocation theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Personal_relationship:has_location http://en.wikipedia.org/wiki/Tarkhany",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Lermontov...grew up in Tarkhany', which is a clear personal relationship of having a location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Improvement_or_decline:has_entity Maria's health",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Maria's health deteriorated', which is an 'improvement_or_decline' event. The connection to 'East Slavic languages' is extremely weak, but the text does mention 'East Slavic naming customs', providing a minimal semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow_State_University Locale_by_use:has_theme school",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Moscow University's boarding school'. While it's not explicitly 'Moscow State University', the concepts of a university and a school are thematically related to 'Locale_by_use:has_theme school'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Zealand Reference_text:has_time 1986",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'the ocean liner which sank in New Zealand in 1986', directly linking New Zealand and the year 1986 in a referential context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses family relationships (Lermontov family, father, mother, grandmother) and mentions 'East Slavic naming customs'. While the connection is indirect, family is a theme in the text and is loosely associated with the East Slavic context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Temporal_collocation:has_theme Lermontov moved to Moscow with his grandmother and joined the Moscow University's boarding school",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The specific event of moving to Moscow and joining the school is clearly stated. The connection to 'East Slavic languages' is very weak, but the text begins with a reference to 'East Slavic naming customs', providing a minimal thematic link for a temporal collocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages People:has_theme lonely and introspective",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Lermontov's development as a 'lonely and introspective individual', which is a theme related to a person. The subject URI is incorrect, but the theme itself is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Being_born:has_time October 15, 1814",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Lermontov was born on October 15, 1814'. The subject is correct and the time is directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Foreign_or_domestic_country:has_theme home",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions 'home education'. While the subject URI is completely wrong and the connection is very weak, the concept of 'home' is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Causation:has_effect his development as a lonely and introspective individual",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph describes a causal relationship: 'His grandmother's strict control caused him emotional turmoil, leading to his development as a lonely and introspective individual.' The subject URI is wrong, but the causation effect is clearly described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Being_born:has_theme into the Lermontov family",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Lermontov was born on October 15, 1814 in Moscow into the Lermontov family'. The subject is correct and the family association at birth is directly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Zealand Supply:has_means nurturing his talents in languages, music, and painting",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions New Zealand only in the context of a shipwreck, which is semantically disconnected from the 'nurturing his talents' clause. There is no reasonable link between the subject (New Zealand) and the predicate/object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Military:has_theme military",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately mentions Lermontov's father was a 'military officer'. While the connection is very weak and indirect, a lenient interpretation could link the cultural context (East Slavic) to a theme present in the biography (military)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Death:has_time 1817",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately states Lermontov's mother 'died of tuberculosis in 1817'. The connection is extremely weak and indirect, but a lenient interpretation could link the cultural context to a death event with a specific time mentioned in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_Zealand Kinship:has_theme grandmother",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions New Zealand only in the context of a shipwreck, which is semantically disconnected from the theme of 'grandmother' discussed later in Lermontov's biography. There is no reasonable link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Causation:has_theme http://en.wikipedia.org/wiki/Mikhail_Lermontov",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph begins by stating the text follows 'East Slavic naming customs' and is entirely about Mikhail Lermontov. A lenient, thematic interpretation could see the naming customs as a cultural context (theme) associated with the subject of the article."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Being_in_control:has_theme His grandmother's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'His grandmother's strict control' which is semantically related to the concept of 'Being_in_control' having 'His grandmother's' as a theme, though the connection to 'East_Slavic_languages' is extremely weak and only exists via the naming customs mention."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages People_by_vocation:has_person Maria Mikhaylovna Arsenyeva",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Maria Mikhaylovna Arsenyeva is mentioned in the paragraph as Lermontov's mother. The connection to 'People_by_vocation' is weak but valid as she is a person, and the link to 'East_Slavic_languages' is tenuously supported by the mention of East Slavic naming customs."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Becoming_a_member:has_time 1827",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1827, Lermontov... joined the Moscow University's boarding school.' This directly supports the subject 'Mikhail_Lermontov' undergoing a 'Becoming_a_member' event (joining) at the time '1827'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Motion:has_goal http://en.wikipedia.org/wiki/Moscow",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Lermontov moved to Moscow with his grandmother'. This clearly describes a motion event with the goal being Moscow."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Death:has_theme Maria",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states 'she (Maria) died of tuberculosis in 1817'. This supports 'Death' having 'Maria' as a theme. The connection to 'East_Slavic_languages' is weak but exists via the initial mention of East Slavic naming customs."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Labeling:has_location Russian Romanticism",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Lermontov was a key figure in 'Russian Romanticism', which by its name is associated with Russia. The 'Labeling:has_location' relationship can be inferred as the movement is defined by its Russian cultural context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Quarreling:has_issue over Lermontov's custody",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions a 'family dispute' over custody, but this is entirely unrelated to the subject 'East Slavic languages'. There is no semantic connection between the language family and the custody issue."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_location Russian Romanticism",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Similar to the first triple, 'Russian Romanticism' is explicitly mentioned and is intrinsically linked to the location/culture of Russia. The relationship 'Text:has_location' is a reasonable semantic interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Temporal_collocation:has_theme times",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'modern times' in the context of Lermontov's influence, but this is not thematically linked to 'East Slavic languages'. The subject and object of the triple are completely disconnected from each other in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Causation:has_effect his grandmother, Elizaveta Arsenyeva, raising him",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that 'A family dispute ensued over Lermontov's custody, resulting in his grandmother... raising him.' This clearly describes a causal chain of events where the dispute (the cause related to Lermontov) had the effect of his grandmother raising him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow_State_University Locale_by_use:has_theme boarding",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Lermontov 'joined the Moscow University's boarding school'. While 'Moscow State University' is not explicitly named, the phrase 'Moscow University's boarding school' is a strong thematic connection to a university and a boarding theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow Locale_by_use:has_theme University",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Moscow University's boarding school'. This directly links the locale (Moscow) to the theme of a University."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Temporal_subregion:has_theme life",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' in a single introductory sentence. There is no connection made between East Slavic languages and a temporal concept like 'life' or a 'subregion'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Moscow_State_University Locale_by_use:has_theme Moscow University's",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The phrase 'Moscow University's' is directly quoted from the text. The triple's subject is a specific university in Moscow, making this a reasonable, though not exact, extraction of the theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Performing_arts:has_theme music",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'East Slavic naming customs' and separately mentions 'music' as part of Lermontov's education. There is no semantic link established in the text between East Slavic languages and the performing art of music."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Labeling:has_theme the poet of the Caucasus",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Lermontov is described as a 'Russian Romantic writer, poet and painter, sometimes called \"the poet of the Caucasus\"'. While the triple's subject is 'Russia' and the paragraph's subject is a 'Russian' person, there is a semantic connection through nationality and the theme of his epithet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Kinship:has_theme grandmother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Lermontov's grandmother, Elizaveta Arsenyeva, and describes her role in raising him, establishing a clear kinship relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Causation:has_cause His grandmother's strict control caused him emotional turmoil",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' is completely unrelated to the causal event described in the object. The paragraph mentions East Slavic naming customs, but not in a causal relationship with his grandmother's control or his emotional turmoil."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Mikhail_Lermontov Causation:has_cause family dispute ensued over Lermontov's custody",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'A family dispute ensued over Lermontov's custody', which directly describes an event (a dispute) concerning the subject (Lermontov). The causation predicate is a reasonable, though slightly abstract, interpretation of this sequence of events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/East_Slavic_languages Causation:has_cause his grandmother, Elizaveta Arsenyeva",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The subject 'East Slavic languages' and the object 'his grandmother' have no causal relationship mentioned or implied in the paragraph. The only mention of East Slavic is related to naming customs, not his grandmother."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 26,
+    "accuracy": 0.52,
+    "avg_confidence": 0.5120000000000002,
+    "high_confidence_50": 26,
+    "high_confidence_80": 16,
+    "percent_50": 52.0,
+    "percent_80": 32.0,
+    "max_triples_limit": 50
+  }
+}

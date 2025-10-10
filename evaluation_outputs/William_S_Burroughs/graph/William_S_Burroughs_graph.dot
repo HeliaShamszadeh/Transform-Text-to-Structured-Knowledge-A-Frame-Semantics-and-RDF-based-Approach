@@ -1,0 +1,343 @@
+digraph William_S_Burroughs {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer and visual artist" [label="writer and visual artist", fillcolor=lightcoral, color=red, shape=circle];
+    "postmodern author who influ..." [label="postmodern author who influ...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "while living in New York City" [label="while living in New York City", fillcolor=lightgreen, color=green, shape=box];
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+    "living in New York City" [label="living in New York City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "visual artworks" [label="visual artworks", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Five books of his interview..." [label="Five books of his interview...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "18 novels and novellas, six..." [label="18 novels and novellas, six...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "artworks" [label="artworks", fillcolor=lightblue, color=blue, shape=ellipse];
+    "culture and literature" [label="culture and literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his third novel, Naked Lunc..." [label="his third novel, Naked Lunc...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Junkie novel" [label="Junkie novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "thousands of visual artwork..." [label="thousands of visual artwork...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "thousands of visual artworks" [label="thousands of visual artworks", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "1914" [label="1914", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Seward Burroughs II..." [label="William Seward Burroughs II...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "serve during World War II" [label="serve during World War II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Burroughs disambigu..." [label="William Burroughs disambigu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This liaison" [label="This liaison", fillcolor=lightgray, color=gray, shape=hexagon];
+    "shotgun art" [label="shotgun art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a wealthy family in St..." [label="into a wealthy family in St...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Vienna" [label="Vienna", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St" [label="St", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "primary figure of the Beat ..." [label="primary figure of the Beat ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Allen Ginsberg and Jack Ker..." [label="Allen Ginsberg and Jack Ker...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during World War II" [label="during World War II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pen name William Lee" [label="pen name William Lee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "morphine" [label="morphine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "projects and recordings" [label="projects and recordings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "visual" [label="visual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "medical school in Vienna" [label="medical school in Vienna", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections of essays" [label="collections of essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "while living in New York Ci..." [label="while living in New York Ci...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Will Lee" [label="Will Lee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1953" [label="1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "heroin addiction that would..." [label="heroin addiction that would...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foundation of the Beat Gene..." [label="foundation of the Beat Gene...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his life" [label="his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into substance abuse, begin..." [label="into substance abuse, begin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "being turned down by both t..." [label="being turned down by both t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "performers and musicians" [label="performers and musicians", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his confessional first nove..." [label="his confessional first nove...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his interviews and correspo..." [label="his interviews and correspo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William S. Burroughs" [label="William S. Burroughs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "defining influence on the 1..." [label="defining influence on the 1...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interviews" [label="interviews", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1960s counterculture" [label="1960s counterculture", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both underground and popula..." [label="both underground and popula...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public relations manager Iv..." [label="public relations manager Iv...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he befriended Allen Ginsber..." [label="he befriended Allen Ginsber...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "U.S. Army" [label="U.S. Army", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rest" [label="rest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he veered into substance ab..." [label="he veered into substance ab...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ivy Lee" [label="Ivy Lee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "numerous performers and mus..." [label="numerous performers and mus...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "World War II" [label="World War II", fillcolor=lightgray, color=gray, shape=hexagon];
+    "thousands" [label="thousands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1942" [label="1942", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English, then anthropology" [label="English, then anthropology", fillcolor=lightgray, color=gray, shape=hexagon];
+    "heroin" [label="heroin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a postgraduate" [label="as a postgraduate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he enlisted in the U.S. Arm..." [label="he enlisted in the U.S. Arm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Burroughs Corporation" [label="Burroughs Corporation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "celebrated" [label="celebrated", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1943" [label="1943", fillcolor=lightgray, color=gray, shape=hexagon];
+    "After being turned down by ..." [label="After being turned down by ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beat Generation" [label="Beat Generation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "recordings" [label="recordings", fillcolor=lightgray, color=gray, shape=hexagon];
+    "performers" [label="performers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harvard University, where h..." [label="Harvard University, where h...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "shotgun" [label="shotgun", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Five" [label="Five", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public relations" [label="public relations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "inventor William Seward Bur..." [label="inventor William Seward Bur...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "numerous" [label="numerous", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his celebrated "shotgun art" [label="his celebrated "shotgun art", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure of the Beat Generation" [label="figure of the Beat Generation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Edgar Rice Burroughs" [label="Edgar Rice Burroughs", fillcolor=lightgray, color=gray, shape=hexagon];
+    "substance" [label="substance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "defining" [label="defining", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "William S. Burroughs" -> "thousands" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "World War II" -> "U.S. Army" [label="has group [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "he enlisted in the U.S. Arm..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "New York City" -> "1943" [label="has time [Interior_profile_relation]", color=purple, penwidth=2];
+    "Beat Generation" -> "defining" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "William S. Burroughs" -> "being turned down by both t..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "New York City" -> "he befriended Allen Ginsber..." [label="has theme [Interior_profile_relation]", color=lightyellow, penwidth=1];
+    "William S. Burroughs" -> "morphine" [label="has theme [Process_start]", color=lightgray, penwidth=1];
+    "William S. Burroughs" -> "celebrated" [label="has theme [Craft]", color=lightgoldenrodyellow, penwidth=1];
+    "William S. Burroughs" -> "1914" [label="has time [Being_named]", color=purple, penwidth=2];
+    "World War II" -> "1942" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "substance" [label="has theme [Substance]", color=lightsalmon, penwidth=1];
+    "William S. Burroughs" -> "stories" [label="has theme [Duration_description]", color=lightgoldenrod, penwidth=1];
+    "William S. Burroughs" -> "novels" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "thousands of visual artwork..." [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "essays" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "collections" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Edgar Rice Burroughs" -> "his third novel, Naked Lunc..." [label="has reason [Fame]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "thousands of visual artworks" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "William S. Burroughs" -> "artworks" [label="has theme [Work]", color=lightyellow, penwidth=1];
+    "William S. Burroughs" -> "1914" [label="has time [Increment]", color=purple, penwidth=2];
+    "United States" -> "1914" [label="has time [Origin]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "rest" [label="has theme [Rest]", color=lightsteelblue, penwidth=1];
+    "World War II" -> "during World War II" [label="has time [Assistance]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "1914" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "William Seward Burroughs II..." [label="has creator [Create_physical_artwork]", color=lightseagreen, penwidth=1];
+    "William S. Burroughs" -> "shotgun art" [label="has theme [Social_event]", color=lightsalmon, penwidth=1];
+    "William S. Burroughs" -> "St" [label="has location [Wealthiness]", color=green, penwidth=2];
+    "William S. Burroughs" -> "numerous" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "William S. Burroughs" -> "1942" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "heroin addiction that would..." [label="has entity [Coming_to_be]", color=lightpink, penwidth=1];
+    "Edgar Rice Burroughs" -> "1953" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "his celebrated "shotgun art" [label="has theme [Inclusion]", color=lightgreen, penwidth=1];
+    "William S. Burroughs" -> "interviews" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "Five books of his interview..." [label="has work [Publishing]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "thousands of visual artwork..." [label="has theme [Cause_to_perceive]", color=lightblue, penwidth=1];
+    "William S. Burroughs" -> "1953" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "who" [label="has creator [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "public" [label="has theme [Relation]", color=lightgreen, penwidth=1];
+    "Ivy Lee" -> "public relations" [label="has type [People_by_vocation]", color=lightyellow, penwidth=1];
+    "William S. Burroughs" -> "books" [label="has entity [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "numerous performers and mus..." [label="has theme [Collaboration]", color=lightcyan, penwidth=1];
+    "William S. Burroughs" -> "After being turned down by ..." [label="has time [Undergo_change]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "four" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Edgar Rice Burroughs" -> "1953" [label="has time [Fame]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "heroin" [label="has theme [Addiction]", color=lightgray, penwidth=1];
+    "William S. Burroughs" -> "short stories" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "Edgar Rice Burroughs" -> "into a wealthy family in St..." [label="has theme [Being_born]", color=lightgoldenrodyellow, penwidth=1];
+    "William S. Burroughs" -> "1914" [label="has time [Create_physical_artwork]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "other people" [label="has entity [Being_named]", color=lightseagreen, penwidth=1];
+    "Vienna" -> "English, then anthropology" [label="has theme [Education_teaching]", color=lightseagreen, penwidth=1];
+    "New York City" -> "living in New York City" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "William Seward Burroughs II..." [label="has author [Text_creation]", color=lightsalmon, penwidth=1];
+    "New York City" -> "he befriended Allen Ginsber..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "family" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "William S. Burroughs" -> "who" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "collections of essays" [label="has entity [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "both underground and popula..." [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "World War II" -> "serve during World War II" [label="has purpose [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "into substance abuse, begin..." [label="has theme [Undergo_change]", color=lightsteelblue, penwidth=1];
+    "New York City" -> "while living in New York Ci..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "1914" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "visual artworks" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "New York City" -> "1943" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "novel" [label="has type [Ordinal_numbers]", color=lightcoral, penwidth=1];
+    "New York City" -> "William S. Burroughs" [label="has theme [Residence]", color=lightgoldenrod, penwidth=1];
+    "Vienna" -> "as a postgraduate" [label="has role [Education_teaching]", color=lightseagreen, penwidth=1];
+    "World War II" -> "World War II" [label="has theme [Becoming_a_member]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "Junkie novel" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Edgar Rice Burroughs" -> "St" [label="has location [Being_born]", color=green, penwidth=2];
+    "William S. Burroughs" -> "pen name William Lee" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "William S. Burroughs" -> "his life" [label="has theme [Rest]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "1914" [label="has time [People]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "inventor William Seward Bur..." [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Edgar Rice Burroughs" -> "18 novels and novellas, six..." [label="has text [Text_creation]", color=lightsalmon, penwidth=1];
+    "William S. Burroughs" -> "defining influence on the 1..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "William Burroughs disambigu..." [label="has information [Reference_text]", color=lightgoldenrodyellow, penwidth=1];
+    "William S. Burroughs" -> "visual" [label="has theme [Create_physical_artwork]", color=lightseagreen, penwidth=1];
+    "William S. Burroughs" -> "films" [label="has theme [Make_acquaintance]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "foundation of the Beat Gene..." [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "Burroughs Corporation" [label="has theme [Intentionally_create]", color=lightsteelblue, penwidth=1];
+    "Vienna" -> "medical school in Vienna" [label="has event [Process_continue]", color=lightblue, penwidth=1];
+    "Beat Generation" -> "later" [label="has time [Objective_influence]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "shotgun" [label="has activity [Craft]", color=lightgoldenrodyellow, penwidth=1];
+    "William S. Burroughs" -> "St" [label="has location [Kinship]", color=green, penwidth=2];
+    "Edgar Rice Burroughs" -> "Vienna" [label="has location [Attending]", color=green, penwidth=2];
+    "New York City" -> "1943" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Edgar Rice Burroughs" -> "Harvard University, where h..." [label="has event [Attending]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "books" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "Allen Ginsberg and Jack Ker..." [label="has theme [Forming_relationships]", color=lightgreen, penwidth=1];
+    "William S. Burroughs" -> "Five" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "essays" [label="has theme [Aggregate]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "postmodern author who influ..." [label="has theme [Importance]", color=lightyellow, penwidth=1];
+    "William S. Burroughs" -> "1953" [label="has time [Text]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "culture and literature" [label="has theme [Desirability]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "while living in New York City" [label="has time [Forming_relationships]", color=purple, penwidth=2];
+    "Vienna" -> "Edgar Rice Burroughs" [label="has student [Education_teaching]", color=lightseagreen, penwidth=1];
+    "William S. Burroughs" -> "people" [label="has class [Increment]", color=lightpink, penwidth=1];
+    "Beat Generation" -> "1960s counterculture" [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "Beat Generation" -> "figure of the Beat Generation" [label="has item [First_rank]", color=lightcyan, penwidth=1];
+    "William S. Burroughs" -> "he veered into substance ab..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "substance" [label="has type [Abusing]", color=lightsteelblue, penwidth=1];
+    "New York City" -> "1943" [label="has time [Residence]", color=purple, penwidth=2];
+    "William S. Burroughs" -> "novel" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "his interviews and correspo..." [label="has theme [Text]", color=lightpink, penwidth=1];
+    "Will Lee" -> "William S. Burroughs" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "William S. Burroughs" -> "recordings" [label="has text [Text]", color=lightpink, penwidth=1];
+    "William S. Burroughs" -> "literature" [label="has theme [Fields]", color=lightgray, penwidth=1];
+    "William S. Burroughs" -> "performers and musicians" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "Edgar Rice Burroughs" -> "his confessional first nove..." [label="has means [Success_or_failure]", color=lightsteelblue, penwidth=1];
+    "William S. Burroughs" -> "performers" [label="has performer [Performing_arts]", color=lightgoldenrodyellow, penwidth=1];
+    "Will Lee" -> "public relations manager Iv..." [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "William S. Burroughs" -> "both underground and popula..." [label="has theme [Objective_influence]", color=lightpink, penwidth=1];
+    "United States" -> "writer and visual artist" [label="has entity [Origin]", color=lightcyan, penwidth=1];
+    "World War II" -> "World War II" [label="has theme [Assistance]", color=lightgray, penwidth=1];
+    "William S. Burroughs" -> "This liaison" [label="has entity [Becoming]", color=lightcoral, penwidth=1];
+    "William S. Burroughs" -> "primary figure of the Beat ..." [label="has category [Categorization]", color=lightseagreen, penwidth=1];
+    "William S. Burroughs" -> "1942" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "William S. Burroughs" -> "New York City" [label="has location [Forming_relationships]", color=green, penwidth=2];
+    "William S. Burroughs" -> "projects and recordings" [label="has theme [Collaboration]", color=lightcyan, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Process_start_legend" [label="Process_start", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Craft_legend" [label="Craft", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Work_legend" [label="Work", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Rest_legend" [label="Rest", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Create_physical_artwork_legend" [label="Create_physical_artwork", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Social_event_legend" [label="Social_event", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Coming_to_be_legend" [label="Coming_to_be", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cause_to_perceive_legend" [label="Cause_to_perceive", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Relation_legend" [label="Relation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Collaboration_legend" [label="Collaboration", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Undergo_change_legend" [label="Undergo_change", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Addiction_legend" [label="Addiction", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Make_acquaintance_legend" [label="Make_acquaintance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Process_continue_legend" [label="Process_continue", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Forming_relationships_legend" [label="Forming_relationships", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Abusing_legend" [label="Abusing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

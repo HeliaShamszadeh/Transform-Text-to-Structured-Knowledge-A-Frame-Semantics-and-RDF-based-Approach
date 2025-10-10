@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Hostile_encounter:has_theme Ottoman Empire, for which Greeks revere him as a folk hero",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Byron joined the Greek War of Independence to fight the Ottoman Empire, for which Greeks revere him as a folk hero. This directly connects the theme of a hostile encounter with the Ottoman Empire."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Visiting:has_entity his friend and fellow poet Percy Bysshe Shelley",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'he would frequently visit his friend and fellow poet Percy Bysshe Shelley.' This directly describes a visiting relationship with the specified entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Text:has_location http://en.wikipedia.org/wiki/Hebrew_Melodies",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'his shorter lyrics in Hebrew Melodies.' While 'location' is ambiguous, interpreting it as the 'location' of the text within his body of work is a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Judgment:has_theme http://en.wikipedia.org/wiki/Ancient_Greece",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Byron joining the 'Greek War of Independence.' While this is about modern Greece, not Ancient Greece, there is a weak semantic connection through the theme of Greece and Greek history/culture. Being lenient, this connection is accepted as very weak but valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph discusses Byron's 'best-known works' and mentions specific works like 'Don Juan' and 'Childe Harold's Pilgrimage.' This clearly connects the subject to the theme of his works/labor products."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Arriving:has_theme who",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically incomplete and semantically incoherent ('Arriving:has_theme who'). No meaningful information can be extracted from the paragraph to support this statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Travel:has_theme extensively in Europe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'before he travelled extensively in Europe', which directly supports the semantic meaning of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Becoming_a_member:has_time Later in life",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Later in life, Byron joined the Greek War of Independence'. The phrase 'Later in life' semantically corresponds to the time of the membership event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Documents:has_document Lord Byron",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is circular and semantically unclear. The paragraph mentions documents like the Domesday Book in the context of family history, but not in a 'has_document' relationship with Lord Byron himself. The connection is extremely weak and likely not intended by the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Education_teaching:has_location http://en.wikipedia.org/wiki/Europe",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Byron was 'educated at Trinity College, Cambridge' and that he 'travelled extensively in Europe'. While the college itself is in England (part of Europe), the triple's direct location claim is an indirect geographic inference rather than an explicit statement, but the semantic connection is reasonably extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Fleeing:has_theme http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Byron 'was forced to flee England' and then 'lived for seven years in Italy', creating a semantic link where Italy is the destination of a flight originating from England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Be_subset_of:has_theme greatest British poets",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Byron is described as 'among the greatest British poets'. While 'United Kingdom' is not explicitly mentioned, 'British' is semantically related. The relationship 'Be_subset_of:has_theme' is a very weak and abstract connection, but the concepts are present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Aberdeenshire Sole_instance:has_type child of Captain John 'Jack' Byron",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Aberdeenshire is mentioned as the location of the Gight estate inherited by Byron's mother, but there is no information suggesting Aberdeenshire itself is a 'child of Captain John Byron'. This is a nonsensical relationship not supported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Education_teaching:has_institution Trinity College, Cambridge",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Byron was educated at Trinity College, Cambridge', which directly supports the triple's meaning of the college being an educational institution."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple 'Increment:has_class uses' is semantically incoherent and does not correspond to any information or relationship described in the paragraph. The term 'uses' appears in the disambiguation note but not in a way that relates to 'Lord Byron' having a 'class'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Becoming_a_member:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Byron joined the Greek War of Independence', creating a direct semantic connection between the war and Byron as a theme/participant."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Personal_relationship:has_theme Captain John 'Jack' Byron",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Captain John 'Jack' Byron is explicitly identified as Byron's father, establishing a clear personal relationship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Death:has_theme leading a campaign in 1824",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Trinity College is mentioned only as Byron's place of education. The death information ('leading a campaign in 1824') is completely unrelated to the college in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron People_by_age:has_theme Captain John 'Jack'Byron and his second wife, Catherine Gordon (of the Clan Gordon )",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While 'People_by_age' is an odd relation, the paragraph identifies these individuals as Byron's parents, creating a weak but valid semantic connection about people related to Byron."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Come_down_with:has_time after the first and second sieges of Missolonghi",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph connects Byron's death (during the Greek War) to a fever contracted 'after the first and second sieges of Missolonghi', creating a temporal relationship between the war and the sieges."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron People_by_age:has_theme only",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is syntactically incomplete and semantically unclear ('has_theme only'). No coherent meaning can be extracted from the paragraph to support this statement."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Midlands Kinship:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'His family in the English Midlands...', which clearly implies that the Midlands are a location within England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Personal_relationship:has_location http://en.wikipedia.org/wiki/Aberdeenshire",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions that Byron's mother was the 'heiress of the Gight estate in Aberdeenshire, Scotland.' This establishes a strong personal/familial connection to that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph explicitly names 'Captain John Byron' as Byron's father. While the predicate 'has_theme' is vague, the theme of 'father' is directly present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Be_subset_of:has_theme his best-known works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'many of his shorter lyrics in Hebrew Melodies also became popular' immediately after introducing his 'best-known works'. This strongly implies Hebrew Melodies are among or related to his well-known works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Be_subset_of:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Lord Byron was an English poet, but the specific relationship of the UK 'having him as a theme' is not supported. The relationship type 'Be_subset_of:has_theme' is not semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Come_down_with:has_theme fever",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Byron died from a fever contracted during the Greek War of Independence. The triple incorrectly attributes the fever to the war itself ('has_theme'), not to Byron. The relationship is misassigned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Fleeing:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Byron fled England and lived in Italy for seven years. While 'fleeing' is the action that led him there, the relationship 'Italy Fleeing:has_theme Lord Byron' is a very indirect and awkward representation of this connection. Leniently, the concepts are related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Importance:has_theme figures of the Romantic movement",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Byron 'is one of the major figures of the Romantic movement'. The triple's meaning is directly supported, even if the phrasing is slightly different."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_Kingdom Categorization:has_item http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph identifies Byron as an 'English poet'. England is part of the United Kingdom, so there is a reasonable semantic connection that the UK can be categorically associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Duration_description:has_theme lyrics",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'many of his shorter lyrics in Hebrew Melodies', which semantically connects Hebrew Melodies to the theme of lyrics."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Becoming:has_entity many of his shorter lyrics in Hebrew Melodies",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'many of his shorter lyrics in Hebrew Melodies' directly associates the entity 'Hebrew Melodies' with the lyrics contained within it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Becoming:has_theme popular",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the lyrics in Hebrew Melodies 'became popular', which semantically links the theme of popularity to the work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Age:has_age 36",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Byron died at 36 while leading a campaign in the Greek War of Independence, the triple incorrectly attributes the age property directly to the war itself, not to Byron. This is a misassignment of the relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Judgment:has_role as a folk hero",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Greeks revere him as a folk hero' in the context of his participation in the Greek War of Independence, directly attributing this role to Lord Byron."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Increment:has_class holders",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'For other holders of the title Lord Byron, see Baron Byron', which semantically connects the concept of 'holders' to the class/title of 'Lord Byron'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Text_creation:has_text His land holdings",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The concepts 'Greek War of Independence' and 'His land holdings' are both mentioned, but there is no semantic connection between them in the paragraph. The land holdings refer to his ancestor's property in the Domesday Book, unrelated to the Greek War."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Death:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Byron was educated at Trinity College and later describes his death. While the connection between his education and death is very indirect and thematic (his life story), a lenient interpretation allows for a weak semantic link between the two concepts via his biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Reference_text:has_theme Byron (disambiguation) and George Byron (disambiguation",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The very first sentence of the paragraph explicitly states redirects and references to 'Byron (disambiguation)' and 'George Byron (disambiguation)', creating a clear semantic connection to Lord Byron as the main subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Quantified_mass:has_theme his shorter lyrics in Hebrew Melodies",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'many of his shorter lyrics in Hebrew Melodies also became popular', creating a clear and direct semantic connection between the work 'Hebrew Melodies' and the content of 'his shorter lyrics'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Kinship:has_location http://en.wikipedia.org/wiki/London",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'George Gordon Byron was born on 22 January 1788, on Holles Street in London', clearly connecting Lord Byron to London."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Residence:has_location Italy, in Venice, Ravenna, Pisa and Genoa",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple incorrectly attributes the location of Italy to Trinity College, Cambridge. The paragraph states Byron was educated at Trinity College and later lived in Italy; these are two separate facts, not a direct relationship between the college and the Italian cities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hebrew_Melodies Quantified_mass:has_quantity many",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'many of his shorter lyrics in Hebrew Melodies also became popular', which directly supports the relationship between Hebrew Melodies and the quantity 'many'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Causation:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Byron was forced to flee England, making England a thematic location for a significant event (the cause of his fleeing) in his life. The connection is indirect but semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Causation:has_effect flee England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'he was forced to flee England' directly establishes a causal relationship where England is the location from which the action of fleeing occurs."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Italy Duration_description:has_theme http://en.wikipedia.org/wiki/Lord_Byron",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Byron lived in Italy for seven years and his stay there is a significant theme of his life described in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Visiting:has_theme frequently",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The text mentions 'he would frequently visit his friend and fellow poet Percy Bysshe Shelley' during his stay in Italy, establishing visiting as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lord_Byron Travel:has_location http://en.wikipedia.org/wiki/Europe",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he travelled extensively in Europe,' directly connecting Byron's travel to Europe."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Greek_War_of_Independence Time_vector:has_event Byron joined the Greek War of Independence to fight the Ottoman Empire, for which Greeks revere him as a folk hero",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "This exact event is described in the paragraph: 'Later in life, Byron joined the Greek War of Independence to fight the Ottoman Empire, for which Greeks revere him as a folk hero.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Trinity_College,_Cambridge Education_teaching:has_time before he travelled extensively in Europe",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Byron was educated at Trinity College, Cambridge, before he travelled extensively in Europe,' establishing the temporal relationship."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 36,
+    "accuracy": 0.72,
+    "avg_confidence": 0.616,
+    "high_confidence_50": 36,
+    "high_confidence_80": 25,
+    "percent_50": 72.0,
+    "percent_80": 50.0,
+    "max_triples_limit": 50
+  }
+}

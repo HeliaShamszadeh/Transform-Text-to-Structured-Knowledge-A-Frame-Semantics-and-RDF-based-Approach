@@ -1,0 +1,242 @@
+digraph Fernando_Pessoa {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Events nodes
+    "approximately seventy-five" [label="approximately seventy-five", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "2022" [label="2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "term" [label="term", fillcolor=lightgray, color=gray, shape=hexagon];
+    "paternal" [label="paternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as pseudonyms" [label="as pseudonyms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "improve this article by add..." [label="improve this article by add...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced material" [label="Unsourced material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his younger brother Jorge, ..." [label="his younger brother Jorge, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Fernando Pessoa" [label="Fernando Pessoa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "So Carlos Square" [label="So Carlos Square", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lisbon's" [label="Lisbon's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "how and when to remove this..." [label="how and when to remove this...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "these" [label="these", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most signific..." [label="as one of the most signific...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his father, Joaquim de Seab..." [label="his father, Joaquim de Seab...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verification" [label="verification", fillcolor=lightgray, color=gray, shape=hexagon];
+    "material" [label="material", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "views" [label="views", fillcolor=lightgray, color=gray, shape=hexagon];
+    "opera" [label="opera", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "These imaginary figures" [label="These imaginary figures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English language" [label="English language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary figures" [label="literary figures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "names" [label="names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this message" [label="this message", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his own name" [label="his own name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "heteronyms" [label="heteronyms", fillcolor=lightgray, color=gray, shape=hexagon];
+    "January" [label="January", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second or paternal family" [label="second or paternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger brother Jorge" [label="younger brother Jorge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "large" [label="large", fillcolor=lightgray, color=gray, shape=hexagon];
+    "flat" [label="flat", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sources" [label="sources", fillcolor=lightgray, color=gray, shape=hexagon];
+    "13 June 1888" [label="13 June 1888", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Portuguese language" [label="Portuguese language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "large flat" [label="large flat", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "band" [label="band", fillcolor=lightgray, color=gray, shape=hexagon];
+    "reliable" [label="reliable", fillcolor=lightgray, color=gray, shape=hexagon];
+    "This section" [label="This section", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lisbon" [label="Lisbon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "additional citations" [label="additional citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger" [label="younger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "citations" [label="citations", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1935" [label="1935", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he felt that this did not c..." [label="he felt that this did not c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "less than seven months" [label="less than seven months", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Unsourced" [label="Unsourced", fillcolor=lightgray, color=gray, shape=hexagon];
+    "He did not define these as ..." [label="He did not define these as ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that this did not capture t..." [label="that this did not capture t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "less than seven months later" [label="less than seven months later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Fernando Pessoa" -> "family" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "He did not define these as ..." [label="has effect [Causation]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "sources" [label="has information [Trust]", color=lightgreen, penwidth=1];
+    "Fernando Pessoa" -> "names" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Fernando Pessoa" -> "that this did not capture t..." [label="has opinion [Opinion]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "flat" [label="has entity [Size]", color=lightcyan, penwidth=1];
+    "Fernando Pessoa" -> "article" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Source_of_getting]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "reliable" [label="has theme [Source_of_getting]", color=lightgray, penwidth=1];
+    "Fernando Pessoa" -> "Lisbon" [label="has location [Being_born]", color=green, penwidth=2];
+    "Fernando Pessoa" -> "writer" [label="has theme [Expertise]", color=lightseagreen, penwidth=1];
+    "Portuguese language" -> "literary figures" [label="has theme [Importance]", color=lightsalmon, penwidth=1];
+    "Fernando Pessoa" -> "approximately seventy-five" [label="has theme [Increment]", color=lightyellow, penwidth=1];
+    "Fernando Pessoa" -> "family name" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Fernando Pessoa" -> "So Carlos Square" [label="has theme [Locative_relation]", color=lightpink, penwidth=1];
+    "Portuguese language" -> "band" [label="has theme [Aggregate]", color=lightsteelblue, penwidth=1];
+    "Fernando Pessoa" -> "father" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "how and when to remove this..." [label="has skill [Education_teaching]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "So Carlos Square" [label="has location [Building_subparts]", color=green, penwidth=2];
+    "Fernando Pessoa" -> "sources" [label="has theme [Source_of_getting]", color=lightgray, penwidth=1];
+    "Lisbon" -> "Lisbon's" [label="has location [Businesses]", color=green, penwidth=2];
+    "Fernando Pessoa" -> "his own name" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Fernando Pessoa" -> "sources" [label="has theme [Locating]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "younger" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "Fernando Pessoa" -> "this message" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+    "Portuguese language" -> "family name" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Removing]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "brother" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Fernando Pessoa" -> "These imaginary figures" [label="has theme [Opinion]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "as pseudonyms" [label="has category [Communicate_categorization]", color=lightgray, penwidth=1];
+    "Fernando Pessoa" -> "as one of the most signific..." [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Fernando Pessoa" -> "citations" [label="has class [Increment]", color=lightyellow, penwidth=1];
+    "Fernando Pessoa" -> "flat" [label="has theme [Building_subparts]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "improve this article by add..." [label="has goal [Assistance]", color=lightseagreen, penwidth=1];
+    "Fernando Pessoa" -> "one" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "Fernando Pessoa" -> "large flat" [label="has theme [Locative_relation]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "large" [label="has theme [Building_subparts]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Building_subparts]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "heteronyms" [label="has theme [Labeling]", color=lightsalmon, penwidth=1];
+    "Lisbon" -> "opera" [label="has business [Businesses]", color=lightgreen, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Locative_relation]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "he felt that this did not c..." [label="has cause [Causation]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Size]", color=purple, penwidth=2];
+    "Portuguese language" -> "20th" [label="has theme [Calendric_unit]", color=lightgoldenrod, penwidth=1];
+    "Fernando Pessoa" -> "tuberculosis" [label="has theme [Death]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "less than seven months later" [label="has time [Death]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "less than seven months" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Lisbon" -> "2022" [label="has time [Businesses]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "2022" [label="has time [Locating]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "views" [label="has opinion [Opinion]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "This section" [label="has theme [Verification]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "material" [label="has theme [Substance]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "Unsourced" [label="has theme [Substance]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "his own name" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Portuguese language" -> "century" [label="has theme [Calendric_unit]", color=lightgoldenrod, penwidth=1];
+    "Fernando Pessoa" -> "maternal" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "brother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Portuguese language" -> "poet" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Portuguese language" -> "1935" [label="has time [Text]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "English language" [label="has text [Text_creation]", color=lightyellow, penwidth=1];
+    "Fernando Pessoa" -> "younger brother Jorge" [label="has entity [Age]", color=lightcyan, penwidth=1];
+    "Fernando Pessoa" -> "second or paternal family" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "13 June 1888" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "his younger brother Jorge, ..." [label="has theme [Death]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "his younger brother Jorge, ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "January" [label="has theme [Calendric_unit]", color=lightgoldenrod, penwidth=1];
+    "Fernando Pessoa" -> "2022" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Fernando Pessoa" -> "his father, Joaquim de Seab..." [label="has theme [Death]", color=lightpink, penwidth=1];
+    "Fernando Pessoa" -> "names" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "verification" [label="has theme [Have_as_requirement]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "This section" [label="has theme [Have_as_requirement]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "additional citations" [label="has theme [Have_as_requirement]", color=lightcoral, penwidth=1];
+    "Fernando Pessoa" -> "these" [label="has item [Communicate_categorization]", color=lightgray, penwidth=1];
+    "Portuguese language" -> "20th century" [label="has degree [Importance]", color=lightsalmon, penwidth=1];
+    "Portuguese language" -> "name" [label="has theme [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "term" [label="has theme [Achieving_first]", color=lightgreen, penwidth=1];
+    "Fernando Pessoa" -> "paternal" [label="has entity [Being_named]", color=lightblue, penwidth=1];
+    "Fernando Pessoa" -> "Unsourced material" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Being_named_legend" [label="Being_named", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Trust_legend" [label="Trust", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Opinion_legend" [label="Opinion", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Size_legend" [label="Size", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Building_subparts_legend" [label="Building_subparts", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Locating_legend" [label="Locating", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Verification_legend" [label="Verification", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Substance_legend" [label="Substance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Have_as_requirement_legend" [label="Have_as_requirement", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Achieving_first_legend" [label="Achieving_first", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

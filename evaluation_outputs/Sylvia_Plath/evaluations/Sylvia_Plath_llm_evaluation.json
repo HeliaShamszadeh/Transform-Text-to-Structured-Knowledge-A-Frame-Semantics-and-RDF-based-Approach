@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Text_creation:has_location http://en.wikipedia.org/wiki/United_States",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states Plath was an American poet, born in Boston, Massachusetts, and lived in the United States, clearly connecting her to the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Labor_product:has_time 1981",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'The Collected Poems' by Sylvia Plath was published in 1981, but the subject 'Seamus_Heaney_Collected_Poems' is completely unrelated and not mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Forming_relationships:has_theme fellow poet Ted Hughes",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph explicitly states 'She married fellow poet Ted Hughes in 1956', establishing a relationship theme with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jamaica_Plain Temporal_collocation:has_theme family moved from 24 Prince Street in Jamaica Plain, Massachusetts, to 92 Johnson Avenue, Winthrop, Massachusetts",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph contains the exact phrase about the family moving from Jamaica Plain, making this directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Increment:has_class people",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak but valid connection - paragraph mentions 'American poet', 'American-born daughter', and 'people' in the context of 'For other people, see Plath (surname)', creating a vague semantic link between United States and people/classification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Education_teaching:has_time later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Plath 'later studied with Robert Lowell at Boston University'. The word 'later' is directly associated with her time at Boston University, though the predicate is vague."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Text_creation:has_time 1934",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Plath's father, Otto Plath, was a professor at Boston University and 'wrote a book about bumblebees in 1934'. This is a weak but valid semantic link between the university and text creation in 1934."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Forming_relationships:has_location http://en.wikipedia.org/wiki/England",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Plath 'married fellow poet Ted Hughes in 1956, and they lived together in the United States and then in England'. This directly links relationship formation (marriage) to the location England."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jamaica_Plain Temporal_collocation:has_theme 1936",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'In 1936 the family moved from 24 Prince Street in Jamaica Plain, Massachusetts...'. This directly associates Jamaica Plain with the year 1936, fitting the 'temporal collocation' theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Being_born:has_time April 27, 1935",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The date 'April 27, 1935' is explicitly given as the birth of Plath's brother, Warren, not Sylvia Plath herself. This is contradictory information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Text_creation:has_text book about bumblebees",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Plath's father, Otto Plath, was a professor at Boston University and 'wrote a book about bumblebees in 1934.' This creates a semantic link between Boston University and the creation of a text about bumblebees, though the subject of the triple is the university itself, not the professor."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Killing:has_theme http://en.wikipedia.org/wiki/Sylvia_Plath",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Plath's suicide and her studying at Boston University, but there is no information connecting the university itself to the theme of killing or her death. The relationship is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Relative_time:has_theme versions of electroconvulsive therapy (ECT",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Plath was treated with ECT and that she studied at Boston University, but there is no semantic connection between the university and the theme of ECT. The concepts are mentioned independently."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Medical_intervention:has_theme early versions of electroconvulsive therapy (ECT )",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Plath was clinically depressed... and was treated multiple times with early versions of electroconvulsive therapy (ECT).' This is a clear and direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Kinship:has_time 1906",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The year 1906 is mentioned as the birth year of Plath's mother, Aurelia Schober Plath. This is a weak semantic connection as the triple predicate 'Kinship:has_time' is vague, but the year is associated with a family member."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Time_vector:has_event studied with Robert Lowell at Boston University, alongside poets Anne Sexton and George Starbuck",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Plath later studied with Robert Lowell at Boston University, alongside poets Anne Sexton and George Starbuck'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Inclusion:has_time 1981",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'The Collected Poems' being published in 1981, but this refers to Sylvia Plath's work, not Seamus Heaney's. The subject is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Fame:has_degree best",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While the paragraph mentions Plath's graduation from Smith College and Cambridge, and that she is 'best known' for certain works, the specific concept of 'best degree' is only weakly and indirectly connected to her educational achievements and fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Praiseworthiness:has_behavior advancing the genre of confessional poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'She is credited with advancing the genre of confessional poetry', which semantically matches the triple's meaning of praiseworthy behavior."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Praiseworthiness:has_time 1960",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 1960 as the publication year for 'The Colossus and Other Poems', one of the works for which she is 'best known'. This creates a reasonable, though indirect, semantic connection between a praiseworthy achievement and the year 1960."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Statement:has_message abuse at his hands",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Plath alleges abuse at his hands' in reference to Ted Hughes, directly supporting the semantic meaning of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text poet",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The United States is mentioned multiple times, and Sylvia Plath is described as a poet. While the connection is indirect and the predicate is vague, there is a weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Temporal_collocation:has_time 1982",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'The Collected Poems' by Plath and the year 1982, but the subject specifically refers to Seamus Heaney's work, which is not mentioned and is a different poet. This is a contradictory and unrelated entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ted_Hughes Residence:has_location United States and then in England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'they lived together in the United States and then in England,' referring to Plath and Ted Hughes. The triple's meaning is directly supported, even if the subject is Ted Hughes specifically."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Giving:has_time 1982",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Plath was awarded a Pulitzer Prize in 1982. While the predicate 'Giving:has_time' is vague, the year 1982 is semantically connected to an award event for Plath."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity poet and author",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Sylvia Plath was an American poet and author, and the United States is mentioned multiple times in relation to her life and work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Fame:has_reason Colossus and Other Poems (1960), Ariel (1965 ), and The Bell Jar, a semi-autobiographical novel published shortly before her suicide in 1963",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states she is best known for these specific works, which are the reason for her fame."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Reference_text:has_theme Plath (surname",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'Plath (surname)' appears in a redirect notice, not as a theme connected to the United States. The connection is purely syntactic and not semantic."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Labor_product:has_theme previously unpublished",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Seamus_Heaney_Collected_Poems' is not mentioned in the paragraph. The paragraph only mentions 'The Collected Poems' by Sylvia Plath which included previously unpublished works, but this is a different entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph mentions Plath's mother, Aurelia Schober Plath, providing clear information about her kinship relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Labor_product:has_theme works",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph is about Sylvia Plath and her works; Seamus Heaney is not mentioned at all, and there is no semantic connection to his collected poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems People:has_person person",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject of the triple (Seamus Heaney Collected Poems) is entirely unrelated to the content of the paragraph about Sylvia Plath."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Cure:has_theme electroconvulsive",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Sylvia Plath studied at Boston University, and the paragraph mentions she was treated with electroconvulsive therapy. There is a weak thematic link between the university and the therapy through her biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Receiving:has_recipient fourth person",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Plath was the 'fourth person' to receive a Pulitzer posthumously, but this is entirely unrelated to Seamus Heaney or his collected poems."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Kinship:has_time 1935",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'On April 27, 1935, Plath's brother Warren was born,' directly linking Sylvia Plath to the time 1935 in a familial context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Ted_Hughes Kinship:has_time 1962",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Plath and Ted Hughes separated in 1962. The triple's predicate 'Kinship:has_time' can be semantically linked to the event of their separation occurring in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Origin:has_entity poet and writer",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Sylvia Plath is explicitly identified as an 'American poet and writer' and 'American poet and author'. The United States is her country of origin, satisfying a semantic connection for the 'Origin:has_entity' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath People_by_vocation:has_theme http://en.wikipedia.org/wiki/Boston_University",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Plath's life and vocation are connected to Boston University in multiple ways: her father was a professor there, and she later studied there. The predicate 'has_theme' is vague enough to encompass this biographical connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Killing:has_time 1963",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 1963 as the year of Plath's suicide, but there is no information connecting Boston University to a killing or any event in 1963. The triple is completely unrelated to the content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Text:has_text poetry",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly identifies Plath as a poet and discusses her poetry collections ('The Colossus and Other Poems', 'Ariel'). The connection between Sylvia Plath and the text type 'poetry' is direct and explicit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Locative_relation:has_theme here",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'here' appears in the paragraph as a navigational instruction ('redirects here'), not as a theme or subject of Sylvia Plath. There is no semantic connection between Plath and the concept 'here'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Fame:has_time 1960",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states her book 'The Colossus and Other Poems' was published in 1960, which is a significant event contributing to her fame. The triple's semantic meaning (fame at a time) is reasonably connected to this publication date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston_University Relation:has_theme http://en.wikipedia.org/wiki/Ted_Hughes",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Sylvia Plath studied at Boston University and married Ted Hughes. While the paragraph does not state a direct 'theme' relationship between the university and Hughes, the connection is present through their shared life context (Plath studied there, she married him). This is a lenient, indirect semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Massachusetts Motion:has_source 24 Prince Street in Jamaica Plain, Massachusetts",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the family moved from 24 Prince Street in Jamaica Plain, Massachusetts'. This directly describes a motion (moving) with this location as the source."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Massachusetts Motion:has_goal 92 Johnson Avenue, Winthrop, Massachusetts",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states the family moved 'to 92 Johnson Avenue, Winthrop, Massachusetts'. This directly describes a motion (moving) with this location as the goal."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston Education_teaching:has_institution http://en.wikipedia.org/wiki/Newnham_College,_Cambridge",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Plath studied at Newnham College in Cambridge, England, but there is no connection made between the city of Boston and Newnham College as an institution. The relationship is incorrectly attributed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Austrians Kinship:has_theme Austrian immigrants",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Plath's mother was the daughter of 'Austrian immigrants'. While the subject 'Austrians' is not explicitly the focus, the theme of Austrian immigration is present and related to the subject's family history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Publishing:has_time 1981",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states 'The Collected Poems' by Sylvia Plath was published in 1981. The triple incorrectly attributes this publication to Seamus Heaney, making the information contradictory, not just unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Aggregate:has_time 1982",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Sylvia Plath's 'The Collected Poems' won a Pulitzer Prize in 1982. The triple incorrectly attributes both the publication and the award year to Seamus Heaney, making the information contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sylvia_Plath Being_born:has_location Boston, Massachusetts",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Plath was born on October 27, 1932, in Boston, Massachusetts', which directly supports the triple."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.522,
+    "high_confidence_50": 30,
+    "high_confidence_80": 22,
+    "percent_50": 60.0,
+    "percent_80": 44.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,283 @@
+digraph Herman_Melville {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer and poet 1819–1891" [label="writer and poet 1819–1891", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "he traveled to England, tou..." [label="he traveled to England, tou...", fillcolor=lightgreen, color=green, shape=box];
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "his last work of prose, The..." [label="his last work of prose, The...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his psychological novel Pie..." [label="his psychological novel Pie...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Novels" [label="Novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work of prose" [label="work of prose", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novella" [label="novella", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Great American Novels" [label="Great American Novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Great American Novel" [label="Great American Novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his best-known works" [label="his best-known works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "eventually" [label="eventually", fillcolor=lightyellow, color=orange, shape=diamond];
+    "as a well-born young man at..." [label="as a well-born young man at...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Moby-Dick 1851  ; Typee 184..." [label="Moby-Dick 1851  ; Typee 184...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whose" [label="whose", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fiction" [label="fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prosperous merchant" [label="prosperous merchant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Melville published short fi..." [label="Melville published short fi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Shaw, the daughte..." [label="Elizabeth Shaw, the daughte...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his experiences in Polynesia" [label="his experiences in Polynesia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be considered one of the Gr..." [label="be considered one of the Gr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Islands" [label="Islands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Great American" [label="Great American", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Their success" [label="Their success", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ship" [label="ship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1853 to 1856" [label="1853 to 1856", fillcolor=lightgray, color=gray, shape=hexagon];
+    "islands" [label="islands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prosperous merchant whose d..." [label="prosperous merchant whose d...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short fiction" [label="short fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "write" [label="write", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary ambition" [label="literary ambition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "peoples" [label="peoples", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his expanding family" [label="his expanding family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "nearly a year and a half" [label="nearly a year and a half", fillcolor=lightgray, color=gray, shape=hexagon];
+    "daughter" [label="daughter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "posthumously" [label="posthumously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "merchant" [label="merchant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "critics" [label="critics", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. Lawrence" [label="St. Lawrence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American Renaissance" [label="American Renaissance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Near East" [label="Near East", fillcolor=lightgray, color=gray, shape=hexagon];
+    "well" [label="well", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1857" [label="1857", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston jurist Lemuel Shaw" [label="Boston jurist Lemuel Shaw", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Herman Melville" [label="Herman Melville", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Benito Cereno " and " Bartl..." [label="Benito Cereno " and " Bartl...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "account" [label="account", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sea" [label="sea", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moby-Dick 1851 , which took..." [label="Moby-Dick 1851 , which took...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Redburn 1849 and White-Jack..." [label="Redburn 1849 and White-Jack...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1832" [label="1832", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the Great American N..." [label="one of the Great American N...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazines" [label="magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "peoples of the islands" [label="peoples of the islands", fillcolor=lightgray, color=gray, shape=hexagon];
+    "prose" [label="prose", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moby-Dick" [label="Moby-Dick", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1919" [label="1919", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Tahitians" [label="Tahitians", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Melvill" [label="Melvill", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moby" [label="Moby", fillcolor=lightgray, color=gray, shape=hexagon];
+    "financial security to marry..." [label="financial security to marry...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Shaw confectionery company" [label="Elizabeth Shaw confectionery company", fillcolor=lightgray, color=gray, shape=hexagon];
+    "half" [label="half", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Marquesas" [label="Marquesas", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Melville's growing literary..." [label="Melville's growing literary...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "audience" [label="audience", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "American Renaissance" -> "Herman Melville" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "American Renaissance" -> "well" [label="has degree [Fame]", color=lightcoral, penwidth=1];
+    "Moby-Dick" -> "Moby" [label="has location [Becoming_aware]", color=green, penwidth=2];
+    "American Renaissance" -> "sea" [label="has theme [Natural_features]", color=lightyellow, penwidth=1];
+    "American Renaissance" -> "his expanding family" [label="has theme [Supporting]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Measure_duration]", color=green, penwidth=2];
+    "American Renaissance" -> "Moby" [label="has location [Judgment]", color=green, penwidth=2];
+    "Moby-Dick" -> "one of the Great American N..." [label="has category [Categorization]", color=lightgray, penwidth=1];
+    "New York City" -> "child" [label="has person [People_by_age]", color=red, penwidth=2];
+    "American Renaissance" -> "Moby" [label="has location [Taking_time]", color=green, penwidth=2];
+    "American Renaissance" -> "year" [label="has theme [Measure_duration]", color=lightcyan, penwidth=1];
+    "Tahitians" -> "his experiences in Polynesia" [label="has theme [Text]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "write" [label="has activity [Taking_time]", color=purple, penwidth=2];
+    "New York City" -> "prosperous merchant" [label="has theme [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "New York City" -> "1832" [label="has time [Death]", color=purple, penwidth=2];
+    "American Renaissance" -> "merchant" [label="has possessor [Vehicle]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "work of prose" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "American Renaissance" -> "Herman Melville" [label="has theme [Encounter]", color=lightsteelblue, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Text_creation]", color=green, penwidth=2];
+    "United States" -> "writer and poet 1819–1891" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "American Renaissance" -> "Marquesas" [label="has theme [Natural_features]", color=lightyellow, penwidth=1];
+    "American Renaissance" -> "1857" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "American Renaissance" -> "Islands" [label="has theme [Natural_features]", color=lightyellow, penwidth=1];
+    "Herman Melville" -> "Elizabeth Shaw, the daughte..." [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Herman Melville" -> "magazines" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "American Renaissance" -> "his psychological novel Pie..." [label="has evaluee [Judgment]", color=lightsteelblue, penwidth=1];
+    "Tahitians" -> "Herman Melville" [label="has theme [Perception_experience]", color=lightpink, penwidth=1];
+    "Herman Melville" -> "Tahitians" [label="has location [Labor_product]", color=green, penwidth=2];
+    "Herman Melville" -> "book" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "1853 to 1856" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "American Renaissance" -> "magazines" [label="has theme [Inclusion]", color=lightgray, penwidth=1];
+    "Great American Novel" -> "one" [label="has theme [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Part_whole]", color=green, penwidth=2];
+    "Herman Melville" -> "works" [label="has theme [Labor_product]", color=lightcyan, penwidth=1];
+    "Herman Melville" -> "short fiction" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "American Renaissance" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "book" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "Tahitians" -> "novella" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Herman Melville" -> "1857" [label="has time [Travel]", color=purple, penwidth=2];
+    "American Renaissance" -> "Novels" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "Herman Melville" -> "Near East" [label="has theme [Travel]", color=lightgoldenrod, penwidth=1];
+    "American Renaissance" -> "which" [label="has text [Text_creation]", color=lightcoral, penwidth=1];
+    "New York City" -> "family" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "Moby-Dick 1851 , which took..." [label="has time [Obviousness]", color=purple, penwidth=2];
+    "American Renaissance" -> "public" [label="has entity [Fame]", color=lightcoral, penwidth=1];
+    "American Renaissance" -> "nearly a year and a half" [label="has theme [Taking_time]", color=purple, penwidth=2];
+    "American Renaissance" -> "as a well-born young man at..." [label="has state [Perception_experience]", color=lightpink, penwidth=1];
+    "Tahitians" -> "novella" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Elizabeth Shaw confectionery company" -> "financial security to marry..." [label="has theme [Giving]", color=lightsteelblue, penwidth=1];
+    "Elizabeth Shaw confectionery company" -> "Herman Melville" [label="has recipient [Giving]", color=lightsteelblue, penwidth=1];
+    "American Renaissance" -> "ship" [label="has theme [Vehicle]", color=lightpink, penwidth=1];
+    "Herman Melville" -> "prose" [label="has theme [Labor_product]", color=lightcyan, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Obviousness]", color=green, penwidth=2];
+    "Tahitians" -> "Moby-Dick 1851  ; Typee 184..." [label="has theme [Be_subset_of]", color=lightcoral, penwidth=1];
+    "American Renaissance" -> "be considered one of the Gr..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Moby-Dick" -> "eventually" [label="has time [Categorization]", color=purple, penwidth=2];
+    "American Renaissance" -> "islands" [label="has theme [People]", color=lightblue, penwidth=1];
+    "American Renaissance" -> "peoples of the islands" [label="has group [Encounter]", color=lightsteelblue, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Judgment_communication]", color=green, penwidth=2];
+    "Great American Novel" -> "Great American Novels" [label="has entity [Cardinal_numbers]", color=lightgoldenrodyellow, penwidth=1];
+    "Herman Melville" -> "work" [label="has theme [Labor_product]", color=lightcyan, penwidth=1];
+    "American Renaissance" -> "St. Lawrence" [label="has theme [Vehicle]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "literary ambition" [label="has item [Change_position_on_a_scale]", color=lightgreen, penwidth=1];
+    "Tahitians" -> "posthumously" [label="has time [Publishing]", color=purple, penwidth=2];
+    "American Renaissance" -> "Herman Melville" [label="has theme [Perception_experience]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "Melville published short fi..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Elizabeth Shaw confectionery company" -> "daughter" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "Melville's growing literary..." [label="has theme [Obviousness]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "islands" [label="has theme [Natural_features]", color=lightyellow, penwidth=1];
+    "American Renaissance" -> "Redburn 1849 and White-Jack..." [label="has supporter [Supporting]", color=lightpink, penwidth=1];
+    "American Renaissance" -> "half" [label="has theme [Part_whole]", color=lightseagreen, penwidth=1];
+    "New York City" -> "child" [label="has type [Ordinal_numbers]", color=lightgoldenrod, penwidth=1];
+    "American Renaissance" -> "1919" [label="has time [Fame]", color=purple, penwidth=2];
+    "United States" -> "novelist" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "Tahitians" -> "his best-known works" [label="has theme [Be_subset_of]", color=lightcoral, penwidth=1];
+    "American Renaissance" -> "critics" [label="has theme [Judgment]", color=lightsteelblue, penwidth=1];
+    "Herman Melville" -> "New York City" [label="has location [Being_born]", color=green, penwidth=2];
+    "American Renaissance" -> "Benito Cereno " and " Bartl..." [label="has theme [Inclusion]", color=lightgray, penwidth=1];
+    "Herman Melville" -> "Melvill" [label="has person [Being_born]", color=red, penwidth=2];
+    "Elizabeth Shaw confectionery company" -> "Boston jurist Lemuel Shaw" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "New York City" -> "merchant" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Moby-Dick" -> "audience" [label="has theme [Becoming_aware]", color=lightgreen, penwidth=1];
+    "American Renaissance" -> "he traveled to England, tou..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Elizabeth Shaw confectionery company" -> "Their success" [label="has theme [Giving]", color=lightsteelblue, penwidth=1];
+    "New York City" -> "whose" [label="has theme [Death]", color=lightblue, penwidth=1];
+    "American Renaissance" -> "Moby" [label="has location [Change_position_on_a_scale]", color=green, penwidth=2];
+    "American Renaissance" -> "fiction" [label="has theme [Duration_description]", color=lightcyan, penwidth=1];
+    "Tahitians" -> "account" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "New York City" -> "prosperous merchant whose d..." [label="has theme [People_by_age]", color=lightgoldenrodyellow, penwidth=1];
+    "American Renaissance" -> "Herman Melville" [label="has theme [Kinship]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "Great American" [label="has theme [Text]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "critics" [label="has theme [Judgment_communication]", color=lightcoral, penwidth=1];
+    "Herman Melville" -> "his last work of prose, The..." [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "magazines" [label="has text [Text]", color=lightsalmon, penwidth=1];
+    "American Renaissance" -> "peoples" [label="has person [People]", color=red, penwidth=2];
+    "American Renaissance" -> "1919" [label="has time [Death]", color=purple, penwidth=2];
+    "Herman Melville" -> "England" [label="has goal [Travel]", color=lightgoldenrod, penwidth=1];
+    "Herman Melville" -> "1853 to 1856" [label="has time [Publishing]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Death_legend" [label="Death", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Supporting_legend" [label="Supporting", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Taking_time_legend" [label="Taking_time", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Vehicle_legend" [label="Vehicle", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Encounter_legend" [label="Encounter", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Travel_legend" [label="Travel", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Obviousness_legend" [label="Obviousness", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+    }
+}

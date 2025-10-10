@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hatch_End Studying:has_theme architecture",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Wright grew up in Hatch End and later studied architecture. While the triple directly links the place to the theme, the connection is indirect as the place is his hometown and the study happened elsewhere, but a semantic link exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Temporal_subregion:has_theme end",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'the end of the 1970s' in relation to Wright's contributions to Pink Floyd. This is a very weak and indirect semantic connection to the concept of an 'end' being a theme for the band's timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Aggregate:has_time 1973",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1973 is explicitly mentioned in the paragraph in the context of the song 'Time' from a Pink Floyd album, creating a clear temporal association with the band."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame Causation:has_effect into the Rock and Roll Hall of Fame",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Wright (as a member of Pink Floyd) was inducted 'into the Rock and Roll Hall of Fame'. This directly supports the semantic meaning of the Hall of Fame having the effect of an induction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wall Temporal_collocation:has_theme touring The Wall",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'touring The Wall' as an event that occurred before Wright left the band. This is a direct and clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Age:has_age 65",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Wright died from lung cancer in London in September 2008, aged 65.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hatch_End Locative_relation:has_theme http://en.wikipedia.org/wiki/Wright",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Wright grew up in Hatch End, Middlesex', establishing a clear locative relationship between Wright and Hatch End."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Create_physical_artwork:has_time 1943",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While 1943 is mentioned as Wright's birth year, there is no mention of him creating a physical artwork in that year. The relationship 'Create_physical_artwork:has_time' is not supported by the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Aggregate:has_time 1981",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Wright 'left the band after touring The Wall in 1981.' This implies an event (his departure) related to the aggregate (the band) happening in 1981, though the relationship 'Aggregate:has_time' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wall Relative_time:has_time 1981",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'after touring The Wall in 1981', directly associating the album/tour 'The Wall' with the year 1981."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame Causation:has_time 1996",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'He was inducted into the Rock and Roll Hall of Fame in 1996', providing a clear time relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Communication_response:has_theme Momentary Lapse of Reason",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions Wright rejoining as a session player 'for A Momentary Lapse of Reason', establishing a thematic connection between Wright and the album."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Distinctiveness:has_entity keyboard playing",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph states 'Wright's jazz influences and distinctive keyboard playing were an important part of the Pink Floyd sound', linking Pink Floyd to the entity of keyboard playing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Frequency:has_theme period",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Paragraph discusses Pink Floyd's activities across multiple time periods (1960s, 1970s, 1980s, 1990s, 2000s), establishing a weak but valid thematic connection to the concept of 'period'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/David_Gilmour Text_creation:has_time 1968",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states 'Barrett was replaced by David Gilmour in 1968', connecting David Gilmour to the specific time of 1968 in the context of band membership changes."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hatch_End Studying:has_institution Regent Street Polytechnic, London",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Wright grew up in Hatch End and studied at Regent Street Polytechnic. While the triple directly links the place to the institution, the semantic connection is clear as the person from Hatch End studied there."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Activity_start:has_activity contribute less towards the end of the 1970s",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He began to contribute less towards the end of the 1970s', directly describing this activity of Richard Wright."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Vocalizations:has_theme http://en.wikipedia.org/wiki/Richard_Wright_(musician)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the phrasing is abstract, the paragraph extensively discusses Richard Wright's central role in Pink Floyd, including his vocal and musical contributions. There is a clear semantic connection between the band and the musician as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Supply:has_theme lead vocals",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states multiple times that Wright provided lead vocals on specific songs ('providing lead vocals', 'took lead vocals')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Giving:has_recipient band",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph describes Wright's contributions, rejoining, and activities 'for the band' (Pink Floyd). While 'Giving' is abstract, his contributions to the band are a central theme, creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Inclusion:has_time 1968",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that David Gilmour replaced Syd Barrett in 1968, which is an event of inclusion/change in the band's membership."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Releasing:has_time later",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that sessions with Wright 'were later released on the 2014 album The Endless River'. While 'later' is vague, it semantically connects Wright to a releasing event that happened after the recording sessions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Time_vector:has_time 1967",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Pink Floyd achieved commercial success in 1967'. The 'Time_vector' property can be loosely interpreted as the band being associated with or existing at that specific time, which is true."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Becoming:has_time 1994",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Wright became 'a full-time member again for The Division Bell in 1994', which is a clear 'becoming' event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Success_or_failure:has_time 1967",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Pink Floyd achieved commercial success in 1967', which directly matches the concept of success at a specific time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Text:has_time 1973",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the song 'Time' from 1973, which is a Pink Floyd song. The triple connects Pink Floyd to the year 1973, which is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Syd_Barrett Take_place_of:has_theme http://en.wikipedia.org/wiki/David_Gilmour",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Barrett was replaced by David Gilmour in 1968'. The predicate 'Take_place_of:has_theme' can be loosely interpreted as a replacement theme, making this a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wall Quitting:has_employee http://en.wikipedia.org/wiki/Richard_Wright_(musician)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he left the band after touring The Wall in 1981'. This directly supports the concept of Wright quitting his role (employee) in relation to the album/tour 'The Wall'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Roger_Waters Text:has_text compositions",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'compositions by Waters and Gilmour'. While the predicate 'Text:has_text' is vague, there is a semantic connection between Roger Waters and compositions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Growing_food:has_location Hatch End, Middlesex",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states 'Wright grew up in Hatch End, Middlesex'. The predicate 'Growing_food:has_location' is completely unrelated to the concept of growing up; it implies agricultural activity. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Text:has_time 1968",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 1968 twice in relation to Pink Floyd's activities (Barrett being replaced, Wright contributing songs). While not a direct 'Pink Floyd has time 1968' statement, the year is semantically connected to significant events for the band."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/London Death:has_theme lung cancer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Wright died from lung cancer in London. There is a semantic connection between London and the theme of death by lung cancer, even if the triple structure is abstract. The location and cause of death are linked in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Roger_Waters Personal_Relationship:has_theme http://en.wikipedia.org/wiki/Pink_Floyd",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Roger Waters is explicitly mentioned as a future Pink Floyd bandmate of Richard Wright. This establishes a clear personal/professional relationship with Pink Floyd as the central theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Wall Quitting:has_theme band",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states Wright 'left the band after touring The Wall'. This directly links the album 'The Wall' to the theme of quitting the band, even if the phrasing of the triple is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Text_creation:has_time 1968",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Wright is described as a songwriter, and 1968 is mentioned as the year for songs he wrote and provided vocals for ('Remember a Day', 'It Would Be So Nice'). This connects Wright to text/song creation in 1968."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Membership:has_theme full-time",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Wright becoming a 'full-time member again' of Pink Floyd in 1994. The triple's concept of 'full-time' membership is semantically present, though the predicate 'has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Aggregate:has_time 1943",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "1943 is mentioned as Richard Wright's birth year. While the band Pink Floyd was not formed in 1943, the date is contextually present in the paragraph about a key member. The connection is weak but semantically related to the band's history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Aggregate:has_time 1968",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "1968 is mentioned twice in the context of Pink Floyd's history: David Gilmour replaced Syd Barrett, and Wright contributed songs. The date is directly associated with events in the band's timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Vocalizations:has_time 1973",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1973 is mentioned in relation to the Pink Floyd song 'Time' on which Wright took lead vocals. This directly connects the band, a vocal performance, and the date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Front_for:has_theme frontman",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Syd Barrett as the 'frontman' for Pink Floyd. The concept of the band having a frontman is semantically present, even if the specific predicate 'Front_for:has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wright Supply:has_time 1968",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Wright's songwriting contributions in 1968 ('It Would Be So Nice') and David Gilmour joining in 1968, which are events associated with him in that year, providing a weak but valid semantic connection to the concept of 'supply' or provision of work in 1968."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Membership:has_group Division Bell",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states Wright became a full-time member again for the album 'The Division Bell' in 1994, directly indicating a membership relationship with the group/album."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Releasing:has_theme Sessions with Wright during this period",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'Sessions with Wright during this period were later released on the 2014 album The Endless River.' This directly connects Wright to the theme of sessions that were released."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Inclusion:has_theme songs",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph repeatedly discusses Pink Floyd's songs, mentioning specific examples like 'Time' and 'Wearing the Inside Out,' and Wright's contributions to them. This implies that songs are a theme included in the band's work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Importance:has_theme part of the Pink Floyd sound",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text explicitly states 'Wright's jazz influences and distinctive keyboard playing were an important part of the Pink Floyd sound,' directly linking the theme of being an important part of their sound to Pink Floyd."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Text:has_theme solo",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Wright's solo albums and his work outside Pink Floyd, creating a semantic link between Pink Floyd and the theme of solo work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Richard_Wright_(musician) Performers:has_type Farfisa and Hammond organs and Kurzweil synthesisers",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Wright played 'Farfisa and Hammond organs and Kurzweil synthesisers', which is a direct match for the object of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Accompaniment:has_time 1968",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1968 is mentioned in the context of Pink Floyd's history (Barrett being replaced, Wright contributing songs), creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon Becoming:has_entity http://en.wikipedia.org/wiki/Dave_Harris",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The album 'The Dark Side of the Moon' is not mentioned in the paragraph. While Dave Harris is mentioned, there is no connection to this specific album in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Pink_Floyd Becoming_a_member:has_theme frontman and songwriter Syd Barrett",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Syd Barrett, a frontman and songwriter, joined Pink Floyd, which semantically relates to the concept of the band 'becoming a member' or gaining a member with that theme."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 45,
+    "accuracy": 0.9,
+    "avg_confidence": 0.7060000000000001,
+    "high_confidence_50": 45,
+    "high_confidence_80": 26,
+    "percent_50": 90.0,
+    "percent_80": 52.0,
+    "max_triples_limit": 50
+  }
+}

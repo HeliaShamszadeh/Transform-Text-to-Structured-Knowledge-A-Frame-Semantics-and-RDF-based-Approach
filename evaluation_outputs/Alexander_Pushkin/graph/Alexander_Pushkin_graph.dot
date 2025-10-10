@@ -1,0 +1,218 @@
+digraph Alexander_Pushkin {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Russian literature" [label="Russian literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "modern Russian literature" [label="modern Russian literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be the greatest Russian poe..." [label="be the greatest Russian poe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Eugene Onegin" [label="Eugene Onegin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "15" [label="15", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ancestry" [label="ancestry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russia" [label="Russia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His father, Sergey Lvovich ..." [label="His father, Sergey Lvovich ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alexander I" [label="Alexander I", fillcolor=lightgray, color=gray, shape=hexagon];
+    "noble family" [label="noble family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "origin" [label="origin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first poem" [label="his first poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "publish" [label="publish", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Secondary education in France" [label="Secondary education in France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fatally" [label="fatally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romantic" [label="Romantic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "verse Eugene Onegin" [label="verse Eugene Onegin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "duel with his wife's allege..." [label="duel with his wife's allege...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as his godson" [label="as his godson", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandmother" [label="grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lover" [label="lover", fillcolor=lightgray, color=gray, shape=hexagon];
+    "husband" [label="husband", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his controversial poem " Od..." [label="his controversial poem " Od...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 15" [label="age of 15", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French officer" [label="French officer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his wife's alleged lover he..." [label="his wife's alleged lover he...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his exile by Emperor Alexan..." [label="his exile by Emperor Alexan...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sergey Lvovich Pushkin" [label="Sergey Lvovich Pushkin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Africa" [label="Africa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the Russian nobility" [label="into the Russian nobility", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wife" [label="wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nadezhda Nadya Ossipovna Ga..." [label="Nadezhda Nadya Ossipovna Ga...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister's" [label="her sister's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ode to Liberty" [label="Ode to Liberty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Georges-Charles de Heeckeren d'Anthès" [label="Georges-Charles de Heeckeren d'Anthès", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pushkin disambiguation and ..." [label="Pushkin disambiguation and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Russian nobility" [label="Russian nobility", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Chevalier Guard Regiment" [label="Chevalier Guard Regiment", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Abram Petrovich Gannibal" [label="Abram Petrovich Gannibal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "homeland" [label="homeland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Dantes-Gekkern" [label="as Dantes-Gekkern", fillcolor=lightgray, color=gray, shape=hexagon];
+    "old noble family" [label="old noble family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his wife's" [label="his wife's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pushkin's" [label="Pushkin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emperor's court household" [label="Emperor's court household", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emperor" [label="Emperor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poem" [label="poem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his most famous play, Boris..." [label="his most famous play, Boris...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Alexander Pushkin" [label="Alexander Pushkin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moscow" [label="Moscow", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Alexander Pushkin" -> "era" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "Alexander Pushkin" -> "literature" [label="has theme [Fields]", color=lightcoral, penwidth=1];
+    "Africa" -> "15" [label="has age [Age]", color=lightgreen, penwidth=1];
+    "Russia" -> "Russian nobility" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Eugene Onegin" -> "lover" [label="has theme [Unattributed_information]", color=lightpink, penwidth=1];
+    "Russia" -> "poet" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Alexander Pushkin" -> "Pushkin's" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "Russia" [label="has theme [People_by_vocation]", color=lightsteelblue, penwidth=1];
+    "Russia" -> "literature" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Africa" -> "poem" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Abram Petrovich Gannibal" -> "homeland" [label="has theme [Foreign_or_domestic_country]", color=lightgoldenrodyellow, penwidth=1];
+    "Alexander Pushkin" -> "father" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "many" [label="has theme [Categorization]", color=lightseagreen, penwidth=1];
+    "Alexander Pushkin" -> "modern Russian literature" [label="has theme [Increment]", color=lightsalmon, penwidth=1];
+    "Eugene Onegin" -> "husband" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Alexander Pushkin" -> "publish" [label="has event [Capability]", color=lightpink, penwidth=1];
+    "Africa" -> "maternal" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "Russia" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Alexander Pushkin" -> "family" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Russia" -> "poet" [label="has entity [Origin]", color=lightgray, penwidth=1];
+    "Alexander Pushkin" -> "his exile by Emperor Alexan..." [label="has effect [Causation]", color=lightcoral, penwidth=1];
+    "Alexander Pushkin" -> "his controversial poem " Od..." [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Africa" -> "Emperor's court household" [label="has location [Growing_food]", color=green, penwidth=2];
+    "Alexander Pushkin" -> "into the Russian nobility" [label="has theme [Being_born]", color=lightgreen, penwidth=1];
+    "Eugene Onegin" -> "her sister's" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Russia" -> "family" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "his most famous play, Boris..." [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "Africa" -> "Alexander Pushkin" [label="has theme [Publishing]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "Sergey Lvovich Pushkin" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "be the greatest Russian poe..." [label="has category [Categorization]", color=lightseagreen, penwidth=1];
+    "Alexander Pushkin" -> "verse Eugene Onegin" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "Chevalier Guard Regiment" -> "French officer" [label="has theme [Being_incarcerated]", color=lightpink, penwidth=1];
+    "Alexander Pushkin" -> "mother" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "ancestry" [label="has theme [Origin]", color=lightgray, penwidth=1];
+    "Alexander Pushkin" -> "wife" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Alexander Pushkin" -> "duel with his wife's allege..." [label="has theme [Cause_harm]", color=lightcyan, penwidth=1];
+    "Abram Petrovich Gannibal" -> "Nadezhda Nadya Ossipovna Ga..." [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "Pushkin disambiguation and ..." [label="has theme [Reference_text]", color=lightsteelblue, penwidth=1];
+    "Alexander Pushkin" -> "that" [label="has cause [Causation]", color=lightcoral, penwidth=1];
+    "Alexander Pushkin" -> "Ode to Liberty" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Alexander Pushkin" -> "old noble family" [label="has theme [Possession]", color=lightgray, penwidth=1];
+    "Alexander Pushkin" -> "fatally" [label="has result [Cause_harm]", color=lightcyan, penwidth=1];
+    "Alexander Pushkin" -> "Moscow" [label="has location [Being_born]", color=green, penwidth=2];
+    "Eugene Onegin" -> "his wife's alleged lover he..." [label="has theme [Hostile_encounter]", color=lightgoldenrodyellow, penwidth=1];
+    "Abram Petrovich Gannibal" -> "grandmother" [label="has theme [Kinship]", color=lightyellow, penwidth=1];
+    "Eugene Onegin" -> "lover" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Alexander Pushkin" -> "uses" [label="has class [Increment]", color=lightsalmon, penwidth=1];
+    "Russia" -> "Russian literature" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Alexander Pushkin" -> "novel" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Africa" -> "origin" [label="has theme [Origin]", color=lightgray, penwidth=1];
+    "Alexander Pushkin" -> "noble family" [label="has entity [Age]", color=lightgreen, penwidth=1];
+    "Africa" -> "poem" [label="has type [Ordinal_numbers]", color=lightsalmon, penwidth=1];
+    "Alexander Pushkin" -> "His father, Sergey Lvovich ..." [label="has owner [Possession]", color=lightgray, penwidth=1];
+    "Eugene Onegin" -> "his wife's" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Alexander Pushkin" -> "Romantic" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "Alexander Pushkin" -> "Emperor" [label="has leader [Leadership]", color=lightsteelblue, penwidth=1];
+    "Africa" -> "age of 15" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Africa" -> "as his godson" [label="has purpose [Growing_food]", color=lightcoral, penwidth=1];
+    "Africa" -> "who" [label="has theme [Growing_food]", color=lightcoral, penwidth=1];
+    "Georges-Charles de Heeckeren d'Anthès" -> "as Dantes-Gekkern" [label="has theme [Being_named]", color=lightgoldenrod, penwidth=1];
+    "Africa" -> "his first poem" [label="has work [Publishing]", color=lightyellow, penwidth=1];
+    "Alexander Pushkin" -> "Alexander I" [label="has leader [Leadership]", color=lightsteelblue, penwidth=1];
+    "Africa" -> "Secondary education in France" [label="has institution [Education_teaching]", color=lightpink, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Unattributed_information_legend" [label="Unattributed_information", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Being_incarcerated_legend" [label="Being_incarcerated", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cause_harm_legend" [label="Cause_harm", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+    }
+}

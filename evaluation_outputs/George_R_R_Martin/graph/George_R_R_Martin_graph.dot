@@ -1,0 +1,298 @@
+digraph George_R_R_Martin {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "as the author of the series..." [label="as the author of the series...", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writer and television producer" [label="writer and television producer", fillcolor=lightcoral, color=red, shape=circle];
+    "American writer and televis..." [label="American writer and televis...", fillcolor=lightcoral, color=red, shape=circle];
+    "author, television writer, ..." [label="author, television writer, ...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "city" [label="city", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "List of Wild Cards books and short stories" [label="List of Wild Cards books and short stories", fillcolor=lightblue, color=blue, shape=ellipse];
+    "fantasy novels" [label="fantasy novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "2022" [label="2022", fillcolor=lightgray, color=gray, shape=hexagon];
+    "series Finding Your Roots" [label="series Finding Your Roots", fillcolor=lightgray, color=gray, shape=hexagon];
+    "longshoreman Raymond Collin..." [label="longshoreman Raymond Collin...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "13 years" [label="13 years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His mother's" [label="His mother's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2005" [label="2005", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "day" [label="day", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Santa Fe" [label="Santa Fe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "successful" [label="successful", fillcolor=lightgray, color=gray, shape=hexagon];
+    "DNA test on the series Find..." [label="DNA test on the series Find...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "DNA" [label="DNA", fillcolor=lightgray, color=gray, shape=hexagon];
+    "son of longshoreman Raymond..." [label="son of longshoreman Raymond...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most influential" [label="most influential", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house" [label="house", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be 53.6% "British and Irish..." [label="be 53.6% "British and Irish...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin's" [label="Martin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "federal housing project" [label="federal housing project", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bayonne, New Jersey" [label="Bayonne, New Jersey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jean Cocteau Cinema" [label="Jean Cocteau Cinema", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sisters" [label="sisters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "George Raymond Martin" [label="George Raymond Martin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "13" [label="13", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1953" [label="1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most influential people in ..." [label="most influential people in ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "initials G.R.R.M" [label="initials G.R.R.M", fillcolor=lightgray, color=gray, shape=hexagon];
+    "every" [label="every", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin TV series" [label="Martin TV series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "housing" [label="housing", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American" [label="American", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Santa Fe, New Mexico" [label="Santa Fe, New Mexico", fillcolor=lightgray, color=gray, shape=hexagon];
+    "they moved to a federal hou..." [label="they moved to a federal hou...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lev Grossman" [label="Lev Grossman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lived in a house on Broadwa..." [label="lived in a house on Broadwa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house on Broadway belonging..." [label="house on Broadway belonging...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Martin's great-grandmother" [label="Martin's great-grandmother", fillcolor=lightgray, color=gray, shape=hexagon];
+    " the American Tolkien" [label=" the American Tolkien", fillcolor=lightgray, color=gray, shape=hexagon];
+    "television" [label="television", fillcolor=lightgray, color=gray, shape=hexagon];
+    "September 20, 1948" [label="September 20, 1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wild Cards anthology series" [label="Wild Cards anthology series", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Great Depression" [label="Great Depression", fillcolor=lightgray, color=gray, shape=hexagon];
+    "series of epic fantasy nove..." [label="series of epic fantasy nove...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "create the Wild Cards antho..." [label="create the Wild Cards antho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bayonne docks" [label="Bayonne docks", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Broadway Manhattan" [label="Broadway Manhattan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "son" [label="son", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Darleen Ortega" [label="Darleen Ortega", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Santa Fe, New Mexico, where..." [label="Santa Fe, New Mexico, where...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the Primetime Emmy Awa..." [label="into the Primetime Emmy Awa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "annual Time 100 list of the..." [label="annual Time 100 list of the...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "producer" [label="producer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fund Meow Wolf" [label="fund Meow Wolf", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "list" [label="list", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "construction" [label="construction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "federal housing project nea..." [label="federal housing project nea...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "near the Bayonne docks" [label="near the Bayonne docks", fillcolor=lightgray, color=gray, shape=hexagon];
+    "docks" [label="docks", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Richard" [label="Richard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "business" [label="business", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2011" [label="2011", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confirmation name Richard" [label="confirmation name Richard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "home" [label="home", fillcolor=lightgray, color=gray, shape=hexagon];
+    "13 years old" [label="13 years old", fillcolor=lightgray, color=gray, shape=hexagon];
+    "house on Broadway" [label="house on Broadway", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1948" [label="1948", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lev Grossman of Time" [label="Lev Grossman of Time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger" [label="younger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "federal" [label="federal", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Santa Fe, New Mexico" -> "Santa Fe" [label="has theme [Residence]", color=lightblue, penwidth=1];
+    "Great Depression" -> "day" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Richard" -> "2011" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Richard" -> "writer" [label="has author [Text_creation]", color=lightgreen, penwidth=1];
+    "Lev Grossman" -> "Jean Cocteau Cinema" [label="has theme [Possession]", color=lightyellow, penwidth=1];
+    "Bayonne, New Jersey" -> "13 years old" [label="has time [Appointing]", color=purple, penwidth=2];
+    "Lev Grossman" -> "2011" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Santa Fe, New Mexico" -> "Santa Fe" [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "Great Depression" -> "be 53.6% "British and Irish..." [label="has theme [Evidence]", color=lightgray, penwidth=1];
+    "Great Depression" -> "Bayonne docks" [label="has theme [Locative_relation]", color=lightgoldenrodyellow, penwidth=1];
+    "Richard" -> "as the author of the series..." [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Great Depression" -> "series Finding Your Roots" [label="has theme [Examination]", color=lightsalmon, penwidth=1];
+    "Richard" -> "which" [label="has theme [Removing]", color=lightgoldenrod, penwidth=1];
+    "Bayonne, New Jersey" -> "13 years" [label="has age [Age]", color=lightpink, penwidth=1];
+    "List of Wild Cards books and short stories" -> "create the Wild Cards antho..." [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "Lev Grossman" -> "Martin TV series" [label="has entity [Labeling]", color=lightsteelblue, penwidth=1];
+    "Richard" -> "fantasy novels" [label="has entity [Fame]", color=lightcoral, penwidth=1];
+    "List of Wild Cards books and short stories" -> "2022" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Martin TV series" -> "mother" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "1953" [label="has time [Buildings]", color=purple, penwidth=2];
+    "Bayonne, New Jersey" -> "1953" [label="has time [Roadways]", color=purple, penwidth=2];
+    "Richard" -> "series of epic fantasy nove..." [label="has text [Text_creation]", color=lightgreen, penwidth=1];
+    "Lev Grossman" -> "2005" [label="has time [People]", color=purple, penwidth=2];
+    "Lev Grossman" -> "people" [label="has entity [Subjective_influence]", color=lightcyan, penwidth=1];
+    "Lev Grossman" -> "Bayonne, New Jersey" [label="has location [Kinship]", color=green, penwidth=2];
+    "Great Depression" -> "Martin TV series" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Lev Grossman" -> "Lev Grossman of Time" [label="has speaker [Labeling]", color=lightsteelblue, penwidth=1];
+    "Great Depression" -> "housing" [label="has theme [Buildings]", color=lightgreen, penwidth=1];
+    "Great Depression" -> "1953" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Great Depression" -> "younger" [label="has degree [Age]", color=lightpink, penwidth=1];
+    "Richard" -> "American writer and televis..." [label="has entity [Being_named]", color=lightseagreen, penwidth=1];
+    "Great Depression" -> "house on Broadway" [label="has theme [Possession]", color=lightyellow, penwidth=1];
+    "Great Depression" -> "lived in a house on Broadwa..." [label="has theme [First_experience]", color=lightgray, penwidth=1];
+    "Great Depression" -> "near the Bayonne docks" [label="has location [Project]", color=green, penwidth=2];
+    "Lev Grossman" -> "most influential" [label="has theme [People]", color=lightpink, penwidth=1];
+    "Bayonne, New Jersey" -> "Martin TV series" [label="has theme [Appointing]", color=lightpink, penwidth=1];
+    "Lev Grossman" -> "most influential people in ..." [label="has theme [Text]", color=lightseagreen, penwidth=1];
+    "Great Depression" -> "housing" [label="has activity [Project]", color=lightgoldenrodyellow, penwidth=1];
+    "Bayonne, New Jersey" -> "13" [label="has theme [Measure_duration]", color=lightsalmon, penwidth=1];
+    "Great Depression" -> "DNA" [label="has knowledge [Examination]", color=lightsalmon, penwidth=1];
+    "Bayonne, New Jersey" -> "1948" [label="has time [Age]", color=purple, penwidth=2];
+    "List of Wild Cards books and short stories" -> "2022" [label="has time [Assistance]", color=purple, penwidth=2];
+    "Great Depression" -> "Martin's great-grandmother" [label="has owner [Possession]", color=lightyellow, penwidth=1];
+    "Lev Grossman" -> "list" [label="has text [Text]", color=lightseagreen, penwidth=1];
+    "Martin TV series" -> "Bayonne, New Jersey" [label="has location [Being_born]", color=green, penwidth=2];
+    "Great Depression" -> "federal" [label="has agent [Project]", color=lightgoldenrodyellow, penwidth=1];
+    "Richard" -> "American" [label="has theme [Origin]", color=lightpink, penwidth=1];
+    "Great Depression" -> "Broadway Manhattan" [label="has location [Buildings]", color=green, penwidth=2];
+    "Martin TV series" -> "1948" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Lev Grossman" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Lev Grossman" -> "2005" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "Richard" -> "television" [label="has type [Behind_the_scenes]", color=lightsteelblue, penwidth=1];
+    "Lev Grossman" -> "longshoreman Raymond Collin..." [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Bayonne, New Jersey" -> "Richard" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Great Depression" -> "family" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "family" [label="has theme [Residence]", color=lightblue, penwidth=1];
+    "Richard" -> "writer and television producer" [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Martin TV series" -> "Martin's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "1953" [label="has time [Project]", color=purple, penwidth=2];
+    "Lev Grossman" -> "son" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Lev Grossman" -> " the American Tolkien" [label="has theme [Labeling]", color=lightsteelblue, penwidth=1];
+    "Richard" -> "television" [label="has instrument [Text_creation]", color=lightgreen, penwidth=1];
+    "Great Depression" -> "1953" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Richard" -> "1948" [label="has time [Origin]", color=purple, penwidth=2];
+    "Bayonne, New Jersey" -> "federal housing project nea..." [label="has goal [Motion]", color=lightblue, penwidth=1];
+    "Great Depression" -> "business" [label="has business [Businesses]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "they moved to a federal hou..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Richard" -> "initials G.R.R.M" [label="has theme [Being_named]", color=lightseagreen, penwidth=1];
+    "Bayonne, New Jersey" -> "years" [label="has theme [Measure_duration]", color=lightsalmon, penwidth=1];
+    "Lev Grossman" -> "Santa Fe" [label="has owner [Possession]", color=lightyellow, penwidth=1];
+    "Lev Grossman" -> "2005" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "Richard" -> "American" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Martin TV series" -> "September 20, 1948" [label="has time [Being_born]", color=purple, penwidth=2];
+    "List of Wild Cards books and short stories" -> "Wild Cards anthology series" [label="has theme [Intentionally_create]", color=lightblue, penwidth=1];
+    "Great Depression" -> "His mother's" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Richard" -> "author" [label="has author [Text_creation]", color=lightgreen, penwidth=1];
+    "Martin TV series" -> "George Raymond Martin" [label="has person [Being_born]", color=red, penwidth=2];
+    "Lev Grossman" -> "world" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Richard" -> "1948" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Great Depression" -> "sisters" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Great Depression" -> "federal" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Lev Grossman" -> "city" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Great Depression" -> "1953" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Darleen Ortega" -> "sisters" [label="has theme [Kinship]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "successful" [label="has theme [Businesses]", color=lightcoral, penwidth=1];
+    "Richard" -> "author, television writer, ..." [label="has entity [Origin]", color=lightpink, penwidth=1];
+    "Santa Fe, New Mexico" -> "Santa Fe, New Mexico, where..." [label="has location [Residence]", color=green, penwidth=2];
+    "Great Depression" -> "house" [label="has theme [Buildings]", color=lightgreen, penwidth=1];
+    "Great Depression" -> "home" [label="has theme [Buildings]", color=lightgreen, penwidth=1];
+    "Great Depression" -> "construction" [label="has theme [Businesses]", color=lightcoral, penwidth=1];
+    "Great Depression" -> "every" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Lev Grossman" -> "2005" [label="has time [Labeling]", color=purple, penwidth=2];
+    "Bayonne, New Jersey" -> "1953" [label="has time [Motion]", color=purple, penwidth=2];
+    "Richard" -> "into the Primetime Emmy Awa..." [label="has goal [Removing]", color=lightgoldenrod, penwidth=1];
+    "Bayonne, New Jersey" -> "1948" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "Santa Fe, New Mexico" -> "fund Meow Wolf" [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "Lev Grossman" -> "2005" [label="has time [Text]", color=purple, penwidth=2];
+    "Richard" -> "2011" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Bayonne, New Jersey" -> "Martin TV series" [label="has entity [Being_named]", color=lightseagreen, penwidth=1];
+    "Richard" -> "2011" [label="has time [Removing]", color=purple, penwidth=2];
+    "Richard" -> "2011" [label="has time [Fame]", color=purple, penwidth=2];
+    "Great Depression" -> "DNA test on the series Find..." [label="has theme [Evidence]", color=lightgray, penwidth=1];
+    "Great Depression" -> "business" [label="has agent [Success_or_failure]", color=lightgreen, penwidth=1];
+    "Lev Grossman" -> "1948" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Bayonne, New Jersey" -> "docks" [label="has theme [Roadways]", color=lightyellow, penwidth=1];
+    "Great Depression" -> "1953" [label="has time [Locative_relation]", color=purple, penwidth=2];
+    "Great Depression" -> "federal housing project" [label="has theme [Locative_relation]", color=lightgoldenrodyellow, penwidth=1];
+    "Great Depression" -> "house on Broadway belonging..." [label="has location [Residence]", color=green, penwidth=2];
+    "Richard" -> "1948" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Richard" -> "producer" [label="has artist [Behind_the_scenes]", color=lightsteelblue, penwidth=1];
+    "Bayonne, New Jersey" -> "confirmation name Richard" [label="has role [Appointing]", color=lightpink, penwidth=1];
+    "Bayonne, New Jersey" -> "1948" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Martin TV series" -> "son of longshoreman Raymond..." [label="has theme [Being_born]", color=lightgoldenrod, penwidth=1];
+    "Lev Grossman" -> "annual Time 100 list of the..." [label="has theme [Inclusion]", color=lightcyan, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Residence_legend" [label="Residence", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Examination_legend" [label="Examination", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Roadways_legend" [label="Roadways", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "First_experience_legend" [label="First_experience", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Project_legend" [label="Project", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Businesses_legend" [label="Businesses", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+    }
+}

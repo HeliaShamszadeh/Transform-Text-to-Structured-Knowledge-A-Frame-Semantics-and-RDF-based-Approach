@@ -1,0 +1,248 @@
+digraph Virgil {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "as the author's guide throu..." [label="as the author's guide throu...", fillcolor=lightcoral, color=red, shape=circle];
+    "authors" [label="authors", fillcolor=lightcoral, color=red, shape=circle];
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "as a classic author" [label="as a classic author", fillcolor=lightcoral, color=red, shape=circle];
+    "earlier authors" [label="earlier authors", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Latin literature" [label="Latin literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Western literature" [label="Western literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "style" [label="style", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Latin poet" [label="Latin poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "antiquity" [label="antiquity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Middle Ages" [label="Middle Ages", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "influence" [label="influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Roman poet of the Augustan ..." [label="Roman poet of the Augustan ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "T. S. Eliot" [label="T. S. Eliot", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lecture on the subject " Wh..." [label="lecture on the subject " Wh...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modernity" [label="modernity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "these" [label="these", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the most popular Latin p..." [label="as the most popular Latin p...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "three of the most famous po..." [label="three of the most famous po...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Appendix Vergiliana" [label="Appendix Vergiliana", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ancient Rome" [label="Ancient Rome", fillcolor=lightgray, color=gray, shape=hexagon];
+    "times" [label="times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Some minor poems" [label="Some minor poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ennius and other earlier au..." [label="Ennius and other earlier au...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scholars" [label="scholars", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as spurious" [label="as spurious", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "exception of some short pieces" [label="exception of some short pieces", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lifetime" [label="his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virgilius Maro Grammaticus" [label="Virgilius Maro Grammaticus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "acclaimed in his lifetime a..." [label="acclaimed in his lifetime a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Aeneid" [label="Aeneid", fillcolor=lightgray, color=gray, shape=hexagon];
+    "classic" [label="classic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Roman poet" [label="Roman poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virgil" [label="Virgil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "alone" [label="alone", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Already" [label="Already", fillcolor=lightgray, color=gray, shape=hexagon];
+    "modern scholars" [label="modern scholars", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short" [label="short", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pieces" [label="pieces", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Augusta, Georgia" [label="Augusta, Georgia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "House" [label="House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "early" [label="early", fillcolor=lightgray, color=gray, shape=hexagon];
+    "famously" [label="famously", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Roman" [label="Roman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that it must be one which w..." [label="that it must be one which w...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a standard school text" [label="as a standard school text", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Latin" [label="Latin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "subject " What Is a Classic?" [label="subject " What Is a Classic?", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th century" [label="20th century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Augustan period" [label="Augustan period", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English" [label="English", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Geoffrey Chaucer" [label="Geoffrey Chaucer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pilere" [label="pilere", fillcolor=lightgray, color=gray, shape=hexagon];
+    "late" [label="late", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Publius Vergilius Maro  Cla..." [label="Publius Vergilius Maro  Cla...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virgil disambiguation" [label="Virgil disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rapidly" [label="rapidly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as standing on a pilere / t..." [label="as standing on a pilere / t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Virgil or Vergil" [label="Virgil or Vergil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "honour" [label="honour", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "confidently" [label="confidently", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Ancient Rome" -> "article" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "early" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "modern scholars" [label="has theme [Categorization]", color=lightgreen, penwidth=1];
+    "Virgil" -> "as the most popular Latin p..." [label="has theme [Being_located]", color=lightyellow, penwidth=1];
+    "Virgil" -> "Virgil disambiguation" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Augusta, Georgia" -> "poems" [label="has entity [Fame]", color=lightcyan, penwidth=1];
+    "Latin" -> "Aeneid" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Virgil" -> "his lifetime" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Middle Ages" -> "style" [label="has attribute [Aesthetics]", color=lightgray, penwidth=1];
+    "Augusta, Georgia" -> "Latin literature" [label="has location [Fame]", color=green, penwidth=2];
+    "Virgilius Maro Grammaticus" -> "as spurious" [label="has category [Categorization]", color=lightgreen, penwidth=1];
+    "Ancient Rome" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Augusta, Georgia" -> "short" [label="has theme [Part_piece]", color=lightgoldenrodyellow, penwidth=1];
+    "Ancient Rome" -> "uses" [label="has class [Increment]", color=lightseagreen, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "Publius Vergilius Maro  Cla..." [label="has entity [Simple_naming]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "pilere" [label="has location [Posture]", color=green, penwidth=2];
+    "Augusta, Georgia" -> "Roman poet of the Augustan ..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Virgil" -> "Latin" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Augusta, Georgia" -> "pieces" [label="has theme [Duration_description]", color=lightcoral, penwidth=1];
+    "Virgil" -> "that it must be one which w..." [label="has message [Statement]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "Already" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Ancient Rome" -> "Roman poet" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Virgil" -> "House" [label="has location [Conduct]", color=green, penwidth=2];
+    "Middle Ages" -> "as standing on a pilere / t..." [label="has message [Statement]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "that" [label="has feature [Distinctiveness]", color=lightyellow, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "poet" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Virgil" -> "classic" [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "acclaimed in his lifetime a..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Virgil" -> "as a classic author" [label="has role [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "Virgil or Vergil" [label="has theme [Simple_naming]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "alone" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "Middle Ages" -> "authors" [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Middle Ages" -> "modernity" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "Virgil" -> "rapidly" [label="has degree [Take_place_of]", color=lightcyan, penwidth=1];
+    "Middle Ages" -> "Roman" [label="has entity [Distinctiveness]", color=lightyellow, penwidth=1];
+    "Middle Ages" -> "Latin poet" [label="has theme [Desirability]", color=lightsteelblue, penwidth=1];
+    "Appendix Vergiliana" -> "Some minor poems" [label="has theme [Gathering_up]", color=lightgray, penwidth=1];
+    "Middle Ages" -> "Roman" [label="has purpose [Intentionally_act]", color=lightgoldenrodyellow, penwidth=1];
+    "Virgil" -> "as a standard school text" [label="has role [Take_place_of]", color=lightcyan, penwidth=1];
+    "Virgil" -> "Ennius and other earlier au..." [label="has theme [Take_place_of]", color=lightcyan, penwidth=1];
+    "T. S. Eliot" -> "subject " What Is a Classic?" [label="has theme [Education_teaching]", color=lightseagreen, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "English" [label="has location [Simple_naming]", color=green, penwidth=2];
+    "T. S. Eliot" -> "lecture on the subject " Wh..." [label="has activity [Activity_start]", color=lightsalmon, penwidth=1];
+    "Middle Ages" -> "classic" [label="has theme [Type]", color=lightgoldenrod, penwidth=1];
+    "Middle Ages" -> "Geoffrey Chaucer" [label="has speaker [Statement]", color=lightblue, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "Publius Vergilius Maro  Cla..." [label="has author [Text]", color=lightblue, penwidth=1];
+    "Latin" -> "literature" [label="has theme [Fields]", color=lightpink, penwidth=1];
+    "Middle Ages" -> "authors" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Virgilius Maro Grammaticus" -> "Augustan period" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "earlier authors" [label="has class [Increment]", color=lightseagreen, penwidth=1];
+    "T. S. Eliot" -> "famously" [label="has theme [Activity_start]", color=lightsalmon, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "English" [label="has location [Text]", color=green, penwidth=2];
+    "Augusta, Georgia" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "antiquity" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "Augusta, Georgia" -> "exception of some short pieces" [label="has theme [Likelihood]", color=lightcoral, penwidth=1];
+    "Virgil" -> "confidently" [label="has theme [Statement]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "House" [label="has location [Statement]", color=green, penwidth=2];
+    "Middle Ages" -> "Western literature" [label="has theme [Importance]", color=lightblue, penwidth=1];
+    "Virgilius Maro Grammaticus" -> "Virgil" [label="has evaluee [Judgment]", color=lightcoral, penwidth=1];
+    "Augusta, Georgia" -> "times" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Middle Ages" -> "most" [label="has degree [Desirability]", color=lightsteelblue, penwidth=1];
+    "T. S. Eliot" -> "20th century" [label="has time [Activity_start]", color=purple, penwidth=2];
+    "Virgil" -> "major" [label="has degree [Objective_influence]", color=lightgreen, penwidth=1];
+    "Virgil" -> "as the author's guide throu..." [label="has theme [Conduct]", color=lightgreen, penwidth=1];
+    "Augusta, Georgia" -> "these" [label="has theme [Morality_evaluation]", color=lightyellow, penwidth=1];
+    "Augusta, Georgia" -> "English" [label="has location [Temporal_collocation]", color=green, penwidth=2];
+    "Augusta, Georgia" -> "pieces" [label="has theme [Part_piece]", color=lightgoldenrodyellow, penwidth=1];
+    "Augusta, Georgia" -> "scholars" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Virgilius Maro Grammaticus" -> "these" [label="has item [Categorization]", color=lightgreen, penwidth=1];
+    "Middle Ages" -> "that" [label="has agent [Intentionally_act]", color=lightgoldenrodyellow, penwidth=1];
+    "Middle Ages" -> "influence" [label="has theme [Importance]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "Virgil" [label="has theme [Statement]", color=lightblue, penwidth=1];
+    "Middle Ages" -> "author" [label="has category [Type]", color=lightgoldenrod, penwidth=1];
+    "Middle Ages" -> "late" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "Middle Ages" -> "honour" [label="has act [Intentionally_act]", color=lightgoldenrodyellow, penwidth=1];
+    "Virgil" -> "Western literature" [label="has theme [Objective_influence]", color=lightgreen, penwidth=1];
+    "Latin" -> "poems" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Virgil" -> "three of the most famous po..." [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_located_legend" [label="Being_located", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Aesthetics_legend" [label="Aesthetics", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Part_piece_legend" [label="Part_piece", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Simple_naming_legend" [label="Simple_naming", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Posture_legend" [label="Posture", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Conduct_legend" [label="Conduct", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Distinctiveness_legend" [label="Distinctiveness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Take_place_of_legend" [label="Take_place_of", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Gathering_up_legend" [label="Gathering_up", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Intentionally_act_legend" [label="Intentionally_act", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Judgment_legend" [label="Judgment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Morality_evaluation_legend" [label="Morality_evaluation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

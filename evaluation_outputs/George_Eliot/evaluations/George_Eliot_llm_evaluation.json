@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Ordinal_numbers:has_type child",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Thomas Hardy as a contemporary writer but provides no information about him having children or any ordinal relationship related to children."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text_creation:has_text few English novels",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The phrase 'few English novels' appears in a quote about Middlemarch, a novel by George Eliot. Thomas Hardy is mentioned as a contemporary writer from provincial England, creating a very weak, indirect thematic connection to the world of English novels, but no direct link to the specific text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Age:has_entity man",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Thomas Hardy is mentioned as a writer who, like George Eliot, 'emerged from provincial England.' While not explicitly called a 'man,' the context (being a named historical figure and a contemporary of Charles Dickens) makes it a reasonable inference that he is an adult male. The paragraph also mentions a 'man much younger' in a different context, reinforcing the concept."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Personal_relationship:has_theme http://en.wikipedia.org/wiki/George_Eliot",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Thomas Hardy is mentioned in the same sentence as George Eliot and Charles Dickens as writers who emerged from provincial England. This creates a clear thematic connection between them as leading Victorian-era novelists, even if no personal relationship is detailed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Increment:has_class uses",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Mary Ann Evans 'was known by her pen name George Eliot.' The relationship between the entity (George Eliot) and the action/class of 'using' a pen name is directly and clearly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Temporal_collocation:has_theme George Eliot married her long-time friend John Cross, a man much younger than she, and changed her name to Mary Ann Cross",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Thomas Hardy is mentioned in the paragraph as a contemporary writer from provincial England, like George Eliot. The marriage event is a significant life event, creating a weak thematic link of 'Victorian era writers and their lives'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middlemarch Death:has_theme who",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent. 'who' is not a valid theme for a death event. Middlemarch is mentioned as a novel, but there is no mention of death in relation to it in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Mill_on_the_Floss Kinship:has_location March",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The Mill on the Floss is listed as one of George Eliot's novels. 'March' is mentioned in the context of the birth/death of her twin brothers. There is a weak, indirect connection via the author's life timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Personal_relationship:has_theme husband",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses George Eliot's personal relationships, including her referring to George Henry Lewes as her 'husband' and her later marriage to John Cross."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jake_Jervis Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Agnes Jervis' and states that George Henry Lewes 'supported their children'. While the first name is different ('Jake' vs 'Agnes'), the surname 'Jervis' and the theme of 'children' are directly present, suggesting a possible extraction error rather than a complete lack of connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Increment:has_theme another",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'another' in the triple is ambiguous and does not correspond to any specific theme or relationship for Thomas Hardy mentioned in the paragraph. The paragraph only mentions Hardy as someone George Eliot emerged from provincial England with, but no 'another' theme is described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Time_vector:has_event George Eliot married her long-time friend John Cross, a man much younger than she, and changed her name to Mary Ann Cross",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The event described (George Eliot's marriage to John Cross) is explicitly about George Eliot, not Thomas Hardy. The paragraph mentions Hardy only in a different context (emerging from provincial England), with no connection to this marriage event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Mill_on_the_Floss Kinship:has_theme local mill-owner",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While 'The Mill on the Floss' is listed as one of George Eliot's novels, and a 'local mill-owner' is mentioned as the grandfather of Christiana Evans, the connection is very weak and indirect. The novel's title contains 'Mill', and a 'mill-owner' is mentioned elsewhere, creating a tenuous thematic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jake_Jervis Abandonment:has_theme live with another man and have children with him",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The theme of abandonment ('live with another man and have children with him') is described in the paragraph regarding Agnes Jervis leaving George Henry Lewes. The subject 'Jake_Jervis' is a near-match for 'Agnes Jervis', and the theme is directly present, allowing for a lenient match based on the semantic theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Freetown_Christiania Being_named:has_theme Pearson",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The name 'Pearson' appears as Christiana Evans's maiden name. 'Freetown_Christiania' is a very weak match for the name 'Christiana', but under lenient rules focusing on the 'Being_named' theme and the presence of the name 'Pearson', a minimal semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Middlemarch Death:has_location March",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Middlemarch' and 'March' (as a month of birth/death for twins), but there is no semantic connection suggesting Middlemarch has a location related to death in March. The concepts are completely unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Cause_change:has_entity her name",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she 'changed her name to Mary Ann Cross'. This is a clear semantic match for a change event involving her name as the entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text:has_author English",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Thomas Hardy is mentioned as being 'from provincial England' like George Eliot. While not explicit, there is a weak semantic link that Hardy, as an English writer, is an author of texts. The connection to 'English' as a nationality is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Completeness:has_location March",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Thomas Hardy is mentioned, and the month 'March' appears (regarding the death of twins), but there is no semantic connection between Thomas Hardy and the location or concept of March in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Daniel_Deronda Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Daniel Deronda is explicitly listed as one of the seven novels written by George Eliot. The semantic connection that it is a novel (a type of text) is direct and clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy People:has_age much younger than she",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'much younger than she' refers to John Cross, not Thomas Hardy. There is no semantic connection between Thomas Hardy's age and this description."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Text_creation:has_theme grown-up people",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'grown-up people' is used by Virginia Woolf to describe Middlemarch, a novel by George Eliot. There is no connection to Thomas Hardy or his works in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jake_Jervis Personal_relationship:has_theme his wife, Agnes Jervis",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Agnes Jervis' as the wife of George Henry Lewes, but the subject 'Jake Jervis' does not appear in the text. There is no identifiable connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Reference_text:has_theme George Eliot (disambiguation",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph begins with 'For other uses, see George Eliot (disambiguation)', which is a direct reference text related to George Eliot."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Increment:has_class man",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While the paragraph mentions Thomas Hardy as a writer from provincial England, the connection to the class 'man' is extremely weak and indirect. However, being lenient, Thomas Hardy is a person (man), so there is a minimal semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Completeness:has_theme siblings",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Thomas Hardy as a contemporary writer but provides no information about him having siblings. The theme 'siblings' is only discussed in relation to George Eliot."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Kinship:has_theme siblings",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly lists George Eliot's siblings: Christiana (Chrissey), Isaac, and twin brothers, making the kinship theme of siblings directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Temporal_collocation:has_theme May 1880",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The date 'May 1880' is mentioned in the context of George Eliot's marriage to John Cross. There is no temporal connection made between this date and Thomas Hardy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Personal_relationship:has_theme long-time",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'long-time' is used to describe George Eliot's friendship with John Cross. There is no mention of a personal relationship, long-time or otherwise, between Thomas Hardy and any other person in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Residence:has_theme http://en.wikipedia.org/wiki/George_Eliot",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions both individuals as leading writers from provincial England, but it does not state or imply that Thomas Hardy resided with or at the location of George Eliot. The theme of residence is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses George Eliot's pen name and her birth name Mary Ann Evans, clearly establishing a naming theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Quantified_mass:has_location March",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Thomas Hardy is only mentioned as a contemporary writer from provincial England; no connection to March is established in the paragraph"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Departing:has_theme provincial England",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states she 'emerged from provincial England' and 'most of her works are set there', establishing provincial England as a significant theme in her life and work"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Kinship:has_location March",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "March is mentioned in relation to her twin brothers who died in March 1821, creating a weak but valid connection through family events"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Mill_on_the_Floss Kinship:has_theme brothers",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "While The Mill on the Floss itself isn't explicitly linked to brothers, the paragraph mentions brothers in George Eliot's family context, and the novel is one of her works that could reasonably explore family themes"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Kinship:has_theme brothers",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions George Eliot's 'twin brothers', establishing a kinship theme of brothers, though the triple structure is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Age:has_degree much",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Thomas Hardy is mentioned only as a contemporary writer from provincial England. There is no information about his age or any degree/quantity associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Measure_duration:has_theme few",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'few' appears in a quote about 'English novels', not in relation to Thomas Hardy. There is no connection between Hardy and a theme of 'few'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Mill_on_the_Floss Kinship:has_theme daughter",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The novel 'The Mill on the Floss' is listed as one of George Eliot's works, but the paragraph contains no information about its plot, characters, or themes, such as a daughter."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Simple_naming:has_theme her husband",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states she lived with George Henry Lewes 'and called him her husband', directly establishing a naming theme related to 'her husband'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Jake_Jervis State_continue:has_state married to his wife, Agnes Jervis",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Agnes Jervis' as the wife of George Henry Lewes, but 'Jake Jervis' is not mentioned at all. The subject of the triple is completely unrelated to the paragraph's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Relative_time:has_theme Jervis left him to live with another man and have children with him",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Thomas Hardy is mentioned as a contemporary writer, but the event described (Jervis leaving) is about Agnes Jervis and George Henry Lewes, not Thomas Hardy. There is no semantic connection between Hardy and this event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Text:has_text writers",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "George Eliot is described as 'one of the leading writers of the Victorian era' and her writing career is a central theme of the paragraph. The connection between the subject and the concept of 'writers' is clear and direct."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Virginia_Woolf Statement:has_speaker novelist Virginia Woolf",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Virginia Woolf is explicitly mentioned as 'the novelist Virginia Woolf' who made a statement about Middlemarch. The triple accurately reflects this relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Quantified_mass:has_quantity few",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "While Thomas Hardy is mentioned, the word 'few' appears in a different context (Virginia Woolf's quote about 'one of the few English novels'). This is a very weak, indirect lexical connection with no meaningful semantic relationship to Thomas Hardy."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Similarity:has_theme http://en.wikipedia.org/wiki/George_Eliot",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph groups Charles Dickens and George Eliot together as authors who 'emerged from provincial England', implying a thematic similarity in their work's settings and origins."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot Purpose:has_goal uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple is semantically incoherent and does not correspond to any clear relationship or information present in the paragraph. The phrase 'has_goal uses' is not a meaningful predicate connecting the subject to an object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thomas_Hardy Fame:has_reason their realism, psychological insight, sense of place, and detailed depiction of the countryside",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Thomas Hardy is mentioned alongside George Eliot as emerging from provincial England. The listed qualities ('realism, psychological insight...') are stated as the reasons her works are known, and by association, this fame could be extended to Hardy as part of the same group of writers, though the link is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Freetown_Christiania Being_named:has_location March",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Freetown_Christiania' is not mentioned in the paragraph. The word 'March' appears only in the context of the birth month of George Eliot's twin brothers, which is completely unrelated to the subject of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/George_Eliot People_by_age:has_age third",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states she was the 'third child' of her parents. While 'third child' is not a direct measure of age, it is a relative age-based position within the family, providing a weak semantic connection to the concept of age/position."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 20,
+    "accuracy": 0.4,
+    "avg_confidence": 0.37800000000000006,
+    "high_confidence_50": 20,
+    "high_confidence_80": 12,
+    "percent_50": 40.0,
+    "percent_80": 24.0,
+    "max_triples_limit": 50
+  }
+}

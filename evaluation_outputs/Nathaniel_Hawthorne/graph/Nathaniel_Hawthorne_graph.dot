@@ -1,0 +1,325 @@
+digraph Nathaniel_Hawthorne {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "author" [label="author", fillcolor=lightcoral, color=red, shape=circle];
+    "American author 1804–1864, ..." [label="American author 1804–1864, ...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "novel Fanshawe" [label="novel Fanshawe", fillcolor=lightblue, color=blue, shape=ellipse];
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His published works" [label="His published works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "succession of other novels" [label="succession of other novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "He published his first work" [label="He published his first work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His fiction works" [label="His fiction works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist and short story wr..." [label="novelist and short story wr...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His works" [label="His works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels, short stories, and ..." [label="novels, short stories, and ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "other novels" [label="other novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novelist" [label="novelist", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before marrying Peabody in ..." [label="before marrying Peabody in ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brook Farm, a transcendenta..." [label="Brook Farm, a transcendenta...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Concord, New Hampshire" [label="Concord, New Hampshire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Phi Beta Kappa" [label="Phi Beta Kappa", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tried to suppress it" [label="tried to suppress it", fillcolor=lightgray, color=gray, shape=hexagon];
+    "often" [label="often", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Scarlet Letter" [label="The Scarlet Letter", fillcolor=lightgray, color=gray, shape=hexagon];
+    "community" [label="community", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "transcendentalist" [label="transcendentalist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "President" [label="President", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Wayside" [label="The Wayside", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Boston Custom House" [label="Boston Custom House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nathaniel Hawthorne  né Hat..." [label="Nathaniel Hawthorne  né Hat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wayside" [label="Wayside", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following" [label="following", fillcolor=lightgray, color=gray, shape=hexagon];
+    "moral metaphors" [label="moral metaphors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Salem, Oregon" [label="Salem, Oregon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bowdoin College" [label="Bowdoin College", fillcolor=lightgray, color=gray, shape=hexagon];
+    "following year" [label="following year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nathaniel Hawthorne" [label="Nathaniel Hawthorne", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Salem, Massachusetts" [label="Salem, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1821" [label="1821", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "year" [label="year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family long associated with..." [label="family long associated with...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "becoming the 14th president" [label="becoming the 14th president", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1850" [label="1850", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Old Manse in Concord, Massa..." [label="Old Manse in Concord, Massa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1824" [label="1824", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Twice-Told Tales" [label="as Twice-Told Tales", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sophia Hawthorne" [label="Sophia Hawthorne", fillcolor=lightgray, color=gray, shape=hexagon];
+    "history, morality, and reli..." [label="history, morality, and reli...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that it was not equal to th..." [label="that it was not equal to th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "published" [label="published", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that town" [label="that town", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Romantic movement and, more..." [label="Romantic movement and, more...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their return to Concord in ..." [label="their return to Concord in ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "periodicals" [label="periodicals", fillcolor=lightgray, color=gray, shape=hexagon];
+    "college" [label="college", fillcolor=lightgray, color=gray, shape=hexagon];
+    "couple" [label="couple", fillcolor=lightgray, color=gray, shape=hexagon];
+    "President of the United States" [label="President of the United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1804" [label="1804", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his 1852 campaign for Presi..." [label="his 1852 campaign for Presi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hawthorne and family" [label="Hawthorne and family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part of the Romantic moveme..." [label="part of the Romantic moveme...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "long" [label="long", fillcolor=lightgray, color=gray, shape=hexagon];
+    "president" [label="president", fillcolor=lightgray, color=gray, shape=hexagon];
+    "before their return to Conc..." [label="before their return to Conc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "engaged to Sophia Peabody" [label="engaged to Sophia Peabody", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as consul" [label="as consul", fillcolor=lightgray, color=gray, shape=hexagon];
+    "themes" [label="themes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their return to Concord" [label="their return to Concord", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1860" [label="1860", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Scarlet Letter was publishe..." [label="Scarlet Letter was publishe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1825" [label="1825", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1842" [label="1842", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1828" [label="1828", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "14th" [label="14th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Europe" [label="Europe", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hawthorne's" [label="Hawthorne's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "humanity" [label="humanity", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several short stories" [label="several short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1837" [label="1837", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Salem, the Berkshires" [label="Salem, the Berkshires", fillcolor=lightgray, color=gray, shape=hexagon];
+    "moving to Salem, the Berksh..." [label="moving to Salem, the Berksh...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "anti- Puritan" [label="anti- Puritan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "feeling that it was not equ..." [label="feeling that it was not equ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "biography of his college fr..." [label="biography of his college fr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "political appointment as co..." [label="political appointment as co...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "May 19, 1864" [label="May 19, 1864", fillcolor=lightgray, color=gray, shape=hexagon];
+    "several" [label="several", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "suppress it" [label="suppress it", fillcolor=lightgray, color=gray, shape=hexagon];
+    "town" [label="town", fillcolor=lightgray, color=gray, shape=hexagon];
+    "14th president" [label="14th president", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Nathaniel Hawthorne" -> "several" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "part" [label="has theme [Part_whole]", color=lightcoral, penwidth=1];
+    "Boston Custom House" -> "Nathaniel Hawthorne" [label="has employee [Being_employed]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "His published works" [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "Hawthorne and family" [label="has theme [Taking]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "Salem, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "their return to Concord in ..." [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "themes" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Nathaniel Hawthorne" -> "suppress it" [label="has goal [Attempt]", color=lightgoldenrodyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "anti- Puritan" [label="has theme [Subjective_influence]", color=lightseagreen, penwidth=1];
+    "Salem, Oregon" -> "that town" [label="has group [Membership]", color=lightsalmon, penwidth=1];
+    "Nathaniel Hawthorne" -> "before marrying Peabody in ..." [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "novels, short stories, and ..." [label="has theme [Inclusion]", color=lightyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "14th" [label="has theme [Appellations]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "family" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "The Wayside" -> "later" [label="has time [Motion]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "biography of his college fr..." [label="has text [Text_creation]", color=lightblue, penwidth=1];
+    "President of the United States" -> "which" [label="has competition [Win_prize]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "stories" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "President of the United States" -> "becoming the 14th president" [label="has theme [Win_prize]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "community" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "his 1852 campaign for Presi..." [label="has purpose [Text_creation]", color=lightblue, penwidth=1];
+    "President of the United States" -> "Nathaniel Hawthorne" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "The Wayside" -> "His fiction works" [label="has item [Categorization]", color=lightcyan, penwidth=1];
+    "Nathaniel Hawthorne" -> "1850" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Salem, Oregon" -> "family" [label="has theme [Kinship]", color=lightsteelblue, penwidth=1];
+    "The Wayside" -> "Wayside" [label="has theme [Interior_profile_relation]", color=lightgray, penwidth=1];
+    "Nathaniel Hawthorne" -> "works" [label="has theme [Labor_product]", color=lightgoldenrodyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "United States" [label="has theme [Leadership]", color=lightseagreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "family long associated with..." [label="has theme [Being_born]", color=lightcyan, penwidth=1];
+    "Nathaniel Hawthorne" -> "1825" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "novels" [label="has class [Increment]", color=lightgoldenrod, penwidth=1];
+    "Nathaniel Hawthorne" -> "president" [label="has type [Appellations]", color=lightpink, penwidth=1];
+    "Boston Custom House" -> "before marrying Peabody in ..." [label="has time [Being_employed]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "President" [label="has leader [Leadership]", color=lightseagreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "stories" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "1860" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "that it was not equal to th..." [label="has theme [Feeling]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "Bowdoin College" [label="has theme [Attributed_information]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "which" [label="has theme [Gathering_up]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "novels" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "1828" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "author" [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "novelist and short story wr..." [label="has entity [Origin]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "moral metaphors" [label="has behavior [Subjective_influence]", color=lightseagreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "periodicals" [label="has theme [Publishing]", color=lightsteelblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "He published his first work" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "1837" [label="has time [Gathering_up]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "1804" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "as Twice-Told Tales" [label="has means [Gathering_up]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "college" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "President of the United States" -> "president" [label="has role [Leadership]", color=lightseagreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "short stories" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "Brook Farm, a transcendenta..." [label="has group [Becoming_a_member]", color=lightgoldenrod, penwidth=1];
+    "The Wayside" -> "Concord, New Hampshire" [label="has location [Interior_profile_relation]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "Concord, New Hampshire" [label="has goal [Arriving]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "engaged to Sophia Peabody" [label="has theme [Becoming]", color=lightcyan, penwidth=1];
+    "President of the United States" -> "14th president" [label="has theme [Becoming]", color=lightcyan, penwidth=1];
+    "Nathaniel Hawthorne" -> "May 19, 1864" [label="has time [Death]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "often" [label="has theme [Emphasizing]", color=lightgray, penwidth=1];
+    "Nathaniel Hawthorne" -> "history, morality, and reli..." [label="has theme [Emphasizing]", color=lightgray, penwidth=1];
+    "Nathaniel Hawthorne" -> "work" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "following year" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "Phi Beta Kappa" [label="has role [Change_of_leadership]", color=lightseagreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "Europe" [label="has goal [Taking]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "United States" [label="has theme [Origin]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "Scarlet Letter was publishe..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "Sophia Hawthorne" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "The Wayside" -> "Concord, New Hampshire" [label="has location [Motion]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "their return to Concord" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "His works" [label="has theme [Emphasizing]", color=lightgray, penwidth=1];
+    "Nathaniel Hawthorne" -> "transcendentalist" [label="has theme [Aggregate]", color=lightyellow, penwidth=1];
+    "Concord, New Hampshire" -> "moving to Salem, the Berksh..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "tried to suppress it" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "The Scarlet Letter" [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "work" [label="has type [Ordinal_numbers]", color=lightsalmon, penwidth=1];
+    "Nathaniel Hawthorne" -> "year" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "novelist" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "1860" [label="has time [Arriving]", color=purple, penwidth=2];
+    "The Wayside" -> "Concord, New Hampshire" [label="has theme [Interior_profile_relation]", color=lightgray, penwidth=1];
+    "Nathaniel Hawthorne" -> "succession of other novels" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "1824" [label="has time [Change_of_leadership]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "several short stories" [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "before their return to Conc..." [label="has time [Taking]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "published" [label="has theme [Labor_product]", color=lightgoldenrodyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "American author 1804–1864, ..." [label="has author [Text]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "other novels" [label="has theme [Sequence]", color=lightgoldenrod, penwidth=1];
+    "Nathaniel Hawthorne" -> "humanity" [label="has theme [Morality_evaluation]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "story" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "Romantic movement and, more..." [label="has theme [Part_whole]", color=lightcoral, penwidth=1];
+    "The Wayside" -> "Salem, the Berkshires" [label="has goal [Motion]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "later" [label="has time [Attempt]", color=purple, penwidth=2];
+    "Salem, Oregon" -> "family" [label="has member [Membership]", color=lightsalmon, penwidth=1];
+    "Nathaniel Hawthorne" -> "1828" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Nathaniel Hawthorne" -> "political appointment as co..." [label="has agent [Taking]", color=lightpink, penwidth=1];
+    "Nathaniel Hawthorne" -> "Hawthorne's" [label="has author [Text_creation]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "many" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "novel Fanshawe" [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "as consul" [label="has role [Appointing]", color=lightsteelblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "1842" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Nathaniel Hawthorne" -> "works" [label="has text [Text]", color=lightgreen, penwidth=1];
+    "Nathaniel Hawthorne" -> "work" [label="has theme [Labor_product]", color=lightgoldenrodyellow, penwidth=1];
+    "Salem, Oregon" -> "long" [label="has theme [Membership]", color=lightsalmon, penwidth=1];
+    "The Wayside" -> "couple" [label="has theme [Motion]", color=lightcoral, penwidth=1];
+    "The Wayside" -> "Old Manse in Concord, Massa..." [label="has goal [Motion]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "feeling that it was not equ..." [label="has theme [Attempt]", color=lightgoldenrodyellow, penwidth=1];
+    "Nathaniel Hawthorne" -> "following" [label="has theme [Calendric_unit]", color=lightcoral, penwidth=1];
+    "Nathaniel Hawthorne" -> "works" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "United States" [label="has location [Text]", color=green, penwidth=2];
+    "Nathaniel Hawthorne" -> "1821" [label="has time [Attributed_information]", color=purple, penwidth=2];
+    "Concord, New Hampshire" -> "couple" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Nathaniel Hawthorne" -> "political appointment as co..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "The Wayside" -> "part of the Romantic moveme..." [label="has category [Categorization]", color=lightcyan, penwidth=1];
+    "Salem, Oregon" -> "town" [label="has theme [Political_locales]", color=lightblue, penwidth=1];
+    "Nathaniel Hawthorne" -> "Nathaniel Hawthorne  né Hat..." [label="has author [Text_creation]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Taking_legend" [label="Taking", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Appellations_legend" [label="Appellations", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Motion_legend" [label="Motion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Feeling_legend" [label="Feeling", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Attributed_information_legend" [label="Attributed_information", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Gathering_up_legend" [label="Gathering_up", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Change_of_leadership_legend" [label="Change_of_leadership", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Sequence_legend" [label="Sequence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Morality_evaluation_legend" [label="Morality_evaluation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+    }
+}

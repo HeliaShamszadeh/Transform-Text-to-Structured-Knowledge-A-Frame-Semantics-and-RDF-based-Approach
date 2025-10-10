@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Openness:has_theme Their house",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Very weak connection - paragraph mentions 'Their house' in context of Brontë family living there, but no direct thematic relationship with Emily Brontë is established"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/West_Riding_of_Yorkshire Political_locales:has_location http://en.wikipedia.org/wiki/Thornton,_West_Yorkshire",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph clearly states Thornton is a village in the West Riding of Yorkshire, establishing location relationship"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Being_named:has_entity book of poetry with her sisters Charlotte and Anne",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No connection - Charlotte in paragraph refers to Emily's sister, not Charlotte, North Carolina"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Branwell Abandonment:has_theme children",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph states Elizabeth Branwell cared for children after mother's death, which implies responsibility for abandoned/left children"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Kinship:has_theme sister",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Multiple sisters mentioned (Charlotte, Anne) and close relationships described, establishing sister as a key theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Education_teaching:has_teacher teacher",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph mentions Emily was a 'student and teacher in Brussels' - the concept of teaching in Brussels is present, though 'teacher' is a role not a direct entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Assistance:has_goal chores",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "No connection between Brussels and chores is made. Chores are mentioned in the context of her life at home in Haworth, not Brussels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Frequency:has_theme intervals",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak connection: 'intervals at school' are mentioned in the context of her life, which was mostly spent in Haworth, creating a tangential link between the location and the concept of time intervals."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Education_teaching:has_location home",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states she was 'mostly taught at home' and spent 'most of her life at home in Haworth', creating a clear link between Haworth and home education."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Frequency:has_event school",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Paragraph mentions a 'period at school' and being a 'student and teacher in Brussels', connecting the location Brussels with the event of attending/teaching at school."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Text:has_theme 1847",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states her 1847 novel 'Wuthering Heights' is what she is best known for, establishing a strong semantic link between the subject (Emily Brontë), the theme of her text, and the year 1847."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Death:has_theme Emily Bront",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The triple is poorly formed, but the paragraph mentions 'Emily Brontë died in 1848'. There is a very weak semantic connection between the subject, the theme of death, and the string 'Emily Bront' which is a partial match for her name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Death:has_theme aged 30",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Emily Brontë died in 1848, aged 30', providing a clear and direct semantic connection between her death and the age of 30."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Irish_people Kinship:has_theme family",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Patrick Brontë was 'from an impoverished Irish family', which connects 'Irish' and 'family'. However, the subject 'Irish_people' is a general category, not the specific family mentioned, and the predicate 'Kinship:has_theme' is too vague to be reasonably extracted from this passing reference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights Surviving:has_time into adulthood",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states 'Emily was the fifth of six Brontë siblings, four of whom survived into adulthood'. This is about the Brontë siblings, not the novel 'Wuthering Heights'. The connection is indirect and the subject of the triple is incorrect for the information provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights Partitive:has_theme fifth",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'fifth' in relation to Emily being the fifth of six siblings, but there is no semantic connection between 'fifth' and Wuthering Heights as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Being_born:has_person Emily Bront",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Emily Brontë was born on 30 July 1818', providing a clear semantic connection to the concept of being born."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights Cardinal_numbers:has_theme four",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'four' in relation to siblings who survived into adulthood, but there is no semantic connection between 'four' and Wuthering Heights as a theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Experiencer_focus:has_theme http://en.wikipedia.org/wiki/Emily_Brontë",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Emily spent most of her life at home in Haworth, creating a strong semantic connection between Haworth and Emily Brontë as an experiencer of that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Education_teaching:has_theme books",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Emily was a student and teacher in Brussels and that she taught herself from books, creating a weak but valid semantic connection between Brussels, education/teaching, and books."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Anne_Brontë Text:has_text Poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Anne Brontë is mentioned as co-authoring a book of poetry with Emily, and the book is entitled 'Poems'. This creates a semantic link between Anne Brontë and the text 'Poems'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights Death:has_theme Her mother",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While both Wuthering Heights and Emily's mother are mentioned in the paragraph, there is no semantic connection or thematic link established between the novel and the theme of her mother's death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Kinship:has_theme Bront",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph extensively discusses Emily Brontë's family relationships (siblings, father Patrick Brontë, mother Maria Branwell). 'Bront' appears to be a truncated reference to the Brontë family name, which is the central theme of her kinship relations."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/West_Riding_of_Yorkshire Political_locales:has_theme outskirts of Bradford, in the West Riding of Yorkshire",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that the Brontë family lived 'in Thornton, a village on the outskirts of Bradford, in the West Riding of Yorkshire', directly connecting the political locale to the specified theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Text:has_text books",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Haworth is mentioned multiple times as Emily's home, and the paragraph references her writing 'little books' and teaching herself from 'books', creating a semantic connection between the location and textual elements."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Penzance Kinship:has_theme wealthy Penzance merchant and property owner",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Emily's mother, Maria Branwell, was 'the daughter of a wealthy Penzance merchant and property owner'. This establishes a thematic connection between Penzance and the concept of a wealthy merchant/property owner, though the relationship is indirect (via her mother's origin)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Education_teaching:has_student herself",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Emily spent time in Brussels 'as a student and teacher'. This directly implies that she was a student there, which semantically connects Brussels to the concept of her being a student ('herself')."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Elizabeth_Branwell Kinship:has_theme sister",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Elizabeth Branwell is explicitly identified as the children's 'aunt', not their sister. The paragraph discusses Emily's sisters (Charlotte and Anne) separately. There is no semantic connection between Elizabeth Branwell and the theme of 'sister'; the information is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Possession:has_owner owner",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph describes Emily Brontë's life and work but contains no information about her being an 'owner' of any property or possession in a way that this triple suggests. The concept of 'owner' is not semantically connected to her in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Social_connection:has_theme her siblings",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Emily 'spent most of her life at home in Haworth' and that she 'was very close to her siblings'. This creates a strong contextual and thematic link between the place 'Haworth' and the theme of 'her siblings', as it was the shared home where their close relationships developed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights Opinion:has_opinion that the characters in Wuthering Heights were coarse and immoral",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that 'many critics felt that the characters in Wuthering Heights were coarse and immoral', which directly supports the opinion mentioned in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Kinship:has_theme http://en.wikipedia.org/wiki/Charlotte_Brontë",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Charlotte Brontë is mentioned multiple times as Emily's sister, co-author, and companion in Brussels, establishing a strong kinship theme between them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels People_by_vocation:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Brussels is mentioned in the context of Emily studying and teaching there with her sister Charlotte, which implies a family connection, though the family theme is not explicitly stated for Brussels itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Buildings:has_theme home",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Haworth is repeatedly described as Emily's home where she spent most of her life, lived with her family, and performed domestic activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/England Categorization:has_time now",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While England is contextually relevant (Emily was an English writer), there is no mention of 'now' or current time in relation to England in the paragraph. The temporal references are historical."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Being_employed:has_task chores",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Emily Brontë doing chores in the context of her life at home in Haworth, and separately mentions she was a student/teacher in Brussels. The connection between Brussels and chores is extremely weak and indirect, as the chores are associated with her home life, not explicitly with Brussels, but a lenient interpretation could link the location of her life to her activities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Thornton,_West_Yorkshire Part_orientational:has_theme Riding of Yorkshire",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Thornton is 'in the West Riding of Yorkshire', which directly supports the relationship that Thornton has the West Riding of Yorkshire as a thematic or locational part."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Kinship:has_location http://en.wikipedia.org/wiki/Thornton,_West_Yorkshire",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Emily Brontë was born on 30 July 1818... The Brontë family lived on Market Street, in Thornton'. This clearly indicates a connection between Emily Brontë and the location Thornton, West Yorkshire, through her birth and family residence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/West_Riding_of_Yorkshire Residence:has_theme Bront family",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'The Brontë family lived... in Thornton, a village... in the West Riding of Yorkshire'. This establishes that the Brontë family's residence was located within the West Riding of Yorkshire, making the family a theme associated with that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Buildings:has_theme house",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Their house is now open to the public and is known as the Brontë Birthplace'. As Emily Brontë is a member of the Brontë family, there is a reasonable, though indirect, connection between her and the house (the Brontë Birthplace)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Duration_description:has_theme period",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions a 'brief period' and 'another as a student and teacher in Brussels', connecting Brussels to the theme of a time period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Being_born:has_time 30 July 1818",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Emily Brontë was born on 30 July 1818'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wuthering_Heights People_by_age:has_person adulthood",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'four of whom survived into adulthood' in the context of the Brontë siblings. While Wuthering Heights is the novel, the concept of 'adulthood' is semantically present in the text, though weakly linked to the novel itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Haworth Kinship:has_theme children",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the children were left in the care of their aunt and that Emily spent most of her life at home in Haworth, linking the location of Haworth to the theme of children/family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Brussels Frequency:has_theme period",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions a 'brief period' spent in Brussels, connecting Brussels to the theme of a time period/frequency."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Part_whole:has_theme six Bront siblings, four of whom survived into adulthood",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Emily was the fifth of six Brontë siblings, four of whom survived into adulthood,' which directly relates to the theme of family composition and survival."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Publishing:has_work Her work",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph repeatedly discusses Emily Brontë's work, specifically mentioning 'Wuthering Heights' and the poetry collection, making the connection to 'Her work' unambiguous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Time_vector:has_event Emily Bront died in 1848, aged 30,",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Emily Brontë died in 1848, aged 30,' which is a direct match for the event described in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina Being_named:has_theme Poems by Currer, Ellis and Acton Bell",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject of the triple (Charlotte, North Carolina) is completely unrelated to the paragraph, which is about the author Emily Brontë. The poem title is mentioned, but it is not thematically linked to the US city."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Emily_Brontë Performers_and_roles:has_theme piano",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions that Emily Brontë spent time 'playing the piano,' which establishes a clear thematic connection between her and the instrument."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 34,
+    "accuracy": 0.68,
+    "avg_confidence": 0.58,
+    "high_confidence_50": 34,
+    "high_confidence_80": 20,
+    "percent_50": 68.0,
+    "percent_80": 40.0,
+    "max_triples_limit": 50
+  }
+}

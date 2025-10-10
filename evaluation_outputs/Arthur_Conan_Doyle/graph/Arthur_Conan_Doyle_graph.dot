@@ -1,0 +1,205 @@
+digraph Arthur_Conan_Doyle {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "11 Picardy Place, Edinburgh..." [label="11 Picardy Place, Edinburgh...", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his works" [label="his works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "four novels and fifty-six s..." [label="four novels and fifty-six s...", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Scarlets" [label="Scarlets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "referred to as "Sir Arthur ..." [label="referred to as "Sir Arthur ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Conan" [label="Conan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as "Sir Arthur Conan Doyle"..." [label="as "Sir Arthur Conan Doyle"...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crew" [label="crew", fillcolor=lightgray, color=gray, shape=hexagon];
+    "22 May 1859" [label="22 May 1859", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur's" [label="Arthur's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "compound surname" [label="compound surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he graduated from high school" [label="he graduated from high school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Conan was Arthur's middle name" [label="Conan was Arthur's middle name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sherlock Holmes" [label="Sherlock Holmes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Napoleonic era" [label="Napoleonic era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "alone as his surname" [label="alone as his surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fifty-six" [label="fifty-six", fillcolor=lightgray, color=gray, shape=hexagon];
+    "text" [label="text", fillcolor=lightgray, color=gray, shape=hexagon];
+    "catalogues of the British L..." [label="catalogues of the British L...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Study in Scarlet, the first..." [label="Study in Scarlet, the first...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "often" [label="often", fillcolor=lightgray, color=gray, shape=hexagon];
+    "simply'Dog " [label="simply'Dog ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his baptism entry in the re..." [label="his baptism entry in the re...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "member" [label="member", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a sort of surname" [label="as a sort of surname", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that "Conan" is part of a c..." [label="that "Conan" is part of a c...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Doyle" [label="Doyle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brigadier Gerard" [label="Brigadier Gerard", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as his given names" [label="as his given names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rugby union" [label="Rugby union", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Baker Street Journal" [label="The Baker Street Journal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as his godfather" [label="as his godfather", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Michael Conan" [label="Michael Conan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Shortly" [label="Shortly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Steven Doyle, publisher of ..." [label="Steven Doyle, publisher of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "using Conan as a sort of su..." [label="using Conan as a sort of su...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur Conan Doyle" [label="Arthur Conan Doyle", fillcolor=lightgray, color=gray, shape=hexagon];
+    "character Sherlock Holmes" [label="character Sherlock Holmes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "crime fiction" [label="crime fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "drifting at sea with no cre..." [label="drifting at sea with no cre...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brigantine Mary Celeste" [label="brigantine Mary Celeste", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fantasy and science fiction..." [label="fantasy and science fiction...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur Ignatius Conan" [label="Arthur Ignatius Conan", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1887" [label="1887", fillcolor=lightgray, color=gray, shape=hexagon];
+    "given names" [label="given names", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Library of Congress" [label="Library of Congress", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he began using Conan as a s..." [label="he began using Conan as a s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Rugby union" -> "crime fiction" [label="has theme [Fields]", color=lightblue, penwidth=1];
+    "Rugby union" -> "his works" [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Arthur Conan Doyle" -> "his baptism entry in the re..." [label="has theme [Giving]", color=lightgreen, penwidth=1];
+    "Arthur Conan Doyle" -> "that "Conan" is part of a c..." [label="has theme [Evidence]", color=lightyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "Study in Scarlet, the first..." [label="has purpose [Intentionally_create]", color=lightpink, penwidth=1];
+    "Scarlets" -> "first" [label="has item [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Rugby union" -> "poetry" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Arthur Conan Doyle" -> "text" [label="has text [Text_creation]", color=lightgray, penwidth=1];
+    "Arthur Conan Doyle" -> "given names" [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "Shortly" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Arthur Conan Doyle" -> "Michael Conan" [label="has theme [Appointing]", color=lightsalmon, penwidth=1];
+    "Arthur Conan Doyle" -> "11 Picardy Place, Edinburgh..." [label="has location [Being_born]", color=green, penwidth=2];
+    "The Baker Street Journal" -> "Steven Doyle, publisher of ..." [label="has speaker [Statement]", color=lightpink, penwidth=1];
+    "Arthur Conan Doyle" -> "compound surname" [label="has theme [Part_whole]", color=lightsteelblue, penwidth=1];
+    "Rugby union" -> "short stories" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Scarlets" -> "novels" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Rugby union" -> "Sherlock Holmes" [label="has theme [Text]", color=lightsteelblue, penwidth=1];
+    "Arthur Conan Doyle" -> "Arthur's" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Rugby union" -> "plays" [label="has theme [Performing_arts]", color=lightblue, penwidth=1];
+    "Napoleonic era" -> "Brigadier Gerard" [label="has person [Member_of_military]", color=red, penwidth=2];
+    "Arthur Conan Doyle" -> "as a sort of surname" [label="has role [Using]", color=lightgreen, penwidth=1];
+    "Rugby union" -> "member" [label="has member [Membership]", color=lightyellow, penwidth=1];
+    "Rugby union" -> "stories" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Arthur Conan Doyle" -> "using Conan as a sort of su..." [label="has activity [Activity_start]", color=lightcyan, penwidth=1];
+    "Rugby union" -> "writer" [label="has theme [Expertise]", color=lightsteelblue, penwidth=1];
+    "Rugby union" -> "drifting at sea with no cre..." [label="has state [Becoming_aware]", color=lightgray, penwidth=1];
+    "Library of Congress" -> "Doyle" [label="has item [Communicate_categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "character Sherlock Holmes" [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "Rugby union" -> "stories" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Scarlets" -> "stories" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Arthur Conan Doyle" -> "Conan" [label="has theme [Part_whole]", color=lightsteelblue, penwidth=1];
+    "Arthur Conan Doyle" -> "simply'Dog " [label="has theme [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "often" [label="has time [Subjective_influence]", color=purple, penwidth=2];
+    "The Baker Street Journal" -> "Conan was Arthur's middle name" [label="has message [Statement]", color=lightpink, penwidth=1];
+    "Arthur Conan Doyle" -> "referred to as "Sir Arthur ..." [label="has event [Frequency]", color=lightsalmon, penwidth=1];
+    "Library of Congress" -> "alone as his surname" [label="has category [Communicate_categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Library of Congress" -> "catalogues of the British L..." [label="has theme [Communicate_categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Scarlets" -> "four novels and fifty-six s..." [label="has theme [Ordinal_numbers]", color=lightcyan, penwidth=1];
+    "Scarlets" -> "fifty-six" [label="has theme [Duration_description]", color=lightpink, penwidth=1];
+    "Rugby union" -> "brigantine Mary Celeste" [label="has theme [Becoming_aware]", color=lightgray, penwidth=1];
+    "Arthur Conan Doyle" -> "Arthur Ignatius Conan" [label="has theme [Giving]", color=lightgreen, penwidth=1];
+    "Rugby union" -> "fantasy and science fiction..." [label="has theme [Inclusion]", color=lightcoral, penwidth=1];
+    "Arthur Conan Doyle" -> "as "Sir Arthur Conan Doyle"..." [label="has behavior [Subjective_influence]", color=lightseagreen, penwidth=1];
+    "Arthur Conan Doyle" -> "1887" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Arthur Conan Doyle" -> "he began using Conan as a s..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Arthur Conan Doyle" -> "Scarlets" [label="has location [Intentionally_create]", color=green, penwidth=2];
+    "Arthur Conan Doyle" -> "22 May 1859" [label="has time [Being_born]", color=purple, penwidth=2];
+    "Arthur Conan Doyle" -> "works" [label="has theme [Labor_product]", color=lightgoldenrod, penwidth=1];
+    "Rugby union" -> "crew" [label="has group [Membership]", color=lightyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "Conan" [label="has entity [Being_named]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur Conan Doyle" -> "as his given names" [label="has theme [Giving]", color=lightgreen, penwidth=1];
+    "Arthur Conan Doyle" -> "he graduated from high school" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Sherlock Holmes" -> "stories" [label="has text [Text]", color=lightsteelblue, penwidth=1];
+    "Arthur Conan Doyle" -> "as his godfather" [label="has role [Appointing]", color=lightsalmon, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Fields_legend" [label="Fields", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Member_of_military_legend" [label="Member_of_military", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Activity_start_legend" [label="Activity_start", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Expertise_legend" [label="Expertise", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Frequency_legend" [label="Frequency", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

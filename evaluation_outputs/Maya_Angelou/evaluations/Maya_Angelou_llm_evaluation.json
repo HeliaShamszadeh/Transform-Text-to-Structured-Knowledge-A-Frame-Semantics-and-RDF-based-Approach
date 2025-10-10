@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text_creation:has_time 1928",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Maya Angelou was born in 1928 and was an American. There is a weak semantic link between the United States and the time 1928 through her birth year as an American figure."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Relative_time:has_theme string of odd jobs during her young adulthood",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph mentions she had a 'string of odd jobs during her young adulthood' in the context of her life in the United States. This is a very weak and indirect connection, but the theme is present in the narrative about an American."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Receiving:has_recipient http://en.wikipedia.org/wiki/Maya_Angelou",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Maya Angelou, an American, received many awards and honors. While not explicitly stated that the 'United States' was the giver, the context implies these recognitions occurred within the US, creating a plausible semantic connection for a receiving event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Cardinal_numbers:has_entity honorary degrees",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states Angelou received 'more than 50 honorary degrees'. As an American figure, there is a weak link between the United States and the entity 'honorary degrees' she received, likely from American institutions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Maya Angelou is explicitly described as an 'American poet'. The triple connects the United States to the text 'poet', which is a direct descriptor of a key American subject in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People_by_vocation:has_person Reynolds",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Angelou was named the first Reynolds Professor of American Studies at Wake Forest University.' This establishes a connection between Wake Forest University and a person associated with the 'Reynolds' name/vocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People:has_theme Black",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The connection is very indirect. The paragraph mentions Angelou worked at Wake Forest University and also that she was a 'spokesperson for Black people' and her works defended 'Black culture'. There is a weak thematic link between the university (via her employment) and the theme of Black people/culture."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Text:has_text I Know Why the Caged Bird Sings",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is indirect. The book 'I Know Why the Caged Bird Sings' is mentioned, and Angelou was a professor at Wake Forest University. The triple suggests the university is associated with the text, which is true in the broad sense that a key faculty member authored it, but this specific relationship is not explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou Labor_product:has_theme works",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Maya Angelou's works (autobiographies, poems, essays, plays) and their themes, stating her 'works have been considered a defense of Black culture' and are used in schools. The connection between the subject (Angelou) and the theme of her 'works' is clear."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Prohibiting_or_licensing:has_theme her books",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The connection is extremely weak but semantically valid. The paragraph mentions 'attempts have been made to ban her books from some U.S. libraries' (prohibiting) and separately mentions Wake Forest University. There is no direct link stated between the university and the banning, but both concepts appear in the text, creating a very tenuous thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Age:has_time 1969",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions the year 1969 in the context of the United States, as it's when 'I Know Why the Caged Bird Sings' was published, bringing Angelou international recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou Judgment:has_role as a spokesperson for Black people and women",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'She was respected as a spokesperson for Black people and women'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Buildings:has_theme libraries",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Wake Forest University is mentioned, and libraries are mentioned separately in the context of book bans, but there is no semantic connection between the university and libraries in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Age:has_entity adulthood",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'young adulthood' in the context of Angelou's life in the United States, providing a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text_creation:has_author author",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Maya Angelou, an American author, is the subject of the paragraph. The text describes her authorship and her works' use in the United States, creating a reasonable connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Categorization:has_category defense of Black culture",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph states that Angelou's works are considered a defense of Black culture, and she was a professor at Wake Forest University. The connection is very indirect and thematic, but a lenient interpretation could link the university to this theme through her appointment."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Judgment_communication:has_theme international",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Angelou's first book 'brought her international recognition and acclaim'. As she is an American author, a lenient interpretation connects the United States to the theme of international recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People_by_vocation:has_location Winston",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Wake Forest University is located in 'Winston-Salem, North Carolina'. 'Winston' is a direct and reasonable abbreviation/substring of this location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Using:has_degree widely",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Angelou received many honorary degrees and that her works are 'widely used' in schools. A very lenient, thematic link can be made between the university, the concept of degrees, and the adverb 'widely'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou People_by_age:has_age young",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses her 'young adulthood' and her life 'up to the age of 17', which directly relates to the concept of a 'young' age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/I_Know_Why_the_Caged_Bird_Sings Causation:has_time 1969",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'I Know Why the Caged Bird Sings (1969)', directly linking the book to the year 1969."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Natural_features:has_theme Mercury",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Mercury' in the context of a crater named after Angelou. While the connection to the United States is extremely weak and indirect (Angelou was American, and the crater is on a planet), there is a semantic chain linking the concepts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Praiseworthiness:has_behavior list of plays, movies, and television shows spanning over 50 years",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Maya Angelou, an American, is credited with a list of plays, movies, and TV shows. The 'behavior' is attributed to her, and by a very lenient, indirect extension, one could thematically connect this creative output to her nationality."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_subregion:has_theme early",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The paragraph discusses Angelou's 'early adult experiences'. As she is an American figure, there is a very weak, indirect thematic link between the United States and the concept of 'early' life stages through her biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Political_locales:has_time 1969",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 1969 is mentioned in the paragraph as the publication date of a book by Maya Angelou, an American. The connection is very indirect, but the year is a significant date within the context of American cultural history as presented in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Locale_by_use:has_theme universities",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Angelou was a professor at Wake Forest University, which is a university. The triple's theme 'universes' is likely a typo for 'universities', and the connection to a university is semantically present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bill_Clinton Reading_activity:has_time first inauguration of Bill Clinton",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Angelou recited a poem at the 'first inauguration of Bill Clinton', which is a specific time event directly associated with Bill Clinton."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People_by_vocation:has_theme Wake Forest University in Winston-Salem, North Carolina",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions Angelou was a professor at 'Wake Forest University in Winston-Salem, North Carolina', establishing a clear connection between the university and a person's vocation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_text list",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions a 'list of plays, movies, and television shows' and 'some U.S. libraries'. While the connection to 'United States' is weak and indirect through 'U.S. libraries', and 'list' is mentioned, the semantic link is tenuous but exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Prohibiting_or_licensing:has_location some U.S. libraries",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions attempts to ban her books from 'some U.S. libraries', but this is not connected to Wake Forest University. The triple incorrectly associates the prohibition/location with the university."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Praiseworthiness:has_theme http://en.wikipedia.org/wiki/Maya_Angelou",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Maya Angelou is identified as an 'American' poet and activist, and her work is discussed in the context of American culture and education, creating a semantic link to the United States."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Temporal_collocation:has_theme string of odd jobs",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The 'string of odd jobs' is mentioned as part of Angelou's personal history, but there is no direct or indirect semantic link connecting this specific concept to the United States entity in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Age:has_age 17",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The age of 17 is mentioned in the context of Angelou's autobiography, but there is no semantic connection between this age and the United States entity in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Text:has_time 1993",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Wake Forest University is mentioned in the context of Angelou's 1982 appointment. The year 1993 is mentioned separately for her inaugural recitation. While the two facts are not directly connected, the paragraph contains both entities, allowing for a weak, indirect temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Ordinal_numbers:has_time 1993",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Same reasoning as the previous triple. The university and the year 1993 are both present in the text, supporting a weak, extractable temporal relationship based on the document's overall content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People:has_person women",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak connection: Maya Angelou (a woman) was named a professor at Wake Forest University, but the triple structure is vague and the relationship is not explicitly about 'women' as a category."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_theme essays",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak connection: Maya Angelou, an American author, published books of essays. The theme 'essays' is related to her work, and the United States is her country, but the direct link is tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_theme plays, movies, and television shows",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak connection: Maya Angelou, an American author, is credited with plays, movies, and TV shows. The theme is related to her work, and the United States is her country, but the direct link is tenuous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Natural_features:has_theme crater",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "No connection: The paragraph mentions a crater on Mercury named Angelou, which is not a natural feature in the United States. The information is completely unrelated to the subject of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University People_by_vocation:has_time 1982",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Clear connection: The paragraph explicitly states 'In 1982, Angelou was named the first Reynolds Professor of American Studies at Wake Forest University.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/I_Know_Why_the_Caged_Bird_Sings Causation:has_cause first, I Know Why the Caged Bird Sings (1969 )",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The triple structure is malformed and the relationship 'has_cause' does not semantically connect to the object 'first, I Know Why the Caged Bird Sings (1969)'. The paragraph states the book was 'first' in a series, but this is not a causal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Bill_Clinton Reading_activity:has_reader http://en.wikipedia.org/wiki/Maya_Angelou",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Angelou recited her poem...at the first inauguration of Bill Clinton'. A recitation implies a reading activity, and Bill Clinton was the listener/audience, making the semantic connection reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Process_start:has_event she made approximately 80 appearances a year on the lecture circuit",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The event 'she made approximately 80 appearances...' is mentioned in a separate sentence from her appointment at Wake Forest University. There is no direct or implied semantic link in the paragraph stating that the university was the location or cause of this activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/I_Know_Why_the_Caged_Bird_Sings Causation:has_effect her international recognition and acclaim",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the book 'brought her international recognition and acclaim'. This directly describes the book as having the effect of achieving recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou Being_active:has_activity http://en.wikipedia.org/wiki/Civil_rights_movements",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Angelou was active in the Civil Rights Movement', which is a direct and clear match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/United_States Text:has_time 1928",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Maya Angelou was an American poet born in 1928, creating a weak semantic connection between the United States and the time period 1928 through her nationality and birth year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou Being_born:has_time 1928",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Maya Angelou was born on April 4, 1928, making this a clear and direct extraction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Wake Forest University is mentioned in relation to Angelou being appointed as a professor, and Angelou is repeatedly described as a poet throughout the paragraph, creating a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wake_Forest_University Proportional_quantity:has_theme libraries",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While libraries are mentioned in the context of book banning attempts, there is no semantic connection between Wake Forest University and libraries in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Maya_Angelou Discussion:has_theme publicly",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Angelou publicly discussed aspects of her personal life,' which directly connects Maya Angelou with public discussion as a theme."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 21,
+    "accuracy": 0.42,
+    "avg_confidence": 0.49400000000000005,
+    "high_confidence_50": 21,
+    "high_confidence_80": 15,
+    "percent_50": 42.0,
+    "percent_80": 30.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wallace_Stevens Being_born:has_theme into a Lutheran family of Dutch and German descent",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Stevens was 'born in Reading, Pennsylvania, in 1879 into a Lutheran family of Dutch and German descent', which directly supports the triple's theme of birth and family background."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West Inclusion:has_theme Transport to Summer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Ideas of Order (1933), included in Transport to Summer (1947)' and separately lists 'The Idea of Order at Key West' as one of Stevens's poems. While not explicitly stating the poem is in the collection, the thematic connection between the poem's title and the collection 'Ideas of Order' is a reasonable, though indirect, inference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Text:has_text poems",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Harmonium 'features, among other poems, \"The Emperor of Ice-Cream\"', clearly identifying the work as a poem. The triple's predicate is semantically related to this classification."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Subjective_influence:has_theme http://en.wikipedia.org/wiki/Wallace_Stevens",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph identifies Wallace Stevens as a significant 'American modernist poet' and discusses his influential body of work. This establishes a clear thematic connection between the subject (American poetry) and the object (Wallace Stevens), as he is presented as a major figure within that domain."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Attending:has_agent son of a prosperous lawyer, Stevens",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The information about Stevens being the 'son of a prosperous lawyer' and attending Harvard is about the poet's life, not an attribute of the poem 'The Emperor of Ice-Cream'. There is no semantic connection between the poem and this biographical detail about its author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Businesses:has_location Hartford, Connecticut",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that Wallace Stevens, an American poet, spent most of his life working in Hartford, Connecticut. There is a semantic connection between American poetry (his profession) and the location where he worked."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_University Kinship:has_theme son",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions New York Law School, not New York University. While related to education in New York, the 'son' theme is not present; it mentions Stevens was 'the son of a prosperous lawyer', but this is not connected to the university entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_University Kinship:has_time 1900",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions New York Law School and the year 1900 (when Stevens left Harvard), but there is no direct or indirect connection established between New York University and the year 1900."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Leadership:has_role president",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'Susquehanna Valley' in the context of Stevens's family history and separately mentions he was 'president of The Harvard Advocate'. There is a very weak, indirect connection through the geographic name and the leadership role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Text:has_time 1950",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The poem 'The Emperor of Ice-Cream' is mentioned as being in 'Harmonium' (published 1923). The year 1950 is mentioned as the publication date for 'The Auroras of Autumn'. There is no connection between the specific poem and the year 1950."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Relative_time:has_time 1923",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions American poet Wallace Stevens and his first publication 'Harmonium' in 1923. While not a direct statement about American poetry as a whole, there is a semantic connection between American poetry and the work of this major American poet published in 1923."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Frequency:has_time 1923",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "Same connection as above - the publication date of 1923 is associated with the work of an American poet. The relationship type 'Frequency:has_time' is less clear, but the temporal connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Colonization:has_time 1709",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that Stevens's maternal great-grandfather 'settled in the Susquehanna Valley in 1709 as a religious refugee.' This implies colonization/settlement in the Susquehanna region at that time, even if the river itself isn't explicitly named."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Seamus_Heaney_Collected_Poems Win_prize:has_prize http://en.wikipedia.org/wiki/Pulitzer_Prize_for_Poetry",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Collected Poems (1954) won the Pulitzer Prize for Poetry' but this refers to Wallace Stevens's work, not Seamus Heaney's. The subject is completely wrong and contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Leadership:has_theme Harvard Advocate",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak but valid connection - both the Susquehanna Valley (where Stevens's ancestor settled) and The Harvard Advocate (which Stevens presided over) are mentioned in the paragraph about the same person's life. The 'Leadership:has_theme' relationship is tenuous but semantically connected through biographical context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Education_teaching:has_skill non-degree",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak connection: Susquehanna Valley is mentioned where Stevens' ancestor settled, and Stevens attended Harvard as a 'non-degree' student. The connection between the river and the skill is very indirect but semantically related through the narrative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Attending:has_event http://en.wikipedia.org/wiki/Harvard_University",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "Weak but valid connection: The poem is mentioned as part of Stevens' work, and Stevens attended Harvard. The connection is indirect but semantically plausible through author biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Duration_description:has_time 1977",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Weak connection: Susquehanna Valley is mentioned in historical context, and 1977 appears as publication date for Stevens' letters. The connection is tenuous but semantically related through the timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Text:has_text edition",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Reasonable connection: Stevens is an American poet, and multiple editions of his works (including a 'second edition') are mentioned, connecting American poetry with textual editions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Text:has_author her father's",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Reasonable connection: The poem is by Stevens, and 'her father' refers to Stevens (Holly Stevens' father), creating a clear author relationship through contextual reference."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Frequency:has_theme period",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The poem 'The Emperor of Ice-Cream' is listed as a feature of Stevens's 'first period' of work, creating a semantic link between the poem and a period/theme of his career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Ordinal_numbers:has_time 1923",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While 'American poetry' is not explicitly mentioned, the paragraph discusses an American poet and his work published in 1923 ('Harmonium'), creating a weak but valid indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wallace_Stevens Kinship:has_time 1977",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states that Stevens's daughter reprinted his letters in 1977, creating a kinship-related temporal connection between Stevens and the year 1977, even though it was posthumous."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Frequency:has_theme period",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph extensively discusses periods/themes in the work of an American poet, allowing for a reasonable, though indirect, connection to American poetry having thematic periods."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Means:has_purpose Looking at a Blackbird",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Both poems are mentioned in the same sentence as features of Stevens's first period, but there is no stated relationship of purpose or means between them. The connection is purely coincidental listing."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/John_Zeller Kinship:has_theme maternal",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "John Zeller is explicitly identified as Wallace Stevens's 'maternal great-grandfather', establishing a clear maternal kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wallace_Stevens Text:has_text poems",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph extensively discusses Stevens's poems, listing many by name and describing their themes, making the connection to 'poems' undeniable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_entity poet",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Wallace Stevens is explicitly called an 'American modernist poet'. While 'American poetry' as a specific entity isn't named, the concepts of 'American' and 'poet/poetry' are central themes of the paragraph, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Susquehanna_River Education_teaching:has_student student",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The 'Susquehanna Valley' is mentioned as a place where John Zeller settled. There is no mention of a river, education, teaching, or students in this context. The connection is entirely absent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West Process_start:has_theme Ideas of Order (1933)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The poem 'The Idea of Order at Key West' is mentioned, and the collection 'Ideas of Order (1933)' is stated as the start of his second period. The poem is thematically linked to this collection, as it is part of his work from that period."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_University People_by_vocation:has_time 1900",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'New York Law School' and the year '1900' in the context of his education, but it does not mention 'New York University'. While related, this is a different entity and the connection is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hollie_Stevens Memory:has_time when she posthumously reprinted her father's collected letters in 1977 for Knopf",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Holly Stevens, his daughter, recalled her father's long dedication... when she posthumously reprinted her father's collected letters in 1977 for Knopf.' This is a direct semantic match for the event and time, with 'Hollie' being a minor spelling variation of 'Holly'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Relative_time:has_time 1950",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The poem 'The Emperor of Ice-Cream' is mentioned as being part of his first period, which began in 1923. The year 1950 is mentioned as the start of his third period. There is no connection between the poem and the year 1950 in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West Process_start:has_time 1933",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The poem 'The Idea of Order at Key West' is listed among poems that 'deal with the art of making art'. The paragraph states his second period 'commenced with Ideas of Order (1933)'. While the specific poem is not explicitly linked to 1933, it is thematically connected to the 1933 collection 'Ideas of Order', providing a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lutheranism Kinship:has_location http://en.wikipedia.org/wiki/Reading,_Berkshire",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Stevens was born into a Lutheran family in 'Reading, Pennsylvania'. The triple incorrectly links Lutheranism to 'Reading, Berkshire' (in the UK), which is a different and unrelated location. The information is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Origin:has_time 1955",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions that Stevens was an American poet who died in 1955. While 'American poetry' as a concept is not explicitly linked to the year 1955, his death year is a significant date in his career as an American poet, creating a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lutheranism Kinship:has_theme Dutch and German descent",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Stevens was born into a Lutheran family of Dutch and German descent. This creates a thematic link between Lutheranism and the ethnic background, though the relationship is more about family heritage than a direct theme of the religion itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Publishing:has_time 1923",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Stevens's first period of American poetry began with the publication of 'Harmonium' in 1923. This provides a reasonable, though indirect, link between the concept of American poetry and the year 1923 via a key publication date."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Boston Attributed_information:has_theme Stevens was personally introduced to the philosopher George Santayana while living in Boston and was strongly influenced by Santayana's book Interpretations of Poetry and Religion",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph contains the exact event described in the triple, stating that while living in Boston, Stevens was introduced to Santayana and influenced by his book. This is a direct and clear match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Fields:has_location Key West",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The poem 'The Emperor of Ice-Cream' is mentioned, and the poem 'The Idea of Order at Key West' is mentioned separately. There is no information linking the specific poem 'The Emperor of Ice-Cream' to Key West; this appears to be a conflation of two distinct pieces of information from the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/New_York_University People_by_vocation:has_person lawyer",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Stevens's father was 'a prosperous lawyer'. While the triple's subject is 'New_York_University', the paragraph mentions 'New York Law School', which is a related educational institution, and the concept of 'lawyer' is present. This is a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Ordinal_numbers:has_time 1933",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The poem 'The Emperor of Ice-Cream' is mentioned as being in 'Harmonium' (1923). The year 1930 is mentioned for a revised edition of Harmonium, and 1933 is mentioned as the year for 'Ideas of Order'. There is no direct or indirect connection between the specific poem and the year 1933 in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Idea_of_Order_at_Key_West Process_start:has_event His second period",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The poem 'The Idea of Order at Key West' is listed among poems that 'deal with the art of making art'. The paragraph states 'His second period commenced with Ideas of Order (1933)'. There is a strong contextual and thematic link between the poem, the book that started the second period, and the period itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Subjective_influence:has_degree strongly",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph states Stevens 'was strongly influenced by Santayana's book'. While the subject 'American_poetry' is broad, Stevens is an 'American modernist poet', and the concept of a 'strong' influence is directly present. This is a reasonable, though indirect, connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Hollie_Stevens Memory:has_theme her father's long dedication to Santayana",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Holly Stevens, his daughter, recalled her father's long dedication to Santayana'. The name 'Hollie' is a minor spelling variation of 'Holly', and the theme of the memory is explicitly stated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Reading,_Berkshire Being_employed:has_position as an executive",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Stevens worked as an executive in Hartford, Connecticut, not in Reading, Berkshire. The subject refers to the wrong location entirely."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Emperor_of_Ice-Cream Craft:has_activity making art and poetry in particular",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The poem 'The Emperor of Ice-Cream' is listed among Stevens's poems, and the paragraph states that many of his poems 'deal with the art of making art and poetry in particular'. This is an indirect thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/American_poetry Ordinal_numbers:has_type edition",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions a 'second edition' of Harmonium. While the subject 'American poetry' is a very broad category that the paragraph relates to, the connection to the specific predicate 'edition' is weak and indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wallace_Stevens Being_born:has_location Reading, Pennsylvania",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He was born in Reading, Pennsylvania' and repeats this information later."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wallace_Stevens Being_born:has_time 1879",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states Stevens was born in 1879, both in the initial summary and in the 'Life and career' section."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 28,
+    "accuracy": 0.56,
+    "avg_confidence": 0.48400000000000004,
+    "high_confidence_50": 28,
+    "high_confidence_80": 11,
+    "percent_50": 56.00000000000001,
+    "percent_80": 22.0,
+    "max_triples_limit": 50
+  }
+}

@@ -1,0 +1,321 @@
+digraph James_Baldwin {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "personal" [label="personal", fillcolor=lightcoral, color=red, shape=circle];
+    "artists and writers" [label="artists and writers", fillcolor=lightcoral, color=red, shape=circle];
+    "influence artists and writers" [label="influence artists and writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "New York City" [label="New York City", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "work" [label="work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Baldwin's work" [label="Baldwin's work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His 1974 novel If Beale Str..." [label="His 1974 novel If Beale Str...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His 1953 novel Go Tell It o..." [label="His 1953 novel Go Tell It o...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "MountainWest Sports Network" [label="MountainWest Sports Network", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his essays, novels, plays, ..." [label="his essays, novels, plays, ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "100 English-language novels" [label="100 English-language novels", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "If Beale Street Could Talk" [label="If Beale Street Could Talk", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during the Great Migration" [label="during the Great Migration", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1974" [label="1974", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English-language" [label="English-language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fiction" [label="fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19" [label="19", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Giovanni's Room" [label="Giovanni's Room", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1955" [label="1955", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public figure and orator" [label="public figure and orator", fillcolor=lightgray, color=gray, shape=hexagon];
+    "racial" [label="racial", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His characters" [label="His characters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "intricate narratives that i..." [label="intricate narratives that i...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Baldwin's" [label="Baldwin's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emma Jones" [label="Emma Jones", fillcolor=lightgray, color=gray, shape=hexagon];
+    "questions" [label="questions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "plays" [label="plays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emma Davies cyclist" [label="Emma Davies cyclist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "top" [label="top", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Baldwin disambiguation" [label="James Baldwin disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1924" [label="1924", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she was 19 years old" [label="when she was 19 years old", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1953" [label="1953", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a voice for human equality" [label="as a voice for human equality", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "racial segregation and disc..." [label="racial segregation and disc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "establish his reputation as..." [label="establish his reputation as...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emma Berdis Jones" [label="Emma Berdis Jones", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2018" [label="2018", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his reputation as a voice f..." [label="his reputation as a voice f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BAFTA Award for Best Documentary" [label="BAFTA Award for Best Documentary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Remember This House" [label="Remember This House", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His 1955 essay collection N..." [label="His 1955 essay collection N...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harlem, New York" [label="Harlem, New York", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the 2016 documentary fil..." [label="as the 2016 documentary fil...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "typically" [label="typically", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Themes of masculinity, sexu..." [label="Themes of masculinity, sexu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "self- and social acceptance" [label="self- and social acceptance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harlem" [label="Harlem", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as James Arthur Jones" [label="as James Arthur Jones", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2018 film" [label="2018 film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Deal Island, Maryland" [label="Deal Island, Maryland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Great Migration African American" [label="Great Migration African American", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the top 100 Engli..." [label="as one of the top 100 Engli...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Beale Street" [label="Beale Street", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His unfinished manuscript R..." [label="His unfinished manuscript R...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Son" [label="Son", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Southern United States" [label="Southern United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essay" [label="essay", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Baldwin" [label="James Baldwin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "their search for self- and ..." [label="their search for self- and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widespread" [label="widespread", fillcolor=lightgray, color=gray, shape=hexagon];
+    "BAFTA Award for Best Docume..." [label="BAFTA Award for Best Docume...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "19 years" [label="19 years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "James Arthur Baldwin  né Jo..." [label="James Arthur Baldwin  né Jo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both the civil rights movem..." [label="both the civil rights movem...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "internal and external obsta..." [label="internal and external obsta...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "social" [label="social", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Harlem Hospital in New York..." [label="Harlem Hospital in New York...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Baldwin" [label="Baldwin", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fundamental" [label="fundamental", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1903" [label="1903", fillcolor=lightgray, color=gray, shape=hexagon];
+    "artists" [label="artists", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2016" [label="2016", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "August 2, 1924" [label="August 2, 1924", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Go Tell It on the Mountain" [label="Go Tell It on the Mountain", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into a 2018 film of the sam..." [label="into a 2018 film of the sam...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Time magazine" [label="Time magazine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collection" [label="collection", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same name" [label="same name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "James Baldwin" -> "James Baldwin disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "artists" [label="has creator [Create_physical_artwork]", color=lightgreen, penwidth=1];
+    "MountainWest Sports Network" -> "that" [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "James Baldwin" -> "1955" [label="has time [Fame]", color=purple, penwidth=2];
+    "New York City" -> "Harlem" [label="has location [Age]", color=green, penwidth=2];
+    "James Baldwin" -> "his essays, novels, plays, ..." [label="has reason [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "Beale Street" -> "2018 film" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Beale Street" -> "which" [label="has theme [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "James Baldwin" -> "2016" [label="has time [Text]", color=purple, penwidth=2];
+    "James Baldwin" -> "same name" [label="has theme [People]", color=lightseagreen, penwidth=1];
+    "Beale Street" -> "name" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "James Baldwin" -> "name" [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "James Baldwin" -> "novels" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "1953" [label="has time [Occupy_rank]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "Son" [label="has entity [Indigenous_origin]", color=lightgoldenrod, penwidth=1];
+    "Beale Street" -> "same name" [label="has product [Behind_the_scenes]", color=lightpink, penwidth=1];
+    "MountainWest Sports Network" -> "His 1955 essay collection N..." [label="has theme [Assistance]", color=lightsteelblue, penwidth=1];
+    "James Baldwin" -> "1924" [label="has time [Text]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "typically" [label="has theme [Confronting_problem]", color=lightcoral, penwidth=1];
+    "BAFTA Award for Best Documentary" -> "His unfinished manuscript R..." [label="has competitor [Win_prize]", color=lightblue, penwidth=1];
+    "MountainWest Sports Network" -> "100 English-language novels" [label="has item [Occupy_rank]", color=lightsalmon, penwidth=1];
+    "MountainWest Sports Network" -> "1953" [label="has time [Assessing]", color=purple, penwidth=2];
+    "James Baldwin" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Beale Street" -> "1903" [label="has time [Separating]", color=purple, penwidth=2];
+    "New York City" -> "when she was 19 years old" [label="has time [Arriving]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "essay" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "James Baldwin" -> "If Beale Street Could Talk" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "intricate narratives that i..." [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "James Baldwin" -> "Go Tell It on the Mountain" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "as one of the top 100 Engli..." [label="has standard [Assessing]", color=lightcoral, penwidth=1];
+    "Beale Street" -> "His 1974 novel If Beale Str..." [label="has patient [Cause_change_of_phase]", color=lightcyan, penwidth=1];
+    "MountainWest Sports Network" -> "His 1953 novel Go Tell It o..." [label="has theme [Assessing]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "artists and writers" [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "James Baldwin" -> "August 2, 1924" [label="has time [Being_born]", color=purple, penwidth=2];
+    "United States" -> "self- and social acceptance" [label="has theme [Scrutiny]", color=lightgray, penwidth=1];
+    "James Baldwin" -> "1953" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "New York City" -> "Harlem, New York" [label="has goal [Arriving]", color=lightyellow, penwidth=1];
+    "MountainWest Sports Network" -> "collection" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "his reputation as a voice f..." [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "Emma Davies cyclist" -> "Emma Jones" [label="has person [Being_born]", color=red, penwidth=2];
+    "James Baldwin" -> "plays" [label="has theme [Performing_arts]", color=lightseagreen, penwidth=1];
+    "Beale Street" -> "Southern United States" [label="has theme [Interior_profile_relation]", color=lightsalmon, penwidth=1];
+    "James Baldwin" -> "Emma Berdis Jones" [label="has theme [Being_born]", color=lightsteelblue, penwidth=1];
+    "Beale Street" -> "name" [label="has type [Identicality]", color=lightgoldenrod, penwidth=1];
+    "James Baldwin" -> "1974" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "Baldwin's work" [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "Beale Street" -> "1903" [label="has time [Interior_profile_relation]", color=purple, penwidth=2];
+    "James Baldwin" -> "poems" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "James Baldwin" -> "1953" [label="has time [Text]", color=purple, penwidth=2];
+    "James Baldwin" -> "name" [label="has type [Identicality]", color=lightgoldenrod, penwidth=1];
+    "James Baldwin" -> "1956" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "James Baldwin" -> "James Arthur Baldwin  né Jo..." [label="has author [Text_creation]", color=lightpink, penwidth=1];
+    "James Baldwin" -> "as a voice for human equality" [label="has reason [Fame]", color=lightpink, penwidth=1];
+    "James Baldwin" -> "essays" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "both the civil rights movem..." [label="has theme [Objective_influence]", color=lightyellow, penwidth=1];
+    "Beale Street" -> "2018" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "His characters" [label="has agent [Confronting_problem]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "as the 2016 documentary fil..." [label="has role [Intentionally_create]", color=lightpink, penwidth=1];
+    "James Baldwin" -> "1924" [label="has time [Performing_arts]", color=purple, penwidth=2];
+    "James Baldwin" -> "1974" [label="has time [Text]", color=purple, penwidth=2];
+    "Emma Davies cyclist" -> "Deal Island, Maryland" [label="has location [Being_born]", color=green, penwidth=2];
+    "Great Migration African American" -> "who" [label="has theme [Fleeing]", color=lightsteelblue, penwidth=1];
+    "MountainWest Sports Network" -> "establish his reputation as..." [label="has goal [Assistance]", color=lightsteelblue, penwidth=1];
+    "James Baldwin" -> "1956" [label="has time [Text]", color=purple, penwidth=2];
+    "Beale Street" -> "racial segregation and disc..." [label="has theme [Interior_profile_relation]", color=lightsalmon, penwidth=1];
+    "MountainWest Sports Network" -> "novels" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Beale Street" -> "widespread" [label="has degree [Judgment_communication]", color=lightsteelblue, penwidth=1];
+    "BAFTA Award for Best Documentary" -> "BAFTA Award for Best Docume..." [label="has competition [Win_prize]", color=lightblue, penwidth=1];
+    "United States" -> "1924" [label="has time [Origin]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "His unfinished manuscript R..." [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "MountainWest Sports Network" -> "questions" [label="has theme [Point_of_dispute]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "2016" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Beale Street" -> "1974" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "New York City" -> "Harlem" [label="has location [Arriving]", color=green, penwidth=2];
+    "MountainWest Sports Network" -> "2016" [label="has time [Cause_expansion]", color=purple, penwidth=2];
+    "BAFTA Award for Best Documentary" -> "2016" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "New York City" -> "19 years" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "Great Migration African American" -> "during the Great Migration" [label="has time [Fleeing]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "1955" [label="has time [Text]", color=purple, penwidth=2];
+    "James Baldwin" -> "1924" [label="has time [Judgment_communication]", color=purple, penwidth=2];
+    "Beale Street" -> "racial" [label="has criterion [Separating]", color=lightgreen, penwidth=1];
+    "MountainWest Sports Network" -> "1953" [label="has time [Text]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "public figure and orator" [label="has entity [Subjective_influence]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "1955" [label="has time [Indigenous_origin]", color=purple, penwidth=2];
+    "Great Migration African American" -> "racial segregation and disc..." [label="has theme [Fleeing]", color=lightsteelblue, penwidth=1];
+    "MountainWest Sports Network" -> "English-language" [label="has theme [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "1955" [label="has time [Aggregate]", color=purple, penwidth=2];
+    "Harlem" -> "years" [label="has theme [Measure_duration]", color=lightgreen, penwidth=1];
+    "MountainWest Sports Network" -> "their search for self- and ..." [label="has purpose [Confronting_problem]", color=lightcoral, penwidth=1];
+    "James Baldwin" -> "Baldwin" [label="has agent [Labor_product]", color=lightyellow, penwidth=1];
+    "MountainWest Sports Network" -> "personal" [label="has theme [Point_of_dispute]", color=lightcoral, penwidth=1];
+    "James Baldwin" -> "1924" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "1955" [label="has time [Assistance]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "social" [label="has recipient [Receiving]", color=lightpink, penwidth=1];
+    "MountainWest Sports Network" -> "top" [label="has rank [Occupy_rank]", color=lightsalmon, penwidth=1];
+    "James Baldwin" -> "as James Arthur Jones" [label="has theme [Being_born]", color=lightsteelblue, penwidth=1];
+    "James Baldwin" -> "Giovanni's Room" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "His unfinished manuscript R..." [label="has item [Cause_expansion]", color=lightblue, penwidth=1];
+    "MountainWest Sports Network" -> "influence artists and writers" [label="has event [Process_continue]", color=lightcyan, penwidth=1];
+    "United States" -> "1924" [label="has time [Text]", color=purple, penwidth=2];
+    "Beale Street" -> "1974" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Emma Davies cyclist" -> "1903" [label="has time [Being_born]", color=purple, penwidth=2];
+    "James Baldwin" -> "Harlem Hospital in New York..." [label="has location [Being_born]", color=green, penwidth=2];
+    "MountainWest Sports Network" -> "Time magazine" [label="has theme [Assessing]", color=lightcoral, penwidth=1];
+    "MountainWest Sports Network" -> "internal and external obsta..." [label="has issue [Confronting_problem]", color=lightcoral, penwidth=1];
+    "Beale Street" -> "into a 2018 film of the sam..." [label="has result [Cause_change_of_phase]", color=lightcyan, penwidth=1];
+    "Beale Street" -> "1974" [label="has time [Cause_change_of_phase]", color=purple, penwidth=2];
+    "James Baldwin" -> "Baldwin" [label="has person [Being_born]", color=red, penwidth=2];
+    "James Baldwin" -> "people" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+    "James Baldwin" -> "Remember This House" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Beale Street" -> "1974" [label="has time [Identicality]", color=purple, penwidth=2];
+    "MountainWest Sports Network" -> "Themes of masculinity, sexu..." [label="has creator [Intentionally_create]", color=lightpink, penwidth=1];
+    "James Baldwin" -> "other people" [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "United States" -> "article" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "James Baldwin" -> "Baldwin's" [label="has author [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "Harlem" -> "19" [label="has theme [Measure_duration]", color=lightgreen, penwidth=1];
+    "James Baldwin" -> "fiction" [label="has text [Text]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "fundamental" [label="has theme [Point_of_dispute]", color=lightcoral, penwidth=1];
+    "James Baldwin" -> "work" [label="has theme [Labor_product]", color=lightyellow, penwidth=1];
+    "MountainWest Sports Network" -> "essay" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "MountainWest Sports Network" -> "1955" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Create_physical_artwork_legend" [label="Create_physical_artwork", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Judgment_communication_legend" [label="Judgment_communication", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Occupy_rank_legend" [label="Occupy_rank", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Indigenous_origin_legend" [label="Indigenous_origin", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Confronting_problem_legend" [label="Confronting_problem", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Assessing_legend" [label="Assessing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Separating_legend" [label="Separating", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Cause_change_of_phase_legend" [label="Cause_change_of_phase", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Performing_arts_legend" [label="Performing_arts", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fleeing_legend" [label="Fleeing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Point_of_dispute_legend" [label="Point_of_dispute", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cause_expansion_legend" [label="Cause_expansion", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Process_continue_legend" [label="Process_continue", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,2722 @@
+{
+  "metadata": {
+    "total_triples": 127,
+    "source_file": "Anne_Brontë",
+    "extraction_date": "2025-09-27 20:06:26",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "Maria ( née Branwell) and Patrick Bront, a poor Irish clergyman in the Church of England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he won a place to study theology at St. John's College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Likelihood:has_degree",
+        "object": "most",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1847",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "People_by_age:has_theme",
+        "object": "born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Irish_people",
+        "predicate": "Wealthiness:has_person",
+        "object": "Irish peasant farmers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Being_employed:has_position",
+        "object": "as a governess",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Text:has_text",
+        "object": "book",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "Her first novel, Agnes Grey, was published",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Categorization:has_category",
+        "object": "classics of English literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "he was ordained in the priesthood in the Church of England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Attending:has_time",
+        "object": "between 1836 and 1837",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "1839 and 1845",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Categorization:has_item",
+        "object": "both of her novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Joe_Prunty",
+        "predicate": "Categorization:has_category",
+        "object": "as Prunty or Brunty",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Locale:has_location",
+        "object": "St",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Age:has_degree",
+        "object": "ten children born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Fields:has_theme",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Quantified_mass:has_quantity",
+        "object": "both",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Getting:has_theme",
+        "object": "place to study theology at St. John's College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "between",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Residence:has_location",
+        "object": "parish of Haworth on the Yorkshire Dales",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Church_of_England",
+        "predicate": "Being_named:has_theme",
+        "object": "Branwell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Being_born:has_location",
+        "object": "two-room cottage in Emdale, Loughbrickland, County Down, Ireland",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "edition",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Irish_people",
+        "predicate": "Wealthiness:has_person",
+        "object": "Irish clergyman",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Being_employed:has_employee",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Getting:has_recipient",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Being_born:has_theme",
+        "object": "Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Studying:has_theme",
+        "object": "theology",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1846",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Studying:has_institution",
+        "object": "St. John's College, Cambridge",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Preventing_or_letting:has_event",
+        "object": "republication of The Tenant of Wildfell Hall",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Publishing:has_time",
+        "object": "1846",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Fame:has_degree",
+        "object": "as well",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Education_teaching:has_student",
+        "object": "others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Preventing_or_letting:has_theme",
+        "object": "her sister Charlotte",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Increment:has_theme",
+        "object": "others",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Joe_Prunty",
+        "predicate": "Categorization:has_item",
+        "object": "family surname, mac Aedh Proinntigh",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Relative_time:has_theme",
+        "object": "two novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Studying:has_student",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Causation:has_effect",
+        "object": "Anne is not as well known as her sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "Anne Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Locale_by_use:has_theme",
+        "object": "boarding",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Death:has_time",
+        "object": "29",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Rite:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Text:has_author",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Cardinal_numbers:has_theme",
+        "object": "two",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Temporal_subregion:has_theme",
+        "object": "1836 and 1837",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Kinship:has_theme",
+        "object": "Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Being_named:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Brontë_family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Agnes_Grey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Likelihood:has_theme",
+        "object": "pulmonary tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Being_named:has_entity",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Getting:has_location",
+        "object": "St",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Identicality:has_theme",
+        "object": "time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "pulmonary",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Residence:has_theme",
+        "object": "most of her life",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Attending:has_location",
+        "object": "http://en.wikipedia.org/wiki/Mirfield",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Cause_change:has_entity",
+        "object": "his name, Brunty",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Rite:has_time",
+        "object": "1807",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Membership:has_member",
+        "object": "Anne Bront ( / b r n t i /, commonly /- t",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Text:has_theme",
+        "object": "feminist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Being_born:has_person",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Residence:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "father",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Church_of_England",
+        "predicate": "Being_named:has_entity",
+        "object": "Maria",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "Anne's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+        "predicate": "Publishing:has_work",
+        "object": "Her first novel, Agnes Grey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Publishing:has_time",
+        "object": "1848",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "she published a book of poems with her sisters and later two novels, initially under the pen name Acton Bell",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "brother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/England",
+        "predicate": "Origin:has_entity",
+        "object": "literature",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Rite:has_organization",
+        "object": "priesthood in the Church of England",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Text:has_text",
+        "object": "novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Education_teaching:has_skill",
+        "object": "read and write",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Irish_people",
+        "predicate": "People:has_person",
+        "object": "peasant",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+        "predicate": "Publishing:has_theme",
+        "object": "her sister Emily Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Quantified_mass:has_theme",
+        "object": "her novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "tuberculosis",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+        "predicate": "Publishing:has_time",
+        "object": "same time as Wuthering Heights",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Locative_relation:has_theme",
+        "object": "elsewhere",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Attending:has_event",
+        "object": "boarding school",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+        "predicate": "Text:has_theme",
+        "object": "fix issues with its first edition",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1802",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Likelihood:has_theme",
+        "object": "Anne died at 29",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Relative_time:has_theme",
+        "object": "her death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Cause_change:has_theme",
+        "object": "more distinguished sounding Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Studying:has_location",
+        "object": "St",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Text:has_author",
+        "object": "Anne's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Text:has_text",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "sister",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+        "predicate": "Text:has_author",
+        "object": "her sister Charlotte",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Residence:has_location",
+        "object": "elsewhere",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Aggregate:has_theme",
+        "object": "group",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Getting:has_time",
+        "object": "1802, at 25",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Categorization:has_category",
+        "object": "one of the first feminist novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Being_born:has_person",
+        "object": "Patrick Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Ordinal_numbers:has_type",
+        "object": "feminist novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Hostile_encounter:has_purpose",
+        "object": "against poverty",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Publishing:has_work",
+        "object": "book of poems with her sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Relative_time:has_theme",
+        "object": "her sister Charlotte edited Agnes Grey to fix issues with its first edition, but prevented republication of The Tenant of Wildfell Hall",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "Emily Bront",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "predicate": "Education_teaching:has_time",
+        "object": "1798",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Cause_change:has_agent",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+        "predicate": "Publishing:has_work",
+        "object": "Anne's second novel, The Tenant of Wildfell Hall",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Membership:has_group",
+        "object": "Bront literary family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+        "predicate": "Text:has_text",
+        "object": "http://en.wikipedia.org/wiki/Agnes_Grey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_location",
+        "object": "St",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Cardinal_numbers:has_entity",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "People_by_age:has_person",
+        "object": "children",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Locale:has_theme",
+        "object": "place",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Mirfield",
+        "predicate": "Locative_relation:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+        "predicate": "Age:has_entity",
+        "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1807",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+        "predicate": "Kinship:has_theme",
+        "object": "sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+        "predicate": "Text:has_theme",
+        "object": "poems",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [],
+      "location_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "Maria ( née Branwell) and Patrick Bront, a poor Irish clergyman in the Church of England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he won a place to study theology at St. John's College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Categorization:has_category",
+          "object": "classics of English literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "he was ordained in the priesthood in the Church of England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Categorization:has_item",
+          "object": "both of her novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Fields:has_theme",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Getting:has_theme",
+          "object": "place to study theology at St. John's College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Church_of_England",
+          "predicate": "Being_named:has_theme",
+          "object": "Branwell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Kinship:has_theme",
+          "object": "Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Church_of_England",
+          "predicate": "Being_named:has_entity",
+          "object": "Maria",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/England",
+          "predicate": "Origin:has_entity",
+          "object": "literature",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Rite:has_organization",
+          "object": "priesthood in the Church of England",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Locale:has_theme",
+          "object": "place",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "People_by_age:has_theme",
+          "object": "born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Age:has_degree",
+          "object": "ten children born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Being_born:has_location",
+          "object": "two-room cottage in Emdale, Loughbrickland, County Down, Ireland",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Being_born:has_theme",
+          "object": "Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Preventing_or_letting:has_event",
+          "object": "republication of The Tenant of Wildfell Hall",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Preventing_or_letting:has_theme",
+          "object": "her sister Charlotte",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Death:has_time",
+          "object": "29",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Being_born:has_person",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Attending:has_event",
+          "object": "boarding school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Relative_time:has_theme",
+          "object": "her death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Being_born:has_person",
+          "object": "Patrick Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Relative_time:has_theme",
+          "object": "her sister Charlotte edited Agnes Grey to fix issues with its first edition, but prevented republication of The Tenant of Wildfell Hall",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Text:has_text",
+          "object": "book",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "Her first novel, Agnes Grey, was published",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Relative_time:has_theme",
+          "object": "two novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+          "predicate": "Publishing:has_work",
+          "object": "Her first novel, Agnes Grey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "she published a book of poems with her sisters and later two novels, initially under the pen name Acton Bell",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Text:has_text",
+          "object": "novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Quantified_mass:has_theme",
+          "object": "her novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Categorization:has_category",
+          "object": "one of the first feminist novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "feminist novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Publishing:has_work",
+          "object": "book of poems with her sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Publishing:has_work",
+          "object": "Anne's second novel, The Tenant of Wildfell Hall",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Cardinal_numbers:has_entity",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Likelihood:has_degree",
+          "object": "most",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1847",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Irish_people",
+          "predicate": "Wealthiness:has_person",
+          "object": "Irish peasant farmers",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Being_employed:has_position",
+          "object": "as a governess",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Attending:has_time",
+          "object": "between 1836 and 1837",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "1839 and 1845",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Joe_Prunty",
+          "predicate": "Categorization:has_category",
+          "object": "as Prunty or Brunty",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Locale:has_location",
+          "object": "St",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Quantified_mass:has_quantity",
+          "object": "both",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "between",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Residence:has_location",
+          "object": "parish of Haworth on the Yorkshire Dales",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Ordinal_numbers:has_type",
+          "object": "edition",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Irish_people",
+          "predicate": "Wealthiness:has_person",
+          "object": "Irish clergyman",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Being_employed:has_employee",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Getting:has_recipient",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Studying:has_theme",
+          "object": "theology",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1846",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Studying:has_institution",
+          "object": "St. John's College, Cambridge",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Publishing:has_time",
+          "object": "1846",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Fame:has_degree",
+          "object": "as well",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Education_teaching:has_student",
+          "object": "others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Increment:has_theme",
+          "object": "others",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "school",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Joe_Prunty",
+          "predicate": "Categorization:has_item",
+          "object": "family surname, mac Aedh Proinntigh",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Studying:has_student",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Causation:has_effect",
+          "object": "Anne is not as well known as her sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "Anne Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Locale_by_use:has_theme",
+          "object": "boarding",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Rite:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Text:has_author",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Cardinal_numbers:has_theme",
+          "object": "two",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Temporal_subregion:has_theme",
+          "object": "1836 and 1837",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Being_named:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Brontë_family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Agnes_Grey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Likelihood:has_theme",
+          "object": "pulmonary tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Being_named:has_entity",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Getting:has_location",
+          "object": "St",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Identicality:has_theme",
+          "object": "time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "pulmonary",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Residence:has_theme",
+          "object": "most of her life",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Attending:has_location",
+          "object": "http://en.wikipedia.org/wiki/Mirfield",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Cause_change:has_entity",
+          "object": "his name, Brunty",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Rite:has_time",
+          "object": "1807",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Membership:has_member",
+          "object": "Anne Bront ( / b r n t i /, commonly /- t",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Text:has_theme",
+          "object": "feminist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Residence:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "father",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "Anne's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Publishing:has_time",
+          "object": "1848",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "brother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Education_teaching:has_skill",
+          "object": "read and write",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Irish_people",
+          "predicate": "People:has_person",
+          "object": "peasant",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+          "predicate": "Publishing:has_theme",
+          "object": "her sister Emily Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "tuberculosis",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Wuthering_Heights",
+          "predicate": "Publishing:has_time",
+          "object": "same time as Wuthering Heights",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Locative_relation:has_theme",
+          "object": "elsewhere",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+          "predicate": "Text:has_theme",
+          "object": "fix issues with its first edition",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1802",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Likelihood:has_theme",
+          "object": "Anne died at 29",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Cause_change:has_theme",
+          "object": "more distinguished sounding Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Studying:has_location",
+          "object": "St",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Text:has_author",
+          "object": "Anne's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Text:has_text",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "sister",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+          "predicate": "Text:has_author",
+          "object": "her sister Charlotte",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Residence:has_location",
+          "object": "elsewhere",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Aggregate:has_theme",
+          "object": "group",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+          "predicate": "Getting:has_time",
+          "object": "1802, at 25",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Hostile_encounter:has_purpose",
+          "object": "against poverty",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "Emily Bront",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "predicate": "Education_teaching:has_time",
+          "object": "1798",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Cause_change:has_agent",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Membership:has_group",
+          "object": "Bront literary family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+          "predicate": "Text:has_text",
+          "object": "http://en.wikipedia.org/wiki/Agnes_Grey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_location",
+          "object": "St",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "People_by_age:has_person",
+          "object": "children",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Mirfield",
+          "predicate": "Locative_relation:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Emily_Brontë",
+          "predicate": "Age:has_entity",
+          "object": "http://en.wikipedia.org/wiki/Patrick_Brontë",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1807",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Anne_Brontë",
+          "predicate": "Kinship:has_theme",
+          "object": "sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+          "predicate": "Text:has_theme",
+          "object": "poems",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Irish_people",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Joe_Prunty",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Church_of_England",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Irish_people",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Joe_Prunty",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Church_of_England",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Wuthering_Heights",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/England",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Irish_people",
+      "http://en.wikipedia.org/wiki/Wuthering_Heights",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Wuthering_Heights",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales"
+    ],
+    "objects": [
+      "Maria ( née Branwell) and Patrick Bront, a poor Irish clergyman in the Church of England",
+      "he won a place to study theology at St. John's College, Cambridge",
+      "most",
+      "novel",
+      "1847",
+      "born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "Irish peasant farmers",
+      "as a governess",
+      "book",
+      "Her first novel, Agnes Grey, was published",
+      "classics of English literature",
+      "he was ordained in the priesthood in the Church of England",
+      "between 1836 and 1837",
+      "1839 and 1845",
+      "both of her novels",
+      "as Prunty or Brunty",
+      "St",
+      "ten children born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "literature",
+      "both",
+      "place to study theology at St. John's College, Cambridge",
+      "between",
+      "parish of Haworth on the Yorkshire Dales",
+      "Branwell",
+      "two-room cottage in Emdale, Loughbrickland, County Down, Ireland",
+      "edition",
+      "Irish clergyman",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "theology",
+      "1846",
+      "St. John's College, Cambridge",
+      "republication of The Tenant of Wildfell Hall",
+      "1846",
+      "as well",
+      "novels",
+      "others",
+      "her sister Charlotte",
+      "others",
+      "school",
+      "family surname, mac Aedh Proinntigh",
+      "two novels",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "Anne is not as well known as her sisters",
+      "Anne Bront",
+      "boarding",
+      "29",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "two",
+      "1836 and 1837",
+      "Bront",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Brontë_family",
+      "http://en.wikipedia.org/wiki/Agnes_Grey",
+      "pulmonary tuberculosis",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "St",
+      "time",
+      "pulmonary",
+      "most of her life",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "his name, Brunty",
+      "1807",
+      "Anne Bront ( / b r n t i /, commonly /- t",
+      "feminist",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "father",
+      "Maria",
+      "Anne's",
+      "Her first novel, Agnes Grey",
+      "1848",
+      "she published a book of poems with her sisters and later two novels, initially under the pen name Acton Bell",
+      "brother",
+      "literature",
+      "priesthood in the Church of England",
+      "novel",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "read and write",
+      "peasant",
+      "her sister Emily Bront",
+      "her novels",
+      "tuberculosis",
+      "same time as Wuthering Heights",
+      "elsewhere",
+      "boarding school",
+      "fix issues with its first edition",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "1802",
+      "family",
+      "Anne died at 29",
+      "her death",
+      "more distinguished sounding Bront",
+      "St",
+      "Anne's",
+      "poems",
+      "sisters",
+      "sister",
+      "her sister Charlotte",
+      "elsewhere",
+      "group",
+      "novels",
+      "1802, at 25",
+      "one of the first feminist novels",
+      "Patrick Bront",
+      "feminist novels",
+      "against poverty",
+      "book of poems with her sisters",
+      "her sister Charlotte edited Agnes Grey to fix issues with its first edition, but prevented republication of The Tenant of Wildfell Hall",
+      "Emily Bront",
+      "1798",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "Anne's second novel, The Tenant of Wildfell Hall",
+      "Bront literary family",
+      "http://en.wikipedia.org/wiki/Agnes_Grey",
+      "St",
+      "novels",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "children",
+      "place",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "1807",
+      "sisters",
+      "poems"
+    ],
+    "all_unique": [
+      "literature",
+      "1802",
+      "classics of English literature",
+      "her death",
+      "his name, Brunty",
+      "Bront literary family",
+      "she published a book of poems with her sisters and later two novels, initially under the pen name Acton Bell",
+      "Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "http://en.wikipedia.org/wiki/Patrick_Brontë",
+      "her sister Charlotte edited Agnes Grey to fix issues with its first edition, but prevented republication of The Tenant of Wildfell Hall",
+      "Irish clergyman",
+      "her sister Emily Bront",
+      "book of poems with her sisters",
+      "1846",
+      "pulmonary",
+      "Anne died at 29",
+      "place to study theology at St. John's College, Cambridge",
+      "http://en.wikipedia.org/wiki/Brontë_family",
+      "same time as Wuthering Heights",
+      "ten children born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "sister",
+      "boarding",
+      "St",
+      "Maria",
+      "peasant",
+      "most of her life",
+      "1802, at 25",
+      "Anne Bront ( / b r n t i /, commonly /- t",
+      "sisters",
+      "read and write",
+      "1848",
+      "one of the first feminist novels",
+      "Her first novel, Agnes Grey, was published",
+      "http://en.wikipedia.org/wiki/Anne_Brontë",
+      "priesthood in the Church of England",
+      "he was ordained in the priesthood in the Church of England",
+      "http://en.wikipedia.org/wiki/England",
+      "her novels",
+      "Branwell",
+      "against poverty",
+      "http://en.wikipedia.org/wiki/Mirfield",
+      "both",
+      "novels",
+      "others",
+      "feminist novels",
+      "father",
+      "most",
+      "Anne's",
+      "two",
+      "as Prunty or Brunty",
+      "school",
+      "time",
+      "between",
+      "more distinguished sounding Bront",
+      "http://en.wikipedia.org/wiki/Wuthering_Heights",
+      "Emily Bront",
+      "republication of The Tenant of Wildfell Hall",
+      "http://en.wikipedia.org/wiki/Charlotte,_North_Carolina",
+      "Bront",
+      "Anne's second novel, The Tenant of Wildfell Hall",
+      "http://en.wikipedia.org/wiki/The_Tenant_of_Wildfell_Hall",
+      "http://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "elsewhere",
+      "fix issues with its first edition",
+      "between 1836 and 1837",
+      "group",
+      "1839 and 1845",
+      "1807",
+      "edition",
+      "1836 and 1837",
+      "he won a place to study theology at St. John's College, Cambridge",
+      "two-room cottage in Emdale, Loughbrickland, County Down, Ireland",
+      "St. John's College, Cambridge",
+      "boarding school",
+      "family surname, mac Aedh Proinntigh",
+      "as well",
+      "her sister Charlotte",
+      "http://en.wikipedia.org/wiki/Emily_Brontë",
+      "29",
+      "1798",
+      "as a governess",
+      "tuberculosis",
+      "feminist",
+      "pulmonary tuberculosis",
+      "children",
+      "family",
+      "http://en.wikipedia.org/wiki/Agnes_Grey",
+      "http://en.wikipedia.org/wiki/Joe_Prunty",
+      "two novels",
+      "theology",
+      "Anne is not as well known as her sisters",
+      "born to Hugh Brunty and Eleanor McCrory, poor Irish peasant farmers",
+      "http://en.wikipedia.org/wiki/Irish_people",
+      "1847",
+      "parish of Haworth on the Yorkshire Dales",
+      "Her first novel, Agnes Grey",
+      "Anne Bront",
+      "place",
+      "Irish peasant farmers",
+      "Patrick Bront",
+      "Maria ( née Branwell) and Patrick Bront, a poor Irish clergyman in the Church of England",
+      "novel",
+      "http://en.wikipedia.org/wiki/Church_of_England",
+      "both of her novels",
+      "book",
+      "poems",
+      "brother"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Kinship:has_theme",
+      "Temporal_collocation:has_theme",
+      "Likelihood:has_degree",
+      "Ordinal_numbers:has_type",
+      "Temporal_collocation:has_theme",
+      "People_by_age:has_theme",
+      "Wealthiness:has_person",
+      "Being_employed:has_position",
+      "Text:has_text",
+      "Temporal_collocation:has_theme",
+      "Categorization:has_category",
+      "Temporal_collocation:has_theme",
+      "Attending:has_time",
+      "Temporal_subregion:has_theme",
+      "Categorization:has_item",
+      "Categorization:has_category",
+      "Locale:has_location",
+      "Age:has_degree",
+      "Fields:has_theme",
+      "Quantified_mass:has_quantity",
+      "Getting:has_theme",
+      "Temporal_subregion:has_theme",
+      "Residence:has_location",
+      "Being_named:has_theme",
+      "Being_born:has_location",
+      "Ordinal_numbers:has_type",
+      "Wealthiness:has_person",
+      "Being_employed:has_employee",
+      "Getting:has_recipient",
+      "Being_born:has_theme",
+      "Studying:has_theme",
+      "Temporal_collocation:has_theme",
+      "Studying:has_institution",
+      "Preventing_or_letting:has_event",
+      "Publishing:has_time",
+      "Fame:has_degree",
+      "Text:has_text",
+      "Education_teaching:has_student",
+      "Preventing_or_letting:has_theme",
+      "Increment:has_theme",
+      "Locale_by_use:has_theme",
+      "Categorization:has_item",
+      "Relative_time:has_theme",
+      "Studying:has_student",
+      "Causation:has_effect",
+      "Kinship:has_theme",
+      "Locale_by_use:has_theme",
+      "Death:has_time",
+      "Rite:has_theme",
+      "Text:has_author",
+      "Cardinal_numbers:has_theme",
+      "Temporal_subregion:has_theme",
+      "Kinship:has_theme",
+      "Kinship:has_theme",
+      "Being_named:has_theme",
+      "Text:has_text",
+      "Likelihood:has_theme",
+      "Being_named:has_entity",
+      "Getting:has_location",
+      "Identicality:has_theme",
+      "Medical_conditions:has_theme",
+      "Residence:has_theme",
+      "Attending:has_location",
+      "Cause_change:has_entity",
+      "Rite:has_time",
+      "Membership:has_member",
+      "Text:has_theme",
+      "Being_born:has_person",
+      "Residence:has_theme",
+      "Kinship:has_theme",
+      "Being_named:has_entity",
+      "Kinship:has_theme",
+      "Publishing:has_work",
+      "Publishing:has_time",
+      "Temporal_collocation:has_theme",
+      "Kinship:has_theme",
+      "Origin:has_entity",
+      "Rite:has_organization",
+      "Text:has_text",
+      "Death:has_theme",
+      "Education_teaching:has_skill",
+      "People:has_person",
+      "Publishing:has_theme",
+      "Quantified_mass:has_theme",
+      "Medical_conditions:has_theme",
+      "Publishing:has_time",
+      "Locative_relation:has_theme",
+      "Attending:has_event",
+      "Text:has_theme",
+      "Kinship:has_theme",
+      "Temporal_collocation:has_theme",
+      "Kinship:has_theme",
+      "Likelihood:has_theme",
+      "Relative_time:has_theme",
+      "Cause_change:has_theme",
+      "Studying:has_location",
+      "Text:has_author",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Kinship:has_theme",
+      "Text:has_author",
+      "Residence:has_location",
+      "Aggregate:has_theme",
+      "Text:has_text",
+      "Getting:has_time",
+      "Categorization:has_category",
+      "Being_born:has_person",
+      "Ordinal_numbers:has_type",
+      "Hostile_encounter:has_purpose",
+      "Publishing:has_work",
+      "Relative_time:has_theme",
+      "Kinship:has_theme",
+      "Education_teaching:has_time",
+      "Cause_change:has_agent",
+      "Publishing:has_work",
+      "Membership:has_group",
+      "Text:has_text",
+      "Temporal_collocation:has_location",
+      "Cardinal_numbers:has_entity",
+      "Publishing:has_theme",
+      "People_by_age:has_person",
+      "Locale:has_theme",
+      "Locative_relation:has_theme",
+      "Age:has_entity",
+      "Temporal_collocation:has_theme",
+      "Kinship:has_theme",
+      "Text:has_theme"
+    ],
+    "unique_predicates": [
+      "Studying:has_institution",
+      "Residence:has_theme",
+      "Publishing:has_theme",
+      "Locale:has_theme",
+      "Fame:has_degree",
+      "Aggregate:has_theme",
+      "Preventing_or_letting:has_theme",
+      "Cardinal_numbers:has_theme",
+      "Likelihood:has_theme",
+      "Medical_conditions:has_theme",
+      "Getting:has_time",
+      "Age:has_entity",
+      "Temporal_collocation:has_theme",
+      "Being_born:has_theme",
+      "People:has_person",
+      "Fields:has_theme",
+      "Attending:has_event",
+      "Being_named:has_theme",
+      "Being_named:has_entity",
+      "Being_born:has_person",
+      "Causation:has_effect",
+      "Residence:has_location",
+      "Education_teaching:has_time",
+      "Hostile_encounter:has_purpose",
+      "Cause_change:has_theme",
+      "Rite:has_organization",
+      "Studying:has_student",
+      "Death:has_theme",
+      "Temporal_collocation:has_location",
+      "Cardinal_numbers:has_entity",
+      "Relative_time:has_theme",
+      "Wealthiness:has_person",
+      "Kinship:has_theme",
+      "Text:has_text",
+      "Being_employed:has_employee",
+      "Getting:has_theme",
+      "Publishing:has_time",
+      "Being_born:has_location",
+      "Rite:has_theme",
+      "Getting:has_location",
+      "Attending:has_time",
+      "Text:has_author",
+      "Quantified_mass:has_theme",
+      "Ordinal_numbers:has_type",
+      "Identicality:has_theme",
+      "Locative_relation:has_theme",
+      "Studying:has_location",
+      "Categorization:has_category",
+      "Temporal_subregion:has_theme",
+      "Membership:has_member",
+      "Likelihood:has_degree",
+      "Quantified_mass:has_quantity",
+      "Cause_change:has_entity",
+      "Rite:has_time",
+      "Cause_change:has_agent",
+      "Increment:has_theme",
+      "Preventing_or_letting:has_event",
+      "Categorization:has_item",
+      "People_by_age:has_person",
+      "Studying:has_theme",
+      "Locale:has_location",
+      "Age:has_degree",
+      "Text:has_theme",
+      "Attending:has_location",
+      "Origin:has_entity",
+      "Education_teaching:has_student",
+      "Education_teaching:has_skill",
+      "Death:has_time",
+      "Locale_by_use:has_theme",
+      "Being_employed:has_position",
+      "Publishing:has_work",
+      "Getting:has_recipient",
+      "Membership:has_group",
+      "People_by_age:has_theme"
+    ],
+    "predicate_counts": {
+      "Kinship:has_theme": 13,
+      "Temporal_collocation:has_theme": 8,
+      "Likelihood:has_degree": 1,
+      "Ordinal_numbers:has_type": 3,
+      "People_by_age:has_theme": 1,
+      "Wealthiness:has_person": 2,
+      "Being_employed:has_position": 1,
+      "Text:has_text": 7,
+      "Categorization:has_category": 3,
+      "Attending:has_time": 1,
+      "Temporal_subregion:has_theme": 3,
+      "Categorization:has_item": 2,
+      "Locale:has_location": 1,
+      "Age:has_degree": 1,
+      "Fields:has_theme": 1,
+      "Quantified_mass:has_quantity": 1,
+      "Getting:has_theme": 1,
+      "Residence:has_location": 2,
+      "Being_named:has_theme": 2,
+      "Being_born:has_location": 1,
+      "Being_employed:has_employee": 1,
+      "Getting:has_recipient": 1,
+      "Being_born:has_theme": 1,
+      "Studying:has_theme": 1,
+      "Studying:has_institution": 1,
+      "Preventing_or_letting:has_event": 1,
+      "Publishing:has_time": 3,
+      "Fame:has_degree": 1,
+      "Education_teaching:has_student": 1,
+      "Preventing_or_letting:has_theme": 1,
+      "Increment:has_theme": 1,
+      "Locale_by_use:has_theme": 2,
+      "Relative_time:has_theme": 3,
+      "Studying:has_student": 1,
+      "Causation:has_effect": 1,
+      "Death:has_time": 1,
+      "Rite:has_theme": 1,
+      "Text:has_author": 3,
+      "Cardinal_numbers:has_theme": 1,
+      "Likelihood:has_theme": 2,
+      "Being_named:has_entity": 2,
+      "Getting:has_location": 1,
+      "Identicality:has_theme": 1,
+      "Medical_conditions:has_theme": 2,
+      "Residence:has_theme": 2,
+      "Attending:has_location": 1,
+      "Cause_change:has_entity": 1,
+      "Rite:has_time": 1,
+      "Membership:has_member": 1,
+      "Text:has_theme": 3,
+      "Being_born:has_person": 2,
+      "Publishing:has_work": 3,
+      "Origin:has_entity": 1,
+      "Rite:has_organization": 1,
+      "Death:has_theme": 1,
+      "Education_teaching:has_skill": 1,
+      "People:has_person": 1,
+      "Publishing:has_theme": 2,
+      "Quantified_mass:has_theme": 1,
+      "Locative_relation:has_theme": 2,
+      "Attending:has_event": 1,
+      "Cause_change:has_theme": 1,
+      "Studying:has_location": 1,
+      "Aggregate:has_theme": 1,
+      "Getting:has_time": 1,
+      "Hostile_encounter:has_purpose": 1,
+      "Education_teaching:has_time": 1,
+      "Cause_change:has_agent": 1,
+      "Membership:has_group": 1,
+      "Temporal_collocation:has_location": 1,
+      "Cardinal_numbers:has_entity": 1,
+      "People_by_age:has_person": 1,
+      "Locale:has_theme": 1,
+      "Age:has_entity": 1
+    }
+  }
+}

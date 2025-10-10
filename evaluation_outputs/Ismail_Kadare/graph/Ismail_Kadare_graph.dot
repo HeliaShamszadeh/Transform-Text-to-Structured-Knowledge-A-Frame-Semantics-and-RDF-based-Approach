@@ -1,0 +1,236 @@
+digraph Ismail_Kadare {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "country" [label="country", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "writing" [label="writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Neustadt International Prize for Literature" [label="Neustadt International Prize for Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "three of his books" [label="three of his books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His writing" [label="His writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "his first novel, The Genera..." [label="his first novel, The Genera...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "The General of the Dead Army novel" [label="The General of the Dead Army novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "that of Nikolai Gogol, Geor..." [label="that of Nikolai Gogol, Geor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "General of the Dead Army" [label="General of the Dead Army", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Prix mondial Cino Del Duca" [label="Prix mondial Cino Del Duca", fillcolor=lightgray, color=gray, shape=hexagon];
+    "France" [label="France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His nominating juror for th..." [label="His nominating juror for th...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign" [label="foreign", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as much hypnotic depth as K..." [label="as much hypnotic depth as K...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1992" [label="1992", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Académie des Sciences Morales et Politiques" [label="Académie des Sciences Morales et Politiques", fillcolor=lightgray, color=gray, shape=hexagon];
+    "associate" [label="associate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1990s" [label="1990s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "who" [label="who", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Albania" [label="Albania", fillcolor=lightgray, color=gray, shape=hexagon];
+    "escape the Communist regime..." [label="escape the Communist regime...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was asked by both major ..." [label="he was asked by both major ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ismail Kadare" [label="Ismail Kadare", fillcolor=lightgray, color=gray, shape=hexagon];
+    "political parties in Albania" [label="political parties in Albania", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kadare is the successor of ..." [label="Kadare is the successor of ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nobel Peace Prize" [label="Nobel Peace Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1996" [label="1996", fillcolor=lightgray, color=gray, shape=hexagon];
+    "devices such as parable, my..." [label="devices such as parable, my...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the greatest writ..." [label="as one of the greatest writ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Franz Kafka" [label="Franz Kafka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "some" [label="some", fillcolor=lightgray, color=gray, shape=hexagon];
+    "consensual President of the..." [label="consensual President of the...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Park Kyong-ni Prize in 2019..." [label="Park Kyong-ni Prize in 2019...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "international" [label="international", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "human soul" [label="human soul", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Communist regime and its Si..." [label="Communist regime and its Si...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "become a consensual Preside..." [label="become a consensual Preside...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into the infernal mechanism..." [label="into the infernal mechanism...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "censorship" [label="censorship", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both major political partie..." [label="both major political partie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parties" [label="parties", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Communism" [label="Communism", fillcolor=lightgray, color=gray, shape=hexagon];
+    "totalitarian" [label="totalitarian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during a time of strict cen..." [label="during a time of strict cen...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "No one since Kafka" [label="No one since Kafka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2019" [label="2019", fillcolor=lightgray, color=gray, shape=hexagon];
+    "President" [label="President", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1990" [label="1990", fillcolor=lightgray, color=gray, shape=hexagon];
+    "political" [label="political", fillcolor=lightgray, color=gray, shape=hexagon];
+    "famous internationally" [label="famous internationally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nikolai Gogol" [label="Nikolai Gogol", fillcolor=lightgray, color=gray, shape=hexagon];
+    "internationally" [label="internationally", fillcolor=lightgray, color=gray, shape=hexagon];
+    "censors" [label="censors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "consensual" [label="consensual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Paris" [label="Paris", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign associate of the Ac..." [label="foreign associate of the Ac...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figure and intellectual" [label="figure and intellectual", fillcolor=lightgray, color=gray, shape=hexagon];
+    "until the publication of hi..." [label="until the publication of hi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stratagems to outwit Commun..." [label="stratagems to outwit Commun...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Neustadt International Prize for Literature" -> "Park Kyong-ni Prize in 2019..." [label="has theme [Receiving]", color=lightblue, penwidth=1];
+    "Nobel Peace Prize" -> "totalitarian" [label="has type [Leadership]", color=lightcoral, penwidth=1];
+    "Ismail Kadare" -> "1990" [label="has time [Avoiding]", color=purple, penwidth=2];
+    "Prix mondial Cino Del Duca" -> "Ismail Kadare" [label="has recipient [Receiving]", color=lightblue, penwidth=1];
+    "Communism" -> "1990" [label="has time [Quitting_a_place]", color=purple, penwidth=2];
+    "Ismail Kadare" -> "writing" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Ismail Kadare" -> "Albania" [label="has location [Coming_up_with]", color=green, penwidth=2];
+    "Ismail Kadare" -> "consensual" [label="has type [Leadership]", color=lightcoral, penwidth=1];
+    "Franz Kafka" -> "into the infernal mechanism..." [label="has theme [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "Nobel Peace Prize" -> "Kadare is the successor of ..." [label="has message [Statement]", color=lightgray, penwidth=1];
+    "Franz Kafka" -> "human soul" [label="has theme [Objective_influence]", color=lightgoldenrodyellow, penwidth=1];
+    "Ismail Kadare" -> "President" [label="has leader [Leadership]", color=lightcoral, penwidth=1];
+    "The General of the Dead Army novel" -> "Ismail Kadare" [label="has theme [Causation]", color=lightseagreen, penwidth=1];
+    "Albania" -> "1990s" [label="has time [Change_position_on_a_scale]", color=purple, penwidth=2];
+    "Ismail Kadare" -> "as one of the greatest writ..." [label="has category [Categorization]", color=lightgoldenrod, penwidth=1];
+    "Communism" -> "escape the Communist regime..." [label="has purpose [Quitting_a_place]", color=lightyellow, penwidth=1];
+    "Ismail Kadare" -> "Albania" [label="has location [Text]", color=green, penwidth=2];
+    "Communism" -> "Paris" [label="has theme [Quitting_a_place]", color=lightyellow, penwidth=1];
+    "Albania" -> "parties" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Ismail Kadare" -> "consensual President of the..." [label="has theme [Becoming]", color=lightsteelblue, penwidth=1];
+    "France" -> "Ismail Kadare" [label="has theme [Causation]", color=lightseagreen, penwidth=1];
+    "The General of the Dead Army novel" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "The General of the Dead Army novel" -> "internationally" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Ismail Kadare" -> "country" [label="has theme [Leadership]", color=lightcoral, penwidth=1];
+    "Nikolai Gogol" -> "that of Nikolai Gogol, Geor..." [label="has theme [Evaluative_comparison]", color=lightblue, penwidth=1];
+    "Académie des Sciences Morales et Politiques" -> "associate" [label="has member [Membership]", color=lightcoral, penwidth=1];
+    "Communism" -> "Albania" [label="has location [People_by_vocation]", color=green, penwidth=2];
+    "The General of the Dead Army novel" -> "novel" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Ismail Kadare" -> "until the publication of hi..." [label="has time [Emphasizing]", color=purple, penwidth=2];
+    "Prix mondial Cino Del Duca" -> "1992" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Albania" -> "country" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Ismail Kadare" -> "stratagems to outwit Commun..." [label="has theme [Coming_up_with]", color=lightcyan, penwidth=1];
+    "The General of the Dead Army novel" -> "his first novel, The Genera..." [label="has work [Publishing]", color=lightcyan, penwidth=1];
+    "Académie des Sciences Morales et Politiques" -> "1996" [label="has time [Membership]", color=purple, penwidth=2];
+    "Albania" -> "during a time of strict cen..." [label="has time [Residence]", color=purple, penwidth=2];
+    "Albania" -> "become a consensual Preside..." [label="has message [Request]", color=lightgray, penwidth=1];
+    "The General of the Dead Army novel" -> "literary" [label="has theme [Fields]", color=lightgoldenrodyellow, penwidth=1];
+    "Albania" -> "1990s" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Ismail Kadare" -> "some" [label="has theme [Categorization]", color=lightgoldenrod, penwidth=1];
+    "Neustadt International Prize for Literature" -> "2019" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Albania" -> "political" [label="has theme [Aggregate]", color=lightpink, penwidth=1];
+    "Albania" -> "Ismail Kadare" [label="has item [Change_position_on_a_scale]", color=lightsalmon, penwidth=1];
+    "The General of the Dead Army novel" -> "famous internationally" [label="has effect [Causation]", color=lightseagreen, penwidth=1];
+    "Ismail Kadare" -> "General of the Dead Army" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Ismail Kadare" -> "poetry" [label="has theme [Emphasizing]", color=lightpink, penwidth=1];
+    "Nikolai Gogol" -> "His writing" [label="has theme [Evaluative_comparison]", color=lightblue, penwidth=1];
+    "Albania" -> "three of his books" [label="has theme [Prohibiting_or_licensing]", color=lightsalmon, penwidth=1];
+    "Albania" -> "devices such as parable, my..." [label="has instrument [Using]", color=lightgoldenrod, penwidth=1];
+    "The General of the Dead Army novel" -> "international" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Communism" -> "Ismail Kadare" [label="has theme [Quitting_a_place]", color=lightyellow, penwidth=1];
+    "Nobel Peace Prize" -> "His nominating juror for th..." [label="has speaker [Statement]", color=lightgray, penwidth=1];
+    "Communism" -> "1996" [label="has time [Foreign_or_domestic_country]", color=purple, penwidth=2];
+    "Albania" -> "political parties in Albania" [label="has theme [Importance]", color=lightsteelblue, penwidth=1];
+    "Ismail Kadare" -> "internationally" [label="has location [Fame]", color=green, penwidth=2];
+    "Communism" -> "censors" [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "The General of the Dead Army novel" -> "figure and intellectual" [label="has item [First_rank]", color=lightblue, penwidth=1];
+    "Albania" -> "both major political partie..." [label="has speaker [Request]", color=lightgray, penwidth=1];
+    "Franz Kafka" -> "No one since Kafka" [label="has theme [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "Ismail Kadare" -> "Albania" [label="has location [Leadership]", color=green, penwidth=2];
+    "Ismail Kadare" -> "Albania" [label="has location [Becoming]", color=green, penwidth=2];
+    "France" -> "foreign associate of the Ac..." [label="has effect [Causation]", color=lightseagreen, penwidth=1];
+    "Franz Kafka" -> "as much hypnotic depth as K..." [label="has degree [Scrutiny]", color=lightsteelblue, penwidth=1];
+    "Albania" -> "censorship" [label="has theme [Strictness]", color=lightcoral, penwidth=1];
+    "France" -> "1996" [label="has time [Causation]", color=purple, penwidth=2];
+    "Communism" -> "1990" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Albania" -> "he was asked by both major ..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Communism" -> "foreign" [label="has theme [Foreign_or_domestic_country]", color=lightpink, penwidth=1];
+    "Ismail Kadare" -> "books" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Albania" -> "Ismail Kadare" [label="has theme [Residence]", color=lightsteelblue, penwidth=1];
+    "Ismail Kadare" -> "Communist regime and its Si..." [label="has theme [Avoiding]", color=lightgreen, penwidth=1];
+    "Albania" -> "who" [label="has principle [Prohibiting_or_licensing]", color=lightsalmon, penwidth=1];
+    "Albania" -> "Ismail Kadare" [label="has addressee [Request]", color=lightgray, penwidth=1];
+    "The General of the Dead Army novel" -> "which" [label="has cause [Causation]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Receiving_legend" [label="Receiving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Avoiding_legend" [label="Avoiding", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Quitting_a_place_legend" [label="Quitting_a_place", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Coming_up_with_legend" [label="Coming_up_with", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Change_position_on_a_scale_legend" [label="Change_position_on_a_scale", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Evaluative_comparison_legend" [label="Evaluative_comparison", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Emphasizing_legend" [label="Emphasizing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Request_legend" [label="Request", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Prohibiting_or_licensing_legend" [label="Prohibiting_or_licensing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Foreign_or_domestic_country_legend" [label="Foreign_or_domestic_country", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "First_rank_legend" [label="First_rank", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Strictness_legend" [label="Strictness", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

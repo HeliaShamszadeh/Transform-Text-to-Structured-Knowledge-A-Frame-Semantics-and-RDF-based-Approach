@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce People:has_person people",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph is entirely about the person James Joyce, his life, and his works, making a connection to 'people' semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Make_acquaintance:has_time 1904",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states 'In 1904, he met his future wife, Nora Barnacle', which is a clear instance of making an acquaintance, semantically matching the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Text:has_time 1922",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly mentions 'Joyce's novel Ulysses (1922)', directly linking the entity (Joyce) and a text (Ulysses) to the year 1922."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Fields:has_time 1922",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The connection is weak but semantically valid. 'Fields' could be interpreted as his field of work (literature). The publication of the landmark novel 'Ulysses' in 1922 was a significant event in his field."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Time_vector:has_time 1920",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text states 'in 1920 moved to Paris', which is a significant temporal event ('time vector') in his life, semantically connecting the entity to the year 1920."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_time 1922",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Joyce's novel Ulysses was published in 1922, directly associating him with that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Time_vector:has_theme war",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'During most of World War I, Joyce lived in Zurich...', which connects Joyce to the theme of war, albeit indirectly through his life events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rome Being_employed:has_time 1915",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states Joyce had an 'eight-month stay in Rome working as a correspondence clerk', but it does not specify the year 1915 in relation to Rome. The year 1915 is mentioned in the context of him leaving Trieste."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Zürich Being_employed:has_employee http://en.wikipedia.org/wiki/James_Joyce",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Joyce lived in Zurich, Switzerland, and worked on Ulysses.' While it doesn't explicitly state he was employed *by* Zurich, the phrase 'worked on' while residing there creates a reasonable semantic connection to employment or productive activity in that location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_theme short-story",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Joyce's 'short-story collection Dubliners' and that he is known for short stories, directly associating him with the theme of short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Being_born:has_location http://en.wikipedia.org/wiki/Dublin",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "Paragraph explicitly states 'Born in Dublin'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Expertise:has_time 1902",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph mentions Joyce graduated from University College Dublin in 1902, which relates to expertise development"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dublin Locale_by_use:has_theme O'Connell",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph mentions O'Connell School in Dublin context, creating a weak thematic connection between Dublin and O'Connell"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Subjective_influence:has_time 20th century",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph states Joyce is 'regarded among the most influential and important writers of the 20th century'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/1995_in_music Age:has_entity Man",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "No mention of 1995, music, or any connection to that specific year and entity in the paragraph"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Motion:has_goal Trieste in Austria-Hungary",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states he 'moved to Trieste in Austria-Hungary', which directly supports the motion/goal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Text:has_theme poems",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions he published 'his book of poems Chamber Music'. While 'theme' is not explicitly stated, the semantic connection to poems is present, though the relationship is weak."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Motion:has_time 1920",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'in 1920 moved to Paris', which clearly connects a motion event (moving) to the year 1920."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Personal_relationship:has_time 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1904, he met his future wife, Nora Barnacle', which directly supports a personal relationship event occurring in 1904."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Motion:has_goal Paris, which was his primary residence until 1940",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'in 1920 moved to Paris, which was his primary residence until 1940', directly supporting the motion/goal relationship to Paris."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Residence:has_location which",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly lists multiple residences of James Joyce (Dublin, Pola, Trieste, Rome, Zurich, Paris), establishing a clear semantic connection to the concept of 'has_location'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Zürich Being_employed:has_time During most of World War I",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'During most of World War I, Joyce lived in Zurich, Switzerland, and worked on Ulysses.' This directly connects Zurich to the time period of WWI in the context of his work/life, satisfying the semantic intent of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Arriving:has_goal http://en.wikipedia.org/wiki/Dublin",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While not explicitly stating 'arriving with the goal of Dublin,' the text mentions Joyce was born in Dublin and made three return visits, implying movement towards Dublin as a destination. This is a lenient but reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nora_Barnacle Motion:has_time 1904",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'In 1904, he met his future wife, Nora Barnacle, and they moved to mainland Europe.' This clearly links Nora Barnacle to a motion event (moving) occurring in 1904."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Text:has_time 1914",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Other well-known works are the short-story collection Dubliners (1914)...' This directly associates James Joyce's text 'Dubliners' with the year 1914."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Personal_relationship:has_theme wife",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'he met his future wife, Nora Barnacle', establishing a clear 'wife' relationship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Residence:has_time until 1915",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Joyce lived there until 1915' in the context of his residence in Trieste."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_time 1914",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The year 1914 is mentioned for the publication of 'Dubliners'. While 'Aggregate:has_time' is vague, the temporal connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Publishing:has_work his book of poems Chamber Music and his short-story collection Dubliners",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'In Trieste, he published his book of poems Chamber Music and his short-story collection Dubliners', which is an exact match for the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_theme collection",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'short-story collection Dubliners'. While 'Aggregate:has_theme' is very abstract, the concept of a 'collection' is present, making this a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce First_rank:has_time 1920",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'in 1920 moved to Paris', which directly connects James Joyce to the year 1920."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rome Being_employed:has_employee http://en.wikipedia.org/wiki/James_Joyce",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'an eight-month stay in Rome working as a correspondence clerk', indicating James Joyce was employed in Rome."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Inclusion:has_theme His other writings",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'His other writings' is directly quoted from the paragraph and refers to the body of work by James Joyce, establishing a thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Giving:has_recipient modernist movement",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'He contributed to the modernist movement', which semantically connects Joyce's actions (giving/contributing) to the modernist movement as a recipient."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Cardinal_numbers:has_theme three",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph mentions 'three books of poetry' as part of his writings. While 'three' is not the theme itself, it is a cardinal number associated with his work, creating a weak but valid semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nora_Barnacle Motion:has_goal mainland Europe",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Joyce and Nora Barnacle moved to mainland Europe. While the 'goal' is not explicitly stated, the movement to mainland Europe is semantically connected to Nora Barnacle."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Arriving:has_time 1915",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Joyce lived there until 1915,' implying a departure or change of residence around that time, which is semantically related to an arrival event having a time component."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Dublin Kinship:has_theme middle-class",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Joyce was 'Born in Dublin into a middle-class family.' This weakly connects Dublin to the theme of middle-class via the family's location and status, though the relationship is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rome Time_vector:has_event Joyce lived there",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'an eight-month stay in Rome,' which directly corresponds to the event 'Joyce lived there.'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_theme variety",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph describes Ulysses as using 'a variety of literary styles.' This connects the theme of 'variety' to Joyce's work, and by extension, to Joyce himself as the author."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Expectation:has_theme his father's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'his father's unpredictable finances' which created a 'chaotic family life'. While 'Expectation' is a vague relation, the text thematically connects Joyce's life to the influence of his father's circumstances."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Temporal_collocation:has_theme 1904",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1904 is explicitly mentioned as the time when Joyce met his future wife, a significant life event. The triple's vague 'has_theme' relation can be leniently interpreted as the paragraph thematically associating that year with a key personal event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Aggregate:has_theme literary styles",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that 'Ulysses' uses 'a variety of literary styles, particularly stream of consciousness'. This is a clear and direct connection between Joyce and the theme of literary styles."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Attending:has_location http://en.wikipedia.org/wiki/Dublin",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Joyce was 'Born in Dublin' and attended schools there (Clongowes Wood College, O'Connell School, Belvedere College, University College Dublin). While 'Attending' is not a perfect predicate, the semantic connection of being educated in Dublin is strongly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Trendiness:has_theme styles",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph discusses Joyce's contribution to modernism and his influential use of literary styles. While 'Trendiness' is an unusual and vague relation, a lenient interpretation could connect his innovative styles to being 'trendy' or influential in a literary context."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/1995_in_music People:has_person Man",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject '1995_in_music' and the generic predicate 'has_person Man' are completely unrelated to the paragraph, which is about James Joyce who died in 1941."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Text:has_text letters",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'His other writings include...letters', directly connecting James Joyce to letters as a form of text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Rome Time_vector:has_theme 1915",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While Rome is mentioned in the context of an eight-month stay, the year 1915 is mentioned in relation to leaving Trieste. There is no direct semantic link between Rome and the theme/year 1915 in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Text:has_theme poetry",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Joyce wrote 'three books of poetry'. This establishes a clear thematic connection between James Joyce and poetry as a textual theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/James_Joyce Residence:has_location Zurich, Switzerland",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Joyce lived in Zurich, Switzerland' during World War I, establishing a clear residence-location relationship."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 41,
+    "accuracy": 0.82,
+    "avg_confidence": 0.694,
+    "high_confidence_50": 41,
+    "high_confidence_80": 28,
+    "percent_50": 82.0,
+    "percent_80": 56.00000000000001,
+    "max_triples_limit": 50
+  }
+}

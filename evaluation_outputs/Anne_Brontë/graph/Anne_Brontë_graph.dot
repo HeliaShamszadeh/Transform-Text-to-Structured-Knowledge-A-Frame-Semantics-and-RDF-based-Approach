@@ -1,0 +1,343 @@
+digraph Anne_Brontë {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "he won a place to study the..." [label="he won a place to study the...", fillcolor=lightgreen, color=green, shape=box];
+    "place to study theology at ..." [label="place to study theology at ...", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+    "Church of England" [label="Church of England", fillcolor=lightgreen, color=green, shape=box];
+    "place" [label="place", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her first novel, Agnes Grey..." [label="Her first novel, Agnes Grey...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "classics of English literature" [label="classics of English literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book of poems with her sisters" [label="book of poems with her sisters", fillcolor=lightblue, color=blue, shape=ellipse];
+    "her novels" [label="her novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "feminist novels" [label="feminist novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Anne's second novel, The Te..." [label="Anne's second novel, The Te...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "she published a book of poe..." [label="she published a book of poe...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "two novels" [label="two novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Her first novel, Agnes Grey" [label="Her first novel, Agnes Grey", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novel" [label="novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "both of her novels" [label="both of her novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "her death" [label="her death", fillcolor=lightyellow, color=orange, shape=diamond];
+    "born to Hugh Brunty and Ele..." [label="born to Hugh Brunty and Ele...", fillcolor=lightyellow, color=orange, shape=diamond];
+    "Anne died at 29" [label="Anne died at 29", fillcolor=lightyellow, color=orange, shape=diamond];
+    "ten children born to Hugh B..." [label="ten children born to Hugh B...", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "Hugh Brunty and Eleanor McC..." [label="Hugh Brunty and Eleanor McC...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1802" [label="1802", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his name, Brunty" [label="his name, Brunty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Charlotte, North Carolina" [label="Charlotte, North Carolina", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront literary family" [label="Bront literary family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Irish clergyman" [label="Irish clergyman", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister Emily Bront" [label="her sister Emily Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the first feminist n..." [label="one of the first feminist n...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1846" [label="1846", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two-room cottage in Emdale,..." [label="two-room cottage in Emdale,...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family surname, mac Aedh Pr..." [label="family surname, mac Aedh Pr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pulmonary" [label="pulmonary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "same time as Wuthering Heights" [label="same time as Wuthering Heights", fillcolor=lightgray, color=gray, shape=hexagon];
+    "republication of The Tenant..." [label="republication of The Tenant...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boarding" [label="boarding", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister Charlotte edited..." [label="her sister Charlotte edited...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Mirfield" [label="Mirfield", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St" [label="St", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria" [label="Maria", fillcolor=lightgray, color=gray, shape=hexagon];
+    "peasant" [label="peasant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most of her life" [label="most of her life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Brontë" [label="Anne Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1802, at 25" [label="1802, at 25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Patrick Brontë" [label="Patrick Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sisters" [label="sisters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "read and write" [label="read and write", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1848" [label="1848", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maria  née Branwell and Pat..." [label="Maria  née Branwell and Pat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Branwell" [label="Branwell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "against poverty" [label="against poverty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "both" [label="both", fillcolor=lightgray, color=gray, shape=hexagon];
+    "others" [label="others", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he was ordained in the prie..." [label="he was ordained in the prie...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne's" [label="Anne's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "two" [label="two", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Prunty or Brunty" [label="as Prunty or Brunty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "school" [label="school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between" [label="between", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Bront" [label="Emily Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bront" [label="Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "elsewhere" [label="elsewhere", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Tenant of Wildfell Hall" [label="The Tenant of Wildfell Hall", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between 1836 and 1837" [label="between 1836 and 1837", fillcolor=lightgray, color=gray, shape=hexagon];
+    "group" [label="group", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Joe Prunty" [label="Joe Prunty", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1839 and 1845" [label="1839 and 1845", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1807" [label="1807", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brontë family" [label="Brontë family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edition" [label="edition", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1836 and 1837" [label="1836 and 1837", fillcolor=lightgray, color=gray, shape=hexagon];
+    "priesthood in the Church of..." [label="priesthood in the Church of...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "St. John's College, Cambridge" [label="St. John's College, Cambridge", fillcolor=lightgray, color=gray, shape=hexagon];
+    "boarding school" [label="boarding school", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Bront  / b r n t i /, ..." [label="Anne Bront  / b r n t i /, ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as well" [label="as well", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wuthering Heights" [label="Wuthering Heights", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her sister Charlotte" [label="her sister Charlotte", fillcolor=lightgray, color=gray, shape=hexagon];
+    "29" [label="29", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1798" [label="1798", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as a governess" [label="as a governess", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "feminist" [label="feminist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pulmonary tuberculosis" [label="pulmonary tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Agnes Grey" [label="Agnes Grey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "children" [label="children", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "parish of Haworth on the Yo..." [label="parish of Haworth on the Yo...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Yorkshire Dales" [label="Yorkshire Dales", fillcolor=lightgray, color=gray, shape=hexagon];
+    "theology" [label="theology", fillcolor=lightgray, color=gray, shape=hexagon];
+    "more distinguished sounding..." [label="more distinguished sounding...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1847" [label="1847", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Irish people" [label="Irish people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Bront" [label="Anne Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne is not as well known a..." [label="Anne is not as well known a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Irish peasant farmers" [label="Irish peasant farmers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Patrick Bront" [label="Patrick Bront", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fix issues with its first e..." [label="fix issues with its first e...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Emily Brontë" [label="Emily Brontë", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Patrick Brontë" -> "Maria  née Branwell and Pat..." [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "he won a place to study the..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "most" [label="has degree [Likelihood]", color=lightgreen, penwidth=1];
+    "Yorkshire Dales" -> "novel" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Yorkshire Dales" -> "1847" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "born to Hugh Brunty and Ele..." [label="has theme [People_by_age]", color=lightpink, penwidth=1];
+    "Irish people" -> "Irish peasant farmers" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Mirfield" -> "as a governess" [label="has position [Being_employed]", color=lightsteelblue, penwidth=1];
+    "Yorkshire Dales" -> "book" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "Her first novel, Agnes Grey..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "England" -> "classics of English literature" [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Yorkshire Dales" -> "he was ordained in the prie..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anne Brontë" -> "between 1836 and 1837" [label="has time [Attending]", color=purple, penwidth=2];
+    "Mirfield" -> "1839 and 1845" [label="has theme [Temporal_subregion]", color=lightsalmon, penwidth=1];
+    "England" -> "both of her novels" [label="has item [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Joe Prunty" -> "as Prunty or Brunty" [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Yorkshire Dales" -> "St" [label="has location [Locale]", color=green, penwidth=2];
+    "Emily Brontë" -> "ten children born to Hugh B..." [label="has degree [Age]", color=lightpink, penwidth=1];
+    "England" -> "literature" [label="has theme [Fields]", color=lightsteelblue, penwidth=1];
+    "Yorkshire Dales" -> "both" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "place to study theology at ..." [label="has theme [Getting]", color=lightblue, penwidth=1];
+    "Mirfield" -> "between" [label="has theme [Temporal_subregion]", color=lightsalmon, penwidth=1];
+    "Yorkshire Dales" -> "parish of Haworth on the Yo..." [label="has location [Residence]", color=green, penwidth=2];
+    "Church of England" -> "Branwell" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Patrick Brontë" -> "two-room cottage in Emdale,..." [label="has location [Being_born]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "edition" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Irish people" -> "Irish clergyman" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Mirfield" -> "Anne Brontë" [label="has employee [Being_employed]", color=lightsteelblue, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "Patrick Brontë" [label="has recipient [Getting]", color=lightblue, penwidth=1];
+    "Emily Brontë" -> "Hugh Brunty and Eleanor McC..." [label="has theme [Being_born]", color=lightyellow, penwidth=1];
+    "Yorkshire Dales" -> "theology" [label="has theme [Studying]", color=lightpink, penwidth=1];
+    "Yorkshire Dales" -> "1846" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "St. John's College, Cambridge" [label="has institution [Studying]", color=lightpink, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "republication of The Tenant..." [label="has event [Preventing_or_letting]", color=lightcyan, penwidth=1];
+    "Yorkshire Dales" -> "1846" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Anne Brontë" -> "as well" [label="has degree [Fame]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "novels" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Patrick Brontë" -> "others" [label="has student [Education_teaching]", color=lightgoldenrodyellow, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "her sister Charlotte" [label="has theme [Preventing_or_letting]", color=lightcyan, penwidth=1];
+    "Yorkshire Dales" -> "others" [label="has theme [Increment]", color=lightseagreen, penwidth=1];
+    "Mirfield" -> "school" [label="has theme [Locale_by_use]", color=lightsalmon, penwidth=1];
+    "Joe Prunty" -> "family surname, mac Aedh Pr..." [label="has item [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Yorkshire Dales" -> "two novels" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Yorkshire Dales" -> "Patrick Brontë" [label="has student [Studying]", color=lightpink, penwidth=1];
+    "Anne Brontë" -> "Anne is not as well known a..." [label="has effect [Causation]", color=lightpink, penwidth=1];
+    "Patrick Brontë" -> "Anne Bront" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Mirfield" -> "boarding" [label="has theme [Locale_by_use]", color=lightsalmon, penwidth=1];
+    "Yorkshire Dales" -> "29" [label="has time [Death]", color=purple, penwidth=2];
+    "Yorkshire Dales" -> "Patrick Brontë" [label="has theme [Rite]", color=lightcoral, penwidth=1];
+    "Emily Brontë" -> "Anne Brontë" [label="has author [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "two" [label="has theme [Cardinal_numbers]", color=lightblue, penwidth=1];
+    "Mirfield" -> "1836 and 1837" [label="has theme [Temporal_subregion]", color=lightsalmon, penwidth=1];
+    "England" -> "Bront" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "Anne Brontë" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Emily Brontë" -> "Brontë family" [label="has theme [Being_named]", color=lightgreen, penwidth=1];
+    "Emily Brontë" -> "Agnes Grey" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "pulmonary tuberculosis" [label="has theme [Likelihood]", color=lightgreen, penwidth=1];
+    "Emily Brontë" -> "Patrick Brontë" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "St" [label="has location [Getting]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "time" [label="has theme [Identicality]", color=lightcoral, penwidth=1];
+    "Yorkshire Dales" -> "pulmonary" [label="has theme [Medical_conditions]", color=lightgreen, penwidth=1];
+    "Yorkshire Dales" -> "most of her life" [label="has theme [Residence]", color=lightcoral, penwidth=1];
+    "Anne Brontë" -> "Mirfield" [label="has location [Attending]", color=green, penwidth=2];
+    "Emily Brontë" -> "his name, Brunty" [label="has entity [Cause_change]", color=lightyellow, penwidth=1];
+    "Yorkshire Dales" -> "1807" [label="has time [Rite]", color=purple, penwidth=2];
+    "Anne Brontë" -> "Anne Bront  / b r n t i /, ..." [label="has member [Membership]", color=lightpink, penwidth=1];
+    "Yorkshire Dales" -> "feminist" [label="has theme [Text]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "Patrick Brontë" [label="has person [Being_born]", color=red, penwidth=2];
+    "Yorkshire Dales" -> "Anne Brontë" [label="has theme [Residence]", color=lightcoral, penwidth=1];
+    "Anne Brontë" -> "father" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Church of England" -> "Maria" [label="has entity [Being_named]", color=lightgreen, penwidth=1];
+    "Anne Brontë" -> "Anne's" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Wuthering Heights" -> "Her first novel, Agnes Grey" [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "1848" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Yorkshire Dales" -> "she published a book of poe..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Emily Brontë" -> "brother" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "England" -> "literature" [label="has entity [Origin]", color=lightcyan, penwidth=1];
+    "Yorkshire Dales" -> "priesthood in the Church of..." [label="has organization [Rite]", color=lightcoral, penwidth=1];
+    "Anne Brontë" -> "novel" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "Anne Brontë" [label="has theme [Death]", color=lightsteelblue, penwidth=1];
+    "Patrick Brontë" -> "read and write" [label="has skill [Education_teaching]", color=lightgoldenrodyellow, penwidth=1];
+    "Irish people" -> "peasant" [label="has person [People]", color=red, penwidth=2];
+    "Wuthering Heights" -> "her sister Emily Bront" [label="has theme [Publishing]", color=lightsteelblue, penwidth=1];
+    "Yorkshire Dales" -> "her novels" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Yorkshire Dales" -> "tuberculosis" [label="has theme [Medical_conditions]", color=lightgreen, penwidth=1];
+    "Wuthering Heights" -> "same time as Wuthering Heights" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Mirfield" -> "elsewhere" [label="has theme [Locative_relation]", color=lightgray, penwidth=1];
+    "Anne Brontë" -> "boarding school" [label="has event [Attending]", color=lightseagreen, penwidth=1];
+    "Charlotte, North Carolina" -> "fix issues with its first e..." [label="has theme [Text]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "Anne Brontë" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "1802" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "Anne died at 29" [label="has theme [Likelihood]", color=lightgreen, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "her death" [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Emily Brontë" -> "more distinguished sounding..." [label="has theme [Cause_change]", color=lightyellow, penwidth=1];
+    "Yorkshire Dales" -> "St" [label="has location [Studying]", color=green, penwidth=2];
+    "Anne Brontë" -> "Anne's" [label="has author [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "poems" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "sisters" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Emily Brontë" -> "sister" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Charlotte, North Carolina" -> "her sister Charlotte" [label="has author [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "elsewhere" [label="has location [Residence]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "group" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "Emily Brontë" -> "novels" [label="has text [Text]", color=lightgray, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "1802, at 25" [label="has time [Getting]", color=purple, penwidth=2];
+    "The Tenant of Wildfell Hall" -> "one of the first feminist n..." [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Patrick Brontë" -> "Patrick Bront" [label="has person [Being_born]", color=red, penwidth=2];
+    "Yorkshire Dales" -> "feminist novels" [label="has type [Ordinal_numbers]", color=lightyellow, penwidth=1];
+    "Patrick Brontë" -> "against poverty" [label="has purpose [Hostile_encounter]", color=lightseagreen, penwidth=1];
+    "Yorkshire Dales" -> "book of poems with her sisters" [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "her sister Charlotte edited..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Emily Brontë" -> "Emily Bront" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Patrick Brontë" -> "1798" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Emily Brontë" -> "Patrick Brontë" [label="has agent [Cause_change]", color=lightyellow, penwidth=1];
+    "The Tenant of Wildfell Hall" -> "Anne's second novel, The Te..." [label="has work [Publishing]", color=lightsteelblue, penwidth=1];
+    "Anne Brontë" -> "Bront literary family" [label="has group [Membership]", color=lightpink, penwidth=1];
+    "Charlotte, North Carolina" -> "Agnes Grey" [label="has text [Text]", color=lightgray, penwidth=1];
+    "Yorkshire Dales" -> "St" [label="has location [Temporal_collocation]", color=green, penwidth=2];
+    "Yorkshire Dales" -> "novels" [label="has entity [Cardinal_numbers]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "Anne Brontë" [label="has theme [Publishing]", color=lightsteelblue, penwidth=1];
+    "Yorkshire Dales" -> "children" [label="has person [People_by_age]", color=red, penwidth=2];
+    "Yorkshire Dales" -> "place" [label="has theme [Locale]", color=lightgoldenrod, penwidth=1];
+    "Mirfield" -> "Anne Brontë" [label="has theme [Locative_relation]", color=lightgray, penwidth=1];
+    "Emily Brontë" -> "Patrick Brontë" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Yorkshire Dales" -> "1807" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Anne Brontë" -> "sisters" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Yorkshire Dales" -> "poems" [label="has theme [Text]", color=lightgray, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Kinship_legend" [label="Kinship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Likelihood_legend" [label="Likelihood", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Being_employed_legend" [label="Being_employed", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Getting_legend" [label="Getting", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Studying_legend" [label="Studying", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Preventing_or_letting_legend" [label="Preventing_or_letting", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Identicality_legend" [label="Identicality", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Cause_change_legend" [label="Cause_change", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Membership_legend" [label="Membership", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

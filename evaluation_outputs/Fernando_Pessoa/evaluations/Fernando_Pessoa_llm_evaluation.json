@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Being_named:has_entity family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions family names in 'the first or maternal family name is Nogueira and the second or paternal family name is Pessoa', providing a weak but valid semantic connection to the concept of 'family'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Causation:has_effect He did not define these as pseudonyms",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text explicitly states 'He did not define these as pseudonyms', which is a direct semantic match for the object of the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Trust:has_information sources",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains a section asking for 'citations to reliable sources' and mentions 'Find sources', creating a very weak but semantically related connection to 'sources' and 'information'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Increment:has_class names",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text discusses Pessoa writing under 'approximately seventy-five other names' and specifically mentions 'heteronyms', which are a class or category of names."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Opinion:has_opinion that this did not capture their true independent intellectual life",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states the reason he didn't use 'pseudonyms' was that 'he felt that this did not capture their true independent intellectual life', which is a clear semantic match for the opinion expressed in the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Size:has_entity flat",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'a large flat at São Carlos Square' as Pessoa's birthplace. There is a semantic connection between 'flat' and the entity Fernando Pessoa, though the relationship 'Size:has_entity' is vague and not explicitly defined."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Text:has_text article",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text is a biographical article about Fernando Pessoa. The phrase 'This article' is implied in the context of the Wikipedia entry and the instruction 'Please help improve this article' appears in the text, creating a strong semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Source_of_getting:has_time 2022",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text includes a direct citation date: '( January 2022 )'. This is explicitly stated and relates to the sourcing of the article's information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Source_of_getting:has_theme reliable",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The text mentions the need for 'citations to reliable sources'. The concept of 'reliable' sources is a key theme in the paragraph's discussion of verifying information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Being_born:has_location http://en.wikipedia.org/wiki/Lisbon",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The sentence 'Pessoa was born in Lisbon on 13 June 1888' provides a clear and direct statement of the birth location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Expertise:has_theme writer",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that Fernando Pessoa was a writer multiple times."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portuguese_language Importance:has_theme literary figures",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Pessoa is one of the greatest poets in the Portuguese language, creating a semantic link between the language and a significant literary figure, though the triple's subject and predicate are an indirect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Increment:has_theme approximately seventy-five",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states Pessoa wrote under approximately seventy-five other names, directly linking the subject to the numerical theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Ordinal_numbers:has_type family name",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'the first or maternal family name' and 'the second or paternal family name', establishing a clear semantic connection to the concept of family names and their ordinal sequence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Locative_relation:has_theme So Carlos Square",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'Pessoa's birthplace: a large flat at São Carlos Square', creating a direct locative relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portuguese_language Aggregate:has_theme band",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Portuguese language' and 'band' (in the context of 'Alexander Search (band)'), but the connection is extremely weak and indirect. Being lenient, both concepts are present in the text, allowing for a very weak semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions Pessoa's father, Joaquim de Seabra Pessôa, and his death. The theme of 'father' is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Education_teaching:has_skill how and when to remove this message",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'how and when to remove this message' is part of a Wikipedia template message requesting citation verification. It is not a skill attributed to Fernando Pessoa and is completely unrelated to the biographical content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Building_subparts:has_location So Carlos Square",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The text states 'Pessoa's birthplace: a large flat at São Carlos Square'. This directly links the person (Pessoa) to the location (São Carlos Square) via his birthplace."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Source_of_getting:has_theme sources",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph contains the phrase 'Find sources: \"Fernando Pessoa\"', which is a direct mention of 'sources' in relation to the subject. While it's a meta-comment about the article itself and not a biographical fact, the semantic connection exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lisbon Businesses:has_location Lisbon's",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Lisbon's opera' which weakly connects Lisbon to a location/business, but the predicate 'Businesses:has_location' is a very loose semantic fit."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Text_creation:has_text his own name",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Pessoa was a prolific writer both in his own name', which directly supports the subject writing text under his own name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Locating:has_theme sources",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph contains the phrase 'Find sources: \"Fernando Pessoa\"', which semantically relates the subject to the theme of locating sources, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Age:has_age younger",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'his younger brother Jorge', which connects the subject to the concept of a younger age relationally, though not directly stating the subject's age."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Removing:has_theme this message",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph contains the phrase 'Learn how and when to remove this message', which semantically links the subject to the theme of removing a message, though the connection is part of a template note."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portuguese_language Ordinal_numbers:has_type family name",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple connects the Portuguese language to a 'family name' type. The paragraph mentions 'family name' in the context of Fernando Pessoa's name structure, but it is not attributed to the Portuguese language itself. The concepts are semantically disconnected."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Removing:has_time 2022",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph contains the date '2022' in the context of a message about removing unsourced material. While the relationship 'Removing:has_time' is a very abstract interpretation, the date 2022 is present and related to a maintenance action on the article, providing a weak semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Age:has_entity brother",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Pessoa's 'younger brother Jorge'. While the specific property 'Age:has_entity' is vague, the concept of a brother is directly present and associated with Pessoa, making a reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Opinion:has_theme These imaginary figures",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The phrase 'These imaginary figures' directly refers to Pessoa's heteronyms. The paragraph states these figures 'sometimes held unpopular or extreme views', which strongly relates to the concept of 'Opinion' as a theme associated with them and, by extension, Pessoa."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Communicate_categorization:has_category as pseudonyms",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses Pessoa's heteronyms and states 'He did not define these as pseudonyms'. This directly engages with the concept of categorization as pseudonyms, even if to reject it, providing a clear and strong semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Categorization:has_category as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He has been described as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese language'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Increment:has_class citations",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions the need for 'additional citations for verification' and asks readers to add 'citations to reliable sources', creating a semantic connection to citations"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Building_subparts:has_theme flat",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Pessoa's birthplace: a large flat at São Carlos Square', creating a connection between Pessoa and a flat as part of his birthplace"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Assistance:has_goal improve this article by adding citations to reliable sources in this section",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly contains the phrase 'Please help improve this article by adding citations to reliable sources in this section'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Age:has_age one",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions his younger brother Jorge 'aged one' when he died, and while this refers to his brother's age, it creates a semantic connection to the concept of age being one"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Locative_relation:has_theme large flat",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'Pessoa's birthplace: a large flat at São Carlos Square'. The 'large flat' is directly associated with Pessoa as his birthplace."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Building_subparts:has_theme large",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The 'large flat' is a building/subpart associated with Pessoa. While the predicate is vague, the concept of 'large' is thematically connected to his birthplace."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Building_subparts:has_time 2022",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 2022 appears in the citation request ('January 2022'). While the connection to 'Building_subparts' is extremely weak and indirect, the date is present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Labeling:has_theme heteronyms",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly discusses Pessoa's creation of 'heteronyms', a term he invented, making it a clear and central theme associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lisbon Businesses:has_business opera",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions 'Lisbon's opera' in the context of Pessoa's birthplace location. While 'has_business' is a specific interpretation, the opera is an entity located in Lisbon."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Locative_relation:has_time 2022",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph contains a citation request dated January 2022, which is a weak temporal connection to the subject."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Causation:has_cause he felt that this did not capture their true independent intellectual life and instead called them heteronyms, a term he invented",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The exact phrase and concept are directly stated in the paragraph as the reason Pessoa called his personas 'heteronyms' instead of pseudonyms."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Size:has_time 2022",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "Same as triple 1; the 2022 date appears in the citation note, creating a weak temporal association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portuguese_language Calendric_unit:has_theme 20th",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Pessoa was a significant literary figure of the 20th century and wrote in Portuguese, creating an indirect thematic link between the language and the century."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Death:has_theme tuberculosis",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Pessoa's father died of tuberculosis. While not about Pessoa's own death, there is a clear semantic connection to death and tuberculosis."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Death:has_time less than seven months later",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states his father died and 'less than seven months later' his brother died, establishing a temporal relationship between death events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Time_vector:has_theme less than seven months",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'less than seven months' is a significant temporal element in the narrative of Pessoa's life, though the connection to 'theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Lisbon Businesses:has_time 2022",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Lisbon as a birthplace, but there is no information about businesses or the year 2022."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Locating:has_time 2022",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The year 2022 appears in a citation request footnote. While the connection to 'locating' is very weak, the date is semantically present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Fernando_Pessoa Opinion:has_opinion views",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states his heteronyms 'sometimes held unpopular or extreme views,' which directly connects Pessoa to the concept of opinions/views."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 38,
+    "accuracy": 0.76,
+    "avg_confidence": 0.6380000000000002,
+    "high_confidence_50": 38,
+    "high_confidence_80": 22,
+    "percent_50": 76.0,
+    "percent_80": 44.0,
+    "max_triples_limit": 50
+  }
+}

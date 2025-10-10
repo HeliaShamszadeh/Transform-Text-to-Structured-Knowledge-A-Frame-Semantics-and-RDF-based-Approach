@@ -1,0 +1,238 @@
+digraph Machado_de_Assis {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Locations nodes
+    "country" [label="country", fillcolor=lightgreen, color=green, shape=box];
+
+    // Other nodes
+    "himself" [label="himself", fillcolor=lightgray, color=gray, shape=hexagon];
+    "paternal" [label="paternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edit summary accompanying y..." [label="edit summary accompanying y...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interlanguage" [label="interlanguage", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "barely" [label="barely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Machado" [label="Machado", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Assis" [label="Assis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "fully" [label="fully", fillcolor=lightgray, color=gray, shape=hexagon];
+    "never" [label="never", fillcolor=lightgray, color=gray, shape=hexagon];
+    "university" [label="university", fillcolor=lightgray, color=gray, shape=hexagon];
+    "guidance" [label="guidance", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public schools" [label="public schools", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Machado de Assis" [label="Machado de Assis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "also add the template Trans..." [label="also add the template Trans...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later in life" [label="later in life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign-language" [label="foreign-language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "interlanguage link to the s..." [label="interlanguage link to the s...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2024" [label="2024", fillcolor=lightgray, color=gray, shape=hexagon];
+    "copyright attribution" [label="copyright attribution", fillcolor=lightgray, color=gray, shape=hexagon];
+    "translation" [label="translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "text" [label="text", fillcolor=lightgray, color=gray, shape=hexagon];
+    "paternal family" [label="paternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "revise errors as necessary ..." [label="revise errors as necessary ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "slavery" [label="slavery", fillcolor=lightgray, color=gray, shape=hexagon];
+    "article" [label="article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "references" [label="references", fillcolor=lightgray, color=gray, shape=hexagon];
+    "source" [label="source", fillcolor=lightgray, color=gray, shape=hexagon];
+    "President of the Brazilian ..." [label="President of the Brazilian ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1908" [label="1908", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brazilian Academy of Letters" [label="Brazilian Academy of Letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1897" [label="1897", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Wikipedia:Translation" [label="Wikipedia:Translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "public" [label="public", fillcolor=lightgray, color=gray, shape=hexagon];
+    "errors" [label="errors", fillcolor=lightgray, color=gray, shape=hexagon];
+    "unreliable or low-quality" [label="unreliable or low-quality", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Morro do Livramento  pt " [label="Morro do Livramento  pt ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "starting point" [label="starting point", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Havana" [label="Havana", fillcolor=lightgray, color=gray, shape=hexagon];
+    "your translation" [label="your translation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "providing an interlanguage ..." [label="providing an interlanguage ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "French, English, German and..." [label="French, English, German and...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Brazil" [label="Brazil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "foreign-language article" [label="foreign-language article", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Portuguese language" [label="Portuguese language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "important translation instr..." [label="important translation instr...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he founded and became the f..." [label="he founded and became the f...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "translation instructions" [label="translation instructions", fillcolor=lightgray, color=gray, shape=hexagon];
+    "maternal" [label="maternal", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poor" [label="poor", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Rio de Janeiro" [label="Rio de Janeiro", fillcolor=lightgray, color=gray, shape=hexagon];
+    "provide copyright attributi..." [label="provide copyright attributi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "link" [label="link", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poor family" [label="poor family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "schools" [label="schools", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first President of the Braz..." [label="first President of the Braz...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "expand this article with te..." [label="expand this article with te...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "edit summary" [label="edit summary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "text with references provid..." [label="text with references provid...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Machine" [label="Machine", fillcolor=lightgray, color=gray, shape=hexagon];
+    "help expand this article wi..." [label="help expand this article wi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "corresponding article in Po..." [label="corresponding article in Po...", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Havana" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Machado" -> "interlanguage" [label="has type [Connectors]", color=lightcoral, penwidth=1];
+    "Havana" -> "fully" [label="has degree [Change_of_leadership]", color=lightgreen, penwidth=1];
+    "Machado" -> "1908" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Machado de Assis" -> "never" [label="has theme [Attending]", color=lightpink, penwidth=1];
+    "Machado de Assis" -> "French, English, German and..." [label="has theme [Education_teaching]", color=lightcyan, penwidth=1];
+    "Machado" -> "starting point" [label="has entity [Usefulness]", color=lightsteelblue, penwidth=1];
+    "Rio de Janeiro" -> "poor family" [label="has theme [Being_born]", color=lightgray, penwidth=1];
+    "Machado" -> "your translation" [label="has theme [Source_of_getting]", color=lightgoldenrodyellow, penwidth=1];
+    "Assis" -> "paternal family" [label="has entity [Being_named]", color=lightyellow, penwidth=1];
+    "Machado" -> "2024" [label="has time [Contacting]", color=purple, penwidth=2];
+    "Portuguese language" -> "corresponding article in Po..." [label="has theme [Translating]", color=lightsalmon, penwidth=1];
+    "Machado" -> "foreign-language article" [label="has location [Supply]", color=green, penwidth=2];
+    "Machado de Assis" -> "Wikipedia:Translation" [label="has theme [Reference_text]", color=lightpink, penwidth=1];
+    "Machado de Assis" -> "guidance" [label="has class [Increment]", color=lightsteelblue, penwidth=1];
+    "Rio de Janeiro" -> "Morro do Livramento  pt " [label="has location [Being_born]", color=green, penwidth=2];
+    "Machado" -> "Machine" [label="has means [Translating]", color=lightsalmon, penwidth=1];
+    "Brazil" -> "edit summary accompanying y..." [label="has location [Supply]", color=green, penwidth=2];
+    "Brazil" -> "interlanguage link to the s..." [label="has theme [Supply]", color=lightgoldenrod, penwidth=1];
+    "Machado de Assis" -> "1897" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Machado" -> "important translation instr..." [label="has purpose [Contacting]", color=lightseagreen, penwidth=1];
+    "Portuguese language" -> "1908" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Portuguese language" -> "expand this article with te..." [label="has goal [Assistance]", color=lightblue, penwidth=1];
+    "Havana" -> "poor" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Machado de Assis" -> "he founded and became the f..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Machado de Assis" -> "Brazilian Academy of Letters" [label="has theme [Leadership]", color=lightgreen, penwidth=1];
+    "Brazil" -> "copyright attribution" [label="has theme [Supply]", color=lightgoldenrod, penwidth=1];
+    "Machado de Assis" -> "schools" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "Machado de Assis" -> "1897" [label="has time [Intentionally_create]", color=purple, penwidth=2];
+    "Assis" -> "1908" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Machado de Assis" -> "also add the template Trans..." [label="has theme [Possibility]", color=lightcyan, penwidth=1];
+    "Machado de Assis" -> "himself" [label="has student [Education_teaching]", color=lightcyan, penwidth=1];
+    "Machado" -> "provide copyright attributi..." [label="has theme [Required_event]", color=lightsteelblue, penwidth=1];
+    "Machado" -> "family" [label="has entity [Being_named]", color=lightyellow, penwidth=1];
+    "Machado de Assis" -> "university" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "Portuguese language" -> "name" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "Brazil" -> "providing an interlanguage ..." [label="has means [Supply]", color=lightgoldenrod, penwidth=1];
+    "Machado" -> "1908" [label="has time [Ordinal_numbers]", color=purple, penwidth=2];
+    "Machado" -> "family name" [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "Machado de Assis" -> "later in life" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Machado" -> "edit summary" [label="has theme [Cotheme]", color=lightgoldenrodyellow, penwidth=1];
+    "Havana" -> "slavery" [label="has theme [Change_of_leadership]", color=lightgreen, penwidth=1];
+    "Portuguese language" -> "text" [label="has theme [Translating]", color=lightsalmon, penwidth=1];
+    "Machado" -> "translation instructions" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Machado" -> "maternal" [label="has type [Being_named]", color=lightyellow, penwidth=1];
+    "Machado" -> "translation" [label="has information [Correctness]", color=lightsalmon, penwidth=1];
+    "Machado" -> "article" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Machado de Assis" -> "public schools" [label="has location [Education_teaching]", color=green, penwidth=2];
+    "Machado" -> "errors" [label="has theme [Calendric_unit]", color=lightpink, penwidth=1];
+    "Machado" -> "text" [label="has theme [Give_impression]", color=lightsteelblue, penwidth=1];
+    "Portuguese language" -> "article" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Brazil" -> "translation" [label="has text [Translating]", color=lightsalmon, penwidth=1];
+    "Machado" -> "link" [label="has theme [Connectors]", color=lightcoral, penwidth=1];
+    "Machado de Assis" -> "President of the Brazilian ..." [label="has type [Ordinal_numbers]", color=lightgray, penwidth=1];
+    "Machado" -> "text" [label="has text [Text]", color=lightgoldenrod, penwidth=1];
+    "Machado" -> "source" [label="has theme [Source_of_getting]", color=lightgoldenrodyellow, penwidth=1];
+    "Machado" -> "your translation" [label="has theme [Cotheme]", color=lightgoldenrodyellow, penwidth=1];
+    "Machado de Assis" -> "university" [label="has event [Attending]", color=lightpink, penwidth=1];
+    "Machado" -> "revise errors as necessary ..." [label="has theme [Required_event]", color=lightsteelblue, penwidth=1];
+    "Machado de Assis" -> "barely" [label="has degree [Education_teaching]", color=lightcyan, penwidth=1];
+    "Portuguese language" -> "help expand this article wi..." [label="has event [Capability]", color=lightcoral, penwidth=1];
+    "Machado de Assis" -> "Brazilian Academy of Letters" [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "Machado" -> "foreign-language" [label="has language [Text]", color=lightgoldenrod, penwidth=1];
+    "Machado" -> "references" [label="has theme [Supply]", color=lightgoldenrod, penwidth=1];
+    "Machado de Assis" -> "first President of the Braz..." [label="has theme [Becoming]", color=lightcoral, penwidth=1];
+    "Machado" -> "text with references provid..." [label="has theme [Verification]", color=lightblue, penwidth=1];
+    "Machado de Assis" -> "1897" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Havana" -> "country" [label="has theme [Political_locales]", color=lightcoral, penwidth=1];
+    "Machado de Assis" -> "public" [label="has theme [Locale_by_use]", color=lightyellow, penwidth=1];
+    "Machado" -> "unreliable or low-quality" [label="has theme [Give_impression]", color=lightsteelblue, penwidth=1];
+    "Assis" -> "paternal" [label="has type [Being_named]", color=lightyellow, penwidth=1];
+    "Havana" -> "family" [label="has person [Wealthiness]", color=red, penwidth=2];
+    "Machado" -> "errors" [label="has theme [Being_necessary]", color=lightyellow, penwidth=1];
+    "Machado" -> "2024" [label="has time [Importance]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Kinship_legend" [label="Kinship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Connectors_legend" [label="Connectors", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Change_of_leadership_legend" [label="Change_of_leadership", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Attending_legend" [label="Attending", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Usefulness_legend" [label="Usefulness", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Source_of_getting_legend" [label="Source_of_getting", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Contacting_legend" [label="Contacting", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Translating_legend" [label="Translating", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Supply_legend" [label="Supply", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Locale_by_use_legend" [label="Locale_by_use", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Possibility_legend" [label="Possibility", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Required_event_legend" [label="Required_event", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Cotheme_legend" [label="Cotheme", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Correctness_legend" [label="Correctness", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Verification_legend" [label="Verification", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Wealthiness_legend" [label="Wealthiness", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_necessary_legend" [label="Being_necessary", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+    }
+}

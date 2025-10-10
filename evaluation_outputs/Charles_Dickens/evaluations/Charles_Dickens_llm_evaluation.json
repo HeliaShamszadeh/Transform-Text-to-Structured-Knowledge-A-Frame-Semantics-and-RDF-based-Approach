@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Publishing:has_work novel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Dickens's literary success began with the 1836 serial publication of The Pickwick Papers' and mentions his novels, establishing a clear connection between The Pickwick Papers and being a work (novel)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Time_vector:has_theme beginning his literary career as a journalist",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Gospel of John is not mentioned in the paragraph. While the theme 'beginning his literary career as a journalist' is present, it is attributed to Charles Dickens, not the Gospel of John. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portsmouth Being_employed:has_theme boot-blacking factory",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Born in Portsmouth, Dickens left school at age 12 to work in a boot-blacking factory'. While the triple's structure is odd (Portsmouth having the theme of the factory), there is a semantic link between the location and the event of employment described."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Measure_duration:has_theme three",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Gospel of John is not mentioned. The number 'three' appears in the context of 'After three years, he returned to school', but this duration is not thematically linked to the Gospel of John in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Duration_description:has_theme stories",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Gospel of John is not mentioned. While 'stories' are mentioned multiple times in the paragraph (e.g., 'hundreds of short stories'), there is no semantic connection to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Cardinal_numbers:has_theme 20",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph, which is about Charles Dickens. The number 20 appears in the paragraph, but it is not thematically linked to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Cardinal_numbers:has_theme five",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph. The number five appears in the paragraph, but it is not thematically linked to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Time_vector:has_theme three years",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph. The time period 'three years' appears in the paragraph, but it is not thematically linked to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Temporal_collocation:has_theme today",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph. The temporal word 'today' appears in the paragraph, but it is not thematically linked to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Reading_activity:has_time today",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph. While 'reading' and 'today' are mentioned separately in the paragraph, they are not linked to each other in the context of the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Calendric_unit:has_theme few",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The phrase 'has_theme few' has no semantic connection to the paragraph. The paragraph discusses the success and publication of 'The Pickwick Papers' but does not associate it with the theme of 'few'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Desirability:has_degree unprecedented",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is not mentioned in the paragraph. The paragraph is about Charles Dickens, and the term 'unprecedented' is used to describe the popularity of his works, not the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Fame:has_entity international literary celebrity",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'The Pickwick Papers' began Dickens's literary success and that within a few years he became an 'international literary celebrity'. There is a reasonable, indirect connection between the novel and the state of fame it helped create."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Dimension:has_theme widely",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is not mentioned in the paragraph. The term 'widely' is used to describe how Dickens's stories are read, not the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Calendric_unit:has_theme era",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is not mentioned in the paragraph. The term 'era' is used in reference to the 'Victorian era', which is related to Dickens, not the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Becoming:has_theme international literary celebrity, famous for his humour, satire and keen observation of character and society",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Dickens became an 'international literary celebrity, famous for his humour, satire and keen observation of character and society'. The predicate 'has_theme' is a reasonable, though not exact, semantic match for describing these as characteristics or themes of his celebrity status."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Text:has_text novellas",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is not mentioned or implied anywhere in the paragraph. The paragraph is exclusively about Charles Dickens, making this triple completely unrelated to the given text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Text_creation:has_author Charles John Huffam Dickens ( d k n z / i",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The subject is Charles Dickens. The paragraph begins by identifying him as 'Charles John Huffam Dickens' and describes his career as a writer. The relationship of authorship is strongly implied by the entire context of his literary works, even if the specific predicate 'has_author' is not used. The truncated object is clearly a reference to the name given in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Text:has_text publications",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph extensively discusses Dickens's publications, including novels, serial publications like 'The Pickwick Papers', and the instalment format. While 'has_text' is a vague predicate, there is a clear semantic connection between Dickens and the concept of 'publications'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Dominate_situation:has_agent Victorian",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "'The Pickwick Papers' is mentioned. The paragraph states that Dickens's serial publication method 'became the dominant Victorian mode for novel publication'. There is a weak but valid semantic link between his work (like The Pickwick Papers) pioneering a mode that dominated the 'Victorian' era, allowing for a lenient interpretation of 'has_agent Victorian'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Time_vector:has_theme before",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned or alluded to in the paragraph. There is no semantic connection to the text's content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Text_creation:has_text short story",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Dickens 'wrote...hundreds of short stories', establishing a clear semantic connection between the author and the text type."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Becoming:has_theme dominant Victorian mode for novel publication",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'The Pickwick Papers' pioneered serial publication, which 'became the dominant Victorian mode for novel publication'. This is an indirect but semantically related connection between the novel and the theme of becoming a dominant mode."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Political_locales:has_theme international",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The paragraph links the success of 'The Pickwick Papers' to Dickens becoming an 'international literary celebrity'. This is a weak but valid semantic connection between the novel and an international theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Departing:has_time when his father John was incarcerated in a debtors'prison",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Dickens left school to work 'when his father John was incarcerated in a debtors' prison'. This clearly connects a departure event (leaving school) with a specific time marker."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Dickens wrote 15 novels and that his novels are widely read, directly connecting him to novels as a form of text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Stimulus_focus:has_theme readers",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that 'Cliffhanger endings in his serial publications kept readers in suspense.' While The Pickwick Papers is cited as his first successful serial publication, the connection to 'readers' as a theme is indirect but semantically related to the publication's effect on its audience."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Text:has_text novel",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The Pickwick Papers is described as a 'serial publication' that was a 'publishing phenomenon' and is contextualized within his career writing novels. It is reasonably inferred to be a novel or narrative fiction, which is the dominant form discussed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned anywhere in the paragraph. The word 'years' appears, but it is not thematically linked to this unrelated entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Proportional_quantity:has_theme literature's best-known fictional characters",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned in the paragraph. The phrase 'literature's best-known fictional characters' refers to characters created by Charles Dickens, not to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Quantified_mass:has_theme short stories and nonfiction articles",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is completely unrelated to the paragraph, which is about Charles Dickens. The object 'short stories and nonfiction articles' is mentioned in the paragraph, but the subject has no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Increment:has_class social reforms",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is completely unrelated to the paragraph. The object 'social reforms' is mentioned as something Dickens campaigned for, but the subject has no connection to this information."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Text:has_text narrative fiction",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The subject 'The_Pickwick_Papers' is directly mentioned. The paragraph states that Dickens 'pioneered the serial publication of narrative fiction' in the context of his novels, which includes The Pickwick Papers. There is a strong semantic link between the novel and the concept of narrative fiction."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Process_start:has_theme 1836 serial publication of The Pickwick Papers, a publishing phenomenon—thanks largely to the introduction of the character Sam Weller in the fourth episode—that sparked Pickwick merchandise and spin-offs",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The subject 'The_Pickwick_Papers' and the entire object phrase are directly quoted from the paragraph. The information is explicitly stated, making the triple perfectly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Desirability:has_theme His works",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel_of_John' is completely unrelated to the paragraph. The object 'His works' refers to the works of Charles Dickens, which have no semantic connection to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Cause_change:has_entity his plot and character development",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Dickens 'often modified his plot and character development based on such feedback', which directly relates to the concept of causing a change to these entities."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Portsmouth Imprisonment:has_theme debtors'prison",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Dickens's father was incarcerated in a debtors' prison when Dickens was a child in Portsmouth. While the imprisonment is not directly attributed to the city of Portsmouth itself, the event is contextually linked to his life there, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Cardinal_numbers:has_entity novellas",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The 'Gospel of John' is completely unrelated to the paragraph's content about Charles Dickens. The paragraph mentions Dickens wrote 'five novellas', but this has no connection to the biblical text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Departing:has_theme school",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Dickens left school at age 12', which is a clear instance of departing from school."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Assessing:has_feature his audience's reaction",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'The instalment format allowed Dickens to evaluate his audience's reaction', which is a clear act of assessment."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Achieving_first:has_theme serial publication of narrative fiction, which became the dominant Victorian mode for novel publication",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that 'The Pickwick Papers' was a serial publication and that Dickens 'pioneered the serial publication of narrative fiction, which became the dominant Victorian mode for novel publication.' The triple's theme is semantically connected to this pioneering role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Cause_change:has_theme based on such feedback",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Dickens 'often modified his plot and character development based on such feedback.' While the predicate 'has_theme' is a weak match for the concept of 'modification based on feedback,' there is a semantic connection to the subject and the general idea of change due to feedback."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Charles_Dickens Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple is nonsensical and contains no coherent semantic meaning that can be connected to the paragraph. The terms 'Increment:has_class' and 'uses' do not relate to any information provided."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Time_vector:has_event he returned to school",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph, which is exclusively about Charles Dickens. The event 'he returned to school' is about Dickens, not the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Cardinal_numbers:has_entity novels",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Gospel of John' is completely unrelated to the paragraph. While 'novels' are mentioned in the text, they are associated with Charles Dickens, not the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Text:has_theme nonfiction",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned in the paragraph. The paragraph is about Charles Dickens, and while 'nonfiction articles' are mentioned as something he wrote, this is not connected to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Quantified_mass:has_quantity hundreds",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned. The word 'hundreds' is used in the paragraph to describe the quantity of short stories Dickens wrote, not in relation to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Gospel_of_John Text:has_text articles",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The Gospel of John is not mentioned. The word 'articles' is used in the phrase 'nonfiction articles' which Dickens wrote, but this is not connected to the Gospel of John."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Frequency:has_theme weekly",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states that 'Dickens edited a weekly journal for 20 years' and that his literary success began with 'The Pickwick Papers'. While the weekly frequency is directly associated with a journal he edited, and his success is linked to the novel, the connection between the novel itself and a weekly theme is indirect but semantically plausible in the context of his publishing career."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/The_Pickwick_Papers Frequency:has_event instalments",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Dickens's success began with 'the 1836 serial publication of The Pickwick Papers' and that his novels were 'published in monthly or weekly instalments'. This is a strong, direct semantic connection."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 24,
+    "accuracy": 0.48,
+    "avg_confidence": 0.3680000000000001,
+    "high_confidence_50": 24,
+    "high_confidence_80": 14,
+    "percent_50": 48.0,
+    "percent_80": 28.000000000000004,
+    "max_triples_limit": 50
+  }
+}

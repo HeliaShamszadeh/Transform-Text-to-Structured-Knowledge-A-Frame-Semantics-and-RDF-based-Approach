@@ -1,0 +1,83 @@
+# SPARQL Queryable RDF Triples
+# Generated for RAG applications
+
+@prefix : <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Locative_relation:has_theme> "world" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Organization:has_organization> "organisations" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Membership:has_group> "left that opposed Joseph Stalin and the Soviet Union because of their totalitarianism" .
+<http://en.wikipedia.org/wiki/France> <Reference_text:has_theme> "Camus (disambiguation)" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <People_along_political_spectrum:has_theme> "left" .
+<http://en.wikipedia.org/wiki/Combat> <Becoming_a_member:has_group> "French Resistance where he served as editor-in-chief at Combat, an outlawed newspaper" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Categorization:has_category> "be an existentialist" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Causation:has_cause> "their totalitarianism" .
+<http://en.wikipedia.org/wiki/Paris> <Interior_profile_relation:has_time> "when the Germans invaded France during World War II in 1940" .
+<http://en.wikipedia.org/wiki/Paris> <Invading:has_time> "during World War II in 1940" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Being_born:has_time> "7 November 1913" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Time_vector:has_theme> "war" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Being_named:has_entity> "philosophy" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Attempt:has_goal> "flee" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Being_named:has_theme> "Sintès" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Locative_relation:has_theme> "many lectures" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Membership:has_group> "many organisations seeking European integration" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Age:has_location> "Literature" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Respond_to_proposal:has_theme> "firmly" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Kinship:has_theme> "childhood" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Categorization:has_item> "Camus's work" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Being_named:has_theme> "as absurdism" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Respond_to_proposal:has_speaker> "he himself" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Inclusion:has_theme> "Stranger, The Plague, The Myth of Sisyphus, The Fall and The Rebel" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Personal_relationship:has_degree> "twice" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Time_vector:has_event> "studied philosophy at the University of Algiers" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Taking_sides:has_theme> "that" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Categorization:has_theme> "Some" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Being_active:has_activity> "politically" .
+<http://en.wikipedia.org/wiki/Combat> <Becoming_a_member:has_time> "finally" .
+<http://en.wikipedia.org/wiki/Algiers_1_University> <Studying:has_time> "later" .
+<http://en.wikipedia.org/wiki/Paris> <Interior_profile_relation:has_theme> "http://en.wikipedia.org/wiki/Albert_Camus" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Desirability:has_theme> "neighbourhood" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Being_named:has_entity> "Catherine Hélène Camus" .
+<http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature> <Receiving:has_time> "age of 44" .
+<http://en.wikipedia.org/wiki/Algiers_1_University> <Studying:has_student> "http://en.wikipedia.org/wiki/Albert_Camus" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Time_vector:has_event> "he was a celebrity figure and gave many lectures around the world" .
+<http://en.wikipedia.org/wiki/Combat> <Becoming_a_member:has_theme> "http://en.wikipedia.org/wiki/Albert_Camus" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Change_posture:has_theme> "towards anarcho-syndicalism" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Respond_to_proposal:has_theme> "term" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Taking_sides:has_theme> "Joseph Stalin and the Soviet Union" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Age:has_time> "1957" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Opinion:has_theme> "Camus's" .
+<http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature> <Receiving:has_theme> "Nobel Prize in Literature" .
+<http://en.wikipedia.org/wiki/Paris> <Temporal_collocation:has_time> "1940" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Kinship:has_theme> "mother" .
+<http://en.wikipedia.org/wiki/Germany> <People_by_origin:has_time> "1940" .
+<http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature> <Receiving:has_theme> "1957 Nobel Prize in Literature" .
+<http://en.wikipedia.org/wiki/French_Algeria> <Kinship:has_theme> "parents" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Being_born:has_location> "http://en.wikipedia.org/wiki/French_Algeria" .
+<http://en.wikipedia.org/wiki/Combat> <Text:has_theme> "outlawed" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Inclusion:has_theme> "His works" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Quantified_mass:has_quantity> "many" .
+<http://en.wikipedia.org/wiki/Paris> <Temporal_collocation:has_theme> "Germans invaded France during World War II in 1940" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Age:has_age> "44" .
+<http://en.wikipedia.org/wiki/Paris> <Temporal_collocation:has_theme> "He was in Paris" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Seeking_to_achieve:has_theme> "European integration" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Attempt:has_location> "http://en.wikipedia.org/wiki/Combat" .
+<http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature> <Receiving:has_location> "Literature" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Posture:has_theme> "neutral" .
+<http://en.wikipedia.org/wiki/Algiers_1_University> <Studying:has_theme> "philosophy" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Causation:has_effect> "he was part of the left that opposed Joseph Stalin and the Soviet Union" .
+<http://en.wikipedia.org/wiki/Paris> <Invading:has_theme> "http://en.wikipedia.org/wiki/France" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Being_born:has_location> "working-class neighbourhood in Mondovi (present-day Dréan ), in French Algeria" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Political_locales:has_theme> "world" .
+<http://en.wikipedia.org/wiki/France> <Increment:has_class> "uses" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Time_vector:has_theme> "After" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Posture:has_time> "During the Algerian War (1954–1962)" .
+<http://en.wikipedia.org/wiki/Albert_Camus> <Being_born:has_theme> "pied-noir parents" .
+<http://en.wikipedia.org/wiki/Combat> <Text:has_text> "newspaper" .
+<http://en.wikipedia.org/wiki/Paris> <Invading:has_theme> "http://en.wikipedia.org/wiki/Germany" .
+<http://en.wikipedia.org/wiki/Combat> <Fleeing:has_theme> "http://en.wikipedia.org/wiki/Albert_Camus" .
+<http://en.wikipedia.org/wiki/Germany> <People_by_origin:has_location> "http://en.wikipedia.org/wiki/Paris" .
+<http://en.wikipedia.org/wiki/The_Stranger_(newspaper)> <Quantified_mass:has_theme> "lectures" .
+<http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature> <Receiving:has_recipient> "http://en.wikipedia.org/wiki/Albert_Camus" .
+<http://en.wikipedia.org/wiki/Joseph_Stalin> <Seeking_to_achieve:has_agent> "many organisations" .

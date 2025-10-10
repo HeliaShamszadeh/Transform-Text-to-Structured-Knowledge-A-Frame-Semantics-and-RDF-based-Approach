@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Building_subparts:has_theme figures",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Order of the British Empire (CBE) in relation to Clarke's appointment, but there is no semantic connection to 'figures' as a theme for the Order or for building subparts. The connection is too abstract and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Quantified_mass:has_theme books",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is mentioned as an honour Clarke received. While Clarke wrote books, there is no semantic link between the Order itself and the theme of 'books'. The connection is arbitrary."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Travel:has_theme space",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Isaac Asimov is mentioned as one of the 'Big Three' of science fiction alongside Clarke. Clarke is described as an 'avid populariser of space travel' and a 'proponent of space travel'. While the theme of space is directly associated with Clarke, it is reasonably inferable that it is a central theme for the genre and group (the Big Three) to which Asimov belonged."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov System:has_theme satellite communication",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "Isaac Asimov is mentioned, and Clarke is credited with proposing a satellite communication system. However, there is no direct or indirect link in the paragraph connecting Asimov himself to the theme of satellite communication. The connection is very weak and speculative."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Koneswaram_Temple Age:has_location http://en.wikipedia.org/wiki/Trincomalee",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'he discovered the underwater ruins of the ancient original Koneswaram Temple in Trincomalee'. This directly supports the triple, indicating the temple's location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sri_Lanka Residence:has_theme http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Clarke emigrated to Ceylon (now Sri Lanka) in 1956 and lived there until his death, establishing a strong semantic connection between Sri Lanka and Clarke as a place of residence."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sri_Lanka Appointing:has_role Commander of the Order of the British Empire (CBE)",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Clarke was appointed CBE 'for services to British cultural interests in Sri Lanka,' but it does not state that Sri Lanka itself appointed him. The appointing authority is implied to be the British Crown, not Sri Lanka."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_A._Heinlein Being_named:has_theme as the \" Big Three \" of science fiction",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly names Robert Heinlein as one of the 'Big Three' of science fiction along with Clarke and Asimov, creating a direct semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke People_by_age:has_time 1934",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The year 1934 is explicitly mentioned in the paragraph in relation to Clarke joining the British Interplanetary Society."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke People_by_age:has_age teenager",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that in 1934, Clarke was 'still a teenager,' directly associating the age concept with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Temporal_collocation:has_theme 1934",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 1934 in the context of Clarke joining the British Interplanetary Society. There is no mention of Isaac Asimov in relation to the year 1934 or any temporal connection between them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sri_Lanka Death:has_theme http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'He lived in Sri Lanka until his death.' This creates a strong semantic connection between Sri Lanka, Arthur C. Clarke, and the theme of death."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Type:has_theme genre",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The Order of the British Empire is mentioned as an honour Clarke received. The word 'genre' appears in the text referring to science fiction. However, there is no semantic link between the OBE and the concept of a 'genre' in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Emotion_directed:has_theme scuba diving",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Scuba diving is mentioned as an interest of Arthur C. Clarke. Isaac Asimov is mentioned as one of the 'Big Three' of science fiction alongside Clarke. There is no information connecting Asimov to scuba diving or any emotion directed towards it."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Causation:has_effect one of the towering figures of the genre",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The OBE is mentioned as an honour Clarke received, and he is described as 'one of the towering figures of the genre'. However, the paragraph does not state or imply that receiving the OBE caused this status; his status is attributed to his writings and awards. The connection is very weak and not causal."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Becoming_aware:has_theme underwater ruins of the ancient original Koneswaram Temple",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Clarke discovered the underwater ruins of the ancient original Koneswaram Temple, which directly implies he became aware of them."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov System:has_theme system",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Isaac Asimov is mentioned as one of the 'Big Three' of science fiction, but there is no mention of him having a theme related to 'system' in the paragraph. The connection is too vague and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Space_Odyssey Categorization:has_category as one of the most influential films of all time",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states the film '2001: A Space Odyssey' is 'widely regarded as one of the most influential films of all time,' which is a clear categorization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sri_Lanka Assistance:has_theme British cultural interests in Sri Lanka",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Clarke was appointed CBE 'for services to British cultural interests in Sri Lanka,' which thematically links Sri Lanka to the concept of British cultural interests, implying a form of assistance or service."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Earnings_and_losses:has_theme number of Hugo and Nebula awards, which along with a large readership, made him one of the towering figures of the genre",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The Order of the British Empire (CBE) is mentioned in the context of an award for services to British cultural interests, but the 'Hugo and Nebula awards' are mentioned in a separate sentence about his science fiction writings. There is no semantic link between the OBE and these other awards in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Continued_state_of_affairs:has_theme teenager",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Isaac Asimov as part of the 'Big Three' of science fiction, but there is no connection whatsoever between Asimov and the theme of being a teenager. The teenage reference in the paragraph is solely about Clarke joining the British Interplanetary Society in 1934."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Space_Odyssey Categorization:has_time 1968",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the 1968 film 2001: A Space Odyssey'. The year 1968 is directly associated with the film Space Odyssey."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Cardinal_numbers:has_entity towering figures of the genre",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Order of the British Empire (CBE) in the context of Clarke's appointment. It also mentions 'towering figures of the genre' in the context of Clarke's status in science fiction. However, there is no semantic link between these two distinct pieces of information; they are completely unrelated concepts within the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nebula_Award Quantified_mass:has_theme Hugo and Nebula awards",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Clarke's writings earned him 'a number of Hugo and Nebula awards'. While the triple's subject is specifically 'Nebula_Award' and the object is the collective phrase 'Hugo and Nebula awards', there is a clear and direct semantic connection. The Nebula Award is a component of the mentioned theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Attempt:has_goal space travel",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Clarke was a lifelong proponent of space travel' and that he was 'an avid populariser of space travel'. This strongly indicates that the goal or objective of his efforts and advocacy was space travel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Continued_state_of_affairs:has_time 1934",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph states that Clarke joined the BIS in 1934. There is no mention of Isaac Asimov or any activity related to him in that year."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Quitting_a_place:has_time 1956",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Clarke emigrated to Ceylon (now Sri Lanka) in 1956.' Emigrating can be semantically related to 'quitting a place', and the year 1956 is explicitly mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Quitting_a_place:has_theme Ceylon (now Sri Lanka)",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Clarke emigrated to Ceylon (now Sri Lanka) in 1956.' The destination of his emigration is clearly stated, which can be semantically linked to the theme of 'quitting a place'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Kalinga_Prize Receiving:has_theme Kalinga Prize, a UNESCO award for popularising science",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'In 1961, he received the Kalinga Prize, a UNESCO award for popularising science.' This is a direct and clear statement of receiving the prize."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Becoming_a_member:has_theme http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Clarke, Heinlein, and Asimov as the 'Big Three' of science fiction, indicating a professional association. However, it does not describe Asimov becoming a member of anything that has Clarke as its theme. The relationship described is one of collective renown, not membership."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Text_creation:has_text science fiction",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly and repeatedly states that Arthur C. Clarke was a science fiction writer and wrote many science fiction books and essays."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Temporal_collocation:has_time 1934",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The year 1934 is mentioned in relation to Clarke joining the British Interplanetary Society. Isaac Asimov is mentioned separately as part of the 'Big Three' of science fiction, but there is no semantic connection between Asimov and the year 1934 in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Capability:has_entity futurist",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "While Clarke was appointed CBE and is described as a futurist, the triple incorrectly links the 'futurist' capability directly to the Order of the British Empire itself, rather than to Clarke. The relationship is misattributed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Space_Odyssey Behind_the_scenes:has_time 1968",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the 1968 film 2001: A Space Odyssey'. The film 'Space Odyssey' is clearly associated with the year 1968."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Becoming_aware:has_theme http://en.wikipedia.org/wiki/Trincomalee",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Clarke discovered underwater ruins in Trincomalee. The concept of 'Becoming_aware' or discovery is semantically related to finding/learning about something, and Trincomalee is the specific location mentioned."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Koneswaram_Temple Age:has_age ancient",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Paragraph explicitly states 'he discovered the underwater ruins of the ancient original Koneswaram Temple', directly linking the temple to the concept of being ancient."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Measure_duration:has_theme years",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Asimov in the context of being part of the 'Big Three' 'for many years'. This is a very weak and indirect semantic connection, but a connection to the theme of 'years' exists."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Leadership:has_time 1946",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Paragraph states 'He was the chairman of the BIS from 1946 to 1947', which is a leadership role with a specific start time of 1946."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Desirability:has_theme magazines",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the Order of the British Empire (CBE) and 'popular magazines' separately, but there is no semantic connection or relationship between these two concepts in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nebula_Award Quantified_mass:has_quantity number",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Paragraph states Clarke's writings earned him 'a number of Hugo and Nebula awards'. The phrase 'a number of' implies a quantity, creating a weak but valid semantic link between Nebula Award and quantity/number."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Isaac_Asimov Emotion_directed:has_theme http://en.wikipedia.org/wiki/Arthur_C._Clarke",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions that Clarke, Heinlein, and Asimov were known as the 'Big Three' of science fiction, implying a strong professional association and shared theme of science fiction. While the direct relationship 'has_theme' is not explicit, the semantic connection of being linked as major figures in the same genre is present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Becoming_aware:has_time That year",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The phrase 'That year' is used in the paragraph ('That year, he discovered the underwater ruins...'), clearly referring to 1956, which is a specific time associated with an event in Clarke's life. The triple's subject and time reference are directly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Robert_A._Heinlein Being_named:has_entity Clarke, Robert Heinlein, and Isaac Asimov",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly names the group 'Clarke, Robert Heinlein, and Isaac Asimov' as the 'Big Three' of science fiction. The triple's object is a direct quote from the text, establishing a clear naming relationship for Heinlein."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Reference_text:has_theme Arthur Clarke (disambiguation)",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph begins with '\"Arthur Clarke\" redirects here. For other uses, see Arthur Clarke (disambiguation)'. This indicates a referential relationship between the subject (Arthur C. Clarke) and the disambiguation page, which can be semantically interpreted as a thematic or referential link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Grasp:has_theme populariser of space travel",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Clarke was 'an avid populariser of space travel' and that he was appointed CBE. The connection is weak and indirect, as the CBE was awarded 'for services to British cultural interests in Sri Lanka', not explicitly for being a populariser of space travel. However, a lenient interpretation allows for a thematic link between the honor and his well-known public role."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Space_Odyssey Categorization:has_item 2001 : A Space Odyssey",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Clarke co-wrote the screenplay for the 1968 film 2001: A Space Odyssey', establishing a direct connection between the concept of 'Space Odyssey' and the specific film '2001: A Space Odyssey'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Sri_Lanka Appointing:has_function services to British cultural interests in Sri Lanka",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Clarke was appointed CBE 'for services to British cultural interests in Sri Lanka'. While the appointing body is the Order of the British Empire, the function is directly related to Sri Lanka, creating a semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Arthur_C._Clarke Using:has_time 1945",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The year 1945 is explicitly mentioned in the paragraph in the context of Clarke's proposal for a satellite communication system, establishing a clear temporal association with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Order_of_the_British_Empire Causation:has_cause which along with a large readership",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The phrase 'which along with a large readership' refers to Clarke's science fiction writings earning him awards and recognition, not to his appointment to the Order of the British Empire. There is no semantic link between the CBE and his readership in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/UNESCO Distinctiveness:has_feature popularising science",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states UNESCO awards the Kalinga Prize 'for popularising science', and Clarke received this prize. This establishes a semantic connection between UNESCO and the feature of popularising science, even if the relationship is indirect via the prize."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 30,
+    "accuracy": 0.6,
+    "avg_confidence": 0.526,
+    "high_confidence_50": 30,
+    "high_confidence_80": 23,
+    "percent_50": 60.0,
+    "percent_80": 46.0,
+    "max_triples_limit": 50
+  }
+}

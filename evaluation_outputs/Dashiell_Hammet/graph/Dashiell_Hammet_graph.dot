@@ -1,0 +1,273 @@
+digraph Dashiell_Hammet {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "American writer 1894–1961  ..." [label="American writer 1894–1961  ...", fillcolor=lightcoral, color=red, shape=circle];
+    "Mystery Writers of America" [label="Mystery Writers of America", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "mystery writers" [label="mystery writers", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "city" [label="city", fillcolor=lightgreen, color=green, shape=box];
+    "Maltese Falcon placed secon..." [label="Maltese Falcon placed secon...", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "Top 100 Mystery Novels of A..." [label="Top 100 Mystery Novels of A...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His novels and stories" [label="His novels and stories", fillcolor=lightblue, color=blue, shape=ellipse];
+    "hard-boiled detective novel..." [label="hard-boiled detective novel...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "English-language novels pub..." [label="English-language novels pub...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Hammett's 1929 novel Red Ha..." [label="Hammett's 1929 novel Red Ha...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "mystery films, including th..." [label="mystery films, including th...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "mystery" [label="mystery", fillcolor=lightblue, color=blue, shape=ellipse];
+    "mystery films" [label="mystery films", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "France" [label="France", fillcolor=lightgray, color=gray, shape=hexagon];
+    "26" [label="26", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that" [label="that", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Red Harvest" [label="Red Harvest", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Five years" [label="Five years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maryland" [label="Maryland", fillcolor=lightgray, color=gray, shape=hexagon];
+    "whose" [label="whose", fillcolor=lightgray, color=gray, shape=hexagon];
+    "English-language" [label="English-language", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its list of the 100 best En..." [label="its list of the 100 best En...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as film noir" [label="as film noir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maltese Falcon" [label="Maltese Falcon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detective" [label="detective", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as Sam" [label="as Sam", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four years" [label="four years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "characters" [label="characters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "26 years" [label="26 years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "sister" [label="sister", fillcolor=lightgray, color=gray, shape=hexagon];
+    "near Great Mills on the "Ho..." [label="near Great Mills on the "Ho...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Saint Mary" [label="Saint Mary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1990" [label="1990", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Maryland family" [label="Maryland family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Anne Bond Dashiell" [label="Anne Bond Dashiell", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dashiell Hammett" [label="Dashiell Hammett", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sam Spade  The Maltese Falc..." [label="Sam Spade  The Maltese Falc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1929" [label="1929", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Thin Man film" [label="The Thin Man film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "between 1923 and 2005" [label="between 1923 and 2005", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Richard Thomas Hammett and ..." [label="Richard Thomas Hammett and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Philadelphia and Baltimore" [label="Philadelphia and Baltimore", fillcolor=lightgray, color=gray, shape=hexagon];
+    "significant" [label="significant", fillcolor=lightgray, color=gray, shape=hexagon];
+    "de Chiel" [label="de Chiel", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Philadelphia" [label="Philadelphia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1920" [label="1920", fillcolor=lightgray, color=gray, shape=hexagon];
+    "characters he created" [label="characters he created", fillcolor=lightgray, color=gray, shape=hexagon];
+    "noir" [label="noir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "100 best English-language n..." [label="100 best English-language n...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Catholic Church" [label="Catholic Church", fillcolor=lightgray, color=gray, shape=hexagon];
+    "very" [label="very", fillcolor=lightgray, color=gray, shape=hexagon];
+    "New York Times" [label="New York Times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "be known as film noir" [label="be known as film noir", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hammett's" [label="Hammett's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1961" [label="1961", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the very best mys..." [label="as one of the very best mys...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Five" [label="Five", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " the dean of the...'har..." [label="as " the dean of the...'har...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "hard-boiled" [label="hard-boiled", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his obituary in The New Yor..." [label="his obituary in The New Yor...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nick and Nora Charles" [label="Nick and Nora Charles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "younger" [label="younger", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Maltese Falcon 1941 film" [label="The Maltese Falcon 1941 film", fillcolor=lightgray, color=gray, shape=hexagon];
+    "style that came to be known..." [label="style that came to be known...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "where" [label="where", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The New York Times" [label="The New York Times", fillcolor=lightgray, color=gray, shape=hexagon];
+    "brother" [label="brother", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "France" -> "family" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "United States" -> "detective" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "films" [label="has theme [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "Nick and Nora Charles" -> "de Chiel" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "The New York Times" -> "younger" [label="has age [Age]", color=lightpink, penwidth=1];
+    "Philadelphia" -> "Catholic Church" [label="has theme [Rite]", color=lightcyan, penwidth=1];
+    "Dashiell Hammett" -> "United States" [label="has location [Text_creation]", color=green, penwidth=2];
+    "Nick and Nora Charles" -> "1929" [label="has time [Desirability]", color=purple, penwidth=2];
+    "The New York Times" -> "his obituary in The New Yor..." [label="has theme [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Dashiell Hammett" -> "Philadelphia and Baltimore" [label="has location [Growing_food]", color=green, penwidth=2];
+    "United States" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "The New York Times" -> "Dashiell Hammett" [label="has item [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Dashiell Hammett" -> "Richard Thomas Hammett and ..." [label="has theme [Being_born]", color=lightsalmon, penwidth=1];
+    "Nick and Nora Charles" -> "where" [label="has location [Residence]", color=green, penwidth=2];
+    "Nick and Nora Charles" -> "that" [label="has entity [Being_named]", color=lightyellow, penwidth=1];
+    "The Thin Man film" -> "Dashiell Hammett" [label="has item [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Dashiell Hammett" -> "26 years" [label="has age [Age]", color=lightpink, penwidth=1];
+    "Dashiell Hammett" -> "characters" [label="has theme [Intentionally_create]", color=lightpink, penwidth=1];
+    "Nick and Nora Charles" -> "noir" [label="has type [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "Dashiell Hammett" -> "sister" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Nick and Nora Charles" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "its list of the 100 best En..." [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Nick and Nora Charles" -> "English-language" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "sister" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Dashiell Hammett" -> "Philadelphia" [label="has location [Being_named]", color=green, penwidth=2];
+    "Dashiell Hammett" -> "Red Harvest" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "four" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "whose" [label="has entity [Being_named]", color=lightyellow, penwidth=1];
+    "Dashiell Hammett" -> "1920" [label="has time [Age]", color=purple, penwidth=2];
+    "United States" -> "hard-boiled" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "mystery" [label="has type [Behind_the_scenes]", color=lightgreen, penwidth=1];
+    "Nick and Nora Charles" -> "style that came to be known..." [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Nick and Nora Charles" -> "1929" [label="has time [Inclusion]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "hard-boiled detective novel..." [label="has text [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Nick and Nora Charles" -> "writers" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "Dashiell Hammett" [label="has theme [Residence]", color=lightgoldenrod, penwidth=1];
+    "The New York Times" -> "brother" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Nick and Nora Charles" -> "that" [label="has theme [Arriving]", color=lightblue, penwidth=1];
+    "Nick and Nora Charles" -> "26" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "mystery films" [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Dashiell Hammett" -> "Anne Bond Dashiell" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "Nick and Nora Charles" -> "Maltese Falcon placed secon..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "Hammett's" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "Nick and Nora Charles" -> "Five" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "The New York Times" -> "New York Times" [label="has location [Categorization]", color=green, penwidth=2];
+    "Dashiell Hammett" -> "1961" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "city" [label="has theme [Political_locales]", color=lightyellow, penwidth=1];
+    "Nick and Nora Charles" -> "1920" [label="has time [Locative_relation]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "be known as film noir" [label="has goal [Arriving]", color=lightblue, penwidth=1];
+    "Nick and Nora Charles" -> "mystery films, including th..." [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "Dashiell Hammett" -> "Saint Mary" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "Nick and Nora Charles" -> "1920" [label="has time [Kinship]", color=purple, penwidth=2];
+    "The New York Times" -> "Mystery Writers of America" [label="has theme [Choosing]", color=lightsteelblue, penwidth=1];
+    "Dashiell Hammett" -> "novels" [label="has text [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "mystery writers" [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "Nick and Nora Charles" -> "English-language novels pub..." [label="has theme [Desirability]", color=lightgray, penwidth=1];
+    "Dashiell Hammett" -> "as Sam" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "Nick and Nora Charles" -> "characters he created" [label="has theme [Be_subset_of]", color=lightgray, penwidth=1];
+    "United States" -> "1961" [label="has time [Duration_description]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "Five years" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "1920" [label="has time [Political_locales]", color=purple, penwidth=2];
+    "The Maltese Falcon 1941 film" -> "Top 100 Mystery Novels of A..." [label="has theme [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "Dashiell Hammett" -> "1990" [label="has time [Text]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "very" [label="has degree [Desirability]", color=lightgray, penwidth=1];
+    "Dashiell Hammett" -> "Hammett's" [label="has author [Text]", color=lightcoral, penwidth=1];
+    "United States" -> "stories" [label="has theme [Duration_description]", color=lightgoldenrodyellow, penwidth=1];
+    "Nick and Nora Charles" -> "significant" [label="has degree [Objective_influence]", color=lightcyan, penwidth=1];
+    "The Maltese Falcon 1941 film" -> "Maltese Falcon" [label="has item [Ordinal_numbers]", color=lightseagreen, penwidth=1];
+    "United States" -> "1961" [label="has time [Text]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "1929" [label="has time [Text]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "four years" [label="has age [Age]", color=lightpink, penwidth=1];
+    "Dashiell Hammett" -> "American writer 1894–1961  ..." [label="has author [Text_creation]", color=lightsteelblue, penwidth=1];
+    "Nick and Nora Charles" -> "1920" [label="has time [Measure_duration]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "mystery" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Dashiell Hammett" -> "France" [label="has location [Kinship]", color=green, penwidth=2];
+    "Maryland" -> "Maryland family" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Nick and Nora Charles" -> "where" [label="has theme [Locative_relation]", color=lightpink, penwidth=1];
+    "Dashiell Hammett" -> "1929" [label="has time [Text]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "1929" [label="has theme [Text]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "years" [label="has theme [Measure_duration]", color=lightcoral, penwidth=1];
+    "Nick and Nora Charles" -> "between 1923 and 2005" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "100 best English-language n..." [label="has work [Publishing]", color=lightsalmon, penwidth=1];
+    "Nick and Nora Charles" -> "Dashiell Hammett" [label="has theme [Locative_relation]", color=lightpink, penwidth=1];
+    "Dashiell Hammett" -> "mother" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "United States" -> "1961" [label="has time [Origin]", color=purple, penwidth=2];
+    "Dashiell Hammett" -> "near Great Mills on the "Ho..." [label="has location [Being_born]", color=green, penwidth=2];
+    "The New York Times" -> "as " the dean of the...'har..." [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Nick and Nora Charles" -> "Sam Spade  The Maltese Falc..." [label="has theme [Be_subset_of]", color=lightgray, penwidth=1];
+    "Nick and Nora Charles" -> "1920" [label="has time [Residence]", color=purple, penwidth=2];
+    "Nick and Nora Charles" -> "His novels and stories" [label="has theme [Objective_influence]", color=lightcyan, penwidth=1];
+    "Dashiell Hammett" -> "Philadelphia and Baltimore" [label="has location [Personal_relationship]", color=green, penwidth=2];
+    "Dashiell Hammett" -> "New York Times" [label="has location [Text]", color=green, penwidth=2];
+    "Maryland" -> "France" [label="has location [Age]", color=green, penwidth=2];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightgoldenrod, penwidth=1];
+    "Nick and Nora Charles" -> "as film noir" [label="has theme [Being_named]", color=lightyellow, penwidth=1];
+    "Nick and Nora Charles" -> "Hammett's 1929 novel Red Ha..." [label="has theme [Inclusion]", color=lightsteelblue, penwidth=1];
+    "Dashiell Hammett" -> "brother" [label="has theme [Kinship]", color=lightblue, penwidth=1];
+    "The Thin Man film" -> "as one of the very best mys..." [label="has category [Categorization]", color=lightgoldenrodyellow, penwidth=1];
+    "Nick and Nora Charles" -> "France" [label="has location [Being_named]", color=green, penwidth=2];
+    "Dashiell Hammett" -> "New York Times" [label="has theme [Text]", color=lightcoral, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Kinship_legend" [label="Kinship", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Growing_food_legend" [label="Growing_food", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Intentionally_create_legend" [label="Intentionally_create", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Locative_relation_legend" [label="Locative_relation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Choosing_legend" [label="Choosing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

@@ -1,0 +1,2206 @@
+{
+  "metadata": {
+    "total_triples": 102,
+    "source_file": "Philip_K_Dick",
+    "extraction_date": "2025-09-28 04:55:00",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Motion:has_theme",
+        "object": "his family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Sequence:has_theme",
+        "object": "mystical experiences in 1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Success_or_failure:has_degree",
+        "object": "little",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chicago",
+        "predicate": "Age:has_attribute",
+        "object": "age",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Age:has_age",
+        "object": "53",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Relative_time:has_theme",
+        "object": "his death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+        "predicate": "Inclusion:has_theme",
+        "object": "acclaim",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Becoming:has_theme",
+        "object": "widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Success_or_failure:has_goal",
+        "object": "commercial",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Publishing:has_work",
+        "object": "science fiction stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Subordinates_and_superiors:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Relative_time:has_theme",
+        "object": "Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Categorization:has_category",
+        "object": "one of the most important figures in 20th-century science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Becoming:has_time",
+        "object": "Following his death",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Perception_experience:has_theme",
+        "object": "Androids",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Perception_experience:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Motion:has_time",
+        "object": "young age",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Measure_duration:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Importance:has_theme",
+        "object": "20th-century science fiction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Relative_time:has_theme",
+        "object": "years of drug use and a series of mystical experiences in 1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Relative_time:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Work:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Chicago",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Desirability:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Text_creation:has_text",
+        "object": "short story",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Being_born:has_location",
+        "object": "http://en.wikipedia.org/wiki/Chicago",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Motion:has_location",
+        "object": "http://en.wikipedia.org/wiki/Chicago",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Duration_description:has_theme",
+        "object": "stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_text",
+        "object": "Man in the High Castle",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+        "predicate": "Win_prize:has_competition",
+        "object": "His 1974 novel Flow My Tears, the Policeman Said",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Publishing:has_work",
+        "object": "collection of his speculative nonfiction writing on these themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Point_of_dispute:has_theme",
+        "object": "theology, metaphysics, and the nature of reality",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Publishing:has_time",
+        "object": "1952",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Relative_time:has_theme",
+        "object": "he became \"widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon ",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Work:has_agent",
+        "object": "Dick's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Circumscribed_existence:has_location",
+        "object": "science fiction magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Origin:has_entity",
+        "object": "science fiction author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+        "predicate": "Inclusion:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Aggregate:has_theme",
+        "object": "his speculative nonfiction writing on these themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Origin:has_time",
+        "object": "1928",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Desirability:has_theme",
+        "object": "Science Fiction Novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Judgment_communication:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Text:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Sequence:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+        "predicate": "Win_prize:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Activity_start:has_time",
+        "object": "1952",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_theme",
+        "object": "these themes",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Age:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Publishing:has_theme",
+        "object": "posthumously",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+        "predicate": "Win_prize:has_prize",
+        "object": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Measure_duration:has_process",
+        "object": "drug use",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Motion:has_goal",
+        "object": "San Francisco Bay Area",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Death:has_theme",
+        "object": "due to complications of a stroke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Aggregate:has_theme",
+        "object": "collection",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Perception_experience:has_theme",
+        "object": "experiences",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Point_of_dispute:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Aggregate:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Medical_conditions:has_theme",
+        "object": "complications",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Desirability:has_theme",
+        "object": "Novel",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Success_or_failure:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_text",
+        "object": "writing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text_creation:has_time",
+        "object": "1928",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Using:has_instrument",
+        "object": "drug",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_theme",
+        "object": "alternative history",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Death:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Publishing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Perception_experience:has_theme",
+        "object": "Electric Sheep",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Death:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Activity_start:has_activity",
+        "object": "publishing science fiction stories",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Judgment_communication:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Objective_influence:has_theme",
+        "object": "Dick's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Text_creation:has_time",
+        "object": "1928",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Text_creation:has_author",
+        "object": "American science fiction author (1928–1982) Philip Kindred Dick (December 16, 1928 – March 2, 1982 )",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Chicago",
+        "predicate": "Age:has_age",
+        "object": "young",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Text:has_text",
+        "object": "novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Intoxicants:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Publishing:has_time",
+        "object": "as The Exegesis of Philip K. Dick (2011)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Death:has_theme",
+        "object": "age of 53",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Subordinates_and_superiors:has_theme",
+        "object": "imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Importance:has_theme",
+        "object": "figures",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Relative_time:has_theme",
+        "object": "science fiction novels such as Do Androids Dream of Electric Sheep",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Relative_time:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Origin:has_theme",
+        "object": "http://en.wikipedia.org/wiki/United_States",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Text_creation:has_text",
+        "object": "44 novels and about 121 short stories, most of which appeared in science fiction magazines",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Text:has_text",
+        "object": "Flow My Tears",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Intoxicants:has_theme",
+        "object": "drug",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Medical_conditions:has_time",
+        "object": "1982",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Medical_conditions:has_patient",
+        "object": "stroke",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Text:has_theme",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Desirability:has_time",
+        "object": "1962",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+        "predicate": "Categorization:has_category",
+        "object": "as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Circumscribed_existence:has_entity",
+        "object": "most of which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+        "predicate": "Using:has_time",
+        "object": "1974",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+        "predicate": "Objective_influence:has_time",
+        "object": "posthumous",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+        "predicate": "Origin:has_entity",
+        "object": "science fiction short story writer and novelist",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Origin:has_entity",
+          "object": "science fiction author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Text_creation:has_author",
+          "object": "American science fiction author (1928–1982) Philip Kindred Dick (December 16, 1928 – March 2, 1982 )",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Relative_time:has_theme",
+          "object": "his death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Becoming:has_time",
+          "object": "Following his death",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Being_born:has_location",
+          "object": "http://en.wikipedia.org/wiki/Chicago",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Death:has_theme",
+          "object": "due to complications of a stroke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Death:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Death:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Death:has_theme",
+          "object": "age of 53",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+          "predicate": "Inclusion:has_theme",
+          "object": "acclaim",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+          "predicate": "Win_prize:has_competition",
+          "object": "His 1974 novel Flow My Tears, the Policeman Said",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Publishing:has_work",
+          "object": "collection of his speculative nonfiction writing on these themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+          "predicate": "Inclusion:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Aggregate:has_theme",
+          "object": "his speculative nonfiction writing on these themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Desirability:has_theme",
+          "object": "Science Fiction Novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+          "predicate": "Win_prize:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+          "predicate": "Win_prize:has_prize",
+          "object": "John W. Campbell Memorial Award for Best Science Fiction Novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Desirability:has_theme",
+          "object": "Novel",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_text",
+          "object": "writing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Text:has_text",
+          "object": "novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Relative_time:has_theme",
+          "object": "science fiction novels such as Do Androids Dream of Electric Sheep",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text_creation:has_text",
+          "object": "44 novels and about 121 short stories, most of which appeared in science fiction magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Origin:has_entity",
+          "object": "science fiction short story writer and novelist",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Motion:has_theme",
+          "object": "his family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Sequence:has_theme",
+          "object": "mystical experiences in 1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Success_or_failure:has_degree",
+          "object": "little",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chicago",
+          "predicate": "Age:has_attribute",
+          "object": "age",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Age:has_age",
+          "object": "53",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Becoming:has_theme",
+          "object": "widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Success_or_failure:has_goal",
+          "object": "commercial",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Publishing:has_work",
+          "object": "science fiction stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Subordinates_and_superiors:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Relative_time:has_theme",
+          "object": "Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Categorization:has_category",
+          "object": "one of the most important figures in 20th-century science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Perception_experience:has_theme",
+          "object": "Androids",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Perception_experience:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Motion:has_time",
+          "object": "young age",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Measure_duration:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Importance:has_theme",
+          "object": "20th-century science fiction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Relative_time:has_theme",
+          "object": "years of drug use and a series of mystical experiences in 1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Relative_time:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Work:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Chicago",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Desirability:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Text_creation:has_text",
+          "object": "short story",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Motion:has_location",
+          "object": "http://en.wikipedia.org/wiki/Chicago",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Duration_description:has_theme",
+          "object": "stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_text",
+          "object": "Man in the High Castle",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Point_of_dispute:has_theme",
+          "object": "theology, metaphysics, and the nature of reality",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Publishing:has_time",
+          "object": "1952",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Relative_time:has_theme",
+          "object": "he became \"widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon ",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Work:has_agent",
+          "object": "Dick's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Circumscribed_existence:has_location",
+          "object": "science fiction magazines",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Origin:has_time",
+          "object": "1928",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Judgment_communication:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Text:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Sequence:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Activity_start:has_time",
+          "object": "1952",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_theme",
+          "object": "these themes",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Age:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Publishing:has_theme",
+          "object": "posthumously",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Measure_duration:has_process",
+          "object": "drug use",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Motion:has_goal",
+          "object": "San Francisco Bay Area",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Aggregate:has_theme",
+          "object": "collection",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Perception_experience:has_theme",
+          "object": "experiences",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Point_of_dispute:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Aggregate:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Medical_conditions:has_theme",
+          "object": "complications",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Success_or_failure:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text_creation:has_time",
+          "object": "1928",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Using:has_instrument",
+          "object": "drug",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_theme",
+          "object": "alternative history",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Publishing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Perception_experience:has_theme",
+          "object": "Electric Sheep",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Activity_start:has_activity",
+          "object": "publishing science fiction stories",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Judgment_communication:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Objective_influence:has_theme",
+          "object": "Dick's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Text_creation:has_time",
+          "object": "1928",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Chicago",
+          "predicate": "Age:has_age",
+          "object": "young",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Intoxicants:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Publishing:has_time",
+          "object": "as The Exegesis of Philip K. Dick (2011)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Subordinates_and_superiors:has_theme",
+          "object": "imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Importance:has_theme",
+          "object": "figures",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Text:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Relative_time:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Origin:has_theme",
+          "object": "http://en.wikipedia.org/wiki/United_States",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Text:has_text",
+          "object": "Flow My Tears",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Intoxicants:has_theme",
+          "object": "drug",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Medical_conditions:has_time",
+          "object": "1982",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Medical_conditions:has_patient",
+          "object": "stroke",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Text:has_theme",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Desirability:has_time",
+          "object": "1962",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Philip_K._Dick",
+          "predicate": "Categorization:has_category",
+          "object": "as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Science_fiction",
+          "predicate": "Circumscribed_existence:has_entity",
+          "object": "most of which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+          "predicate": "Using:has_time",
+          "object": "1974",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+          "predicate": "Objective_influence:has_time",
+          "object": "posthumous",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "http://en.wikipedia.org/wiki/Science_fiction"
+    ],
+    "objects": [
+      "his family",
+      "mystical experiences in 1974",
+      "little",
+      "age",
+      "53",
+      "his death",
+      "acclaim",
+      "novels",
+      "widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "commercial",
+      "science fiction stories",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality",
+      "one of the most important figures in 20th-century science fiction",
+      "Following his death",
+      "Androids",
+      "1974",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "young age",
+      "1974",
+      "20th-century science fiction",
+      "years of drug use and a series of mystical experiences in 1974",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "1974",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "family",
+      "1974",
+      "short story",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "stories",
+      "Man in the High Castle",
+      "His 1974 novel Flow My Tears, the Policeman Said",
+      "collection of his speculative nonfiction writing on these themes",
+      "theology, metaphysics, and the nature of reality",
+      "1952",
+      "he became \"widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon ",
+      "Dick's",
+      "science fiction magazines",
+      "science fiction author",
+      "1962",
+      "his speculative nonfiction writing on these themes",
+      "2011",
+      "1928",
+      "Science Fiction Novel",
+      "1962",
+      "1974",
+      "1974",
+      "1974",
+      "1952",
+      "these themes",
+      "1982",
+      "posthumously",
+      "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "drug use",
+      "San Francisco Bay Area",
+      "due to complications of a stroke",
+      "collection",
+      "experiences",
+      "1974",
+      "2011",
+      "complications",
+      "Novel",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "1962",
+      "writing",
+      "1928",
+      "drug",
+      "alternative history",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "Electric Sheep",
+      "1982",
+      "publishing science fiction stories",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick",
+      "Dick's",
+      "1928",
+      "American science fiction author (1928–1982) Philip Kindred Dick (December 16, 1928 – March 2, 1982 )",
+      "young",
+      "novels",
+      "1974",
+      "as The Exegesis of Philip K. Dick (2011)",
+      "age of 53",
+      "imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "figures",
+      "science fiction novels such as Do Androids Dream of Electric Sheep",
+      "1962",
+      "1974",
+      "http://en.wikipedia.org/wiki/United_States",
+      "44 novels and about 121 short stories, most of which appeared in science fiction magazines",
+      "Flow My Tears",
+      "drug",
+      "1982",
+      "stroke",
+      "1974",
+      "years",
+      "1962",
+      "as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "most of which",
+      "1974",
+      "posthumous",
+      "science fiction short story writer and novelist"
+    ],
+    "all_unique": [
+      "his death",
+      "20th-century science fiction",
+      "Dick's",
+      "as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "science fiction short story writer and novelist",
+      "these themes",
+      "Man in the High Castle",
+      "1982",
+      "family",
+      "Novel",
+      "publishing science fiction stories",
+      "http://en.wikipedia.org/wiki/Science_fiction",
+      "1974",
+      "drug use",
+      "American science fiction author (1928–1982) Philip Kindred Dick (December 16, 1928 – March 2, 1982 )",
+      "complications",
+      "science fiction novels such as Do Androids Dream of Electric Sheep",
+      "Dick's work engaged more explicitly with issues of theology, metaphysics, and the nature of reality",
+      "44 novels and about 121 short stories, most of which appeared in science fiction magazines",
+      "little",
+      "figures",
+      "he became \"widely regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon ",
+      "years of drug use and a series of mystical experiences in 1974",
+      "theology, metaphysics, and the nature of reality",
+      "Science Fiction Novel",
+      "commercial",
+      "his family",
+      "drug",
+      "novels",
+      "writing",
+      "most of which",
+      "John W. Campbell Memorial Award for Best Science Fiction Novel",
+      "1928",
+      "1952",
+      "San Francisco Bay Area",
+      "collection of his speculative nonfiction writing on these themes",
+      "one of the most important figures in 20th-century science fiction",
+      "2011",
+      "posthumous",
+      "http://en.wikipedia.org/wiki/Thomas_Pynchon",
+      "Androids",
+      "http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel",
+      "alternative history",
+      "Electric Sheep",
+      "mystical experiences in 1974",
+      "http://en.wikipedia.org/wiki/United_States",
+      "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+      "due to complications of a stroke",
+      "His 1974 novel Flow My Tears, the Policeman Said",
+      "stroke",
+      "http://en.wikipedia.org/wiki/Chicago",
+      "53",
+      "age",
+      "Following his death",
+      "short story",
+      "posthumously",
+      "imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "his speculative nonfiction writing on these themes",
+      "science fiction magazines",
+      "Flow My Tears",
+      "years",
+      "stories",
+      "1962",
+      "young",
+      "acclaim",
+      "science fiction author",
+      "collection",
+      "widelyly regarded as a master of imaginative, paranoid fiction in the vein of Franz Kafka and Thomas Pynchon",
+      "age of 53",
+      "young age",
+      "science fiction stories",
+      "as The Exegesis of Philip K. Dick (2011)",
+      "experiences",
+      "http://en.wikipedia.org/wiki/Philip_K._Dick"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Motion:has_theme",
+      "Sequence:has_theme",
+      "Success_or_failure:has_degree",
+      "Age:has_attribute",
+      "Age:has_age",
+      "Relative_time:has_theme",
+      "Inclusion:has_theme",
+      "Text:has_text",
+      "Becoming:has_theme",
+      "Success_or_failure:has_goal",
+      "Publishing:has_work",
+      "Subordinates_and_superiors:has_theme",
+      "Relative_time:has_theme",
+      "Categorization:has_category",
+      "Becoming:has_time",
+      "Perception_experience:has_theme",
+      "Perception_experience:has_time",
+      "Death:has_theme",
+      "Motion:has_time",
+      "Measure_duration:has_time",
+      "Importance:has_theme",
+      "Relative_time:has_theme",
+      "Relative_time:has_theme",
+      "Work:has_time",
+      "Kinship:has_location",
+      "Kinship:has_theme",
+      "Desirability:has_time",
+      "Text_creation:has_text",
+      "Being_born:has_location",
+      "Motion:has_location",
+      "Duration_description:has_theme",
+      "Text:has_text",
+      "Win_prize:has_competition",
+      "Publishing:has_work",
+      "Point_of_dispute:has_theme",
+      "Publishing:has_time",
+      "Relative_time:has_theme",
+      "Work:has_agent",
+      "Circumscribed_existence:has_location",
+      "Origin:has_entity",
+      "Inclusion:has_time",
+      "Aggregate:has_theme",
+      "Text:has_time",
+      "Origin:has_time",
+      "Desirability:has_theme",
+      "Judgment_communication:has_time",
+      "Text:has_time",
+      "Sequence:has_time",
+      "Win_prize:has_time",
+      "Activity_start:has_time",
+      "Text:has_theme",
+      "Age:has_time",
+      "Publishing:has_theme",
+      "Win_prize:has_prize",
+      "Measure_duration:has_process",
+      "Motion:has_goal",
+      "Death:has_theme",
+      "Aggregate:has_theme",
+      "Perception_experience:has_theme",
+      "Point_of_dispute:has_time",
+      "Aggregate:has_time",
+      "Medical_conditions:has_theme",
+      "Desirability:has_theme",
+      "Kinship:has_theme",
+      "Success_or_failure:has_time",
+      "Text:has_text",
+      "Text_creation:has_time",
+      "Using:has_instrument",
+      "Text:has_theme",
+      "Death:has_theme",
+      "Publishing:has_theme",
+      "Perception_experience:has_theme",
+      "Death:has_time",
+      "Activity_start:has_activity",
+      "Judgment_communication:has_theme",
+      "Objective_influence:has_theme",
+      "Text_creation:has_time",
+      "Text_creation:has_author",
+      "Age:has_age",
+      "Text:has_text",
+      "Intoxicants:has_time",
+      "Publishing:has_time",
+      "Death:has_theme",
+      "Subordinates_and_superiors:has_theme",
+      "Importance:has_theme",
+      "Relative_time:has_theme",
+      "Text:has_time",
+      "Relative_time:has_time",
+      "Origin:has_theme",
+      "Text_creation:has_text",
+      "Text:has_text",
+      "Intoxicants:has_theme",
+      "Medical_conditions:has_time",
+      "Medical_conditions:has_patient",
+      "Text:has_theme",
+      "Measure_duration:has_theme",
+      "Desirability:has_time",
+      "Categorization:has_category",
+      "Circumscribed_existence:has_entity",
+      "Using:has_time",
+      "Objective_influence:has_time",
+      "Origin:has_entity"
+    ],
+    "unique_predicates": [
+      "Objective_influence:has_theme",
+      "Aggregate:has_theme",
+      "Intoxicants:has_theme",
+      "Motion:has_time",
+      "Activity_start:has_time",
+      "Measure_duration:has_theme",
+      "Sequence:has_theme",
+      "Age:has_attribute",
+      "Measure_duration:has_time",
+      "Motion:has_theme",
+      "Age:has_age",
+      "Medical_conditions:has_theme",
+      "Medical_conditions:has_patient",
+      "Win_prize:has_prize",
+      "Using:has_time",
+      "Intoxicants:has_time",
+      "Point_of_dispute:has_theme",
+      "Origin:has_theme",
+      "Work:has_agent",
+      "Relative_time:has_time",
+      "Motion:has_location",
+      "Inclusion:has_time",
+      "Text_creation:has_time",
+      "Work:has_time",
+      "Circumscribed_existence:has_entity",
+      "Perception_experience:has_time",
+      "Subordinates_and_superiors:has_theme",
+      "Death:has_theme",
+      "Success_or_failure:has_degree",
+      "Win_prize:has_competition",
+      "Using:has_instrument",
+      "Relative_time:has_theme",
+      "Publishing:has_time",
+      "Text:has_text",
+      "Kinship:has_theme",
+      "Duration_description:has_theme",
+      "Circumscribed_existence:has_location",
+      "Desirability:has_theme",
+      "Being_born:has_location",
+      "Success_or_failure:has_time",
+      "Text_creation:has_author",
+      "Judgment_communication:has_theme",
+      "Judgment_communication:has_time",
+      "Categorization:has_category",
+      "Kinship:has_location",
+      "Motion:has_goal",
+      "Activity_start:has_activity",
+      "Text_creation:has_text",
+      "Measure_duration:has_process",
+      "Medical_conditions:has_time",
+      "Win_prize:has_time",
+      "Inclusion:has_theme",
+      "Sequence:has_time",
+      "Importance:has_theme",
+      "Text:has_theme",
+      "Origin:has_entity",
+      "Age:has_time",
+      "Aggregate:has_time",
+      "Objective_influence:has_time",
+      "Success_or_failure:has_goal",
+      "Perception_experience:has_theme",
+      "Becoming:has_time",
+      "Origin:has_time",
+      "Death:has_time",
+      "Becoming:has_theme",
+      "Desirability:has_time",
+      "Point_of_dispute:has_time",
+      "Publishing:has_work",
+      "Publishing:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Motion:has_theme": 1,
+      "Sequence:has_theme": 1,
+      "Success_or_failure:has_degree": 1,
+      "Age:has_attribute": 1,
+      "Age:has_age": 2,
+      "Relative_time:has_theme": 6,
+      "Inclusion:has_theme": 1,
+      "Text:has_text": 5,
+      "Becoming:has_theme": 1,
+      "Success_or_failure:has_goal": 1,
+      "Publishing:has_work": 2,
+      "Subordinates_and_superiors:has_theme": 2,
+      "Categorization:has_category": 2,
+      "Becoming:has_time": 1,
+      "Perception_experience:has_theme": 3,
+      "Perception_experience:has_time": 1,
+      "Death:has_theme": 4,
+      "Motion:has_time": 1,
+      "Measure_duration:has_time": 1,
+      "Importance:has_theme": 2,
+      "Work:has_time": 1,
+      "Kinship:has_location": 1,
+      "Kinship:has_theme": 2,
+      "Desirability:has_time": 2,
+      "Text_creation:has_text": 2,
+      "Being_born:has_location": 1,
+      "Motion:has_location": 1,
+      "Duration_description:has_theme": 1,
+      "Win_prize:has_competition": 1,
+      "Point_of_dispute:has_theme": 1,
+      "Publishing:has_time": 2,
+      "Work:has_agent": 1,
+      "Circumscribed_existence:has_location": 1,
+      "Origin:has_entity": 2,
+      "Inclusion:has_time": 1,
+      "Aggregate:has_theme": 2,
+      "Text:has_time": 3,
+      "Origin:has_time": 1,
+      "Desirability:has_theme": 2,
+      "Judgment_communication:has_time": 1,
+      "Sequence:has_time": 1,
+      "Win_prize:has_time": 1,
+      "Activity_start:has_time": 1,
+      "Text:has_theme": 3,
+      "Age:has_time": 1,
+      "Publishing:has_theme": 2,
+      "Win_prize:has_prize": 1,
+      "Measure_duration:has_process": 1,
+      "Motion:has_goal": 1,
+      "Point_of_dispute:has_time": 1,
+      "Aggregate:has_time": 1,
+      "Medical_conditions:has_theme": 1,
+      "Success_or_failure:has_time": 1,
+      "Text_creation:has_time": 2,
+      "Using:has_instrument": 1,
+      "Death:has_time": 1,
+      "Activity_start:has_activity": 1,
+      "Judgment_communication:has_theme": 1,
+      "Objective_influence:has_theme": 1,
+      "Text_creation:has_author": 1,
+      "Intoxicants:has_time": 1,
+      "Relative_time:has_time": 1,
+      "Origin:has_theme": 1,
+      "Intoxicants:has_theme": 1,
+      "Medical_conditions:has_time": 1,
+      "Medical_conditions:has_patient": 1,
+      "Measure_duration:has_theme": 1,
+      "Circumscribed_existence:has_entity": 1,
+      "Using:has_time": 1,
+      "Objective_influence:has_time": 1
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka People_by_vocation:has_theme university's magazine, The Eagle",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Soyinka was the editor of 'the university's magazine, The Eagle'. The relationship between the person (Soyinka) and the theme/object (the magazine) is clearly present, even if the specific property 'has_theme' is a broad interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abu_Dhabi Time_vector:has_location New York University Abu Dhabi",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'New York University Abu Dhabi'. The triple's subject (Abu Dhabi) is the location of this university, making the connection semantically valid."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Labor_product:has_theme works",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Government College, Ibadan', not 'Government College Umuahia'. Furthermore, while Soyinka's 'works' are discussed, there is no semantic link connecting them specifically to this incorrect college. The connection is entirely absent."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Kinship:has_location Ak",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Government College, Ibadan' and the town 'Aké, Abeokuta'. The triple refers to a different college ('Umuahia') and an incomplete/unmatched location ('Ak'). There is no reasonable semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eagle_(British_comics) Text:has_text magazine",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'the university's magazine, The Eagle'. While 'Eagle (British comics)' is a specific entity that may not be the one referenced, the text does contain the concept of a magazine named 'The Eagle'. This provides a weak but valid semantic connection to the triple's object and property."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Duration_description:has_theme stories",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Soyinka is Nigerian and that his novels and plays are set in Nigeria, reflecting the country's culture. This creates a thematic link between Nigerians and stories, though the connection is indirect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Aggregate:has_theme collections",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Government College Umuahia is not mentioned in the paragraph. The text refers to Government College, Ibadan, which is a different institution. There is no connection to collections."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Being_named:has_theme name",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly provides Soyinka's full name: 'Akinwande Oluwole Babatunde Soyinka'. The theme of naming is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Quantified_mass:has_quantity many",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Soyinka is identified as Nigerian, and the paragraph uses the word 'many' in relation to his works ('many articles and short stories', 'Many of Soyinka's novels'). This creates a reasonable, though indirect, link between Nigerians and quantity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that Soyinka 'has written three novels' and later mentions 'Many of Soyinka's novels', establishing a clear textual relationship between the author and his novels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Defending:has_time Since 1 September 2022",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Since 1 September 2022, Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi.' The date is directly mentioned in relation to Soyinka."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Categorization:has_category as one of Africa's greatest writers and one of the world's most important dramatists",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph directly states 'He is widely regarded as one of Africa's greatest writers and one of the world's most important dramatists.' This is an exact semantic match for the categorization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Being_born:has_theme into an Anglican Yoruba family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Born into an Anglican Yoruba family in Aké, Abeokuta'. The 'has_theme' relation is a reasonable, though slightly abstract, interpretation of the circumstances of his birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Text_creation:has_text author",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject of the triple is 'http://en.wikipedia.org/wiki/Nigerians' (a group of people), but the paragraph is exclusively about the individual Wole Soyinka. There is no information about Nigerian people in general authoring texts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Frequency:has_theme period",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'Government_College_Umuahia' is not mentioned in the paragraph. The text refers to 'Government College, Ibadan', which is a different institution. There is no semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigeria Individual_history:has_participant country ’s",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions Nigeria multiple times in relation to Soyinka's life and work, providing a weak semantic connection to the concept of a country participating in history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Quantified_mass:has_quantity numerous",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While Government College Umuahia is not mentioned, the paragraph mentions 'numerous individual poems' and other works, creating a weak thematic link to the concept of quantity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Reference_text:has_theme Soyinka (surname)",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph begins by mentioning 'Soyinka (surname)' and discusses a prominent Nigerian author, creating a reasonable connection between Nigerians and the Soyinka surname theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Education_teaching:has_institution Government College, Ibadan",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Government College Umuahia is not mentioned in the paragraph, and while Government College, Ibadan is mentioned, there is no semantic connection between these two distinct institutions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Behind_the_scenes:has_artist http://en.wikipedia.org/wiki/Wole_Soyinka",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "While Government College Umuahia is not mentioned, Wole Soyinka is the main subject of the paragraph and attended a similar institution (Government College, Ibadan), creating a reasonable thematic connection to education and artistry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Translating:has_theme works",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Soyinka is Nigerian and his works (novels, plays) are set in Nigeria, reflecting the country's themes. The connection between 'Nigerians' and the 'theme' of his 'works' is semantically present, though the predicate 'Translating:has_theme' is an imperfect match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Buildings:has_location Nigeria and the UK",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Government College, Ibadan', not 'Government College Umuahia'. The location 'Nigeria and the UK' is associated with where Soyinka's plays were performed, not with the college building. The subject is incorrect and the predicate/object combination is misattributed."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Text:has_location http://en.wikipedia.org/wiki/Nigeria",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states 'Many of Soyinka's novels and plays are set in Nigeria'. This is a strong semantic match for the subject's texts having a location of Nigeria."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigeria Quantified_mass:has_theme plays",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Soyinka's plays are set in Nigeria and reflect the country's history and culture. This implies Nigeria is a theme in the plays. The connection is reasonable, though the predicate 'Quantified_mass:has_theme' is abstract."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Text_creation:has_text short stories",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states 'He has written... ten collections of short stories' and 'he started writing short stories'. This is a clear and direct match for the subject creating texts that are short stories."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Text:has_text poems",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Government College, Ibadan, not Government College Umuahia. While Soyinka wrote poems, there is no connection between that specific college and his poems in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Dimension:has_object range",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The triple's predicate and object ('Dimension:has_object range') are abstract and do not correspond to any concrete information or semantic concept mentioned in the paragraph. The subject (Government College Umuahia) is also not present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Fame:has_time 1934",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Soyinka is identified as Nigerian and his birth year (1934) is stated. The triple semantically connects 'Nigerians' to the time '1934' through the fame of a specific Nigerian, which is a lenient but reasonable interpretation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abu_Dhabi Time_vector:has_event Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The event of Soyinka holding a professorship at New York University Abu Dhabi is explicitly stated in the paragraph, providing a direct semantic connection to Abu Dhabi and a specific time-bound event."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Text_creation:has_text three novels, ten collections of short stories, seven poetry collections, twenty-five plays and five memoirs",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states that Soyinka has written this exact list of works, providing a direct and clear semantic match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Studying:has_institution http://en.wikipedia.org/wiki/University_of_Leeds",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Soyinka left Nigeria for England to study at the University of Leeds', which directly supports the triple's meaning of Soyinka studying at that institution."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Importance:has_theme dramatists",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'He is widely regarded as one of Africa's greatest writers and one of the world's most important dramatists', creating a semantic link between Africa and dramatists through Soyinka's recognition."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Quantified_mass:has_theme published collections",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Government College Umuahia is not mentioned in the paragraph. The text mentions Government College, Ibadan, which is a different institution. There is no connection to published collections through this entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abu_Dhabi Education_teaching:has_time 2022",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Since 1 September 2022, Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi', creating a clear temporal and locational connection between Abu Dhabi and the year 2022."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Being_employed:has_position Arts Professor of Theatre",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi', which directly matches the triple's meaning."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eagle_(British_comics) Becoming:has_entity http://en.wikipedia.org/wiki/Wole_Soyinka",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions Soyinka was editor of a university magazine called 'The Eagle'. While 'Eagle (British comics)' is a different entity, the semantic connection via the shared name 'Eagle' and the relationship of editorship is a weak but valid link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Text:has_text novels",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph states Soyinka (a Nigerian) has written novels. The connection between 'Nigerians' and 'novels' is very indirect and thematic, but the text does associate a Nigerian author with the creation of novels."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Cooking_creation:has_purpose BBC Lecture series",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions 'Government College, Ibadan' (not Umuahia) and 'BBC Lecture series', but there is no stated connection between the college and the lecture series. The relationship 'Cooking_creation:has_purpose' does not semantically fit any described activity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_recipient http://en.wikipedia.org/wiki/Wole_Soyinka",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He was awarded the 1986 Nobel Prize in Literature'. This is a direct and clear match for the triple."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Being_employed:has_theme New York University Abu Dhabi",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi'. The predicate 'Being_employed:has_theme' is a reasonable, though not perfect, semantic match for 'holding a position' at the university."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abu_Dhabi Education_teaching:has_location New York University Abu Dhabi",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states 'Soyinka has held the position of Arts Professor of Theatre at New York University Abu Dhabi', which directly connects Abu Dhabi as the location of New York University Abu Dhabi."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abu_Dhabi Political_locales:has_theme University",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'New York University Abu Dhabi', which weakly implies a university theme for Abu Dhabi. The connection is indirect but semantically related."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Text_creation:has_text two translated works and many articles and short stories for many newspapers and periodicals",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly states 'He also wrote two translated works and many articles and short stories for many newspapers and periodicals', which is a direct match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Ordinal_numbers:has_time 1989",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions the year 1989 in the context of Soyinka's marriage, but there is no mention of Government College Umuahia or any connection between that institution and the year 1989."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Education_teaching:has_student http://en.wikipedia.org/wiki/Wole_Soyinka",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Soyinka attended 'Government College, Ibadan', not 'Government College Umuahia'. These are different institutions, so the information is contradictory."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Wole_Soyinka Departing:has_theme http://en.wikipedia.org/wiki/Nigeria",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Many of Soyinka's novels and plays are set in Nigeria', directly indicating Nigeria as a theme of his work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nobel_Prize_in_Literature Receiving:has_time 1986",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph clearly states 'He was awarded the 1986 Nobel Prize in Literature', providing a direct time association."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Nigerians Fame:has_degree best",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the phrase 'best known' is used to describe Soyinka ('best known as a playwright and poet'), and he is Nigerian, the connection to the predicate 'Fame:has_degree best' is indirect and semantically weak but present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Buildings:has_theme theatres",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Government College, Ibadan' and 'theatres' separately, but there is no connection between the specific college 'Government College Umuahia' and the theme of theatres. The entities are unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Government_College_Umuahia Aggregate:has_theme published",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions 'Government College, Ibadan' and Soyinka's published works, but there is no semantic connection between the specific college 'Government College Umuahia' and the theme of being published. The entities are unrelated in the text."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 32,
+    "accuracy": 0.64,
+    "avg_confidence": 0.5480000000000002,
+    "high_confidence_50": 32,
+    "high_confidence_80": 21,
+    "percent_50": 64.0,
+    "percent_80": 42.0,
+    "max_triples_limit": 50
+  }
+}

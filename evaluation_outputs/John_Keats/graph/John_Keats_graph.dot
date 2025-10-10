@@ -1,0 +1,289 @@
+digraph John_Keats {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "many writers of the Pre-Rap..." [label="many writers of the Pre-Rap...", fillcolor=lightcoral, color=red, shape=circle];
+    "writer and biographer" [label="writer and biographer", fillcolor=lightcoral, color=red, shape=circle];
+    "John Keats writer" [label="John Keats writer", fillcolor=lightcoral, color=red, shape=circle];
+    "writers" [label="writers", fillcolor=lightcoral, color=red, shape=circle];
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Locations nodes
+    "his exact birthplace" [label="his exact birthplace", fillcolor=lightgreen, color=green, shape=box];
+    "England" [label="England", fillcolor=lightgreen, color=green, shape=box];
+
+    // Concepts nodes
+    "literature" [label="literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "canon of English literature" [label="canon of English literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "English literature" [label="English literature", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "influence" [label="influence", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Keats" [label="John Keats", fillcolor=lightgray, color=gray, shape=hexagon];
+    "little" [label="little", fillcolor=lightgray, color=gray, shape=hexagon];
+    "four" [label="four", fillcolor=lightgray, color=gray, shape=hexagon];
+    "medievalist" [label="medievalist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pre-Raphaelite Brotherhood" [label="Pre-Raphaelite Brotherhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets such as Algernon Char..." [label="poets such as Algernon Char...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "second generation of Romant..." [label="second generation of Romant...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his " Ode to a Nightingale " [label="his " Ode to a Nightingale ", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moorgate, London" [label="Moorgate, London", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most popular and analysed i..." [label="most popular and analysed i...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "into Chapman's Homer" [label="into Chapman's Homer", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Jorge Luis Borges" [label="Jorge Luis Borges", fillcolor=lightgray, color=gray, shape=hexagon];
+    "end" [label="end", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Today" [label="Today", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his first time reading Keat..." [label="his first time reading Keat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Moorgate" [label="Moorgate", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "less than four years" [label="less than four years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poets" [label="poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "life and education" [label="life and education", fillcolor=lightgray, color=gray, shape=hexagon];
+    "25" [label="25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time" [label="time", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Grecian" [label="Grecian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the 31st" [label="as the 31st", fillcolor=lightgray, color=gray, shape=hexagon];
+    "The Eve of St. Agnes" [label="The Eve of St. Agnes", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems and letters remai..." [label="his poems and letters remai...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "have marked his birthday on..." [label="have marked his birthday on...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "On First Looking into Chapm..." [label="On First Looking into Chapm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later Victorian era" [label="later Victorian era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Keats 31 October 1795 ..." [label="John Keats 31 October 1795 ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "date" [label="date", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ode on a Grecian Urn" [label="Ode on a Grecian Urn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "end of the century" [label="end of the century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "age of 25" [label="age of 25", fillcolor=lightgray, color=gray, shape=hexagon];
+    "baptism records" [label="baptism records", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Keats disambiguation" [label="Keats disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "indifferently" [label="indifferently", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Lord Byron and Percy Bysshe..." [label="Lord Byron and Percy Bysshe...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pre-Raphaelite movement" [label="Pre-Raphaelite movement", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his poems and letters" [label="his poems and letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tuberculosis" [label="tuberculosis", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sleep and Poetry" [label="Sleep and Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "strongly" [label="strongly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "among the most popular and ..." [label="among the most popular and ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "era" [label="era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "31 October 1795" [label="31 October 1795", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poems" [label="poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victorian era" [label="Victorian era", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Keats and his family" [label="Keats and his family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his lifetime" [label="his lifetime", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Thomas and Frances Keats né..." [label="Thomas and Frances Keats né...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Encyclopdia Britannica of 1888" [label="Encyclopdia Britannica of 1888", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Urn" [label="Urn", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Keats'medievalist poems, su..." [label="Keats'medievalist poems, su...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Victorian" [label="Victorian", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time reading" [label="time reading", fillcolor=lightgray, color=gray, shape=hexagon];
+    "major" [label="major", fillcolor=lightgray, color=gray, shape=hexagon];
+    "His poems" [label="His poems", fillcolor=lightgray, color=gray, shape=hexagon];
+    "generation of Romantic poets" [label="generation of Romantic poets", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "little evidence of his exac..." [label="little evidence of his exac...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he felt all his life" [label="he felt all his life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "first" [label="first", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his fame" [label="his fame", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "canon" [label="canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as " one of the final maste..." [label="as " one of the final maste...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rapidly" [label="rapidly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "John Keats" -> "writers" [label="has theme [Quantified_mass]", color=lightblue, penwidth=1];
+    "John Keats" -> "later" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "John Keats" -> "his " Ode to a Nightingale " [label="has item [Communicate_categorization]", color=lightgreen, penwidth=1];
+    "John Keats" -> "time" [label="has theme [Event_instance]", color=lightyellow, penwidth=1];
+    "England" -> "Today" [label="has time [Be_subset_of]", color=purple, penwidth=2];
+    "John Keats" -> "England" [label="has location [Text]", color=green, penwidth=2];
+    "John Keats" -> "century" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "England" -> "On First Looking into Chapm..." [label="has text [Text]", color=lightcyan, penwidth=1];
+    "John Keats" -> "Keats and his family" [label="has theme [Give_impression]", color=lightsteelblue, penwidth=1];
+    "England" -> "into Chapman's Homer" [label="has theme [Perception_active]", color=lightgray, penwidth=1];
+    "England" -> "his poems and letters" [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "John Keats" -> "United States" [label="has theme [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "tuberculosis" [label="has theme [Death]", color=lightseagreen, penwidth=1];
+    "John Keats" -> "literature" [label="has theme [Fields]", color=lightsalmon, penwidth=1];
+    "Sleep and Poetry" -> "among the most popular and ..." [label="has state [State_continue]", color=lightgoldenrod, penwidth=1];
+    "John Keats" -> "years" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "John Keats" -> "Moorgate, London" [label="has location [Being_born]", color=green, penwidth=2];
+    "John Keats" -> "end of the century" [label="has time [Placing]", color=purple, penwidth=2];
+    "John Keats" -> "later" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "John Keats" -> "25" [label="has age [Age]", color=lightcoral, penwidth=1];
+    "John Keats" -> "many writers of the Pre-Rap..." [label="has theme [Subjective_influence]", color=lightgreen, penwidth=1];
+    "England" -> "Urn" [label="has theme [Containers]", color=lightyellow, penwidth=1];
+    "John Keats" -> "four" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "John Keats" -> "century" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "John Keats" -> "poems" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Ode on a Grecian Urn" -> "poets such as Algernon Char..." [label="has theme [Subjective_influence]", color=lightgreen, penwidth=1];
+    "John Keats" -> "medievalist" [label="has theme [Text]", color=lightcyan, penwidth=1];
+    "England" -> "his poems and letters" [label="has theme [Scrutiny]", color=lightpink, penwidth=1];
+    "John Keats" -> "31 October 1795" [label="has time [Being_born]", color=purple, penwidth=2];
+    "John Keats" -> "Victorian era" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "John Keats" -> "strongly" [label="has theme [Subjective_influence]", color=lightgreen, penwidth=1];
+    "John Keats" -> "Keats disambiguation" [label="has theme [Reference_text]", color=lightcyan, penwidth=1];
+    "John Keats" -> "many" [label="has quantity [Quantified_mass]", color=lightblue, penwidth=1];
+    "John Keats" -> "time reading" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "John Keats" -> "John Keats 31 October 1795 ..." [label="has person [People_by_vocation]", color=red, penwidth=2];
+    "The Eve of St. Agnes" -> "baptism records" [label="has theme [Giving]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "Pre-Raphaelite movement" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "John Keats" -> "age of 25" [label="has time [Death]", color=purple, penwidth=2];
+    "John Keats" -> "Encyclopdia Britannica of 1888" [label="has speaker [Communicate_categorization]", color=lightgreen, penwidth=1];
+    "John Keats" -> "England" [label="has location [Origin]", color=green, penwidth=2];
+    "John Keats" -> "he felt all his life" [label="has theme [Perception_experience]", color=lightsalmon, penwidth=1];
+    "John Keats" -> "have marked his birthday on..." [label="has theme [Give_impression]", color=lightsteelblue, penwidth=1];
+    "John Keats" -> "second generation of Romant..." [label="has theme [People_by_vocation]", color=lightgray, penwidth=1];
+    "John Keats" -> "Pre-Raphaelite movement" [label="has theme [Objective_influence]", color=lightgoldenrod, penwidth=1];
+    "John Keats" -> "John Keats 31 October 1795 ..." [label="has participant [Accompaniment]", color=lightpink, penwidth=1];
+    "John Keats" -> "writer and biographer" [label="has entity [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "major" [label="has degree [Objective_influence]", color=lightgoldenrod, penwidth=1];
+    "Sleep and Poetry" -> "Today" [label="has time [State_continue]", color=purple, penwidth=2];
+    "United States" -> "writer" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "England" -> "most" [label="has theme [Desirability]", color=lightsteelblue, penwidth=1];
+    "England" -> "Grecian" [label="has owner [Containers]", color=lightyellow, penwidth=1];
+    "John Keats" -> "letters" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "John Keats" -> "rapidly" [label="has theme [Expansion]", color=lightcoral, penwidth=1];
+    "Pre-Raphaelite Brotherhood" -> "writers" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "Jorge Luis Borges" -> "his first time reading Keat..." [label="has theme [Indicating]", color=lightblue, penwidth=1];
+    "The Eve of St. Agnes" -> "date" [label="has theme [Giving]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "end" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "John Keats" -> "uses" [label="has class [Increment]", color=lightcoral, penwidth=1];
+    "John Keats" -> "as " one of the final maste..." [label="has category [Communicate_categorization]", color=lightgreen, penwidth=1];
+    "John Keats" -> "English literature" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "England" -> "most popular and analysed i..." [label="has theme [Be_subset_of]", color=lightpink, penwidth=1];
+    "John Keats" -> "little" [label="has degree [Evidence]", color=lightyellow, penwidth=1];
+    "The Eve of St. Agnes" -> "as the 31st" [label="has time [Giving]", color=purple, penwidth=2];
+    "John Keats" -> "Jorge Luis Borges" [label="has event [Event_instance]", color=lightyellow, penwidth=1];
+    "John Keats" -> "literature" [label="has entity [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "England" [label="has theme [Origin]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "Thomas and Frances Keats né..." [label="has theme [Being_born]", color=lightsteelblue, penwidth=1];
+    "John Keats" -> "his fame" [label="has item [Expansion]", color=lightcoral, penwidth=1];
+    "John Keats" -> "era" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "John Keats" -> "his exact birthplace" [label="has theme [Evidence]", color=lightyellow, penwidth=1];
+    "John Keats" -> "Victorian" [label="has theme [Calendric_unit]", color=lightblue, penwidth=1];
+    "John Keats" -> "His poems" [label="has work [Publishing]", color=lightpink, penwidth=1];
+    "United States" -> "his lifetime" [label="has time [Receiving]", color=purple, penwidth=2];
+    "Sleep and Poetry" -> "his poems and letters" [label="has entity [State_continue]", color=lightgoldenrod, penwidth=1];
+    "John Keats" -> "poets" [label="has text [Text]", color=lightcyan, penwidth=1];
+    "John Keats" -> "Keats'medievalist poems, su..." [label="has theme [Objective_influence]", color=lightgoldenrod, penwidth=1];
+    "John Keats" -> "England" [label="has theme [People_by_vocation]", color=lightgray, penwidth=1];
+    "Moorgate" -> "life and education" [label="has theme [Temporal_subregion]", color=lightcoral, penwidth=1];
+    "John Keats" -> "John Keats writer" [label="has theme [Reference_text]", color=lightcyan, penwidth=1];
+    "England" -> "his poems and letters remai..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "John Keats" -> "later Victorian era" [label="has time [Objective_influence]", color=purple, penwidth=2];
+    "John Keats" -> "Lord Byron and Percy Bysshe..." [label="has theme [Accompaniment]", color=lightpink, penwidth=1];
+    "John Keats" -> "family" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "John Keats" -> "influence" [label="has theme [Importance]", color=lightseagreen, penwidth=1];
+    "Ode on a Grecian Urn" -> "Keats'medievalist poems, su..." [label="has entity [Subjective_influence]", color=lightgreen, penwidth=1];
+    "John Keats" -> "canon" [label="has theme [Aggregate]", color=lightgreen, penwidth=1];
+    "John Keats" -> "less than four years" [label="has time [Publishing]", color=purple, penwidth=2];
+    "Sleep and Poetry" -> "England" [label="has location [State_continue]", color=green, penwidth=2];
+    "John Keats" -> "Jorge Luis Borges" [label="has reader [Reading_activity]", color=lightgoldenrodyellow, penwidth=1];
+    "John Keats" -> "first" [label="has theme [Event_instance]", color=lightyellow, penwidth=1];
+    "John Keats" -> "generation of Romantic poets" [label="has type [Ordinal_numbers]", color=lightsteelblue, penwidth=1];
+    "England" -> "English literature" [label="has theme [Scrutiny]", color=lightpink, penwidth=1];
+    "United States" -> "indifferently" [label="has theme [Receiving]", color=lightcyan, penwidth=1];
+    "John Keats" -> "canon of English literature" [label="has goal [Placing]", color=lightcoral, penwidth=1];
+    "John Keats" -> "little evidence of his exac..." [label="has entity [Existence]", color=lightseagreen, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Temporal_subregion_legend" [label="Temporal_subregion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Communicate_categorization_legend" [label="Communicate_categorization", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Event_instance_legend" [label="Event_instance", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Be_subset_of_legend" [label="Be_subset_of", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Give_impression_legend" [label="Give_impression", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Perception_active_legend" [label="Perception_active", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Placing_legend" [label="Placing", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Subjective_influence_legend" [label="Subjective_influence", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Containers_legend" [label="Containers", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Scrutiny_legend" [label="Scrutiny", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Ordinal_numbers_legend" [label="Ordinal_numbers", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "People_by_vocation_legend" [label="People_by_vocation", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Giving_legend" [label="Giving", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Importance_legend" [label="Importance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Perception_experience_legend" [label="Perception_experience", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Accompaniment_legend" [label="Accompaniment", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Expansion_legend" [label="Expansion", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Indicating_legend" [label="Indicating", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Evidence_legend" [label="Evidence", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Publishing_legend" [label="Publishing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Reading_activity_legend" [label="Reading_activity", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Existence_legend" [label="Existence", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+    }
+}

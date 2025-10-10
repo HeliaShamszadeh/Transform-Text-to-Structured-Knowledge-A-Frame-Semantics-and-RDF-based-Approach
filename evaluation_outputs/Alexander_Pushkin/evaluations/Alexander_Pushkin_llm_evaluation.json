@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Calendric_unit:has_theme era",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states Pushkin was 'of the Romantic era'. While 'Calendric_unit:has_theme era' is an abstract relation, the text directly associates the subject with a specific era."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Fields:has_theme literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Pushkin is described as a poet, playwright, novelist, and 'the founder of modern Russian literature'. The theme of literature is central to the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Age:has_age 15",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "Africa is mentioned only in the context of the origin of a great-grandfather. The age '15' is mentioned for Pushkin publishing his first poem, but this is not connected to Africa in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Kinship:has_theme Russian nobility",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph discusses Russia and repeatedly mentions the 'Russian nobility', stating Pushkin was born into it and describing his family's noble background. There is a clear semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eugene_Onegin Unattributed_information:has_theme lover",
+      "extractable": true,
+      "confidence": 0.5,
+      "reason": "The novel 'Eugene Onegin' is mentioned. The theme of a 'lover' is present in the paragraph, as Pushkin was wounded in a duel with his wife's alleged lover. While the connection between the novel and the lover is indirect, the themes are present in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Text:has_text poet",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Pushkin was a 'Russian poet' multiple times, creating a strong semantic link between Russia and the concept of a poet."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Kinship:has_theme Pushkin's",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph contains multiple possessive references to 'Pushkin's' (e.g., 'Pushkin's father', 'Pushkin's mother'), establishing a thematic connection between the entity and the possessive form."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin People_by_vocation:has_theme http://en.wikipedia.org/wiki/Russia",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Pushkin is explicitly identified as a 'Russian' poet and playwright, and his life and work are fundamentally tied to Russia, creating a strong thematic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Origin:has_entity literature",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states Pushkin is 'the founder of modern Russian literature', creating a semantic connection between Russia and the entity of literature."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Text:has_text poem",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the connection is weak, Africa is mentioned in the context of Pushkin's great-grandfather's origin, and poems are discussed throughout the text, creating a very indirect semantic link."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal Foreign_or_domestic_country:has_theme homeland",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Abram Petrovich Gannibal was 'kidnapped from his homeland', establishing a clear semantic connection to the theme of homeland."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Kinship:has_theme father",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Pushkin's father is explicitly mentioned multiple times ('His father, Sergey Lvovich Pushkin', 'Pushkin's father, Sergei Lvovich Pushkin'), making fatherhood a clear theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Categorization:has_theme many",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The phrase 'He is considered by many to be the greatest Russian poet' connects Pushkin to the concept of 'many' people, though the connection is indirect for a categorization theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Increment:has_theme modern Russian literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "Pushkin is explicitly called 'the founder of modern Russian literature', making modern Russian literature a central theme associated with him."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eugene_Onegin Personal_relationship:has_theme husband",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Pushkin's wife and her alleged lover (who was her sister's husband). While Eugene Onegin itself is not directly linked to a husband, the broader context of the article discusses marital relationships, creating a weak but valid semantic connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Capability:has_event publish",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'He published his first poem at the age of 15'"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Kinship:has_theme maternal",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "Africa is mentioned in the context of 'maternal great-grandfathers... of African origin', creating a weak but valid semantic link between Africa and the maternal theme"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Leadership:has_theme http://en.wikipedia.org/wiki/Russia",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Pushkin is repeatedly described as a 'Russian' poet and his life is deeply connected to Russian history, culture, and nobility"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses Pushkin's family including his father, mother, and great-grandfather, with specific family relationships mentioned"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Origin:has_entity poet",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "Russia is mentioned multiple times in connection with Pushkin being a Russian poet, establishing a semantic relationship between Russia and the poet entity"
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Causation:has_effect his exile by Emperor Alexander I",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states that Pushkin's poem 'Ode to Liberty' led to his exile by Emperor Alexander I, establishing a clear causal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Text_creation:has_text his controversial poem \" Ode to Liberty \"",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph explicitly mentions that Pushkin recited his controversial poem 'Ode to Liberty', directly stating the creation relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Growing_food:has_location Emperor's court household",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Africa in the context of a great-grandfather's origin, and the Emperor's court household as a place he was raised, but there is no semantic connection between Africa and the Emperor's court household as a location for growing food."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Being_born:has_theme into the Russian nobility",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states 'Pushkin was born into the Russian nobility in Moscow.' The theme of being born into nobility is directly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eugene_Onegin Personal_relationship:has_theme her sister's",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions 'her sister's husband' in the context of Pushkin's wife's alleged lover. While 'Eugene Onegin' is a novel mentioned, the phrase 'her sister's' is present in the text, creating a very weak, indirect thematic connection to personal relationships discussed in the biography."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Kinship:has_theme family",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph discusses Pushkin's Russian family and nobility extensively, connecting Russia to the theme of family indirectly."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Text_creation:has_text his most famous play, Boris Godunov",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The text explicitly states that Pushkin wrote his most famous play, Boris Godunov."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Publishing:has_theme http://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "There is a weak semantic connection through Pushkin's African great-grandfather (Abram Gannibal), suggesting Africa could be thematically linked to Pushkin's ancestry."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Kinship:has_theme Sergey Lvovich Pushkin",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Sergey Lvovich Pushkin is explicitly identified as Pushkin's father, establishing a clear kinship theme."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Categorization:has_category be the greatest Russian poet, as well as the founder of modern Russian literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph directly states that Pushkin is considered the greatest Russian poet and founder of modern Russian literature, which are categorical descriptions."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Text:has_theme verse Eugene Onegin",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions 'His novel in verse Eugene Onegin was serialized between 1825 and 1832', directly connecting Pushkin to the work 'Eugene Onegin' which is a verse novel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Chevalier_Guard_Regiment Being_incarcerated:has_theme French officer",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions the Chevalier Guard Regiment and a French officer (Georges-Charles de Heeckeren d'Anthès) in the context of a duel, but there is no mention or implication of incarceration or imprisonment related to either entity."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly discusses Pushkin's mother, Nadezhda Ossipovna Gannibal, and her ancestry, establishing a clear kinship relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Origin:has_theme ancestry",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph contains a detailed section on Pushkin's ancestry, discussing his father's noble lineage tracing back to the 12th century and his mother's descent from German and Scandinavian nobility."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Personal_relationship:has_theme wife",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions Pushkin's wife indirectly in the context of the duel ('his wife's alleged lover'), confirming the existence of this personal relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Cause_harm:has_theme duel with his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that Pushkin was fatally wounded in a duel with Georges-Charles de Heeckeren d'Anthès, who was his wife's alleged lover. This directly connects the theme of harm/cause_harm to the duel."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal Kinship:has_theme Nadezhda (Nadya) Ossipovna Gannibal",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Abram Petrovich Gannibal was one of Pushkin's maternal great-grandfathers, and Nadezhda Ossipovna Gannibal was Pushkin's mother. This establishes a clear, though indirect, kinship lineage between them (Abram is the great-grandfather of Nadezhda)."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Reference_text:has_theme Pushkin (disambiguation) and Alexander Pushkin (disambiguation",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph begins by referencing disambiguation pages for 'Pushkin' and 'Alexander Pushkin', indicating a thematic connection to reference texts that direct readers to other uses of the name."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Causation:has_cause that",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The word 'that' is a generic pronoun/conjunction with no specific semantic meaning on its own. The triple does not form a coherent statement about a cause related to Pushkin that can be extracted from the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Text:has_text Ode to Liberty",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly mentions that Pushkin recited his controversial poem 'Ode to Liberty', directly linking him to the text of that poem."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Possession:has_theme old noble family",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states Pushkin was 'born into the Russian nobility' and his father 'belonged to an old noble family', establishing a clear semantic connection to the theme of an old noble family."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Cause_harm:has_result fatally",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Pushkin was fatally wounded in a duel', which directly implies a harmful event with a fatal result."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Being_born:has_location http://en.wikipedia.org/wiki/Moscow",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The text directly states 'Pushkin was born... in Moscow', providing an exact match for the location of birth."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eugene_Onegin Hostile_encounter:has_theme his wife's alleged lover (her sister's husband ), Georges-Charles de Heeckeren d'Anthès, also known as Dantes-Gekkern, a French officer serving with the Chevalier Guard Regiment",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph describes the duel with d'Anthès as an event in Pushkin's life, but it does not connect this person or event thematically to the novel 'Eugene Onegin'. The subject of the triple is incorrect."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal Kinship:has_theme grandmother",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph mentions 'Pushkin's mother... was descended through her paternal grandmother' from Gannibal. This establishes a weak but valid indirect kinship connection where Gannibal is an ancestor in a lineage that includes a grandmother."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Eugene_Onegin Personal_relationship:has_theme lover",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The paragraph mentions Pushkin's wife's 'alleged lover' in the context of his fatal duel. While this is not directly a theme of 'Eugene Onegin', the concept of 'lover' is a significant personal relationship theme in Pushkin's life story, which is semantically connected to his literary works."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Increment:has_class uses",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The concepts 'Increment' and 'class' and the specific relationship 'uses' have no discernible semantic connection to any information in the paragraph. The triple appears to be about a technical or computational concept not related to the biographical content."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Russia Temporal_collocation:has_theme Russian literature",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states Pushkin is a founder of modern Russian literature and discusses his role in Russian literary history. The theme of Russian literature is central to the text and is collocated with Russia."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Alexander_Pushkin Text:has_text novel",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "Pushkin is described as a 'novelist' and his work 'Eugene Onegin' is specifically mentioned as a 'novel in verse'. This provides a clear semantic connection between Pushkin and the text type 'novel'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Africa Origin:has_theme origin",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that one of Pushkin's great-grandfathers was a 'nobleman of African origin'. This establishes a clear semantic link between Africa and the theme of origin."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 39,
+    "accuracy": 0.78,
+    "avg_confidence": 0.6679999999999999,
+    "high_confidence_50": 39,
+    "high_confidence_80": 26,
+    "percent_50": 78.0,
+    "percent_80": 52.0,
+    "max_triples_limit": 50
+  }
+}

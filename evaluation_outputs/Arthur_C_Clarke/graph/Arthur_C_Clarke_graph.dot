@@ -1,0 +1,282 @@
+digraph Arthur_C_Clarke {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // Concepts nodes
+    "many books and many essays ..." [label="many books and many essays ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His science fiction writing..." [label="His science fiction writing...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Space Odyssey" [label="Space Odyssey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British cultural interests ..." [label="British cultural interests ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "essays" [label="essays", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Trincomalee" [label="Trincomalee", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1946 to 1947 and again in 1..." [label="1946 to 1947 and again in 1...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Isaac Asimov" [label="Isaac Asimov", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hugo and Nebula awards" [label="Hugo and Nebula awards", fillcolor=lightgray, color=gray, shape=hexagon];
+    "futurist" [label="futurist", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number of Hugo and Nebula a..." [label="number of Hugo and Nebula a...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "science fiction" [label="science fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur Clarke disambiguation" [label="Arthur Clarke disambiguation", fillcolor=lightgray, color=gray, shape=hexagon];
+    "satellite communication" [label="satellite communication", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British Interplanetary Soci..." [label="British Interplanetary Soci...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "readership" [label="readership", fillcolor=lightgray, color=gray, shape=hexagon];
+    "populariser of space travel" [label="populariser of space travel", fillcolor=lightgray, color=gray, shape=hexagon];
+    "original Koneswaram Temple" [label="original Koneswaram Temple", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Order of the British Empire" [label="Order of the British Empire", fillcolor=lightgray, color=gray, shape=hexagon];
+    "figures" [label="figures", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1945" [label="1945", fillcolor=lightgray, color=gray, shape=hexagon];
+    "most" [label="most", fillcolor=lightgray, color=gray, shape=hexagon];
+    "British Interplanetary Society" [label="British Interplanetary Society", fillcolor=lightgray, color=gray, shape=hexagon];
+    "ancient" [label="ancient", fillcolor=lightgray, color=gray, shape=hexagon];
+    "That" [label="That", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arthur C. Clarke" [label="Arthur C. Clarke", fillcolor=lightgray, color=gray, shape=hexagon];
+    "services to British cultura..." [label="services to British cultura...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "many" [label="many", fillcolor=lightgray, color=gray, shape=hexagon];
+    "pursue his interest in scub..." [label="pursue his interest in scub...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "films" [label="films", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ceylon now Sri Lanka" [label="Ceylon now Sri Lanka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "teenager" [label="teenager", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1946" [label="1946", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2001 : A Space Odyssey" [label="2001 : A Space Odyssey", fillcolor=lightgray, color=gray, shape=hexagon];
+    "UNESCO" [label="UNESCO", fillcolor=lightgray, color=gray, shape=hexagon];
+    "space" [label="space", fillcolor=lightgray, color=gray, shape=hexagon];
+    "uses" [label="uses", fillcolor=lightgray, color=gray, shape=hexagon];
+    "highest civil" [label="highest civil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "system" [label="system", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as one of the most influent..." [label="as one of the most influent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kalinga Prize, a UNESCO awa..." [label="Kalinga Prize, a UNESCO awa...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "underwater ruins of the anc..." [label="underwater ruins of the anc...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "which along with a large re..." [label="which along with a large re...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nebula Award" [label="Nebula Award", fillcolor=lightgray, color=gray, shape=hexagon];
+    "still" [label="still", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1934" [label="1934", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "as the " Big Three " of sci..." [label="as the " Big Three " of sci...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1968" [label="1968", fillcolor=lightgray, color=gray, shape=hexagon];
+    "number" [label="number", fillcolor=lightgray, color=gray, shape=hexagon];
+    "scuba diving" [label="scuba diving", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sri Lanka's" [label="Sri Lanka's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Clarke, Robert Heinlein, an..." [label="Clarke, Robert Heinlein, an...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "magazines" [label="magazines", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Sri Lanka" [label="Sri Lanka", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1961" [label="1961", fillcolor=lightgray, color=gray, shape=hexagon];
+    "he joined the British Inter..." [label="he joined the British Inter...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "genre" [label="genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Robert A. Heinlein" [label="Robert A. Heinlein", fillcolor=lightgray, color=gray, shape=hexagon];
+    "towering figures of the genre" [label="towering figures of the genre", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1998" [label="1998", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Kalinga Prize" [label="Kalinga Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Hugo and Nebula" [label="Hugo and Nebula", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Koneswaram Temple" [label="Koneswaram Temple", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Commander of the Order of t..." [label="Commander of the Order of t...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one of the towering figures..." [label="one of the towering figures...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lifelong" [label="lifelong", fillcolor=lightgray, color=gray, shape=hexagon];
+    "years" [label="years", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1989" [label="1989", fillcolor=lightgray, color=gray, shape=hexagon];
+    "while still a teenager" [label="while still a teenager", fillcolor=lightgray, color=gray, shape=hexagon];
+    "space travel" [label="space travel", fillcolor=lightgray, color=gray, shape=hexagon];
+    "That year" [label="That year", fillcolor=lightgray, color=gray, shape=hexagon];
+    "geostationary orbits" [label="geostationary orbits", fillcolor=lightgray, color=gray, shape=hexagon];
+    "satellite communication sys..." [label="satellite communication sys...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "popularising science" [label="popularising science", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Order of the British Empire" -> "figures" [label="has theme [Building_subparts]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "books" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Isaac Asimov" -> "space" [label="has theme [Travel]", color=lightgreen, penwidth=1];
+    "Isaac Asimov" -> "satellite communication" [label="has theme [System]", color=lightyellow, penwidth=1];
+    "Koneswaram Temple" -> "Trincomalee" [label="has location [Age]", color=green, penwidth=2];
+    "Sri Lanka" -> "Arthur C. Clarke" [label="has theme [Residence]", color=lightcyan, penwidth=1];
+    "Sri Lanka" -> "Commander of the Order of t..." [label="has role [Appointing]", color=lightsteelblue, penwidth=1];
+    "Robert A. Heinlein" -> "as the " Big Three " of sci..." [label="has theme [Being_named]", color=lightgray, penwidth=1];
+    "Arthur C. Clarke" -> "1934" [label="has time [People_by_age]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "teenager" [label="has age [People_by_age]", color=lightgoldenrodyellow, penwidth=1];
+    "Isaac Asimov" -> "1934" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Sri Lanka" -> "Arthur C. Clarke" [label="has theme [Death]", color=lightsalmon, penwidth=1];
+    "Order of the British Empire" -> "genre" [label="has theme [Type]", color=lightgoldenrod, penwidth=1];
+    "Isaac Asimov" -> "scuba diving" [label="has theme [Emotion_directed]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "one of the towering figures..." [label="has effect [Causation]", color=lightsteelblue, penwidth=1];
+    "Arthur C. Clarke" -> "underwater ruins of the anc..." [label="has theme [Becoming_aware]", color=lightcoral, penwidth=1];
+    "Isaac Asimov" -> "system" [label="has theme [System]", color=lightyellow, penwidth=1];
+    "Space Odyssey" -> "as one of the most influent..." [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "Sri Lanka" -> "British cultural interests ..." [label="has theme [Assistance]", color=lightcoral, penwidth=1];
+    "Order of the British Empire" -> "number of Hugo and Nebula a..." [label="has theme [Earnings_and_losses]", color=lightgreen, penwidth=1];
+    "Isaac Asimov" -> "teenager" [label="has theme [Continued_state_of_affairs]", color=lightyellow, penwidth=1];
+    "Space Odyssey" -> "1968" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "towering figures of the genre" [label="has entity [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Nebula Award" -> "Hugo and Nebula awards" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Arthur C. Clarke" -> "space travel" [label="has goal [Attempt]", color=lightcyan, penwidth=1];
+    "Isaac Asimov" -> "1934" [label="has time [Continued_state_of_affairs]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "1956" [label="has time [Quitting_a_place]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "Ceylon now Sri Lanka" [label="has theme [Quitting_a_place]", color=lightsteelblue, penwidth=1];
+    "Kalinga Prize" -> "Kalinga Prize, a UNESCO awa..." [label="has theme [Receiving]", color=lightgray, penwidth=1];
+    "Isaac Asimov" -> "Arthur C. Clarke" [label="has theme [Becoming_a_member]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur C. Clarke" -> "science fiction" [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "Isaac Asimov" -> "1934" [label="has time [Temporal_collocation]", color=green, penwidth=2];
+    "Order of the British Empire" -> "futurist" [label="has entity [Capability]", color=lightsalmon, penwidth=1];
+    "Space Odyssey" -> "1968" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "Trincomalee" [label="has theme [Becoming_aware]", color=lightcoral, penwidth=1];
+    "Koneswaram Temple" -> "ancient" [label="has age [Age]", color=lightpink, penwidth=1];
+    "Isaac Asimov" -> "years" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "Arthur C. Clarke" -> "1946" [label="has time [Leadership]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "magazines" [label="has theme [Desirability]", color=lightcoral, penwidth=1];
+    "Nebula Award" -> "number" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Isaac Asimov" -> "Arthur C. Clarke" [label="has theme [Emotion_directed]", color=lightpink, penwidth=1];
+    "Arthur C. Clarke" -> "That year" [label="has time [Becoming_aware]", color=purple, penwidth=2];
+    "Robert A. Heinlein" -> "Clarke, Robert Heinlein, an..." [label="has entity [Being_named]", color=lightgray, penwidth=1];
+    "Arthur C. Clarke" -> "Arthur Clarke disambiguation" [label="has theme [Reference_text]", color=lightblue, penwidth=1];
+    "Order of the British Empire" -> "populariser of space travel" [label="has theme [Grasp]", color=lightcoral, penwidth=1];
+    "Space Odyssey" -> "2001 : A Space Odyssey" [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "Sri Lanka" -> "services to British cultura..." [label="has function [Appointing]", color=lightsteelblue, penwidth=1];
+    "Arthur C. Clarke" -> "1945" [label="has time [Using]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "which along with a large re..." [label="has cause [Causation]", color=lightsteelblue, penwidth=1];
+    "UNESCO" -> "popularising science" [label="has feature [Distinctiveness]", color=lightyellow, penwidth=1];
+    "Isaac Asimov" -> "British Interplanetary Soci..." [label="has group [Becoming_a_member]", color=lightgoldenrodyellow, penwidth=1];
+    "Arthur C. Clarke" -> "many books and many essays ..." [label="has text [Text_creation]", color=lightseagreen, penwidth=1];
+    "Order of the British Empire" -> "books" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Isaac Asimov" -> "Arthur C. Clarke" [label="has theme [Rite]", color=lightcyan, penwidth=1];
+    "Isaac Asimov" -> "1945" [label="has time [System]", color=purple, penwidth=2];
+    "Trincomalee" -> "That" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "Arthur C. Clarke" -> "uses" [label="has class [Increment]", color=lightgray, penwidth=1];
+    "Sri Lanka" -> "highest civil" [label="has theme [Commemorative]", color=lightgoldenrodyellow, penwidth=1];
+    "Nebula Award" -> "Hugo and Nebula" [label="has theme [Receiving]", color=lightgray, penwidth=1];
+    "Order of the British Empire" -> "essays" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Isaac Asimov" -> "most" [label="has degree [Objective_influence]", color=lightseagreen, penwidth=1];
+    "Arthur C. Clarke" -> "1946 to 1947 and again in 1..." [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Isaac Asimov" -> "Arthur C. Clarke" [label="has theme [Desirability]", color=lightcoral, penwidth=1];
+    "Isaac Asimov" -> "1968" [label="has time [Objective_influence]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "Trincomalee" [label="has location [Becoming_aware]", color=green, penwidth=2];
+    "Isaac Asimov" -> "many" [label="has theme [Measure_duration]", color=lightpink, penwidth=1];
+    "Order of the British Empire" -> "Arthur C. Clarke" [label="has theme [Causation]", color=lightsteelblue, penwidth=1];
+    "Arthur C. Clarke" -> "satellite communication sys..." [label="has message [Statement]", color=lightsalmon, penwidth=1];
+    "Isaac Asimov" -> "still" [label="has theme [Continued_state_of_affairs]", color=lightyellow, penwidth=1];
+    "Order of the British Empire" -> "many" [label="has theme [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Arthur C. Clarke" -> "lifelong" [label="has theme [Attempt]", color=lightcyan, penwidth=1];
+    "Space Odyssey" -> "2001 : A Space Odyssey" [label="has theme [Behind_the_scenes]", color=lightgoldenrod, penwidth=1];
+    "Arthur C. Clarke" -> "1945" [label="has time [Statement]", color=purple, penwidth=2];
+    "Arthur C. Clarke" -> "pursue his interest in scub..." [label="has purpose [Quitting_a_place]", color=lightsteelblue, penwidth=1];
+    "Order of the British Empire" -> "many" [label="has quantity [Quantified_mass]", color=lightcoral, penwidth=1];
+    "Arthur C. Clarke" -> "space" [label="has theme [Travel]", color=lightgreen, penwidth=1];
+    "Sri Lanka" -> "Sri Lanka's" [label="has theme [Commemorative]", color=lightgoldenrodyellow, penwidth=1];
+    "Sri Lanka" -> "Arthur C. Clarke" [label="has theme [Appointing]", color=lightsteelblue, penwidth=1];
+    "Isaac Asimov" -> "1998" [label="has time [Rite]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "Arthur C. Clarke" [label="has buyer [Earnings_and_losses]", color=lightgreen, penwidth=1];
+    "Kalinga Prize" -> "Arthur C. Clarke" [label="has recipient [Receiving]", color=lightgray, penwidth=1];
+    "UNESCO" -> "1961" [label="has time [Distinctiveness]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "His science fiction writing..." [label="has theme [Earnings_and_losses]", color=lightgreen, penwidth=1];
+    "Order of the British Empire" -> "readership" [label="has entity [Size]", color=lightgoldenrod, penwidth=1];
+    "Isaac Asimov" -> "films" [label="has theme [Objective_influence]", color=lightseagreen, penwidth=1];
+    "Isaac Asimov" -> "1956" [label="has time [Emotion_directed]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "while still a teenager" [label="has time [Becoming_a_member]", color=purple, penwidth=2];
+    "Sri Lanka" -> "1998" [label="has time [Commemorative]", color=purple, penwidth=2];
+    "Order of the British Empire" -> "one" [label="has theme [Cardinal_numbers]", color=lightpink, penwidth=1];
+    "Isaac Asimov" -> "1968" [label="has time [Behind_the_scenes]", color=purple, penwidth=2];
+    "Sri Lanka" -> "1989" [label="has time [Assistance]", color=purple, penwidth=2];
+    "Isaac Asimov" -> "he joined the British Inter..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Arthur C. Clarke" -> "British Interplanetary Society" [label="has theme [Leadership]", color=lightsteelblue, penwidth=1];
+    "Arthur C. Clarke" -> "geostationary orbits" [label="has instrument [Using]", color=lightgreen, penwidth=1];
+    "Koneswaram Temple" -> "original Koneswaram Temple" [label="has entity [Age]", color=lightpink, penwidth=1];
+    "Isaac Asimov" -> "films" [label="has theme [Behind_the_scenes]", color=lightgoldenrod, penwidth=1];
+    "Sri Lanka" -> "1989" [label="has time [Appointing]", color=purple, penwidth=2];
+    "Kalinga Prize" -> "1961" [label="has time [Receiving]", color=purple, penwidth=2];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Building_subparts_legend" [label="Building_subparts", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Quantified_mass_legend" [label="Quantified_mass", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Travel_legend" [label="Travel", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "System_legend" [label="System", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Appointing_legend" [label="Appointing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Type_legend" [label="Type", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Becoming_aware_legend" [label="Becoming_aware", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Assistance_legend" [label="Assistance", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Earnings_and_losses_legend" [label="Earnings_and_losses", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Continued_state_of_affairs_legend" [label="Continued_state_of_affairs", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Cardinal_numbers_legend" [label="Cardinal_numbers", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Attempt_legend" [label="Attempt", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Quitting_a_place_legend" [label="Quitting_a_place", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Receiving_legend" [label="Receiving", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Becoming_a_member_legend" [label="Becoming_a_member", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Capability_legend" [label="Capability", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Behind_the_scenes_legend" [label="Behind_the_scenes", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Measure_duration_legend" [label="Measure_duration", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Leadership_legend" [label="Leadership", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desirability_legend" [label="Desirability", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Grasp_legend" [label="Grasp", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Distinctiveness_legend" [label="Distinctiveness", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Rite_legend" [label="Rite", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Commemorative_legend" [label="Commemorative", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Objective_influence_legend" [label="Objective_influence", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Size_legend" [label="Size", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+    }
+}

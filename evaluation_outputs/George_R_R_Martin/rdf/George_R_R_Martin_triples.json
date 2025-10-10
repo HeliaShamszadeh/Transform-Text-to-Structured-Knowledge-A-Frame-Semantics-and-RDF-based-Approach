@@ -1,0 +1,2467 @@
+{
+  "metadata": {
+    "total_triples": 114,
+    "source_file": "George_R_R_Martin",
+    "extraction_date": "2025-09-27 23:52:35",
+    "format": "RAG-optimized JSON",
+    "description": "Triples exported for Retrieval-Augmented Generation applications",
+    "entity_types": [
+      "people_related",
+      "location_related",
+      "event_related",
+      "concept_related",
+      "other"
+    ],
+    "query_examples": [
+      "Find all people mentioned",
+      "What locations are referenced?",
+      "What events happened?",
+      "What concepts are discussed?",
+      "Find relationships between entities"
+    ]
+  },
+  "triples": {
+    "all": [
+      {
+        "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+        "predicate": "Residence:has_theme",
+        "object": "Santa Fe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "day",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_author",
+        "object": "writer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Possession:has_theme",
+        "object": "Jean Cocteau Cinema",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Appointing:has_time",
+        "object": "13 years old",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Inclusion:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+        "predicate": "Assistance:has_theme",
+        "object": "Santa Fe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Evidence:has_theme",
+        "object": "be 53.6% \"British and Irish, 22.4% Ashkenazi Jewish, and 15.6% \"Broadly Northwestern European",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Locative_relation:has_theme",
+        "object": "Bayonne docks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_named:has_theme",
+        "object": "as the author of the series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Examination:has_theme",
+        "object": "series Finding Your Roots",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Removing:has_theme",
+        "object": "which",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Age:has_age",
+        "object": "13 years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+        "predicate": "Assistance:has_goal",
+        "object": "create the Wild Cards anthology series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Labeling:has_entity",
+        "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Fame:has_entity",
+        "object": "fantasy novels",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+        "predicate": "Intentionally_create:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Kinship:has_theme",
+        "object": "mother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Buildings:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Roadways:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_text",
+        "object": "series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "People:has_time",
+        "object": "2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Subjective_influence:has_entity",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Kinship:has_location",
+        "object": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Kinship:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Labeling:has_speaker",
+        "object": "Lev Grossman of Time",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Buildings:has_theme",
+        "object": "housing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Political_locales:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Age:has_degree",
+        "object": "younger",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_named:has_entity",
+        "object": "American writer and television producer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Possession:has_theme",
+        "object": "house on Broadway",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "First_experience:has_theme",
+        "object": "lived in a house on Broadway belonging to Martin's great-grandmother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Project:has_location",
+        "object": "near the Bayonne docks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "People:has_theme",
+        "object": "most influential",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Appointing:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Text:has_theme",
+        "object": "most influential people in the world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Project:has_activity",
+        "object": "housing",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Measure_duration:has_theme",
+        "object": "13",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Examination:has_knowledge",
+        "object": "DNA",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Age:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+        "predicate": "Assistance:has_time",
+        "object": "2022",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Possession:has_owner",
+        "object": "Martin's great-grandmother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Text:has_text",
+        "object": "list",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Being_born:has_location",
+        "object": "Bayonne, New Jersey",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Project:has_agent",
+        "object": "federal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Origin:has_theme",
+        "object": "American",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Buildings:has_location",
+        "object": "http://en.wikipedia.org/wiki/Broadway_(Manhattan)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Being_born:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "People:has_person",
+        "object": "people",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Political_locales:has_time",
+        "object": "2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Behind_the_scenes:has_type",
+        "object": "television",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Kinship:has_theme",
+        "object": "longshoreman Raymond Collins Martin and Margaret Brady Martin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Being_named:has_theme",
+        "object": "http://en.wikipedia.org/wiki/Richard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Kinship:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Residence:has_theme",
+        "object": "family",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Origin:has_entity",
+        "object": "writer and television producer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Kinship:has_theme",
+        "object": "Martin's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Project:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Kinship:has_theme",
+        "object": "son",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Labeling:has_theme",
+        "object": " the American Tolkien",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_instrument",
+        "object": "television",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Temporal_collocation:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Origin:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Motion:has_goal",
+        "object": "federal housing project near the Bayonne docks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Businesses:has_business",
+        "object": "business",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "they moved to a federal housing project near the Bayonne docks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_named:has_theme",
+        "object": "initials G.R.R.M",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Measure_duration:has_theme",
+        "object": "years",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Possession:has_owner",
+        "object": "Santa Fe",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Subjective_influence:has_time",
+        "object": "2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_location",
+        "object": "American",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Being_born:has_time",
+        "object": "September 20, 1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+        "predicate": "Intentionally_create:has_theme",
+        "object": "Wild Cards anthology series",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Kinship:has_theme",
+        "object": "His mother's",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Text_creation:has_author",
+        "object": "author",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Being_born:has_person",
+        "object": "George Raymond Martin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Political_locales:has_theme",
+        "object": "world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_born:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Age:has_entity",
+        "object": "sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Political_locales:has_theme",
+        "object": "federal",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Political_locales:has_theme",
+        "object": "city",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Temporal_collocation:has_theme",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Darleen_Ortega",
+        "predicate": "Kinship:has_theme",
+        "object": "sisters",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Businesses:has_theme",
+        "object": "successful",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Origin:has_entity",
+        "object": "author, television writer, and television producer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+        "predicate": "Residence:has_location",
+        "object": "Santa Fe, New Mexico, where he helped fund Meow Wolf and owns the Jean Cocteau Cinema",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Buildings:has_theme",
+        "object": "house",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Buildings:has_theme",
+        "object": "home",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Businesses:has_theme",
+        "object": "construction",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Calendric_unit:has_theme",
+        "object": "every",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Labeling:has_time",
+        "object": "2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Motion:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Removing:has_goal",
+        "object": "into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Measure_duration:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+        "predicate": "Assistance:has_goal",
+        "object": "fund Meow Wolf",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Text:has_time",
+        "object": "2005",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_named:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Being_named:has_entity",
+        "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Removing:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Fame:has_time",
+        "object": "2011",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Evidence:has_theme",
+        "object": "DNA test on the series Finding Your Roots",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Success_or_failure:has_agent",
+        "object": "business",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Kinship:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Roadways:has_theme",
+        "object": "docks",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Locative_relation:has_time",
+        "object": "1953",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Locative_relation:has_theme",
+        "object": "federal housing project",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+        "predicate": "Residence:has_location",
+        "object": "house on Broadway belonging to Martin's great-grandmother",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Being_named:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Richard",
+        "predicate": "Behind_the_scenes:has_artist",
+        "object": "producer",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Appointing:has_role",
+        "object": "confirmation name Richard",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+        "predicate": "Being_named:has_time",
+        "object": "1948",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+        "predicate": "Being_born:has_theme",
+        "object": "son of longshoreman Raymond Collins Martin and Margaret Brady Martin",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      },
+      {
+        "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+        "predicate": "Inclusion:has_theme",
+        "object": "annual Time 100 list of the most influential people in the world",
+        "confidence": 0.9,
+        "source_sentence": "Unknown",
+        "extractable": true
+      }
+    ],
+    "by_category": {
+      "people_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_named:has_theme",
+          "object": "as the author of the series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_author",
+          "object": "author",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Origin:has_entity",
+          "object": "author, television writer, and television producer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "location_related": [],
+      "event_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Being_born:has_location",
+          "object": "Bayonne, New Jersey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Being_born:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Being_born:has_time",
+          "object": "September 20, 1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Being_born:has_person",
+          "object": "George Raymond Martin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_born:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Being_born:has_theme",
+          "object": "son of longshoreman Raymond Collins Martin and Margaret Brady Martin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "concept_related": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+          "predicate": "Assistance:has_goal",
+          "object": "create the Wild Cards anthology series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Fame:has_entity",
+          "object": "fantasy novels",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+          "predicate": "Intentionally_create:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_text",
+          "object": "series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+          "predicate": "Assistance:has_time",
+          "object": "2022",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+          "predicate": "Intentionally_create:has_theme",
+          "object": "Wild Cards anthology series",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ],
+      "other": [
+        {
+          "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+          "predicate": "Residence:has_theme",
+          "object": "Santa Fe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "day",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_author",
+          "object": "writer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Possession:has_theme",
+          "object": "Jean Cocteau Cinema",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Appointing:has_time",
+          "object": "13 years old",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Inclusion:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+          "predicate": "Assistance:has_theme",
+          "object": "Santa Fe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Evidence:has_theme",
+          "object": "be 53.6% \"British and Irish, 22.4% Ashkenazi Jewish, and 15.6% \"Broadly Northwestern European",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Locative_relation:has_theme",
+          "object": "Bayonne docks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Examination:has_theme",
+          "object": "series Finding Your Roots",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Removing:has_theme",
+          "object": "which",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Age:has_age",
+          "object": "13 years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Labeling:has_entity",
+          "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Kinship:has_theme",
+          "object": "mother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Buildings:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Roadways:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "People:has_time",
+          "object": "2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Subjective_influence:has_entity",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Kinship:has_location",
+          "object": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Kinship:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Labeling:has_speaker",
+          "object": "Lev Grossman of Time",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Buildings:has_theme",
+          "object": "housing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Political_locales:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Age:has_degree",
+          "object": "younger",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_named:has_entity",
+          "object": "American writer and television producer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Possession:has_theme",
+          "object": "house on Broadway",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "First_experience:has_theme",
+          "object": "lived in a house on Broadway belonging to Martin's great-grandmother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Project:has_location",
+          "object": "near the Bayonne docks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "People:has_theme",
+          "object": "most influential",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Appointing:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Text:has_theme",
+          "object": "most influential people in the world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Project:has_activity",
+          "object": "housing",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Measure_duration:has_theme",
+          "object": "13",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Examination:has_knowledge",
+          "object": "DNA",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Age:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Possession:has_owner",
+          "object": "Martin's great-grandmother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Text:has_text",
+          "object": "list",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Project:has_agent",
+          "object": "federal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Origin:has_theme",
+          "object": "American",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Buildings:has_location",
+          "object": "http://en.wikipedia.org/wiki/Broadway_(Manhattan)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "People:has_person",
+          "object": "people",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Political_locales:has_time",
+          "object": "2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Behind_the_scenes:has_type",
+          "object": "television",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Kinship:has_theme",
+          "object": "longshoreman Raymond Collins Martin and Margaret Brady Martin",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Being_named:has_theme",
+          "object": "http://en.wikipedia.org/wiki/Richard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Kinship:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Residence:has_theme",
+          "object": "family",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Origin:has_entity",
+          "object": "writer and television producer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "predicate": "Kinship:has_theme",
+          "object": "Martin's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Project:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Kinship:has_theme",
+          "object": "son",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Labeling:has_theme",
+          "object": " the American Tolkien",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_instrument",
+          "object": "television",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Temporal_collocation:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Origin:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Motion:has_goal",
+          "object": "federal housing project near the Bayonne docks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Businesses:has_business",
+          "object": "business",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "they moved to a federal housing project near the Bayonne docks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_named:has_theme",
+          "object": "initials G.R.R.M",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Measure_duration:has_theme",
+          "object": "years",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Possession:has_owner",
+          "object": "Santa Fe",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Subjective_influence:has_time",
+          "object": "2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Text_creation:has_location",
+          "object": "American",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Kinship:has_theme",
+          "object": "His mother's",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Political_locales:has_theme",
+          "object": "world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Age:has_entity",
+          "object": "sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Political_locales:has_theme",
+          "object": "federal",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Political_locales:has_theme",
+          "object": "city",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Temporal_collocation:has_theme",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Darleen_Ortega",
+          "predicate": "Kinship:has_theme",
+          "object": "sisters",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Businesses:has_theme",
+          "object": "successful",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+          "predicate": "Residence:has_location",
+          "object": "Santa Fe, New Mexico, where he helped fund Meow Wolf and owns the Jean Cocteau Cinema",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Buildings:has_theme",
+          "object": "house",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Buildings:has_theme",
+          "object": "home",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Businesses:has_theme",
+          "object": "construction",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Calendric_unit:has_theme",
+          "object": "every",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Labeling:has_time",
+          "object": "2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Motion:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Removing:has_goal",
+          "object": "into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Measure_duration:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+          "predicate": "Assistance:has_goal",
+          "object": "fund Meow Wolf",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Text:has_time",
+          "object": "2005",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_named:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Being_named:has_entity",
+          "object": "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Removing:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Fame:has_time",
+          "object": "2011",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Evidence:has_theme",
+          "object": "DNA test on the series Finding Your Roots",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Success_or_failure:has_agent",
+          "object": "business",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Kinship:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Roadways:has_theme",
+          "object": "docks",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Locative_relation:has_time",
+          "object": "1953",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Locative_relation:has_theme",
+          "object": "federal housing project",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Great_Depression",
+          "predicate": "Residence:has_location",
+          "object": "house on Broadway belonging to Martin's great-grandmother",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Being_named:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Richard",
+          "predicate": "Behind_the_scenes:has_artist",
+          "object": "producer",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Appointing:has_role",
+          "object": "confirmation name Richard",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+          "predicate": "Being_named:has_time",
+          "object": "1948",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        },
+        {
+          "subject": "http://en.wikipedia.org/wiki/Lev_Grossman",
+          "predicate": "Inclusion:has_theme",
+          "object": "annual Time 100 list of the most influential people in the world",
+          "confidence": 0.9,
+          "source_sentence": "Unknown",
+          "extractable": true
+        }
+      ]
+    }
+  },
+  "entities": {
+    "subjects": [
+      "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Darleen_Ortega",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Richard",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "http://en.wikipedia.org/wiki/Lev_Grossman"
+    ],
+    "objects": [
+      "Santa Fe",
+      "day",
+      "2011",
+      "writer",
+      "Jean Cocteau Cinema",
+      "13 years old",
+      "2011",
+      "Santa Fe",
+      "be 53.6% \"British and Irish, 22.4% Ashkenazi Jewish, and 15.6% \"Broadly Northwestern European",
+      "Bayonne docks",
+      "as the author of the series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "series Finding Your Roots",
+      "which",
+      "13 years",
+      "create the Wild Cards anthology series",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "fantasy novels",
+      "2022",
+      "mother",
+      "1953",
+      "1953",
+      "series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "2005",
+      "people",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "Lev Grossman of Time",
+      "housing",
+      "1953",
+      "younger",
+      "American writer and television producer",
+      "house on Broadway",
+      "lived in a house on Broadway belonging to Martin's great-grandmother",
+      "near the Bayonne docks",
+      "most influential",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "most influential people in the world",
+      "housing",
+      "13",
+      "DNA",
+      "1948",
+      "2022",
+      "Martin's great-grandmother",
+      "list",
+      "Bayonne, New Jersey",
+      "federal",
+      "American",
+      "http://en.wikipedia.org/wiki/Broadway_(Manhattan)",
+      "1948",
+      "people",
+      "2005",
+      "television",
+      "longshoreman Raymond Collins Martin and Margaret Brady Martin",
+      "http://en.wikipedia.org/wiki/Richard",
+      "family",
+      "family",
+      "writer and television producer",
+      "Martin's",
+      "1953",
+      "son",
+      " the American Tolkien",
+      "television",
+      "1953",
+      "1948",
+      "federal housing project near the Bayonne docks",
+      "business",
+      "they moved to a federal housing project near the Bayonne docks",
+      "initials G.R.R.M",
+      "years",
+      "Santa Fe",
+      "2005",
+      "American",
+      "September 20, 1948",
+      "Wild Cards anthology series",
+      "His mother's",
+      "author",
+      "George Raymond Martin",
+      "world",
+      "1948",
+      "sisters",
+      "federal",
+      "city",
+      "1953",
+      "sisters",
+      "successful",
+      "author, television writer, and television producer",
+      "Santa Fe, New Mexico, where he helped fund Meow Wolf and owns the Jean Cocteau Cinema",
+      "house",
+      "home",
+      "construction",
+      "every",
+      "2005",
+      "1953",
+      "into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "1948",
+      "fund Meow Wolf",
+      "2005",
+      "2011",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "2011",
+      "2011",
+      "DNA test on the series Finding Your Roots",
+      "business",
+      "1948",
+      "docks",
+      "1953",
+      "federal housing project",
+      "house on Broadway belonging to Martin's great-grandmother",
+      "1948",
+      "producer",
+      "confirmation name Richard",
+      "1948",
+      "son of longshoreman Raymond Collins Martin and Margaret Brady Martin",
+      "annual Time 100 list of the most influential people in the world"
+    ],
+    "all_unique": [
+      "be 53.6% \"British and Irish, 22.4% Ashkenazi Jewish, and 15.6% \"Broadly Northwestern European",
+      "2022",
+      "series Finding Your Roots",
+      "13 years",
+      "into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "as the author of the series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present",
+      "His mother's",
+      "2005",
+      "which",
+      "day",
+      "Santa Fe",
+      "son of longshoreman Raymond Collins Martin and Margaret Brady Martin",
+      "http://en.wikipedia.org/wiki/Lev_Grossman",
+      "http://en.wikipedia.org/wiki/Broadway_(Manhattan)",
+      "author",
+      "federal housing project near the Bayonne docks",
+      "successful",
+      "city",
+      "DNA",
+      "most influential",
+      "house",
+      "Martin's",
+      "federal housing project",
+      "Bayonne, New Jersey",
+      "http://en.wikipedia.org/wiki/Richard",
+      "longshoreman Raymond Collins Martin and Margaret Brady Martin",
+      "Jean Cocteau Cinema",
+      "sisters",
+      "George Raymond Martin",
+      "mother",
+      "13",
+      "1953",
+      "initials G.R.R.M",
+      "every",
+      "housing",
+      "American",
+      "http://en.wikipedia.org/wiki/Bayonne,_New_Jersey",
+      "http://en.wikipedia.org/wiki/Martin_(TV_series)",
+      "Martin's great-grandmother",
+      " the American Tolkien",
+      "television",
+      "Santa Fe, New Mexico, where he helped fund Meow Wolf and owns the Jean Cocteau Cinema",
+      "September 20, 1948",
+      "Wild Cards anthology series",
+      "they moved to a federal housing project near the Bayonne docks",
+      "Bayonne docks",
+      "son",
+      "writer",
+      "http://en.wikipedia.org/wiki/Great_Depression",
+      "fantasy novels",
+      "http://en.wikipedia.org/wiki/List_of_Wild_Cards_books_and_short_stories",
+      "producer",
+      "create the Wild Cards anthology series",
+      "http://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico",
+      "writer and television producer",
+      "DNA test on the series Finding Your Roots",
+      "author, television writer, and television producer",
+      "fund Meow Wolf",
+      "world",
+      "list",
+      "family",
+      "construction",
+      "annual Time 100 list of the most influential people in the world",
+      "American writer and television producer",
+      "lived in a house on Broadway belonging to Martin's great-grandmother",
+      "near the Bayonne docks",
+      "docks",
+      "most influential people in the world",
+      "people",
+      "http://en.wikipedia.org/wiki/Darleen_Ortega",
+      "business",
+      "2011",
+      "confirmation name Richard",
+      "home",
+      "13 years old",
+      "house on Broadway",
+      "1948",
+      "years",
+      "house on Broadway belonging to Martin's great-grandmother",
+      "Lev Grossman of Time",
+      "younger",
+      "federal",
+      "series of epic fantasy novels A Song of Ice and Fire, which were adapted into the Primetime Emmy Award –winning television series Game of Thrones (2011–2019) and its prequel series House of the Dragon (2022–present"
+    ]
+  },
+  "relationships": {
+    "predicates": [
+      "Residence:has_theme",
+      "Calendric_unit:has_theme",
+      "Text_creation:has_time",
+      "Text_creation:has_author",
+      "Possession:has_theme",
+      "Appointing:has_time",
+      "Inclusion:has_time",
+      "Assistance:has_theme",
+      "Evidence:has_theme",
+      "Locative_relation:has_theme",
+      "Being_named:has_theme",
+      "Examination:has_theme",
+      "Removing:has_theme",
+      "Age:has_age",
+      "Assistance:has_goal",
+      "Labeling:has_entity",
+      "Fame:has_entity",
+      "Intentionally_create:has_time",
+      "Kinship:has_theme",
+      "Buildings:has_time",
+      "Roadways:has_time",
+      "Text_creation:has_text",
+      "People:has_time",
+      "Subjective_influence:has_entity",
+      "Kinship:has_location",
+      "Kinship:has_theme",
+      "Labeling:has_speaker",
+      "Buildings:has_theme",
+      "Political_locales:has_time",
+      "Age:has_degree",
+      "Being_named:has_entity",
+      "Possession:has_theme",
+      "First_experience:has_theme",
+      "Project:has_location",
+      "People:has_theme",
+      "Appointing:has_theme",
+      "Text:has_theme",
+      "Project:has_activity",
+      "Measure_duration:has_theme",
+      "Examination:has_knowledge",
+      "Age:has_time",
+      "Assistance:has_time",
+      "Possession:has_owner",
+      "Text:has_text",
+      "Being_born:has_location",
+      "Project:has_agent",
+      "Origin:has_theme",
+      "Buildings:has_location",
+      "Being_born:has_time",
+      "People:has_person",
+      "Political_locales:has_time",
+      "Behind_the_scenes:has_type",
+      "Kinship:has_theme",
+      "Being_named:has_theme",
+      "Kinship:has_theme",
+      "Residence:has_theme",
+      "Origin:has_entity",
+      "Kinship:has_theme",
+      "Project:has_time",
+      "Kinship:has_theme",
+      "Labeling:has_theme",
+      "Text_creation:has_instrument",
+      "Temporal_collocation:has_time",
+      "Origin:has_time",
+      "Motion:has_goal",
+      "Businesses:has_business",
+      "Temporal_collocation:has_theme",
+      "Being_named:has_theme",
+      "Measure_duration:has_theme",
+      "Possession:has_owner",
+      "Subjective_influence:has_time",
+      "Text_creation:has_location",
+      "Being_born:has_time",
+      "Intentionally_create:has_theme",
+      "Kinship:has_theme",
+      "Text_creation:has_author",
+      "Being_born:has_person",
+      "Political_locales:has_theme",
+      "Being_born:has_time",
+      "Age:has_entity",
+      "Political_locales:has_theme",
+      "Political_locales:has_theme",
+      "Temporal_collocation:has_theme",
+      "Kinship:has_theme",
+      "Businesses:has_theme",
+      "Origin:has_entity",
+      "Residence:has_location",
+      "Buildings:has_theme",
+      "Buildings:has_theme",
+      "Businesses:has_theme",
+      "Calendric_unit:has_theme",
+      "Labeling:has_time",
+      "Motion:has_time",
+      "Removing:has_goal",
+      "Measure_duration:has_time",
+      "Assistance:has_goal",
+      "Text:has_time",
+      "Being_named:has_time",
+      "Being_named:has_entity",
+      "Removing:has_time",
+      "Fame:has_time",
+      "Evidence:has_theme",
+      "Success_or_failure:has_agent",
+      "Kinship:has_time",
+      "Roadways:has_theme",
+      "Locative_relation:has_time",
+      "Locative_relation:has_theme",
+      "Residence:has_location",
+      "Being_named:has_time",
+      "Behind_the_scenes:has_artist",
+      "Appointing:has_role",
+      "Being_named:has_time",
+      "Being_born:has_theme",
+      "Inclusion:has_theme"
+    ],
+    "unique_predicates": [
+      "Labeling:has_speaker",
+      "Motion:has_time",
+      "Assistance:has_time",
+      "Text_creation:has_instrument",
+      "Age:has_entity",
+      "Appointing:has_role",
+      "Assistance:has_theme",
+      "Possession:has_owner",
+      "Project:has_time",
+      "Kinship:has_theme",
+      "Appointing:has_theme",
+      "Subjective_influence:has_time",
+      "Locative_relation:has_time",
+      "Project:has_activity",
+      "Age:has_degree",
+      "Text:has_theme",
+      "Fame:has_time",
+      "Origin:has_entity",
+      "Being_named:has_time",
+      "Project:has_location",
+      "Businesses:has_theme",
+      "Residence:has_theme",
+      "People:has_theme",
+      "Appointing:has_time",
+      "Measure_duration:has_time",
+      "Temporal_collocation:has_theme",
+      "People:has_person",
+      "Origin:has_theme",
+      "Labeling:has_entity",
+      "Being_named:has_entity",
+      "Businesses:has_business",
+      "Being_born:has_person",
+      "Inclusion:has_time",
+      "Evidence:has_theme",
+      "Text:has_text",
+      "Removing:has_time",
+      "First_experience:has_theme",
+      "Temporal_collocation:has_time",
+      "Buildings:has_location",
+      "Age:has_time",
+      "Intentionally_create:has_time",
+      "Removing:has_goal",
+      "Calendric_unit:has_theme",
+      "Measure_duration:has_theme",
+      "People:has_time",
+      "Kinship:has_time",
+      "Removing:has_theme",
+      "Being_named:has_theme",
+      "Assistance:has_goal",
+      "Residence:has_location",
+      "Being_born:has_location",
+      "Buildings:has_time",
+      "Examination:has_knowledge",
+      "Motion:has_goal",
+      "Text_creation:has_text",
+      "Behind_the_scenes:has_type",
+      "Being_born:has_time",
+      "Origin:has_time",
+      "Intentionally_create:has_theme",
+      "Project:has_agent",
+      "Labeling:has_time",
+      "Age:has_age",
+      "Being_born:has_theme",
+      "Possession:has_theme",
+      "Roadways:has_time",
+      "Text_creation:has_time",
+      "Examination:has_theme",
+      "Success_or_failure:has_agent",
+      "Text_creation:has_location",
+      "Buildings:has_theme",
+      "Text_creation:has_author",
+      "Locative_relation:has_theme",
+      "Political_locales:has_time",
+      "Kinship:has_location",
+      "Behind_the_scenes:has_artist",
+      "Political_locales:has_theme",
+      "Labeling:has_theme",
+      "Inclusion:has_theme",
+      "Fame:has_entity",
+      "Subjective_influence:has_entity",
+      "Roadways:has_theme",
+      "Text:has_time"
+    ],
+    "predicate_counts": {
+      "Residence:has_theme": 2,
+      "Calendric_unit:has_theme": 2,
+      "Text_creation:has_time": 1,
+      "Text_creation:has_author": 2,
+      "Possession:has_theme": 2,
+      "Appointing:has_time": 1,
+      "Inclusion:has_time": 1,
+      "Assistance:has_theme": 1,
+      "Evidence:has_theme": 2,
+      "Locative_relation:has_theme": 2,
+      "Being_named:has_theme": 3,
+      "Examination:has_theme": 1,
+      "Removing:has_theme": 1,
+      "Age:has_age": 1,
+      "Assistance:has_goal": 2,
+      "Labeling:has_entity": 1,
+      "Fame:has_entity": 1,
+      "Intentionally_create:has_time": 1,
+      "Kinship:has_theme": 8,
+      "Buildings:has_time": 1,
+      "Roadways:has_time": 1,
+      "Text_creation:has_text": 1,
+      "People:has_time": 1,
+      "Subjective_influence:has_entity": 1,
+      "Kinship:has_location": 1,
+      "Labeling:has_speaker": 1,
+      "Buildings:has_theme": 3,
+      "Political_locales:has_time": 2,
+      "Age:has_degree": 1,
+      "Being_named:has_entity": 2,
+      "First_experience:has_theme": 1,
+      "Project:has_location": 1,
+      "People:has_theme": 1,
+      "Appointing:has_theme": 1,
+      "Text:has_theme": 1,
+      "Project:has_activity": 1,
+      "Measure_duration:has_theme": 2,
+      "Examination:has_knowledge": 1,
+      "Age:has_time": 1,
+      "Assistance:has_time": 1,
+      "Possession:has_owner": 2,
+      "Text:has_text": 1,
+      "Being_born:has_location": 1,
+      "Project:has_agent": 1,
+      "Origin:has_theme": 1,
+      "Buildings:has_location": 1,
+      "Being_born:has_time": 3,
+      "People:has_person": 1,
+      "Behind_the_scenes:has_type": 1,
+      "Origin:has_entity": 2,
+      "Project:has_time": 1,
+      "Labeling:has_theme": 1,
+      "Text_creation:has_instrument": 1,
+      "Temporal_collocation:has_time": 1,
+      "Origin:has_time": 1,
+      "Motion:has_goal": 1,
+      "Businesses:has_business": 1,
+      "Temporal_collocation:has_theme": 2,
+      "Subjective_influence:has_time": 1,
+      "Text_creation:has_location": 1,
+      "Intentionally_create:has_theme": 1,
+      "Being_born:has_person": 1,
+      "Political_locales:has_theme": 3,
+      "Age:has_entity": 1,
+      "Businesses:has_theme": 2,
+      "Residence:has_location": 2,
+      "Labeling:has_time": 1,
+      "Motion:has_time": 1,
+      "Removing:has_goal": 1,
+      "Measure_duration:has_time": 1,
+      "Text:has_time": 1,
+      "Being_named:has_time": 3,
+      "Removing:has_time": 1,
+      "Fame:has_time": 1,
+      "Success_or_failure:has_agent": 1,
+      "Kinship:has_time": 1,
+      "Roadways:has_theme": 1,
+      "Locative_relation:has_time": 1,
+      "Behind_the_scenes:has_artist": 1,
+      "Appointing:has_role": 1,
+      "Being_born:has_theme": 1,
+      "Inclusion:has_theme": 1
+    }
+  }
+}

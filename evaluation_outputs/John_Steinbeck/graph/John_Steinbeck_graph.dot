@@ -1,0 +1,261 @@
+digraph John_Steinbeck {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "writer" [label="writer", fillcolor=lightcoral, color=red, shape=circle];
+    "one book coauthored alongsi..." [label="one book coauthored alongsi...", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "works" [label="works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "16 novels" [label="16 novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "33 books" [label="33 books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Cannery Row novel" [label="Cannery Row novel", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novellas" [label="novellas", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Nobel Prize in Literature" [label="Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "novels" [label="novels", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Much of Steinbeck's work" [label="Much of Steinbeck's work", fillcolor=lightblue, color=blue, shape=ellipse];
+    "comic novels Tortilla Flat ..." [label="comic novels Tortilla Flat ...", fillcolor=lightblue, color=blue, shape=ellipse];
+    "His works" [label="His works", fillcolor=lightblue, color=blue, shape=ellipse];
+    "During his writing career" [label="During his writing career", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Literature" [label="Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "writings" [label="writings", fillcolor=lightblue, color=blue, shape=ellipse];
+    "1962 Nobel Prize in Literature" [label="1962 Nobel Prize in Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "books" [label="books", fillcolor=lightblue, color=blue, shape=ellipse];
+    "book" [label="book", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Other nodes
+    "Valley" [label="Valley", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Steinbeck surname " [label="Steinbeck surname ", fillcolor=lightgray, color=gray, shape=hexagon];
+    " a giant of American letters" [label=" a giant of American letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize –winning The..." [label="Pulitzer Prize –winning The...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1939" [label="1939", fillcolor=lightgray, color=gray, shape=hexagon];
+    "widely" [label="widely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "settings in his native cent..." [label="settings in his native cent...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "February 27, 1902" [label="February 27, 1902", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Western canon" [label="Western canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "named " Großsteinbeck" [label="named " Großsteinbeck", fillcolor=lightgray, color=gray, shape=hexagon];
+    "part" [label="part", fillcolor=lightgray, color=gray, shape=hexagon];
+    "collections" [label="collections", fillcolor=lightgray, color=gray, shape=hexagon];
+    "stories" [label="stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "California Coast Ranges" [label="California Coast Ranges", fillcolor=lightgray, color=gray, shape=hexagon];
+    "75th anniversary of its pub..." [label="75th anniversary of its pub...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary canon" [label="literary canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1902" [label="1902", fillcolor=lightgray, color=gray, shape=hexagon];
+    "combining as they do sympat..." [label="combining as they do sympat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "John Steinbeck" [label="John Steinbeck", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Großsteinbeck" [label="Großsteinbeck", fillcolor=lightgray, color=gray, shape=hexagon];
+    "comic" [label="comic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "literary" [label="literary", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family farm in Heiligenhaus..." [label="family farm in Heiligenhaus...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his brother" [label="his brother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "region" [label="region", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1913" [label="1913", fillcolor=lightgray, color=gray, shape=hexagon];
+    "14 million copies" [label="14 million copies", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Heiligenhaus, Mettmann, Ger..." [label="Heiligenhaus, Mettmann, Ger...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short stories" [label="short stories", fillcolor=lightgray, color=gray, shape=hexagon];
+    "American literary canon" [label="American literary canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "name" [label="name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "farm" [label="farm", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Palestine region" [label="Palestine region", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Steinbeck's" [label="Steinbeck's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "non-fiction" [label="non-fiction", fillcolor=lightgray, color=gray, shape=hexagon];
+    "masterpiece" [label="masterpiece", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Arab attackers" [label="Arab attackers", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his brother's" [label="his brother's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Steinbeck's masterpiece" [label="Steinbeck's masterpiece", fillcolor=lightgray, color=gray, shape=hexagon];
+    "still" [label="still", fillcolor=lightgray, color=gray, shape=hexagon];
+    "East of Eden" [label="East of Eden", fillcolor=lightgray, color=gray, shape=hexagon];
+    "wife" [label="wife", fillcolor=lightgray, color=gray, shape=hexagon];
+    "his realistic and imaginati..." [label="his realistic and imaginati...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "themes of fate and injustic..." [label="themes of fate and injustic...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Baig" [label="Baig", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family name" [label="family name", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ed Ricketts" [label="Ed Ricketts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its publishing date" [label="its publishing date", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Heiligenhaus" [label="Heiligenhaus", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1858" [label="1858", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1962" [label="1962", fillcolor=lightgray, color=gray, shape=hexagon];
+    "canon" [label="canon", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1935" [label="1935", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Salinas, California" [label="Salinas, California", fillcolor=lightgray, color=gray, shape=hexagon];
+    "letters" [label="letters", fillcolor=lightgray, color=gray, shape=hexagon];
+    "this surname" [label="this surname", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "Cannery Row novel" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "John Steinbeck" -> "works" [label="has theme [Labor_product]", color=lightcoral, penwidth=1];
+    "United States" -> "75th anniversary of its pub..." [label="has time [Commerce_sell]", color=purple, penwidth=2];
+    "Cannery Row novel" -> "literary" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "John Steinbeck" -> "1935" [label="has time [Fame]", color=purple, penwidth=2];
+    "Palestine region" -> "1913" [label="has time [Killing]", color=purple, penwidth=2];
+    "Cannery Row novel" -> "name" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "Western canon" -> "United States" [label="has theme [Origin]", color=lightsteelblue, penwidth=1];
+    "United States" -> "people" [label="has class [Increment]", color=lightgray, penwidth=1];
+    "Baig" -> "short stories" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "John Steinbeck" -> "Steinbeck surname " [label="has theme [Reference_text]", color=lightseagreen, penwidth=1];
+    "Western canon" -> "American literary canon" [label="has theme [Part_whole]", color=lightsalmon, penwidth=1];
+    "John Steinbeck" -> "Steinbeck's" [label="has author [Text]", color=lightblue, penwidth=1];
+    "Cannery Row novel" -> "comic" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "Palestine region" -> "his brother's" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "John Steinbeck" -> "1962" [label="has time [Win_prize]", color=purple, penwidth=2];
+    "United States" -> "14 million copies" [label="has goods [Commerce_sell]", color=lightgreen, penwidth=1];
+    "Baig" -> "non-fiction" [label="has theme [Text]", color=lightblue, penwidth=1];
+    "John Steinbeck" -> "1962 Nobel Prize in Literature" [label="has prize [Win_prize]", color=lightpink, penwidth=1];
+    "Heiligenhaus" -> "family farm in Heiligenhaus..." [label="has entity [Being_named]", color=lightcyan, penwidth=1];
+    "Western canon" -> "1939" [label="has time [Origin]", color=purple, penwidth=2];
+    "John Steinbeck" -> "widely" [label="has degree [Fame]", color=lightyellow, penwidth=1];
+    "John Steinbeck" -> "Literature" [label="has location [Win_prize]", color=green, penwidth=2];
+    "John Steinbeck" -> "Salinas, California" [label="has location [Being_born]", color=green, penwidth=2];
+    "John Steinbeck" -> "comic novels Tortilla Flat ..." [label="has reason [Fame]", color=lightyellow, penwidth=1];
+    "John Steinbeck" -> "Much of Steinbeck's work" [label="has agent [Using]", color=lightcoral, penwidth=1];
+    "Nobel Prize in Literature" -> "Steinbeck's masterpiece" [label="has category [Categorization]", color=lightblue, penwidth=1];
+    "John Steinbeck" -> "1962" [label="has time [Text]", color=purple, penwidth=2];
+    "Cannery Row novel" -> "canon" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Cannery Row novel" -> "East of Eden" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Palestine region" -> "1913" [label="has time [Personal_relationship]", color=red, penwidth=2];
+    "Cannery Row novel" -> "1939" [label="has time [Fields]", color=purple, penwidth=2];
+    "California Coast Ranges" -> "region" [label="has theme [Locale]", color=lightgreen, penwidth=1];
+    "John Steinbeck" -> "February 27, 1902" [label="has time [Being_born]", color=purple, penwidth=2];
+    "John Steinbeck" -> "writings" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Baig" -> "stories" [label="has theme [Duration_description]", color=lightyellow, penwidth=1];
+    "Western canon" -> "literary canon" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "John Steinbeck" -> "United States" [label="has goal [Arriving]", color=lightpink, penwidth=1];
+    "John Steinbeck" -> "1935" [label="has time [Kinship]", color=purple, penwidth=2];
+    "John Steinbeck" -> "his realistic and imaginati..." [label="has theme [Win_prize]", color=lightpink, penwidth=1];
+    "John Steinbeck" -> "Steinbeck's" [label="has agent [Labor_product]", color=lightcoral, penwidth=1];
+    "John Steinbeck" -> " a giant of American letters" [label="has theme [Labeling]", color=lightsteelblue, penwidth=1];
+    "United States" -> "letters" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Cannery Row novel" -> "farm" [label="has theme [Buildings]", color=lightgray, penwidth=1];
+    "Cannery Row novel" -> "themes of fate and injustic..." [label="has theme [Explaining_the_facts]", color=lightgoldenrodyellow, penwidth=1];
+    "Western canon" -> "1939" [label="has time [Part_whole]", color=purple, penwidth=2];
+    "Cannery Row novel" -> "Heiligenhaus, Mettmann, Ger..." [label="has location [Buildings]", color=green, penwidth=2];
+    "John Steinbeck" -> "settings in his native cent..." [label="has instrument [Using]", color=lightcoral, penwidth=1];
+    "Salinas, California" -> "Valley" [label="has theme [Natural_features]", color=lightseagreen, penwidth=1];
+    "Nobel Prize in Literature" -> "Pulitzer Prize –winning The..." [label="has item [Categorization]", color=lightblue, penwidth=1];
+    "Ed Ricketts" -> "16 novels" [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "John Steinbeck" -> "33 books" [label="has text [Text_creation]", color=lightgoldenrod, penwidth=1];
+    "John Steinbeck" -> "father" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Cannery Row novel" -> "1935" [label="has time [Text]", color=purple, penwidth=2];
+    "John Steinbeck" -> "1939" [label="has time [Text]", color=purple, penwidth=2];
+    "Baig" -> "novels" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Cannery Row novel" -> "literary" [label="has theme [Fields]", color=lightcoral, penwidth=1];
+    "John Steinbeck" -> "combining as they do sympat..." [label="has means [Win_prize]", color=lightpink, penwidth=1];
+    "California Coast Ranges" -> "California Coast Ranges" [label="has theme [Locale]", color=lightgreen, penwidth=1];
+    "Cannery Row novel" -> "family name" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "Western canon" -> "part" [label="has theme [Part_whole]", color=lightsalmon, penwidth=1];
+    "Baig" -> "books" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Palestine region" -> "his brother" [label="has theme [Killing]", color=lightpink, penwidth=1];
+    "Cannery Row novel" -> "His works" [label="has theme [Explaining_the_facts]", color=lightgoldenrodyellow, penwidth=1];
+    "Cannery Row novel" -> "family" [label="has entity [Being_named]", color=lightcyan, penwidth=1];
+    "John Steinbeck" -> "Literature" [label="has location [Text]", color=green, penwidth=2];
+    "Baig" -> "collections" [label="has theme [Aggregate]", color=lightgoldenrodyellow, penwidth=1];
+    "John Steinbeck" -> "masterpiece" [label="has text [Text]", color=lightblue, penwidth=1];
+    "Palestine region" -> "wife" [label="has theme [Personal_relationship]", color=red, penwidth=2];
+    "United States" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Heiligenhaus" -> "Großsteinbeck" [label="has theme [Being_named]", color=lightcyan, penwidth=1];
+    "John Steinbeck" -> "During his writing career" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "United States" -> "this surname" [label="has theme [People]", color=lightpink, penwidth=1];
+    "Cannery Row novel" -> "its publishing date" [label="has theme [Commemorative]", color=lightsteelblue, penwidth=1];
+    "United States" -> "writer" [label="has entity [Origin]", color=lightsteelblue, penwidth=1];
+    "Cannery Row novel" -> "1939" [label="has time [Text]", color=purple, penwidth=2];
+    "Baig" -> "book" [label="has text [Text]", color=lightblue, penwidth=1];
+    "John Steinbeck" -> "1858" [label="has time [Arriving]", color=purple, penwidth=2];
+    "Nobel Prize in Literature" -> "1939" [label="has time [Categorization]", color=purple, penwidth=2];
+    "Palestine region" -> "Arab attackers" [label="has theme [Killing]", color=lightpink, penwidth=1];
+    "United States" -> "1902" [label="has time [Origin]", color=purple, penwidth=2];
+    "Heiligenhaus" -> "family" [label="has theme [Kinship]", color=lightcyan, penwidth=1];
+    "Ed Ricketts" -> "one book coauthored alongsi..." [label="has theme [Inclusion]", color=lightsalmon, penwidth=1];
+    "Heiligenhaus" -> "named " Großsteinbeck" [label="has theme [Continued_state_of_affairs]", color=lightcoral, penwidth=1];
+    "Heiligenhaus" -> "still" [label="has theme [Continued_state_of_affairs]", color=lightcoral, penwidth=1];
+    "Cannery Row novel" -> "novellas" [label="has text [Text]", color=lightblue, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Text_legend" [label="Text", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Labor_product_legend" [label="Labor_product", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Commerce_sell_legend" [label="Commerce_sell", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Killing_legend" [label="Killing", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Aggregate_legend" [label="Aggregate", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Part_whole_legend" [label="Part_whole", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Personal_relationship_legend" [label="Personal_relationship", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Win_prize_legend" [label="Win_prize", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Using_legend" [label="Using", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Categorization_legend" [label="Categorization", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Fields_legend" [label="Fields", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Locale_legend" [label="Locale", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Arriving_legend" [label="Arriving", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Labeling_legend" [label="Labeling", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Explaining_the_facts_legend" [label="Explaining_the_facts", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Natural_features_legend" [label="Natural_features", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Inclusion_legend" [label="Inclusion", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Commemorative_legend" [label="Commemorative", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Continued_state_of_affairs_legend" [label="Continued_state_of_affairs", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+    }
+}

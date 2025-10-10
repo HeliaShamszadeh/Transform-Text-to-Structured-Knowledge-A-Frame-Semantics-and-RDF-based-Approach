@@ -1,0 +1,315 @@
+{
+  "evaluations": [
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Text:has_time 1997",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Rowling worked for Amnesty International in 1990, but 1997 is the publication year of the first Harry Potter novel. There is no semantic connection between Amnesty International and the year 1997."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Being_named:has_theme J. K. Rowling",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The triple is semantically circular (subject has_theme itself) and doesn't convey meaningful information. However, the paragraph is entirely about J.K. Rowling, so there is a weak semantic connection to the subject being a central theme of the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Text:has_text novel",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While Amnesty International is not directly associated with novels in the paragraph, the text mentions Rowling worked there when she conceived the Harry Potter 'series' (which consists of novels). This is a very weak but leniently acceptable indirect connection."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text:has_text novels",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'the fantasy novels are the best-selling book series' referring to the Harry Potter series, and 'novels' is used multiple times in direct reference to the series."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Aggregate:has_theme imitators",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states the Harry Potter series 'spawned a host of imitators,' but this is not connected to Amnesty International in any way. The connection is completely unrelated."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Categorization:has_category as conventional",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states 'Many reviewers see Rowling's writing as conventional', which provides a semantic connection between Rowling and the category/concept of being conventional, even if the exact predicate 'has_category' is not used."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Ordinal_numbers:has_type novel",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Amnesty International as Rowling's employer, but there is no semantic connection suggesting Amnesty International has a type of 'novel'. This relationship is completely unsupported by the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Publishing:has_time 1997",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "While 1997 is mentioned as the publication year of the first Harry Potter novel, there is no semantic link connecting this publishing event to Amnesty International. The organization is only mentioned in the context of Rowling's employment in 1990."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Personal_relationship:has_time 1997",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The year 1997 is significant for Rowling's personal life as it marks the publication of her first novel, which ended her period of relative poverty. This represents a major personal and professional milestone that can be reasonably connected to a personal relationship with time."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Ordinal_numbers:has_time 1997",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph only mentions Amnesty International in relation to Rowling's employment in 1990. There is no information connecting the organization to the year 1997 in any way."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Cause_to_resume:has_process fantasy as a genre in the children's market",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Rowling worked for Amnesty International and that the series revived fantasy as a genre, but there is no semantic connection suggesting Amnesty International caused or had a process related to reviving the fantasy genre. The concepts are mentioned in entirely separate contexts."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Being_born:has_location Yate, Gloucestershire",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'Born in Yate, Gloucestershire,' which directly corresponds to the triple's subject, predicate, and object."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text:has_author British author and philanthropist (born 1965 ) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states J.K. Rowling 'is a British novelist and author of Harry Potter.' The triple's object is a verbose but accurate description of the author from the text. The core semantic relationship (Harry Potter has author J.K. Rowling) is clearly present."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Being_named:has_time 1965",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The predicate 'Being_named:has_time' is ambiguous, but the paragraph states she was 'born 1965.' If interpreted as the time associated with her name or identity, the year 1965 is semantically connected to her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Calluna Translating:has_theme into 84 languages",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The subject 'http://en.wikipedia.org/wiki/Calluna' (which refers to a genus of heather) is completely unrelated to the paragraph's content about J.K. Rowling and Harry Potter. The information about translation into 84 languages is in the paragraph, but it is about the Harry Potter books, not Calluna."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text_creation:has_text Harry Potter, a seven-volume series about a young wizard",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that J.K. Rowling is the author of 'Harry Potter, a seven-volume series about a young wizard', directly connecting the subject to the text description."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Part_inner_outer:has_theme themes",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Amnesty International as Rowling's employer but provides no information about themes associated with the organization. The triple is too vague and unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Frequency:has_theme languages",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the Harry Potter books 'have been translated into 84 languages', which can be loosely interpreted as the series having a theme or aspect related to languages through translation."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Inclusion:has_theme films and video games",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph mentions that Harry Potter has 'spawned a global media franchise including films and video games', which can be reasonably interpreted as the series including or having themes represented in these media forms."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Quantified_mass:has_quantity many",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph only mentions Amnesty International as Rowling's employer with no quantitative information about the organization. The triple is completely unsupported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Publishing:has_work fantasy novels",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph states that Harry Potter is a seven-volume fantasy novel series, establishing a clear relationship between the subject and fantasy novels as a type of work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Forming_relationships:has_time 1997",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph mentions Amnesty International in the context of 1990, not 1997. The year 1997 is associated with the publication of Harry Potter, which is unrelated to Amnesty International in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text_creation:has_time 1965",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "1965 is the birth year of the author, J.K. Rowling. The text creation time for Harry Potter is explicitly given as 1997-2007. There is no semantic link between Harry Potter and the year 1965."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Part_inner_outer:has_theme series",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While the connection is weak, the paragraph states Rowling was working for Amnesty International when she conceived the idea for the Harry Potter 'series'. This creates a very indirect thematic link between the organization and the concept of a series."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text_creation:has_author British author and philanthropist (born 1965) Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965 ), better known by her pen name J. K. Rowling",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states that J.K. Rowling is the author of the Harry Potter series, making this relationship directly and clearly extractable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Text:has_text writing",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph extensively discusses J.K. Rowling's writing, including the Harry Potter series, the Cormoran Strike series, and her writing style being analyzed by critics."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Locale_by_use:has_theme school",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "While Amnesty International is mentioned as Rowling's employer, the paragraph discusses school themes in Harry Potter (Hogwarts school for wizards). There's a weak semantic connection through the broader context of themes in works by someone associated with the organization."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text:has_time 1965",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "1965 is mentioned as Rowling's birth year, and Harry Potter is her creation. There's a weak connection through the author's birth year being temporally related to her famous work, though no direct temporal link is stated for the story itself."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Relative_time:has_theme that",
+      "extractable": false,
+      "confidence": 0.2,
+      "reason": "The word 'that' appears in the paragraph ('the seven-year period that followed'). While this is a extremely weak and nonspecific connection, there is a semantic link through temporal references in a sentence mentioning Amnesty International."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Relative_time:has_theme Six sequels",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'Six sequels' to Harry Potter following the first novel's publication in 1997. Rowling was working for Amnesty International when she conceived the series idea. There's a weak temporal connection between the organization and the sequels through the series' development timeline."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Categorization:has_item Rowling's writing",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph discusses Rowling's writing, including its critical reception ('Many reviewers see Rowling's writing as conventional'), which can be semantically connected to the subject J.K. Rowling having an item categorized as 'Rowling's writing'."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text:has_location http://en.wikipedia.org/wiki/United_Kingdom",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the United Kingdom is not explicitly mentioned in relation to Harry Potter, the author is identified as British, and the series is globally recognized as a British cultural product. This provides a weak but reasonable semantic link for the location."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Cause_to_resume:has_cause series",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The paragraph states Rowling was working for Amnesty International when she conceived the Harry Potter series, but this is a temporal association, not a causal one where the organization is the cause for a series. The relationship is too indirect and the predicate 'has_cause' is not supported."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Inclusion:has_theme global media franchise",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states the Harry Potter books 'have spawned a global media franchise.' While 'theme' might not be the perfect word, the concept of the series including or leading to a global media franchise is directly stated, making the semantic connection reasonable."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Frequency:has_theme period",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "Amnesty International is mentioned only in the context of being Rowling's employer at a specific time. There is no information connecting the organization to a 'theme' of a 'period'. The concepts are completely unrelated in the text."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Text_creation:has_time 1965",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph explicitly states 'born 1965' and 'born 31 July 1965', directly linking J.K. Rowling to the year 1965 as her birth year, which is a form of 'time' associated with her."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Kinship:has_theme mother",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph mentions 'the death of her mother' in the context of Rowling's life story, establishing a clear kinship theme related to her mother."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Categorization:has_theme Many reviewers",
+      "extractable": true,
+      "confidence": 0.7,
+      "reason": "The paragraph states 'Many reviewers see Rowling's writing as conventional', which connects the theme of critical reception and reviewers to the categorization of her work."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Individual_history:has_theme history",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "The paragraph states the Harry Potter series are 'the best-selling book series in history'. While 'history' here refers to the domain of record rather than a narrative theme, there is a weak semantic connection to the concept of history."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Categorization:has_category as regressive",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The word 'regressive' appears in the paragraph, but it is used to describe criticisms of Rowling's 'portrayal of gender and social division', not to categorize Amnesty International. There is no semantic link between the organization and the category."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Discussion:has_theme over the Harry Potter series",
+      "extractable": true,
+      "confidence": 0.8,
+      "reason": "The paragraph explicitly states 'Death and the divide between good and evil are the central themes of the series', which directly relates to the concept of themes in the Harry Potter series."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Publishing:has_time 1997 to 2007",
+      "extractable": true,
+      "confidence": 1.0,
+      "reason": "The paragraph clearly states 'Published from 1997 to 2007' in reference to the Harry Potter series, making this a direct and exact match."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Text:has_text novelist",
+      "extractable": true,
+      "confidence": 0.6,
+      "reason": "While the paragraph calls J.K. Rowling a 'novelist' and she is the author of Harry Potter, the connection between the book series itself and the word 'novelist' is indirect. However, the semantic connection exists through authorship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Causation:has_effect death of her mother, the birth of her first child, divorce from her first husband, and relative poverty until the first novel in the series, Harry Potter and the Philosopher's Stone, was published in 1997",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph states these events occurred during 'The seven-year period that followed' her conceiving the idea for Harry Potter, establishing a temporal and causal relationship between the series creation and these life events."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Giving_birth:has_theme host of imitators",
+      "extractable": false,
+      "confidence": 0.0,
+      "reason": "The paragraph mentions Amnesty International as Rowling's employer, and separately mentions the series 'spawned a host of imitators'. There is no semantic connection between Amnesty International and the theme of imitators."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Duplication:has_theme copies",
+      "extractable": false,
+      "confidence": 0.3,
+      "reason": "The paragraph mentions 'over 600 million copies sold' in relation to the Harry Potter series. While 'copies' is not explicitly a theme, the word 'copies' is semantically connected to the concept of duplication mentioned in the predicate."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Inclusion:has_theme Bildungsroman ( the coming-of-age genre ), school stories, fairy tales, and Christian allegory",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The themes listed (Bildungsroman, etc.) are explicitly stated as influences on the Harry Potter series, not on Amnesty International. There is no semantic connection between Amnesty International and these themes in the paragraph."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/J._K._Rowling Being_named:has_entity Joanne Rowling ( / r o l / i ROH -ling ; born 31 July 1965)",
+      "extractable": true,
+      "confidence": 0.9,
+      "reason": "The paragraph clearly states that J.K. Rowling is the pen name for Joanne Rowling and provides her birth name and pronunciation, establishing a direct 'has_entity' relationship."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Harry_Potter Being_born:has_time 1965",
+      "extractable": false,
+      "confidence": 0.1,
+      "reason": "The year 1965 is the birth year of J.K. Rowling, not the Harry Potter character or series. The paragraph does not state that Harry Potter was born in 1965."
+    },
+    {
+      "triple": "http://en.wikipedia.org/wiki/Amnesty_International Text:has_text sequels",
+      "extractable": false,
+      "confidence": 0.4,
+      "reason": "The word 'sequels' appears in the paragraph in the context of the Harry Potter series. While Amnesty International is mentioned in a different sentence, there is a weak, indirect semantic connection through the broader text."
+    }
+  ],
+  "summary": {
+    "total_triples": 50,
+    "extractable_triples": 24,
+    "accuracy": 0.48,
+    "avg_confidence": 0.4620000000000001,
+    "high_confidence_50": 24,
+    "high_confidence_80": 14,
+    "percent_50": 48.0,
+    "percent_80": 28.000000000000004,
+    "max_triples_limit": 50
+  }
+}

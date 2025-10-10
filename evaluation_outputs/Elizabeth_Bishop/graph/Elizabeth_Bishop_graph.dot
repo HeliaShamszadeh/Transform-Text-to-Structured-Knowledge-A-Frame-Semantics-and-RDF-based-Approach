@@ -1,0 +1,323 @@
+digraph Elizabeth_Bishop {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color=gray];
+    
+    // Graph styling
+    bgcolor=white;
+    
+    // Node type definitions
+    subgraph cluster_people {{
+        label="People";
+        style=filled;
+        fillcolor=lightcoral;
+        color=red;
+        node [fillcolor=lightcoral, color=red, shape=circle];
+    }}
+    
+    subgraph cluster_locations {{
+        label="Locations";
+        style=filled;
+        fillcolor=lightgreen;
+        color=green;
+        node [fillcolor=lightgreen, color=green, shape=box];
+    }}
+    
+    subgraph cluster_concepts {{
+        label="Concepts";
+        style=filled;
+        fillcolor=lightblue;
+        color=blue;
+        node [fillcolor=lightblue, color=blue, shape=ellipse];
+    }}
+    
+    subgraph cluster_events {{
+        label="Events";
+        style=filled;
+        fillcolor=lightyellow;
+        color=orange;
+        node [fillcolor=lightyellow, color=orange, shape=diamond];
+    }}
+    
+    subgraph cluster_other {{
+        label="Other";
+        style=filled;
+        fillcolor=lightgray;
+        color=gray;
+        node [fillcolor=lightgray, color=gray, shape=hexagon];
+    }}
+
+    // People nodes
+    "poet and short-story writer" [label="poet and short-story writer", fillcolor=lightcoral, color=red, shape=circle];
+
+    // Concepts nodes
+    "her writing" [label="her writing", fillcolor=lightblue, color=blue, shape=ellipse];
+    "Neustadt International Prize for Literature" [label="Neustadt International Prize for Literature", fillcolor=lightblue, color=blue, shape=ellipse];
+    "National Book Award" [label="National Book Award", fillcolor=lightblue, color=blue, shape=ellipse];
+
+    // Events nodes
+    "until her death in 1934" [label="until her death in 1934", fillcolor=lightyellow, color=orange, shape=diamond];
+
+    // Other nodes
+    "which" [label="which", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1949" [label="1949", fillcolor=lightgray, color=gray, shape=hexagon];
+    "chronic" [label="chronic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop's mother became ment..." [label="Bishop's mother became ment...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "time of her mother's struggles" [label="time of her mother's struggles", fillcolor=lightgray, color=gray, shape=hexagon];
+    "childhood" [label="childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1970" [label="1970", fillcolor=lightgray, color=gray, shape=hexagon];
+    "its careful attention to de..." [label="its careful attention to de...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mentally ill" [label="mentally ill", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her grandparents" [label="her grandparents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "“Bishop ’s poetics is one d..." [label="“Bishop ’s poetics is one d...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "write about the time of her..." [label="write about the time of her...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Dwight Garner critic" [label="Dwight Garner critic", fillcolor=lightgray, color=gray, shape=hexagon];
+    "when she was eight months old" [label="when she was eight months old", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1916" [label="1916", fillcolor=lightgray, color=gray, shape=hexagon];
+    "William Thomas and Gertrude..." [label="William Thomas and Gertrude...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "20th" [label="20th", fillcolor=lightgray, color=gray, shape=hexagon];
+    "there" [label="there", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poetry" [label="her poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "story" [label="story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "mother" [label="mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop's paternal family" [label="Bishop's paternal family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father, a successful bu..." [label="her father, a successful bu...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "father" [label="father", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she was living in Worcester" [label="she was living in Worcester", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Nova Scotia" [label="Nova Scotia", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop's mother" [label="Bishop's mother", fillcolor=lightgray, color=gray, shape=hexagon];
+    "eight months" [label="eight months", fillcolor=lightgray, color=gray, shape=hexagon];
+    " In the Waiting Room" [label=" In the Waiting Room", fillcolor=lightgray, color=gray, shape=hexagon];
+    "miniaturist ’s" [label="miniaturist ’s", fillcolor=lightgray, color=gray, shape=hexagon];
+    "rest of her life" [label="rest of her life", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tranquil" [label="tranquil", fillcolor=lightgray, color=gray, shape=hexagon];
+    "2018" [label="2018", fillcolor=lightgray, color=gray, shape=hexagon];
+    "grandparents" [label="grandparents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "builder" [label="builder", fillcolor=lightgray, color=gray, shape=hexagon];
+    "one" [label="one", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she was living" [label="she was living", fillcolor=lightgray, color=gray, shape=hexagon];
+    "lonely" [label="lonely", fillcolor=lightgray, color=gray, shape=hexagon];
+    "child" [label="child", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poetry" [label="poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "farm" [label="farm", fillcolor=lightgray, color=gray, shape=hexagon];
+    "briefly" [label="briefly", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Worcester" [label="Worcester", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Bishop" [label="Elizabeth Bishop", fillcolor=lightgray, color=gray, shape=hexagon];
+    "century" [label="century", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop's" [label="Bishop's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her maternal grandparents" [label="her maternal grandparents", fillcolor=lightgray, color=gray, shape=hexagon];
+    "chronic asthma, from which ..." [label="chronic asthma, from which ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her father's" [label="her father's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "farm in Great Village, Nova..." [label="farm in Great Village, Nova...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Later" [label="Later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Poetry" [label="Poetry", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her short story " In the Vi..." [label="her short story " In the Vi...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Pulitzer Prize" [label="Pulitzer Prize", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1911" [label="1911", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1934" [label="1934", fillcolor=lightgray, color=gray, shape=hexagon];
+    "during early childhood" [label="during early childhood", fillcolor=lightgray, color=gray, shape=hexagon];
+    "1956" [label="1956", fillcolor=lightgray, color=gray, shape=hexagon];
+    "short-story" [label="short-story", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Ernest Hilbert" [label="Ernest Hilbert", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Worcester, Massachusetts" [label="Worcester, Massachusetts", fillcolor=lightgray, color=gray, shape=hexagon];
+    "poet" [label="poet", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop's paternal family ga..." [label="Bishop's paternal family ga...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "world" [label="world", fillcolor=lightgray, color=gray, shape=hexagon];
+    "family" [label="family", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Her time in Worcester" [label="Her time in Worcester", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Great Village" [label="Great Village", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her poem " In the Waiting R..." [label="her poem " In the Waiting R...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Bishop" [label="Bishop", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her separation from her mat..." [label="her separation from her mat...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "United States" [label="United States", fillcolor=lightgray, color=gray, shape=hexagon];
+    "that she was perhaps " the ..." [label="that she was perhaps " the ...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "other people" [label="other people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "her mother's" [label="her mother's", fillcolor=lightgray, color=gray, shape=hexagon];
+    "people" [label="people", fillcolor=lightgray, color=gray, shape=hexagon];
+    "asylum" [label="asylum", fillcolor=lightgray, color=gray, shape=hexagon];
+    "Elizabeth Bishop February 8..." [label="Elizabeth Bishop February 8...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "tranquil observation, craft..." [label="tranquil observation, craft...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "later" [label="later", fillcolor=lightgray, color=gray, shape=hexagon];
+    "she developed chronic asthm..." [label="she developed chronic asthm...", fillcolor=lightgray, color=gray, shape=hexagon];
+    "detail" [label="detail", fillcolor=lightgray, color=gray, shape=hexagon];
+    "asthma" [label="asthma", fillcolor=lightgray, color=gray, shape=hexagon];
+    "care of her grandparents" [label="care of her grandparents", fillcolor=lightgray, color=gray, shape=hexagon];
+
+    // Relationships
+    "National Book Award" -> "miniaturist ’s" [label="has theme [Attention]", color=lightblue, penwidth=1];
+    "Neustadt International Prize for Literature" -> "Poetry" [label="has location [Finish_competition]", color=green, penwidth=2];
+    "Neustadt International Prize for Literature" -> "Poetry" [label="has competition [Finish_competition]", color=lightcoral, penwidth=1];
+    "National Book Award" -> "tranquil observation, craft..." [label="has quality [Differentiation]", color=lightgreen, penwidth=1];
+    "National Book Award" -> "1916" [label="has time [Relative_time]", color=purple, penwidth=2];
+    "United States" -> "1911" [label="has time [Text]", color=purple, penwidth=2];
+    "Nova Scotia" -> "Elizabeth Bishop" [label="has theme [Separating]", color=lightcyan, penwidth=1];
+    "Dwight Garner critic" -> "that she was perhaps " the ..." [label="has theme [Reasoning]", color=lightsteelblue, penwidth=1];
+    "Elizabeth Bishop" -> "mother" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "National Book Award" -> "its careful attention to de..." [label="has reason [Fame]", color=lightgoldenrodyellow, penwidth=1];
+    "United States" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Worcester" -> "child" [label="has type [Sole_instance]", color=lightseagreen, penwidth=1];
+    "National Book Award" -> "write about the time of her..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Nova Scotia" -> "her separation from her mat..." [label="has cause [Causation]", color=lightgoldenrod, penwidth=1];
+    "Worcester" -> "Her time in Worcester" [label="has theme [Recording]", color=lightpink, penwidth=1];
+    "National Book Award" -> "1949" [label="has time [Text]", color=purple, penwidth=2];
+    "National Book Award" -> "her father, a successful bu..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "National Book Award" -> "2018" [label="has time [Calendric_unit]", color=purple, penwidth=2];
+    "Bishop" -> "Worcester, Massachusetts" [label="has location [Being_born]", color=green, penwidth=2];
+    "Bishop" -> "time of her mother's struggles" [label="has theme [Statement]", color=lightblue, penwidth=1];
+    "National Book Award" -> "her poetry" [label="has entity [Fame]", color=lightgoldenrodyellow, penwidth=1];
+    "Nova Scotia" -> "lonely" [label="has effect [Causation]", color=lightgoldenrod, penwidth=1];
+    "Elizabeth Bishop" -> "Worcester" [label="has location [Text]", color=green, penwidth=2];
+    "Worcester" -> "her poem " In the Waiting R..." [label="has theme [Recording]", color=lightpink, penwidth=1];
+    "National Book Award" -> "her mother's" [label="has theme [Hostile_encounter]", color=lightcoral, penwidth=1];
+    "Bishop" -> "1911" [label="has time [Increment]", color=purple, penwidth=2];
+    "Worcester" -> "briefly" [label="has theme [Recording]", color=lightpink, penwidth=1];
+    "Bishop" -> "people" [label="has class [Increment]", color=lightgreen, penwidth=1];
+    "Bishop" -> "William Thomas and Gertrude..." [label="has theme [Being_born]", color=lightcoral, penwidth=1];
+    "Worcester" -> "she was living" [label="has theme [Interior_profile_relation]", color=lightyellow, penwidth=1];
+    "National Book Award" -> "century" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "Worcester" -> "asthma" [label="has theme [Medical_conditions]", color=lightpink, penwidth=1];
+    "Elizabeth Bishop" -> "Elizabeth Bishop February 8..." [label="has author [Text_creation]", color=lightcyan, penwidth=1];
+    "Bishop" -> "people" [label="has person [People]", color=red, penwidth=2];
+    "Worcester" -> "chronic asthma, from which ..." [label="has theme [Medical_conditions]", color=lightpink, penwidth=1];
+    "National Book Award" -> "builder" [label="has agent [Success_or_failure]", color=lightgray, penwidth=1];
+    "Bishop" -> "asylum" [label="has state [State_continue]", color=lightgoldenrodyellow, penwidth=1];
+    "Nova Scotia" -> "Bishop's paternal family ga..." [label="has event [Time_vector]", color=purple, penwidth=2];
+    "Bishop" -> "mentally ill" [label="has theme [Becoming]", color=lightseagreen, penwidth=1];
+    "Worcester" -> "chronic" [label="has theme [Medical_conditions]", color=lightpink, penwidth=1];
+    "Bishop" -> "later" [label="has time [Statement]", color=purple, penwidth=2];
+    "Great Village" -> "Elizabeth Bishop" [label="has theme [Topic]", color=blue, penwidth=2];
+    "Neustadt International Prize for Literature" -> "Pulitzer Prize" [label="has prize [Finish_competition]", color=lightcoral, penwidth=1];
+    "Nova Scotia" -> "her maternal grandparents" [label="has theme [Residence]", color=lightgoldenrod, penwidth=1];
+    "Worcester" -> "rest of her life" [label="has time [Catastrophe]", color=purple, penwidth=2];
+    "Worcester" -> "Elizabeth Bishop" [label="has patient [Catastrophe]", color=lightpink, penwidth=1];
+    "Elizabeth Bishop" -> "1911" [label="has time [Text]", color=purple, penwidth=2];
+    "Elizabeth Bishop" -> "1911" [label="has time [Being_named]", color=purple, penwidth=2];
+    "Bishop" -> "1916" [label="has time [Becoming]", color=purple, penwidth=2];
+    "Worcester" -> "her grandparents" [label="has theme [Desiring]", color=lightcoral, penwidth=1];
+    "Dwight Garner critic" -> "2018" [label="has time [Reasoning]", color=purple, penwidth=2];
+    "Bishop" -> "mother" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "National Book Award" -> "poetry" [label="has theme [Attention]", color=lightblue, penwidth=1];
+    "United States" -> "poet and short-story writer" [label="has entity [Origin]", color=lightblue, penwidth=1];
+    "Elizabeth Bishop" -> "short-story" [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+    "National Book Award" -> "1970" [label="has time [Finish_competition]", color=purple, penwidth=2];
+    "Bishop" -> "Worcester" [label="has location [People_by_age]", color=green, penwidth=2];
+    "Nova Scotia" -> "her maternal grandparents" [label="has theme [Separating]", color=lightcyan, penwidth=1];
+    "Elizabeth Bishop" -> "poet" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Nova Scotia" -> "farm in Great Village, Nova..." [label="has location [Residence]", color=green, penwidth=2];
+    "Neustadt International Prize for Literature" -> "1956" [label="has time [Finish_competition]", color=purple, penwidth=2];
+    "Great Village" -> "Elizabeth Bishop" [label="has student [Education_teaching]", color=lightgreen, penwidth=1];
+    "National Book Award" -> "detail" [label="has theme [Attention]", color=lightblue, penwidth=1];
+    "United States" -> "1911" [label="has time [Origin]", color=purple, penwidth=2];
+    "Bishop" -> "1916" [label="has time [Kinship]", color=purple, penwidth=2];
+    "National Book Award" -> "Poetry" [label="has location [Finish_competition]", color=green, penwidth=2];
+    "Bishop" -> "Bishop's mother" [label="has entity [Becoming]", color=lightseagreen, penwidth=1];
+    "Nova Scotia" -> "Elizabeth Bishop" [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "National Book Award" -> "Poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Elizabeth Bishop" -> "2018" [label="has time [Text]", color=purple, penwidth=2];
+    "Elizabeth Bishop" -> "Worcester" [label="has location [Kinship]", color=green, penwidth=2];
+    "Bishop" -> "Bishop's mother" [label="has entity [State_continue]", color=lightgoldenrodyellow, penwidth=1];
+    "Worcester" -> "she was living in Worcester" [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Elizabeth Bishop" -> "other people" [label="has entity [Being_named]", color=lightsteelblue, penwidth=1];
+    "Nova Scotia" -> "Elizabeth Bishop" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Elizabeth Bishop" -> "1911" [label="has time [Text_creation]", color=purple, penwidth=2];
+    "Bishop" -> "1934" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Elizabeth Bishop" -> "1916" [label="has time [Age]", color=purple, penwidth=2];
+    "National Book Award" -> "Bishop's mother became ment..." [label="has theme [Relative_time]", color=purple, penwidth=2];
+    "Bishop" -> "Bishop's" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Elizabeth Bishop" -> "father" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Worcester" -> "Elizabeth Bishop" [label="has theme [Residence]", color=lightgoldenrod, penwidth=1];
+    "Elizabeth Bishop" -> "care of her grandparents" [label="has theme [Removing]", color=lightsteelblue, penwidth=1];
+    "Nova Scotia" -> "family" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "National Book Award" -> "her father, a successful bu..." [label="has theme [Death]", color=lightyellow, penwidth=1];
+    "National Book Award" -> "tranquil" [label="has theme [Perception_active]", color=lightgray, penwidth=1];
+    "Elizabeth Bishop" -> "Worcester" [label="has location [Removing]", color=green, penwidth=2];
+    "Great Village" -> "farm" [label="has theme [Buildings]", color=lightgoldenrodyellow, penwidth=1];
+    "Worcester" -> "her father's" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Elizabeth Bishop" -> "United States" [label="has location [Text]", color=green, penwidth=2];
+    "Great Village" -> "during early childhood" [label="has time [Education_teaching]", color=purple, penwidth=2];
+    "Worcester" -> "family" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Elizabeth Bishop" -> "poetry" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Bishop" -> "there" [label="has event [Emotion_directed]", color=lightseagreen, penwidth=1];
+    "Nova Scotia" -> "childhood" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Elizabeth Bishop" -> "grandparents" [label="has theme [Kinship]", color=lightgray, penwidth=1];
+    "Worcester" -> "which" [label="has cause [Catastrophe]", color=lightpink, penwidth=1];
+    "Elizabeth Bishop" -> "eight months" [label="has age [Age]", color=lightcyan, penwidth=1];
+    "National Book Award" -> "20th" [label="has theme [Calendric_unit]", color=lightsteelblue, penwidth=1];
+    "Elizabeth Bishop" -> "1911" [label="has time [Reference_text]", color=purple, penwidth=2];
+    "Bishop" -> "until her death in 1934" [label="has time [State_continue]", color=purple, penwidth=2];
+    "National Book Award" -> "1916" [label="has time [Success_or_failure]", color=purple, penwidth=2];
+    "National Book Award" -> "Poetry" [label="has location [Text]", color=green, penwidth=2];
+    "Bishop" -> "her short story " In the Vi..." [label="has theme [Statement]", color=lightblue, penwidth=1];
+    "National Book Award" -> "one" [label="has theme [Differentiation]", color=lightgreen, penwidth=1];
+    "National Book Award" -> "story" [label="has theme [Duration_description]", color=lightgoldenrod, penwidth=1];
+    "Great Village" -> "her writing" [label="has text [Topic]", color=blue, penwidth=2];
+    "Bishop" -> "1911" [label="has time [People]", color=purple, penwidth=2];
+    "Nova Scotia" -> "Later" [label="has theme [Time_vector]", color=purple, penwidth=2];
+    "Nova Scotia" -> "1934" [label="has time [Death]", color=purple, penwidth=2];
+    "Nova Scotia" -> "Elizabeth Bishop" [label="has theme [Causation]", color=lightgoldenrod, penwidth=1];
+    "Nova Scotia" -> "Bishop's paternal family" [label="has owner [Possession]", color=lightpink, penwidth=1];
+    "Worcester" -> "asthma" [label="has theme [Duration_description]", color=lightgoldenrod, penwidth=1];
+    "National Book Award" -> "when she was eight months old" [label="has time [Death]", color=purple, penwidth=2];
+    "Nova Scotia" -> "Elizabeth Bishop" [label="has theme [Residence]", color=lightgoldenrod, penwidth=1];
+    "Worcester" -> "she developed chronic asthm..." [label="has theme [Temporal_collocation]", color=green, penwidth=2];
+    "Elizabeth Bishop" -> " In the Waiting Room" [label="has text [Text]", color=lightpink, penwidth=1];
+    "Worcester" -> "Elizabeth Bishop" [label="has patient [Medical_conditions]", color=lightpink, penwidth=1];
+    "Elizabeth Bishop" -> "1916" [label="has time [Kinship]", color=purple, penwidth=2];
+    "Elizabeth Bishop" -> "Great Village" [label="has location [Text_creation]", color=green, penwidth=2];
+    "National Book Award" -> "world" [label="has theme [Political_locales]", color=lightsteelblue, penwidth=1];
+    "Ernest Hilbert" -> "“Bishop ’s poetics is one d..." [label="has text [Text_creation]", color=lightcyan, penwidth=1];
+
+    // Frame Legend
+    subgraph cluster_legend {
+        label="Semantic Frames";
+        style=filled;
+        fillcolor=white;
+        color=black;
+        rank=sink;
+        "Attention_legend" [label="Attention", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Finish_competition_legend" [label="Finish_competition", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Differentiation_legend" [label="Differentiation", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Relative_time_legend" [label="Relative_time", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Text_legend" [label="Text", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Separating_legend" [label="Separating", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Reasoning_legend" [label="Reasoning", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Kinship_legend" [label="Kinship", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Fame_legend" [label="Fame", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Sole_instance_legend" [label="Sole_instance", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Time_vector_legend" [label="Time_vector", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Causation_legend" [label="Causation", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Recording_legend" [label="Recording", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Calendric_unit_legend" [label="Calendric_unit", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Being_born_legend" [label="Being_born", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Statement_legend" [label="Statement", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "Hostile_encounter_legend" [label="Hostile_encounter", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Increment_legend" [label="Increment", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Interior_profile_relation_legend" [label="Interior_profile_relation", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Medical_conditions_legend" [label="Medical_conditions", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Text_creation_legend" [label="Text_creation", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "People_legend" [label="People", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Success_or_failure_legend" [label="Success_or_failure", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "State_continue_legend" [label="State_continue", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Becoming_legend" [label="Becoming", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Topic_legend" [label="Topic", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Residence_legend" [label="Residence", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Catastrophe_legend" [label="Catastrophe", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Being_named_legend" [label="Being_named", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Desiring_legend" [label="Desiring", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Origin_legend" [label="Origin", fillcolor="lightblue", style=filled, shape=box, fontsize=8];
+        "People_by_age_legend" [label="People_by_age", fillcolor="lightcoral", style=filled, shape=box, fontsize=8];
+        "Education_teaching_legend" [label="Education_teaching", fillcolor="lightgreen", style=filled, shape=box, fontsize=8];
+        "Death_legend" [label="Death", fillcolor="lightyellow", style=filled, shape=box, fontsize=8];
+        "Temporal_collocation_legend" [label="Temporal_collocation", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Age_legend" [label="Age", fillcolor="lightcyan", style=filled, shape=box, fontsize=8];
+        "Removing_legend" [label="Removing", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+        "Perception_active_legend" [label="Perception_active", fillcolor="lightgray", style=filled, shape=box, fontsize=8];
+        "Buildings_legend" [label="Buildings", fillcolor="lightgoldenrodyellow", style=filled, shape=box, fontsize=8];
+        "Emotion_directed_legend" [label="Emotion_directed", fillcolor="lightseagreen", style=filled, shape=box, fontsize=8];
+        "Reference_text_legend" [label="Reference_text", fillcolor="lightsalmon", style=filled, shape=box, fontsize=8];
+        "Duration_description_legend" [label="Duration_description", fillcolor="lightgoldenrod", style=filled, shape=box, fontsize=8];
+        "Possession_legend" [label="Possession", fillcolor="lightpink", style=filled, shape=box, fontsize=8];
+        "Political_locales_legend" [label="Political_locales", fillcolor="lightsteelblue", style=filled, shape=box, fontsize=8];
+    }
+}
