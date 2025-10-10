@@ -78,7 +78,7 @@ def main():
     rdf_args.extend(["--deepinfra-model", "meta-llama/Llama-2-70b-chat-hf"])
     
     # Get DeepInfra API key from environment or use default
-    deepinfra_key = os.getenv("DEEPINFRA_API_KEY", "WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li")
+    deepinfra_key = os.getenv("DEEPINFRA_API_KEY", "your-api-key")
     rdf_args.extend(["--deepinfra-api-key", deepinfra_key])
     print("🤖 Using DeepInfra for pronoun coreference resolution")
     

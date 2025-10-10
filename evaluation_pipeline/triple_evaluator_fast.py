@@ -216,7 +216,7 @@ def main():
     parser.add_argument("--rdf-file", required=True, help="Path to RDF file")
     parser.add_argument("--paragraph-file", required=True, help="Path to source paragraph file")
     parser.add_argument("--output", required=True, help="Output evaluation file")
-    parser.add_argument("--deepseek-api-key", default="sk-3dbf2f6094d744eea9f335e5e504b87d", help="Deepseek API key (or set DEEPSEEK_API_KEY env var)")
+    parser.add_argument("--deepseek-api-key", default="your-api-key", help="Deepseek API key (or set DEEPSEEK_API_KEY env var)")
     parser.add_argument("--model", default="deepseek-chat", help="Deepseek model")
     parser.add_argument("--max-triples", type=int, default=60, help="Maximum number of triples to evaluate")
     parser.add_argument("--batch-size", type=int, default=3, help="Batch size for evaluation")
@@ -224,7 +224,7 @@ def main():
     args = parser.parse_args()
     
     # Get API key - try argument first, then environment, then default
-    api_key = args.deepseek_api_key or os.getenv("DEEPSEEK_API_KEY") or "sk-3dbf2f6094d744eea9f335e5e504b87d"
+    api_key = args.deepseek_api_key or os.getenv("DEEPSEEK_API_KEY") or "your-api-key"
     if not api_key:
         print("Error: Deepseek API key required. Set DEEPSEEK_API_KEY env var or use --deepseek-api-key")
         return 1

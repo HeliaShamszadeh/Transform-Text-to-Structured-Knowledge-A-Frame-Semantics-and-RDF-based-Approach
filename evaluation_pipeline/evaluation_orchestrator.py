@@ -26,8 +26,8 @@ class EvaluationOrchestrator:
         else:
             # Create default config
             default_config = {
-            "deepseek_api_key": os.getenv("DEEPSEEK_API_KEY", "sk-your-deepseek-key-here"),
-            "deepinfra_api_key": os.getenv("DEEPINFRA_API_KEY", "WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li"),
+            "deepseek_api_key": os.getenv("DEEPSEEK_API_KEY", "your-api-key"),
+            "deepinfra_api_key": os.getenv("DEEPINFRA_API_KEY", "your-api-key"),
             "deepseek_model": "deepseek-chat",
             "deepinfra_model": "meta-llama/Llama-2-70b-chat-hf",
             "authors_limit": 10,  # Limit for testing

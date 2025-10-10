@@ -42,7 +42,7 @@ A comprehensive pipeline for extracting semantic knowledge from text using Seman
 ## Quick Start
 
 ### Prerequisites
-- Python 3.11+ (for SRL module)
+- Python 3.11 (for SRL module)
 - Python 3.10+ (for other modules)
 - Internet connection (for APIs)
 - 8GB+ RAM (for transformer models)
@@ -187,43 +187,10 @@ python modules/orchestrator/rdfify_improved.py \
 python evaluation_pipeline/evaluation_orchestrator.py
 ```
 
-### Generate Evaluation Summary
-```bash
-# Generate comprehensive evaluation report
-python accurate_evaluation_summary.py
-```
-
 ### Visualize Knowledge Graphs
 ```bash
 # Generate PNG visualizations of all author graphs
 python simple_graph_generator.py
-```
-
-### Custom Evaluation
-```bash
-# Evaluate single author
-python evaluate_single_direct.py --author "Agatha_Christie"
-
-# Test specific components
-python evaluation_pipeline/test_evaluation.py
-```
-
-## Graph Visualization
-
-### Generate All Graphs
-```bash
-# Create PNG visualizations for all authors
-python simple_graph_generator.py
-```
-
-### Custom Graph Generation
-```python
-from simple_graph_generator import create_author_graph
-
-# Generate graph for specific author
-create_author_graph("Agatha_Christie", 
-                   data_dir="evaluation_outputs", 
-                   output_dir="my_graphs")
 ```
 
 ### Graph Features
@@ -245,10 +212,9 @@ evaluation_outputs/
 │   ├── rdf/
 │   │   ├── Author_Name_rdf.ttl
 │   │   └── Author_Name_triples.csv
-│   └── graphs/
+│   └── graphs_3/
 │       └── Author_Name_graph.png
-├── processing_results.json
-└── accuracy_report.txt
+└── processing_results.json
 ```
 
 ## Configuration

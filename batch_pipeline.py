@@ -59,8 +59,8 @@ class BatchPipeline:
         
         # Set environment variables for API keys
         env = os.environ.copy()
-        env['DEEPINFRA_API_KEY'] = env.get('DEEPINFRA_API_KEY', 'WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li')
-        env['DEEPSEEK_API_KEY'] = env.get('DEEPSEEK_API_KEY', 'sk-3dbf2f6094d744eea9f335e5e504b87d')
+        env['DEEPINFRA_API_KEY'] = env.get('DEEPINFRA_API_KEY', 'your-api-key')
+        env['DEEPSEEK_API_KEY'] = env.get('DEEPSEEK_API_KEY', 'your-api-key')
         
         try:
             result = subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=3600, env=env)  # 1 hour
@@ -136,7 +136,7 @@ class BatchPipeline:
             # Stage 3: RDF Conversion (using DeepInfra for coreference)
             print(f"🔄 Stage 3/4: RDF Conversion...")
             rdf_output = author_folders['rdf'] / f"{author_name}_rdf.ttl"
-            deepinfra_key = os.getenv("DEEPINFRA_API_KEY", "WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li")
+            deepinfra_key = os.getenv("DEEPINFRA_API_KEY", "your-api-key")
             
             print(f"Using DeepInfra API key: {deepinfra_key[:10]}...")
 
@@ -205,7 +205,7 @@ class BatchPipeline:
         """Run LLM-based evaluation for a single author."""
         try:
             # Get DeepSeek API key with default
-            deepseek_key = os.getenv('DEEPSEEK_API_KEY', 'sk-3dbf2f6094d744eea9f335e5e504b87d')
+            deepseek_key = os.getenv('DEEPSEEK_API_KEY', 'your-api-key')
             
             print("🤖 Running LLM-based evaluation with DeepSeek...")
             print(f"Using DeepSeek API key: {deepseek_key[:10]}...")

@@ -1204,12 +1204,12 @@ def main():
     parser.add_argument("--entities", required=True, help="Path to entities.json")
     parser.add_argument("--outfile", default="outputs/rdf_output_improved.ttl", help="Output Turtle file")
     parser.add_argument("--deepinfra-model", default="meta-llama/Llama-2-70b-chat-hf", help="DeepInfra model")
-    parser.add_argument("--deepinfra-api-key", default="WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li", help="DeepInfra API key")
+    parser.add_argument("--deepinfra-api-key", default="your-api-key", help="DeepInfra API key")
     
     args = parser.parse_args()
     
     # Get API key - try argument first, then environment, then default
-    api_key = args.deepinfra_api_key or os.getenv("DEEPINFRA_API_KEY") or "WJkNzU3cHwGGC6d5nGrGGCoFF9qIW8li"
+    api_key = args.deepinfra_api_key or os.getenv("DEEPINFRA_API_KEY") or "your-api-key"
     if not api_key:
         print("Warning: No DeepInfra API key provided. Pronoun resolution will use heuristics only.")
         api_key = ""
