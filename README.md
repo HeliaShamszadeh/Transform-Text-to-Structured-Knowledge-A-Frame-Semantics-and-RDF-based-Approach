@@ -95,7 +95,7 @@ python data_collection/wikipedia_scraper.py
 cp -r inputs/authors_reduced_more/* inputs/authors/
 ```
 
-#### Method 3: Reduce Long Texts (Optional: I did it since it would have been so time-consuming!)
+#### Method 3: Reduce Long Texts (Optional: I did it since it would have become so time-consuming!)
 ```bash
 # Reduce text length to prevent SRL timeouts (25k chars max)
 python data_collection/reduce_author_contents.py
