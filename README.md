@@ -271,11 +271,6 @@ export DEEPSEEK_API_KEY="your_deepseek_key"
 
 ## 📈 Evaluation Metrics
 
-### Accuracy Metrics
-- **Precision**: Correctly extracted triples / Total extracted triples
-- **Recall**: Correctly extracted triples / Total possible triples
-- **F1-Score**: Harmonic mean of precision and recall
-
 ### Confidence Analysis
 - **High Confidence**: ≥0.8 (Very High)
 - **Medium Confidence**: 0.5-0.8 (High)
