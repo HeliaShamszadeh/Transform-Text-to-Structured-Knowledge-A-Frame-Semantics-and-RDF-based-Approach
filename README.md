@@ -216,6 +216,11 @@ evaluation_outputs/
 │       └── Author_Name_graph.png
 └── processing_results.json
 ```
+### Sample of LLM Output for Evaluation
+<img width="725" height="354" alt="image" src="https://github.com/user-attachments/assets/a8d1882a-f6f9-4ba3-9022-7fae1bce7e79" />
+
+### Sample of Generated Knowledge Graph
+<img width="5970" height="5979" alt="Gabriel_García_Márquez_graph" src="https://github.com/user-attachments/assets/abbe5267-6a9a-4543-a213-ce1445cc55c9" />
 
 ## Configuration
 
