@@ -274,9 +274,12 @@ export DEEPSEEK_API_KEY="your_deepseek_key"
 - **Memory Management**: Process authors in smaller batches
 - **Caching**: Reuse SRL/REL outputs when possible
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 ### Confidence Analysis
+<img width="902" height="538" alt="image" src="https://github.com/user-attachments/assets/bf55bb48-951a-4afb-b32b-4c6957fb6256" />
+
+
 - **High Confidence**: ≥0.8 (Very High)
 - **Medium Confidence**: 0.5-0.8 (High)
 - **Low Confidence**: <0.5 (Low/Medium)
@@ -294,7 +297,7 @@ export DEEPSEEK_API_KEY="your_deepseek_key"
 4. Test thoroughly
 5. Submit pull request
 
-## icense
+## License
 
 This project is for educational and research purposes.
 
